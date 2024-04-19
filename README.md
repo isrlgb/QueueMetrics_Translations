@@ -1,2 +1,3 @@
-# translation_queuemetrics
-The translation/localization files for QueueMetrics
+# QueueMetrics translations
+
+Nothing to see here yet.
