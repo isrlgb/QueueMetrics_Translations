@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Quarea, Loway
     00-LanguageName=Catalan
-    00-LanguagePackVer=V:2022-10-21 16:52
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=MMMM dd yyyy, HH:mm
     dateformat_completeshort=dd/MM - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Desconnectat
     td_agawlogon_logged_on=Connectat
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=Historial de tasques
     tsk_detail_info=Informació de tasques
     tsk_detail_lastUpdated=Última Actualització
+    - tsk_detail_message=
     tsk_detail_notes=Notes
     tsk_detail_pfield=Procés
     tsk_detail_process=Procés
@@ -3475,6 +3472,7 @@ Other items
     - qap_action_qa=
     - qap_action_recall=
     - qap_action_transfer=
+    - qap_action_wbtrecall=
     - qap_addmember_selected=
     - qap_agent_code=
     - qap_agent_dialout_error=
@@ -3525,6 +3523,8 @@ Other items
     - qap_clients_add=
     - qap_clients_placeholder_search=
     - qap_control_addall=
+    - qap_control_add=
+    - qap_control_remove=
     - qap_control_all=
     - qap_control_amend=
     - qap_control_assigned=
@@ -3538,6 +3538,7 @@ Other items
     - qap_control_timer=
     - qap_control_unpause=
     - qap_create_note_error=
+    - qap_crm_links=
     - qap_daily_idle=
     - qap_daily_lost=
     - qap_daily_lostatt=
@@ -3851,6 +3852,7 @@ Other items
     - reports_filter_input_error=
     - reports_filter_ivr=
     - reports_filter_location=
+    - reports_filter_none=
     - reports_filter_noncont_time=
     - reports_filter_noncontdays=
     - reports_filter_noncontr1from=
@@ -4108,7 +4110,7 @@ Other items
     rt_monitor_tt=Supervisar ara
     rt_n_agents=N. agents
     rt_n_calls_waiting=N. trucades en espera
-    rt_nbsp=
+    - rt_nbsp=
     rt_on_pause=En pausa
     rt_on_pause_nbsp=En pausa
     rt_on_phone_inbound=Al telèfon entrant

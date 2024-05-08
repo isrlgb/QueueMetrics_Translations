@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Icson Zhou, San Singhania - Lantone , Xin Ye - OCO, JCOM, Loway
     00-LanguageName=Chinese
-    00-LanguagePackVer=V:2021-03-31 09:41
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=MMMM dd yyyy, HH:mm
     dateformat_completeshort=MM/dd - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=已注销
     td_agawlogon_logged_on=已登陆
@@ -253,7 +249,7 @@ Do not translate
     aout_fcr_avg_duration=平均通话时长
     aout_fcr_caller_avg_calls=主叫平均进线数量
     aout_fcr_caller_empty=空主叫ID
-    aout_fcr_caller_fcrs=
+    - aout_fcr_caller_fcrs=
     aout_fcr_caller_two_more=2次或更多
     aout_fcr_customer_attempts=客户重试次数
     aout_fcr_detail_first=初次呼叫
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=任务历史
     tsk_detail_info=任务信息
     tsk_detail_lastUpdated=最后更新
+    - tsk_detail_message=
     tsk_detail_notes=笔记
     tsk_detail_pfield=处理字段
     tsk_detail_process=处理
@@ -3475,6 +3472,7 @@ Other items
     - qap_action_qa=
     - qap_action_recall=
     - qap_action_transfer=
+    - qap_action_wbtrecall=
     - qap_addmember_selected=
     - qap_agent_code=
     - qap_agent_dialout_error=
@@ -3525,6 +3523,8 @@ Other items
     - qap_clients_add=
     - qap_clients_placeholder_search=
     - qap_control_addall=
+    - qap_control_add=
+    - qap_control_remove=
     - qap_control_all=
     - qap_control_amend=
     - qap_control_assigned=
@@ -3538,6 +3538,7 @@ Other items
     - qap_control_timer=
     - qap_control_unpause=
     - qap_create_note_error=
+    - qap_crm_links=
     - qap_daily_idle=
     - qap_daily_lost=
     - qap_daily_lostatt=
@@ -3851,6 +3852,7 @@ Other items
     - reports_filter_input_error=
     - reports_filter_ivr=
     - reports_filter_location=
+    - reports_filter_none=
     - reports_filter_noncont_time=
     - reports_filter_noncontdays=
     - reports_filter_noncontr1from=

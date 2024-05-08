@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Ron Leeflang, TwinCap First, Loway, David Leonhard Steinbauer, Henning Holtschenider, Timothy Karl, Loway Staff, NFON
     00-LanguageName=Deutsch
-    00-LanguagePackVer=V:2024-04-17 14:44
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=dd. MMMM yyyy, HH:mm
     dateformat_completeshort=dd.MM. - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Ausgeloggt
     td_agawlogon_logged_on=Eingeloggt
@@ -499,7 +495,7 @@ Do not translate
     clage_n_calls=Anz. Anrufe
     clage_n_of_agents_available=Anz. verfügbarer Agenten:
     clage_nanswcalls=Beantwortet
-    clage_nbsp=
+    - clage_nbsp=
     clage_nftrs=Eigenschaften
     clage_ngoalftrs=Ziel Ftrs
     clage_nobillpause=Nicht abrechenbar
@@ -662,7 +658,7 @@ Do not translate
     cld_n_calls=Anzahl der Anrufe
     cld_n_lost=Verlorene Anrufe
     cld_n_taken=Angenommene Anrufe
-    cld_nbsp=
+    - cld_nbsp=
     cld_nopayable=Nicht zahlbar
     cld_opos=Pos.
     cld_pause=Pause
@@ -769,7 +765,7 @@ Do not translate
     cldst_inclusive_sla_per_hour=Innerhalb SLA pro Stunde
     cldst_max=Max.
     cldst_min=Min.
-    cldst_nbsp=
+    - cldst_nbsp=
     cldst_noskills=Keine Fähigkeiten
     cldst_num=Anz.
     cldst_percent=%
@@ -901,7 +897,7 @@ Do not translate
     clko_min_queue_position_at_disconnection=Min. Position in der Warteschlange bei Verbindungsende:
     clko_min_wait_time_before_disconnection=Min. Wartezeit vor Verbindungsende:
     clko_n_calls=Anz. Anrufe
-    clko_nbsp=
+    - clko_nbsp=
     clko_nof_unanswered_calls=Anz. nicht angenommener Anrufe:
     clko_offered=% Von angebotenen
     clko_percent=Prozente
@@ -1018,7 +1014,7 @@ Do not translate
     clok_n_calls=Anz. Anrufe
     clok_n_calls_answered_by_operators=Anz. der durch einen Agenten angenommenen Gespräche:
     clok_n_stints=Anzahl der Zeitperioden
-    clok_nbsp=
+    - clok_nbsp=
     clok_offered=Von Angeboten
     clok_percent=Prozente
     clok_position_enter=Position zur Eingabe
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=Aufgabe Geschichte
     tsk_detail_info=Aufgabe Info
     tsk_detail_lastUpdated=Zuletzt aktualisiert
+    - tsk_detail_message=
     tsk_detail_notes=Anmerkungen
     tsk_detail_pfield=Prozess Feld
     tsk_detail_process=Prozess
@@ -3475,6 +3472,7 @@ Other items
     - qap_action_qa=
     - qap_action_recall=
     - qap_action_transfer=
+    - qap_action_wbtrecall=
     - qap_addmember_selected=
     - qap_agent_code=
     - qap_agent_dialout_error=
@@ -3525,6 +3523,8 @@ Other items
     - qap_clients_add=
     - qap_clients_placeholder_search=
     - qap_control_addall=
+    - qap_control_add=
+    - qap_control_remove=
     - qap_control_all=
     - qap_control_amend=
     - qap_control_assigned=
@@ -3538,6 +3538,7 @@ Other items
     - qap_control_timer=
     - qap_control_unpause=
     - qap_create_note_error=
+    - qap_crm_links=
     - qap_daily_idle=
     - qap_daily_lost=
     - qap_daily_lostatt=
@@ -3851,6 +3852,7 @@ Other items
     reports_filter_input_error=Eingabefehler
     reports_filter_ivr=IVR
     reports_filter_location=Standort
+    - reports_filter_none=
     reports_filter_noncont_time=Zwischen
     reports_filter_noncontdays=Tage
     reports_filter_noncontr1from=Zeit 1 von
@@ -4108,7 +4110,7 @@ Other items
     rt_monitor_tt=Jetzt überwachen
     rt_n_agents=Anz. Agenten
     rt_n_calls_waiting=Anz. wartender Anrufe
-    rt_nbsp=
+    - rt_nbsp=
     rt_on_pause=In der Pause
     rt_on_pause_nbsp=In der Pause
     rt_on_phone_inbound=Im Gespräch (eingehend)
@@ -4235,7 +4237,7 @@ Other items
     rt_wall_moh=Wartemusik
     rt_wall_n_agents=Age.
     rt_wall_n_calls_waiting=Gewartet
-    rt_wall_nbsp=
+    - rt_wall_nbsp=
     rt_wall_on_pause=Pause
     rt_wall_on_phone_inbound=Eing.
     rt_wall_on_phone_outbound=Ausg.

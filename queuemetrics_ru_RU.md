@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=SoftBCom, Loway, Pavel Piankov, Denis Fokin - Yandex, Vladimir Ternovoy, Maxim Vasiliev, Victor K. Ilrandir, David Leonhard Steinbauer, Maxim Litnitskiy
     00-LanguageName=Russian
-    00-LanguagePackVer=V:2024-04-17 14:49
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=MMMM dd yyyy, HH:mm
     dateformat_completeshort=MM/dd - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Выйти
     td_agawlogon_logged_on=Войти
@@ -499,7 +495,7 @@ Do not translate
     clage_n_calls=Кол-во вызовов
     clage_n_of_agents_available=Кол-во доступных агентов:
     clage_nanswcalls=Число вызовов
-    clage_nbsp=
+    - clage_nbsp=
     clage_nftrs=Свойства
     clage_ngoalftrs=Особенности цели
     clage_nobillpause=Неоплачиваемый
@@ -662,7 +658,7 @@ Do not translate
     cld_n_calls=Кол-во вызовов
     cld_n_lost=Потерянные вызовы
     cld_n_taken=Принятые вызовы
-    cld_nbsp=
+    - cld_nbsp=
     cld_nopayable=Не оплачивается
     cld_opos=Поз.
     cld_pause=Пауза
@@ -769,7 +765,7 @@ Do not translate
     cldst_inclusive_sla_per_hour=SLA за час
     cldst_max=Макс.
     cldst_min=Мин.
-    cldst_nbsp=
+    - cldst_nbsp=
     cldst_noskills=Нет квалификаций
     cldst_num=Кол-во
     cldst_percent=%
@@ -901,7 +897,7 @@ Do not translate
     clko_min_queue_position_at_disconnection=Мин. очередь перед разъединением:
     clko_min_wait_time_before_disconnection=Мин. время ожидания перед разъединением:
     clko_n_calls=Кол-во вызовов
-    clko_nbsp=
+    - clko_nbsp=
     clko_nof_unanswered_calls=Кол-во неотвеченных вызовов:
     clko_offered=% предложенных
     clko_percent=Процент
@@ -1018,7 +1014,7 @@ Do not translate
     clok_n_calls=Кол-во вызовов
     clok_n_calls_answered_by_operators=Кол-во вызовов, обработанных агентами:
     clok_n_stints=Кол-во очередей
-    clok_nbsp=
+    - clok_nbsp=
     clok_offered=% предлож.
     clok_percent=Процент
     clok_position_enter=Позиция
@@ -1751,7 +1747,7 @@ Do not translate
     qa_comment=Комментарии
     qa_date=Дата
     qa_form=Форма
-    qa_frm_about=
+    - qa_frm_about=
     qa_frm_addbtn=Добавить
     qa_frm_addtojob=Добавить к заданию
     qa_frm_calladded=Вызов добавлен к заданию
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=История задач
     tsk_detail_info=Информация о задаче
     tsk_detail_lastUpdated=Последние изменения
+    - tsk_detail_message=
     tsk_detail_notes=Заметки
     tsk_detail_pfield=Обрабатываемое поле
     tsk_detail_process=Обработка
@@ -3475,6 +3472,7 @@ Other items
     - qap_action_qa=
     - qap_action_recall=
     - qap_action_transfer=
+    - qap_action_wbtrecall=
     - qap_addmember_selected=
     - qap_agent_code=
     - qap_agent_dialout_error=
@@ -3525,6 +3523,8 @@ Other items
     - qap_clients_add=
     - qap_clients_placeholder_search=
     - qap_control_addall=
+    - qap_control_add=
+    - qap_control_remove=
     - qap_control_all=
     - qap_control_amend=
     - qap_control_assigned=
@@ -3538,6 +3538,7 @@ Other items
     - qap_control_timer=
     - qap_control_unpause=
     - qap_create_note_error=
+    - qap_crm_links=
     - qap_daily_idle=
     - qap_daily_lost=
     - qap_daily_lostatt=
@@ -3851,6 +3852,7 @@ Other items
     reports_filter_input_error=Ошибка ввода
     reports_filter_ivr=IVR
     reports_filter_location=Расположение
+    - reports_filter_none=
     reports_filter_noncont_time=Период
     reports_filter_noncontdays=Дни
     reports_filter_noncontr1from=Время 1 с 
@@ -4108,7 +4110,7 @@ Other items
     rt_monitor_tt=Отслеживать сейчас
     rt_n_agents=Кол-во агентов
     rt_n_calls_waiting=Кол-во звонков на ожидании
-    rt_nbsp=
+    - rt_nbsp=
     rt_on_pause=На паузе
     rt_on_pause_nbsp=На паузе
     rt_on_phone_inbound=Входящих
@@ -4235,7 +4237,7 @@ Other items
     rt_wall_moh=MOH
     rt_wall_n_agents=Агенты
     rt_wall_n_calls_waiting=Ожидание
-    rt_wall_nbsp=
+    - rt_wall_nbsp=
     rt_wall_on_pause=На паузе
     rt_wall_on_phone_inbound=Входящих
     rt_wall_on_phone_outbound=Исходящих

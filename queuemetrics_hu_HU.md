@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Loway
     00-LanguageName=Hungarian
-    00-LanguagePackVer=V:2021-08-19 18:01
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=dd MMMM yyyy, HH:mm
     dateformat_completeshort=MM/dd - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Kijelentkezve
     td_agawlogon_logged_on=Bejelentkezve
@@ -499,7 +495,7 @@ Do not translate
     clage_n_calls=Hívások száma
     clage_n_of_agents_available=Elérhetõ közvetitõk száma
     - clage_nanswcalls=
-    clage_nbsp=
+    - clage_nbsp=
     - clage_nftrs=
     - clage_ngoalftrs=
     - clage_nobillpause=
@@ -662,7 +658,7 @@ Do not translate
     - cld_n_calls=
     - cld_n_lost=
     - cld_n_taken=
-    cld_nbsp=
+    - cld_nbsp=
     - cld_nopayable=
     cld_opos=Poz.
     cld_pause=Szünet
@@ -769,7 +765,7 @@ Do not translate
     - cldst_inclusive_sla_per_hour=
     cldst_max=Max
     cldst_min=Min
-    cldst_nbsp=
+    - cldst_nbsp=
     - cldst_noskills=
     cldst_num=Szám
     - cldst_percent=
@@ -901,7 +897,7 @@ Do not translate
     clko_min_queue_position_at_disconnection=Minimum sor helyzet szétkapcsolódásnál
     clko_min_wait_time_before_disconnection=Minimum várakozási idõ szétkapcsolás elött
     clko_n_calls=Hívások száma
-    clko_nbsp=
+    - clko_nbsp=
     clko_nof_unanswered_calls=Nem fogadott hívások száma
     - clko_offered=
     - clko_percent=
@@ -1018,7 +1014,7 @@ Do not translate
     clok_n_calls=Hívások száma
     clok_n_calls_answered_by_operators=Operátorok által fogadott hívások száma
     clok_n_stints=Munkafeladatok száma
-    clok_nbsp=
+    - clok_nbsp=
     - clok_offered=
     - clok_percent=
     clok_position_enter=Belépés helyzete
@@ -2885,6 +2881,7 @@ Description of security keys
     - tsk_detail_history=
     - tsk_detail_info=
     - tsk_detail_lastUpdated=
+    - tsk_detail_message=
     - tsk_detail_notes=
     - tsk_detail_pfield=
     - tsk_detail_process=
@@ -3475,6 +3472,7 @@ Other items
     - qap_action_qa=
     - qap_action_recall=
     - qap_action_transfer=
+    - qap_action_wbtrecall=
     - qap_addmember_selected=
     - qap_agent_code=
     - qap_agent_dialout_error=
@@ -3525,6 +3523,8 @@ Other items
     - qap_clients_add=
     - qap_clients_placeholder_search=
     - qap_control_addall=
+    - qap_control_add=
+    - qap_control_remove=
     - qap_control_all=
     - qap_control_amend=
     - qap_control_assigned=
@@ -3538,6 +3538,7 @@ Other items
     - qap_control_timer=
     - qap_control_unpause=
     - qap_create_note_error=
+    - qap_crm_links=
     - qap_daily_idle=
     - qap_daily_lost=
     - qap_daily_lostatt=
@@ -3851,6 +3852,7 @@ Other items
     - reports_filter_input_error=
     - reports_filter_ivr=
     - reports_filter_location=
+    - reports_filter_none=
     - reports_filter_noncont_time=
     - reports_filter_noncontdays=
     - reports_filter_noncontr1from=
@@ -4108,7 +4110,7 @@ Other items
     - rt_monitor_tt=
     rt_n_agents=Közvetítõk száma
     rt_n_calls_waiting=Várakozó hívások száma
-    rt_nbsp=
+    - rt_nbsp=
     rt_on_pause=Szünet alatt
     rt_on_pause_nbsp=Szünet
     rt_on_phone_inbound=Bejövõ telefonhívás
@@ -4235,7 +4237,7 @@ Other items
     - rt_wall_moh=
     rt_wall_n_agents=Közv
     rt_wall_n_calls_waiting=Várakozás
-    rt_wall_nbsp=
+    - rt_wall_nbsp=
     rt_wall_on_pause=Szünet
     rt_wall_on_phone_inbound=Bejövõ
     rt_wall_on_phone_outbound=Kimenõ

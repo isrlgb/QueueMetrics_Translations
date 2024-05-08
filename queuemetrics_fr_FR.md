@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Loway, Bruno - Telnowedge, Loway Staff, NFON
     00-LanguageName=Fran&ccedil;ais
-    00-LanguagePackVer=V:2024-04-17 14:47
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=dd MMMM yyyy, HH:mm
     dateformat_completeshort=MM/dd - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Déconnecté
     td_agawlogon_logged_on=Connecté
@@ -443,7 +439,7 @@ Do not translate
     clage_agent_availability_for_all_the_queues_they_are_member_of=Disponibilité des Opérateurs (pour toutes les Files dont ils sont membres)
     clage_agent_btimebyhour=Temps facturable par agent et par heure
     clage_agent_numbyhour=Agents par Heure
-    clage_agent_occupancy=
+    - clage_agent_occupancy=
     clage_agent_outbound_productivity=Productivité Appels Sortants
     clage_agent_perf_prg=Performance programmée pour l'agent
     clage_agent_performance_acd_group=Performance de l'agent pour un groupe de Files
@@ -499,7 +495,7 @@ Do not translate
     clage_n_calls=Nb. d'appels
     clage_n_of_agents_available=Nb. d'agents disponibles:
     clage_nanswcalls=Répondu
-    clage_nbsp=
+    - clage_nbsp=
     clage_nftrs=Caractéristiques
     clage_ngoalftrs=Caract. de l'Objectif
     clage_nobillpause=Non facturable
@@ -662,7 +658,7 @@ Do not translate
     cld_n_calls=Nb d'Appels
     cld_n_lost=Appels non-répondus
     cld_n_taken=Appels Répondus
-    cld_nbsp=
+    - cld_nbsp=
     cld_nopayable=Non facturable
     cld_opos=Pos.
     cld_pause=Pause
@@ -769,7 +765,7 @@ Do not translate
     cldst_inclusive_sla_per_hour=Accord de Qualité de Service par heure
     cldst_max=Max
     cldst_min=Min
-    cldst_nbsp=
+    - cldst_nbsp=
     cldst_noskills=Sans compétence
     cldst_num=Numéro
     cldst_percent=%
@@ -901,7 +897,7 @@ Do not translate
     clko_min_queue_position_at_disconnection=Position mininale dans la File lors de la déconnexion:
     clko_min_wait_time_before_disconnection=Temps minimal d'attente avant déconnexion:
     clko_n_calls=Nb.
-    clko_nbsp=
+    - clko_nbsp=
     clko_nof_unanswered_calls=Nb d'appels non répondus:
     clko_offered=%age offert
     clko_percent=Pourcentage
@@ -1018,7 +1014,7 @@ Do not translate
     clok_n_calls=Nb. Appels
     clok_n_calls_answered_by_operators=Nb. d'appels répondus:
     clok_n_stints=Nombre des morceaux
-    clok_nbsp=
+    - clok_nbsp=
     clok_offered=% offert
     clok_percent=Pourcentage
     clok_position_enter=Position à l'entrée
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=Historique de la tâche
     tsk_detail_info=Info sur le tâche
     tsk_detail_lastUpdated=Derniere mise à jour
+    - tsk_detail_message=
     tsk_detail_notes=Note
     tsk_detail_pfield=Process
     tsk_detail_process=Accept
@@ -3475,6 +3472,7 @@ Other items
     qap_action_qa=Formulaire de QA
     qap_action_recall=Nouvelle note de rappel
     qap_action_transfer=Transfert d'appel
+    - qap_action_wbtrecall=
     qap_addmember_selected=Rejoindre les files d'attente sélectionnées.
     qap_agent_code=Code Agent
     qap_agent_dialout_error=Erreur lors de l'exécution de la numérotation de l'agent.
@@ -3525,6 +3523,8 @@ Other items
     qap_clients_add=Nouveau client
     qap_clients_placeholder_search=Recherchez n'importe quel client ici
     qap_control_addall=Tout fusionner
+    - qap_control_add=
+    - qap_control_remove=
     qap_control_all=Tout
     qap_control_amend=Modifier
     qap_control_assigned=Assigné
@@ -3538,6 +3538,7 @@ Other items
     qap_control_timer=Minuteur
     qap_control_unpause=Reprendre
     qap_create_note_error=Erreur en créant une nouvelle note
+    - qap_crm_links=
     qap_daily_idle=Temps disponible
     qap_daily_lost=Appels perdus
     qap_daily_lostatt=Tentatives perdues
@@ -3851,6 +3852,7 @@ Other items
     reports_filter_input_error=Erreur de Saisie
     reports_filter_ivr=SVI
     reports_filter_location=Position
+    - reports_filter_none=
     reports_filter_noncont_time=Entre
     reports_filter_noncontdays=Jours
     reports_filter_noncontr1from=Temps 1 de
@@ -4108,7 +4110,7 @@ Other items
     rt_monitor_tt=Enregistrer maintenant
     rt_n_agents=Nb. Opérateurs
     rt_n_calls_waiting=Nb. Appels en attente
-    rt_nbsp=
+    - rt_nbsp=
     rt_on_pause=En pause
     rt_on_pause_nbsp=En pause
     rt_on_phone_inbound=Au téléphone (app. entrant)
@@ -4213,7 +4215,7 @@ Other items
     rt_visitor_ext_nbsp=Ext.
     rt_visitor_in_order_to_mantain_session_information=Pour rafraichir les informations cette page se rechargera automatiquement
     rt_visitor_n_calls=Nb. Appels
-    rt_visitor_nbsp=
+    - rt_visitor_nbsp=
     rt_visitor_queue=File
     rt_visitor_queue_nbsp=File
     rt_visitor_queues=File(s):
@@ -4235,7 +4237,7 @@ Other items
     rt_wall_moh=Mus.Patience
     rt_wall_n_agents=Agents
     rt_wall_n_calls_waiting=Attente
-    rt_wall_nbsp=
+    - rt_wall_nbsp=
     rt_wall_on_pause=Pause
     rt_wall_on_phone_inbound=Entrant
     rt_wall_on_phone_outbound=Sortant

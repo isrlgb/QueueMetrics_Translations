@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Ittai Allon - myTnet, Loway, Amichy Elenberg, Isaac Gal, IPracticom
     00-LanguageName=Hebrew
-    00-LanguagePackVer=V:2021-07-21 19:18
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=yyyy-MM-dd, H:mm
     dateformat_completeshort=dd/MM - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=מנותק
     td_agawlogon_logged_on=מחובר
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=היסטוריית משימות
     tsk_detail_info=פרטי משימה
     tsk_detail_lastUpdated=עודכן לאחרונה
+    - tsk_detail_message=
     tsk_detail_notes=רשימות
     - tsk_detail_pfield=
     tsk_detail_process=תהליך
@@ -3475,6 +3472,7 @@ Other items
     - qap_action_qa=
     - qap_action_recall=
     - qap_action_transfer=
+    - qap_action_wbtrecall=
     - qap_addmember_selected=
     - qap_agent_code=
     - qap_agent_dialout_error=
@@ -3525,6 +3523,8 @@ Other items
     - qap_clients_add=
     - qap_clients_placeholder_search=
     - qap_control_addall=
+    - qap_control_add=
+    - qap_control_remove=
     - qap_control_all=
     - qap_control_amend=
     - qap_control_assigned=
@@ -3538,6 +3538,7 @@ Other items
     - qap_control_timer=
     - qap_control_unpause=
     - qap_create_note_error=
+    - qap_crm_links=
     - qap_daily_idle=
     - qap_daily_lost=
     - qap_daily_lostatt=
@@ -3851,6 +3852,7 @@ Other items
     - reports_filter_input_error=
     - reports_filter_ivr=
     - reports_filter_location=
+    - reports_filter_none=
     - reports_filter_noncont_time=
     - reports_filter_noncontdays=
     - reports_filter_noncontr1from=

@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Michael Argyropoulos, Loway, Loway Staff
     00-LanguageName=Greek
-    00-LanguagePackVer=V:2022-09-26 17:44
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=dd-MM-yyyy, HH:mm
     dateformat_completeshort=dd-MM - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Αποσυνδεδεμένος
     td_agawlogon_logged_on=Συνδεδεμένος
@@ -211,7 +207,7 @@ Do not translate
     td_pautype_outb=Εξερχ.
     td_pautype_outbound=Εξερχόμενες
     td_pautype_pause=Παύση
-    td_pautype_wrap=
+    - td_pautype_wrap=
     td_pautype_wrap-up_time=Χρόνος wrap-up
     td_qdir_any=Οποιαδήποτε κλήση
     td_qdir_inbound_calls=Εισερχόμενες κλήσεις
@@ -903,7 +899,7 @@ Do not translate
     clko_n_calls=Αρ. κλήσεων
     clko_nbsp= 
     clko_nof_unanswered_calls=Αρ. αναπάντητων κλήσεων:
-    clko_offered=
+    - clko_offered=
     clko_percent=Ποσοστό
     clko_qpos_all=Θέση εισαγωγής στην ουρά αναμονής για όλες τις κλήσεις
     clko_qpos_ko=Θέση εισαγωγής στην ουρά αναμονής 
@@ -937,7 +933,7 @@ Do not translate
     clhdr_available_cols=Διαθέσιμες στήλες δεδομένων
     clhdr_call=Φιλτραρισμένο ανά χρόνο συνομιλίας:
     clhdr_caller=Φιλτραρισμένη ανά Αριθμό Καλούντος:
-    clhdr_callfeaturecode=
+    - clhdr_callfeaturecode=
     clhdr_calltag=Φιλτραρισμένη ανά ετικέτα κλήσης:
     clhdr_dayofweek=Ημέρες της εβδομάδας:
     clhdr_disconnection=Φιλτραρισμένη ανά αποσυνδέσεις
@@ -1390,7 +1386,7 @@ Do not translate
     edit_queueagents_main=Αρχικό
     edit_queueagents_spill=Επιπλέον
     edit_queueagents_title=Χρήστες για την ουρά αναμονής:
-    edit_queueagents_wrap=
+    - edit_queueagents_wrap=
     edit_queues_agents=Χρήστες
     edit_queues_alias=Ψευδώνυμο
     edit_queues_fp=F.P.
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=Ιστορικό εργασιών
     tsk_detail_info=Πληροφορίες εργασιών
     tsk_detail_lastUpdated=Τελευταία ενημέρωση
+    - tsk_detail_message=
     tsk_detail_notes=Σημειώσεις
     tsk_detail_pfield=Διεργασία
     tsk_detail_process=Επεξεργασία
@@ -3324,7 +3321,7 @@ Other items
     phone_iceservers=Διακομιστές ICE
     - phone_incoming_call=
     phone_input_error=Σφάλμα εισαγωγής
-    phone_join=
+    - phone_join=
     phone_maxsessions=Μέγ. αρ. Συνεδριών
     phone_mute=Σιγαση
     - phone_no_https=
@@ -3475,6 +3472,7 @@ Other items
     - qap_action_qa=
     - qap_action_recall=
     - qap_action_transfer=
+    - qap_action_wbtrecall=
     - qap_addmember_selected=
     - qap_agent_code=
     - qap_agent_dialout_error=
@@ -3525,6 +3523,8 @@ Other items
     - qap_clients_add=
     - qap_clients_placeholder_search=
     - qap_control_addall=
+    - qap_control_add=
+    - qap_control_remove=
     - qap_control_all=
     - qap_control_amend=
     - qap_control_assigned=
@@ -3538,6 +3538,7 @@ Other items
     - qap_control_timer=
     - qap_control_unpause=
     - qap_create_note_error=
+    - qap_crm_links=
     - qap_daily_idle=
     - qap_daily_lost=
     - qap_daily_lostatt=
@@ -3851,6 +3852,7 @@ Other items
     - reports_filter_input_error=
     - reports_filter_ivr=
     - reports_filter_location=
+    - reports_filter_none=
     - reports_filter_noncont_time=
     - reports_filter_noncontdays=
     - reports_filter_noncontr1from=
@@ -4061,7 +4063,7 @@ Other items
     rt_exception_supervisoronly=Δεν μπορείτε να φιλτράρετε ανα χρήση ή ανα τοποθεσία όταν εκτελούνται αναφορές επόπτη.
     rt_extension_nbsp=Εσωτερικό
     rt_freesince=Ελεύθερος από
-    rt_hangupcall=
+    - rt_hangupcall=
     rt_hangupcall_capt=Τερματισμός κλήσης
     rt_hangupcall_tt=Τερματισμός
     rt_hdrFilterName=Φίλτρα
@@ -4108,7 +4110,7 @@ Other items
     rt_monitor_tt=Παρακολούθηση τώρα
     rt_n_agents=Αρ. χρηστών
     rt_n_calls_waiting=Αρ. κλήσεων σε αναμονή
-    rt_nbsp=
+    - rt_nbsp=
     rt_on_pause=Σε παύση
     rt_on_pause_nbsp=Σε παύση
     rt_on_phone_inbound=Στο τηλέφωνο (εισερχόμενη)
@@ -4213,7 +4215,7 @@ Other items
     rt_visitor_ext_nbsp=Εσωτ.
     rt_visitor_in_order_to_mantain_session_information=Για να διατηρηθούν οι πληροφορίες της συνεδρίας η σελίδα θα κάνει επαναφόρτωση αυτόματα.
     rt_visitor_n_calls=Αρ. κλήσεων
-    rt_visitor_nbsp=
+    - rt_visitor_nbsp=
     rt_visitor_queue=Ουρά αναμονής
     rt_visitor_queue_nbsp=Ουρά αναμονής
     rt_visitor_queues=Ουρά(ές) αναμονής:

@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Loway, Voip TR
     00-LanguageName=TÜRKÇE
-    00-LanguagePackVer=V:2024-04-17 14:58
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=MMMM dd yyyy, HH:mm
     dateformat_completeshort=MM/dd - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Oturum kapalı
     td_agawlogon_logged_on=Oturum açıldı
@@ -499,7 +495,7 @@ Do not translate
     clage_n_calls=Çağrı Sayısı
     clage_n_of_agents_available=Müşteri temsilcisi Sayısı:
     clage_nanswcalls=Cevaplandı
-    clage_nbsp=
+    - clage_nbsp=
     clage_nftrs=Özellikler
     clage_ngoalftrs=Hedef Özellikleri
     clage_nobillpause=Ücrete Tabi Olmayan
@@ -769,7 +765,7 @@ Do not translate
     cldst_inclusive_sla_per_hour=Saat için SLA içeren
     cldst_max=Max
     cldst_min=Min
-    cldst_nbsp=
+    - cldst_nbsp=
     cldst_noskills=Özellikler yok
     cldst_num=Sayı
     cldst_percent=%
@@ -901,7 +897,7 @@ Do not translate
     clko_min_queue_position_at_disconnection=Bağlantı kesilmesi sırasında min havuz konumu:
     clko_min_wait_time_before_disconnection=Bağlantı kesilmesi sırasında min bekleme süresi:
     clko_n_calls=Çağrı Sayısı
-    clko_nbsp=
+    - clko_nbsp=
     clko_nof_unanswered_calls=Cevaplanmayan çağrı Sayısı
     clko_offered=Teklif edilenler %
     clko_percent=Yüzde
@@ -1751,7 +1747,7 @@ Do not translate
     qa_comment=Açıklama
     qa_date=Tarih
     qa_form=Form:
-    qa_frm_about=
+    - qa_frm_about=
     qa_frm_addbtn=Ekle
     qa_frm_addtojob=İşe ekle
     qa_frm_calladded=Çağrı işe eklendi
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=Görev Geçmişi
     tsk_detail_info=Görev Bilgisi
     tsk_detail_lastUpdated=Son güncellenme
+    - tsk_detail_message=
     tsk_detail_notes=Notlar
     tsk_detail_pfield=İşlem Alanı
     tsk_detail_process=Okudum
@@ -3475,6 +3472,7 @@ Other items
     - qap_action_qa=
     - qap_action_recall=
     - qap_action_transfer=
+    - qap_action_wbtrecall=
     - qap_addmember_selected=
     - qap_agent_code=
     - qap_agent_dialout_error=
@@ -3525,6 +3523,8 @@ Other items
     - qap_clients_add=
     - qap_clients_placeholder_search=
     - qap_control_addall=
+    - qap_control_add=
+    - qap_control_remove=
     - qap_control_all=
     - qap_control_amend=
     - qap_control_assigned=
@@ -3538,6 +3538,7 @@ Other items
     - qap_control_timer=
     - qap_control_unpause=
     - qap_create_note_error=
+    - qap_crm_links=
     - qap_daily_idle=
     - qap_daily_lost=
     - qap_daily_lostatt=
@@ -3851,6 +3852,7 @@ Other items
     reports_filter_input_error=Giriş Hatası
     reports_filter_ivr=IVR
     reports_filter_location=Konum
+    - reports_filter_none=
     reports_filter_noncont_time=Arasında
     reports_filter_noncontdays=Günler
     reports_filter_noncontr1from=Süre 1 itibaren
@@ -4076,7 +4078,7 @@ Other items
     rt_last_logon_nbsp=Son oturum açma & nbsp;
     rt_lastcall=Son çağrı
     rt_live_agent=Müşteri Temsilcisi
-    rt_live_astclid=
+    - rt_live_astclid=
     rt_live_callerid=Arayan ID
     rt_live_entered=Girildi
     rt_live_free=Free

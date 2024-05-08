@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Loway, Loway Staff, Tanawat Chamnankit, QM Translator
     00-LanguageName=English
-    00-LanguagePackVer=V:2024-04-25 14:03
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=MMMM dd yyyy, HH:mm
     dateformat_completeshort=MM/dd - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Logged off
     td_agawlogon_logged_on=Logged on
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=Task History
     tsk_detail_info=Task info
     tsk_detail_lastUpdated=Last updated
+    tsk_detail_message=Message
     tsk_detail_notes=Notes
     tsk_detail_pfield=Process Field
     tsk_detail_process=Process
@@ -3475,6 +3472,7 @@ Other items
     qap_action_qa=QA Forms
     qap_action_recall=New Recall Note
     qap_action_transfer=Transfer Call
+    qap_action_wbtrecall=Recall with WombatDialer
     qap_addmember_selected=Join selected queues.
     qap_agent_code=Agent Code
     qap_agent_dialout_error=Error while performing Agent Dialout.
@@ -3525,6 +3523,8 @@ Other items
     qap_clients_add=Add New Client
     qap_clients_placeholder_search=Search for any Client here
     qap_control_addall=Join selected
+    qap_control_add=Join
+    qap_control_remove=Leave
     qap_control_all=All
     qap_control_amend=Amend
     qap_control_assigned=Assigned
@@ -3538,6 +3538,7 @@ Other items
     qap_control_timer=Timer
     qap_control_unpause=Unpause
     qap_create_note_error=Error while creating a new Note.
+    qap_crm_links=CRM Popup Links
     qap_daily_idle=Idle time
     qap_daily_lost=Lost Calls
     qap_daily_lostatt=Lost Attempts
@@ -3851,6 +3852,7 @@ Other items
     reports_filter_input_error=Input Error
     reports_filter_ivr=IVR
     reports_filter_location=Location
+    reports_filter_none=None
     reports_filter_noncont_time=Between
     reports_filter_noncontdays=Days
     reports_filter_noncontr1from=Time 1 from

@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Fernando Villares - Intelix, Luis Rodriguez, Francesco Prior, Elastix Team, Loway, Enric Alsina, Christian Gutierrez, Loway Staff, Eduardo ANJOS
     00-LanguageName=Español (Latin America)
-    00-LanguagePackVer=V:2024-04-17 14:45
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=MMMM dd yyyy, HH:mm
     dateformat_completeshort=MM/dd - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Desconectado
     td_agawlogon_logged_on=Conectado
@@ -499,7 +495,7 @@ Do not translate
     clage_n_calls=N. llamadas
     clage_n_of_agents_available=N. de agentes disponibles:
     clage_nanswcalls=Atendidas
-    clage_nbsp=
+    - clage_nbsp=
     clage_nftrs=Característica
     clage_ngoalftrs=Filtro por Metas
     clage_nobillpause=No facturable
@@ -662,7 +658,7 @@ Do not translate
     cld_n_calls=Nro. de Llamadas
     cld_n_lost=Llamadas Perdidas
     cld_n_taken=Llamadas Atendidas
-    cld_nbsp=
+    - cld_nbsp=
     cld_nopayable=No Pagable
     cld_opos=Pos.
     cld_pause=Pausa
@@ -769,7 +765,7 @@ Do not translate
     cldst_inclusive_sla_per_hour=SLA por hora
     cldst_max=Max.
     cldst_min=Min.
-    cldst_nbsp=
+    - cldst_nbsp=
     cldst_noskills=Sin Habilidades
     cldst_num=Num.
     cldst_percent=Porcentaje
@@ -901,7 +897,7 @@ Do not translate
     clko_min_queue_position_at_disconnection=Posicion Min en cola antes de desconect.:
     clko_min_wait_time_before_disconnection=Espera Min antes de desconect.:
     clko_n_calls=N. Llamadas
-    clko_nbsp=
+    - clko_nbsp=
     clko_nof_unanswered_calls=N. de llamadas no contest.:
     clko_offered=% ofrecido
     clko_percent=Porcentaje
@@ -1018,7 +1014,7 @@ Do not translate
     clok_n_calls=N. Llamadas
     clok_n_calls_answered_by_operators=N. llamadas contestadas por operador(es):
     clok_n_stints=Cantidad de stints
-    clok_nbsp=
+    - clok_nbsp=
     clok_offered=% ofrecido
     clok_percent=Porcentaje
     clok_position_enter=Posición a la entrada
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=Historial de tareas
     tsk_detail_info=Información de tareas
     tsk_detail_lastUpdated=Ultima actualización
+    - tsk_detail_message=
     tsk_detail_notes=Notas
     tsk_detail_pfield=Proceso
     tsk_detail_process=Proceso
@@ -3475,6 +3472,7 @@ Other items
     qap_action_qa=Formulario QA
     qap_action_recall=Nueva nota de rellamado
     qap_action_transfer=Transferir Llamada
+    - qap_action_wbtrecall=
     qap_addmember_selected=Ingresar en las Colas seleccionadas
     qap_agent_code=Código Agente
     qap_agent_dialout_error=Error durante el llamado del Agente
@@ -3525,6 +3523,8 @@ Other items
     qap_clients_add=Nuevo Cliente
     qap_clients_placeholder_search=Buscar un cliente
     qap_control_addall=Unir todos
+    - qap_control_add=
+    - qap_control_remove=
     qap_control_all=Todas
     qap_control_amend=Editar
     qap_control_assigned=Asignadas
@@ -3538,6 +3538,7 @@ Other items
     qap_control_timer=Timer
     qap_control_unpause=Retomar
     qap_create_note_error=Error durante la creación de una nueva Nota
+    - qap_crm_links=
     qap_daily_idle=Tiempo disponible
     qap_daily_lost=Llamadas perdidas
     qap_daily_lostatt=Intentos perdidos
@@ -3851,6 +3852,7 @@ Other items
     reports_filter_input_error=Error de entrada
     reports_filter_ivr=IVR
     reports_filter_location=Ubicación
+    - reports_filter_none=
     reports_filter_noncont_time=Entre
     reports_filter_noncontdays=Días
     reports_filter_noncontr1from=Tiempo 1 desde
@@ -4108,7 +4110,7 @@ Other items
     rt_monitor_tt=Monitorear ahora
     rt_n_agents=N. agentes
     rt_n_calls_waiting=N. llamadas en espera
-    rt_nbsp=
+    - rt_nbsp=
     rt_on_pause=En pausa
     rt_on_pause_nbsp=En pausa
     rt_on_phone_inbound=Al teléfono entrante
@@ -4213,7 +4215,7 @@ Other items
     rt_visitor_ext_nbsp=Ext.
     rt_visitor_in_order_to_mantain_session_information=Para mantener la informacion de esta sesion, esta página es actualizada periodicamente
     rt_visitor_n_calls=N. llamadas
-    rt_visitor_nbsp=
+    - rt_visitor_nbsp=
     rt_visitor_queue=Cola
     rt_visitor_queue_nbsp=Cola
     rt_visitor_queues=Cola(s):
@@ -4235,7 +4237,7 @@ Other items
     rt_wall_moh=MOH
     rt_wall_n_agents=Agentes
     rt_wall_n_calls_waiting=Esperando
-    rt_wall_nbsp=
+    - rt_wall_nbsp=
     rt_wall_on_pause=Pausa
     rt_wall_on_phone_inbound=Entrante
     rt_wall_on_phone_outbound=Saliente

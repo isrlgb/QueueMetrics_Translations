@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Alexandre Keller, Francisco Neto, Loway, Jobson Andrade - Asteriks, Charles Petrillo, Loway Staff, Eduardo ANJOS
     00-LanguageName=Português Brazil
-    00-LanguagePackVer=V:2024-04-19 19:28
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=MMMM dd yyyy, HH:mm
     dateformat_completeshort=dd/MM - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Desconectado
     td_agawlogon_logged_on=Conectado
@@ -769,7 +765,7 @@ Do not translate
     cldst_inclusive_sla_per_hour=SLA por hora
     cldst_max=Máx
     cldst_min=Min
-    cldst_nbsp=
+    - cldst_nbsp=
     cldst_noskills=Sem Competências
     cldst_num=Num
     cldst_percent=%
@@ -901,7 +897,7 @@ Do not translate
     clko_min_queue_position_at_disconnection=Posição min. na fila ao desconectar:
     clko_min_wait_time_before_disconnection=Tempo min. de espera antes de desconectar:
     clko_n_calls=Qtde. de chamadas
-    clko_nbsp=
+    - clko_nbsp=
     clko_nof_unanswered_calls=Qtde. de chamadas não atendidas:
     clko_offered=% Fornecido
     clko_percent=Percentual
@@ -1018,7 +1014,7 @@ Do not translate
     clok_n_calls=Qtde. Chamadas
     clok_n_calls_answered_by_operators=Qtde. chamadas atendidas pelos operadores:
     clok_n_stints=Qtde. de stints
-    clok_nbsp=
+    - clok_nbsp=
     clok_offered=% Fornecido
     clok_percent=Pencentual
     clok_position_enter=Posição ao entrar
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=Histório da Tarefa
     tsk_detail_info=Info da Tarefa
     tsk_detail_lastUpdated=Última atualização
+    - tsk_detail_message=
     tsk_detail_notes=Notas
     tsk_detail_pfield=Processo
     tsk_detail_process=Processo
@@ -3475,6 +3472,7 @@ Other items
     qap_action_qa=Formulário QA
     qap_action_recall=Nova nota de rechamada
     qap_action_transfer=Transferir chamada
+    - qap_action_wbtrecall=
     qap_addmember_selected=Entrar nas filas selecionadas
     qap_agent_code=Código do Agente
     qap_agent_dialout_error=Erro enquanto realizava discagem do Agente
@@ -3525,6 +3523,8 @@ Other items
     qap_clients_add=Adicionar novo Cliente
     qap_clients_placeholder_search=Buscar por um cliente
     qap_control_addall=Combinar selecionados
+    - qap_control_add=
+    - qap_control_remove=
     qap_control_all=Todas
     qap_control_amend=Editar
     qap_control_assigned=Atribuido
@@ -3538,6 +3538,7 @@ Other items
     qap_control_timer=Temporizador
     qap_control_unpause=Resumir pausa
     qap_create_note_error=Erro enquanto criava uma nova nota
+    - qap_crm_links=
     qap_daily_idle=Tempo disponível
     qap_daily_lost=Chamadas perdidas
     qap_daily_lostatt=Tentativas perdidas
@@ -3851,6 +3852,7 @@ Other items
     reports_filter_input_error=Erro de entrada
     reports_filter_ivr=URA
     reports_filter_location=Localização
+    - reports_filter_none=
     reports_filter_noncont_time=Entre
     reports_filter_noncontdays=Dias
     reports_filter_noncontr1from=Tempo 1 de
@@ -4235,7 +4237,7 @@ Other items
     rt_wall_moh=MOH
     rt_wall_n_agents=Age
     rt_wall_n_calls_waiting=Aguardando
-    rt_wall_nbsp=
+    - rt_wall_nbsp=
     rt_wall_on_pause=Pausa
     rt_wall_on_phone_inbound=Entr.
     rt_wall_on_phone_outbound=Saída

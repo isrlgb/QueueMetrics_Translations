@@ -1,19 +1,17 @@
 # Translation file for QueueMetrics - en_US
 
+- The name WombatDialer is a product and should be left unaltered. 
+- The acronym "CSV" should be unaltered.
+- The acronym "AMO" stands for Assisted Manual Outbound
 
 
 ## Language pack
 
 General information about this language pack.
 
-    00-Author=Loway, Loway Staff
     00-LanguageName=Italiano
-    00-LanguagePackVer=V:2024-04-19 08:41
-    00-Licence=Part of the package QueueMetrics
-
-## language format
-
-Do not translate
+    
+Do not change the items below:
 
     dateformat_complete=dd MMMM yyyy, HH:mm
     dateformat_completeshort=dd/MM - HH:mm:ss
@@ -23,8 +21,6 @@ Do not translate
     dateformat_timeshort=HH:mm
 
 ## Table decoders
-
-
 
     td_agawlogon_logged_off=Staccato
     td_agawlogon_logged_on=Connesso
@@ -499,7 +495,7 @@ Do not translate
     clage_n_calls=N. chiam.
     clage_n_of_agents_available=N. agenti disponibili:
     clage_nanswcalls=Risposte
-    clage_nbsp=
+    - clage_nbsp=
     clage_nftrs=Features
     clage_ngoalftrs=Goal Ftrs.
     clage_nobillpause=Non billable
@@ -662,7 +658,7 @@ Do not translate
     cld_n_calls=Chiamate Totali
     cld_n_lost=Chiamate Perse
     cld_n_taken=Chiamate Prese
-    cld_nbsp=
+    - cld_nbsp=
     cld_nopayable=Non pagabile
     cld_opos=Pos.
     cld_pause=Pause
@@ -769,7 +765,7 @@ Do not translate
     cldst_inclusive_sla_per_hour=Livello complessivo di servizio per ora
     cldst_max=Max
     cldst_min=Min
-    cldst_nbsp=
+    - cldst_nbsp=
     cldst_noskills=Nessuna Skill
     cldst_num=Num
     cldst_percent=Percentuale
@@ -901,7 +897,7 @@ Do not translate
     clko_min_queue_position_at_disconnection=Posizione minima:
     clko_min_wait_time_before_disconnection=Attesa minima:
     clko_n_calls=N. Chiamate
-    clko_nbsp=
+    - clko_nbsp=
     clko_nof_unanswered_calls=Numero chiamate perse:
     clko_offered=% Offerte
     clko_percent=Percentuale
@@ -1018,7 +1014,7 @@ Do not translate
     clok_n_calls=N. Chiamate
     clok_n_calls_answered_by_operators=Chiamate prese dagli operatori:
     clok_n_stints=Numero di stint
-    clok_nbsp=
+    - clok_nbsp=
     clok_offered=% Offerte
     clok_percent=Percentuale
     clok_position_enter=Posizione in coda all'ingresso
@@ -2885,6 +2881,7 @@ Description of security keys
     tsk_detail_history=Storia del task
     tsk_detail_info=Info del task
     tsk_detail_lastUpdated=Ultimo aggiornamento
+    - tsk_detail_message=
     tsk_detail_notes=Note
     tsk_detail_pfield=Processo
     tsk_detail_process=Lavora
@@ -3475,6 +3472,7 @@ Other items
     qap_action_qa=Form QA
     qap_action_recall=Nuova nota di richiamata
     qap_action_transfer=Trasferisci chiamata
+    - qap_action_wbtrecall=
     qap_addmember_selected=Unisciti alle code selezionate
     qap_agent_code=Codice agente
     qap_agent_dialout_error=Errore durante la chiamata dell'agente
@@ -3525,6 +3523,8 @@ Other items
     qap_clients_add=Nuovo cliente
     qap_clients_placeholder_search=Cerca un cliente
     qap_control_addall=Unisci tutti
+    - qap_control_add=
+    - qap_control_remove=
     qap_control_all=Tutte
     qap_control_amend=Modifica
     qap_control_assigned=Assegnate
@@ -3538,6 +3538,7 @@ Other items
     qap_control_timer=Timer
     qap_control_unpause=Ripresa
     qap_create_note_error=Errore durante la creazione di una nuova Nota.
+    - qap_crm_links=
     qap_daily_idle=Tempo disponibile
     qap_daily_lost=Chiamate perse
     qap_daily_lostatt=Tentativi persi
@@ -3851,6 +3852,7 @@ Other items
     reports_filter_input_error=Errore di input
     reports_filter_ivr=IVR
     reports_filter_location=Location
+    - reports_filter_none=
     reports_filter_noncont_time=Periodo
     reports_filter_noncontdays=Giorni
     reports_filter_noncontr1from=Tempo 1 da
@@ -4108,7 +4110,7 @@ Other items
     rt_monitor_tt=Ascolta ora
     rt_n_agents=N. agenti
     rt_n_calls_waiting=In attesa
-    rt_nbsp=
+    - rt_nbsp=
     rt_on_pause=In pausa
     rt_on_pause_nbsp=In Pausa
     rt_on_phone_inbound=Ag. su c. entranti
@@ -4213,7 +4215,7 @@ Other items
     rt_visitor_ext_nbsp=Int.
     rt_visitor_in_order_to_mantain_session_information=Per mantenere attiva la Vostra sessione, questa pagina si ricaricherà automaticamente.
     rt_visitor_n_calls=N. chiamate
-    rt_visitor_nbsp=
+    - rt_visitor_nbsp=
     rt_visitor_queue=Coda
     rt_visitor_queue_nbsp=Coda
     rt_visitor_queues=Code:
@@ -4235,7 +4237,7 @@ Other items
     rt_wall_moh=Mus.Att.
     rt_wall_n_agents=Age
     rt_wall_n_calls_waiting=Attesa
-    rt_wall_nbsp=
+    - rt_wall_nbsp=
     rt_wall_on_pause=Pau
     rt_wall_on_phone_inbound=Entr
     rt_wall_on_phone_outbound=Usc
