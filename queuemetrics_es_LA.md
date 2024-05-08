@@ -32,7 +32,7 @@ Do not change the items below:
     td_agawstat_querying=Consultando
     td_aglev_main=Principal
     td_aglev_spill=Desborde
-    - td_aglev_undefined=<font color=
+    td_aglev_undefined=<font color=?'red'>Indefinido</font>
     td_aglev_wrap=Refresco
     td_agstatus_agent_is_currently_logged_off=Agente desactivado
     td_agstatus_agent_is_currently_logged_on=Agente CONECTADO
@@ -76,7 +76,7 @@ Do not change the items below:
     td_calloutc_unknown=Desconocido
     td_callstatus_html_in_conversation=<font color='green'>Hablando</font>
     td_callstatus_html_terminated=Terminado
-    - td_callstatus_html_transferred=<font color=
+    td_callstatus_html_transferred=<font color=?'red'>Transferido</font>
     td_callstatus_in_conversation=Hablando
     td_callstatus_terminated=Terminado
     td_callstatus_transferred=Transferido
@@ -212,7 +212,7 @@ Do not change the items below:
     td_qdir_any=Cualquiera
     td_qdir_inbound_calls=Llamadas entrantes
     td_qdir_outbound_calls=Llamadas salientes
-    - td_qdir_undefined=<font color=
+    td_qdir_undefined=<font color=?'red'>Desconocido</font>
     td_sychronizer_start=Fuente
     td_synchronier_configuration=Configuración
     td_synchronizer_actions=Acciones

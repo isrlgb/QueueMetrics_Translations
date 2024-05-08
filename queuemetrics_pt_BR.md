@@ -92,7 +92,7 @@ Do not change the items below:
     td_cko_key_press=Pressione uma tecla
     td_cko_timeout=Timeout
     td_cko_timeout_voicemail=Estouro de tempo (voicemail)
-    - td_cko_unanswered_yet=
+    td_cko_unanswered_yet=?Não atendida ainda
     td_cok_agent=Agente
     td_cok_agent_disconnected=Agente desconectado
     td_cok_att_transferred=Transferência Assistida
@@ -101,7 +101,7 @@ Do not change the items below:
     td_cok_blxfr=Transferência às Cegas
     td_cok_caller=Originador
     td_cok_caller_disconnected=Finalizada pelo originador
-    - td_cok_ongoing=
+    td_cok_ongoing=?Em curso
     td_cok_ongoing_call=Chamada corrente
     td_cok_transfer=Transferir
     td_cok_transferred=Transferida
@@ -765,7 +765,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour=SLA por hora
     cldst_max=Máx
     cldst_min=Min
-    - cldst_nbsp=
+    cldst_nbsp=? 
     cldst_noskills=Sem Competências
     cldst_num=Num
     cldst_percent=%
@@ -897,7 +897,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Posição min. na fila ao desconectar:
     clko_min_wait_time_before_disconnection=Tempo min. de espera antes de desconectar:
     clko_n_calls=Qtde. de chamadas
-    - clko_nbsp=
+    clko_nbsp=? 
     clko_nof_unanswered_calls=Qtde. de chamadas não atendidas:
     clko_offered=% Fornecido
     clko_percent=Percentual
@@ -1014,7 +1014,7 @@ Do not change the items below:
     clok_n_calls=Qtde. Chamadas
     clok_n_calls_answered_by_operators=Qtde. chamadas atendidas pelos operadores:
     clok_n_stints=Qtde. de stints
-    - clok_nbsp=
+    clok_nbsp=? 
     clok_offered=% Fornecido
     clok_percent=Pencentual
     clok_position_enter=Posição ao entrar
@@ -4237,7 +4237,7 @@ Other items
     rt_wall_moh=MOH
     rt_wall_n_agents=Age
     rt_wall_n_calls_waiting=Aguardando
-    - rt_wall_nbsp=
+    rt_wall_nbsp=? 
     rt_wall_on_pause=Pausa
     rt_wall_on_phone_inbound=Entr.
     rt_wall_on_phone_outbound=Saída
