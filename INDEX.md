@@ -2,7 +2,7 @@
 
 |  | Language | Alternatives | Missing | Human checked | AI based | Completion |   |
 |--|----------|--------------|---------|---------------|----------|------------|---|
-| 1 | *English (en_US)* |  | 9 | 99.8% | 0.0% | 99.8% | 🟢 |
+| 1 | *English (en_US)* |  | 9 | 99.8% | 0.0% | 99.8% | 😎 |
 | 2 | *pt_BR (pt_BR)* | pt_PT | 40 | 98.9% | 0.2% | 99.1% | 🟢 |
 | 3 | *pt_PT (pt_PT)* | pt_BR | 40 | 73.5% | 25.6% | 99.1% | 🟢 |
 | 4 | *it_IT (it_IT)* |  | 51 | 98.8% | 0.0% | 98.8% | 🟢 |
@@ -36,5 +36,5 @@
 - 🔴 Incomplete
 
 
-Generated at Wed, May 08 2024 @ 19:05.
+Generated at Wed, May 08 2024 @ 19:08.
 
