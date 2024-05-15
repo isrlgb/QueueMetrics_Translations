@@ -33,7 +33,7 @@ Do not change the items below:
     td_agawstat_querying=Sorgulama
     td_aglev_main=Esas
     td_aglev_spill=Fazlalık
-  # 👽 td_aglev_undefined -> <font color='red'>Undefined</font>
+    # 👽 td_aglev_undefined -> <font color='red'>Undefined</font>
     td_aglev_undefined=?
     td_aglev_wrap=Wrap
     td_agstatus_agent_is_currently_logged_off=Müşteri Temsilcisi şu anda çıkış yaptı
@@ -69,7 +69,7 @@ Do not change the items below:
     td_autoconf_wz_summary_opresult=Operasyon sonucu
     td_autoconf_wz_summary_type=Tip
     td_autoconf_wz_users=Kullanıcılar
-  # 👽 td_calloutc_? -> 
+    # 👽 td_calloutc_? -> 
     td_calloutc_?=?
     td_calloutc_contact=Kontak
     td_calloutc_known=Bilinen
@@ -243,10 +243,10 @@ Do not change the items below:
     aout_call_res_by_outcome=Arama sonuçları, sonuçlara göre
     aout_call_res_by_tag=Arama sonuçları, etikete göre
     aout_calltag=Etiket
-  # 🔴 aout_case_distribution -> Case Distribution
+    # 🔴 aout_case_distribution -> Case Distribution
     ➡️ aout_case_distribution=
     aout_chart=~
-  # 🔴 aout_client_distribution -> Client Distribution
+    # 🔴 aout_client_distribution -> Client Distribution
     ➡️ aout_client_distribution=
     aout_contacts_n=Kontaklar
     aout_convratio=CONV
@@ -389,7 +389,7 @@ Do not change the items below:
     art_outboundNumber=Sayı
     art_outcomeFor=Çağrı için sonuç belirle
     art_outcomePanelCallInfo=Çağrı:
-  # 🔴 art_pauseNoExtWarning -> The pause command will probably not work because the agent has no valid extension, despite Hotdesking mode being active.
+    # 🔴 art_pauseNoExtWarning -> The pause command will probably not work because the agent has no valid extension, despite Hotdesking mode being active.
     ➡️ art_pauseNoExtWarning=
     art_row_cache_error=Realtime.useRowCache özelliği doğru ayarlanmadı, "true" olarak ayarlanmalıdır.
     art_runAction=Çalıştır
@@ -424,10 +424,10 @@ Do not change the items below:
 
 
 
-  # 🔴 clage_%_of_pause_time -> % of pause time
+    # 🔴 clage_%_of_pause_time -> % of pause time
     ➡️ clage_%_of_pause_time=
     clage_%_of_queue=% havuzun
-  # 🔴 clage_%_of_session_time -> % of session time
+    # 🔴 clage_%_of_session_time -> % of session time
     ➡️ clage_%_of_session_time=
     clage_acd_available=Ulaşılabilir
     clage_acd_avg_dur=Ort zaman
@@ -453,7 +453,7 @@ Do not change the items below:
     clage_agent_performance_acd_group=ACD Grubundan Müşteri Temsilcisi Performansı
     clage_agent_ptimebyhour=Müşteri temsilcisine saat başına ödenecek
     clage_agent_session_detail=Müşteri Temsilcisi oturumu ayrıntıları
-  # 🔴 clage_agent_session_overview -> Agent Session Overview
+    # 🔴 clage_agent_session_overview -> Agent Session Overview
     ➡️ clage_agent_session_overview=
     clage_agent_sessionreport=Müşteri Temsilcisi oturumların görünümü
     clage_agent_sessions=Müşteri Temsilcisi oturumları
@@ -516,7 +516,7 @@ Do not change the items below:
     clage_overlaps=Çakışan
     clage_pause=Mola
     clage_pause_%=Mola %
-  # 🔴 clage_pause_type_stats -> Details of pause types
+    # 🔴 clage_pause_type_stats -> Details of pause types
     ➡️ clage_pause_type_stats=
     clage_pauses=Molalar
     clage_pauses_per_session=Oturum başına Mola
@@ -533,24 +533,24 @@ Do not change the items below:
     clage_session_and_pause_durations=Oturum ve Mola Süreleri
     clage_session_byquetagftrreport=Havuza, Etikete ve Özelliğe Göre Toplu oturumlar
     clage_session_byquetagreport=Havuza, Etikete Göre Birleştirilmiş Oturumlar
-  # 🔴 clage_session_calls -> N. calls
+    # 🔴 clage_session_calls -> N. calls
     ➡️ clage_session_calls=
     clage_session_details=Oturum detayları
-  # 🔴 clage_session_end -> Segment end
+    # 🔴 clage_session_end -> Segment end
     ➡️ clage_session_end=
-  # 🔴 clage_session_idle -> Idle time
+    # 🔴 clage_session_idle -> Idle time
     ➡️ clage_session_idle=
-  # 🔴 clage_session_lostatt -> Lost attempts
+    # 🔴 clage_session_lostatt -> Lost attempts
     ➡️ clage_session_lostatt=
-  # 🔴 clage_session_pause -> Pause
+    # 🔴 clage_session_pause -> Pause
     ➡️ clage_session_pause=
-  # 🔴 clage_session_queues -> Queues
+    # 🔴 clage_session_queues -> Queues
     ➡️ clage_session_queues=
-  # 🔴 clage_session_start -> Segment start
+    # 🔴 clage_session_start -> Segment start
     ➡️ clage_session_start=
-  # 🔴 clage_session_talk -> Talk time
+    # 🔴 clage_session_talk -> Talk time
     ➡️ clage_session_talk=
-  # 🔴 clage_session_type -> Session type
+    # 🔴 clage_session_type -> Session type
     ➡️ clage_session_type=
     clage_sessions=Oturumlar
     clage_tag_sessionreport=Etiket Oturumları Görünümü
@@ -635,7 +635,7 @@ Do not change the items below:
     cld_caller_statistics=Arayan İstatistikleri
     cld_calltag=Etiket
     cld_complete_calls=Alınan Çağrılar
-  # 🔴 cld_connect -> Connect
+    # 🔴 cld_connect -> Connect
     ➡️ cld_connect=
     cld_date=Tarih
     cld_detail_of_agent_pauses=Müşteri temsilcisi beklemelerinin detayı
@@ -643,9 +643,9 @@ Do not change the items below:
     cld_detail_of_agent_sessions_raw=Müşteri temsilcisi oturum ham  detayı
     cld_detail_of_answered_calls=Cevaplanan çağrıların detayı
     cld_detail_of_unanswered_calls=Cevaplanmayan çağrıların detayı
-  # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
+    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
     ➡️ cld_detail_of_unanswered_calls_afp=
-  # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
+    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
     ➡️ cld_detail_of_unanswered_calls_raw=
     cld_detail_summary=Saate Göre Ayrıntı Özeti
     cld_detail_summary_dom=Güne Göre Ayrıntı Özeti
@@ -655,10 +655,10 @@ Do not change the items below:
     cld_dom=Gün
     cld_dow=Haftanın günü
     cld_duration=Süre
-  # 🔴 cld_end -> End
+    # 🔴 cld_end -> End
     ➡️ cld_end=
     cld_end_hour=Kapanış Saati
-  # 🔴 cld_enter -> Enter
+    # 🔴 cld_enter -> Enter
     ➡️ cld_enter=
     cld_executive_summary=Yönetici Özeti
     cld_ext=Dahili
@@ -668,13 +668,13 @@ Do not change the items below:
     cld_goal=Hedef
     cld_handled_by=Tarafından Cevaplandı
     cld_hour=Saat
-  # 🔴 cld_idle -> Idle
+    # 🔴 cld_idle -> Idle
     ➡️ cld_idle=
     cld_info=Bilgi
     cld_ivr=IVR seçimi
     cld_ivr_detail=IVR detayları
     cld_ivr_detail_full=IVR detayları (tam basılabilir liste)
-  # 🔴 cld_ivr_dur -> IVR Dur.
+    # 🔴 cld_ivr_dur -> IVR Dur.
     ➡️ cld_ivr_dur=
     cld_ivr_time=IVR
     cld_ivr_time_long=Havuzdan önce IVR'de geçen süre:
@@ -711,7 +711,7 @@ Do not change the items below:
     cld_pop_opos=Orjinal pozisyon
     cld_pop_qa=Q/A
     cld_pop_queue=Havuz:
-  # 🔴 cld_pop_server -> Server
+    # 🔴 cld_pop_server -> Server
     ➡️ cld_pop_server=
     cld_pop_sound_files=Ses dosyaları:
     cld_pop_status_code=Durum kodu:
@@ -730,9 +730,9 @@ Do not change the items below:
     cld_queue=Havuz
     cld_queue_batch_export=Dışa aktarma grubuna çağrı ekleme
     cld_queue_detail=Havuz detayları
-  # 🔴 cld_queue_detail_afp -> Queue detail
+    # 🔴 cld_queue_detail_afp -> Queue detail
     ➡️ cld_queue_detail_afp=
-  # 🔴 cld_queue_detail_raw -> Raw queue detail
+    # 🔴 cld_queue_detail_raw -> Raw queue detail
     ➡️ cld_queue_detail_raw=
     cld_return=Geri al
     cld_server=Srv
@@ -749,17 +749,17 @@ Do not change the items below:
     cld_start_hour=Başlangıç Saati
     cld_status_code=Kod
     cld_stints=Sınırlar
-  # 🔴 cld_talk -> Talk
+    # 🔴 cld_talk -> Talk
     ➡️ cld_talk=
-  # 🔴 cld_talk_and_idle_times -> Talk and Idle Times
+    # 🔴 cld_talk_and_idle_times -> Talk and Idle Times
     ➡️ cld_talk_and_idle_times=
     cld_termination=Sonlandırma
-  # 🔴 cld_tot_dur -> Tot. Dur.
+    # 🔴 cld_tot_dur -> Tot. Dur.
     ➡️ cld_tot_dur=
     cld_total_calls=Toplam Çağrılar
     cld_total_elapsed_time=Geçen toplam süre
     cld_transfer_to=Transfer edildi
-  # 🔴 cld_uid -> Unique ID
+    # 🔴 cld_uid -> Unique ID
     ➡️ cld_uid=
     cld_unique_callers=Uniq Arayanlar
     cld_unique_final_lost=Uniq Final Kaybı
@@ -945,11 +945,11 @@ Do not change the items below:
     clko_threedots=...
     clko_total_rows_processed=İşlenen toplam satır sayısı:
     clko_total_wait_time_before_disconnection=Bağlantı kesilmeden önce toplam bekleme süresi:
-  # 🔴 clko_unans_nums_recalled -> Numbers recalled
+    # 🔴 clko_unans_nums_recalled -> Numbers recalled
     ➡️ clko_unans_nums_recalled=
-  # 🔴 clko_unans_nums_recap -> Recap of all recalls
+    # 🔴 clko_unans_nums_recap -> Recap of all recalls
     ➡️ clko_unans_nums_recap=
-  # 🔴 clko_unans_nums_to_recall -> Numbers to be recalled
+    # 🔴 clko_unans_nums_to_recall -> Numbers to be recalled
     ➡️ clko_unans_nums_to_recall=
     clko_unanswered_calls=Cevapsız çağrılar
     clko_unanswered_calls_by_queue=Havuzlara Göre Cevapsız çağrılar
@@ -1028,7 +1028,7 @@ Do not change the items below:
     clok_disconnection_causes=Bağlantının olmamasının sebepleri
     clok_dnis=DNIS kullanıldı
     clok_dnis_choice=DNIS
-  # 🔴 clok_grouping -> Open Group
+    # 🔴 clok_grouping -> Open Group
     ➡️ clok_grouping=
     clok_hdr=Rapor Başlığı
     clok_ivr=IVR seçimi
@@ -1081,30 +1081,30 @@ Do not change the items below:
 
 
 
-  # 🔴 evt_abandon -> Caller Abandoned
+    # 🔴 evt_abandon -> Caller Abandoned
     ➡️ evt_abandon=
     evt_agentattempt=Telefon çalma girişimleri
     evt_agentdump=Müşteri temsilcisi dökümü
-  # 🔴 evt_attended_transfer -> Attended Transfer
+    # 🔴 evt_attended_transfer -> Attended Transfer
     ➡️ evt_attended_transfer=
-  # 🔴 evt_blind_transfer -> Blind Transfer
+    # 🔴 evt_blind_transfer -> Blind Transfer
     ➡️ evt_blind_transfer=
-  # 🔴 evt_call_outbound -> Outbound Call
+    # 🔴 evt_call_outbound -> Outbound Call
     ➡️ evt_call_outbound=
     evt_call_tag=Çağrı Etiketi
-  # 🔴 evt_complete_agent -> Complete Agent
+    # 🔴 evt_complete_agent -> Complete Agent
     ➡️ evt_complete_agent=
-  # 🔴 evt_complete_caller -> Complete Caller
+    # 🔴 evt_complete_caller -> Complete Caller
     ➡️ evt_complete_caller=
-  # 🔴 evt_connect -> Connect
+    # 🔴 evt_connect -> Connect
     ➡️ evt_connect=
-  # 🔴 evt_enter_queue -> Enter Queue
+    # 🔴 evt_enter_queue -> Enter Queue
     ➡️ evt_enter_queue=
-  # 🔴 evt_exit_empty -> Exit Empty
+    # 🔴 evt_exit_empty -> Exit Empty
     ➡️ evt_exit_empty=
-  # 🔴 evt_exit_with_key -> Exit With Key
+    # 🔴 evt_exit_with_key -> Exit With Key
     ➡️ evt_exit_with_key=
-  # 🔴 evt_exit_with_timeout -> Exit With Timeout
+    # 🔴 evt_exit_with_timeout -> Exit With Timeout
     ➡️ evt_exit_with_timeout=
     evt_feature_added=Özellik eklendi
     evt_feature_deleted=Özellik Silindi
@@ -1116,19 +1116,19 @@ Do not change the items below:
     evt_ivr_start=IVR Aramasını Başlat
     evt_ivr_waitonly=IVR bekleyin
     evt_moh=Beklemede Müzik
-  # 🔴 evt_other_end_session -> Other Session End
+    # 🔴 evt_other_end_session -> Other Session End
     ➡️ evt_other_end_session=
-  # 🔴 evt_other_fail_session -> Other Session Fail
+    # 🔴 evt_other_fail_session -> Other Session Fail
     ➡️ evt_other_fail_session=
-  # 🔴 evt_other_start_session -> Other Session Start
+    # 🔴 evt_other_start_session -> Other Session Start
     ➡️ evt_other_start_session=
-  # 🔴 evt_phone_end_session -> Phone Session End
+    # 🔴 evt_phone_end_session -> Phone Session End
     ➡️ evt_phone_end_session=
-  # 🔴 evt_phone_fail_session -> Phone Session Fail
+    # 🔴 evt_phone_fail_session -> Phone Session Fail
     ➡️ evt_phone_fail_session=
-  # 🔴 evt_phone_start_session -> Phone Session Start
+    # 🔴 evt_phone_start_session -> Phone Session Start
     ➡️ evt_phone_start_session=
-  # 🔴 evt_ringcancel -> Ring Cancel
+    # 🔴 evt_ringcancel -> Ring Cancel
     ➡️ evt_ringcancel=
     evt_ringing=Telefon çalması
     evt_ringnoanswer=Telefon çalma cevap yok
@@ -1139,21 +1139,21 @@ Do not change the items below:
     evt_short_ringing=Çalış (Kısa)
     evt_short_ringnoanswer=Cevap yok (Kısa) çal
     evt_skillreq=Gerekli Beceri
-  # 🔴 evt_teams_end_session -> MS Teams Session End
+    # 🔴 evt_teams_end_session -> MS Teams Session End
     ➡️ evt_teams_end_session=
-  # 🔴 evt_teams_fail_session -> Teams Session Fail
+    # 🔴 evt_teams_fail_session -> Teams Session Fail
     ➡️ evt_teams_fail_session=
-  # 🔴 evt_teams_start_session -> MS Teams Session Start
+    # 🔴 evt_teams_start_session -> MS Teams Session Start
     ➡️ evt_teams_start_session=
-  # 🔴 evt_transfer -> Transfer
+    # 🔴 evt_transfer -> Transfer
     ➡️ evt_transfer=
-  # 🔴 evt_unanswered_yet -> Unanswered Yet
+    # 🔴 evt_unanswered_yet -> Unanswered Yet
     ➡️ evt_unanswered_yet=
-  # 🔴 evt_web_end_session -> Web Session End
+    # 🔴 evt_web_end_session -> Web Session End
     ➡️ evt_web_end_session=
-  # 🔴 evt_web_fail_session -> Web Session Fail
+    # 🔴 evt_web_fail_session -> Web Session Fail
     ➡️ evt_web_fail_session=
-  # 🔴 evt_web_start_session -> Web Session Start
+    # 🔴 evt_web_start_session -> Web Session Start
     ➡️ evt_web_start_session=
     hdr_agaw_agent=Müşteri Temsilcisi
     hdr_agaw_logs=Kayıtlar
@@ -1163,7 +1163,7 @@ Do not change the items below:
     hdr_agents_det_title=Müşteri temsilcisi oturumlarının ve duraklarının ayrıntıları
     hdr_agents_title=Müşteri Temsilcileri ve Oturumlar
     hdr_all=Tümü
-  # 🔴 hdr_amo -> AMO
+    # 🔴 hdr_amo -> AMO
     ➡️ hdr_amo=
     hdr_answered=Cevaplandı
     hdr_answered_details=Cvp. Dt.
@@ -1172,21 +1172,21 @@ Do not change the items below:
     hdr_area_title=Alan kodu analizleri
     hdr_attempts=Att.
     hdr_broadcast=Yayın yapmak
-  # 🔴 hdr_calls -> Calls
+    # 🔴 hdr_calls -> Calls
     ➡️ hdr_calls=
-  # 🔴 hdr_calls_title -> Call Details
+    # 🔴 hdr_calls_title -> Call Details
     ➡️ hdr_calls_title=
-  # 🔴 hdr_casedo -> Cases
+    # 🔴 hdr_casedo -> Cases
     ➡️ hdr_casedo=
-  # 🔴 hdr_casedo_title -> Cases and Clients
+    # 🔴 hdr_casedo_title -> Cases and Clients
     ➡️ hdr_casedo_title=
-  # 🔴 hdr_cases -> Cases
+    # 🔴 hdr_cases -> Cases
     ➡️ hdr_cases=
     hdr_cbt=CBTs
-  # 🔴 hdr_clients -> Clients
+    # 🔴 hdr_clients -> Clients
     ➡️ hdr_clients=
     hdr_cronjobs=Programlanmış İşler
-  # 🔴 hdr_customblocks -> Custom Blocks
+    # 🔴 hdr_customblocks -> Custom Blocks
     ➡️ hdr_customblocks=
     hdr_customreports=CR
     hdr_dbtest_ami=Test AMI
@@ -1221,7 +1221,7 @@ Do not change the items below:
     hdr_outcomes=Sonuçlar
     hdr_outcomes_title=Çağrı Sonuçları
     hdr_pauses=Molalar
-  # 🔴 hdr_performance -> Performance
+    # 🔴 hdr_performance -> Performance
     ➡️ hdr_performance=
     hdr_performancetrack=PrfTrk
     hdr_print=Print
@@ -1235,14 +1235,14 @@ Do not change the items below:
     hdr_realtime=Gerçek-zaman
     hdr_reports=Raporlar
     hdr_resetquery=Havuz parametrelerini sıfırla
-  # 🔴 hdr_rt -> RT
+    # 🔴 hdr_rt -> RT
     ➡️ hdr_rt=
-  # 🔴 hdr_rt_title -> Real-Time Metrics
+    # 🔴 hdr_rt_title -> Real-Time Metrics
     ➡️ hdr_rt_title=
     hdr_skills=Beceriler
-  # 🔴 hdr_stats -> Stats
+    # 🔴 hdr_stats -> Stats
     ➡️ hdr_stats=
-  # 🔴 hdr_stats_title -> Statistics
+    # 🔴 hdr_stats_title -> Statistics
     ➡️ hdr_stats_title=
     hdr_tags=Etiketler
     hdr_tags_title=Çağrı etiketleri
@@ -1271,99 +1271,99 @@ Do not change the items below:
     edit_ac_supervisor=Denetmen (supervisor)
     edit_ac_term=Sonl.
     edit_ac_title=Bilinen Müşteri Temsilcileri Konfigrasyonu
-  # 🔴 edit_amo_attribute -> Attribute
+    # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
-  # 🔴 edit_amo_attributes -> Attributes
+    # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
-  # 🔴 edit_amo_campaign -> Campaign
+    # 🔴 edit_amo_campaign -> Campaign
     ➡️ edit_amo_campaign=
-  # 🔴 edit_amo_last_pull -> Last Pull
+    # 🔴 edit_amo_last_pull -> Last Pull
     ➡️ edit_amo_last_pull=
-  # 🔴 edit_amo_list_dialer_state -> Dialer State
+    # 🔴 edit_amo_list_dialer_state -> Dialer State
     ➡️ edit_amo_list_dialer_state=
-  # 🔴 edit_amo_list_id -> List ID
+    # 🔴 edit_amo_list_id -> List ID
     ➡️ edit_amo_list_id=
-  # 🔴 edit_amo_list_last_pull -> Last Pull
+    # 🔴 edit_amo_list_last_pull -> Last Pull
     ➡️ edit_amo_list_last_pull=
-  # 🔴 edit_amo_list_n_added -> N. added
+    # 🔴 edit_amo_list_n_added -> N. added
     ➡️ edit_amo_list_n_added=
-  # 🔴 edit_amo_list_n_completed -> N. completed
+    # 🔴 edit_amo_list_n_completed -> N. completed
     ➡️ edit_amo_list_n_completed=
-  # 🔴 edit_amo_list_n_pulled -> N. pulled
+    # 🔴 edit_amo_list_n_pulled -> N. pulled
     ➡️ edit_amo_list_n_pulled=
-  # 🔴 edit_amo_list_name -> Name
+    # 🔴 edit_amo_list_name -> Name
     ➡️ edit_amo_list_name=
-  # 🔴 edit_amo_list_numbers -> Edit Numbers
+    # 🔴 edit_amo_list_numbers -> Edit Numbers
     ➡️ edit_amo_list_numbers=
-  # 🔴 edit_amo_list_pull_by -> Pulled by
+    # 🔴 edit_amo_list_pull_by -> Pulled by
     ➡️ edit_amo_list_pull_by=
-  # 🔴 edit_amo_list_state -> List State
+    # 🔴 edit_amo_list_state -> List State
     ➡️ edit_amo_list_state=
-  # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
+    # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
     ➡️ edit_amo_list_upload_numbers=
-  # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
+    # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
     ➡️ edit_amo_list_upload_text=
-  # 🔴 edit_amo_list_weight -> Weight
+    # 🔴 edit_amo_list_weight -> Weight
     ➡️ edit_amo_list_weight=
-  # 🔴 edit_amo_lists_list -> AMO Lists
+    # 🔴 edit_amo_lists_list -> AMO Lists
     ➡️ edit_amo_lists_list=
-  # 🔴 edit_amo_lists_name_present -> The selected list name already exists
+    # 🔴 edit_amo_lists_name_present -> The selected list name already exists
     ➡️ edit_amo_lists_name_present=
-  # 🔴 edit_amo_lists_title -> Edit AMO List
+    # 🔴 edit_amo_lists_title -> Edit AMO List
     ➡️ edit_amo_lists_title=
-  # 🔴 edit_amo_n_added -> N. added
+    # 🔴 edit_amo_n_added -> N. added
     ➡️ edit_amo_n_added=
-  # 🔴 edit_amo_n_completed -> N. completed
+    # 🔴 edit_amo_n_completed -> N. completed
     ➡️ edit_amo_n_completed=
-  # 🔴 edit_amo_n_lists -> N. of Lists
+    # 🔴 edit_amo_n_lists -> N. of Lists
     ➡️ edit_amo_n_lists=
-  # 🔴 edit_amo_name -> Name
+    # 🔴 edit_amo_name -> Name
     ➡️ edit_amo_name=
-  # 🔴 edit_amo_notes -> Notes
+    # 🔴 edit_amo_notes -> Notes
     ➡️ edit_amo_notes=
-  # 🔴 edit_amo_number -> Number
+    # 🔴 edit_amo_number -> Number
     ➡️ edit_amo_number=
-  # 🔴 edit_amo_number_id -> Number ID
+    # 🔴 edit_amo_number_id -> Number ID
     ➡️ edit_amo_number_id=
-  # 🔴 edit_amo_numbers_current_uid -> Current UID
+    # 🔴 edit_amo_numbers_current_uid -> Current UID
     ➡️ edit_amo_numbers_current_uid=
-  # 🔴 edit_amo_numbers_edit -> Edit AMO Number
+    # 🔴 edit_amo_numbers_edit -> Edit AMO Number
     ➡️ edit_amo_numbers_edit=
-  # 🔴 edit_amo_numbers_list -> AMO Numbers
+    # 🔴 edit_amo_numbers_list -> AMO Numbers
     ➡️ edit_amo_numbers_list=
-  # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
+    # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
     ➡️ edit_amo_numbers_previous_retries=
-  # 🔴 edit_amo_numbers_retry_no -> Retry Number
+    # 🔴 edit_amo_numbers_retry_no -> Retry Number
     ➡️ edit_amo_numbers_retry_no=
-  # 🔴 edit_amo_queue_id -> Queue ID
+    # 🔴 edit_amo_queue_id -> Queue ID
     ➡️ edit_amo_queue_id=
-  # 🔴 edit_amo_retry_no -> N. of retries
+    # 🔴 edit_amo_retry_no -> N. of retries
     ➡️ edit_amo_retry_no=
-  # 🔴 edit_amo_state -> State
+    # 🔴 edit_amo_state -> State
     ➡️ edit_amo_state=
-  # 🔴 edit_amo_valid_attribute -> Attribute
+    # 🔴 edit_amo_valid_attribute -> Attribute
     ➡️ edit_amo_valid_attribute=
-  # 🔴 edit_amo_valid_from -> Valid from
+    # 🔴 edit_amo_valid_from -> Valid from
     ➡️ edit_amo_valid_from=
-  # 🔴 edit_amo_valid_value -> Value
+    # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
-  # 🔴 edit_cases_client -> Client
+    # 🔴 edit_cases_client -> Client
     ➡️ edit_cases_client=
-  # 🔴 edit_cases_contact -> Contact
+    # 🔴 edit_cases_contact -> Contact
     ➡️ edit_cases_contact=
-  # 🔴 edit_cases_email -> Email
+    # 🔴 edit_cases_email -> Email
     ➡️ edit_cases_email=
-  # 🔴 edit_cases_header -> Cases
+    # 🔴 edit_cases_header -> Cases
     ➡️ edit_cases_header=
-  # 🔴 edit_cases_id -> Case Id
+    # 🔴 edit_cases_id -> Case Id
     ➡️ edit_cases_id=
-  # 🔴 edit_cases_key -> Key
+    # 🔴 edit_cases_key -> Key
     ➡️ edit_cases_key=
-  # 🔴 edit_cases_status -> Status
+    # 🔴 edit_cases_status -> Status
     ➡️ edit_cases_status=
-  # 🔴 edit_cases_title -> Title
+    # 🔴 edit_cases_title -> Title
     ➡️ edit_cases_title=
-  # 🔴 edit_cases_xref -> Reference
+    # 🔴 edit_cases_xref -> Reference
     ➡️ edit_cases_xref=
     edit_cbt_deleted=Silindi
     edit_cbt_description=Açıklama
@@ -1375,29 +1375,29 @@ Do not change the items below:
     edit_classes_keys=Tuşlar
     edit_classes_title=Kullanıcı Sınıfları
     edit_classes_user_num=Kullanıcı#
-  # 🔴 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
+    # 🔴 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
     ➡️ edit_clients_client_in_use=
-  # 🔴 edit_clients_contact -> Contact
+    # 🔴 edit_clients_contact -> Contact
     ➡️ edit_clients_contact=
-  # 🔴 edit_clients_email -> Email
+    # 🔴 edit_clients_email -> Email
     ➡️ edit_clients_email=
-  # 🔴 edit_clients_header -> Clients
+    # 🔴 edit_clients_header -> Clients
     ➡️ edit_clients_header=
-  # 🔴 edit_clients_key -> Key
+    # 🔴 edit_clients_key -> Key
     ➡️ edit_clients_key=
-  # 🔴 edit_clients_name -> Name
+    # 🔴 edit_clients_name -> Name
     ➡️ edit_clients_name=
-  # 🔴 edit_clients_name_present -> Name already present
+    # 🔴 edit_clients_name_present -> Name already present
     ➡️ edit_clients_name_present=
-  # 🔴 edit_clients_status -> Status
+    # 🔴 edit_clients_status -> Status
     ➡️ edit_clients_status=
-  # 🔴 edit_clients_xref -> Reference
+    # 🔴 edit_clients_xref -> Reference
     ➡️ edit_clients_xref=
-  # 🔴 edit_clients_xref_already_present -> This reference is already present
+    # 🔴 edit_clients_xref_already_present -> This reference is already present
     ➡️ edit_clients_xref_already_present=
-  # 🔴 edit_clients_xref_missing -> You must set a reference
+    # 🔴 edit_clients_xref_missing -> You must set a reference
     ➡️ edit_clients_xref_missing=
-  # 🔴 edit_clients_xref_not_allowed -> This reference has an invalid format
+    # 🔴 edit_clients_xref_not_allowed -> This reference has an invalid format
     ➡️ edit_clients_xref_not_allowed=
     edit_cronjobs_asuser=Kullanıcı Olarak çalıştır
     edit_cronjobs_cyclic=Dolaşımlı
@@ -1417,15 +1417,15 @@ Do not change the items below:
     edit_ct_key=Tuş
     edit_ct_tag=Etiket
     edit_ct_title=Çağrı Etiketleri
-  # 🔴 edit_customblocks_description -> Description
+    # 🔴 edit_customblocks_description -> Description
     ➡️ edit_customblocks_description=
-  # 🔴 edit_customblocks_header -> Custom DataBlocks
+    # 🔴 edit_customblocks_header -> Custom DataBlocks
     ➡️ edit_customblocks_header=
-  # 🔴 edit_customblocks_key -> Security Key
+    # 🔴 edit_customblocks_key -> Security Key
     ➡️ edit_customblocks_key=
-  # 🔴 edit_customblocks_provider -> Provider
+    # 🔴 edit_customblocks_provider -> Provider
     ➡️ edit_customblocks_provider=
-  # 🔴 edit_customblocks_title -> Title
+    # 🔴 edit_customblocks_title -> Title
     ➡️ edit_customblocks_title=
     edit_dnis_description=Açıklama
     edit_dnis_dnis=DNIS kod
@@ -1584,35 +1584,35 @@ Do not change the items below:
     edit_record_backtolist=Listeye dön
     edit_record_backtoqueue=Havuza dön
     edit_record_backtoreports=Raporlara dön
-  # 🔴 edit_record_case_transactions -> Activity for this case
+    # 🔴 edit_record_case_transactions -> Activity for this case
     ➡️ edit_record_case_transactions=
-  # 🔴 edit_record_cases_contact -> Contact
+    # 🔴 edit_record_cases_contact -> Contact
     ➡️ edit_record_cases_contact=
-  # 🔴 edit_record_cases_email -> Email
+    # 🔴 edit_record_cases_email -> Email
     ➡️ edit_record_cases_email=
-  # 🔴 edit_record_cases_for_client -> Recent cases for this client
+    # 🔴 edit_record_cases_for_client -> Recent cases for this client
     ➡️ edit_record_cases_for_client=
-  # 🔴 edit_record_cases_handled_by -> Handled by
+    # 🔴 edit_record_cases_handled_by -> Handled by
     ➡️ edit_record_cases_handled_by=
-  # 🔴 edit_record_cases_header -> Edit Case
+    # 🔴 edit_record_cases_header -> Edit Case
     ➡️ edit_record_cases_header=
-  # 🔴 edit_record_cases_id -> Case Id
+    # 🔴 edit_record_cases_id -> Case Id
     ➡️ edit_record_cases_id=
-  # 🔴 edit_record_cases_none_found -> None found
+    # 🔴 edit_record_cases_none_found -> None found
     ➡️ edit_record_cases_none_found=
-  # 🔴 edit_record_cases_notes -> Notes
+    # 🔴 edit_record_cases_notes -> Notes
     ➡️ edit_record_cases_notes=
-  # 🔴 edit_record_cases_queue -> Queue
+    # 🔴 edit_record_cases_queue -> Queue
     ➡️ edit_record_cases_queue=
-  # 🔴 edit_record_cases_securitykey -> Security Key
+    # 🔴 edit_record_cases_securitykey -> Security Key
     ➡️ edit_record_cases_securitykey=
-  # 🔴 edit_record_cases_status -> Status
+    # 🔴 edit_record_cases_status -> Status
     ➡️ edit_record_cases_status=
-  # 🔴 edit_record_cases_text -> Note text
+    # 🔴 edit_record_cases_text -> Note text
     ➡️ edit_record_cases_text=
-  # 🔴 edit_record_cases_title -> Title
+    # 🔴 edit_record_cases_title -> Title
     ➡️ edit_record_cases_title=
-  # 🔴 edit_record_cases_xref -> Reference
+    # 🔴 edit_record_cases_xref -> Reference
     ➡️ edit_record_cases_xref=
     edit_record_cbt_code=CBT Kodu:
     edit_record_cbt_counter=Sayaç gönder:
@@ -1625,21 +1625,21 @@ Do not change the items below:
     edit_record_classes_name=Sınıf adı:
     edit_record_classes_title=Sınıf Detay
     edit_record_classes_usersinclass=Bu sınıfa ait kullanıcı sayısı:
-  # 🔴 edit_record_client_id -> Client
+    # 🔴 edit_record_client_id -> Client
     ➡️ edit_record_client_id=
-  # 🔴 edit_record_clients_contact -> Contact
+    # 🔴 edit_record_clients_contact -> Contact
     ➡️ edit_record_clients_contact=
-  # 🔴 edit_record_clients_email -> Email
+    # 🔴 edit_record_clients_email -> Email
     ➡️ edit_record_clients_email=
-  # 🔴 edit_record_clients_header -> Edit Client
+    # 🔴 edit_record_clients_header -> Edit Client
     ➡️ edit_record_clients_header=
-  # 🔴 edit_record_clients_name -> Name
+    # 🔴 edit_record_clients_name -> Name
     ➡️ edit_record_clients_name=
-  # 🔴 edit_record_clients_notes -> Notes
+    # 🔴 edit_record_clients_notes -> Notes
     ➡️ edit_record_clients_notes=
-  # 🔴 edit_record_clients_securitykey -> Security Key
+    # 🔴 edit_record_clients_securitykey -> Security Key
     ➡️ edit_record_clients_securitykey=
-  # 🔴 edit_record_clients_status -> Client status
+    # 🔴 edit_record_clients_status -> Client status
     ➡️ edit_record_clients_status=
     edit_record_clone=Çoğalt
     edit_record_createdby=Tarafından Oluşturuldu
@@ -1661,29 +1661,29 @@ Do not change the items below:
     edit_record_cronjobs_name=Adı
     edit_record_cronjobs_nolastruns=Gösterilecek yakın zamanlı çalışma yok
     edit_record_cronjobs_title=Programlanmış İşler Raporu
-  # 🔴 edit_record_customblocks_block -> Dispatch Name
+    # 🔴 edit_record_customblocks_block -> Dispatch Name
     ➡️ edit_record_customblocks_block=
-  # 🔴 edit_record_customblocks_description -> Description
+    # 🔴 edit_record_customblocks_description -> Description
     ➡️ edit_record_customblocks_description=
-  # 🔴 edit_record_customblocks_graph_params -> Chart Parameters
+    # 🔴 edit_record_customblocks_graph_params -> Chart Parameters
     ➡️ edit_record_customblocks_graph_params=
-  # 🔴 edit_record_customblocks_graph_provider -> Chart Provider
+    # 🔴 edit_record_customblocks_graph_provider -> Chart Provider
     ➡️ edit_record_customblocks_graph_provider=
-  # 🔴 edit_record_customblocks_graphnone -> None
+    # 🔴 edit_record_customblocks_graphnone -> None
     ➡️ edit_record_customblocks_graphnone=
-  # 🔴 edit_record_customblocks_graphreact -> React
+    # 🔴 edit_record_customblocks_graphreact -> React
     ➡️ edit_record_customblocks_graphreact=
-  # 🔴 edit_record_customblocks_header -> Edit Custom DataBlock
+    # 🔴 edit_record_customblocks_header -> Edit Custom DataBlock
     ➡️ edit_record_customblocks_header=
-  # 🔴 edit_record_customblocks_provider -> Provider
+    # 🔴 edit_record_customblocks_provider -> Provider
     ➡️ edit_record_customblocks_provider=
-  # 🔴 edit_record_customblocks_securitykey -> Security Key
+    # 🔴 edit_record_customblocks_securitykey -> Security Key
     ➡️ edit_record_customblocks_securitykey=
-  # 🔴 edit_record_customblocks_source_body -> Source
+    # 🔴 edit_record_customblocks_source_body -> Source
     ➡️ edit_record_customblocks_source_body=
-  # 🔴 edit_record_customblocks_title -> Title
+    # 🔴 edit_record_customblocks_title -> Title
     ➡️ edit_record_customblocks_title=
-  # 🔴 edit_record_customblocks_view -> View
+    # 🔴 edit_record_customblocks_view -> View
     ➡️ edit_record_customblocks_view=
     edit_record_delete=Sil
     edit_record_description=Açıklama
@@ -1700,7 +1700,7 @@ Do not change the items below:
     edit_record_export_title=Dışa aktarma rapor ayrıntıları
     edit_record_export_titlefield=Başlık:
     edit_record_export_visibility=Görünürlük anahtarı:
-  # 🔴 edit_record_ext_ref -> Reference
+    # 🔴 edit_record_ext_ref -> Reference
     ➡️ edit_record_ext_ref=
     edit_record_external_reference=Dış Başvuru Kimliği:
     edit_record_features_code=özellik kodu
@@ -1780,25 +1780,25 @@ Do not change the items below:
     edit_record_queue_agentspaused=Moladaki müşteri temsilcisi sayısı:
     edit_record_queue_agentswaiting=Beklemedeki müşteri temsilcisi sayısı:
     edit_record_queue_alias=Havuz diğer adı:
-  # 🔴 edit_record_queue_amo -> AMO Settings
+    # 🔴 edit_record_queue_amo -> AMO Settings
     ➡️ edit_record_queue_amo=
-  # 🔴 edit_record_queue_amo_enabled -> Enabled
+    # 🔴 edit_record_queue_amo_enabled -> Enabled
     ➡️ edit_record_queue_amo_enabled=
-  # 🔴 edit_record_queue_amo_exponential -> Exponential
+    # 🔴 edit_record_queue_amo_exponential -> Exponential
     ➡️ edit_record_queue_amo_exponential=
-  # 🔴 edit_record_queue_amo_fixed -> Fixed
+    # 🔴 edit_record_queue_amo_fixed -> Fixed
     ➡️ edit_record_queue_amo_fixed=
-  # 🔴 edit_record_queue_amo_linear -> Linear
+    # 🔴 edit_record_queue_amo_linear -> Linear
     ➡️ edit_record_queue_amo_linear=
-  # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
+    # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
     ➡️ edit_record_queue_amo_recall_attributes=
-  # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
+    # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
     ➡️ edit_record_queue_amo_recall_max_attempts=
-  # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
+    # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
     ➡️ edit_record_queue_amo_recall_sec=
-  # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
+    # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
     ➡️ edit_record_queue_amo_recall_stepping=
-  # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
+    # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
     ➡️ edit_record_queue_amo_recall_valid_outcomes=
     edit_record_queue_attention=Dikkat seviyeleri
     edit_record_queue_callsinqueue=Kuyruktaki çağrı sayısı:
@@ -1872,7 +1872,7 @@ Do not change the items below:
     edit_record_users_realname=Gerçek ad:
     edit_record_users_title=Kullanıcı detayları
     edit_record_users_token=Token:
-  # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
+    # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
     ➡️ edit_record_xref_blank=
     edit_reports_automatic=Otomatik rapor yapılandırması
     edit_reports_desc=Açkl.
@@ -1934,7 +1934,7 @@ Do not change the items below:
     qa_comment=Açıklama
     qa_date=Tarih
     qa_form=Form:
-  # 🔴 qa_frm_about -> 
+    # 🔴 qa_frm_about -> 
     ➡️ qa_frm_about=
     qa_frm_addbtn=Ekle
     qa_frm_addtojob=İşe ekle
@@ -2187,7 +2187,7 @@ Do not change the items below:
     filter_idAgentGroup=Müşteri Temsilcisi grubu
     filter_idLocation=Konum
     filter_ivr=IVR
-  # 🔴 filter_lostAttemptFor -> Lost Attempt For
+    # 🔴 filter_lostAttemptFor -> Lost Attempt For
     ➡️ filter_lostAttemptFor=
     filter_noncont_days=Günler
     filter_noncont_r1_from=Zaman from
@@ -2237,7 +2237,7 @@ Do not change the items below:
     rt3_agent_action_title=Müşteri Temsilcisi için eylem seçme
     rt3_agent_actions=Müşteri Temsilcisi eylemleri
     rt3_agent_addmember=Havuza Üye ekle
-  # 🔴 rt3_agent_changepause -> Change Pause
+    # 🔴 rt3_agent_changepause -> Change Pause
     ➡️ rt3_agent_changepause=
     rt3_agent_code=Müşteri Temsilcisi kodu
     rt3_agent_extension=Müşteri Temsilcisi
@@ -2247,18 +2247,18 @@ Do not change the items below:
     rt3_agent_logout=Oturumu Kapat (Tüm Havuzlar)
     rt3_agent_pause=Müşteri Temsilcisi duraklat
     rt3_agent_removemember=Üyeyi Havuzdan Kaldır
-  # 🔴 rt3_agent_select -> Please select an Agent...
+    # 🔴 rt3_agent_select -> Please select an Agent...
     ➡️ rt3_agent_select=
     rt3_agent_status=Durum
     rt3_agent_unpause=Duraklatılmayan Müşteri Temsilcileri
     rt3_agents=Müşteri Temsilcileri
     rt3_agents_on_inbound=Gelen çağrıdaki Müşteri Temsilcileri
     rt3_agents_on_outbound=Giden çağrıdaki Müşteri Temsilcileri
-  # 🔴 rt3_alarm_cell_value -> Cell Value
+    # 🔴 rt3_alarm_cell_value -> Cell Value
     ➡️ rt3_alarm_cell_value=
-  # 🔴 rt3_alarm_column_title -> Column
+    # 🔴 rt3_alarm_column_title -> Column
     ➡️ rt3_alarm_column_title=
-  # 🔴 rt3_all_agents -> All Agents
+    # 🔴 rt3_all_agents -> All Agents
     ➡️ rt3_all_agents=
     rt3_all_columns=Giden çağrıdaki Müşteri Temsilcileri
     rt3_all_queues=Tüm Sıralar
@@ -2277,7 +2277,7 @@ Do not change the items below:
     rt3_call=Çağrı
     rt3_call_action_title=Arama için eylem seçme
     rt3_call_actions=Çağrı Eylemleri
-  # 🔴 rt3_call_actions_subtitle -> Click on a call to select it
+    # 🔴 rt3_call_actions_subtitle -> Click on a call to select it
     ➡️ rt3_call_actions_subtitle=
     rt3_call_agent=Müşteri Temsilcisi
     rt3_call_alarm_red=Çağrı Kırmızı Alarm
@@ -2314,7 +2314,7 @@ Do not change the items below:
     rt3_category_multiitem=Karışık Parçalar
     rt3_category_table=Tablolar
     rt3_category_various=Çeşitli
-  # 🔴 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
+    # 🔴 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
     ➡️ rt3_change_queue_confirm=
     rt3_choose_action=Eylem Seç
     rt3_choose_monitor_mode=Devam eden çağrı izlemeyi başlatmak için lütfen yerel veya uzak dahilinizi girin.
@@ -2339,7 +2339,7 @@ Do not change the items below:
     rt3_comment=Açıklama
     rt3_configure_phone=Açıklama
     rt3_connection_error=Santral bağlantı hatası
-  # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
+    # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
     ➡️ rt3_connection_valid=
     rt3_cont=Kontaklar
     rt3_contph=CPH
@@ -2352,12 +2352,12 @@ Do not change the items below:
     rt3_current_agent=Geçerli müşteri temsilcisi:
     rt3_current_call=Geçerli Aramalar
     rt3_current_props=Geçerli destekler:
-  # 🔴 rt3_data_block -> Data Block
+    # 🔴 rt3_data_block -> Data Block
     ➡️ rt3_data_block=
-  # 🔴 rt3_data_block_chart -> Chart
+    # 🔴 rt3_data_block_chart -> Chart
     ➡️ rt3_data_block_chart=
     rt3_database=Geçerli destekler:
-  # 🔴 rt3_datablock -> Data Block
+    # 🔴 rt3_datablock -> Data Block
     ➡️ rt3_datablock=
     rt3_del=Görünüşü sil
     rt3_delete_current_wallboard_confirm=Mevcut duvarpanosu silinecek, devam edilsin mi?
@@ -2372,14 +2372,14 @@ Do not change the items below:
     rt3_edit_wallboard_cfg=Geçerli duvar panosunu düzenle ve görüntüle
     rt3_editwdg_title=Widget'ı düzenle
     rt3_empty_wlbd=Boş duvar panosu
-  # 🔴 rt3_enter_title -> Enter Title
+    # 🔴 rt3_enter_title -> Enter Title
     ➡️ rt3_enter_title=
     rt3_error_prefs_fetch=Boş duvar panosu
     rt3_error_saving=Duvar panosundan tasarruf edilirken hata oluştu
     rt3_error_saving_prefs=Duvar panosundan tasarruf edilirken hata oluştu
     rt3_error_saving_public_wb=Kullanıcı genel bir duvar panosunu kaydedemez
     rt3_error_saving_wb_missing_key=Kullanıcı bir duvar panosunu kaydedemedi, WALLBOARD_ADD kullanıcı anahtarı eksik
-  # 🔴 rt3_export_schema -> Export
+    # 🔴 rt3_export_schema -> Export
     ➡️ rt3_export_schema=
     rt3_extension=Dahili
     rt3_extension_info=Şu şekilde oturum açıldı:
@@ -2390,15 +2390,15 @@ Do not change the items below:
     rt3_green=yeşil
     rt3_hangup=Telefonu kapat
     rt3_hold=Tut
-  # 🔴 rt3_html -> HTML Page
+    # 🔴 rt3_html -> HTML Page
     ➡️ rt3_html=
     rt3_idle=Boş
     rt3_idle_alarm_red=Boş Kırmızı alarm
     rt3_idle_alarm_yel=Boş Sarı alarm
-  # 🔴 rt3_import_schema -> Import
+    # 🔴 rt3_import_schema -> Import
     ➡️ rt3_import_schema=
     rt3_in_ivr=IVR
-  # 🔴 rt3_incoming_call_from -> Incoming call from
+    # 🔴 rt3_incoming_call_from -> Incoming call from
     ➡️ rt3_incoming_call_from=
     rt3_insert_valid_value=IVR
     rt3_ispublic=Genel?
@@ -2418,11 +2418,11 @@ Do not change the items below:
     rt3_longest_wait=En uzun bekleme
     rt3_lost_attempts=Top kullanılmayan
     rt3_lost_prc=Kayıp
-  # 🔴 rt3_menu_delete -> Delete
+    # 🔴 rt3_menu_delete -> Delete
     ➡️ rt3_menu_delete=
-  # 🔴 rt3_menu_edit -> Edit
+    # 🔴 rt3_menu_edit -> Edit
     ➡️ rt3_menu_edit=
-  # 🔴 rt3_menu_share -> Share
+    # 🔴 rt3_menu_share -> Share
     ➡️ rt3_menu_share=
     rt3_missing_wdg=Eksik Wdg
     rt3_n_agents=S. Müşteri Temsilcileri
@@ -2489,9 +2489,9 @@ Do not change the items below:
     rt3_secondary_color=İkincil renk
     rt3_seconds=saniye
     rt3_security_key=Görünürlük anahtarı
-  # 🔴 rt3_select_chart -> Select a Chart...
+    # 🔴 rt3_select_chart -> Select a Chart...
     ➡️ rt3_select_chart=
-  # 🔴 rt3_select_db -> Select a DataBlock...
+    # 🔴 rt3_select_db -> Select a DataBlock...
     ➡️ rt3_select_db=
     rt3_select_wallboard=Lütfen bir duvar panosu seçiniz
     rt3_send_command=S Sütunlar
@@ -2531,7 +2531,7 @@ Do not change the items below:
     rt3_talk_yellow_alarm=Konuş Sarı Alarm
     rt3_talking=Konuş
     rt3_text=Metin
-  # 🔴 rt3_text_area_placeholder -> Insert text here
+    # 🔴 rt3_text_area_placeholder -> Insert text here
     ➡️ rt3_text_area_placeholder=
     rt3_title=Başlık
     rt3_tot_talk=Top. Konuşma
@@ -2545,7 +2545,7 @@ Do not change the items below:
     rt3_unregister_txt=Unregister
     rt3_unregistered=Bilinmeyen
     rt3_up=Yukarıya git
-  # 🔴 rt3_url -> Url
+    # 🔴 rt3_url -> Url
     ➡️ rt3_url=
     rt3_url_copied=Paylaşılabilir URL panoya kopyalandı
     rt3_user_prefs_saved=Paylaşılabilir URL panoya kopyalandı
@@ -2709,7 +2709,7 @@ Do not change the items below:
 
 Description of configuration properties
 
-  # 🔴 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
+    # 🔴 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
     ➡️ propedit_agent_max_qap_calls_desc=
     propedit_category_agentpage=Müşteri Temsilcisi sayfası
     propedit_category_engine=Hesaplama motoru
@@ -2722,13 +2722,13 @@ Description of configuration properties
     propedit_category_synchronizer=Gerçek zamanlı sayfa
     propedit_edit_label=Düzenle
     propedit_explore_label=Araştır
-  # 🔴 propedit_feature_agent_amo -> AMO
+    # 🔴 propedit_feature_agent_amo -> AMO
     ➡️ propedit_feature_agent_amo=
     propedit_feature_ap_backg=İsteğe bağlı arka planlar
     propedit_feature_ap_login_out=Giriş ve çıkış
     propedit_feature_ap_other=Sınıflandırılmamış
     propedit_feature_autoopenurl=Geriplanı Yenile
-  # 🔴 propedit_feature_engine_audit -> Auditing
+    # 🔴 propedit_feature_engine_audit -> Auditing
     ➡️ propedit_feature_engine_audit=
     propedit_feature_engine_other=Sınıflandırılmamış
     propedit_feature_engine_shortcalls=Toplam oturum süresi
@@ -2752,11 +2752,11 @@ Description of configuration properties
     propedit_key_agent_background_desc=Duvar panosu
     propedit_key_agent_outcome_size=Sonuç seçim listesinin maksimum yüksekliği
     propedit_key_agent_pause_dialout=Bekleme yaptıklarında müşteri temsilcilerini devre dışı bırak
-  # 🔴 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
+    # 🔴 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
     ➡️ propedit_key_agent_qap_cached_for_ms_desc=
-  # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
+    # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
     ➡️ propedit_key_amo_placed_call_timeout=
-  # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
+    # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
     ➡️ propedit_key_answer_src=
     propedit_key_atxfer=Katılımlı Aktarım Özellik Kodu
     propedit_key_atxferabort=Katılımlı Aktarım Özellik Kodunu İptal Et
@@ -2765,13 +2765,13 @@ Description of configuration properties
     propedit_key_atxferthreeway=Bekleme yaptıklarında müşteri temsilcilerini devre dışı bırak
     propedit_key_audio_html5player_desc=HTML5 ses oynatıcısını kullan
     propedit_key_audit_log_days=Denetim Günlüğü Temizliği sırasında günlüklerin kaç gün saklanacağı
-  # 🔴 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
+    # 🔴 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
     ➡️ propedit_key_audit_max_report_time=
-  # 🔴 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
+    # 🔴 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
     ➡️ propedit_key_audit_max_rows_fetched=
     propedit_key_blindxfer=Denetim Günlüğü Temizliği sırasında günlüklerin kaç gün saklanacağı
     propedit_key_cronjobs_localwebapp=Zamanlanmış İşler Yürütme için Temel URL
-  # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
+    # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
     ➡️ propedit_key_decodeknownnumbers=
     propedit_key_default_agentcanamendpause_desc=Bu özellik Evet olarak ayarlanırsa, aracılar geçerli duraklatma kodunu geriye dönük olarak değiştirerek değiştirebilir (bu, yeni duraklatma kodunun geçerli duraklama için eski kod yerine raporlarda görünmesini sağlar). Hayır olarak ayarlanırsa, aracılar duraklatma kodunu değiştirdiğinde, geçerli duraklamayı otomatik olarak sona erdirir ve yeni kodla yeni bir kod başlatır.
     propedit_key_default_alwaysLogonUnpaused_desc=Bir müşteri temsilcisi oturum açtığında, her durumda duraklamada olmayacak
@@ -2794,7 +2794,7 @@ Description of configuration properties
     propedit_key_default_lockedAgentPopupCode_desc=Kullanıcılar giriş / çıkış / duraklatma açılır pencerelerindeki kodlarını değiştirebilir mi?
     propedit_key_default_maxOngoingTalkTime_desc=Devam eden bir çağrının bu değeri aşan bir konuşma süresi varsa, bırakın. 0: yoksay
     propedit_key_default_maxOngoingWaitTime_desc=Devam eden bir çağrının bu değeri aşan bir bekleme süresi varsa, bırakın. 0: yoksay
-  # 🔴 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
+    # 🔴 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
     ➡️ propedit_key_default_maxrowspdf_desc=
     propedit_key_default_maxrowsxls_desc=Devam eden bir çağrının bu değeri aşan bir bekleme süresi varsa, bırakın. 0: yoksay
     propedit_key_default_openUrlInPopup_desc=CRM'yi ayrı bir pencerede aç (Simgeye gömme)
@@ -2820,7 +2820,7 @@ Description of configuration properties
     propedit_key_default_viewTechInfo_desc=Teknik Bilgi ve DBTest görünürlük
     propedit_key_default_webloaderpbx_desc=WebLoaderPBX'i (UniLoader) etkinleştirin
     propedit_key_default_wombatagentrecall_desc=Wombat'ın müşteri temsilcisi çağırma hizmetini etkinleştir
-  # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
+    # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
     ➡️ propedit_key_dialtone_src=
     propedit_key_directami_agent_desc=Bir müşteri temsilcisi kanalının olması gerektiği
     propedit_key_directami_cmdseparator_desc=Kullandığınız asterisk versiyonunda parametreler için ayırıcı kullanılmıştır. çok eski Asterisk sistemleri (pre-1.8) için virgül (",") varsayılanı  ("|") ile değiştirilmelidir.
@@ -2846,13 +2846,13 @@ Description of configuration properties
     propedit_key_enswitch_qpwrap_desc=Öncelikli WRAP ile giriş yapan bir müşteri temsilcisinin havuz önceliği (varsayılan: 6)
     propedit_key_enswitch_spyprefix_desc=The default prefix to use to initiate a chanspy (Default: *91)
     propedit_key_enswitch_verbose_desc=Tüm Enswitch etkileşimlerinin standart kayıtlara tam olarak girilip girilmeyeceği (varsayılan: yanlış)
-  # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
+    # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
     ➡️ propedit_key_extrabody=
-  # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
+    # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
     ➡️ propedit_key_hangup_src=
-  # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
+    # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
     ➡️ propedit_key_hiddennumberpolicy=
-  # 🔴 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Should be resized to 200 x 72.
+    # 🔴 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Should be resized to 200 x 72.
     ➡️ propedit_key_layout_logo_desc=
     propedit_key_noans_timeout=Yanıtlanmadıysa, gelen bir çağrının reddedildiği süre (saniye olarak). Varsayılan değer 60'tır.
     propedit_key_phone_iceservers=Kullanılacak ICE Sunucularının listesi.
@@ -2908,13 +2908,13 @@ Description of configuration properties
     propedit_key_realtime_waitAlarmOnLiveCalls_desc=Devam eden görüşmelerin bekleme süresinde alarmları kontrol et
     propedit_key_recovery_max=WebSocket yeniden bağlanma denemeleri arasında saniye cinsinden en fazla aralık. Varsayılan değer 30'dur.
     propedit_key_recovery_min=Devam eden görüşmelerin bekleme süresinde alarmları kontrol et
-  # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
+    # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
     ➡️ propedit_key_ringtone_src=
     propedit_key_sla_initial_interval_desc=SLA'nın ilk kısmı için aralık
     propedit_key_sla_interval_desc=SLA grafiği için zaman aralıkları ne kadar büyük?
     propedit_key_sla_max_initial_delay_desc=SLA hesaplaması için ilk zaman bandı
     propedit_key_sla_max_monitored_delay_desc=SLA grafiğinde gösterilen maksimum gecikme
-  # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
+    # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
     ➡️ propedit_key_smtpsubjectprefix=
     propedit_key_synchronizer_agents_file=Varsayılan agents.conf Dosyası
     propedit_key_synchronizer_queuelog_file=Varsayılan queue.log Dosyası
@@ -2935,7 +2935,7 @@ Description of configuration properties
     propedit_key_wb_recovery_max=WebSocket yeniden bağlanma denemeleri arasında saniye cinsinden en fazla aralık. Varsayılan değer 30'dur.
     propedit_key_wb_recovery_min=Devam eden görüşmelerin bekleme süresinde alarmları kontrol et
     propedit_key_wombat_password_desc=WombatDialer şifresi
-  # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
+    # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
     ➡️ propedit_key_wombat_prevdial_desc=
     propedit_key_wombat_url_desc=WombatDialer'in ana URL'si
     propedit_key_wombat_username_desc=WombatDialer kullanıcı adı
@@ -2950,13 +2950,13 @@ Description of configuration properties
     propedit_option_false=YANLIş
     propedit_option_freeswitch=FreeSwitch
     propedit_option_freeswitch_live=FreeSwitch - Canlı
-  # 🔴 propedit_option_hash -> hash
+    # 🔴 propedit_option_hash -> hash
     ➡️ propedit_option_hash=
-  # 🔴 propedit_option_hide -> hide
+    # 🔴 propedit_option_hide -> hide
     ➡️ propedit_option_hide=
-  # 🔴 propedit_option_hide3 -> hide3
+    # 🔴 propedit_option_hide3 -> hide3
     ➡️ propedit_option_hide3=
-  # 🔴 propedit_option_hide5 -> hide5
+    # 🔴 propedit_option_hide5 -> hide5
     ➡️ propedit_option_hide5=
     propedit_option_jsonapi=JSON API
     propedit_option_mirtapbx=YANLIŞ
@@ -2970,7 +2970,7 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Yalnızca istediğini seçme ile atanan kuyruklar
     propedit_option_realtime_dynamicLoginQueues_registered_label=Kayıtlı
     propedit_option_spy=Spy
-  # 🔴 propedit_option_stars -> stars
+    # 🔴 propedit_option_stars -> stars
     ➡️ propedit_option_stars=
     propedit_option_sync_mode_c=Yalnızca Oluştur
     propedit_option_sync_mode_c_d=Oluştur, Sil
@@ -3031,7 +3031,7 @@ Description of security keys
     keydesc_closecalls=Kullanıcı, Gerçek zamanlı veya geçmiş istatistik sayfasından sürekli çağrıları kapatabilir.
     keydesc_config=Kullanıcı otomatik yapılandırma sihirbazını başlatabilir (katılımlı ve katılımsız mod)
     keydesc_edit_cfg=Kullanıcı, local configuration.properties dosyasını düzenleyebilir
-  # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
+    # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     ➡️ keydesc_hidenumbers=
     keydesc_keyupdate=Kullanıcı yeni bir QueueMetrics aktivasyon anahtarı yükleyebilir
     keydesc_mon_audio=Kullanıcı gerçek zamanlı bir çağrıyı izleyebilir
@@ -3073,16 +3073,16 @@ Description of security keys
     keydesc_user=Bu anahtar geçerli herhangi bir kullanıcı tarafından Tutulmalıdır
     keydesc_usr_agent=Kullanıcı müşteri temsilcilerini düzenleyebilir
     keydesc_usr_agroups=Kullanıcı özel müşteri temsilcisi gruplarını düzenleyebilir
-  # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
+    # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
     ➡️ keydesc_usr_amo_edit=
     keydesc_usr_calltag=Kullanıcı arama etiketlerini düzenleyebilir
-  # 🔴 keydesc_usr_cases_edit -> User can edit Cases
+    # 🔴 keydesc_usr_cases_edit -> User can edit Cases
     ➡️ keydesc_usr_cases_edit=
     keydesc_usr_cbts=Kullanıcı bilinen CBT'lerin listesini düzenleyebilir
-  # 🔴 keydesc_usr_clients_edit -> User can edit Clients
+    # 🔴 keydesc_usr_clients_edit -> User can edit Clients
     ➡️ keydesc_usr_clients_edit=
     keydesc_usr_cronjobs_edit=Kullanıcı Zamanlanmış İşleri düzenleyebilir
-  # 🔴 keydesc_usr_customblocks_edit -> User can edit Custom Data Blocks
+    # 🔴 keydesc_usr_customblocks_edit -> User can edit Custom Data Blocks
     ➡️ keydesc_usr_customblocks_edit=
     keydesc_usr_diagnostics=Kullanıcı Zamanlanmış İşleri düzenleyebilir
     keydesc_usr_dnis=Kullanıcı bilinen DID / DNIS listesini düzenleyebilir
@@ -3121,7 +3121,7 @@ Description of security keys
     tsk_detail_history=Görev Geçmişi
     tsk_detail_info=Görev Bilgisi
     tsk_detail_lastUpdated=Son güncellenme
-  # 🔴 tsk_detail_message -> Message
+    # 🔴 tsk_detail_message -> Message
     ➡️ tsk_detail_message=
     tsk_detail_notes=Notlar
     tsk_detail_pfield=İşlem Alanı
@@ -3136,14 +3136,14 @@ Description of security keys
     tsk_disputed_qamsg=İtiraz Edilen QA Formu
     tsk_icon_detail=Detayları göster
     tsk_list_pfield=İşlem Alanı
-  # 🔴 tsk_list_tbl_agroup -> Group
+    # 🔴 tsk_list_tbl_agroup -> Group
     ➡️ tsk_list_tbl_agroup=
     tsk_list_tbl_desc=Açıklama
     tsk_list_tbl_expdate=Geçerlilik tarihi
     tsk_list_tbl_from=from
     tsk_list_tbl_id=Görev Id
     tsk_list_tbl_status=Durum
-  # 🔴 tsk_list_tbl_ticon -> Task
+    # 🔴 tsk_list_tbl_ticon -> Task
     ➡️ tsk_list_tbl_ticon=
     tsk_lists_dueend_date=Geçerlilik tarih bitiş dönemi
     tsk_lists_duestart_date=Geçerlilik tarih başlangıç dönemi
@@ -3225,51 +3225,51 @@ Other items
     agt_history_cbt=Gönderilen CBT:
     agt_history_groupchange=Gruba Katıl
     agt_history_mtn=Koçluk Gönder:
-  # 🔴 amo_close_info -> Close AMO Information
+    # 🔴 amo_close_info -> Close AMO Information
     ➡️ amo_close_info=
-  # 🔴 amo_dialer_state_completed -> Completed
+    # 🔴 amo_dialer_state_completed -> Completed
     ➡️ amo_dialer_state_completed=
-  # 🔴 amo_dialer_state_open -> Open
+    # 🔴 amo_dialer_state_open -> Open
     ➡️ amo_dialer_state_open=
-  # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
+    # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
     ➡️ amo_import_error_nonumber=
-  # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
+    # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
     ➡️ amo_import_error_norecords=
-  # 🔴 amo_last_info -> AMO Call Information
+    # 🔴 amo_last_info -> AMO Call Information
     ➡️ amo_last_info=
-  # 🔴 amo_list_state_open -> Open
+    # 🔴 amo_list_state_open -> Open
     ➡️ amo_list_state_open=
-  # 🔴 amo_list_state_paused -> Paused
+    # 🔴 amo_list_state_paused -> Paused
     ➡️ amo_list_state_paused=
-  # 🔴 amo_number_state_blklist -> Blacklisted
+    # 🔴 amo_number_state_blklist -> Blacklisted
     ➡️ amo_number_state_blklist=
-  # 🔴 amo_number_state_dialed -> Dialed
+    # 🔴 amo_number_state_dialed -> Dialed
     ➡️ amo_number_state_dialed=
-  # 🔴 amo_number_state_ko -> KO
+    # 🔴 amo_number_state_ko -> KO
     ➡️ amo_number_state_ko=
-  # 🔴 amo_number_state_ok -> OK
+    # 🔴 amo_number_state_ok -> OK
     ➡️ amo_number_state_ok=
-  # 🔴 amo_number_state_placed -> Placed
+    # 🔴 amo_number_state_placed -> Placed
     ➡️ amo_number_state_placed=
-  # 🔴 amo_number_state_reserved -> Reserved
+    # 🔴 amo_number_state_reserved -> Reserved
     ➡️ amo_number_state_reserved=
-  # 🔴 amo_number_state_todo -> To do
+    # 🔴 amo_number_state_todo -> To do
     ➡️ amo_number_state_todo=
-  # 🔴 amo_numbers_asteriskid -> Asterisk ID
+    # 🔴 amo_numbers_asteriskid -> Asterisk ID
     ➡️ amo_numbers_asteriskid=
-  # 🔴 amo_numbers_callstatus -> Status Code
+    # 🔴 amo_numbers_callstatus -> Status Code
     ➡️ amo_numbers_callstatus=
-  # 🔴 amo_numbers_date -> Date
+    # 🔴 amo_numbers_date -> Date
     ➡️ amo_numbers_date=
-  # 🔴 amo_numbers_reason -> Reason
+    # 🔴 amo_numbers_reason -> Reason
     ➡️ amo_numbers_reason=
-  # 🔴 amo_numbers_user -> User
+    # 🔴 amo_numbers_user -> User
     ➡️ amo_numbers_user=
-  # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
+    # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
     ➡️ amo_upload_numbers_error=
-  # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
+    # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
     ➡️ amo_upload_numbers_success=
-  # 🔴 at_invalid_agent -> Invalid Agent
+    # 🔴 at_invalid_agent -> Invalid Agent
     ➡️ at_invalid_agent=
     avg_time_decor_days=d
     bdcmsg_ForAgent=Müşteri Temsilcisi
@@ -3280,13 +3280,13 @@ Other items
     bdcmsg_Text=Mesaj
     bdcmsg_Time=Süre
     callselectordecor_select=Bu çağrıyı seç
-  # 🔴 ccase_case_name -> Case
+    # 🔴 ccase_case_name -> Case
     ➡️ ccase_case_name=
-  # 🔴 ccase_case_xref -> Ref. #
+    # 🔴 ccase_case_xref -> Ref. #
     ➡️ ccase_case_xref=
-  # 🔴 ccase_client_name -> Client
+    # 🔴 ccase_client_name -> Client
     ➡️ ccase_client_name=
-  # 🔴 ccase_client_xref -> Ref. #
+    # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=Yerleşim Kurallarını çoğalt
     cfgprops_file_saved=configuration.properties sayfası kaydedildi
@@ -3298,15 +3298,15 @@ Other items
     cfgprops_title_wizard=QueueMetrics sistem parametrelerini araştırın
     cfgprops_wrong_line=Sayfa kaydedilemedi - Satırda hatalı format
     comboex_findlabel=Bul
-  # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
+    # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     ➡️ common_jdecode_error=
-  # 🔴 common_jencode_error -> Error while encoding JSON value. Check the browser's console for more information.
+    # 🔴 common_jencode_error -> Error while encoding JSON value. Check the browser's console for more information.
     ➡️ common_jencode_error=
     cronjobs_export_jobs=İşleri Dışa Aktar
     cronjobs_maintenance_jobs=Bakım İşleri
-  # 🔴 customblk_id -> ID
+    # 🔴 customblk_id -> ID
     ➡️ customblk_id=
-  # 🔴 customblk_title -> Title
+    # 🔴 customblk_title -> Title
     ➡️ customblk_title=
     decoder_goal=Hedef
     decoder_queue=Havuz
@@ -3315,19 +3315,19 @@ Other items
     decorator_agentpaused=Durduruldu
     decorator_queue_sla=SLA
     default.show_agent_priority_reports=Raporlarda müşteri temsilci öncelik düzeyini göster.
-  # 🔴 dlr_last_pull -> Last Pull
+    # 🔴 dlr_last_pull -> Last Pull
     ➡️ dlr_last_pull=
-  # 🔴 dlr_last_pull_user -> Pull User
+    # 🔴 dlr_last_pull_user -> Pull User
     ➡️ dlr_last_pull_user=
-  # 🔴 dlr_list_state -> List State
+    # 🔴 dlr_list_state -> List State
     ➡️ dlr_list_state=
-  # 🔴 dlr_numbers_added -> Numbers Added
+    # 🔴 dlr_numbers_added -> Numbers Added
     ➡️ dlr_numbers_added=
-  # 🔴 dlr_numbers_completed -> Numbers Completed
+    # 🔴 dlr_numbers_completed -> Numbers Completed
     ➡️ dlr_numbers_completed=
-  # 🔴 dlr_numbers_pulled -> Numbers Pulled
+    # 🔴 dlr_numbers_pulled -> Numbers Pulled
     ➡️ dlr_numbers_pulled=
-  # 🔴 dlr_state -> Number State
+    # 🔴 dlr_state -> Number State
     ➡️ dlr_state=
     editor_all_reports=Tüm Raporlar
     editor_back=Geri
@@ -3363,44 +3363,44 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=XML olarak dışa aktar
-  # 🔴 grp_ivr -> Ivr Events
+    # 🔴 grp_ivr -> Ivr Events
     ➡️ grp_ivr=
-  # 🔴 grp_ivr_calls -> IVR calls
+    # 🔴 grp_ivr_calls -> IVR calls
     ➡️ grp_ivr_calls=
-  # 🔴 grp_ivr_short -> Ivr
+    # 🔴 grp_ivr_short -> Ivr
     ➡️ grp_ivr_short=
-  # 🔴 grp_lost_calls -> Lost Calls
+    # 🔴 grp_lost_calls -> Lost Calls
     ➡️ grp_lost_calls=
-  # 🔴 grp_lost_short -> Lost
+    # 🔴 grp_lost_short -> Lost
     ➡️ grp_lost_short=
-  # 🔴 grp_taken_calls -> Taken Calls
+    # 🔴 grp_taken_calls -> Taken Calls
     ➡️ grp_taken_calls=
-  # 🔴 grp_taken_short -> Taken
+    # 🔴 grp_taken_short -> Taken
     ➡️ grp_taken_short=
-  # 🔴 gui_fileuploader_msg -> Drop file or Browse
+    # 🔴 gui_fileuploader_msg -> Drop file or Browse
     ➡️ gui_fileuploader_msg=
-  # 🔴 gui_fileuploader_types -> Supported file formats
+    # 🔴 gui_fileuploader_types -> Supported file formats
     ➡️ gui_fileuploader_types=
-  # 🔴 gui_fileuploader_upload -> Upload files
+    # 🔴 gui_fileuploader_upload -> Upload files
     ➡️ gui_fileuploader_upload=
-  # 🔴 gui_fileuploader_uploaded -> Uploaded files
+    # 🔴 gui_fileuploader_uploaded -> Uploaded files
     ➡️ gui_fileuploader_uploaded=
-  # 🔴 gui_form_back -> Back
+    # 🔴 gui_form_back -> Back
     ➡️ gui_form_back=
-  # 🔴 gui_form_cancel -> Cancel
+    # 🔴 gui_form_cancel -> Cancel
     ➡️ gui_form_cancel=
-  # 🔴 gui_form_next -> Next
+    # 🔴 gui_form_next -> Next
     ➡️ gui_form_next=
-  # 🔴 gui_form_ok -> OK
+    # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
     home_add_infobox=Bilgi Kutusu Ekle
     home_configuration_agents=Müşteri Temsilcileri
-  # 🔴 home_configuration_cases -> Cases
+    # 🔴 home_configuration_cases -> Cases
     ➡️ home_configuration_cases=
     home_configuration_cbt=CBTs
-  # 🔴 home_configuration_clients -> Clients
+    # 🔴 home_configuration_clients -> Clients
     ➡️ home_configuration_clients=
-  # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
+    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
     ➡️ home_configuration_custom_blocks=
     home_configuration_dnis=DID /DNIS hatlar
     home_configuration_export_jobs=Rapor Çıktılarını Düzenle
@@ -3427,19 +3427,19 @@ Other items
     home_dbtest_ram_cache=RAM Cache
     home_dbtest_smtp=SMTP Test
     home_diagnostics_title=Tanılama
-  # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
+    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
     ➡️ home_error_fetch_admin_infoboxes=
-  # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
+    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
     ➡️ home_error_fetch_available_infoboxes=
-  # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
+    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
     ➡️ home_error_fetch_infoboxes=
-  # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
+    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
     ➡️ home_error_save_prefs=
     home_icon_subtitle=İkon Müşteri Temsilci Sayfası
     home_icon_title=İkon
     home_infobox_close=Kapat
     home_infobox_preview=Önizleme
-  # 🔴 home_infobox_private -> Private
+    # 🔴 home_infobox_private -> Private
     ➡️ home_infobox_private=
     home_infobox_quicklinks=Hızlı bağlantı
     home_news_subtitle=QueueMetrics En Son Haberler
@@ -3448,9 +3448,9 @@ Other items
     home_payroll_title=Bordro Raporu
     home_qa_subtitle=QA Raporu Başlat
     home_qa_title=QA Raporları
-  # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
+    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
     ➡️ home_qap_subtitle=
-  # 🔴 home_qap_title -> Agent Page
+    # 🔴 home_qap_title -> Agent Page
     ➡️ home_qap_title=
     home_realtime_subtitle=Canlı aramaların kapsamlı görünümü
     home_realtime_title=Gerçek-zaman
@@ -3489,43 +3489,43 @@ Other items
     keyinstall_popup_descr=Yeni aktivasyon kodunuzu kopyalayıp buraya yapıştırın
     keyinstall_popup_title=Yeni bir QueueMetrics anahtarı yükleyin
     keyinstall_popup_title_agaw=AGAW lisansı
-  # 🔴 ko_lst_n -> N Lost
+    # 🔴 ko_lst_n -> N Lost
     ➡️ ko_lst_n=
-  # 🔴 ko_lst_q -> Lost on Q
+    # 🔴 ko_lst_q -> Lost on Q
     ➡️ ko_lst_q=
-  # 🔴 ko_lst_t -> Last Lost
+    # 🔴 ko_lst_t -> Last Lost
     ➡️ ko_lst_t=
-  # 🔴 ko_recall_state -> Recall state
+    # 🔴 ko_recall_state -> Recall state
     ➡️ ko_recall_state=
-  # 🔴 ko_sho_n -> N Short
+    # 🔴 ko_sho_n -> N Short
     ➡️ ko_sho_n=
-  # 🔴 ko_sho_q -> Short.Q.
+    # 🔴 ko_sho_q -> Short.Q.
     ➡️ ko_sho_q=
-  # 🔴 ko_sho_t -> Short.Lst.
+    # 🔴 ko_sho_t -> Short.Lst.
     ➡️ ko_sho_t=
-  # 🔴 ko_succ_a -> Agent
+    # 🔴 ko_succ_a -> Agent
     ➡️ ko_succ_a=
-  # 🔴 ko_succ_n -> Successful
+    # 🔴 ko_succ_n -> Successful
     ➡️ ko_succ_n=
-  # 🔴 ko_succ_q -> Succ.Q.
+    # 🔴 ko_succ_q -> Succ.Q.
     ➡️ ko_succ_q=
-  # 🔴 ko_succ_t -> Succ.Last
+    # 🔴 ko_succ_t -> Succ.Last
     ➡️ ko_succ_t=
-  # 🔴 lgui_friday -> Friday
+    # 🔴 lgui_friday -> Friday
     ➡️ lgui_friday=
-  # 🔴 lgui_monday -> Monday
+    # 🔴 lgui_monday -> Monday
     ➡️ lgui_monday=
-  # 🔴 lgui_saturday -> Saturday
+    # 🔴 lgui_saturday -> Saturday
     ➡️ lgui_saturday=
-  # 🔴 lgui_selectall -> Select All
+    # 🔴 lgui_selectall -> Select All
     ➡️ lgui_selectall=
-  # 🔴 lgui_sunday -> Sunday
+    # 🔴 lgui_sunday -> Sunday
     ➡️ lgui_sunday=
-  # 🔴 lgui_thursday -> Thursday
+    # 🔴 lgui_thursday -> Thursday
     ➡️ lgui_thursday=
-  # 🔴 lgui_tuesday -> Tuesday
+    # 🔴 lgui_tuesday -> Tuesday
     ➡️ lgui_tuesday=
-  # 🔴 lgui_wednesday -> Wednesday
+    # 🔴 lgui_wednesday -> Wednesday
     ➡️ lgui_wednesday=
     licence_contributors=Katkıda Bulunanlar
     licence_firefox_client=Firefox istemci sürümü:
@@ -3537,19 +3537,19 @@ Other items
     licence_show_eula=Son kullanıcı lisans sözleşmesini göster
     licence_software_release=Yazılım sürümü:
     licence_website=Resmi QueueMetrics web sitesi bu adrestedir
-  # 🔴 list_amo_title -> AMO Campaigns
+    # 🔴 list_amo_title -> AMO Campaigns
     ➡️ list_amo_title=
     logon_ErrAlreadyPresent=Bu oturum açma veritabanında zaten mevcut
     logon_ErrClassNotFound=Sınıf bulunamadı
     logon_ErrHidden=Sınıf bulunamadı
-  # 🔴 logon_ErrIllegalSsoSecret -> Could not validate the SSO reply - please try again.
+    # 🔴 logon_ErrIllegalSsoSecret -> Could not validate the SSO reply - please try again.
     ➡️ logon_ErrIllegalSsoSecret=
     logon_ErrMoreThanOne=Aynı girişle birden fazla kullanıcı var
     logon_ErrNotFound=Kullanıcı bulunamadı
     logon_ErrUserDisabled=Kullanıcı giriş yapamıyor
     logon_ErrUserNotFound=Kullanıcı bulunamadı
     logon_ErrWrongPassword=Yanlış şifre
-  # 🔴 logon_ErrWrongSsoToken -> The user has an incorrect SSO token in their profile.
+    # 🔴 logon_ErrWrongSsoToken -> The user has an incorrect SSO token in their profile.
     ➡️ logon_ErrWrongSsoToken=
     logon_ErrWrongToken=Yanlış belirteç
     logon_ErrXmlConnect=XML-RPC auth kaynağına başvurma sorunları.
@@ -3557,108 +3557,108 @@ Other items
     logon_btn=Oturum aç
     logon_language=Lisan
     logon_login=Giriş
-  # 🔴 logon_microsoft -> Sign in with Microsoft
+    # 🔴 logon_microsoft -> Sign in with Microsoft
     ➡️ logon_microsoft=
     logon_pass=Şifre
-  # 🔴 logon_ssoLogInWith -> Or
+    # 🔴 logon_ssoLogInWith -> Or
     ➡️ logon_ssoLogInWith=
     logon_title=Kullanıcı Girişi
     lstcall_calllen=Süre
     lstcall_ivr=IVR
     lstcall_waitlen=Bekliyor
-  # 🔴 memo_add_new -> Create Memo
+    # 🔴 memo_add_new -> Create Memo
     ➡️ memo_add_new=
-  # 🔴 memo_category -> Filter by category
+    # 🔴 memo_category -> Filter by category
     ➡️ memo_category=
-  # 🔴 memo_details_caller -> Caller
+    # 🔴 memo_details_caller -> Caller
     ➡️ memo_details_caller=
-  # 🔴 memo_details_create -> Create Memo
+    # 🔴 memo_details_create -> Create Memo
     ➡️ memo_details_create=
-  # 🔴 memo_details_expireson -> Expires on
+    # 🔴 memo_details_expireson -> Expires on
     ➡️ memo_details_expireson=
-  # 🔴 memo_details_form -> Form
+    # 🔴 memo_details_form -> Form
     ➡️ memo_details_form=
-  # 🔴 memo_details_from -> FROM
+    # 🔴 memo_details_from -> FROM
     ➡️ memo_details_from=
-  # 🔴 memo_details_goback -> Back
+    # 🔴 memo_details_goback -> Back
     ➡️ memo_details_goback=
-  # 🔴 memo_details_info -> Memo Info
+    # 🔴 memo_details_info -> Memo Info
     ➡️ memo_details_info=
-  # 🔴 memo_details_queue -> Queue
+    # 🔴 memo_details_queue -> Queue
     ➡️ memo_details_queue=
-  # 🔴 memo_details_save -> Save
+    # 🔴 memo_details_save -> Save
     ➡️ memo_details_save=
-  # 🔴 memo_details_title -> Title
+    # 🔴 memo_details_title -> Title
     ➡️ memo_details_title=
-  # 🔴 memo_details_to -> TO
+    # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-  # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> type
     ➡️ memo_details_type=
-  # 🔴 memo_details_user_from -> From
+    # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
-  # 🔴 memo_details_user_to -> To
+    # 🔴 memo_details_user_to -> To
     ➡️ memo_details_user_to=
-  # 🔴 memo_details_validfrom -> Valid from
+    # 🔴 memo_details_validfrom -> Valid from
     ➡️ memo_details_validfrom=
-  # 🔴 memo_due -> Due Date
+    # 🔴 memo_due -> Due Date
     ➡️ memo_due=
-  # 🔴 memo_filter_all -> All Memos
+    # 🔴 memo_filter_all -> All Memos
     ➡️ memo_filter_all=
-  # 🔴 memo_filter_alldone -> All Memos done
+    # 🔴 memo_filter_alldone -> All Memos done
     ➡️ memo_filter_alldone=
-  # 🔴 memo_filter_alltbd -> All Memos to be done
+    # 🔴 memo_filter_alltbd -> All Memos to be done
     ➡️ memo_filter_alltbd=
-  # 🔴 memo_filter_completed -> Memos I completed
+    # 🔴 memo_filter_completed -> Memos I completed
     ➡️ memo_filter_completed=
-  # 🔴 memo_filter_error -> Error filtering Memos
+    # 🔴 memo_filter_error -> Error filtering Memos
     ➡️ memo_filter_error=
-  # 🔴 memo_filter_mygroup -> My group
+    # 🔴 memo_filter_mygroup -> My group
     ➡️ memo_filter_mygroup=
-  # 🔴 memo_filter_sent -> Memos I sent
+    # 🔴 memo_filter_sent -> Memos I sent
     ➡️ memo_filter_sent=
-  # 🔴 memo_filter_status -> Status
+    # 🔴 memo_filter_status -> Status
     ➡️ memo_filter_status=
-  # 🔴 memo_filter_tbd -> Memos to be done
+    # 🔴 memo_filter_tbd -> Memos to be done
     ➡️ memo_filter_tbd=
-  # 🔴 memo_from -> From
+    # 🔴 memo_from -> From
     ➡️ memo_from=
-  # 🔴 memo_group -> Group
+    # 🔴 memo_group -> Group
     ➡️ memo_group=
-  # 🔴 memo_id -> Id
+    # 🔴 memo_id -> Id
     ➡️ memo_id=
-  # 🔴 memo_items_found -> items found
+    # 🔴 memo_items_found -> items found
     ➡️ memo_items_found=
-  # 🔴 memo_list -> Memo List
+    # 🔴 memo_list -> Memo List
     ➡️ memo_list=
-  # 🔴 memo_list_norecords -> No Records
+    # 🔴 memo_list_norecords -> No Records
     ➡️ memo_list_norecords=
-  # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
+    # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
     ➡️ memo_loadbyid_error=
-  # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
+    # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
     ➡️ memo_loadbyid_missing=
-  # 🔴 memo_manager -> Manager
+    # 🔴 memo_manager -> Manager
     ➡️ memo_manager=
-  # 🔴 memo_message -> Message
+    # 🔴 memo_message -> Message
     ➡️ memo_message=
-  # 🔴 memo_related_to -> Related to
+    # 🔴 memo_related_to -> Related to
     ➡️ memo_related_to=
-  # 🔴 memo_status -> Status
+    # 🔴 memo_status -> Status
     ➡️ memo_status=
-  # 🔴 memo_tree_empty -> Empty
+    # 🔴 memo_tree_empty -> Empty
     ➡️ memo_tree_empty=
-  # 🔴 memo_type -> Type
+    # 🔴 memo_type -> Type
     ➡️ memo_type=
     menu_licence_page=Lisans Sayfası
     menu_user_page=Kullanıcı bilgisi:
-  # 🔴 notification_error -> Error
+    # 🔴 notification_error -> Error
     ➡️ notification_error=
-  # 🔴 notification_info -> Info
+    # 🔴 notification_info -> Info
     ➡️ notification_info=
-  # 🔴 notification_success -> Success
+    # 🔴 notification_success -> Success
     ➡️ notification_success=
-  # 🔴 notification_warning -> Warning
+    # 🔴 notification_warning -> Warning
     ➡️ notification_warning=
-  # 🔴 numberformat_defaultdigits -> 1
+    # 🔴 numberformat_defaultdigits -> 1
     ➡️ numberformat_defaultdigits=
     open_addremoveinfobox_menu=Bilgikutusu eklemek / kaldırmak için Bilgikutusu menüsünü açma
     open_settings_menu=Kullanıcı bilgisi:
@@ -3672,51 +3672,51 @@ Other items
     phone_agent=Müşteri Temsilcisi
     phone_anonymous=Anonymous
     phone_answer=Cevap
-  # 🔴 phone_attended -> Attended Transfer
+    # 🔴 phone_attended -> Attended Transfer
     ➡️ phone_attended=
     phone_attended_transfer=Att. Transfer
     phone_auto_answer_toggle_off=Otomatik Yanıt Devre Dışı
     phone_auto_answer_toggle_on=Otomatik Yanıt Etkin
     phone_basic_settings=Temel Ayarlar
-  # 🔴 phone_blind -> Blind Transfer
+    # 🔴 phone_blind -> Blind Transfer
     ➡️ phone_blind=
     phone_blind_transfer=Transfer
-  # 🔴 phone_call -> Call
+    # 🔴 phone_call -> Call
     ➡️ phone_call=
-  # 🔴 phone_calling -> Calling...
+    # 🔴 phone_calling -> Calling...
     ➡️ phone_calling=
     phone_cancel=İptal
     phone_close=Kapat
     phone_confirm=Onayla
     phone_connectionrecoverymax=Bağlantı kurtarma maks. aralığı
     phone_connectionrecoverymin=Bağlantı kurtarma min. aralığı
-  # 🔴 phone_debug -> Click to print debug information in the browser console.
+    # 🔴 phone_debug -> Click to print debug information in the browser console.
     ➡️ phone_debug=
     phone_dial=Ara
     phone_dialing=Arama...
-  # 🔴 phone_dialling -> Dialling...
+    # 🔴 phone_dialling -> Dialling...
     ➡️ phone_dialling=
     phone_displayname=Görünen Ad
     phone_hangup=Telefonu kapat
-  # 🔴 phone_http_error -> WebRTC Error.
+    # 🔴 phone_http_error -> WebRTC Error.
     ➡️ phone_http_error=
-  # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
     ➡️ phone_http_error_body=
     phone_iceservers=ICE Sunucuları
-  # 🔴 phone_incoming_call -> Incoming call...
+    # 🔴 phone_incoming_call -> Incoming call...
     ➡️ phone_incoming_call=
     phone_input_error=Giriş Hatası
     phone_join=Katıl
     phone_maxsessions=Max Oturum Sayısı
     phone_mute=Sessiz
-  # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
+    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     ➡️ phone_no_https=
-  # 🔴 phone_no_queue -> No Queue
+    # 🔴 phone_no_queue -> No Queue
     ➡️ phone_no_queue=
     phone_noanswertimeout=Yanıt Zaman Aşımı Yok
-  # 🔴 phone_not_avaialable -> Softphone Not Available.
+    # 🔴 phone_not_avaialable -> Softphone Not Available.
     ➡️ phone_not_avaialable=
-  # 🔴 phone_not_available -> Softphone not available.
+    # 🔴 phone_not_available -> Softphone not available.
     ➡️ phone_not_available=
     phone_password=Şifre
     phone_register=Kayıt ol
@@ -3728,11 +3728,11 @@ Other items
     phone_swap=Swap
     phone_toggle_hold=Bekle / Bırak
     phone_toggle_transfer=Transfer
-  # 🔴 phone_transfer -> Transfer
+    # 🔴 phone_transfer -> Transfer
     ➡️ phone_transfer=
     phone_unmute=Sesi aç
     phone_unregistered=Bilinmeyen
-  # 🔴 phone_update_settings -> Update Settings
+    # 🔴 phone_update_settings -> Update Settings
     ➡️ phone_update_settings=
     phone_username=Kullanıcı Adı
     phone_websocketurl=Bekliyor
@@ -3828,23 +3828,23 @@ Other items
     prl_time_start_time_check=Lütfen girilen başlangıç saatini kontrol edin.
     prl_time_wrong_period=Belirtilen süre geçerli değil. Başlangıç zamanından daha ileri bir tarih beklemekteyiz.
     prl_total_duration=Toplam süre
-  # 🔴 pwres_change -> Set new password
+    # 🔴 pwres_change -> Set new password
     ➡️ pwres_change=
-  # 🔴 pwres_changed_successfully -> The password was reset successfully. Please log on now.
+    # 🔴 pwres_changed_successfully -> The password was reset successfully. Please log on now.
     ➡️ pwres_changed_successfully=
-  # 🔴 pwres_expired_link -> The link you used has expired. Please ask for a new one.
+    # 🔴 pwres_expired_link -> The link you used has expired. Please ask for a new one.
     ➡️ pwres_expired_link=
-  # 🔴 pwres_no_resettable_user -> The password reset link is invalid or it has already been used once.
+    # 🔴 pwres_no_resettable_user -> The password reset link is invalid or it has already been used once.
     ➡️ pwres_no_resettable_user=
-  # 🔴 pwres_pass -> New password
+    # 🔴 pwres_pass -> New password
     ➡️ pwres_pass=
-  # 🔴 pwres_passwords_dont_match -> The passwords you have entered do not match. Please try again.
+    # 🔴 pwres_passwords_dont_match -> The passwords you have entered do not match. Please try again.
     ➡️ pwres_passwords_dont_match=
-  # 🔴 pwres_repeat_pass -> Repeat new password
+    # 🔴 pwres_repeat_pass -> Repeat new password
     ➡️ pwres_repeat_pass=
-  # 🔴 pwres_reset_password -> Reset the password of
+    # 🔴 pwres_reset_password -> Reset the password of
     ➡️ pwres_reset_password=
-  # 🔴 pwres_unknown_link -> The provided password reset link is invalid.
+    # 🔴 pwres_unknown_link -> The provided password reset link is invalid.
     ➡️ pwres_unknown_link=
     qagrader_addedbygrtype=Tarafından eklendi
     qagrader_agent=Müşteri Temsilcisi
@@ -3861,485 +3861,485 @@ Other items
     qagrader_time=Süre
     qagrader_wait=Bekle
     qagrader_wrongurl=Belirtilen URL geçerli değil. Lütfen kontrol edip tekrar deneyin.
-  # 🔴 qap_action_case -> Assign to Case
+    # 🔴 qap_action_case -> Assign to Case
     ➡️ qap_action_case=
-  # 🔴 qap_action_clicktodial -> Click to dial
+    # 🔴 qap_action_clicktodial -> Click to dial
     ➡️ qap_action_clicktodial=
-  # 🔴 qap_action_client -> Assign to Client
+    # 🔴 qap_action_client -> Assign to Client
     ➡️ qap_action_client=
-  # 🔴 qap_action_crm -> Open CRM
+    # 🔴 qap_action_crm -> Open CRM
     ➡️ qap_action_crm=
-  # 🔴 qap_action_flag -> Flag Interaction
+    # 🔴 qap_action_flag -> Flag Interaction
     ➡️ qap_action_flag=
-  # 🔴 qap_action_hangup -> Hangup Call
+    # 🔴 qap_action_hangup -> Hangup Call
     ➡️ qap_action_hangup=
-  # 🔴 qap_action_label -> Label Interaction
+    # 🔴 qap_action_label -> Label Interaction
     ➡️ qap_action_label=
-  # 🔴 qap_action_monitor -> Monitor Call
+    # 🔴 qap_action_monitor -> Monitor Call
     ➡️ qap_action_monitor=
-  # 🔴 qap_action_qa -> QA Forms
+    # 🔴 qap_action_qa -> QA Forms
     ➡️ qap_action_qa=
-  # 🔴 qap_action_recall -> New Recall Note
+    # 🔴 qap_action_recall -> New Recall Note
     ➡️ qap_action_recall=
-  # 🔴 qap_action_transfer -> Transfer Call
+    # 🔴 qap_action_transfer -> Transfer Call
     ➡️ qap_action_transfer=
-  # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
+    # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
     ➡️ qap_action_wbtrecall=
-  # 🔴 qap_addmember_selected -> Join selected queues.
+    # 🔴 qap_addmember_selected -> Join selected queues.
     ➡️ qap_addmember_selected=
-  # 🔴 qap_agent_code -> Agent Code
+    # 🔴 qap_agent_code -> Agent Code
     ➡️ qap_agent_code=
-  # 🔴 qap_agent_dialout_error -> Error while performing Agent Dialout.
+    # 🔴 qap_agent_dialout_error -> Error while performing Agent Dialout.
     ➡️ qap_agent_dialout_error=
-  # 🔴 qap_agent_extension -> Agent Extension
+    # 🔴 qap_agent_extension -> Agent Extension
     ➡️ qap_agent_extension=
-  # 🔴 qap_agent_notifications_error -> Error while fetching agent notifications.
+    # 🔴 qap_agent_notifications_error -> Error while fetching agent notifications.
     ➡️ qap_agent_notifications_error=
-  # 🔴 qap_agent_settings_error -> Error while fetching agent settings.
+    # 🔴 qap_agent_settings_error -> Error while fetching agent settings.
     ➡️ qap_agent_settings_error=
-  # 🔴 qap_agent_status_error -> Error while fetching agent status.
+    # 🔴 qap_agent_status_error -> Error while fetching agent status.
     ➡️ qap_agent_status_error=
-  # 🔴 qap_amo -> AMO
+    # 🔴 qap_amo -> AMO
     ➡️ qap_amo=
-  # 🔴 qap_amo_attributes -> Attributes
+    # 🔴 qap_amo_attributes -> Attributes
     ➡️ qap_amo_attributes=
-  # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
+    # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
     ➡️ qap_amo_cannot=
-  # 🔴 qap_amo_error -> Error reserving AMO call:
+    # 🔴 qap_amo_error -> Error reserving AMO call:
     ➡️ qap_amo_error=
-  # 🔴 qap_amo_list -> List Name
+    # 🔴 qap_amo_list -> List Name
     ➡️ qap_amo_list=
-  # 🔴 qap_amo_number -> Number
+    # 🔴 qap_amo_number -> Number
     ➡️ qap_amo_number=
-  # 🔴 qap_amo_queue -> Queue Name
+    # 🔴 qap_amo_queue -> Queue Name
     ➡️ qap_amo_queue=
-  # 🔴 qap_amo_recall -> Recall
+    # 🔴 qap_amo_recall -> Recall
     ➡️ qap_amo_recall=
-  # 🔴 qap_amo_request -> Request AMO Call
+    # 🔴 qap_amo_request -> Request AMO Call
     ➡️ qap_amo_request=
-  # 🔴 qap_amo_reserved -> Call successfully Reserved.
+    # 🔴 qap_amo_reserved -> Call successfully Reserved.
     ➡️ qap_amo_reserved=
-  # 🔴 qap_amo_terminated -> There are no more available AMO calls.
+    # 🔴 qap_amo_terminated -> There are no more available AMO calls.
     ➡️ qap_amo_terminated=
-  # 🔴 qap_assign_case -> Assign Interaction to Case
+    # 🔴 qap_assign_case -> Assign Interaction to Case
     ➡️ qap_assign_case=
-  # 🔴 qap_assign_client -> Assign Interaction to Client
+    # 🔴 qap_assign_client -> Assign Interaction to Client
     ➡️ qap_assign_client=
-  # 🔴 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
+    # 🔴 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
     ➡️ qap_assign_interaction_error=
-  # 🔴 qap_calendar_add -> Add New
+    # 🔴 qap_calendar_add -> Add New
     ➡️ qap_calendar_add=
-  # 🔴 qap_call_associated_to_case -> Call was associated to case
+    # 🔴 qap_call_associated_to_case -> Call was associated to case
     ➡️ qap_call_associated_to_case=
-  # 🔴 qap_case -> Case
+    # 🔴 qap_case -> Case
     ➡️ qap_case=
-  # 🔴 qap_case_add -> Add New Case
+    # 🔴 qap_case_add -> Add New Case
     ➡️ qap_case_add=
-  # 🔴 qap_case_calls -> ALL CALLS
+    # 🔴 qap_case_calls -> ALL CALLS
     ➡️ qap_case_calls=
-  # 🔴 qap_case_closed -> Closed
+    # 🔴 qap_case_closed -> Closed
     ➡️ qap_case_closed=
-  # 🔴 qap_case_comments -> Comments
+    # 🔴 qap_case_comments -> Comments
     ➡️ qap_case_comments=
-  # 🔴 qap_case_contact -> Contact
+    # 🔴 qap_case_contact -> Contact
     ➡️ qap_case_contact=
-  # 🔴 qap_case_details -> Case Details
+    # 🔴 qap_case_details -> Case Details
     ➡️ qap_case_details=
-  # 🔴 qap_case_email -> Email
+    # 🔴 qap_case_email -> Email
     ➡️ qap_case_email=
-  # 🔴 qap_case_merged -> Merged
+    # 🔴 qap_case_merged -> Merged
     ➡️ qap_case_merged=
-  # 🔴 qap_case_notes -> Notes
+    # 🔴 qap_case_notes -> Notes
     ➡️ qap_case_notes=
-  # 🔴 qap_case_open -> Open
+    # 🔴 qap_case_open -> Open
     ➡️ qap_case_open=
-  # 🔴 qap_case_title -> Title
+    # 🔴 qap_case_title -> Title
     ➡️ qap_case_title=
-  # 🔴 qap_case_unconfirmed -> Unconfirmed
+    # 🔴 qap_case_unconfirmed -> Unconfirmed
     ➡️ qap_case_unconfirmed=
-  # 🔴 qap_case_xref -> XREF
+    # 🔴 qap_case_xref -> XREF
     ➡️ qap_case_xref=
-  # 🔴 qap_cases_placeholder_search -> Search for any Case here
+    # 🔴 qap_cases_placeholder_search -> Search for any Case here
     ➡️ qap_cases_placeholder_search=
-  # 🔴 qap_choose_server_title -> Choose a Server
+    # 🔴 qap_choose_server_title -> Choose a Server
     ➡️ qap_choose_server_title=
-  # 🔴 qap_client -> Client
+    # 🔴 qap_client -> Client
     ➡️ qap_client=
-  # 🔴 qap_client_contact -> Contact
+    # 🔴 qap_client_contact -> Contact
     ➡️ qap_client_contact=
-  # 🔴 qap_client_email -> Email
+    # 🔴 qap_client_email -> Email
     ➡️ qap_client_email=
-  # 🔴 qap_client_externalRef -> External Reference
+    # 🔴 qap_client_externalRef -> External Reference
     ➡️ qap_client_externalRef=
-  # 🔴 qap_client_key -> Visibility Key
+    # 🔴 qap_client_key -> Visibility Key
     ➡️ qap_client_key=
-  # 🔴 qap_client_name -> Name
+    # 🔴 qap_client_name -> Name
     ➡️ qap_client_name=
-  # 🔴 qap_client_notes -> Notes
+    # 🔴 qap_client_notes -> Notes
     ➡️ qap_client_notes=
-  # 🔴 qap_client_xref -> XREF
+    # 🔴 qap_client_xref -> XREF
     ➡️ qap_client_xref=
-  # 🔴 qap_clients_add -> Add New Client
+    # 🔴 qap_clients_add -> Add New Client
     ➡️ qap_clients_add=
-  # 🔴 qap_clients_placeholder_search -> Search for any Client here
+    # 🔴 qap_clients_placeholder_search -> Search for any Client here
     ➡️ qap_clients_placeholder_search=
-  # 🔴 qap_control_addall -> Join selected
+    # 🔴 qap_control_addall -> Join selected
     ➡️ qap_control_addall=
-  # 🔴 qap_control_add -> Join
+    # 🔴 qap_control_add -> Join
     ➡️ qap_control_add=
-  # 🔴 qap_control_remove -> Leave
+    # 🔴 qap_control_remove -> Leave
     ➡️ qap_control_remove=
-  # 🔴 qap_control_all -> All
+    # 🔴 qap_control_all -> All
     ➡️ qap_control_all=
-  # 🔴 qap_control_amend -> Amend
+    # 🔴 qap_control_amend -> Amend
     ➡️ qap_control_amend=
-  # 🔴 qap_control_assigned -> Assigned
+    # 🔴 qap_control_assigned -> Assigned
     ➡️ qap_control_assigned=
-  # 🔴 qap_control_change -> Change
+    # 🔴 qap_control_change -> Change
     ➡️ qap_control_change=
-  # 🔴 qap_control_composition -> Composition
+    # 🔴 qap_control_composition -> Composition
     ➡️ qap_control_composition=
-  # 🔴 qap_control_name -> Name
+    # 🔴 qap_control_name -> Name
     ➡️ qap_control_name=
-  # 🔴 qap_control_pause -> Pause
+    # 🔴 qap_control_pause -> Pause
     ➡️ qap_control_pause=
-  # 🔴 qap_control_priority -> Priority
+    # 🔴 qap_control_priority -> Priority
     ➡️ qap_control_priority=
-  # 🔴 qap_control_removeall -> Leave selected
+    # 🔴 qap_control_removeall -> Leave selected
     ➡️ qap_control_removeall=
-  # 🔴 qap_control_selectall -> Select all
+    # 🔴 qap_control_selectall -> Select all
     ➡️ qap_control_selectall=
-  # 🔴 qap_control_timer -> Timer
+    # 🔴 qap_control_timer -> Timer
     ➡️ qap_control_timer=
-  # 🔴 qap_control_unpause -> Unpause
+    # 🔴 qap_control_unpause -> Unpause
     ➡️ qap_control_unpause=
-  # 🔴 qap_create_note_error -> Error while creating a new Note.
+    # 🔴 qap_create_note_error -> Error while creating a new Note.
     ➡️ qap_create_note_error=
-  # 🔴 qap_crm_links -> CRM Popup Links
+    # 🔴 qap_crm_links -> CRM Popup Links
     ➡️ qap_crm_links=
-  # 🔴 qap_daily_idle -> Idle time
+    # 🔴 qap_daily_idle -> Idle time
     ➡️ qap_daily_idle=
-  # 🔴 qap_daily_lost -> Lost Calls
+    # 🔴 qap_daily_lost -> Lost Calls
     ➡️ qap_daily_lost=
-  # 🔴 qap_daily_lostatt -> Lost Attempts
+    # 🔴 qap_daily_lostatt -> Lost Attempts
     ➡️ qap_daily_lostatt=
-  # 🔴 qap_daily_pause -> Pause time
+    # 🔴 qap_daily_pause -> Pause time
     ➡️ qap_daily_pause=
-  # 🔴 qap_daily_stats -> Daily Stats
+    # 🔴 qap_daily_stats -> Daily Stats
     ➡️ qap_daily_stats=
-  # 🔴 qap_daily_taken -> Taken Calls
+    # 🔴 qap_daily_taken -> Taken Calls
     ➡️ qap_daily_taken=
-  # 🔴 qap_daily_talk -> Talk time
+    # 🔴 qap_daily_talk -> Talk time
     ➡️ qap_daily_talk=
-  # 🔴 qap_debug_api -> API
+    # 🔴 qap_debug_api -> API
     ➡️ qap_debug_api=
-  # 🔴 qap_debug_context -> Context
+    # 🔴 qap_debug_context -> Context
     ➡️ qap_debug_context=
-  # 🔴 qap_debug_title -> Debug
+    # 🔴 qap_debug_title -> Debug
     ➡️ qap_debug_title=
-  # 🔴 qap_details_attempts -> Attempts
+    # 🔴 qap_details_attempts -> Attempts
     ➡️ qap_details_attempts=
-  # 🔴 qap_details_caller -> Caller
+    # 🔴 qap_details_caller -> Caller
     ➡️ qap_details_caller=
-  # 🔴 qap_details_direction -> Direction
+    # 🔴 qap_details_direction -> Direction
     ➡️ qap_details_direction=
-  # 🔴 qap_details_dnis -> Dnis
+    # 🔴 qap_details_dnis -> Dnis
     ➡️ qap_details_dnis=
-  # 🔴 qap_details_entered -> Entered
+    # 🔴 qap_details_entered -> Entered
     ➡️ qap_details_entered=
-  # 🔴 qap_details_features -> Features
+    # 🔴 qap_details_features -> Features
     ➡️ qap_details_features=
-  # 🔴 qap_details_ivrpath -> IVR Path
+    # 🔴 qap_details_ivrpath -> IVR Path
     ➡️ qap_details_ivrpath=
-  # 🔴 qap_details_outcome -> Outcome
+    # 🔴 qap_details_outcome -> Outcome
     ➡️ qap_details_outcome=
-  # 🔴 qap_details_position -> Position
+    # 🔴 qap_details_position -> Position
     ➡️ qap_details_position=
-  # 🔴 qap_details_queue -> Queue
+    # 🔴 qap_details_queue -> Queue
     ➡️ qap_details_queue=
-  # 🔴 qap_details_started -> Started
+    # 🔴 qap_details_started -> Started
     ➡️ qap_details_started=
-  # 🔴 qap_details_tag -> Tag
+    # 🔴 qap_details_tag -> Tag
     ➡️ qap_details_tag=
-  # 🔴 qap_details_talk -> Talk Time
+    # 🔴 qap_details_talk -> Talk Time
     ➡️ qap_details_talk=
-  # 🔴 qap_details_terminated -> Terminated
+    # 🔴 qap_details_terminated -> Terminated
     ➡️ qap_details_terminated=
-  # 🔴 qap_details_transferto -> Transfer To
+    # 🔴 qap_details_transferto -> Transfer To
     ➡️ qap_details_transferto=
-  # 🔴 qap_details_uniqueid -> Unique ID
+    # 🔴 qap_details_uniqueid -> Unique ID
     ➡️ qap_details_uniqueid=
-  # 🔴 qap_details_url -> URL
+    # 🔴 qap_details_url -> URL
     ➡️ qap_details_url=
-  # 🔴 qap_details_variables -> Variables
+    # 🔴 qap_details_variables -> Variables
     ➡️ qap_details_variables=
-  # 🔴 qap_details_wait -> Wait Time
+    # 🔴 qap_details_wait -> Wait Time
     ➡️ qap_details_wait=
-  # 🔴 qap_dial -> Dial
+    # 🔴 qap_dial -> Dial
     ➡️ qap_dial=
-  # 🔴 qap_diff_join -> Queues joined
+    # 🔴 qap_diff_join -> Queues joined
     ➡️ qap_diff_join=
-  # 🔴 qap_diff_leave -> Queues left
+    # 🔴 qap_diff_leave -> Queues left
     ➡️ qap_diff_leave=
-  # 🔴 qap_diff_paused -> Agent Paused
+    # 🔴 qap_diff_paused -> Agent Paused
     ➡️ qap_diff_paused=
-  # 🔴 qap_edit_cases -> Edit Case
+    # 🔴 qap_edit_cases -> Edit Case
     ➡️ qap_edit_cases=
-  # 🔴 qap_edit_client -> Edit Client
+    # 🔴 qap_edit_client -> Edit Client
     ➡️ qap_edit_client=
-  # 🔴 qap_edit_note -> Edit Note
+    # 🔴 qap_edit_note -> Edit Note
     ➡️ qap_edit_note=
-  # 🔴 qap_empty_note -> This note is empty.
+    # 🔴 qap_empty_note -> This note is empty.
     ➡️ qap_empty_note=
-  # 🔴 qap_end_work -> End Work
+    # 🔴 qap_end_work -> End Work
     ➡️ qap_end_work=
-  # 🔴 qap_entity_placeholder -> Type to search...
+    # 🔴 qap_entity_placeholder -> Type to search...
     ➡️ qap_entity_placeholder=
-  # 🔴 qap_fetch_notifications_error -> Error while fetching User's notifications.
+    # 🔴 qap_fetch_notifications_error -> Error while fetching User's notifications.
     ➡️ qap_fetch_notifications_error=
-  # 🔴 qap_filters_main -> Main
+    # 🔴 qap_filters_main -> Main
     ➡️ qap_filters_main=
-  # 🔴 qap_filters_priority -> Priority
+    # 🔴 qap_filters_priority -> Priority
     ➡️ qap_filters_priority=
-  # 🔴 qap_filters_queue -> Queue
+    # 🔴 qap_filters_queue -> Queue
     ➡️ qap_filters_queue=
-  # 🔴 qap_filters_spill -> Spill
+    # 🔴 qap_filters_spill -> Spill
     ➡️ qap_filters_spill=
-  # 🔴 qap_filters_status -> Status
+    # 🔴 qap_filters_status -> Status
     ➡️ qap_filters_status=
-  # 🔴 qap_filters_type -> Type
+    # 🔴 qap_filters_type -> Type
     ➡️ qap_filters_type=
-  # 🔴 qap_filters_unk -> Unknown
+    # 🔴 qap_filters_unk -> Unknown
     ➡️ qap_filters_unk=
-  # 🔴 qap_filters_wrap -> Wrap
+    # 🔴 qap_filters_wrap -> Wrap
     ➡️ qap_filters_wrap=
-  # 🔴 qap_find_cases -> Find your Cases
+    # 🔴 qap_find_cases -> Find your Cases
     ➡️ qap_find_cases=
-  # 🔴 qap_find_clients -> Find your Clients
+    # 🔴 qap_find_clients -> Find your Clients
     ➡️ qap_find_clients=
-  # 🔴 qap_form_features -> Feature Codes
+    # 🔴 qap_form_features -> Feature Codes
     ➡️ qap_form_features=
-  # 🔴 qap_form_outcome -> Outcome
+    # 🔴 qap_form_outcome -> Outcome
     ➡️ qap_form_outcome=
-  # 🔴 qap_idle_time -> Idle Time
+    # 🔴 qap_idle_time -> Idle Time
     ➡️ qap_idle_time=
-  # 🔴 qap_interaction_caller -> Caller
+    # 🔴 qap_interaction_caller -> Caller
     ➡️ qap_interaction_caller=
-  # 🔴 qap_interaction_case -> Case
+    # 🔴 qap_interaction_case -> Case
     ➡️ qap_interaction_case=
-  # 🔴 qap_interaction_client -> Client
+    # 🔴 qap_interaction_client -> Client
     ➡️ qap_interaction_client=
-  # 🔴 qap_interaction_details -> Details
+    # 🔴 qap_interaction_details -> Details
     ➡️ qap_interaction_details=
-  # 🔴 qap_interaction_details_title -> Call Details
+    # 🔴 qap_interaction_details_title -> Call Details
     ➡️ qap_interaction_details_title=
-  # 🔴 qap_interaction_duration -> Duration
+    # 🔴 qap_interaction_duration -> Duration
     ➡️ qap_interaction_duration=
-  # 🔴 qap_interaction_outcome -> Outcome
+    # 🔴 qap_interaction_outcome -> Outcome
     ➡️ qap_interaction_outcome=
-  # 🔴 qap_interaction_queue -> Queue
+    # 🔴 qap_interaction_queue -> Queue
     ➡️ qap_interaction_queue=
-  # 🔴 qap_interaction_start -> Start
+    # 🔴 qap_interaction_start -> Start
     ➡️ qap_interaction_start=
-  # 🔴 qap_interaction_tag -> Tag
+    # 🔴 qap_interaction_tag -> Tag
     ➡️ qap_interaction_tag=
-  # 🔴 qap_interaction_transfer -> Transfer
+    # 🔴 qap_interaction_transfer -> Transfer
     ➡️ qap_interaction_transfer=
-  # 🔴 qap_interaction_url -> URL
+    # 🔴 qap_interaction_url -> URL
     ➡️ qap_interaction_url=
-  # 🔴 qap_interaction_variables -> Variables
+    # 🔴 qap_interaction_variables -> Variables
     ➡️ qap_interaction_variables=
-  # 🔴 qap_interaction_waiting -> Waiting
+    # 🔴 qap_interaction_waiting -> Waiting
     ➡️ qap_interaction_waiting=
-  # 🔴 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
+    # 🔴 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
     ➡️ qap_invalid_outcome=
-  # 🔴 qap_join -> Join
+    # 🔴 qap_join -> Join
     ➡️ qap_join=
-  # 🔴 qap_label_freetext -> Free Text
+    # 🔴 qap_label_freetext -> Free Text
     ➡️ qap_label_freetext=
-  # 🔴 qap_leave -> Leave
+    # 🔴 qap_leave -> Leave
     ➡️ qap_leave=
-  # 🔴 qap_loading -> Loading...
+    # 🔴 qap_loading -> Loading...
     ➡️ qap_loading=
-  # 🔴 qap_memos -> Memos
+    # 🔴 qap_memos -> Memos
     ➡️ qap_memos=
-  # 🔴 qap_missing_cases_key -> You don't have permission to create new Cases.
+    # 🔴 qap_missing_cases_key -> You don't have permission to create new Cases.
     ➡️ qap_missing_cases_key=
-  # 🔴 qap_missing_clients_key -> You don't have permission to create new Clients.
+    # 🔴 qap_missing_clients_key -> You don't have permission to create new Clients.
     ➡️ qap_missing_clients_key=
-  # 🔴 qap_nav_calendar -> Calendar
+    # 🔴 qap_nav_calendar -> Calendar
     ➡️ qap_nav_calendar=
-  # 🔴 qap_nav_cases -> Cases
+    # 🔴 qap_nav_cases -> Cases
     ➡️ qap_nav_cases=
-  # 🔴 qap_nav_clients -> Clients
+    # 🔴 qap_nav_clients -> Clients
     ➡️ qap_nav_clients=
-  # 🔴 qap_nav_control -> Control
+    # 🔴 qap_nav_control -> Control
     ➡️ qap_nav_control=
-  # 🔴 qap_nav_debug -> Debug
+    # 🔴 qap_nav_debug -> Debug
     ➡️ qap_nav_debug=
-  # 🔴 qap_nav_dialout -> Dialout
+    # 🔴 qap_nav_dialout -> Dialout
     ➡️ qap_nav_dialout=
-  # 🔴 qap_nav_home -> Home
+    # 🔴 qap_nav_home -> Home
     ➡️ qap_nav_home=
-  # 🔴 qap_nav_interactions -> Interactions
+    # 🔴 qap_nav_interactions -> Interactions
     ➡️ qap_nav_interactions=
-  # 🔴 qap_nav_overview -> Overview
+    # 🔴 qap_nav_overview -> Overview
     ➡️ qap_nav_overview=
-  # 🔴 qap_nav_qa -> QA
+    # 🔴 qap_nav_qa -> QA
     ➡️ qap_nav_qa=
-  # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
+    # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
     ➡️ qap_nav_wombat=
-  # 🔴 qap_new_memo -> Create linked Memo
+    # 🔴 qap_new_memo -> Create linked Memo
     ➡️ qap_new_memo=
-  # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
+    # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
     ➡️ qap_no_cases=
-  # 🔴 qap_no_clients -> No Clients found for the current search, please try again.
+    # 🔴 qap_no_clients -> No Clients found for the current search, please try again.
     ➡️ qap_no_clients=
-  # 🔴 qap_none -> None
+    # 🔴 qap_none -> None
     ➡️ qap_none=
-  # 🔴 qap_note_actions -> Actions
+    # 🔴 qap_note_actions -> Actions
     ➡️ qap_note_actions=
-  # 🔴 qap_note_complete -> Complete
+    # 🔴 qap_note_complete -> Complete
     ➡️ qap_note_complete=
-  # 🔴 qap_note_dispute -> Dispute
+    # 🔴 qap_note_dispute -> Dispute
     ➡️ qap_note_dispute=
-  # 🔴 qap_note_empty -> Empty
+    # 🔴 qap_note_empty -> Empty
     ➡️ qap_note_empty=
-  # 🔴 qap_note_expires -> Expires on
+    # 🔴 qap_note_expires -> Expires on
     ➡️ qap_note_expires=
-  # 🔴 qap_note_expires_on -> Expires On
+    # 🔴 qap_note_expires_on -> Expires On
     ➡️ qap_note_expires_on=
-  # 🔴 qap_note_flag -> Flag
+    # 🔴 qap_note_flag -> Flag
     ➡️ qap_note_flag=
-  # 🔴 qap_note_ko_disputed -> Disputed
+    # 🔴 qap_note_ko_disputed -> Disputed
     ➡️ qap_note_ko_disputed=
-  # 🔴 qap_note_ko_refused -> Refused
+    # 🔴 qap_note_ko_refused -> Refused
     ➡️ qap_note_ko_refused=
-  # 🔴 qap_note_ko_rejected -> Rejected
+    # 🔴 qap_note_ko_rejected -> Rejected
     ➡️ qap_note_ko_rejected=
-  # 🔴 qap_note_meeting -> Meeting
+    # 🔴 qap_note_meeting -> Meeting
     ➡️ qap_note_meeting=
-  # 🔴 qap_note_message -> Message
+    # 🔴 qap_note_message -> Message
     ➡️ qap_note_message=
-  # 🔴 qap_note_note -> Note
+    # 🔴 qap_note_note -> Note
     ➡️ qap_note_note=
-  # 🔴 qap_note_notes -> Notes
+    # 🔴 qap_note_notes -> Notes
     ➡️ qap_note_notes=
-  # 🔴 qap_note_ok -> OK
+    # 🔴 qap_note_ok -> OK
     ➡️ qap_note_ok=
-  # 🔴 qap_note_qa -> QA
+    # 🔴 qap_note_qa -> QA
     ➡️ qap_note_qa=
-  # 🔴 qap_note_recall -> Recall
+    # 🔴 qap_note_recall -> Recall
     ➡️ qap_note_recall=
-  # 🔴 qap_note_refuse -> Refuse
+    # 🔴 qap_note_refuse -> Refuse
     ➡️ qap_note_refuse=
-  # 🔴 qap_note_reject -> Reject
+    # 🔴 qap_note_reject -> Reject
     ➡️ qap_note_reject=
-  # 🔴 qap_note_status -> Status
+    # 🔴 qap_note_status -> Status
     ➡️ qap_note_status=
-  # 🔴 qap_note_tbd -> TBD
+    # 🔴 qap_note_tbd -> TBD
     ➡️ qap_note_tbd=
-  # 🔴 qap_note_todo -> Todo
+    # 🔴 qap_note_todo -> Todo
     ➡️ qap_note_todo=
-  # 🔴 qap_note_togroup -> To Group
+    # 🔴 qap_note_togroup -> To Group
     ➡️ qap_note_togroup=
-  # 🔴 qap_note_touser -> To User
+    # 🔴 qap_note_touser -> To User
     ➡️ qap_note_touser=
-  # 🔴 qap_note_training -> Training
+    # 🔴 qap_note_training -> Training
     ➡️ qap_note_training=
-  # 🔴 qap_note_type -> Type
+    # 🔴 qap_note_type -> Type
     ➡️ qap_note_type=
-  # 🔴 qap_note_valid_from -> Valid From
+    # 🔴 qap_note_valid_from -> Valid From
     ➡️ qap_note_valid_from=
-  # 🔴 qap_notes_type_note -> Note
+    # 🔴 qap_notes_type_note -> Note
     ➡️ qap_notes_type_note=
-  # 🔴 qap_notifications -> Notifications
+    # 🔴 qap_notifications -> Notifications
     ➡️ qap_notifications=
-  # 🔴 qap_notifications_empty -> You currently have no notifications
+    # 🔴 qap_notifications_empty -> You currently have no notifications
     ➡️ qap_notifications_empty=
-  # 🔴 qap_overview_daily -> Daily
+    # 🔴 qap_overview_daily -> Daily
     ➡️ qap_overview_daily=
-  # 🔴 qap_overview_stats -> Stats
+    # 🔴 qap_overview_stats -> Stats
     ➡️ qap_overview_stats=
-  # 🔴 qap_overview_weekly -> Weekly
+    # 🔴 qap_overview_weekly -> Weekly
     ➡️ qap_overview_weekly=
-  # 🔴 qap_pause_time -> Pause Time
+    # 🔴 qap_pause_time -> Pause Time
     ➡️ qap_pause_time=
-  # 🔴 qap_platform_action_error -> Error while performing platform action.
+    # 🔴 qap_platform_action_error -> Error while performing platform action.
     ➡️ qap_platform_action_error=
-  # 🔴 qap_process_note_error -> Error while processing a Note.
+    # 🔴 qap_process_note_error -> Error while processing a Note.
     ➡️ qap_process_note_error=
-  # 🔴 qap_run -> Run
+    # 🔴 qap_run -> Run
     ➡️ qap_run=
-  # 🔴 qap_save_case_error -> Error while saving Case.
+    # 🔴 qap_save_case_error -> Error while saving Case.
     ➡️ qap_save_case_error=
-  # 🔴 qap_save_client_error -> Error while saving Client.
+    # 🔴 qap_save_client_error -> Error while saving Client.
     ➡️ qap_save_client_error=
-  # 🔴 qap_search_cases_error -> Error searching for the requested Cases.
+    # 🔴 qap_search_cases_error -> Error searching for the requested Cases.
     ➡️ qap_search_cases_error=
-  # 🔴 qap_search_clients_error -> Error searching for the requested Clients.
+    # 🔴 qap_search_clients_error -> Error searching for the requested Clients.
     ➡️ qap_search_clients_error=
-  # 🔴 qap_server -> Server
+    # 🔴 qap_server -> Server
     ➡️ qap_server=
-  # 🔴 qap_session_time -> Session Time
+    # 🔴 qap_session_time -> Session Time
     ➡️ qap_session_time=
-  # 🔴 qap_signout -> Sign out
+    # 🔴 qap_signout -> Sign out
     ➡️ qap_signout=
-  # 🔴 qap_softphone -> Phone
+    # 🔴 qap_softphone -> Phone
     ➡️ qap_softphone=
-  # 🔴 qap_softphone_debug -> Softphone
+    # 🔴 qap_softphone_debug -> Softphone
     ➡️ qap_softphone_debug=
-  # 🔴 qap_start_work -> Start Work
+    # 🔴 qap_start_work -> Start Work
     ➡️ qap_start_work=
-  # 🔴 qap_status_paused -> Paused
+    # 🔴 qap_status_paused -> Paused
     ➡️ qap_status_paused=
-  # 🔴 qap_status_unpaused -> Unpaused
+    # 🔴 qap_status_unpaused -> Unpaused
     ➡️ qap_status_unpaused=
-  # 🔴 qap_title_calendar -> Calendar
+    # 🔴 qap_title_calendar -> Calendar
     ➡️ qap_title_calendar=
-  # 🔴 qap_title_cases -> Cases
+    # 🔴 qap_title_cases -> Cases
     ➡️ qap_title_cases=
-  # 🔴 qap_title_clients -> Clients
+    # 🔴 qap_title_clients -> Clients
     ➡️ qap_title_clients=
-  # 🔴 qap_title_control -> Queue Control
+    # 🔴 qap_title_control -> Queue Control
     ➡️ qap_title_control=
-  # 🔴 qap_title_interactions -> Interactions
+    # 🔴 qap_title_interactions -> Interactions
     ➡️ qap_title_interactions=
-  # 🔴 qap_title_note -> New Note
+    # 🔴 qap_title_note -> New Note
     ➡️ qap_title_note=
-  # 🔴 qap_title_notes_done -> Done
+    # 🔴 qap_title_notes_done -> Done
     ➡️ qap_title_notes_done=
-  # 🔴 qap_title_notes_pending -> Pending
+    # 🔴 qap_title_notes_pending -> Pending
     ➡️ qap_title_notes_pending=
-  # 🔴 qap_title_outcomes -> Outcome and Feature Codes
+    # 🔴 qap_title_outcomes -> Outcome and Feature Codes
     ➡️ qap_title_outcomes=
-  # 🔴 qap_title_overview -> Overview
+    # 🔴 qap_title_overview -> Overview
     ➡️ qap_title_overview=
-  # 🔴 qap_today -> Today
+    # 🔴 qap_today -> Today
     ➡️ qap_today=
-  # 🔴 qap_transaction_body -> Comment
+    # 🔴 qap_transaction_body -> Comment
     ➡️ qap_transaction_body=
-  # 🔴 qap_transaction_title -> Title
+    # 🔴 qap_transaction_title -> Title
     ➡️ qap_transaction_title=
-  # 🔴 qap_unknown_caller -> Unknown Caller
+    # 🔴 qap_unknown_caller -> Unknown Caller
     ➡️ qap_unknown_caller=
-  # 🔴 qap_user_pref_error -> Error while fetching user preferences.
+    # 🔴 qap_user_pref_error -> Error while fetching user preferences.
     ➡️ qap_user_pref_error=
-  # 🔴 qap_wbt_campaign -> Campaign
+    # 🔴 qap_wbt_campaign -> Campaign
     ➡️ qap_wbt_campaign=
-  # 🔴 qap_wbt_comments -> Comments
+    # 🔴 qap_wbt_comments -> Comments
     ➡️ qap_wbt_comments=
-  # 🔴 qap_wbt_date -> Date
+    # 🔴 qap_wbt_date -> Date
     ➡️ qap_wbt_date=
-  # 🔴 qap_wbt_num -> Number
+    # 🔴 qap_wbt_num -> Number
     ➡️ qap_wbt_num=
-  # 🔴 qap_wbt_recall -> Recall
+    # 🔴 qap_wbt_recall -> Recall
     ➡️ qap_wbt_recall=
-  # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
+    # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
     ➡️ qap_wbt_title=
-  # 🔴 qap_welcome -> Welcome Back!
+    # 🔴 qap_welcome -> Welcome Back!
     ➡️ qap_welcome=
-  # 🔴 qap_you_have -> You have
+    # 🔴 qap_you_have -> You have
     ➡️ qap_you_have=
     qatarget_agentgroup=Müşteri Temsilcisi Grubu
     qatarget_allcalls=Tüm çağrılar
@@ -4352,11 +4352,11 @@ Other items
     realtime_tooltip_features=Ftr
     realtime_tooltip_ivrs=IVR
     realtime_tooltip_variables=Değşk
-  # 🔴 recallstate_needs_further -> Needs further recall
+    # 🔴 recallstate_needs_further -> Needs further recall
     ➡️ recallstate_needs_further=
-  # 🔴 recallstate_not_recalled -> Not yet recalled
+    # 🔴 recallstate_not_recalled -> Not yet recalled
     ➡️ recallstate_not_recalled=
-  # 🔴 recallstate_recalled -> Recalled
+    # 🔴 recallstate_recalled -> Recalled
     ➡️ recallstate_recalled=
     record_tag_inserttag_button=İşaretçi ekle
     record_tag_inserttag_title=Yeni bir işaretçi ekle
@@ -4367,7 +4367,7 @@ Other items
     record_tags_color_set=İşaretçi Rengi Ayarla
     record_tags_duration=Süre
     record_tags_duration_s=Süre (sn)
-  # 🔴 record_tags_erroradd -> Error adding marker. Please retry.
+    # 🔴 record_tags_erroradd -> Error adding marker. Please retry.
     ➡️ record_tags_erroradd=
     record_tags_errordelete=İşaretçi silinirken hata oluştu. Lütfen tekrar deneyiniz.
     record_tags_file=Kayıt dosyası
@@ -4379,11 +4379,11 @@ Other items
     record_tags_wrongduration=Lütfen geçerli bir süre biçimi girin
     record_tags_wrongnote=Lütfen bir not girin
     record_tags_wrongtime=Lütfen geçerli bir saat formatı giriniz
-  # 🔴 recstat_closed -> Closed
+    # 🔴 recstat_closed -> Closed
     ➡️ recstat_closed=
-  # 🔴 recstat_merged -> Merged
+    # 🔴 recstat_merged -> Merged
     ➡️ recstat_merged=
-  # 🔴 recstat_open -> Open
+    # 🔴 recstat_open -> Open
     ➡️ recstat_open=
     report_filter_noncont_time=Arasında
     report_input_error=Bu değer admissibile değil
@@ -4391,44 +4391,44 @@ Other items
     reports_add_filter=Filtre Ekle
     reports_add_filter_button=Filtre Ekle
     reports_adddatablock_onhover_message=DataBlock Ekle
-  # 🔴 reports_apply -> Apply
+    # 🔴 reports_apply -> Apply
     ➡️ reports_apply=
-  # 🔴 reports_at_caller -> Caller:
+    # 🔴 reports_at_caller -> Caller:
     ➡️ reports_at_caller=
-  # 🔴 reports_at_collapse -> Collapse.
+    # 🔴 reports_at_collapse -> Collapse.
     ➡️ reports_at_collapse=
-  # 🔴 reports_at_duration -> Duration:
+    # 🔴 reports_at_duration -> Duration:
     ➡️ reports_at_duration=
-  # 🔴 reports_at_expand -> See more details.
+    # 🔴 reports_at_expand -> See more details.
     ➡️ reports_at_expand=
-  # 🔴 reports_at_idle -> Idle Time:
+    # 🔴 reports_at_idle -> Idle Time:
     ➡️ reports_at_idle=
-  # 🔴 reports_at_info -> Session information for
+    # 🔴 reports_at_info -> Session information for
     ➡️ reports_at_info=
     reports_at_least_one_queue=En az bir havuz seçmelisiniz
-  # 🔴 reports_at_lostatt -> Lost Attempts:
+    # 🔴 reports_at_lostatt -> Lost Attempts:
     ➡️ reports_at_lostatt=
-  # 🔴 reports_at_pause -> Pause Code:
+    # 🔴 reports_at_pause -> Pause Code:
     ➡️ reports_at_pause=
-  # 🔴 reports_at_queue -> Queue:
+    # 🔴 reports_at_queue -> Queue:
     ➡️ reports_at_queue=
-  # 🔴 reports_at_queues -> Queues:
+    # 🔴 reports_at_queues -> Queues:
     ➡️ reports_at_queues=
-  # 🔴 reports_at_taken -> Taken Calls:
+    # 🔴 reports_at_taken -> Taken Calls:
     ➡️ reports_at_taken=
-  # 🔴 reports_at_talk -> Talk Time:
+    # 🔴 reports_at_talk -> Talk Time:
     ➡️ reports_at_talk=
-  # 🔴 reports_at_wait -> Wait:
+    # 🔴 reports_at_wait -> Wait:
     ➡️ reports_at_wait=
     reports_atomic_filters=İfade Filtreleri
     reports_autosave_toggle=Otomatik Kaydet
     reports_change_report_confirm=Kaydedilmemiş değişiklikleriniz var, farklı bir rapor seçmek bu değişiklikleri geri alacaktır. Raporu değiştirmek istiyor musunuz?
     reports_chart_avgdur=Ort. Süre
     reports_chart_delta=Delta
-  # 🔴 reports_chart_error -> Invalid Chart Configuration.
+    # 🔴 reports_chart_error -> Invalid Chart Configuration.
     ➡️ reports_chart_error=
     reports_chart_numcalls=Çağrı Sayısı
-  # 🔴 reports_chart_others -> Others
+    # 🔴 reports_chart_others -> Others
     ➡️ reports_chart_others=
     reports_chart_sla=SLA
     reports_clone=Kopya Raporu
@@ -4440,19 +4440,19 @@ Other items
     reports_create_successful=Rapor başarıyla oluşturuldu
     reports_datablock_chart=Grafik
     reports_datablock_columns_customization=Sütunları Özelleştir
-  # 🔴 reports_datablock_columns_short -> Columns
+    # 🔴 reports_datablock_columns_short -> Columns
     ➡️ reports_datablock_columns_short=
-  # 🔴 reports_datablock_errormsg -> Error Message
+    # 🔴 reports_datablock_errormsg -> Error Message
     ➡️ reports_datablock_errormsg=
-  # 🔴 reports_datablock_label_subtititle -> Subtitle
+    # 🔴 reports_datablock_label_subtititle -> Subtitle
     ➡️ reports_datablock_label_subtititle=
     reports_datablock_label_subtitle=DataBlock notları
     reports_datablock_label_title=DataBlock başlığı
-  # 🔴 reports_datablock_order_customization -> Customize DataBlock Order
+    # 🔴 reports_datablock_order_customization -> Customize DataBlock Order
     ➡️ reports_datablock_order_customization=
-  # 🔴 reports_datablock_order_short -> DataBlocks
+    # 🔴 reports_datablock_order_short -> DataBlocks
     ➡️ reports_datablock_order_short=
-  # 🔴 reports_datablock_status -> Status
+    # 🔴 reports_datablock_status -> Status
     ➡️ reports_datablock_status=
     reports_datablockview_added=DataBlock Eklendi
     reports_datablockview_order=DataBlock Görünüm Sırası
@@ -4465,23 +4465,23 @@ Other items
     reports_delete_current_page_confirm=Geçerli sayfa silinsin mi?
     reports_delete_current_report_confirm=Geçerli rapor silinsin mi?
     reports_delete_datablockview=DataBlock Görünümünü Sil
-  # 🔴 reports_delete_datablockview_short -> Delete
+    # 🔴 reports_delete_datablockview_short -> Delete
     ➡️ reports_delete_datablockview_short=
-  # 🔴 reports_delete_filter -> Delete Filter
+    # 🔴 reports_delete_filter -> Delete Filter
     ➡️ reports_delete_filter=
     reports_delete_page=Sayfayı Sil
     reports_delete_successful=Rapor başarıyla silindi
-  # 🔴 reports_drag_info -> Drag the elements to order them.
+    # 🔴 reports_drag_info -> Drag the elements to order them.
     ➡️ reports_drag_info=
-  # 🔴 reports_edit -> Edit
+    # 🔴 reports_edit -> Edit
     ➡️ reports_edit=
     reports_edit_datablocks=DataBlocks
     reports_edit_datablockview=DataBlock'ı Düzenle
     reports_edit_datablockview_complete=Onayla
-  # 🔴 reports_edit_datablockview_short -> Edit
+    # 🔴 reports_edit_datablockview_short -> Edit
     ➡️ reports_edit_datablockview_short=
     reports_edit_disabled=Düzenleme yetkiniz olmadığından, bu rapor Salt Okunur'dur.
-  # 🔴 reports_edit_filter -> Edit Filter
+    # 🔴 reports_edit_filter -> Edit Filter
     ➡️ reports_edit_filter=
     reports_edit_filters=Filtreler
     reports_edit_name=Rapor Adını Düzenle
@@ -4497,16 +4497,16 @@ Other items
     reports_export_mode_landscape=Yatay
     reports_export_mode_pdf=PDF olarak dışa aktar
     reports_export_mode_portrait=Düşey
-  # 🔴 reports_export_pdf_short -> PDF
+    # 🔴 reports_export_pdf_short -> PDF
     ➡️ reports_export_pdf_short=
-  # 🔴 reports_export_schema -> Export Report Schema
+    # 🔴 reports_export_schema -> Export Report Schema
     ➡️ reports_export_schema=
-  # 🔴 reports_export_schema_error -> The Report Schema could not be exported.
+    # 🔴 reports_export_schema_error -> The Report Schema could not be exported.
     ➡️ reports_export_schema_error=
     reports_export_test_icon=Şimdi çalıştır
-  # 🔴 reports_export_xls_short -> XLS
+    # 🔴 reports_export_xls_short -> XLS
     ➡️ reports_export_xls_short=
-  # 🔴 reports_fetch_error -> Error fetching DataBlock
+    # 🔴 reports_fetch_error -> Error fetching DataBlock
     ➡️ reports_fetch_error=
     reports_filter_agent=Müşteri Temsilcisi
     reports_filter_agentgroup=Müşteri Temsilcisi grubu
@@ -4519,9 +4519,9 @@ Other items
     reports_filter_caller=Arayan
     reports_filter_callskills=Arama Becerisi
     reports_filter_calltags=Çağrı Etiketi
-  # 🔴 reports_filter_case -> Case
+    # 🔴 reports_filter_case -> Case
     ➡️ reports_filter_case=
-  # 🔴 reports_filter_client -> Client
+    # 🔴 reports_filter_client -> Client
     ➡️ reports_filter_client=
     reports_filter_date_from=From
     reports_filter_date_to=to
@@ -4534,7 +4534,7 @@ Other items
     reports_filter_input_error=Giriş Hatası
     reports_filter_ivr=IVR
     reports_filter_location=Konum
-  # 🔴 reports_filter_none -> None
+    # 🔴 reports_filter_none -> None
     ➡️ reports_filter_none=
     reports_filter_noncont_time=Arasında
     reports_filter_noncontdays=Günler
@@ -4548,29 +4548,29 @@ Other items
     reports_filter_shortcallattempt=Min. Deneme Süresi (kısa çağrılar)
     reports_filter_shortcalltalk=Min. Konuşma Süresi (kısa çağrılar)
     reports_filter_shortcallwait=Min. Bekleme Süresi (kısa çağrılar)
-  # 🔴 reports_filter_timerange -> Select time range
+    # 🔴 reports_filter_timerange -> Select time range
     ➡️ reports_filter_timerange=
-  # 🔴 reports_filter_variable_name -> Variable Name
+    # 🔴 reports_filter_variable_name -> Variable Name
     ➡️ reports_filter_variable_name=
-  # 🔴 reports_filter_variable_value -> Variable Value
+    # 🔴 reports_filter_variable_value -> Variable Value
     ➡️ reports_filter_variable_value=
     reports_filter_variables=Değişken
     reports_filter_waitmax=Max. Bekleme Süresi
     reports_filter_waitmin=Min. Bekleme Süresi
-  # 🔴 reports_filters -> Show/Hide Filters
+    # 🔴 reports_filters -> Show/Hide Filters
     ➡️ reports_filters=
     reports_goto_page=Git
-  # 🔴 reports_grouping_title -> Call Grouping
+    # 🔴 reports_grouping_title -> Call Grouping
     ➡️ reports_grouping_title=
-  # 🔴 reports_import_schema -> Import Report Schema
+    # 🔴 reports_import_schema -> Import Report Schema
     ➡️ reports_import_schema=
-  # 🔴 reports_import_schema_error -> Error while importing Report Schema.
+    # 🔴 reports_import_schema_error -> Error while importing Report Schema.
     ➡️ reports_import_schema_error=
-  # 🔴 reports_import_schema_success -> Report Schema Imported Successfully.
+    # 🔴 reports_import_schema_success -> Report Schema Imported Successfully.
     ➡️ reports_import_schema_success=
     reports_invalid_input=Girdiğiniz değere izin verilmiyor
     reports_link_copy_successful=Pano'ya kopyalanan rapor URL'si
-  # 🔴 reports_lost_calls -> Lost Calls
+    # 🔴 reports_lost_calls -> Lost Calls
     ➡️ reports_lost_calls=
     reports_modify_report_name=Rapor adını değiştir
     reports_multistint=Çoklu Stint Modu
@@ -4578,21 +4578,21 @@ Other items
     reports_new_page_title=Yeni Sayfa
     reports_new_report=Yeni Rapor
     reports_next_datablock=Sonraki
-  # 🔴 reports_no_available_queues -> The current user cannot access any queue.
+    # 🔴 reports_no_available_queues -> The current user cannot access any queue.
     ➡️ reports_no_available_queues=
-  # 🔴 reports_no_filters -> Add Filters
+    # 🔴 reports_no_filters -> Add Filters
     ➡️ reports_no_filters=
     reports_no_queue_selected=Havuz Seçilmedi
     reports_noncont_days_filter=Haftanın günleri
     reports_noncont_time_filter=Zaman Dilimi Filtresi
-  # 🔴 reports_not_filter -> Negate this filter
+    # 🔴 reports_not_filter -> Negate this filter
     ➡️ reports_not_filter=
     reports_operator_and=ve
     reports_operator_nor=Ne de
     reports_operator_or=Veya
-  # 🔴 reports_optilock_exception -> The report you are trying to edit has been modified by someone else and cannot be saved.
+    # 🔴 reports_optilock_exception -> The report you are trying to edit has been modified by someone else and cannot be saved.
     ➡️ reports_optilock_exception=
-  # 🔴 reports_owned_by -> Owned by
+    # 🔴 reports_owned_by -> Owned by
     ➡️ reports_owned_by=
     reports_page_create_successful=Sayfa başarıyla oluşturuldu
     reports_page_delete=Sayfayı Sil
@@ -4601,83 +4601,83 @@ Other items
     reports_page_visibilitykey=Görünürlük anahtarı
     reports_pagination_gotopage=Sayfaya git
     reports_pagination_loading=Yükleniyor...
-  # 🔴 reports_pagination_next -> Next page
+    # 🔴 reports_pagination_next -> Next page
     ➡️ reports_pagination_next=
     reports_pagination_of=of
     reports_pagination_page=Sayfa
-  # 🔴 reports_pagination_prev -> Previous page
+    # 🔴 reports_pagination_prev -> Previous page
     ➡️ reports_pagination_prev=
     reports_pagination_show=Göster
     reports_pagination_showing=Gösteriyor
-  # 🔴 reports_period_too_long -> This report covers a longer period than you are allowed to run.
+    # 🔴 reports_period_too_long -> This report covers a longer period than you are allowed to run.
     ➡️ reports_period_too_long=
     reports_prev_datablock=Önceki
     reports_preview_switch=Önizleme
-  # 🔴 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
+    # 🔴 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
     ➡️ reports_print_notification=
     reports_public=Kamu
-  # 🔴 reports_qa_agent -> Agent
+    # 🔴 reports_qa_agent -> Agent
     ➡️ reports_qa_agent=
-  # 🔴 reports_qa_agentgroup -> Agent group
+    # 🔴 reports_qa_agentgroup -> Agent group
     ➡️ reports_qa_agentgroup=
-  # 🔴 reports_qa_caller -> Caller
+    # 🔴 reports_qa_caller -> Caller
     ➡️ reports_qa_caller=
-  # 🔴 reports_qa_code -> Code
+    # 🔴 reports_qa_code -> Code
     ➡️ reports_qa_code=
-  # 🔴 reports_qa_deletenotes -> Delete All
+    # 🔴 reports_qa_deletenotes -> Delete All
     ➡️ reports_qa_deletenotes=
-  # 🔴 reports_qa_description -> Description
+    # 🔴 reports_qa_description -> Description
     ➡️ reports_qa_description=
-  # 🔴 reports_qa_error_add_note -> Error Adding Note
+    # 🔴 reports_qa_error_add_note -> Error Adding Note
     ➡️ reports_qa_error_add_note=
-  # 🔴 reports_qa_error_commit_form -> Error Committing QA Form
+    # 🔴 reports_qa_error_commit_form -> Error Committing QA Form
     ➡️ reports_qa_error_commit_form=
-  # 🔴 reports_qa_error_delete_form -> Error Deleting QA Form
+    # 🔴 reports_qa_error_delete_form -> Error Deleting QA Form
     ➡️ reports_qa_error_delete_form=
-  # 🔴 reports_qa_error_delete_note -> Error Deleting Note
+    # 🔴 reports_qa_error_delete_note -> Error Deleting Note
     ➡️ reports_qa_error_delete_note=
-  # 🔴 reports_qa_error_download_forms -> Error Downloading QA Forms
+    # 🔴 reports_qa_error_download_forms -> Error Downloading QA Forms
     ➡️ reports_qa_error_download_forms=
-  # 🔴 reports_qa_error_edit_form -> Error Editing QA Form
+    # 🔴 reports_qa_error_edit_form -> Error Editing QA Form
     ➡️ reports_qa_error_edit_form=
-  # 🔴 reports_qa_error_update_form -> Error Updating QA Form
+    # 🔴 reports_qa_error_update_form -> Error Updating QA Form
     ➡️ reports_qa_error_update_form=
-  # 🔴 reports_qa_items -> Items
+    # 🔴 reports_qa_items -> Items
     ➡️ reports_qa_items=
-  # 🔴 reports_qa_level -> Level
+    # 🔴 reports_qa_level -> Level
     ➡️ reports_qa_level=
-  # 🔴 reports_qa_na -> N/A
+    # 🔴 reports_qa_na -> N/A
     ➡️ reports_qa_na=
-  # 🔴 reports_qa_newnote -> New Note
+    # 🔴 reports_qa_newnote -> New Note
     ➡️ reports_qa_newnote=
-  # 🔴 reports_qa_noteform_placeholder -> Write your comment here
+    # 🔴 reports_qa_noteform_placeholder -> Write your comment here
     ➡️ reports_qa_noteform_placeholder=
-  # 🔴 reports_qa_noteform_title -> Add Note
+    # 🔴 reports_qa_noteform_title -> Add Note
     ➡️ reports_qa_noteform_title=
-  # 🔴 reports_qa_notes -> Notes
+    # 🔴 reports_qa_notes -> Notes
     ➡️ reports_qa_notes=
-  # 🔴 reports_qa_performance_avg -> Avg.
+    # 🔴 reports_qa_performance_avg -> Avg.
     ➡️ reports_qa_performance_avg=
-  # 🔴 reports_qa_performance_title -> Performance
+    # 🔴 reports_qa_performance_title -> Performance
     ➡️ reports_qa_performance_title=
-  # 🔴 reports_qa_performance_total -> Total score
+    # 🔴 reports_qa_performance_total -> Total score
     ➡️ reports_qa_performance_total=
-  # 🔴 reports_qa_queue -> Queue
+    # 🔴 reports_qa_queue -> Queue
     ➡️ reports_qa_queue=
-  # 🔴 reports_qa_recap_heading -> Call Details
+    # 🔴 reports_qa_recap_heading -> Call Details
     ➡️ reports_qa_recap_heading=
-  # 🔴 reports_qa_select_form -> Select Form
+    # 🔴 reports_qa_select_form -> Select Form
     ➡️ reports_qa_select_form=
-  # 🔴 reports_qa_start -> Start Time
+    # 🔴 reports_qa_start -> Start Time
     ➡️ reports_qa_start=
-  # 🔴 reports_qa_status -> Status
+    # 🔴 reports_qa_status -> Status
     ➡️ reports_qa_status=
-  # 🔴 reports_qa_uid -> Unique Id
+    # 🔴 reports_qa_uid -> Unique Id
     ➡️ reports_qa_uid=
-  # 🔴 reports_qa_value -> Value
+    # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
     reports_query_loading=Yükleniyor
-  # 🔴 reports_ratio -> Ratio
+    # 🔴 reports_ratio -> Ratio
     ➡️ reports_ratio=
     reports_recap_no_filters=Ek filtreler eklemek için tıklatın
     reports_recap_queues=Havuzlar
@@ -4691,7 +4691,7 @@ Other items
     reports_save_report_confirm_message=Geçerli rapor düzenlensin mi yoksa yeni değişikliklerle bir kopya oluşturulsun mu?
     reports_save_report_confirm_title=Raporu Kaydet
     reports_save_successful=Rapor başarıyla kaydedildi
-  # 🔴 reports_search_placeholder -> Search Filter
+    # 🔴 reports_search_placeholder -> Search Filter
     ➡️ reports_search_placeholder=
     reports_select_report=Rapor Seç
     reports_settings=Ayarlar
@@ -4708,13 +4708,13 @@ Other items
     reports_settings_slamaxinitialdelay=SLA Maks. İlk Gecikme
     reports_settings_slamaxmonitoreddelay=SLA Maks. İzlenen Gecikme
     reports_shortcalls_no=Hayır
-  # 🔴 reports_skill_level -> Skill Level
+    # 🔴 reports_skill_level -> Skill Level
     ➡️ reports_skill_level=
     reports_ssaragents=Self Servis Rapor Aracıları
     reports_supervised=Denetimli (supervised)
     reports_tab_editor=Sekme Sırasını Düzenle
     reports_tab_page_list=Kullanılabilir Rapor sayfaları
-  # 🔴 reports_taken_calls -> Taken Calls
+    # 🔴 reports_taken_calls -> Taken Calls
     ➡️ reports_taken_calls=
     reports_throwaway_report_new=Kaydedilmemiş Rapor
     reports_time=Süre
@@ -4725,11 +4725,11 @@ Other items
     reports_time_preset_last1hour=Son 1 saat
     reports_time_preset_last24hours=Son 24 saat
     reports_time_preset_last2days=Son 2 gün
-  # 🔴 reports_time_preset_last2days_midnight -> Last 2 Days (Since Midnight)
+    # 🔴 reports_time_preset_last2days_midnight -> Last 2 Days (Since Midnight)
     ➡️ reports_time_preset_last2days_midnight=
     reports_time_preset_last2years=Son 2 yıl
     reports_time_preset_last30days=Son 30 gün
-  # 🔴 reports_time_preset_last30days_midnight -> Last 30 Days (Since Midnight)
+    # 🔴 reports_time_preset_last30days_midnight -> Last 30 Days (Since Midnight)
     ➡️ reports_time_preset_last30days_midnight=
     reports_time_preset_last30minutes=Son 30 dakika
     reports_time_preset_last3hours=Son 3 saat
@@ -4738,10 +4738,10 @@ Other items
     reports_time_preset_last6hours=Son 6 saat
     reports_time_preset_last6months=Son 6 ay
     reports_time_preset_last7days=Son 7 gün
-  # 🔴 reports_time_preset_last7days_midnight -> Last 7 Days (Since Midnight)
+    # 🔴 reports_time_preset_last7days_midnight -> Last 7 Days (Since Midnight)
     ➡️ reports_time_preset_last7days_midnight=
     reports_time_preset_last90days=Son 90 gün
-  # 🔴 reports_time_preset_last90days_midnight -> Last 90 Days (Since Midnight)
+    # 🔴 reports_time_preset_last90days_midnight -> Last 90 Days (Since Midnight)
     ➡️ reports_time_preset_last90days_midnight=
     reports_time_preset_lastyear=Geçen yıl
     reports_time_preset_previousmonth=Önceki ay
@@ -4761,13 +4761,13 @@ Other items
     reports_topbar_icon_export_PDF__open_hover_tooltip=Export PDF
     reports_topbar_icon_export_excel__open_hover_tooltip=Export XLS
     reports_topbar_icon_filter_open_hover_tooltip=Filtreler
-  # 🔴 reports_topbar_icon_print_hover_tooltip -> Print
+    # 🔴 reports_topbar_icon_print_hover_tooltip -> Print
     ➡️ reports_topbar_icon_print_hover_tooltip=
     reports_topbar_icon_run_report_hover_tooltip=-
     reports_topbar_icon_save_report_hover_tooltip=Raporu Kaydet
     reports_topbar_icon_settings_open_hover_tooltip=Ayarlar
     reports_topbar_icon_share_open_hover_tooltip=URL'yi paylaş
-  # 🔴 reports_total_calls -> Total Calls
+    # 🔴 reports_total_calls -> Total Calls
     ➡️ reports_total_calls=
     reports_trash=Silmek için buraya sürükleyin
     reports_unsaved=Kaydedilmemiş
@@ -4785,7 +4785,7 @@ Other items
     rt_all_queues=Tüm havuzları göster
     rt_all_selected=Tümü seçildi
     rt_bsy=Mşg
-  # 🔴 rt_busysince -> Busy Since
+    # 🔴 rt_busysince -> Busy Since
     ➡️ rt_busysince=
     rt_caller_nbsp=Arayan
     rt_callid=ÇağrıID
@@ -4820,7 +4820,7 @@ Other items
     rt_last_logon_nbsp=Son oturum açma & nbsp;
     rt_lastcall=Son çağrı
     rt_live_agent=Müşteri Temsilcisi
-  # 🔴 rt_live_astclid -> *Clid
+    # 🔴 rt_live_astclid -> *Clid
     ➡️ rt_live_astclid=
     rt_live_callerid=Arayan ID
     rt_live_entered=Girildi
@@ -4864,7 +4864,7 @@ Other items
     rt_pauseagent=Müşteri Temsilcisi duraklat
     rt_pauseagent_tt=Müşteri Temsilcisi duraklat
     rt_paused_for=için durduruldu
-  # 🔴 rt_pausedsince -> Paused Since
+    # 🔴 rt_pausedsince -> Paused Since
     ➡️ rt_pausedsince=
     rt_pop_agent_code=Müşteri Temsilcisi Kodu:
     rt_pop_agent_extension=Müşteri Temsilcisi dahilisi:
@@ -5013,9 +5013,9 @@ Other items
     sync2_agent_filter=Müşteri Temsilcisi Filtresi
     sync2_agent_id=Müşteri Temsilcisi ID
     sync2_agent_im=IM
-  # 🔴 sync2_agent_info -> Agent Information
+    # 🔴 sync2_agent_info -> Agent Information
     ➡️ sync2_agent_info=
-  # 🔴 sync2_agent_misc -> Misc
+    # 🔴 sync2_agent_misc -> Misc
     ➡️ sync2_agent_misc=
     sync2_agent_sip_pass=WebRTC Parolası
     sync2_agent_sip_realm=WebRTC Bölge
@@ -5023,7 +5023,7 @@ Other items
     sync2_agent_sip_user=WebRTC Kullanıcısı
     sync2_agent_user_password=Kullanıcı Parolası
     sync2_agent_vnc=VNC
-  # 🔴 sync2_agent_webrtc -> WebRTC
+    # 🔴 sync2_agent_webrtc -> WebRTC
     ➡️ sync2_agent_webrtc=
     sync2_agents_placeholder=Müşteri Temsilcileri
     sync2_ami_host=AMI Ana Bilgisayarı
@@ -5035,7 +5035,7 @@ Other items
     sync2_choose_source=Kaynağı Seç
     sync2_cluster=Küme Ayarları
     sync2_cluster_info=Küme Bilgileri
-  # 🔴 sync2_collapse -> Collapse
+    # 🔴 sync2_collapse -> Collapse
     ➡️ sync2_collapse=
     sync2_configuration_applied=Yeni yapılandırma başarıyla uygulandı
     sync2_configuration_export=Yapılandırmanızı indirin
@@ -5045,7 +5045,7 @@ Other items
     sync2_delete=Silme eylemlerini etkinleştir
     sync2_delete_agents_confirm=Tüm müşteri temsilcilerini silmek istediğinizden emin misiniz?
     sync2_delete_queues_confirm=Tüm havuzları silmek istediğinizden emin misiniz?
-  # 🔴 sync2_delete_selected -> Delete
+    # 🔴 sync2_delete_selected -> Delete
     ➡️ sync2_delete_selected=
     sync2_deleteall_agent=Tüm müşteri temsilcilerini sil
     sync2_deleteall_queues=Tüm havuzları sil
@@ -5057,7 +5057,7 @@ Other items
     sync2_error_comparing_configuration=Yapılandırma karşılaştırıldığında hata oluştu
     sync2_error_invalid_input=Alınan JSON yapılandırması geçerli bir JSON dosyasıdır, ancak bir veya daha fazla veri alanı yanlış veri türündedir. Lütfen yapılandırma dosyasını denetleyin.
     sync2_error_read_configuration=Seçili kaynak geçerli bir yapılandırma sağlamadı.
-  # 🔴 sync2_expand -> Expand
+    # 🔴 sync2_expand -> Expand
     ➡️ sync2_expand=
     sync2_export=Yapılandırmayı dışarı aktar
     sync2_export_filename=Dosya Adı
@@ -5076,7 +5076,7 @@ Other items
     sync2_import=Konfig içeri aktar
     sync2_import_confirm=Kaydedilmemiş değişiklikleriniz var, yeni bir konfig alırsanız kaybolurlar. Devam etmek istiyor musunuz?
     sync2_inbound=Gelen çağrı
-  # 🔴 sync2_mode_configuration -> Synchronizer Configuration
+    # 🔴 sync2_mode_configuration -> Synchronizer Configuration
     ➡️ sync2_mode_configuration=
     sync2_new_pbx=Yeni PBX
     sync2_outbound=Giden çağrı
@@ -5092,16 +5092,16 @@ Other items
     sync2_queue_composition=Kompozisyon
     sync2_queue_created=Sıra başarıyla oluşturuldu
     sync2_queue_filter=Havuz Filtresi
-  # 🔴 sync2_queue_info -> Queue Information
+    # 🔴 sync2_queue_info -> Queue Information
     ➡️ sync2_queue_info=
     sync2_queue_name=Adı
     sync2_queues_placeholder=Havuzlar
     sync2_read=Okuma
     sync2_reset=Sıfırlamak
     sync2_save=Kaydet
-  # 🔴 sync2_selectall_agents -> Select All Agents
+    # 🔴 sync2_selectall_agents -> Select All Agents
     ➡️ sync2_selectall_agents=
-  # 🔴 sync2_selectall_queues -> Select All Queues
+    # 🔴 sync2_selectall_queues -> Select All Queues
     ➡️ sync2_selectall_queues=
     sync2_show_mode_selectors=Mod Seçicilerini Göster
     sync2_success_read_configuration=Seçili yapılandırma doğru şekilde alındı.
@@ -5111,61 +5111,61 @@ Other items
     sync2_url_input=URL
     t3_circle_lost_calls=Kayıp çağrılar
     t3_live_agent_info=Canlı müşteri temsilcisi bilgisi
-  # 🔴 timeline_avg -> Avg.
+    # 🔴 timeline_avg -> Avg.
     ➡️ timeline_avg=
-  # 🔴 timeline_close -> Return to Report
+    # 🔴 timeline_close -> Return to Report
     ➡️ timeline_close=
-  # 🔴 timeline_debug -> Download Debug Info
+    # 🔴 timeline_debug -> Download Debug Info
     ➡️ timeline_debug=
-  # 🔴 timeline_download_recording -> Download Recording
+    # 🔴 timeline_download_recording -> Download Recording
     ➡️ timeline_download_recording=
-  # 🔴 timeline_event -> Event
+    # 🔴 timeline_event -> Event
     ➡️ timeline_event=
-  # 🔴 timeline_events -> Timeline Events
+    # 🔴 timeline_events -> Timeline Events
     ➡️ timeline_events=
-  # 🔴 timeline_interaction_calltot -> Total:
+    # 🔴 timeline_interaction_calltot -> Total:
     ➡️ timeline_interaction_calltot=
-  # 🔴 timeline_marker_add -> Marker
+    # 🔴 timeline_marker_add -> Marker
     ➡️ timeline_marker_add=
-  # 🔴 timeline_marker_delete -> Delete Marker
+    # 🔴 timeline_marker_delete -> Delete Marker
     ➡️ timeline_marker_delete=
-  # 🔴 timeline_marker_delete_confirm -> The selected Marker will be deleted. Continue?
+    # 🔴 timeline_marker_delete_confirm -> The selected Marker will be deleted. Continue?
     ➡️ timeline_marker_delete_confirm=
-  # 🔴 timeline_marker_duration -> Duration
+    # 🔴 timeline_marker_duration -> Duration
     ➡️ timeline_marker_duration=
-  # 🔴 timeline_marker_editor_title -> Create a Marker
+    # 🔴 timeline_marker_editor_title -> Create a Marker
     ➡️ timeline_marker_editor_title=
-  # 🔴 timeline_marker_list -> Markers
+    # 🔴 timeline_marker_list -> Markers
     ➡️ timeline_marker_list=
-  # 🔴 timeline_marker_message -> Message
+    # 🔴 timeline_marker_message -> Message
     ➡️ timeline_marker_message=
-  # 🔴 timeline_marker_play -> Go to Marker
+    # 🔴 timeline_marker_play -> Go to Marker
     ➡️ timeline_marker_play=
-  # 🔴 timeline_marker_time -> Time
+    # 🔴 timeline_marker_time -> Time
     ➡️ timeline_marker_time=
-  # 🔴 timeline_markers_hide -> Hide Markers
+    # 🔴 timeline_markers_hide -> Hide Markers
     ➡️ timeline_markers_hide=
-  # 🔴 timeline_markers_show -> Show Markers
+    # 🔴 timeline_markers_show -> Show Markers
     ➡️ timeline_markers_show=
-  # 🔴 timeline_max -> Max.
+    # 🔴 timeline_max -> Max.
     ➡️ timeline_max=
-  # 🔴 timeline_min -> Min.
+    # 🔴 timeline_min -> Min.
     ➡️ timeline_min=
-  # 🔴 timeline_no_recordings -> No Recordings
+    # 🔴 timeline_no_recordings -> No Recordings
     ➡️ timeline_no_recordings=
-  # 🔴 timeline_number -> Number
+    # 🔴 timeline_number -> Number
     ➡️ timeline_number=
-  # 🔴 timeline_stint_end -> Stint End
+    # 🔴 timeline_stint_end -> Stint End
     ➡️ timeline_stint_end=
-  # 🔴 timeline_stint_start -> Stint Start
+    # 🔴 timeline_stint_start -> Stint Start
     ➡️ timeline_stint_start=
-  # 🔴 timeline_tab_details -> Details
+    # 🔴 timeline_tab_details -> Details
     ➡️ timeline_tab_details=
-  # 🔴 timeline_tab_qa -> QA/Recordings
+    # 🔴 timeline_tab_qa -> QA/Recordings
     ➡️ timeline_tab_qa=
-  # 🔴 timeline_tab_recordings -> Recordings
+    # 🔴 timeline_tab_recordings -> Recordings
     ➡️ timeline_tab_recordings=
-  # 🔴 timeline_totdur -> Tot. Dur.
+    # 🔴 timeline_totdur -> Tot. Dur.
     ➡️ timeline_totdur=
     ts_agawrep_invalidlocation=Lütfen geçerli bir konum belirtiniz
     userpage_change_button=Değiştir

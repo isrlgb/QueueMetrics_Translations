@@ -68,7 +68,7 @@ Do not change the items below:
     td_autoconf_wz_summary_opresult=Результат операции
     td_autoconf_wz_summary_type=Тип
     td_autoconf_wz_users=Пользователи
-  # 👽 td_calloutc_? -> 
+    # 👽 td_calloutc_? -> 
     td_calloutc_?=?
     td_calloutc_contact=Контакт
     td_calloutc_known=Известный
@@ -420,10 +420,10 @@ Do not change the items below:
 
 
 
-  # 🔴 clage_%_of_pause_time -> % of pause time
+    # 🔴 clage_%_of_pause_time -> % of pause time
     ➡️ clage_%_of_pause_time=
     clage_%_of_queue=% из очереди
-  # 🔴 clage_%_of_session_time -> % of session time
+    # 🔴 clage_%_of_session_time -> % of session time
     ➡️ clage_%_of_session_time=
     clage_acd_available=Доступно
     clage_acd_avg_dur=Средн.продолж.
@@ -449,7 +449,7 @@ Do not change the items below:
     clage_agent_performance_acd_group=Производительность агента по ACD группе
     clage_agent_ptimebyhour=Время агента, подлежащее оплате, по часам
     clage_agent_session_detail=Детали сессии агента
-  # 🔴 clage_agent_session_overview -> Agent Session Overview
+    # 🔴 clage_agent_session_overview -> Agent Session Overview
     ➡️ clage_agent_session_overview=
     clage_agent_sessionreport=Просмотр сессий агента
     clage_agent_sessions=Сессии агента
@@ -512,7 +512,7 @@ Do not change the items below:
     clage_overlaps=Совмещение
     clage_pause=Пауза
     clage_pause_%=Пауза %
-  # 🔴 clage_pause_type_stats -> Details of pause types
+    # 🔴 clage_pause_type_stats -> Details of pause types
     ➡️ clage_pause_type_stats=
     clage_pauses=Паузы
     clage_pauses_per_session=Паузы за сессию
@@ -529,24 +529,24 @@ Do not change the items below:
     clage_session_and_pause_durations=Длительность сессий и пауз
     clage_session_byquetagftrreport=Накопленные сессии по очередям, тэгам и свойствам
     clage_session_byquetagreport=Накопленные сессии по очередям, тэгам
-  # 🔴 clage_session_calls -> N. calls
+    # 🔴 clage_session_calls -> N. calls
     ➡️ clage_session_calls=
     clage_session_details=Детали сессии
-  # 🔴 clage_session_end -> Segment end
+    # 🔴 clage_session_end -> Segment end
     ➡️ clage_session_end=
-  # 🔴 clage_session_idle -> Idle time
+    # 🔴 clage_session_idle -> Idle time
     ➡️ clage_session_idle=
-  # 🔴 clage_session_lostatt -> Lost attempts
+    # 🔴 clage_session_lostatt -> Lost attempts
     ➡️ clage_session_lostatt=
-  # 🔴 clage_session_pause -> Pause
+    # 🔴 clage_session_pause -> Pause
     ➡️ clage_session_pause=
-  # 🔴 clage_session_queues -> Queues
+    # 🔴 clage_session_queues -> Queues
     ➡️ clage_session_queues=
-  # 🔴 clage_session_start -> Segment start
+    # 🔴 clage_session_start -> Segment start
     ➡️ clage_session_start=
-  # 🔴 clage_session_talk -> Talk time
+    # 🔴 clage_session_talk -> Talk time
     ➡️ clage_session_talk=
-  # 🔴 clage_session_type -> Session type
+    # 🔴 clage_session_type -> Session type
     ➡️ clage_session_type=
     clage_sessions=Сессии
     clage_tag_sessionreport=Просмотр сессий по меткам
@@ -638,9 +638,9 @@ Do not change the items below:
     cld_detail_of_agent_sessions_raw=Подробности сессий агента
     cld_detail_of_answered_calls=Детали отвеченных вызовов
     cld_detail_of_unanswered_calls=Детали неотвеченных вызовов
-  # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
+    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
     ➡️ cld_detail_of_unanswered_calls_afp=
-  # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
+    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
     ➡️ cld_detail_of_unanswered_calls_raw=
     cld_detail_summary=Подробная сводка по часам
     cld_detail_summary_dom=Подробная сводка по дням
@@ -720,9 +720,9 @@ Do not change the items below:
     cld_queue=Очередь
     cld_queue_batch_export=Добавить вызовы в пакет экспорта
     cld_queue_detail=Детали очереди
-  # 🔴 cld_queue_detail_afp -> Queue detail
+    # 🔴 cld_queue_detail_afp -> Queue detail
     ➡️ cld_queue_detail_afp=
-  # 🔴 cld_queue_detail_raw -> Raw queue detail
+    # 🔴 cld_queue_detail_raw -> Raw queue detail
     ➡️ cld_queue_detail_raw=
     cld_return=Возврат
     cld_server=Сервер
@@ -1088,14 +1088,14 @@ Do not change the items below:
     evt_ivr_waitonly=Ожидание IVR
     evt_moh=Музыка на удержании
     evt_other_end_session=Окончание иной сессии
-  # 🔴 evt_other_fail_session -> Other Session Fail
+    # 🔴 evt_other_fail_session -> Other Session Fail
     ➡️ evt_other_fail_session=
     evt_other_start_session=Старт иной сессии
     evt_phone_end_session=Окончание телефонной сессии
-  # 🔴 evt_phone_fail_session -> Phone Session Fail
+    # 🔴 evt_phone_fail_session -> Phone Session Fail
     ➡️ evt_phone_fail_session=
     evt_phone_start_session=Старт телефонной сессии
-  # 🔴 evt_ringcancel -> Ring Cancel
+    # 🔴 evt_ringcancel -> Ring Cancel
     ➡️ evt_ringcancel=
     evt_ringing=Звонок
     evt_ringnoanswer=Звонок без ответа
@@ -1107,15 +1107,15 @@ Do not change the items below:
     evt_short_ringnoanswer=Звонок без ответа (короткий)
     evt_skillreq=Требуемая квалификация
     evt_teams_end_session=Окончание сессии MS Teams
-  # 🔴 evt_teams_fail_session -> Teams Session Fail
+    # 🔴 evt_teams_fail_session -> Teams Session Fail
     ➡️ evt_teams_fail_session=
     evt_teams_start_session=Старт сессии MS Teams
-  # 🔴 evt_transfer -> Transfer
+    # 🔴 evt_transfer -> Transfer
     ➡️ evt_transfer=
-  # 🔴 evt_unanswered_yet -> Unanswered Yet
+    # 🔴 evt_unanswered_yet -> Unanswered Yet
     ➡️ evt_unanswered_yet=
     evt_web_end_session=Окончание Web-сессии
-  # 🔴 evt_web_fail_session -> Web Session Fail
+    # 🔴 evt_web_fail_session -> Web Session Fail
     ➡️ evt_web_fail_session=
     evt_web_start_session=Старт Web-сессии
     hdr_agaw_agent=Агент
@@ -1126,7 +1126,7 @@ Do not change the items below:
     hdr_agents_det_title=Детали сессий и пауз агентов
     hdr_agents_title=Агенты и сессии
     hdr_all=Все
-  # 🔴 hdr_amo -> AMO
+    # 🔴 hdr_amo -> AMO
     ➡️ hdr_amo=
     hdr_answered=Отвеченные
     hdr_answered_details=Отв. (подробно)
@@ -1135,18 +1135,18 @@ Do not change the items below:
     hdr_area_title=Анализ кода региона
     hdr_attempts=Попытки
     hdr_broadcast=Broadcast
-  # 🔴 hdr_calls -> Calls
+    # 🔴 hdr_calls -> Calls
     ➡️ hdr_calls=
-  # 🔴 hdr_calls_title -> Call Details
+    # 🔴 hdr_calls_title -> Call Details
     ➡️ hdr_calls_title=
-  # 🔴 hdr_casedo -> Cases
+    # 🔴 hdr_casedo -> Cases
     ➡️ hdr_casedo=
-  # 🔴 hdr_casedo_title -> Cases and Clients
+    # 🔴 hdr_casedo_title -> Cases and Clients
     ➡️ hdr_casedo_title=
-  # 🔴 hdr_cases -> Cases
+    # 🔴 hdr_cases -> Cases
     ➡️ hdr_cases=
     hdr_cbt=Тренинг
-  # 🔴 hdr_clients -> Clients
+    # 🔴 hdr_clients -> Clients
     ➡️ hdr_clients=
     hdr_cronjobs=Cronjobs
     hdr_customblocks=Пользовательские блоки
@@ -1183,7 +1183,7 @@ Do not change the items below:
     hdr_outcomes=Результаты
     hdr_outcomes_title=Результаты вызова
     hdr_pauses=Паузы
-  # 🔴 hdr_performance -> Performance
+    # 🔴 hdr_performance -> Performance
     ➡️ hdr_performance=
     hdr_performancetrack=PrfTrk
     hdr_print=Печать
@@ -1197,14 +1197,14 @@ Do not change the items below:
     hdr_realtime=Реальное время
     hdr_reports=Отчеты
     hdr_resetquery=Сбросить параметры запроса
-  # 🔴 hdr_rt -> RT
+    # 🔴 hdr_rt -> RT
     ➡️ hdr_rt=
-  # 🔴 hdr_rt_title -> Real-Time Metrics
+    # 🔴 hdr_rt_title -> Real-Time Metrics
     ➡️ hdr_rt_title=
     hdr_skills=Квалификации
-  # 🔴 hdr_stats -> Stats
+    # 🔴 hdr_stats -> Stats
     ➡️ hdr_stats=
-  # 🔴 hdr_stats_title -> Statistics
+    # 🔴 hdr_stats_title -> Statistics
     ➡️ hdr_stats_title=
     hdr_tags=Тэги
     hdr_tags_title=Тэги вызова
@@ -1233,81 +1233,81 @@ Do not change the items below:
     edit_ac_supervisor=Супервайзер
     edit_ac_term=Оконч.
     edit_ac_title=Конфигурация известных агентов
-  # 🔴 edit_amo_attribute -> Attribute
+    # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
-  # 🔴 edit_amo_attributes -> Attributes
+    # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
-  # 🔴 edit_amo_campaign -> Campaign
+    # 🔴 edit_amo_campaign -> Campaign
     ➡️ edit_amo_campaign=
-  # 🔴 edit_amo_last_pull -> Last Pull
+    # 🔴 edit_amo_last_pull -> Last Pull
     ➡️ edit_amo_last_pull=
-  # 🔴 edit_amo_list_dialer_state -> Dialer State
+    # 🔴 edit_amo_list_dialer_state -> Dialer State
     ➡️ edit_amo_list_dialer_state=
-  # 🔴 edit_amo_list_id -> List ID
+    # 🔴 edit_amo_list_id -> List ID
     ➡️ edit_amo_list_id=
-  # 🔴 edit_amo_list_last_pull -> Last Pull
+    # 🔴 edit_amo_list_last_pull -> Last Pull
     ➡️ edit_amo_list_last_pull=
-  # 🔴 edit_amo_list_n_added -> N. added
+    # 🔴 edit_amo_list_n_added -> N. added
     ➡️ edit_amo_list_n_added=
-  # 🔴 edit_amo_list_n_completed -> N. completed
+    # 🔴 edit_amo_list_n_completed -> N. completed
     ➡️ edit_amo_list_n_completed=
-  # 🔴 edit_amo_list_n_pulled -> N. pulled
+    # 🔴 edit_amo_list_n_pulled -> N. pulled
     ➡️ edit_amo_list_n_pulled=
-  # 🔴 edit_amo_list_name -> Name
+    # 🔴 edit_amo_list_name -> Name
     ➡️ edit_amo_list_name=
-  # 🔴 edit_amo_list_numbers -> Edit Numbers
+    # 🔴 edit_amo_list_numbers -> Edit Numbers
     ➡️ edit_amo_list_numbers=
-  # 🔴 edit_amo_list_pull_by -> Pulled by
+    # 🔴 edit_amo_list_pull_by -> Pulled by
     ➡️ edit_amo_list_pull_by=
-  # 🔴 edit_amo_list_state -> List State
+    # 🔴 edit_amo_list_state -> List State
     ➡️ edit_amo_list_state=
-  # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
+    # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
     ➡️ edit_amo_list_upload_numbers=
-  # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
+    # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
     ➡️ edit_amo_list_upload_text=
-  # 🔴 edit_amo_list_weight -> Weight
+    # 🔴 edit_amo_list_weight -> Weight
     ➡️ edit_amo_list_weight=
-  # 🔴 edit_amo_lists_list -> AMO Lists
+    # 🔴 edit_amo_lists_list -> AMO Lists
     ➡️ edit_amo_lists_list=
-  # 🔴 edit_amo_lists_name_present -> The selected list name already exists
+    # 🔴 edit_amo_lists_name_present -> The selected list name already exists
     ➡️ edit_amo_lists_name_present=
-  # 🔴 edit_amo_lists_title -> Edit AMO List
+    # 🔴 edit_amo_lists_title -> Edit AMO List
     ➡️ edit_amo_lists_title=
-  # 🔴 edit_amo_n_added -> N. added
+    # 🔴 edit_amo_n_added -> N. added
     ➡️ edit_amo_n_added=
-  # 🔴 edit_amo_n_completed -> N. completed
+    # 🔴 edit_amo_n_completed -> N. completed
     ➡️ edit_amo_n_completed=
-  # 🔴 edit_amo_n_lists -> N. of Lists
+    # 🔴 edit_amo_n_lists -> N. of Lists
     ➡️ edit_amo_n_lists=
-  # 🔴 edit_amo_name -> Name
+    # 🔴 edit_amo_name -> Name
     ➡️ edit_amo_name=
-  # 🔴 edit_amo_notes -> Notes
+    # 🔴 edit_amo_notes -> Notes
     ➡️ edit_amo_notes=
-  # 🔴 edit_amo_number -> Number
+    # 🔴 edit_amo_number -> Number
     ➡️ edit_amo_number=
-  # 🔴 edit_amo_number_id -> Number ID
+    # 🔴 edit_amo_number_id -> Number ID
     ➡️ edit_amo_number_id=
-  # 🔴 edit_amo_numbers_current_uid -> Current UID
+    # 🔴 edit_amo_numbers_current_uid -> Current UID
     ➡️ edit_amo_numbers_current_uid=
-  # 🔴 edit_amo_numbers_edit -> Edit AMO Number
+    # 🔴 edit_amo_numbers_edit -> Edit AMO Number
     ➡️ edit_amo_numbers_edit=
-  # 🔴 edit_amo_numbers_list -> AMO Numbers
+    # 🔴 edit_amo_numbers_list -> AMO Numbers
     ➡️ edit_amo_numbers_list=
-  # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
+    # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
     ➡️ edit_amo_numbers_previous_retries=
-  # 🔴 edit_amo_numbers_retry_no -> Retry Number
+    # 🔴 edit_amo_numbers_retry_no -> Retry Number
     ➡️ edit_amo_numbers_retry_no=
-  # 🔴 edit_amo_queue_id -> Queue ID
+    # 🔴 edit_amo_queue_id -> Queue ID
     ➡️ edit_amo_queue_id=
-  # 🔴 edit_amo_retry_no -> N. of retries
+    # 🔴 edit_amo_retry_no -> N. of retries
     ➡️ edit_amo_retry_no=
-  # 🔴 edit_amo_state -> State
+    # 🔴 edit_amo_state -> State
     ➡️ edit_amo_state=
-  # 🔴 edit_amo_valid_attribute -> Attribute
+    # 🔴 edit_amo_valid_attribute -> Attribute
     ➡️ edit_amo_valid_attribute=
-  # 🔴 edit_amo_valid_from -> Valid from
+    # 🔴 edit_amo_valid_from -> Valid from
     ➡️ edit_amo_valid_from=
-  # 🔴 edit_amo_valid_value -> Value
+    # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
     edit_cases_client=Клиент
     edit_cases_contact=Контакт
@@ -1524,27 +1524,27 @@ Do not change the items below:
     edit_record_cases_contact=Контакт
     edit_record_cases_email=Email
     edit_record_cases_for_client=Недавние случай для данного клиента
-  # 🔴 edit_record_cases_handled_by -> Handled by
+    # 🔴 edit_record_cases_handled_by -> Handled by
     ➡️ edit_record_cases_handled_by=
-  # 🔴 edit_record_cases_header -> Edit Case
+    # 🔴 edit_record_cases_header -> Edit Case
     ➡️ edit_record_cases_header=
-  # 🔴 edit_record_cases_id -> Case Id
+    # 🔴 edit_record_cases_id -> Case Id
     ➡️ edit_record_cases_id=
-  # 🔴 edit_record_cases_none_found -> None found
+    # 🔴 edit_record_cases_none_found -> None found
     ➡️ edit_record_cases_none_found=
-  # 🔴 edit_record_cases_notes -> Notes
+    # 🔴 edit_record_cases_notes -> Notes
     ➡️ edit_record_cases_notes=
-  # 🔴 edit_record_cases_queue -> Queue
+    # 🔴 edit_record_cases_queue -> Queue
     ➡️ edit_record_cases_queue=
-  # 🔴 edit_record_cases_securitykey -> Security Key
+    # 🔴 edit_record_cases_securitykey -> Security Key
     ➡️ edit_record_cases_securitykey=
-  # 🔴 edit_record_cases_status -> Status
+    # 🔴 edit_record_cases_status -> Status
     ➡️ edit_record_cases_status=
-  # 🔴 edit_record_cases_text -> Note text
+    # 🔴 edit_record_cases_text -> Note text
     ➡️ edit_record_cases_text=
-  # 🔴 edit_record_cases_title -> Title
+    # 🔴 edit_record_cases_title -> Title
     ➡️ edit_record_cases_title=
-  # 🔴 edit_record_cases_xref -> Reference
+    # 🔴 edit_record_cases_xref -> Reference
     ➡️ edit_record_cases_xref=
     edit_record_cbt_code=Код  тренинга:
     edit_record_cbt_counter=Счетчик переданного:
@@ -1557,21 +1557,21 @@ Do not change the items below:
     edit_record_classes_name=Название класса:
     edit_record_classes_title=Детали класса
     edit_record_classes_usersinclass=Кол-во пользователей, принадлежащих к этому классу:
-  # 🔴 edit_record_client_id -> Client
+    # 🔴 edit_record_client_id -> Client
     ➡️ edit_record_client_id=
-  # 🔴 edit_record_clients_contact -> Contact
+    # 🔴 edit_record_clients_contact -> Contact
     ➡️ edit_record_clients_contact=
-  # 🔴 edit_record_clients_email -> Email
+    # 🔴 edit_record_clients_email -> Email
     ➡️ edit_record_clients_email=
-  # 🔴 edit_record_clients_header -> Edit Client
+    # 🔴 edit_record_clients_header -> Edit Client
     ➡️ edit_record_clients_header=
-  # 🔴 edit_record_clients_name -> Name
+    # 🔴 edit_record_clients_name -> Name
     ➡️ edit_record_clients_name=
-  # 🔴 edit_record_clients_notes -> Notes
+    # 🔴 edit_record_clients_notes -> Notes
     ➡️ edit_record_clients_notes=
-  # 🔴 edit_record_clients_securitykey -> Security Key
+    # 🔴 edit_record_clients_securitykey -> Security Key
     ➡️ edit_record_clients_securitykey=
-  # 🔴 edit_record_clients_status -> Client status
+    # 🔴 edit_record_clients_status -> Client status
     ➡️ edit_record_clients_status=
     edit_record_clone=Клонировать
     edit_record_createdby=Создано
@@ -1620,7 +1620,7 @@ Do not change the items below:
     edit_record_export_title=Детали экспорта отчета
     edit_record_export_titlefield=Заголовок:
     edit_record_export_visibility=Ключ видимости:
-  # 🔴 edit_record_ext_ref -> Reference
+    # 🔴 edit_record_ext_ref -> Reference
     ➡️ edit_record_ext_ref=
     edit_record_external_reference=Идентификатор внешней ссылки:
     edit_record_features_code=Код характеристики
@@ -1700,25 +1700,25 @@ Do not change the items below:
     edit_record_queue_agentspaused=Кол-во агентов на паузе:
     edit_record_queue_agentswaiting=Кол-во агентов на ожидании:
     edit_record_queue_alias=Псевдоним очереди:
-  # 🔴 edit_record_queue_amo -> AMO Settings
+    # 🔴 edit_record_queue_amo -> AMO Settings
     ➡️ edit_record_queue_amo=
-  # 🔴 edit_record_queue_amo_enabled -> Enabled
+    # 🔴 edit_record_queue_amo_enabled -> Enabled
     ➡️ edit_record_queue_amo_enabled=
-  # 🔴 edit_record_queue_amo_exponential -> Exponential
+    # 🔴 edit_record_queue_amo_exponential -> Exponential
     ➡️ edit_record_queue_amo_exponential=
-  # 🔴 edit_record_queue_amo_fixed -> Fixed
+    # 🔴 edit_record_queue_amo_fixed -> Fixed
     ➡️ edit_record_queue_amo_fixed=
-  # 🔴 edit_record_queue_amo_linear -> Linear
+    # 🔴 edit_record_queue_amo_linear -> Linear
     ➡️ edit_record_queue_amo_linear=
-  # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
+    # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
     ➡️ edit_record_queue_amo_recall_attributes=
-  # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
+    # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
     ➡️ edit_record_queue_amo_recall_max_attempts=
-  # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
+    # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
     ➡️ edit_record_queue_amo_recall_sec=
-  # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
+    # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
     ➡️ edit_record_queue_amo_recall_stepping=
-  # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
+    # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
     ➡️ edit_record_queue_amo_recall_valid_outcomes=
     edit_record_queue_attention=Уровни внимания
     edit_record_queue_callsinqueue=Кол-во вызовов в очереди:
@@ -1792,7 +1792,7 @@ Do not change the items below:
     edit_record_users_realname=Реальное имя:
     edit_record_users_title=Параметры пользователя
     edit_record_users_token=Токен:
-  # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
+    # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
     ➡️ edit_record_xref_blank=
     edit_reports_automatic=Автоматическая конфигурация отчета
     edit_reports_desc=Опис.
@@ -1854,7 +1854,7 @@ Do not change the items below:
     qa_comment=Комментарии
     qa_date=Дата
     qa_form=Форма
-  # 🔴 qa_frm_about -> 
+    # 🔴 qa_frm_about -> 
     ➡️ qa_frm_about=
     qa_frm_addbtn=Добавить
     qa_frm_addtojob=Добавить к заданию
@@ -2107,7 +2107,7 @@ Do not change the items below:
     filter_idAgentGroup=Группа агента
     filter_idLocation=Местоположение
     filter_ivr=IVR
-  # 🔴 filter_lostAttemptFor -> Lost Attempt For
+    # 🔴 filter_lostAttemptFor -> Lost Attempt For
     ➡️ filter_lostAttemptFor=
     filter_noncont_days=Дни
     filter_noncont_r1_from=Время с
@@ -2166,7 +2166,7 @@ Do not change the items below:
     rt3_agent_logout=Выход (все очереди)
     rt3_agent_pause=Пауза агента
     rt3_agent_removemember=Удалить участника из очереди
-  # 🔴 rt3_agent_select -> Please select an Agent...
+    # 🔴 rt3_agent_select -> Please select an Agent...
     ➡️ rt3_agent_select=
     rt3_agent_status=Статус
     rt3_agent_unpause=Агент не на паузе
@@ -2175,7 +2175,7 @@ Do not change the items below:
     rt3_agents_on_outbound=Агенты на исходящих вызовах
     rt3_alarm_cell_value=Значение ячейки
     rt3_alarm_column_title=Столбец
-  # 🔴 rt3_all_agents -> All Agents
+    # 🔴 rt3_all_agents -> All Agents
     ➡️ rt3_all_agents=
     rt3_all_columns=Все столбцы
     rt3_all_queues=Все очереди
@@ -2254,7 +2254,7 @@ Do not change the items below:
     rt3_comment=Комментарий
     rt3_configure_phone=Конфигурация софтфона
     rt3_connection_error=Ошибка соединения с сервером
-  # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
+    # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
     ➡️ rt3_connection_valid=
     rt3_cont=Прод.
     rt3_contph=CPH
@@ -2284,7 +2284,7 @@ Do not change the items below:
     rt3_edit_wallboard_cfg=Редактировать текущее табло и представление
     rt3_editwdg_title=Редактировать виджет
     rt3_empty_wlbd=Пустая доска
-  # 🔴 rt3_enter_title -> Enter Title
+    # 🔴 rt3_enter_title -> Enter Title
     ➡️ rt3_enter_title=
     rt3_error_prefs_fetch=Пользовательские настройки не могут быть получены
     rt3_error_saving=Ошибка сохранения доски
@@ -2301,7 +2301,7 @@ Do not change the items below:
     rt3_green=Зеленый
     rt3_hangup=Отключение
     rt3_hold=Удержание
-  # 🔴 rt3_html -> HTML Page
+    # 🔴 rt3_html -> HTML Page
     ➡️ rt3_html=
     rt3_idle=Свободный
     rt3_idle_alarm_red=Свободные Красное предупреждение
@@ -2395,9 +2395,9 @@ Do not change the items below:
     rt3_secondary_color=Вторичный цвет
     rt3_seconds=секунд
     rt3_security_key=Ключ безопасности
-  # 🔴 rt3_select_chart -> Select a Chart...
+    # 🔴 rt3_select_chart -> Select a Chart...
     ➡️ rt3_select_chart=
-  # 🔴 rt3_select_db -> Select a DataBlock...
+    # 🔴 rt3_select_db -> Select a DataBlock...
     ➡️ rt3_select_db=
     rt3_select_wallboard=Пожалуйста, выберите доску
     rt3_send_command=Послать команду
@@ -2450,7 +2450,7 @@ Do not change the items below:
     rt3_unregister_txt=Разрегистрирован
     rt3_unregistered=Разрегистрирован
     rt3_up=Вверх
-  # 🔴 rt3_url -> Url
+    # 🔴 rt3_url -> Url
     ➡️ rt3_url=
     rt3_url_copied=Общий URL скопирован в буфер обмена
     rt3_user_prefs_saved=Пользовательские настройки сохранены
@@ -2614,7 +2614,7 @@ Do not change the items below:
 
 Description of configuration properties
 
-  # 🔴 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
+    # 🔴 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
     ➡️ propedit_agent_max_qap_calls_desc=
     propedit_category_agentpage=Страница агента в реальном времени
     propedit_category_engine=Движок вычислений
@@ -2627,7 +2627,7 @@ Description of configuration properties
     propedit_category_synchronizer=Синхронизатор
     propedit_edit_label=Редактировать
     propedit_explore_label=Просмотреть
-  # 🔴 propedit_feature_agent_amo -> AMO
+    # 🔴 propedit_feature_agent_amo -> AMO
     ➡️ propedit_feature_agent_amo=
     propedit_feature_ap_backg=Дополнительные фоны
     propedit_feature_ap_login_out=Вход и выход
@@ -2656,11 +2656,11 @@ Description of configuration properties
     propedit_key_agent_background_desc=URL фона страницы агента
     propedit_key_agent_outcome_size=Макс. высота списка выбора результатов
     propedit_key_agent_pause_dialout=Отключить набор номера для агентов, когда они на паузе
-  # 🔴 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
+    # 🔴 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
     ➡️ propedit_key_agent_qap_cached_for_ms_desc=
-  # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
+    # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
     ➡️ propedit_key_amo_placed_call_timeout=
-  # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
+    # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
     ➡️ propedit_key_answer_src=
     propedit_key_atxfer=Код функции сопровождаемого перевода
     propedit_key_atxferabort=Код функции отмены сопровождаемого перевода
@@ -2673,7 +2673,7 @@ Description of configuration properties
     propedit_key_audit_max_rows_fetched=Максимальное число отсканированных строк, не требующее аудита
     propedit_key_blindxfer=Код функции слепого перевода
     propedit_key_cronjobs_localwebapp=Основной URL для выполнения запланированных заданий
-  # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
+    # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
     ➡️ propedit_key_decodeknownnumbers=
     propedit_key_default_agentcanamendpause_desc=Если для этого свойства установлено «Да», агенты могут исправлять текущий код паузы, изменяя его задним числом (это приведет к тому, что в отчетах будет отображаться новый код паузы вместо старого для текущей паузы). Если установлено значение "Нет", то, когда агенты изменяют код паузы,  автоматически завершается текущая пауза и инициируется новая с новым кодом.
     propedit_key_default_alwaysLogonUnpaused_desc=Когда агент вошел в систему, он всегда будет не на паузе
@@ -2721,7 +2721,7 @@ Description of configuration properties
     propedit_key_default_viewTechInfo_desc=Отображение технической информации и DBTest
     propedit_key_default_webloaderpbx_desc= Активировать WebLoaderPBX (UniLoader)
     propedit_key_default_wombatagentrecall_desc=Разрешить обратный звонок через WombatDialer
-  # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
+    # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
     ➡️ propedit_key_dialtone_src=
     propedit_key_directami_agent_desc=Предполагаемый канал агента
     propedit_key_directami_cmdseparator_desc=Разделитель, используемый для параметров в вашей версии Asterisk. По умолчанию запятая (','), и нужно заменить на вертикальную черту ('|') для очень старых систем Asterisk (pre-1.8) 
@@ -2747,11 +2747,11 @@ Description of configuration properties
     propedit_key_enswitch_qpwrap_desc=Приоритет очереди для агента, вошедшего в систему с приоритетом WRAP (по умолчанию: 6)
     propedit_key_enswitch_spyprefix_desc=Префикс по умолчанию для инициирования подслушивания (по умолчанию: *91)
     propedit_key_enswitch_verbose_desc=Все ли взаимодействия с Enswitch должны быть полностью записаны в журнал (по умолчанию: false)
-  # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
+    # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
     ➡️ propedit_key_extrabody=
-  # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
+    # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
     ➡️ propedit_key_hangup_src=
-  # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
+    # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
     ➡️ propedit_key_hiddennumberpolicy=
     propedit_key_layout_logo_desc=Логотип вашей компании (полный или относительный путь). Должен быть размером 200 х 72.
     propedit_key_noans_timeout=Время (сек.), после которого сбрасывается входящий вызов, если не ответили. Значение по умолчанию - 60.
@@ -2808,13 +2808,13 @@ Description of configuration properties
     propedit_key_realtime_waitAlarmOnLiveCalls_desc=Проверьте оповещения по времени ожидания текущих разговоров
     propedit_key_recovery_max=Максимальный интервал в секундах между попытками повторного соединения с WebSocket. Значение по умолчанию - 30.
     propedit_key_recovery_min=Минимальный интервал в секундах между попытками повторного соединения с WebSocket. Значение по умолчанию - 2.
-  # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
+    # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
     ➡️ propedit_key_ringtone_src=
     propedit_key_sla_initial_interval_desc=Интервал для начальной части SLA
     propedit_key_sla_interval_desc=Насколько велики временные интервалы для графиков TOS
     propedit_key_sla_max_initial_delay_desc=Начальная граница времени для вычисления SLA
     propedit_key_sla_max_monitored_delay_desc=Макс. задержка показана на графике SLA
-  # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
+    # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
     ➡️ propedit_key_smtpsubjectprefix=
     propedit_key_synchronizer_agents_file=Файл agents.conf по умолчанию
     propedit_key_synchronizer_queuelog_file=Файл журнала очереди по умолчанию
@@ -2835,7 +2835,7 @@ Description of configuration properties
     propedit_key_wb_recovery_max=Максимальный интервал в секундах между попытками подключения к WebSocket. Значение по умолчанию - 30. 
     propedit_key_wb_recovery_min=Минимальный интервал в секундах между попытками подключения к WebSocket. Значение по умолчанию - 2. 
     propedit_key_wombat_password_desc=Пароль WombatDialer
-  # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
+    # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
     ➡️ propedit_key_wombat_prevdial_desc=
     propedit_key_wombat_url_desc=Основной URL WombatDialer
     propedit_key_wombat_username_desc=Имя пользователя WombatDialer
@@ -2850,13 +2850,13 @@ Description of configuration properties
     propedit_option_false=Ложь
     propedit_option_freeswitch=Бесплатное переключение
     propedit_option_freeswitch_live=Бесплатное переключение - актуальное состояние
-  # 🔴 propedit_option_hash -> hash
+    # 🔴 propedit_option_hash -> hash
     ➡️ propedit_option_hash=
-  # 🔴 propedit_option_hide -> hide
+    # 🔴 propedit_option_hide -> hide
     ➡️ propedit_option_hide=
-  # 🔴 propedit_option_hide3 -> hide3
+    # 🔴 propedit_option_hide3 -> hide3
     ➡️ propedit_option_hide3=
-  # 🔴 propedit_option_hide5 -> hide5
+    # 🔴 propedit_option_hide5 -> hide5
     ➡️ propedit_option_hide5=
     propedit_option_jsonapi=JSON API
     propedit_option_mirtapbx=MirtaPBX
@@ -2870,7 +2870,7 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Только назначенные очереди с избирательным подходом
     propedit_option_realtime_dynamicLoginQueues_registered_label=Зарегистрированный
     propedit_option_spy=Подслушивание
-  # 🔴 propedit_option_stars -> stars
+    # 🔴 propedit_option_stars -> stars
     ➡️ propedit_option_stars=
     propedit_option_sync_mode_c=Только создать
     propedit_option_sync_mode_c_d=Создать, удалить
@@ -2931,7 +2931,7 @@ Description of security keys
     keydesc_closecalls=Пользователь может закрыть текущие вызовы в режиме реального времени или на странице исторической статистики
     keydesc_config=Пользователь может запустить мастер автоматического конфигурирования (обслуживаемый и необслуживаемый режим)
     keydesc_edit_cfg=Пользователь может редактировать локальный файл configuration.properties
-  # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
+    # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     ➡️ keydesc_hidenumbers=
     keydesc_keyupdate=Пользователь может устанавливать новый ключ активации QueueMetrics
     keydesc_mon_audio=Пользователь может мониторить вызов в реальном времени
@@ -2973,13 +2973,13 @@ Description of security keys
     keydesc_user=Данный ключ должен быть проведен любым существующим пользователем
     keydesc_usr_agent=Пользователь может редактировать агентов
     keydesc_usr_agroups=Пользователь может редактировать настраиваемые группы агентов
-  # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
+    # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
     ➡️ keydesc_usr_amo_edit=
     keydesc_usr_calltag=Пользователь может редактировать тэги вызова
-  # 🔴 keydesc_usr_cases_edit -> User can edit Cases
+    # 🔴 keydesc_usr_cases_edit -> User can edit Cases
     ➡️ keydesc_usr_cases_edit=
     keydesc_usr_cbts=Пользователь может редактировать список известных тренингов
-  # 🔴 keydesc_usr_clients_edit -> User can edit Clients
+    # 🔴 keydesc_usr_clients_edit -> User can edit Clients
     ➡️ keydesc_usr_clients_edit=
     keydesc_usr_cronjobs_edit=Пользователь может редактировать запланированные задания
     keydesc_usr_customblocks_edit=Пользователь может редактировать пользовательские блоки данных
@@ -3020,7 +3020,7 @@ Description of security keys
     tsk_detail_history=История задач
     tsk_detail_info=Информация о задаче
     tsk_detail_lastUpdated=Последние изменения
-  # 🔴 tsk_detail_message -> Message
+    # 🔴 tsk_detail_message -> Message
     ➡️ tsk_detail_message=
     tsk_detail_notes=Заметки
     tsk_detail_pfield=Обрабатываемое поле
@@ -3035,14 +3035,14 @@ Description of security keys
     tsk_disputed_qamsg=Спорные формы QA
     tsk_icon_detail=Показать детали
     tsk_list_pfield=Обрабатываемое поле
-  # 🔴 tsk_list_tbl_agroup -> Group
+    # 🔴 tsk_list_tbl_agroup -> Group
     ➡️ tsk_list_tbl_agroup=
     tsk_list_tbl_desc=Описание
     tsk_list_tbl_expdate=До даты
     tsk_list_tbl_from=От
     tsk_list_tbl_id=ID задачи
     tsk_list_tbl_status=Состояние
-  # 🔴 tsk_list_tbl_ticon -> Task
+    # 🔴 tsk_list_tbl_ticon -> Task
     ➡️ tsk_list_tbl_ticon=
     tsk_lists_dueend_date=Точная дата окончания периода
     tsk_lists_duestart_date=Точная дата начала периода
@@ -3124,49 +3124,49 @@ Other items
     agt_history_cbt=Послано тренингов:
     agt_history_groupchange=Участник группы
     agt_history_mtn=Посланы инструкции:
-  # 🔴 amo_close_info -> Close AMO Information
+    # 🔴 amo_close_info -> Close AMO Information
     ➡️ amo_close_info=
-  # 🔴 amo_dialer_state_completed -> Completed
+    # 🔴 amo_dialer_state_completed -> Completed
     ➡️ amo_dialer_state_completed=
-  # 🔴 amo_dialer_state_open -> Open
+    # 🔴 amo_dialer_state_open -> Open
     ➡️ amo_dialer_state_open=
-  # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
+    # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
     ➡️ amo_import_error_nonumber=
-  # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
+    # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
     ➡️ amo_import_error_norecords=
-  # 🔴 amo_last_info -> AMO Call Information
+    # 🔴 amo_last_info -> AMO Call Information
     ➡️ amo_last_info=
-  # 🔴 amo_list_state_open -> Open
+    # 🔴 amo_list_state_open -> Open
     ➡️ amo_list_state_open=
-  # 🔴 amo_list_state_paused -> Paused
+    # 🔴 amo_list_state_paused -> Paused
     ➡️ amo_list_state_paused=
-  # 🔴 amo_number_state_blklist -> Blacklisted
+    # 🔴 amo_number_state_blklist -> Blacklisted
     ➡️ amo_number_state_blklist=
-  # 🔴 amo_number_state_dialed -> Dialed
+    # 🔴 amo_number_state_dialed -> Dialed
     ➡️ amo_number_state_dialed=
-  # 🔴 amo_number_state_ko -> KO
+    # 🔴 amo_number_state_ko -> KO
     ➡️ amo_number_state_ko=
-  # 🔴 amo_number_state_ok -> OK
+    # 🔴 amo_number_state_ok -> OK
     ➡️ amo_number_state_ok=
-  # 🔴 amo_number_state_placed -> Placed
+    # 🔴 amo_number_state_placed -> Placed
     ➡️ amo_number_state_placed=
-  # 🔴 amo_number_state_reserved -> Reserved
+    # 🔴 amo_number_state_reserved -> Reserved
     ➡️ amo_number_state_reserved=
-  # 🔴 amo_number_state_todo -> To do
+    # 🔴 amo_number_state_todo -> To do
     ➡️ amo_number_state_todo=
-  # 🔴 amo_numbers_asteriskid -> Asterisk ID
+    # 🔴 amo_numbers_asteriskid -> Asterisk ID
     ➡️ amo_numbers_asteriskid=
-  # 🔴 amo_numbers_callstatus -> Status Code
+    # 🔴 amo_numbers_callstatus -> Status Code
     ➡️ amo_numbers_callstatus=
-  # 🔴 amo_numbers_date -> Date
+    # 🔴 amo_numbers_date -> Date
     ➡️ amo_numbers_date=
-  # 🔴 amo_numbers_reason -> Reason
+    # 🔴 amo_numbers_reason -> Reason
     ➡️ amo_numbers_reason=
-  # 🔴 amo_numbers_user -> User
+    # 🔴 amo_numbers_user -> User
     ➡️ amo_numbers_user=
-  # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
+    # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
     ➡️ amo_upload_numbers_error=
-  # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
+    # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
     ➡️ amo_upload_numbers_success=
     at_invalid_agent=Недействительный агент
     avg_time_decor_days=дн.
@@ -3205,19 +3205,19 @@ Other items
     decorator_agentpaused=На паузе
     decorator_queue_sla=SLA
     default.show_agent_priority_reports=Показать уровень приоритета агента в отчете.
-  # 🔴 dlr_last_pull -> Last Pull
+    # 🔴 dlr_last_pull -> Last Pull
     ➡️ dlr_last_pull=
-  # 🔴 dlr_last_pull_user -> Pull User
+    # 🔴 dlr_last_pull_user -> Pull User
     ➡️ dlr_last_pull_user=
-  # 🔴 dlr_list_state -> List State
+    # 🔴 dlr_list_state -> List State
     ➡️ dlr_list_state=
-  # 🔴 dlr_numbers_added -> Numbers Added
+    # 🔴 dlr_numbers_added -> Numbers Added
     ➡️ dlr_numbers_added=
-  # 🔴 dlr_numbers_completed -> Numbers Completed
+    # 🔴 dlr_numbers_completed -> Numbers Completed
     ➡️ dlr_numbers_completed=
-  # 🔴 dlr_numbers_pulled -> Numbers Pulled
+    # 🔴 dlr_numbers_pulled -> Numbers Pulled
     ➡️ dlr_numbers_pulled=
-  # 🔴 dlr_state -> Number State
+    # 🔴 dlr_state -> Number State
     ➡️ dlr_state=
     editor_all_reports=Все отчеты
     editor_back=Назад
@@ -3254,35 +3254,35 @@ Other items
     export_to_pdf=PDF
     export_xml=Экспорт в XML
     grp_ivr=События IVR
-  # 🔴 grp_ivr_calls -> IVR calls
+    # 🔴 grp_ivr_calls -> IVR calls
     ➡️ grp_ivr_calls=
     grp_ivr_short=IVR
     grp_lost_calls=Потерянные вызовы
     grp_lost_short=Потерянные
     grp_taken_calls=Принятые вызовы
     grp_taken_short=Принятые
-  # 🔴 gui_fileuploader_msg -> Drop file or Browse
+    # 🔴 gui_fileuploader_msg -> Drop file or Browse
     ➡️ gui_fileuploader_msg=
-  # 🔴 gui_fileuploader_types -> Supported file formats
+    # 🔴 gui_fileuploader_types -> Supported file formats
     ➡️ gui_fileuploader_types=
-  # 🔴 gui_fileuploader_upload -> Upload files
+    # 🔴 gui_fileuploader_upload -> Upload files
     ➡️ gui_fileuploader_upload=
-  # 🔴 gui_fileuploader_uploaded -> Uploaded files
+    # 🔴 gui_fileuploader_uploaded -> Uploaded files
     ➡️ gui_fileuploader_uploaded=
-  # 🔴 gui_form_back -> Back
+    # 🔴 gui_form_back -> Back
     ➡️ gui_form_back=
-  # 🔴 gui_form_cancel -> Cancel
+    # 🔴 gui_form_cancel -> Cancel
     ➡️ gui_form_cancel=
-  # 🔴 gui_form_next -> Next
+    # 🔴 gui_form_next -> Next
     ➡️ gui_form_next=
-  # 🔴 gui_form_ok -> OK
+    # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
     home_add_infobox=Добавить InfoBox
     home_configuration_agents=Агенты
-  # 🔴 home_configuration_cases -> Cases
+    # 🔴 home_configuration_cases -> Cases
     ➡️ home_configuration_cases=
     home_configuration_cbt=Тренинг
-  # 🔴 home_configuration_clients -> Clients
+    # 🔴 home_configuration_clients -> Clients
     ➡️ home_configuration_clients=
     home_configuration_custom_blocks=Пользовательские блоки данных
     home_configuration_dnis=DID/DNIS
@@ -3310,19 +3310,19 @@ Other items
     home_dbtest_ram_cache=Кэширование RAM
     home_dbtest_smtp=SMTP тестер
     home_diagnostics_title=Диагностика
-  # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
+    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
     ➡️ home_error_fetch_admin_infoboxes=
-  # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
+    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
     ➡️ home_error_fetch_available_infoboxes=
-  # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
+    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
     ➡️ home_error_fetch_infoboxes=
-  # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
+    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
     ➡️ home_error_save_prefs=
     home_icon_subtitle=Страница агента Icon
     home_icon_title=Значок
     home_infobox_close=Закрыть
     home_infobox_preview=Предпросмотр
-  # 🔴 home_infobox_private -> Private
+    # 🔴 home_infobox_private -> Private
     ➡️ home_infobox_private=
     home_infobox_quicklinks=Быстрые ссылки
     home_news_subtitle=Последние новости QueueMetrics
@@ -3331,9 +3331,9 @@ Other items
     home_payroll_title=Отчет по платежной ведомости
     home_qa_subtitle=Запуск QA отчета
     home_qa_title=QA отчеты
-  # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
+    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
     ➡️ home_qap_subtitle=
-  # 🔴 home_qap_title -> Agent Page
+    # 🔴 home_qap_title -> Agent Page
     ➡️ home_qap_title=
     home_realtime_subtitle=Полный просмотр звонков в реальном времени
     home_realtime_title=Реальное время
@@ -3372,43 +3372,43 @@ Other items
     keyinstall_popup_descr=Скопируйте и вставьте здесь новый код активации
     keyinstall_popup_title=Установите новый ключ QueueMetrics
     keyinstall_popup_title_agaw=Лицензия AGAW
-  # 🔴 ko_lst_n -> N Lost
+    # 🔴 ko_lst_n -> N Lost
     ➡️ ko_lst_n=
-  # 🔴 ko_lst_q -> Lost on Q
+    # 🔴 ko_lst_q -> Lost on Q
     ➡️ ko_lst_q=
-  # 🔴 ko_lst_t -> Last Lost
+    # 🔴 ko_lst_t -> Last Lost
     ➡️ ko_lst_t=
-  # 🔴 ko_recall_state -> Recall state
+    # 🔴 ko_recall_state -> Recall state
     ➡️ ko_recall_state=
-  # 🔴 ko_sho_n -> N Short
+    # 🔴 ko_sho_n -> N Short
     ➡️ ko_sho_n=
-  # 🔴 ko_sho_q -> Short.Q.
+    # 🔴 ko_sho_q -> Short.Q.
     ➡️ ko_sho_q=
-  # 🔴 ko_sho_t -> Short.Lst.
+    # 🔴 ko_sho_t -> Short.Lst.
     ➡️ ko_sho_t=
-  # 🔴 ko_succ_a -> Agent
+    # 🔴 ko_succ_a -> Agent
     ➡️ ko_succ_a=
-  # 🔴 ko_succ_n -> Successful
+    # 🔴 ko_succ_n -> Successful
     ➡️ ko_succ_n=
-  # 🔴 ko_succ_q -> Succ.Q.
+    # 🔴 ko_succ_q -> Succ.Q.
     ➡️ ko_succ_q=
-  # 🔴 ko_succ_t -> Succ.Last
+    # 🔴 ko_succ_t -> Succ.Last
     ➡️ ko_succ_t=
-  # 🔴 lgui_friday -> Friday
+    # 🔴 lgui_friday -> Friday
     ➡️ lgui_friday=
-  # 🔴 lgui_monday -> Monday
+    # 🔴 lgui_monday -> Monday
     ➡️ lgui_monday=
-  # 🔴 lgui_saturday -> Saturday
+    # 🔴 lgui_saturday -> Saturday
     ➡️ lgui_saturday=
-  # 🔴 lgui_selectall -> Select All
+    # 🔴 lgui_selectall -> Select All
     ➡️ lgui_selectall=
-  # 🔴 lgui_sunday -> Sunday
+    # 🔴 lgui_sunday -> Sunday
     ➡️ lgui_sunday=
-  # 🔴 lgui_thursday -> Thursday
+    # 🔴 lgui_thursday -> Thursday
     ➡️ lgui_thursday=
-  # 🔴 lgui_tuesday -> Tuesday
+    # 🔴 lgui_tuesday -> Tuesday
     ➡️ lgui_tuesday=
-  # 🔴 lgui_wednesday -> Wednesday
+    # 🔴 lgui_wednesday -> Wednesday
     ➡️ lgui_wednesday=
     licence_contributors=Помощники
     licence_firefox_client=Версия  Firefox клиента:
@@ -3420,7 +3420,7 @@ Other items
     licence_show_eula=Показать лицензионное соглашение конечного пользователя (EULA)
     licence_software_release=Версия ПО:
     licence_website=Официальный сайт QueueMetrics:
-  # 🔴 list_amo_title -> AMO Campaigns
+    # 🔴 list_amo_title -> AMO Campaigns
     ➡️ list_amo_title=
     logon_ErrAlreadyPresent=Этот пользователь уже присутствует в базе данных
     logon_ErrClassNotFound=Класс не найден
@@ -3445,93 +3445,93 @@ Other items
     lstcall_calllen=Продолжительность
     lstcall_ivr=IVR
     lstcall_waitlen=Ожидание
-  # 🔴 memo_add_new -> Create Memo
+    # 🔴 memo_add_new -> Create Memo
     ➡️ memo_add_new=
-  # 🔴 memo_category -> Filter by category
+    # 🔴 memo_category -> Filter by category
     ➡️ memo_category=
-  # 🔴 memo_details_caller -> Caller
+    # 🔴 memo_details_caller -> Caller
     ➡️ memo_details_caller=
-  # 🔴 memo_details_create -> Create Memo
+    # 🔴 memo_details_create -> Create Memo
     ➡️ memo_details_create=
-  # 🔴 memo_details_expireson -> Expires on
+    # 🔴 memo_details_expireson -> Expires on
     ➡️ memo_details_expireson=
-  # 🔴 memo_details_form -> Form
+    # 🔴 memo_details_form -> Form
     ➡️ memo_details_form=
-  # 🔴 memo_details_from -> FROM
+    # 🔴 memo_details_from -> FROM
     ➡️ memo_details_from=
-  # 🔴 memo_details_goback -> Back
+    # 🔴 memo_details_goback -> Back
     ➡️ memo_details_goback=
-  # 🔴 memo_details_info -> Memo Info
+    # 🔴 memo_details_info -> Memo Info
     ➡️ memo_details_info=
-  # 🔴 memo_details_queue -> Queue
+    # 🔴 memo_details_queue -> Queue
     ➡️ memo_details_queue=
-  # 🔴 memo_details_save -> Save
+    # 🔴 memo_details_save -> Save
     ➡️ memo_details_save=
-  # 🔴 memo_details_title -> Title
+    # 🔴 memo_details_title -> Title
     ➡️ memo_details_title=
-  # 🔴 memo_details_to -> TO
+    # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-  # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> type
     ➡️ memo_details_type=
-  # 🔴 memo_details_user_from -> From
+    # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
-  # 🔴 memo_details_user_to -> To
+    # 🔴 memo_details_user_to -> To
     ➡️ memo_details_user_to=
-  # 🔴 memo_details_validfrom -> Valid from
+    # 🔴 memo_details_validfrom -> Valid from
     ➡️ memo_details_validfrom=
-  # 🔴 memo_due -> Due Date
+    # 🔴 memo_due -> Due Date
     ➡️ memo_due=
-  # 🔴 memo_filter_all -> All Memos
+    # 🔴 memo_filter_all -> All Memos
     ➡️ memo_filter_all=
-  # 🔴 memo_filter_alldone -> All Memos done
+    # 🔴 memo_filter_alldone -> All Memos done
     ➡️ memo_filter_alldone=
-  # 🔴 memo_filter_alltbd -> All Memos to be done
+    # 🔴 memo_filter_alltbd -> All Memos to be done
     ➡️ memo_filter_alltbd=
-  # 🔴 memo_filter_completed -> Memos I completed
+    # 🔴 memo_filter_completed -> Memos I completed
     ➡️ memo_filter_completed=
-  # 🔴 memo_filter_error -> Error filtering Memos
+    # 🔴 memo_filter_error -> Error filtering Memos
     ➡️ memo_filter_error=
-  # 🔴 memo_filter_mygroup -> My group
+    # 🔴 memo_filter_mygroup -> My group
     ➡️ memo_filter_mygroup=
-  # 🔴 memo_filter_sent -> Memos I sent
+    # 🔴 memo_filter_sent -> Memos I sent
     ➡️ memo_filter_sent=
-  # 🔴 memo_filter_status -> Status
+    # 🔴 memo_filter_status -> Status
     ➡️ memo_filter_status=
-  # 🔴 memo_filter_tbd -> Memos to be done
+    # 🔴 memo_filter_tbd -> Memos to be done
     ➡️ memo_filter_tbd=
-  # 🔴 memo_from -> From
+    # 🔴 memo_from -> From
     ➡️ memo_from=
-  # 🔴 memo_group -> Group
+    # 🔴 memo_group -> Group
     ➡️ memo_group=
-  # 🔴 memo_id -> Id
+    # 🔴 memo_id -> Id
     ➡️ memo_id=
-  # 🔴 memo_items_found -> items found
+    # 🔴 memo_items_found -> items found
     ➡️ memo_items_found=
-  # 🔴 memo_list -> Memo List
+    # 🔴 memo_list -> Memo List
     ➡️ memo_list=
-  # 🔴 memo_list_norecords -> No Records
+    # 🔴 memo_list_norecords -> No Records
     ➡️ memo_list_norecords=
-  # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
+    # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
     ➡️ memo_loadbyid_error=
-  # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
+    # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
     ➡️ memo_loadbyid_missing=
-  # 🔴 memo_manager -> Manager
+    # 🔴 memo_manager -> Manager
     ➡️ memo_manager=
-  # 🔴 memo_message -> Message
+    # 🔴 memo_message -> Message
     ➡️ memo_message=
-  # 🔴 memo_related_to -> Related to
+    # 🔴 memo_related_to -> Related to
     ➡️ memo_related_to=
-  # 🔴 memo_status -> Status
+    # 🔴 memo_status -> Status
     ➡️ memo_status=
-  # 🔴 memo_tree_empty -> Empty
+    # 🔴 memo_tree_empty -> Empty
     ➡️ memo_tree_empty=
-  # 🔴 memo_type -> Type
+    # 🔴 memo_type -> Type
     ➡️ memo_type=
     menu_licence_page=Лицензия
     menu_user_page=Информация о пользователе
     notification_error=Ошибка
     notification_info=Информация
-  # 🔴 notification_success -> Success
+    # 🔴 notification_success -> Success
     ➡️ notification_success=
     notification_warning=Предупреждение
     numberformat_defaultdigits=1
@@ -3547,18 +3547,18 @@ Other items
     phone_agent=Агент
     phone_anonymous=Анонимно
     phone_answer=Ответ
-  # 🔴 phone_attended -> Attended Transfer
+    # 🔴 phone_attended -> Attended Transfer
     ➡️ phone_attended=
     phone_attended_transfer=Сопровождаемый перевод
     phone_auto_answer_toggle_off=Автоответ выключен
     phone_auto_answer_toggle_on=Автоответ включен
     phone_basic_settings=Базовые настройки
-  # 🔴 phone_blind -> Blind Transfer
+    # 🔴 phone_blind -> Blind Transfer
     ➡️ phone_blind=
     phone_blind_transfer=Перевод
-  # 🔴 phone_call -> Call
+    # 🔴 phone_call -> Call
     ➡️ phone_call=
-  # 🔴 phone_calling -> Calling...
+    # 🔴 phone_calling -> Calling...
     ➡️ phone_calling=
     phone_cancel=Отмена
     phone_close=Закрыть
@@ -3568,28 +3568,28 @@ Other items
     phone_debug=Щелкните, чтобы распечатать отладочную информацию в консоли браузера.
     phone_dial=Набрать
     phone_dialing=Набор...
-  # 🔴 phone_dialling -> Dialling...
+    # 🔴 phone_dialling -> Dialling...
     ➡️ phone_dialling=
     phone_displayname=Отображаемое имя
     phone_hangup=Разъединение
-  # 🔴 phone_http_error -> WebRTC Error.
+    # 🔴 phone_http_error -> WebRTC Error.
     ➡️ phone_http_error=
-  # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
     ➡️ phone_http_error_body=
     phone_iceservers=Сервера ICE
-  # 🔴 phone_incoming_call -> Incoming call...
+    # 🔴 phone_incoming_call -> Incoming call...
     ➡️ phone_incoming_call=
     phone_input_error=Ошибка ввода
     phone_join=Присоединение
     phone_maxsessions=Макс. число сессий
     phone_mute=Немой
     phone_no_https=QueueMetrics должен обслуживаться через HTTPS для корректной работы софтфона.
-  # 🔴 phone_no_queue -> No Queue
+    # 🔴 phone_no_queue -> No Queue
     ➡️ phone_no_queue=
     phone_noanswertimeout=Таймаут "нет ответа"
-  # 🔴 phone_not_avaialable -> Softphone Not Available.
+    # 🔴 phone_not_avaialable -> Softphone Not Available.
     ➡️ phone_not_avaialable=
-  # 🔴 phone_not_available -> Softphone not available.
+    # 🔴 phone_not_available -> Softphone not available.
     ➡️ phone_not_available=
     phone_password=Пароль
     phone_register=Регистр
@@ -3601,11 +3601,11 @@ Other items
     phone_swap=Swap
     phone_toggle_hold=Удерживать/Не удерживать
     phone_toggle_transfer=Перевод
-  # 🔴 phone_transfer -> Transfer
+    # 🔴 phone_transfer -> Transfer
     ➡️ phone_transfer=
     phone_unmute=Включить звук
     phone_unregistered=Незарегистрированный
-  # 🔴 phone_update_settings -> Update Settings
+    # 🔴 phone_update_settings -> Update Settings
     ➡️ phone_update_settings=
     phone_username=Имя пользователя
     phone_websocketurl=WebSocket URL
@@ -3725,485 +3725,485 @@ Other items
     qagrader_time=Время
     qagrader_wait=Ожидание
     qagrader_wrongurl=Указанный URL не действителен. Пожалуйста, проверьте его и попытайтесь снова.
-  # 🔴 qap_action_case -> Assign to Case
+    # 🔴 qap_action_case -> Assign to Case
     ➡️ qap_action_case=
-  # 🔴 qap_action_clicktodial -> Click to dial
+    # 🔴 qap_action_clicktodial -> Click to dial
     ➡️ qap_action_clicktodial=
-  # 🔴 qap_action_client -> Assign to Client
+    # 🔴 qap_action_client -> Assign to Client
     ➡️ qap_action_client=
-  # 🔴 qap_action_crm -> Open CRM
+    # 🔴 qap_action_crm -> Open CRM
     ➡️ qap_action_crm=
-  # 🔴 qap_action_flag -> Flag Interaction
+    # 🔴 qap_action_flag -> Flag Interaction
     ➡️ qap_action_flag=
-  # 🔴 qap_action_hangup -> Hangup Call
+    # 🔴 qap_action_hangup -> Hangup Call
     ➡️ qap_action_hangup=
-  # 🔴 qap_action_label -> Label Interaction
+    # 🔴 qap_action_label -> Label Interaction
     ➡️ qap_action_label=
-  # 🔴 qap_action_monitor -> Monitor Call
+    # 🔴 qap_action_monitor -> Monitor Call
     ➡️ qap_action_monitor=
-  # 🔴 qap_action_qa -> QA Forms
+    # 🔴 qap_action_qa -> QA Forms
     ➡️ qap_action_qa=
-  # 🔴 qap_action_recall -> New Recall Note
+    # 🔴 qap_action_recall -> New Recall Note
     ➡️ qap_action_recall=
-  # 🔴 qap_action_transfer -> Transfer Call
+    # 🔴 qap_action_transfer -> Transfer Call
     ➡️ qap_action_transfer=
-  # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
+    # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
     ➡️ qap_action_wbtrecall=
-  # 🔴 qap_addmember_selected -> Join selected queues.
+    # 🔴 qap_addmember_selected -> Join selected queues.
     ➡️ qap_addmember_selected=
-  # 🔴 qap_agent_code -> Agent Code
+    # 🔴 qap_agent_code -> Agent Code
     ➡️ qap_agent_code=
-  # 🔴 qap_agent_dialout_error -> Error while performing Agent Dialout.
+    # 🔴 qap_agent_dialout_error -> Error while performing Agent Dialout.
     ➡️ qap_agent_dialout_error=
-  # 🔴 qap_agent_extension -> Agent Extension
+    # 🔴 qap_agent_extension -> Agent Extension
     ➡️ qap_agent_extension=
-  # 🔴 qap_agent_notifications_error -> Error while fetching agent notifications.
+    # 🔴 qap_agent_notifications_error -> Error while fetching agent notifications.
     ➡️ qap_agent_notifications_error=
-  # 🔴 qap_agent_settings_error -> Error while fetching agent settings.
+    # 🔴 qap_agent_settings_error -> Error while fetching agent settings.
     ➡️ qap_agent_settings_error=
-  # 🔴 qap_agent_status_error -> Error while fetching agent status.
+    # 🔴 qap_agent_status_error -> Error while fetching agent status.
     ➡️ qap_agent_status_error=
-  # 🔴 qap_amo -> AMO
+    # 🔴 qap_amo -> AMO
     ➡️ qap_amo=
-  # 🔴 qap_amo_attributes -> Attributes
+    # 🔴 qap_amo_attributes -> Attributes
     ➡️ qap_amo_attributes=
-  # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
+    # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
     ➡️ qap_amo_cannot=
-  # 🔴 qap_amo_error -> Error reserving AMO call:
+    # 🔴 qap_amo_error -> Error reserving AMO call:
     ➡️ qap_amo_error=
-  # 🔴 qap_amo_list -> List Name
+    # 🔴 qap_amo_list -> List Name
     ➡️ qap_amo_list=
-  # 🔴 qap_amo_number -> Number
+    # 🔴 qap_amo_number -> Number
     ➡️ qap_amo_number=
-  # 🔴 qap_amo_queue -> Queue Name
+    # 🔴 qap_amo_queue -> Queue Name
     ➡️ qap_amo_queue=
-  # 🔴 qap_amo_recall -> Recall
+    # 🔴 qap_amo_recall -> Recall
     ➡️ qap_amo_recall=
-  # 🔴 qap_amo_request -> Request AMO Call
+    # 🔴 qap_amo_request -> Request AMO Call
     ➡️ qap_amo_request=
-  # 🔴 qap_amo_reserved -> Call successfully Reserved.
+    # 🔴 qap_amo_reserved -> Call successfully Reserved.
     ➡️ qap_amo_reserved=
-  # 🔴 qap_amo_terminated -> There are no more available AMO calls.
+    # 🔴 qap_amo_terminated -> There are no more available AMO calls.
     ➡️ qap_amo_terminated=
-  # 🔴 qap_assign_case -> Assign Interaction to Case
+    # 🔴 qap_assign_case -> Assign Interaction to Case
     ➡️ qap_assign_case=
-  # 🔴 qap_assign_client -> Assign Interaction to Client
+    # 🔴 qap_assign_client -> Assign Interaction to Client
     ➡️ qap_assign_client=
-  # 🔴 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
+    # 🔴 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
     ➡️ qap_assign_interaction_error=
-  # 🔴 qap_calendar_add -> Add New
+    # 🔴 qap_calendar_add -> Add New
     ➡️ qap_calendar_add=
-  # 🔴 qap_call_associated_to_case -> Call was associated to case
+    # 🔴 qap_call_associated_to_case -> Call was associated to case
     ➡️ qap_call_associated_to_case=
-  # 🔴 qap_case -> Case
+    # 🔴 qap_case -> Case
     ➡️ qap_case=
-  # 🔴 qap_case_add -> Add New Case
+    # 🔴 qap_case_add -> Add New Case
     ➡️ qap_case_add=
-  # 🔴 qap_case_calls -> ALL CALLS
+    # 🔴 qap_case_calls -> ALL CALLS
     ➡️ qap_case_calls=
-  # 🔴 qap_case_closed -> Closed
+    # 🔴 qap_case_closed -> Closed
     ➡️ qap_case_closed=
-  # 🔴 qap_case_comments -> Comments
+    # 🔴 qap_case_comments -> Comments
     ➡️ qap_case_comments=
-  # 🔴 qap_case_contact -> Contact
+    # 🔴 qap_case_contact -> Contact
     ➡️ qap_case_contact=
-  # 🔴 qap_case_details -> Case Details
+    # 🔴 qap_case_details -> Case Details
     ➡️ qap_case_details=
-  # 🔴 qap_case_email -> Email
+    # 🔴 qap_case_email -> Email
     ➡️ qap_case_email=
-  # 🔴 qap_case_merged -> Merged
+    # 🔴 qap_case_merged -> Merged
     ➡️ qap_case_merged=
-  # 🔴 qap_case_notes -> Notes
+    # 🔴 qap_case_notes -> Notes
     ➡️ qap_case_notes=
-  # 🔴 qap_case_open -> Open
+    # 🔴 qap_case_open -> Open
     ➡️ qap_case_open=
-  # 🔴 qap_case_title -> Title
+    # 🔴 qap_case_title -> Title
     ➡️ qap_case_title=
-  # 🔴 qap_case_unconfirmed -> Unconfirmed
+    # 🔴 qap_case_unconfirmed -> Unconfirmed
     ➡️ qap_case_unconfirmed=
-  # 🔴 qap_case_xref -> XREF
+    # 🔴 qap_case_xref -> XREF
     ➡️ qap_case_xref=
-  # 🔴 qap_cases_placeholder_search -> Search for any Case here
+    # 🔴 qap_cases_placeholder_search -> Search for any Case here
     ➡️ qap_cases_placeholder_search=
-  # 🔴 qap_choose_server_title -> Choose a Server
+    # 🔴 qap_choose_server_title -> Choose a Server
     ➡️ qap_choose_server_title=
-  # 🔴 qap_client -> Client
+    # 🔴 qap_client -> Client
     ➡️ qap_client=
-  # 🔴 qap_client_contact -> Contact
+    # 🔴 qap_client_contact -> Contact
     ➡️ qap_client_contact=
-  # 🔴 qap_client_email -> Email
+    # 🔴 qap_client_email -> Email
     ➡️ qap_client_email=
-  # 🔴 qap_client_externalRef -> External Reference
+    # 🔴 qap_client_externalRef -> External Reference
     ➡️ qap_client_externalRef=
-  # 🔴 qap_client_key -> Visibility Key
+    # 🔴 qap_client_key -> Visibility Key
     ➡️ qap_client_key=
-  # 🔴 qap_client_name -> Name
+    # 🔴 qap_client_name -> Name
     ➡️ qap_client_name=
-  # 🔴 qap_client_notes -> Notes
+    # 🔴 qap_client_notes -> Notes
     ➡️ qap_client_notes=
-  # 🔴 qap_client_xref -> XREF
+    # 🔴 qap_client_xref -> XREF
     ➡️ qap_client_xref=
-  # 🔴 qap_clients_add -> Add New Client
+    # 🔴 qap_clients_add -> Add New Client
     ➡️ qap_clients_add=
-  # 🔴 qap_clients_placeholder_search -> Search for any Client here
+    # 🔴 qap_clients_placeholder_search -> Search for any Client here
     ➡️ qap_clients_placeholder_search=
-  # 🔴 qap_control_addall -> Join selected
+    # 🔴 qap_control_addall -> Join selected
     ➡️ qap_control_addall=
-  # 🔴 qap_control_add -> Join
+    # 🔴 qap_control_add -> Join
     ➡️ qap_control_add=
-  # 🔴 qap_control_remove -> Leave
+    # 🔴 qap_control_remove -> Leave
     ➡️ qap_control_remove=
-  # 🔴 qap_control_all -> All
+    # 🔴 qap_control_all -> All
     ➡️ qap_control_all=
-  # 🔴 qap_control_amend -> Amend
+    # 🔴 qap_control_amend -> Amend
     ➡️ qap_control_amend=
-  # 🔴 qap_control_assigned -> Assigned
+    # 🔴 qap_control_assigned -> Assigned
     ➡️ qap_control_assigned=
-  # 🔴 qap_control_change -> Change
+    # 🔴 qap_control_change -> Change
     ➡️ qap_control_change=
-  # 🔴 qap_control_composition -> Composition
+    # 🔴 qap_control_composition -> Composition
     ➡️ qap_control_composition=
-  # 🔴 qap_control_name -> Name
+    # 🔴 qap_control_name -> Name
     ➡️ qap_control_name=
-  # 🔴 qap_control_pause -> Pause
+    # 🔴 qap_control_pause -> Pause
     ➡️ qap_control_pause=
-  # 🔴 qap_control_priority -> Priority
+    # 🔴 qap_control_priority -> Priority
     ➡️ qap_control_priority=
-  # 🔴 qap_control_removeall -> Leave selected
+    # 🔴 qap_control_removeall -> Leave selected
     ➡️ qap_control_removeall=
-  # 🔴 qap_control_selectall -> Select all
+    # 🔴 qap_control_selectall -> Select all
     ➡️ qap_control_selectall=
-  # 🔴 qap_control_timer -> Timer
+    # 🔴 qap_control_timer -> Timer
     ➡️ qap_control_timer=
-  # 🔴 qap_control_unpause -> Unpause
+    # 🔴 qap_control_unpause -> Unpause
     ➡️ qap_control_unpause=
-  # 🔴 qap_create_note_error -> Error while creating a new Note.
+    # 🔴 qap_create_note_error -> Error while creating a new Note.
     ➡️ qap_create_note_error=
-  # 🔴 qap_crm_links -> CRM Popup Links
+    # 🔴 qap_crm_links -> CRM Popup Links
     ➡️ qap_crm_links=
-  # 🔴 qap_daily_idle -> Idle time
+    # 🔴 qap_daily_idle -> Idle time
     ➡️ qap_daily_idle=
-  # 🔴 qap_daily_lost -> Lost Calls
+    # 🔴 qap_daily_lost -> Lost Calls
     ➡️ qap_daily_lost=
-  # 🔴 qap_daily_lostatt -> Lost Attempts
+    # 🔴 qap_daily_lostatt -> Lost Attempts
     ➡️ qap_daily_lostatt=
-  # 🔴 qap_daily_pause -> Pause time
+    # 🔴 qap_daily_pause -> Pause time
     ➡️ qap_daily_pause=
-  # 🔴 qap_daily_stats -> Daily Stats
+    # 🔴 qap_daily_stats -> Daily Stats
     ➡️ qap_daily_stats=
-  # 🔴 qap_daily_taken -> Taken Calls
+    # 🔴 qap_daily_taken -> Taken Calls
     ➡️ qap_daily_taken=
-  # 🔴 qap_daily_talk -> Talk time
+    # 🔴 qap_daily_talk -> Talk time
     ➡️ qap_daily_talk=
-  # 🔴 qap_debug_api -> API
+    # 🔴 qap_debug_api -> API
     ➡️ qap_debug_api=
-  # 🔴 qap_debug_context -> Context
+    # 🔴 qap_debug_context -> Context
     ➡️ qap_debug_context=
-  # 🔴 qap_debug_title -> Debug
+    # 🔴 qap_debug_title -> Debug
     ➡️ qap_debug_title=
-  # 🔴 qap_details_attempts -> Attempts
+    # 🔴 qap_details_attempts -> Attempts
     ➡️ qap_details_attempts=
-  # 🔴 qap_details_caller -> Caller
+    # 🔴 qap_details_caller -> Caller
     ➡️ qap_details_caller=
-  # 🔴 qap_details_direction -> Direction
+    # 🔴 qap_details_direction -> Direction
     ➡️ qap_details_direction=
-  # 🔴 qap_details_dnis -> Dnis
+    # 🔴 qap_details_dnis -> Dnis
     ➡️ qap_details_dnis=
-  # 🔴 qap_details_entered -> Entered
+    # 🔴 qap_details_entered -> Entered
     ➡️ qap_details_entered=
-  # 🔴 qap_details_features -> Features
+    # 🔴 qap_details_features -> Features
     ➡️ qap_details_features=
-  # 🔴 qap_details_ivrpath -> IVR Path
+    # 🔴 qap_details_ivrpath -> IVR Path
     ➡️ qap_details_ivrpath=
-  # 🔴 qap_details_outcome -> Outcome
+    # 🔴 qap_details_outcome -> Outcome
     ➡️ qap_details_outcome=
-  # 🔴 qap_details_position -> Position
+    # 🔴 qap_details_position -> Position
     ➡️ qap_details_position=
-  # 🔴 qap_details_queue -> Queue
+    # 🔴 qap_details_queue -> Queue
     ➡️ qap_details_queue=
-  # 🔴 qap_details_started -> Started
+    # 🔴 qap_details_started -> Started
     ➡️ qap_details_started=
-  # 🔴 qap_details_tag -> Tag
+    # 🔴 qap_details_tag -> Tag
     ➡️ qap_details_tag=
-  # 🔴 qap_details_talk -> Talk Time
+    # 🔴 qap_details_talk -> Talk Time
     ➡️ qap_details_talk=
-  # 🔴 qap_details_terminated -> Terminated
+    # 🔴 qap_details_terminated -> Terminated
     ➡️ qap_details_terminated=
-  # 🔴 qap_details_transferto -> Transfer To
+    # 🔴 qap_details_transferto -> Transfer To
     ➡️ qap_details_transferto=
-  # 🔴 qap_details_uniqueid -> Unique ID
+    # 🔴 qap_details_uniqueid -> Unique ID
     ➡️ qap_details_uniqueid=
-  # 🔴 qap_details_url -> URL
+    # 🔴 qap_details_url -> URL
     ➡️ qap_details_url=
-  # 🔴 qap_details_variables -> Variables
+    # 🔴 qap_details_variables -> Variables
     ➡️ qap_details_variables=
-  # 🔴 qap_details_wait -> Wait Time
+    # 🔴 qap_details_wait -> Wait Time
     ➡️ qap_details_wait=
-  # 🔴 qap_dial -> Dial
+    # 🔴 qap_dial -> Dial
     ➡️ qap_dial=
-  # 🔴 qap_diff_join -> Queues joined
+    # 🔴 qap_diff_join -> Queues joined
     ➡️ qap_diff_join=
-  # 🔴 qap_diff_leave -> Queues left
+    # 🔴 qap_diff_leave -> Queues left
     ➡️ qap_diff_leave=
-  # 🔴 qap_diff_paused -> Agent Paused
+    # 🔴 qap_diff_paused -> Agent Paused
     ➡️ qap_diff_paused=
-  # 🔴 qap_edit_cases -> Edit Case
+    # 🔴 qap_edit_cases -> Edit Case
     ➡️ qap_edit_cases=
-  # 🔴 qap_edit_client -> Edit Client
+    # 🔴 qap_edit_client -> Edit Client
     ➡️ qap_edit_client=
-  # 🔴 qap_edit_note -> Edit Note
+    # 🔴 qap_edit_note -> Edit Note
     ➡️ qap_edit_note=
-  # 🔴 qap_empty_note -> This note is empty.
+    # 🔴 qap_empty_note -> This note is empty.
     ➡️ qap_empty_note=
-  # 🔴 qap_end_work -> End Work
+    # 🔴 qap_end_work -> End Work
     ➡️ qap_end_work=
-  # 🔴 qap_entity_placeholder -> Type to search...
+    # 🔴 qap_entity_placeholder -> Type to search...
     ➡️ qap_entity_placeholder=
-  # 🔴 qap_fetch_notifications_error -> Error while fetching User's notifications.
+    # 🔴 qap_fetch_notifications_error -> Error while fetching User's notifications.
     ➡️ qap_fetch_notifications_error=
-  # 🔴 qap_filters_main -> Main
+    # 🔴 qap_filters_main -> Main
     ➡️ qap_filters_main=
-  # 🔴 qap_filters_priority -> Priority
+    # 🔴 qap_filters_priority -> Priority
     ➡️ qap_filters_priority=
-  # 🔴 qap_filters_queue -> Queue
+    # 🔴 qap_filters_queue -> Queue
     ➡️ qap_filters_queue=
-  # 🔴 qap_filters_spill -> Spill
+    # 🔴 qap_filters_spill -> Spill
     ➡️ qap_filters_spill=
-  # 🔴 qap_filters_status -> Status
+    # 🔴 qap_filters_status -> Status
     ➡️ qap_filters_status=
-  # 🔴 qap_filters_type -> Type
+    # 🔴 qap_filters_type -> Type
     ➡️ qap_filters_type=
-  # 🔴 qap_filters_unk -> Unknown
+    # 🔴 qap_filters_unk -> Unknown
     ➡️ qap_filters_unk=
-  # 🔴 qap_filters_wrap -> Wrap
+    # 🔴 qap_filters_wrap -> Wrap
     ➡️ qap_filters_wrap=
-  # 🔴 qap_find_cases -> Find your Cases
+    # 🔴 qap_find_cases -> Find your Cases
     ➡️ qap_find_cases=
-  # 🔴 qap_find_clients -> Find your Clients
+    # 🔴 qap_find_clients -> Find your Clients
     ➡️ qap_find_clients=
-  # 🔴 qap_form_features -> Feature Codes
+    # 🔴 qap_form_features -> Feature Codes
     ➡️ qap_form_features=
-  # 🔴 qap_form_outcome -> Outcome
+    # 🔴 qap_form_outcome -> Outcome
     ➡️ qap_form_outcome=
-  # 🔴 qap_idle_time -> Idle Time
+    # 🔴 qap_idle_time -> Idle Time
     ➡️ qap_idle_time=
-  # 🔴 qap_interaction_caller -> Caller
+    # 🔴 qap_interaction_caller -> Caller
     ➡️ qap_interaction_caller=
-  # 🔴 qap_interaction_case -> Case
+    # 🔴 qap_interaction_case -> Case
     ➡️ qap_interaction_case=
-  # 🔴 qap_interaction_client -> Client
+    # 🔴 qap_interaction_client -> Client
     ➡️ qap_interaction_client=
-  # 🔴 qap_interaction_details -> Details
+    # 🔴 qap_interaction_details -> Details
     ➡️ qap_interaction_details=
-  # 🔴 qap_interaction_details_title -> Call Details
+    # 🔴 qap_interaction_details_title -> Call Details
     ➡️ qap_interaction_details_title=
-  # 🔴 qap_interaction_duration -> Duration
+    # 🔴 qap_interaction_duration -> Duration
     ➡️ qap_interaction_duration=
-  # 🔴 qap_interaction_outcome -> Outcome
+    # 🔴 qap_interaction_outcome -> Outcome
     ➡️ qap_interaction_outcome=
-  # 🔴 qap_interaction_queue -> Queue
+    # 🔴 qap_interaction_queue -> Queue
     ➡️ qap_interaction_queue=
-  # 🔴 qap_interaction_start -> Start
+    # 🔴 qap_interaction_start -> Start
     ➡️ qap_interaction_start=
-  # 🔴 qap_interaction_tag -> Tag
+    # 🔴 qap_interaction_tag -> Tag
     ➡️ qap_interaction_tag=
-  # 🔴 qap_interaction_transfer -> Transfer
+    # 🔴 qap_interaction_transfer -> Transfer
     ➡️ qap_interaction_transfer=
-  # 🔴 qap_interaction_url -> URL
+    # 🔴 qap_interaction_url -> URL
     ➡️ qap_interaction_url=
-  # 🔴 qap_interaction_variables -> Variables
+    # 🔴 qap_interaction_variables -> Variables
     ➡️ qap_interaction_variables=
-  # 🔴 qap_interaction_waiting -> Waiting
+    # 🔴 qap_interaction_waiting -> Waiting
     ➡️ qap_interaction_waiting=
-  # 🔴 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
+    # 🔴 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
     ➡️ qap_invalid_outcome=
-  # 🔴 qap_join -> Join
+    # 🔴 qap_join -> Join
     ➡️ qap_join=
-  # 🔴 qap_label_freetext -> Free Text
+    # 🔴 qap_label_freetext -> Free Text
     ➡️ qap_label_freetext=
-  # 🔴 qap_leave -> Leave
+    # 🔴 qap_leave -> Leave
     ➡️ qap_leave=
-  # 🔴 qap_loading -> Loading...
+    # 🔴 qap_loading -> Loading...
     ➡️ qap_loading=
-  # 🔴 qap_memos -> Memos
+    # 🔴 qap_memos -> Memos
     ➡️ qap_memos=
-  # 🔴 qap_missing_cases_key -> You don't have permission to create new Cases.
+    # 🔴 qap_missing_cases_key -> You don't have permission to create new Cases.
     ➡️ qap_missing_cases_key=
-  # 🔴 qap_missing_clients_key -> You don't have permission to create new Clients.
+    # 🔴 qap_missing_clients_key -> You don't have permission to create new Clients.
     ➡️ qap_missing_clients_key=
-  # 🔴 qap_nav_calendar -> Calendar
+    # 🔴 qap_nav_calendar -> Calendar
     ➡️ qap_nav_calendar=
-  # 🔴 qap_nav_cases -> Cases
+    # 🔴 qap_nav_cases -> Cases
     ➡️ qap_nav_cases=
-  # 🔴 qap_nav_clients -> Clients
+    # 🔴 qap_nav_clients -> Clients
     ➡️ qap_nav_clients=
-  # 🔴 qap_nav_control -> Control
+    # 🔴 qap_nav_control -> Control
     ➡️ qap_nav_control=
-  # 🔴 qap_nav_debug -> Debug
+    # 🔴 qap_nav_debug -> Debug
     ➡️ qap_nav_debug=
-  # 🔴 qap_nav_dialout -> Dialout
+    # 🔴 qap_nav_dialout -> Dialout
     ➡️ qap_nav_dialout=
-  # 🔴 qap_nav_home -> Home
+    # 🔴 qap_nav_home -> Home
     ➡️ qap_nav_home=
-  # 🔴 qap_nav_interactions -> Interactions
+    # 🔴 qap_nav_interactions -> Interactions
     ➡️ qap_nav_interactions=
-  # 🔴 qap_nav_overview -> Overview
+    # 🔴 qap_nav_overview -> Overview
     ➡️ qap_nav_overview=
-  # 🔴 qap_nav_qa -> QA
+    # 🔴 qap_nav_qa -> QA
     ➡️ qap_nav_qa=
-  # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
+    # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
     ➡️ qap_nav_wombat=
-  # 🔴 qap_new_memo -> Create linked Memo
+    # 🔴 qap_new_memo -> Create linked Memo
     ➡️ qap_new_memo=
-  # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
+    # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
     ➡️ qap_no_cases=
-  # 🔴 qap_no_clients -> No Clients found for the current search, please try again.
+    # 🔴 qap_no_clients -> No Clients found for the current search, please try again.
     ➡️ qap_no_clients=
-  # 🔴 qap_none -> None
+    # 🔴 qap_none -> None
     ➡️ qap_none=
-  # 🔴 qap_note_actions -> Actions
+    # 🔴 qap_note_actions -> Actions
     ➡️ qap_note_actions=
-  # 🔴 qap_note_complete -> Complete
+    # 🔴 qap_note_complete -> Complete
     ➡️ qap_note_complete=
-  # 🔴 qap_note_dispute -> Dispute
+    # 🔴 qap_note_dispute -> Dispute
     ➡️ qap_note_dispute=
-  # 🔴 qap_note_empty -> Empty
+    # 🔴 qap_note_empty -> Empty
     ➡️ qap_note_empty=
-  # 🔴 qap_note_expires -> Expires on
+    # 🔴 qap_note_expires -> Expires on
     ➡️ qap_note_expires=
-  # 🔴 qap_note_expires_on -> Expires On
+    # 🔴 qap_note_expires_on -> Expires On
     ➡️ qap_note_expires_on=
-  # 🔴 qap_note_flag -> Flag
+    # 🔴 qap_note_flag -> Flag
     ➡️ qap_note_flag=
-  # 🔴 qap_note_ko_disputed -> Disputed
+    # 🔴 qap_note_ko_disputed -> Disputed
     ➡️ qap_note_ko_disputed=
-  # 🔴 qap_note_ko_refused -> Refused
+    # 🔴 qap_note_ko_refused -> Refused
     ➡️ qap_note_ko_refused=
-  # 🔴 qap_note_ko_rejected -> Rejected
+    # 🔴 qap_note_ko_rejected -> Rejected
     ➡️ qap_note_ko_rejected=
-  # 🔴 qap_note_meeting -> Meeting
+    # 🔴 qap_note_meeting -> Meeting
     ➡️ qap_note_meeting=
-  # 🔴 qap_note_message -> Message
+    # 🔴 qap_note_message -> Message
     ➡️ qap_note_message=
-  # 🔴 qap_note_note -> Note
+    # 🔴 qap_note_note -> Note
     ➡️ qap_note_note=
-  # 🔴 qap_note_notes -> Notes
+    # 🔴 qap_note_notes -> Notes
     ➡️ qap_note_notes=
-  # 🔴 qap_note_ok -> OK
+    # 🔴 qap_note_ok -> OK
     ➡️ qap_note_ok=
-  # 🔴 qap_note_qa -> QA
+    # 🔴 qap_note_qa -> QA
     ➡️ qap_note_qa=
-  # 🔴 qap_note_recall -> Recall
+    # 🔴 qap_note_recall -> Recall
     ➡️ qap_note_recall=
-  # 🔴 qap_note_refuse -> Refuse
+    # 🔴 qap_note_refuse -> Refuse
     ➡️ qap_note_refuse=
-  # 🔴 qap_note_reject -> Reject
+    # 🔴 qap_note_reject -> Reject
     ➡️ qap_note_reject=
-  # 🔴 qap_note_status -> Status
+    # 🔴 qap_note_status -> Status
     ➡️ qap_note_status=
-  # 🔴 qap_note_tbd -> TBD
+    # 🔴 qap_note_tbd -> TBD
     ➡️ qap_note_tbd=
-  # 🔴 qap_note_todo -> Todo
+    # 🔴 qap_note_todo -> Todo
     ➡️ qap_note_todo=
-  # 🔴 qap_note_togroup -> To Group
+    # 🔴 qap_note_togroup -> To Group
     ➡️ qap_note_togroup=
-  # 🔴 qap_note_touser -> To User
+    # 🔴 qap_note_touser -> To User
     ➡️ qap_note_touser=
-  # 🔴 qap_note_training -> Training
+    # 🔴 qap_note_training -> Training
     ➡️ qap_note_training=
-  # 🔴 qap_note_type -> Type
+    # 🔴 qap_note_type -> Type
     ➡️ qap_note_type=
-  # 🔴 qap_note_valid_from -> Valid From
+    # 🔴 qap_note_valid_from -> Valid From
     ➡️ qap_note_valid_from=
-  # 🔴 qap_notes_type_note -> Note
+    # 🔴 qap_notes_type_note -> Note
     ➡️ qap_notes_type_note=
-  # 🔴 qap_notifications -> Notifications
+    # 🔴 qap_notifications -> Notifications
     ➡️ qap_notifications=
-  # 🔴 qap_notifications_empty -> You currently have no notifications
+    # 🔴 qap_notifications_empty -> You currently have no notifications
     ➡️ qap_notifications_empty=
-  # 🔴 qap_overview_daily -> Daily
+    # 🔴 qap_overview_daily -> Daily
     ➡️ qap_overview_daily=
-  # 🔴 qap_overview_stats -> Stats
+    # 🔴 qap_overview_stats -> Stats
     ➡️ qap_overview_stats=
-  # 🔴 qap_overview_weekly -> Weekly
+    # 🔴 qap_overview_weekly -> Weekly
     ➡️ qap_overview_weekly=
-  # 🔴 qap_pause_time -> Pause Time
+    # 🔴 qap_pause_time -> Pause Time
     ➡️ qap_pause_time=
-  # 🔴 qap_platform_action_error -> Error while performing platform action.
+    # 🔴 qap_platform_action_error -> Error while performing platform action.
     ➡️ qap_platform_action_error=
-  # 🔴 qap_process_note_error -> Error while processing a Note.
+    # 🔴 qap_process_note_error -> Error while processing a Note.
     ➡️ qap_process_note_error=
-  # 🔴 qap_run -> Run
+    # 🔴 qap_run -> Run
     ➡️ qap_run=
-  # 🔴 qap_save_case_error -> Error while saving Case.
+    # 🔴 qap_save_case_error -> Error while saving Case.
     ➡️ qap_save_case_error=
-  # 🔴 qap_save_client_error -> Error while saving Client.
+    # 🔴 qap_save_client_error -> Error while saving Client.
     ➡️ qap_save_client_error=
-  # 🔴 qap_search_cases_error -> Error searching for the requested Cases.
+    # 🔴 qap_search_cases_error -> Error searching for the requested Cases.
     ➡️ qap_search_cases_error=
-  # 🔴 qap_search_clients_error -> Error searching for the requested Clients.
+    # 🔴 qap_search_clients_error -> Error searching for the requested Clients.
     ➡️ qap_search_clients_error=
-  # 🔴 qap_server -> Server
+    # 🔴 qap_server -> Server
     ➡️ qap_server=
-  # 🔴 qap_session_time -> Session Time
+    # 🔴 qap_session_time -> Session Time
     ➡️ qap_session_time=
-  # 🔴 qap_signout -> Sign out
+    # 🔴 qap_signout -> Sign out
     ➡️ qap_signout=
-  # 🔴 qap_softphone -> Phone
+    # 🔴 qap_softphone -> Phone
     ➡️ qap_softphone=
-  # 🔴 qap_softphone_debug -> Softphone
+    # 🔴 qap_softphone_debug -> Softphone
     ➡️ qap_softphone_debug=
-  # 🔴 qap_start_work -> Start Work
+    # 🔴 qap_start_work -> Start Work
     ➡️ qap_start_work=
-  # 🔴 qap_status_paused -> Paused
+    # 🔴 qap_status_paused -> Paused
     ➡️ qap_status_paused=
-  # 🔴 qap_status_unpaused -> Unpaused
+    # 🔴 qap_status_unpaused -> Unpaused
     ➡️ qap_status_unpaused=
-  # 🔴 qap_title_calendar -> Calendar
+    # 🔴 qap_title_calendar -> Calendar
     ➡️ qap_title_calendar=
-  # 🔴 qap_title_cases -> Cases
+    # 🔴 qap_title_cases -> Cases
     ➡️ qap_title_cases=
-  # 🔴 qap_title_clients -> Clients
+    # 🔴 qap_title_clients -> Clients
     ➡️ qap_title_clients=
-  # 🔴 qap_title_control -> Queue Control
+    # 🔴 qap_title_control -> Queue Control
     ➡️ qap_title_control=
-  # 🔴 qap_title_interactions -> Interactions
+    # 🔴 qap_title_interactions -> Interactions
     ➡️ qap_title_interactions=
-  # 🔴 qap_title_note -> New Note
+    # 🔴 qap_title_note -> New Note
     ➡️ qap_title_note=
-  # 🔴 qap_title_notes_done -> Done
+    # 🔴 qap_title_notes_done -> Done
     ➡️ qap_title_notes_done=
-  # 🔴 qap_title_notes_pending -> Pending
+    # 🔴 qap_title_notes_pending -> Pending
     ➡️ qap_title_notes_pending=
-  # 🔴 qap_title_outcomes -> Outcome and Feature Codes
+    # 🔴 qap_title_outcomes -> Outcome and Feature Codes
     ➡️ qap_title_outcomes=
-  # 🔴 qap_title_overview -> Overview
+    # 🔴 qap_title_overview -> Overview
     ➡️ qap_title_overview=
-  # 🔴 qap_today -> Today
+    # 🔴 qap_today -> Today
     ➡️ qap_today=
-  # 🔴 qap_transaction_body -> Comment
+    # 🔴 qap_transaction_body -> Comment
     ➡️ qap_transaction_body=
-  # 🔴 qap_transaction_title -> Title
+    # 🔴 qap_transaction_title -> Title
     ➡️ qap_transaction_title=
-  # 🔴 qap_unknown_caller -> Unknown Caller
+    # 🔴 qap_unknown_caller -> Unknown Caller
     ➡️ qap_unknown_caller=
-  # 🔴 qap_user_pref_error -> Error while fetching user preferences.
+    # 🔴 qap_user_pref_error -> Error while fetching user preferences.
     ➡️ qap_user_pref_error=
-  # 🔴 qap_wbt_campaign -> Campaign
+    # 🔴 qap_wbt_campaign -> Campaign
     ➡️ qap_wbt_campaign=
-  # 🔴 qap_wbt_comments -> Comments
+    # 🔴 qap_wbt_comments -> Comments
     ➡️ qap_wbt_comments=
-  # 🔴 qap_wbt_date -> Date
+    # 🔴 qap_wbt_date -> Date
     ➡️ qap_wbt_date=
-  # 🔴 qap_wbt_num -> Number
+    # 🔴 qap_wbt_num -> Number
     ➡️ qap_wbt_num=
-  # 🔴 qap_wbt_recall -> Recall
+    # 🔴 qap_wbt_recall -> Recall
     ➡️ qap_wbt_recall=
-  # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
+    # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
     ➡️ qap_wbt_title=
-  # 🔴 qap_welcome -> Welcome Back!
+    # 🔴 qap_welcome -> Welcome Back!
     ➡️ qap_welcome=
-  # 🔴 qap_you_have -> You have
+    # 🔴 qap_you_have -> You have
     ➡️ qap_you_have=
     qatarget_agentgroup=Группа агента
     qatarget_allcalls=Все вызовы
@@ -4216,11 +4216,11 @@ Other items
     realtime_tooltip_features=Функ.
     realtime_tooltip_ivrs=IVR
     realtime_tooltip_variables=Перем.
-  # 🔴 recallstate_needs_further -> Needs further recall
+    # 🔴 recallstate_needs_further -> Needs further recall
     ➡️ recallstate_needs_further=
-  # 🔴 recallstate_not_recalled -> Not yet recalled
+    # 🔴 recallstate_not_recalled -> Not yet recalled
     ➡️ recallstate_not_recalled=
-  # 🔴 recallstate_recalled -> Recalled
+    # 🔴 recallstate_recalled -> Recalled
     ➡️ recallstate_recalled=
     record_tag_inserttag_button=Добавить пометку
     record_tag_inserttag_title=Вставить новую пометку
@@ -4242,11 +4242,11 @@ Other items
     record_tags_wrongduration=Пожалуйста, введите правильный формат продолжительности
     record_tags_wrongnote=Пожалуйста, введите заметку
     record_tags_wrongtime=Пожалуйста, введите правильный формат времени
-  # 🔴 recstat_closed -> Closed
+    # 🔴 recstat_closed -> Closed
     ➡️ recstat_closed=
-  # 🔴 recstat_merged -> Merged
+    # 🔴 recstat_merged -> Merged
     ➡️ recstat_merged=
-  # 🔴 recstat_open -> Open
+    # 🔴 recstat_open -> Open
     ➡️ recstat_open=
     report_filter_noncont_time=Период
     report_input_error=Недопустимое значение
@@ -4287,16 +4287,16 @@ Other items
     reports_create_successful=Отчет создан успешно
     reports_datablock_chart=Диаграмма
     reports_datablock_columns_customization=Настроить столбцы
-  # 🔴 reports_datablock_columns_short -> Columns
+    # 🔴 reports_datablock_columns_short -> Columns
     ➡️ reports_datablock_columns_short=
     reports_datablock_errormsg=Сообщение об ошибке
-  # 🔴 reports_datablock_label_subtititle -> Subtitle
+    # 🔴 reports_datablock_label_subtititle -> Subtitle
     ➡️ reports_datablock_label_subtititle=
     reports_datablock_label_subtitle=Заметки к блоку данных
     reports_datablock_label_title=Заголовок блока данных
-  # 🔴 reports_datablock_order_customization -> Customize DataBlock Order
+    # 🔴 reports_datablock_order_customization -> Customize DataBlock Order
     ➡️ reports_datablock_order_customization=
-  # 🔴 reports_datablock_order_short -> DataBlocks
+    # 🔴 reports_datablock_order_short -> DataBlocks
     ➡️ reports_datablock_order_short=
     reports_datablock_status=Состояние
     reports_datablockview_added=Блоки данных  добавлены
@@ -4310,7 +4310,7 @@ Other items
     reports_delete_current_page_confirm=Удалить текущую страницу?
     reports_delete_current_report_confirm=Удалить текущий отчет?
     reports_delete_datablockview=Удалить просмотр блока данных
-  # 🔴 reports_delete_datablockview_short -> Delete
+    # 🔴 reports_delete_datablockview_short -> Delete
     ➡️ reports_delete_datablockview_short=
     reports_delete_filter=Удалить фильтр
     reports_delete_page=Удалить страницу
@@ -4320,10 +4320,10 @@ Other items
     reports_edit_datablocks=Блок данных
     reports_edit_datablockview=Редактировать заголовок
     reports_edit_datablockview_complete=Подтвердить
-  # 🔴 reports_edit_datablockview_short -> Edit
+    # 🔴 reports_edit_datablockview_short -> Edit
     ➡️ reports_edit_datablockview_short=
     reports_edit_disabled=Этот отчет в режиме "только чтение", потому что у вас нет прав редактировать его.
-  # 🔴 reports_edit_filter -> Edit Filter
+    # 🔴 reports_edit_filter -> Edit Filter
     ➡️ reports_edit_filter=
     reports_edit_filters=Фильтры
     reports_edit_name=Редактировать название отчета
@@ -4339,12 +4339,12 @@ Other items
     reports_export_mode_landscape=Альбом
     reports_export_mode_pdf=Экспорт в PDF
     reports_export_mode_portrait=Портрет
-  # 🔴 reports_export_pdf_short -> PDF
+    # 🔴 reports_export_pdf_short -> PDF
     ➡️ reports_export_pdf_short=
     reports_export_schema=Экспортировать схему отчета
     reports_export_schema_error=Схема отчета не может быть экспортирована.
     reports_export_test_icon=Выполнить сейчас
-  # 🔴 reports_export_xls_short -> XLS
+    # 🔴 reports_export_xls_short -> XLS
     ➡️ reports_export_xls_short=
     reports_fetch_error=Ошибка получения блока данных
     reports_filter_agent=Агент
@@ -4358,9 +4358,9 @@ Other items
     reports_filter_caller=Вызывающий
     reports_filter_callskills=Квалификация вызова
     reports_filter_calltags=Тэг вызова
-  # 🔴 reports_filter_case -> Case
+    # 🔴 reports_filter_case -> Case
     ➡️ reports_filter_case=
-  # 🔴 reports_filter_client -> Client
+    # 🔴 reports_filter_client -> Client
     ➡️ reports_filter_client=
     reports_filter_date_from=От
     reports_filter_date_to=К
@@ -4373,7 +4373,7 @@ Other items
     reports_filter_input_error=Ошибка ввода
     reports_filter_ivr=IVR
     reports_filter_location=Расположение
-  # 🔴 reports_filter_none -> None
+    # 🔴 reports_filter_none -> None
     ➡️ reports_filter_none=
     reports_filter_noncont_time=Период
     reports_filter_noncontdays=Дни
@@ -4387,14 +4387,14 @@ Other items
     reports_filter_shortcallattempt=Мин. время попытки (короткие вызовы)
     reports_filter_shortcalltalk=Мин. время разговора (короткие вызовы)
     reports_filter_shortcallwait=Мин. время ожидания (короткие вызовы)
-  # 🔴 reports_filter_timerange -> Select time range
+    # 🔴 reports_filter_timerange -> Select time range
     ➡️ reports_filter_timerange=
     reports_filter_variable_name=Имя переменной
     reports_filter_variable_value=Значение переменной
     reports_filter_variables=Переменные
     reports_filter_waitmax=Макс. время ожидания
     reports_filter_waitmin=Мин. время ожидания
-  # 🔴 reports_filters -> Show/Hide Filters
+    # 🔴 reports_filters -> Show/Hide Filters
     ➡️ reports_filters=
     reports_goto_page=Перейти
     reports_grouping_title=Группировка вызовов
@@ -4403,7 +4403,7 @@ Other items
     reports_import_schema_success=Схема отчета успешно импортирована.
     reports_invalid_input=Введенное значение недопустимо
     reports_link_copy_successful=URL отчета скопирован в  буфер обмена
-  # 🔴 reports_lost_calls -> Lost Calls
+    # 🔴 reports_lost_calls -> Lost Calls
     ➡️ reports_lost_calls=
     reports_modify_report_name=Изменить название отчета
     reports_multistint=Режим Multi-Stint
@@ -4416,7 +4416,7 @@ Other items
     reports_no_queue_selected=Нет выбранной очереди
     reports_noncont_days_filter=Дни недели
     reports_noncont_time_filter=Фильтр по периоду времени
-  # 🔴 reports_not_filter -> Negate this filter
+    # 🔴 reports_not_filter -> Negate this filter
     ➡️ reports_not_filter=
     reports_operator_and=И
     reports_operator_nor=Ни
@@ -4430,19 +4430,19 @@ Other items
     reports_page_visibilitykey=Ключ видимости
     reports_pagination_gotopage=Перейти на страницу
     reports_pagination_loading=Загрузка...
-  # 🔴 reports_pagination_next -> Next page
+    # 🔴 reports_pagination_next -> Next page
     ➡️ reports_pagination_next=
     reports_pagination_of=Из
     reports_pagination_page=Страница
-  # 🔴 reports_pagination_prev -> Previous page
+    # 🔴 reports_pagination_prev -> Previous page
     ➡️ reports_pagination_prev=
     reports_pagination_show=Показать
     reports_pagination_showing=Отображение
-  # 🔴 reports_period_too_long -> This report covers a longer period than you are allowed to run.
+    # 🔴 reports_period_too_long -> This report covers a longer period than you are allowed to run.
     ➡️ reports_period_too_long=
     reports_prev_datablock=Пред.
     reports_preview_switch=Предпросмотр
-  # 🔴 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
+    # 🔴 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
     ➡️ reports_print_notification=
     reports_public=Публичный
     reports_qa_agent=Агент
@@ -4451,19 +4451,19 @@ Other items
     reports_qa_code=Код
     reports_qa_deletenotes=Удалить все
     reports_qa_description=Описание
-  # 🔴 reports_qa_error_add_note -> Error Adding Note
+    # 🔴 reports_qa_error_add_note -> Error Adding Note
     ➡️ reports_qa_error_add_note=
-  # 🔴 reports_qa_error_commit_form -> Error Committing QA Form
+    # 🔴 reports_qa_error_commit_form -> Error Committing QA Form
     ➡️ reports_qa_error_commit_form=
-  # 🔴 reports_qa_error_delete_form -> Error Deleting QA Form
+    # 🔴 reports_qa_error_delete_form -> Error Deleting QA Form
     ➡️ reports_qa_error_delete_form=
-  # 🔴 reports_qa_error_delete_note -> Error Deleting Note
+    # 🔴 reports_qa_error_delete_note -> Error Deleting Note
     ➡️ reports_qa_error_delete_note=
-  # 🔴 reports_qa_error_download_forms -> Error Downloading QA Forms
+    # 🔴 reports_qa_error_download_forms -> Error Downloading QA Forms
     ➡️ reports_qa_error_download_forms=
-  # 🔴 reports_qa_error_edit_form -> Error Editing QA Form
+    # 🔴 reports_qa_error_edit_form -> Error Editing QA Form
     ➡️ reports_qa_error_edit_form=
-  # 🔴 reports_qa_error_update_form -> Error Updating QA Form
+    # 🔴 reports_qa_error_update_form -> Error Updating QA Form
     ➡️ reports_qa_error_update_form=
     reports_qa_items=Элементы
     reports_qa_level=Уровень
@@ -4517,7 +4517,7 @@ Other items
     reports_supervised=Наблюдаемый
     reports_tab_editor=Вкладка редактирования
     reports_tab_page_list=Доступные страницы отчета
-  # 🔴 reports_taken_calls -> Taken Calls
+    # 🔴 reports_taken_calls -> Taken Calls
     ➡️ reports_taken_calls=
     reports_throwaway_report_new=Новый одноразовый отчет
     reports_time=Время
@@ -4560,7 +4560,7 @@ Other items
     reports_topbar_icon_export_PDF__open_hover_tooltip=Экспорт в PDF
     reports_topbar_icon_export_excel__open_hover_tooltip=Экспорт в XLS
     reports_topbar_icon_filter_open_hover_tooltip=Фильтры
-  # 🔴 reports_topbar_icon_print_hover_tooltip -> Print
+    # 🔴 reports_topbar_icon_print_hover_tooltip -> Print
     ➡️ reports_topbar_icon_print_hover_tooltip=
     reports_topbar_icon_run_report_hover_tooltip=Процесс запроса
     reports_topbar_icon_save_report_hover_tooltip=Сохранить отчет
@@ -4583,7 +4583,7 @@ Other items
     rt_all_queues=Показать все очереди
     rt_all_selected=Все выбранные
     rt_bsy=Занято
-  # 🔴 rt_busysince -> Busy Since
+    # 🔴 rt_busysince -> Busy Since
     ➡️ rt_busysince=
     rt_caller_nbsp=Номер звонящего
     rt_callid=callId
@@ -4661,7 +4661,7 @@ Other items
     rt_pauseagent=Пауза агента
     rt_pauseagent_tt=Пауза агента
     rt_paused_for=Пауза для  
-  # 🔴 rt_pausedsince -> Paused Since
+    # 🔴 rt_pausedsince -> Paused Since
     ➡️ rt_pausedsince=
     rt_pop_agent_code=Код агента:
     rt_pop_agent_extension=Номер агента:
@@ -4898,14 +4898,14 @@ Other items
     sync2_url_input=Url
     t3_circle_lost_calls=Потерянные вызовы
     t3_live_agent_info=Информация об актуальном агенте
-  # 🔴 timeline_avg -> Avg.
+    # 🔴 timeline_avg -> Avg.
     ➡️ timeline_avg=
     timeline_close=Вернуться к отчету
     timeline_debug=Загрузить отладочную информацию
     timeline_download_recording=Загрузить запись
-  # 🔴 timeline_event -> Event
+    # 🔴 timeline_event -> Event
     ➡️ timeline_event=
-  # 🔴 timeline_events -> Timeline Events
+    # 🔴 timeline_events -> Timeline Events
     ➡️ timeline_events=
     timeline_interaction_calltot=Всего:
     timeline_marker_add=Добавить метку
@@ -4913,26 +4913,26 @@ Other items
     timeline_marker_delete_confirm=Выбранный маркер будет удален. Продолжить?
     timeline_marker_duration=Продолжительность
     timeline_marker_editor_title=Создать метку
-  # 🔴 timeline_marker_list -> Markers
+    # 🔴 timeline_marker_list -> Markers
     ➡️ timeline_marker_list=
     timeline_marker_message=Сообщение
     timeline_marker_play=Перейти к метке
     timeline_marker_time=Время
     timeline_markers_hide=Скрыть маркеры
     timeline_markers_show=Показать маркеры
-  # 🔴 timeline_max -> Max.
+    # 🔴 timeline_max -> Max.
     ➡️ timeline_max=
-  # 🔴 timeline_min -> Min.
+    # 🔴 timeline_min -> Min.
     ➡️ timeline_min=
     timeline_no_recordings=Нет записи
-  # 🔴 timeline_number -> Number
+    # 🔴 timeline_number -> Number
     ➡️ timeline_number=
     timeline_stint_end=Конец периода
     timeline_stint_start=Начало периода
     timeline_tab_details=Детали
     timeline_tab_qa=QA
     timeline_tab_recordings=Запись
-  # 🔴 timeline_totdur -> Tot. Dur.
+    # 🔴 timeline_totdur -> Tot. Dur.
     ➡️ timeline_totdur=
     ts_agawrep_invalidlocation=Укажите правильное расположение
     userpage_change_button=Изменить

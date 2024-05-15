@@ -68,7 +68,7 @@ Do not change the items below:
     td_autoconf_wz_summary_opresult=Αποτέλεσμα λειτουργίας
     td_autoconf_wz_summary_type=Τύπος
     td_autoconf_wz_users=Χρήσεις
-  # 👽 td_calloutc_? -> 
+    # 👽 td_calloutc_? -> 
     td_calloutc_?=?
     td_calloutc_contact=Επαφή
     td_calloutc_known=Γνωστός
@@ -209,7 +209,7 @@ Do not change the items below:
     td_pautype_outb=Εξερχ.
     td_pautype_outbound=Εξερχόμενες
     td_pautype_pause=Παύση
-  # 🔴 td_pautype_wrap -> Wrap
+    # 🔴 td_pautype_wrap -> Wrap
     ➡️ td_pautype_wrap=
     td_pautype_wrap-up_time=Χρόνος wrap-up
     td_qdir_any=Οποιαδήποτε κλήση
@@ -243,10 +243,10 @@ Do not change the items below:
     aout_call_res_by_outcome=Αποτελέσματα κλήσεων ανά τύπο επαφής
     aout_call_res_by_tag=Αποτελέσματα κλήσεων ανά tag
     aout_calltag=Tag
-  # 🔴 aout_case_distribution -> Case Distribution
+    # 🔴 aout_case_distribution -> Case Distribution
     ➡️ aout_case_distribution=
     aout_chart=~
-  # 🔴 aout_client_distribution -> Client Distribution
+    # 🔴 aout_client_distribution -> Client Distribution
     ➡️ aout_client_distribution=
     aout_contacts_n=Επαφ.
     aout_convratio=Μετατρ.
@@ -423,10 +423,10 @@ Do not change the items below:
 
 
 
-  # 🔴 clage_%_of_pause_time -> % of pause time
+    # 🔴 clage_%_of_pause_time -> % of pause time
     ➡️ clage_%_of_pause_time=
     clage_%_of_queue=% της ουράς αναμονής
-  # 🔴 clage_%_of_session_time -> % of session time
+    # 🔴 clage_%_of_session_time -> % of session time
     ➡️ clage_%_of_session_time=
     clage_acd_available=Διαθεσ.
     clage_acd_avg_dur=Μέσ. Διάρκ.
@@ -452,7 +452,7 @@ Do not change the items below:
     clage_agent_performance_acd_group=Επίδοση χρήστη ανα ομάδα ACD
     clage_agent_ptimebyhour=Πληρωτέος χρόνος χρήστη ανα ώρα
     clage_agent_session_detail=Λεπτομέριες συνεδρίας χρήστη
-  # 🔴 clage_agent_session_overview -> Agent Session Overview
+    # 🔴 clage_agent_session_overview -> Agent Session Overview
     ➡️ clage_agent_session_overview=
     clage_agent_sessionreport=Συνεδρία χρήστη ανά ουρά αναμονής, ετικέτα και χαρακτηριστικό
     clage_agent_sessions=Συνεδρίες χρήστη
@@ -515,7 +515,7 @@ Do not change the items below:
     clage_overlaps=Επικάλυψη
     clage_pause=Παύση
     clage_pause_%=% Παύσης 
-  # 🔴 clage_pause_type_stats -> Details of pause types
+    # 🔴 clage_pause_type_stats -> Details of pause types
     ➡️ clage_pause_type_stats=
     clage_pauses=Παύσεις
     clage_pauses_per_session=Παύσεις ανά συνεδρία
@@ -532,24 +532,24 @@ Do not change the items below:
     clage_session_and_pause_durations=Διάρκεια συνεδριών και παύσεων
     clage_session_byquetagftrreport=Σύνολο συνεδριών ανά ουρά ανμονής, ετικέτας και χαρακτηριστικού
     clage_session_byquetagreport=Σύνολο συνεδριών ανά Ουρά αναμονής και Tag
-  # 🔴 clage_session_calls -> N. calls
+    # 🔴 clage_session_calls -> N. calls
     ➡️ clage_session_calls=
     clage_session_details=Λεπτομέρειες συνεδρίας
-  # 🔴 clage_session_end -> Segment end
+    # 🔴 clage_session_end -> Segment end
     ➡️ clage_session_end=
-  # 🔴 clage_session_idle -> Idle time
+    # 🔴 clage_session_idle -> Idle time
     ➡️ clage_session_idle=
-  # 🔴 clage_session_lostatt -> Lost attempts
+    # 🔴 clage_session_lostatt -> Lost attempts
     ➡️ clage_session_lostatt=
-  # 🔴 clage_session_pause -> Pause
+    # 🔴 clage_session_pause -> Pause
     ➡️ clage_session_pause=
-  # 🔴 clage_session_queues -> Queues
+    # 🔴 clage_session_queues -> Queues
     ➡️ clage_session_queues=
-  # 🔴 clage_session_start -> Segment start
+    # 🔴 clage_session_start -> Segment start
     ➡️ clage_session_start=
-  # 🔴 clage_session_talk -> Talk time
+    # 🔴 clage_session_talk -> Talk time
     ➡️ clage_session_talk=
-  # 🔴 clage_session_type -> Session type
+    # 🔴 clage_session_type -> Session type
     ➡️ clage_session_type=
     clage_sessions=Συνεδρίες
     clage_tag_sessionreport=Προβολή συνεδριών ανά Tag
@@ -634,7 +634,7 @@ Do not change the items below:
     cld_caller_statistics=Στατιστικά Καλούντος
     cld_calltag=Tag
     cld_complete_calls=Απαντημένες κλήσεις
-  # 🔴 cld_connect -> Connect
+    # 🔴 cld_connect -> Connect
     ➡️ cld_connect=
     cld_date=Ημερομηνία
     cld_detail_of_agent_pauses=Λεπτομέριες παύσεων χρηστών
@@ -642,9 +642,9 @@ Do not change the items below:
     cld_detail_of_agent_sessions_raw=Λεπτομέριες συνεδριών χρηστών (χωρίς επεξεργασία)
     cld_detail_of_answered_calls=Λεπτομέρειες απαντημένων κλήσεων
     cld_detail_of_unanswered_calls=Λεπτομέρειες αναπάντητων κλήσεων
-  # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
+    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
     ➡️ cld_detail_of_unanswered_calls_afp=
-  # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
+    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
     ➡️ cld_detail_of_unanswered_calls_raw=
     cld_detail_summary=Λεπτομερής Σύνοψη ανά ώρα
     cld_detail_summary_dom=Λεπτομερής Σύνοψη ανά ημέρα
@@ -654,10 +654,10 @@ Do not change the items below:
     cld_dom=Ημέρα
     cld_dow=Ημέρα της εβδομάδας
     cld_duration=Διάρκεια
-  # 🔴 cld_end -> End
+    # 🔴 cld_end -> End
     ➡️ cld_end=
     cld_end_hour=Τελική ώρα
-  # 🔴 cld_enter -> Enter
+    # 🔴 cld_enter -> Enter
     ➡️ cld_enter=
     cld_executive_summary=Σύνοψη των κυριότερων σημείων
     cld_ext=Εξώτ.
@@ -667,13 +667,13 @@ Do not change the items below:
     cld_goal=Στόχος
     cld_handled_by=Έγινε χειρισμός από
     cld_hour=Ώρα
-  # 🔴 cld_idle -> Idle
+    # 🔴 cld_idle -> Idle
     ➡️ cld_idle=
     cld_info=Πληροφ.
     cld_ivr=Επιλογή IVR
     cld_ivr_detail=Λεπτομέρειες IVR
     cld_ivr_detail_full=Λεπτομέρειες IVR (πλήρης εκτυπώσιμη λίστα)
-  # 🔴 cld_ivr_dur -> IVR Dur.
+    # 🔴 cld_ivr_dur -> IVR Dur.
     ➡️ cld_ivr_dur=
     cld_ivr_time=IVR
     cld_ivr_time_long=Χρόνος στο IVR πριν την ουρά αναμονής
@@ -710,7 +710,7 @@ Do not change the items below:
     cld_pop_opos=Αρχική θέση
     cld_pop_qa=QA
     cld_pop_queue=Ουρά αναμονής:
-  # 🔴 cld_pop_server -> Server
+    # 🔴 cld_pop_server -> Server
     ➡️ cld_pop_server=
     cld_pop_sound_files=Αρχεία ήχου:
     cld_pop_status_code=Κωδικός κατάστασης
@@ -729,9 +729,9 @@ Do not change the items below:
     cld_queue=Ουρά αναμονής
     cld_queue_batch_export=Προσθήκη κλήσεων σε λίστα εξαγωγής
     cld_queue_detail=Λεπτομέρειες ουράς αναμονής
-  # 🔴 cld_queue_detail_afp -> Queue detail
+    # 🔴 cld_queue_detail_afp -> Queue detail
     ➡️ cld_queue_detail_afp=
-  # 🔴 cld_queue_detail_raw -> Raw queue detail
+    # 🔴 cld_queue_detail_raw -> Raw queue detail
     ➡️ cld_queue_detail_raw=
     cld_return=Επιστροφή
     cld_server=Εξυπηρετητής
@@ -748,17 +748,17 @@ Do not change the items below:
     cld_start_hour=Ώρα έναρξης
     cld_status_code=Κωδικός 
     cld_stints=Χρονικά όρια
-  # 🔴 cld_talk -> Talk
+    # 🔴 cld_talk -> Talk
     ➡️ cld_talk=
-  # 🔴 cld_talk_and_idle_times -> Talk and Idle Times
+    # 🔴 cld_talk_and_idle_times -> Talk and Idle Times
     ➡️ cld_talk_and_idle_times=
     cld_termination=Τερματισμός
-  # 🔴 cld_tot_dur -> Tot. Dur.
+    # 🔴 cld_tot_dur -> Tot. Dur.
     ➡️ cld_tot_dur=
     cld_total_calls=Συνολικές κλήσεις
     cld_total_elapsed_time=Συνολικός χρόνος
     cld_transfer_to=Μεταφέρθηκε σε
-  # 🔴 cld_uid -> Unique ID
+    # 🔴 cld_uid -> Unique ID
     ➡️ cld_uid=
     cld_unique_callers=Μοναδικοί καλούντες
     cld_unique_final_lost=Μοναδικές χαμένες κλήσεις κατά την τελευταία προσπάθεια
@@ -931,7 +931,7 @@ Do not change the items below:
     clko_n_calls=Αρ. κλήσεων
     clko_nbsp= 
     clko_nof_unanswered_calls=Αρ. αναπάντητων κλήσεων:
-  # 🔴 clko_offered -> Of offered
+    # 🔴 clko_offered -> Of offered
     ➡️ clko_offered=
     clko_percent=Ποσοστό
     clko_qpos_all=Θέση εισαγωγής στην ουρά αναμονής για όλες τις κλήσεις
@@ -945,11 +945,11 @@ Do not change the items below:
     clko_threedots=...
     clko_total_rows_processed=Σύνολο επεξεργασμένω σειρών:
     clko_total_wait_time_before_disconnection=Συνολικός χρόνος αναμονής πρίν την αποσύνδεση
-  # 🔴 clko_unans_nums_recalled -> Numbers recalled
+    # 🔴 clko_unans_nums_recalled -> Numbers recalled
     ➡️ clko_unans_nums_recalled=
-  # 🔴 clko_unans_nums_recap -> Recap of all recalls
+    # 🔴 clko_unans_nums_recap -> Recap of all recalls
     ➡️ clko_unans_nums_recap=
-  # 🔴 clko_unans_nums_to_recall -> Numbers to be recalled
+    # 🔴 clko_unans_nums_to_recall -> Numbers to be recalled
     ➡️ clko_unans_nums_to_recall=
     clko_unanswered_calls=Αναπάντητες κλήσεις
     clko_unanswered_calls_by_queue=Αναπάντητες κλήσεις ανά ουρά αναμονής
@@ -969,7 +969,7 @@ Do not change the items below:
     clhdr_available_cols=Διαθέσιμες στήλες δεδομένων
     clhdr_call=Φιλτραρισμένο ανά χρόνο συνομιλίας:
     clhdr_caller=Φιλτραρισμένη ανά Αριθμό Καλούντος:
-  # 🔴 clhdr_callfeaturecode -> Filtered by feature code:
+    # 🔴 clhdr_callfeaturecode -> Filtered by feature code:
     ➡️ clhdr_callfeaturecode=
     clhdr_calltag=Φιλτραρισμένη ανά ετικέτα κλήσης:
     clhdr_dayofweek=Ημέρες της εβδομάδας:
@@ -1029,7 +1029,7 @@ Do not change the items below:
     clok_disconnection_causes=Αιτίες αποσύνδεσης
     clok_dnis=DNIS που χρησιμοποιήθηκε
     clok_dnis_choice=DNIS
-  # 🔴 clok_grouping -> Open Group
+    # 🔴 clok_grouping -> Open Group
     ➡️ clok_grouping=
     clok_hdr=Επικεφαλίδα αναφοράς
     clok_ivr=Επιλογή IVR
@@ -1082,30 +1082,30 @@ Do not change the items below:
 
 
 
-  # 🔴 evt_abandon -> Caller Abandoned
+    # 🔴 evt_abandon -> Caller Abandoned
     ➡️ evt_abandon=
     evt_agentattempt=Απόπειρες κουδουνισμού
     evt_agentdump=Αποσύνδεση του χρήστη
-  # 🔴 evt_attended_transfer -> Attended Transfer
+    # 🔴 evt_attended_transfer -> Attended Transfer
     ➡️ evt_attended_transfer=
-  # 🔴 evt_blind_transfer -> Blind Transfer
+    # 🔴 evt_blind_transfer -> Blind Transfer
     ➡️ evt_blind_transfer=
-  # 🔴 evt_call_outbound -> Outbound Call
+    # 🔴 evt_call_outbound -> Outbound Call
     ➡️ evt_call_outbound=
     evt_call_tag=Ετικέτα κλήσεων
-  # 🔴 evt_complete_agent -> Complete Agent
+    # 🔴 evt_complete_agent -> Complete Agent
     ➡️ evt_complete_agent=
-  # 🔴 evt_complete_caller -> Complete Caller
+    # 🔴 evt_complete_caller -> Complete Caller
     ➡️ evt_complete_caller=
-  # 🔴 evt_connect -> Connect
+    # 🔴 evt_connect -> Connect
     ➡️ evt_connect=
-  # 🔴 evt_enter_queue -> Enter Queue
+    # 🔴 evt_enter_queue -> Enter Queue
     ➡️ evt_enter_queue=
-  # 🔴 evt_exit_empty -> Exit Empty
+    # 🔴 evt_exit_empty -> Exit Empty
     ➡️ evt_exit_empty=
-  # 🔴 evt_exit_with_key -> Exit With Key
+    # 🔴 evt_exit_with_key -> Exit With Key
     ➡️ evt_exit_with_key=
-  # 🔴 evt_exit_with_timeout -> Exit With Timeout
+    # 🔴 evt_exit_with_timeout -> Exit With Timeout
     ➡️ evt_exit_with_timeout=
     evt_feature_added=Προσθήκη χαρακτηριστικού
     evt_feature_deleted=Διαγραφή χαρακτηριστικού
@@ -1117,19 +1117,19 @@ Do not change the items below:
     evt_ivr_start=Έναρξη κλήσης IVR
     evt_ivr_waitonly=Αναμονή IVR
     evt_moh=Μουσική αναμονής
-  # 🔴 evt_other_end_session -> Other Session End
+    # 🔴 evt_other_end_session -> Other Session End
     ➡️ evt_other_end_session=
-  # 🔴 evt_other_fail_session -> Other Session Fail
+    # 🔴 evt_other_fail_session -> Other Session Fail
     ➡️ evt_other_fail_session=
-  # 🔴 evt_other_start_session -> Other Session Start
+    # 🔴 evt_other_start_session -> Other Session Start
     ➡️ evt_other_start_session=
-  # 🔴 evt_phone_end_session -> Phone Session End
+    # 🔴 evt_phone_end_session -> Phone Session End
     ➡️ evt_phone_end_session=
-  # 🔴 evt_phone_fail_session -> Phone Session Fail
+    # 🔴 evt_phone_fail_session -> Phone Session Fail
     ➡️ evt_phone_fail_session=
-  # 🔴 evt_phone_start_session -> Phone Session Start
+    # 🔴 evt_phone_start_session -> Phone Session Start
     ➡️ evt_phone_start_session=
-  # 🔴 evt_ringcancel -> Ring Cancel
+    # 🔴 evt_ringcancel -> Ring Cancel
     ➡️ evt_ringcancel=
     evt_ringing=Κουδουνισμός
     evt_ringnoanswer=Αναπάντητος κουδουνισμός
@@ -1140,21 +1140,21 @@ Do not change the items below:
     evt_short_ringing=Κουδουνισμός (Σύντομος)
     evt_short_ringnoanswer=Κουδουνισμός χωρίς απάντηση (Σύντομος)
     evt_skillreq=Απαιτούμενη δεξιότητα
-  # 🔴 evt_teams_end_session -> MS Teams Session End
+    # 🔴 evt_teams_end_session -> MS Teams Session End
     ➡️ evt_teams_end_session=
-  # 🔴 evt_teams_fail_session -> Teams Session Fail
+    # 🔴 evt_teams_fail_session -> Teams Session Fail
     ➡️ evt_teams_fail_session=
-  # 🔴 evt_teams_start_session -> MS Teams Session Start
+    # 🔴 evt_teams_start_session -> MS Teams Session Start
     ➡️ evt_teams_start_session=
-  # 🔴 evt_transfer -> Transfer
+    # 🔴 evt_transfer -> Transfer
     ➡️ evt_transfer=
-  # 🔴 evt_unanswered_yet -> Unanswered Yet
+    # 🔴 evt_unanswered_yet -> Unanswered Yet
     ➡️ evt_unanswered_yet=
-  # 🔴 evt_web_end_session -> Web Session End
+    # 🔴 evt_web_end_session -> Web Session End
     ➡️ evt_web_end_session=
-  # 🔴 evt_web_fail_session -> Web Session Fail
+    # 🔴 evt_web_fail_session -> Web Session Fail
     ➡️ evt_web_fail_session=
-  # 🔴 evt_web_start_session -> Web Session Start
+    # 🔴 evt_web_start_session -> Web Session Start
     ➡️ evt_web_start_session=
     hdr_agaw_agent=Χρήστης
     hdr_agaw_logs=Αρχείο καταγραφής (Log)
@@ -1164,7 +1164,7 @@ Do not change the items below:
     hdr_agents_det_title=Λεπτομέρειες για τους χρήστες (συνεδρίες και παύσεις)
     hdr_agents_title=Χρήστες και συνεδρίες
     hdr_all=Όλα
-  # 🔴 hdr_amo -> AMO
+    # 🔴 hdr_amo -> AMO
     ➡️ hdr_amo=
     hdr_answered=Απαντημένες
     hdr_answered_details=Λεπτομ. Απαντ.
@@ -1173,21 +1173,21 @@ Do not change the items below:
     hdr_area_title=Ανάλυση κωδικού περιοχής
     hdr_attempts=Απόπειρ.
     hdr_broadcast=Μετάδοση
-  # 🔴 hdr_calls -> Calls
+    # 🔴 hdr_calls -> Calls
     ➡️ hdr_calls=
-  # 🔴 hdr_calls_title -> Call Details
+    # 🔴 hdr_calls_title -> Call Details
     ➡️ hdr_calls_title=
-  # 🔴 hdr_casedo -> Cases
+    # 🔴 hdr_casedo -> Cases
     ➡️ hdr_casedo=
-  # 🔴 hdr_casedo_title -> Cases and Clients
+    # 🔴 hdr_casedo_title -> Cases and Clients
     ➡️ hdr_casedo_title=
-  # 🔴 hdr_cases -> Cases
+    # 🔴 hdr_cases -> Cases
     ➡️ hdr_cases=
     hdr_cbt=CBTs
-  # 🔴 hdr_clients -> Clients
+    # 🔴 hdr_clients -> Clients
     ➡️ hdr_clients=
     hdr_cronjobs=Προγραμματισμένες εργασίες
-  # 🔴 hdr_customblocks -> Custom Blocks
+    # 🔴 hdr_customblocks -> Custom Blocks
     ➡️ hdr_customblocks=
     hdr_customreports=CR
     hdr_dbtest_ami=Τεστ AMI
@@ -1222,7 +1222,7 @@ Do not change the items below:
     hdr_outcomes=Αποτελέσματα
     hdr_outcomes_title=Αποτελέσματα κλήσεων
     hdr_pauses=Παύσεις
-  # 🔴 hdr_performance -> Performance
+    # 🔴 hdr_performance -> Performance
     ➡️ hdr_performance=
     hdr_performancetrack=Παρακολούθηση επιδόσεων (PrfTrk)
     hdr_print=Εκτύπωση
@@ -1236,14 +1236,14 @@ Do not change the items below:
     hdr_realtime=Πραγματικός χρόνος
     hdr_reports=Αναφορές
     hdr_resetquery=Επαναφορά παραμέτρων αναζήτησης
-  # 🔴 hdr_rt -> RT
+    # 🔴 hdr_rt -> RT
     ➡️ hdr_rt=
-  # 🔴 hdr_rt_title -> Real-Time Metrics
+    # 🔴 hdr_rt_title -> Real-Time Metrics
     ➡️ hdr_rt_title=
     hdr_skills=Δεξιότητες
-  # 🔴 hdr_stats -> Stats
+    # 🔴 hdr_stats -> Stats
     ➡️ hdr_stats=
-  # 🔴 hdr_stats_title -> Statistics
+    # 🔴 hdr_stats_title -> Statistics
     ➡️ hdr_stats_title=
     hdr_tags=Ετικέτες
     hdr_tags_title=Ετικέτες κλήσεων
@@ -1272,99 +1272,99 @@ Do not change the items below:
     edit_ac_supervisor=Επιβλέπων
     edit_ac_term=Τερμ.
     edit_ac_title=Διαμορφωση Γνωστών Χρηστών
-  # 🔴 edit_amo_attribute -> Attribute
+    # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
-  # 🔴 edit_amo_attributes -> Attributes
+    # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
-  # 🔴 edit_amo_campaign -> Campaign
+    # 🔴 edit_amo_campaign -> Campaign
     ➡️ edit_amo_campaign=
-  # 🔴 edit_amo_last_pull -> Last Pull
+    # 🔴 edit_amo_last_pull -> Last Pull
     ➡️ edit_amo_last_pull=
-  # 🔴 edit_amo_list_dialer_state -> Dialer State
+    # 🔴 edit_amo_list_dialer_state -> Dialer State
     ➡️ edit_amo_list_dialer_state=
-  # 🔴 edit_amo_list_id -> List ID
+    # 🔴 edit_amo_list_id -> List ID
     ➡️ edit_amo_list_id=
-  # 🔴 edit_amo_list_last_pull -> Last Pull
+    # 🔴 edit_amo_list_last_pull -> Last Pull
     ➡️ edit_amo_list_last_pull=
-  # 🔴 edit_amo_list_n_added -> N. added
+    # 🔴 edit_amo_list_n_added -> N. added
     ➡️ edit_amo_list_n_added=
-  # 🔴 edit_amo_list_n_completed -> N. completed
+    # 🔴 edit_amo_list_n_completed -> N. completed
     ➡️ edit_amo_list_n_completed=
-  # 🔴 edit_amo_list_n_pulled -> N. pulled
+    # 🔴 edit_amo_list_n_pulled -> N. pulled
     ➡️ edit_amo_list_n_pulled=
-  # 🔴 edit_amo_list_name -> Name
+    # 🔴 edit_amo_list_name -> Name
     ➡️ edit_amo_list_name=
-  # 🔴 edit_amo_list_numbers -> Edit Numbers
+    # 🔴 edit_amo_list_numbers -> Edit Numbers
     ➡️ edit_amo_list_numbers=
-  # 🔴 edit_amo_list_pull_by -> Pulled by
+    # 🔴 edit_amo_list_pull_by -> Pulled by
     ➡️ edit_amo_list_pull_by=
-  # 🔴 edit_amo_list_state -> List State
+    # 🔴 edit_amo_list_state -> List State
     ➡️ edit_amo_list_state=
-  # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
+    # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
     ➡️ edit_amo_list_upload_numbers=
-  # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
+    # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
     ➡️ edit_amo_list_upload_text=
-  # 🔴 edit_amo_list_weight -> Weight
+    # 🔴 edit_amo_list_weight -> Weight
     ➡️ edit_amo_list_weight=
-  # 🔴 edit_amo_lists_list -> AMO Lists
+    # 🔴 edit_amo_lists_list -> AMO Lists
     ➡️ edit_amo_lists_list=
-  # 🔴 edit_amo_lists_name_present -> The selected list name already exists
+    # 🔴 edit_amo_lists_name_present -> The selected list name already exists
     ➡️ edit_amo_lists_name_present=
-  # 🔴 edit_amo_lists_title -> Edit AMO List
+    # 🔴 edit_amo_lists_title -> Edit AMO List
     ➡️ edit_amo_lists_title=
-  # 🔴 edit_amo_n_added -> N. added
+    # 🔴 edit_amo_n_added -> N. added
     ➡️ edit_amo_n_added=
-  # 🔴 edit_amo_n_completed -> N. completed
+    # 🔴 edit_amo_n_completed -> N. completed
     ➡️ edit_amo_n_completed=
-  # 🔴 edit_amo_n_lists -> N. of Lists
+    # 🔴 edit_amo_n_lists -> N. of Lists
     ➡️ edit_amo_n_lists=
-  # 🔴 edit_amo_name -> Name
+    # 🔴 edit_amo_name -> Name
     ➡️ edit_amo_name=
-  # 🔴 edit_amo_notes -> Notes
+    # 🔴 edit_amo_notes -> Notes
     ➡️ edit_amo_notes=
-  # 🔴 edit_amo_number -> Number
+    # 🔴 edit_amo_number -> Number
     ➡️ edit_amo_number=
-  # 🔴 edit_amo_number_id -> Number ID
+    # 🔴 edit_amo_number_id -> Number ID
     ➡️ edit_amo_number_id=
-  # 🔴 edit_amo_numbers_current_uid -> Current UID
+    # 🔴 edit_amo_numbers_current_uid -> Current UID
     ➡️ edit_amo_numbers_current_uid=
-  # 🔴 edit_amo_numbers_edit -> Edit AMO Number
+    # 🔴 edit_amo_numbers_edit -> Edit AMO Number
     ➡️ edit_amo_numbers_edit=
-  # 🔴 edit_amo_numbers_list -> AMO Numbers
+    # 🔴 edit_amo_numbers_list -> AMO Numbers
     ➡️ edit_amo_numbers_list=
-  # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
+    # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
     ➡️ edit_amo_numbers_previous_retries=
-  # 🔴 edit_amo_numbers_retry_no -> Retry Number
+    # 🔴 edit_amo_numbers_retry_no -> Retry Number
     ➡️ edit_amo_numbers_retry_no=
-  # 🔴 edit_amo_queue_id -> Queue ID
+    # 🔴 edit_amo_queue_id -> Queue ID
     ➡️ edit_amo_queue_id=
-  # 🔴 edit_amo_retry_no -> N. of retries
+    # 🔴 edit_amo_retry_no -> N. of retries
     ➡️ edit_amo_retry_no=
-  # 🔴 edit_amo_state -> State
+    # 🔴 edit_amo_state -> State
     ➡️ edit_amo_state=
-  # 🔴 edit_amo_valid_attribute -> Attribute
+    # 🔴 edit_amo_valid_attribute -> Attribute
     ➡️ edit_amo_valid_attribute=
-  # 🔴 edit_amo_valid_from -> Valid from
+    # 🔴 edit_amo_valid_from -> Valid from
     ➡️ edit_amo_valid_from=
-  # 🔴 edit_amo_valid_value -> Value
+    # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
-  # 🔴 edit_cases_client -> Client
+    # 🔴 edit_cases_client -> Client
     ➡️ edit_cases_client=
-  # 🔴 edit_cases_contact -> Contact
+    # 🔴 edit_cases_contact -> Contact
     ➡️ edit_cases_contact=
-  # 🔴 edit_cases_email -> Email
+    # 🔴 edit_cases_email -> Email
     ➡️ edit_cases_email=
-  # 🔴 edit_cases_header -> Cases
+    # 🔴 edit_cases_header -> Cases
     ➡️ edit_cases_header=
-  # 🔴 edit_cases_id -> Case Id
+    # 🔴 edit_cases_id -> Case Id
     ➡️ edit_cases_id=
-  # 🔴 edit_cases_key -> Key
+    # 🔴 edit_cases_key -> Key
     ➡️ edit_cases_key=
-  # 🔴 edit_cases_status -> Status
+    # 🔴 edit_cases_status -> Status
     ➡️ edit_cases_status=
-  # 🔴 edit_cases_title -> Title
+    # 🔴 edit_cases_title -> Title
     ➡️ edit_cases_title=
-  # 🔴 edit_cases_xref -> Reference
+    # 🔴 edit_cases_xref -> Reference
     ➡️ edit_cases_xref=
     edit_cbt_deleted=Διεγράφη
     edit_cbt_description=Περιγραφή
@@ -1376,29 +1376,29 @@ Do not change the items below:
     edit_classes_keys=Κλειδιά
     edit_classes_title=Κατηγορίες χρηστών
     edit_classes_user_num=Χρήστης αρ.
-  # 🔴 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
+    # 🔴 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
     ➡️ edit_clients_client_in_use=
-  # 🔴 edit_clients_contact -> Contact
+    # 🔴 edit_clients_contact -> Contact
     ➡️ edit_clients_contact=
-  # 🔴 edit_clients_email -> Email
+    # 🔴 edit_clients_email -> Email
     ➡️ edit_clients_email=
-  # 🔴 edit_clients_header -> Clients
+    # 🔴 edit_clients_header -> Clients
     ➡️ edit_clients_header=
-  # 🔴 edit_clients_key -> Key
+    # 🔴 edit_clients_key -> Key
     ➡️ edit_clients_key=
-  # 🔴 edit_clients_name -> Name
+    # 🔴 edit_clients_name -> Name
     ➡️ edit_clients_name=
-  # 🔴 edit_clients_name_present -> Name already present
+    # 🔴 edit_clients_name_present -> Name already present
     ➡️ edit_clients_name_present=
-  # 🔴 edit_clients_status -> Status
+    # 🔴 edit_clients_status -> Status
     ➡️ edit_clients_status=
-  # 🔴 edit_clients_xref -> Reference
+    # 🔴 edit_clients_xref -> Reference
     ➡️ edit_clients_xref=
-  # 🔴 edit_clients_xref_already_present -> This reference is already present
+    # 🔴 edit_clients_xref_already_present -> This reference is already present
     ➡️ edit_clients_xref_already_present=
-  # 🔴 edit_clients_xref_missing -> You must set a reference
+    # 🔴 edit_clients_xref_missing -> You must set a reference
     ➡️ edit_clients_xref_missing=
-  # 🔴 edit_clients_xref_not_allowed -> This reference has an invalid format
+    # 🔴 edit_clients_xref_not_allowed -> This reference has an invalid format
     ➡️ edit_clients_xref_not_allowed=
     edit_cronjobs_asuser=Εκτέλεση ως Χρήστης
     edit_cronjobs_cyclic=Κυκλικό
@@ -1418,15 +1418,15 @@ Do not change the items below:
     edit_ct_key=Κλειδί
     edit_ct_tag=Ταμπέλα
     edit_ct_title=Ταμπέλες κλήσεων
-  # 🔴 edit_customblocks_description -> Description
+    # 🔴 edit_customblocks_description -> Description
     ➡️ edit_customblocks_description=
-  # 🔴 edit_customblocks_header -> Custom DataBlocks
+    # 🔴 edit_customblocks_header -> Custom DataBlocks
     ➡️ edit_customblocks_header=
-  # 🔴 edit_customblocks_key -> Security Key
+    # 🔴 edit_customblocks_key -> Security Key
     ➡️ edit_customblocks_key=
-  # 🔴 edit_customblocks_provider -> Provider
+    # 🔴 edit_customblocks_provider -> Provider
     ➡️ edit_customblocks_provider=
-  # 🔴 edit_customblocks_title -> Title
+    # 🔴 edit_customblocks_title -> Title
     ➡️ edit_customblocks_title=
     edit_dnis_description=Περιγραφή
     edit_dnis_dnis=Κωδικός DNIS
@@ -1527,7 +1527,7 @@ Do not change the items below:
     edit_queueagents_main=Αρχικό
     edit_queueagents_spill=Επιπλέον
     edit_queueagents_title=Χρήστες για την ουρά αναμονής:
-  # 🔴 edit_queueagents_wrap -> Wrap
+    # 🔴 edit_queueagents_wrap -> Wrap
     ➡️ edit_queueagents_wrap=
     edit_queues_agents=Χρήστες
     edit_queues_alias=Ψευδώνυμο
@@ -1586,35 +1586,35 @@ Do not change the items below:
     edit_record_backtolist=Πίσω στη λίστα
     edit_record_backtoqueue=Πίσω στην ουρά αναμονής
     edit_record_backtoreports=Πίσω στις αναφορές
-  # 🔴 edit_record_case_transactions -> Activity for this case
+    # 🔴 edit_record_case_transactions -> Activity for this case
     ➡️ edit_record_case_transactions=
-  # 🔴 edit_record_cases_contact -> Contact
+    # 🔴 edit_record_cases_contact -> Contact
     ➡️ edit_record_cases_contact=
-  # 🔴 edit_record_cases_email -> Email
+    # 🔴 edit_record_cases_email -> Email
     ➡️ edit_record_cases_email=
-  # 🔴 edit_record_cases_for_client -> Recent cases for this client
+    # 🔴 edit_record_cases_for_client -> Recent cases for this client
     ➡️ edit_record_cases_for_client=
-  # 🔴 edit_record_cases_handled_by -> Handled by
+    # 🔴 edit_record_cases_handled_by -> Handled by
     ➡️ edit_record_cases_handled_by=
-  # 🔴 edit_record_cases_header -> Edit Case
+    # 🔴 edit_record_cases_header -> Edit Case
     ➡️ edit_record_cases_header=
-  # 🔴 edit_record_cases_id -> Case Id
+    # 🔴 edit_record_cases_id -> Case Id
     ➡️ edit_record_cases_id=
-  # 🔴 edit_record_cases_none_found -> None found
+    # 🔴 edit_record_cases_none_found -> None found
     ➡️ edit_record_cases_none_found=
-  # 🔴 edit_record_cases_notes -> Notes
+    # 🔴 edit_record_cases_notes -> Notes
     ➡️ edit_record_cases_notes=
-  # 🔴 edit_record_cases_queue -> Queue
+    # 🔴 edit_record_cases_queue -> Queue
     ➡️ edit_record_cases_queue=
-  # 🔴 edit_record_cases_securitykey -> Security Key
+    # 🔴 edit_record_cases_securitykey -> Security Key
     ➡️ edit_record_cases_securitykey=
-  # 🔴 edit_record_cases_status -> Status
+    # 🔴 edit_record_cases_status -> Status
     ➡️ edit_record_cases_status=
-  # 🔴 edit_record_cases_text -> Note text
+    # 🔴 edit_record_cases_text -> Note text
     ➡️ edit_record_cases_text=
-  # 🔴 edit_record_cases_title -> Title
+    # 🔴 edit_record_cases_title -> Title
     ➡️ edit_record_cases_title=
-  # 🔴 edit_record_cases_xref -> Reference
+    # 🔴 edit_record_cases_xref -> Reference
     ➡️ edit_record_cases_xref=
     edit_record_cbt_code=Κωδικός CBT
     edit_record_cbt_counter=Απεσταλμένοι μετρητές:
@@ -1627,21 +1627,21 @@ Do not change the items below:
     edit_record_classes_name=Όνομα κατηγορίας:
     edit_record_classes_title=Λεπτομέρειες Κατηγορίας
     edit_record_classes_usersinclass=Αριθμός χρηστών που ανήκουν σε αυτήν την κατηγορία:
-  # 🔴 edit_record_client_id -> Client
+    # 🔴 edit_record_client_id -> Client
     ➡️ edit_record_client_id=
-  # 🔴 edit_record_clients_contact -> Contact
+    # 🔴 edit_record_clients_contact -> Contact
     ➡️ edit_record_clients_contact=
-  # 🔴 edit_record_clients_email -> Email
+    # 🔴 edit_record_clients_email -> Email
     ➡️ edit_record_clients_email=
-  # 🔴 edit_record_clients_header -> Edit Client
+    # 🔴 edit_record_clients_header -> Edit Client
     ➡️ edit_record_clients_header=
-  # 🔴 edit_record_clients_name -> Name
+    # 🔴 edit_record_clients_name -> Name
     ➡️ edit_record_clients_name=
-  # 🔴 edit_record_clients_notes -> Notes
+    # 🔴 edit_record_clients_notes -> Notes
     ➡️ edit_record_clients_notes=
-  # 🔴 edit_record_clients_securitykey -> Security Key
+    # 🔴 edit_record_clients_securitykey -> Security Key
     ➡️ edit_record_clients_securitykey=
-  # 🔴 edit_record_clients_status -> Client status
+    # 🔴 edit_record_clients_status -> Client status
     ➡️ edit_record_clients_status=
     edit_record_clone=Κλώνος
     edit_record_createdby=Δημιουργήθηκε την
@@ -1663,29 +1663,29 @@ Do not change the items below:
     edit_record_cronjobs_name=Όνομα
     edit_record_cronjobs_nolastruns=Δεν υπάρχουν πρόσφατες εκτελέσεις για επισκόπιση
     edit_record_cronjobs_title=Λεπτομέρειες Προγραμματισμένων Εργασιών
-  # 🔴 edit_record_customblocks_block -> Dispatch Name
+    # 🔴 edit_record_customblocks_block -> Dispatch Name
     ➡️ edit_record_customblocks_block=
-  # 🔴 edit_record_customblocks_description -> Description
+    # 🔴 edit_record_customblocks_description -> Description
     ➡️ edit_record_customblocks_description=
-  # 🔴 edit_record_customblocks_graph_params -> Chart Parameters
+    # 🔴 edit_record_customblocks_graph_params -> Chart Parameters
     ➡️ edit_record_customblocks_graph_params=
-  # 🔴 edit_record_customblocks_graph_provider -> Chart Provider
+    # 🔴 edit_record_customblocks_graph_provider -> Chart Provider
     ➡️ edit_record_customblocks_graph_provider=
-  # 🔴 edit_record_customblocks_graphnone -> None
+    # 🔴 edit_record_customblocks_graphnone -> None
     ➡️ edit_record_customblocks_graphnone=
-  # 🔴 edit_record_customblocks_graphreact -> React
+    # 🔴 edit_record_customblocks_graphreact -> React
     ➡️ edit_record_customblocks_graphreact=
-  # 🔴 edit_record_customblocks_header -> Edit Custom DataBlock
+    # 🔴 edit_record_customblocks_header -> Edit Custom DataBlock
     ➡️ edit_record_customblocks_header=
-  # 🔴 edit_record_customblocks_provider -> Provider
+    # 🔴 edit_record_customblocks_provider -> Provider
     ➡️ edit_record_customblocks_provider=
-  # 🔴 edit_record_customblocks_securitykey -> Security Key
+    # 🔴 edit_record_customblocks_securitykey -> Security Key
     ➡️ edit_record_customblocks_securitykey=
-  # 🔴 edit_record_customblocks_source_body -> Source
+    # 🔴 edit_record_customblocks_source_body -> Source
     ➡️ edit_record_customblocks_source_body=
-  # 🔴 edit_record_customblocks_title -> Title
+    # 🔴 edit_record_customblocks_title -> Title
     ➡️ edit_record_customblocks_title=
-  # 🔴 edit_record_customblocks_view -> View
+    # 🔴 edit_record_customblocks_view -> View
     ➡️ edit_record_customblocks_view=
     edit_record_delete=Διαγραφή
     edit_record_description=Περιγραφή
@@ -1702,7 +1702,7 @@ Do not change the items below:
     edit_record_export_title=Λεπτομέριες Εξαγωγής Αναφοράς
     edit_record_export_titlefield=Τίτλος:
     edit_record_export_visibility=Κλειδί ορατότητας
-  # 🔴 edit_record_ext_ref -> Reference
+    # 🔴 edit_record_ext_ref -> Reference
     ➡️ edit_record_ext_ref=
     edit_record_external_reference=Αναγνωριστικό εξωτερικής σύνδεσης:
     edit_record_features_code=Κωδικός υπηρεσίας
@@ -1782,25 +1782,25 @@ Do not change the items below:
     edit_record_queue_agentspaused=Αριθμός χρηστών σε παύση:
     edit_record_queue_agentswaiting=Αριθμός χρηστών σε αναμονή:
     edit_record_queue_alias=Ψευδώνυμο Ουράς αναμονής:
-  # 🔴 edit_record_queue_amo -> AMO Settings
+    # 🔴 edit_record_queue_amo -> AMO Settings
     ➡️ edit_record_queue_amo=
-  # 🔴 edit_record_queue_amo_enabled -> Enabled
+    # 🔴 edit_record_queue_amo_enabled -> Enabled
     ➡️ edit_record_queue_amo_enabled=
-  # 🔴 edit_record_queue_amo_exponential -> Exponential
+    # 🔴 edit_record_queue_amo_exponential -> Exponential
     ➡️ edit_record_queue_amo_exponential=
-  # 🔴 edit_record_queue_amo_fixed -> Fixed
+    # 🔴 edit_record_queue_amo_fixed -> Fixed
     ➡️ edit_record_queue_amo_fixed=
-  # 🔴 edit_record_queue_amo_linear -> Linear
+    # 🔴 edit_record_queue_amo_linear -> Linear
     ➡️ edit_record_queue_amo_linear=
-  # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
+    # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
     ➡️ edit_record_queue_amo_recall_attributes=
-  # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
+    # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
     ➡️ edit_record_queue_amo_recall_max_attempts=
-  # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
+    # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
     ➡️ edit_record_queue_amo_recall_sec=
-  # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
+    # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
     ➡️ edit_record_queue_amo_recall_stepping=
-  # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
+    # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
     ➡️ edit_record_queue_amo_recall_valid_outcomes=
     edit_record_queue_attention=Επίπεδα προσοχής
     edit_record_queue_callsinqueue=Αριθμός κλήσεων σε ουρά αναμονής:
@@ -1874,7 +1874,7 @@ Do not change the items below:
     edit_record_users_realname=Πραγματικό όνομα:
     edit_record_users_title=Λεπτομέριες χρήστη
     edit_record_users_token=Token:
-  # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
+    # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
     ➡️ edit_record_xref_blank=
     edit_reports_automatic=Αυτόματη ρύθμιση παραμέτρων αναφοράς
     edit_reports_desc=Περιγρ.
@@ -1917,7 +1917,7 @@ Do not change the items below:
 
     qa_agent=Χρήστης
     qa_agent_groups=Ομάδες χρηστών
-  # 🔴 qa_agent_groups_icon -> Icon
+    # 🔴 qa_agent_groups_icon -> Icon
     ➡️ qa_agent_groups_icon=
     qa_all_calls=Όλες οι κλήσεις 
     qa_analyst=Ανάλυση QA
@@ -2189,7 +2189,7 @@ Do not change the items below:
     filter_idAgentGroup=Ομάδα χρηστών
     filter_idLocation=Τοποθεσία
     filter_ivr= IVR
-  # 🔴 filter_lostAttemptFor -> Lost Attempt For
+    # 🔴 filter_lostAttemptFor -> Lost Attempt For
     ➡️ filter_lostAttemptFor=
     filter_noncont_days=Ημέρες
     filter_noncont_r1_from=Χρόνος από
@@ -2211,22 +2211,22 @@ Do not change the items below:
 
 
 
-  # 🔴 rt3_Talk -> Talk
+    # 🔴 rt3_Talk -> Talk
     ➡️ rt3_Talk=
-  # 🔴 rt3_action_error -> An error has occured, the command has not been sent.
+    # 🔴 rt3_action_error -> An error has occured, the command has not been sent.
     ➡️ rt3_action_error=
-  # 🔴 rt3_action_success -> The command was successfully sent.
+    # 🔴 rt3_action_success -> The command was successfully sent.
     ➡️ rt3_action_success=
-  # 🔴 rt3_actions_barge -> Barge
+    # 🔴 rt3_actions_barge -> Barge
     ➡️ rt3_actions_barge=
-  # 🔴 rt3_actions_chanspy -> Spy
+    # 🔴 rt3_actions_chanspy -> Spy
     ➡️ rt3_actions_chanspy=
-  # 🔴 rt3_actions_whisper -> Whisper
+    # 🔴 rt3_actions_whisper -> Whisper
     ➡️ rt3_actions_whisper=
     rt3_add=Προσθήκη νέου Widget
     rt3_add_box=Προσθήκη νέου κουτιού στη σελίδα.
     rt3_add_view=Προσθήκη νέας προβολής
-  # 🔴 rt3_advanced -> Advanced
+    # 🔴 rt3_advanced -> Advanced
     ➡️ rt3_advanced=
     rt3_ag_calls_alm_red=Κόκκινη προειδοποίηση απασχολημένων χρηστών
     rt3_ag_calls_alm_yel=Κίτρινη προειδοποίηση απασχολημένων χρηστών
@@ -2243,117 +2243,117 @@ Do not change the items below:
     rt3_ag_wait_alm_red=Κόκκινη προειδοποίηση έτοιμων χρηστών
     rt3_ag_wait_alm_yel=Κίτρινη προειδοποίηση έτοιμων χρηστών
     rt3_agent=Χρήστης
-  # 🔴 rt3_agent_action_title -> Select an action for an agent
+    # 🔴 rt3_agent_action_title -> Select an action for an agent
     ➡️ rt3_agent_action_title=
-  # 🔴 rt3_agent_actions -> Agent Actions
+    # 🔴 rt3_agent_actions -> Agent Actions
     ➡️ rt3_agent_actions=
-  # 🔴 rt3_agent_addmember -> Add Member to Queue
+    # 🔴 rt3_agent_addmember -> Add Member to Queue
     ➡️ rt3_agent_addmember=
-  # 🔴 rt3_agent_changepause -> Change Pause
+    # 🔴 rt3_agent_changepause -> Change Pause
     ➡️ rt3_agent_changepause=
-  # 🔴 rt3_agent_code -> Agent Code
+    # 🔴 rt3_agent_code -> Agent Code
     ➡️ rt3_agent_code=
-  # 🔴 rt3_agent_extension -> Agent Extension
+    # 🔴 rt3_agent_extension -> Agent Extension
     ➡️ rt3_agent_extension=
     rt3_agent_info=Πληροφορίες χρηστών
-  # 🔴 rt3_agent_login -> Login (All Queues)
+    # 🔴 rt3_agent_login -> Login (All Queues)
     ➡️ rt3_agent_login=
     rt3_agent_logon=Σύνδεση χρηστών
-  # 🔴 rt3_agent_logout -> Logout (All Queues)
+    # 🔴 rt3_agent_logout -> Logout (All Queues)
     ➡️ rt3_agent_logout=
-  # 🔴 rt3_agent_pause -> Pause Agent
+    # 🔴 rt3_agent_pause -> Pause Agent
     ➡️ rt3_agent_pause=
-  # 🔴 rt3_agent_removemember -> Remove Member from Queue
+    # 🔴 rt3_agent_removemember -> Remove Member from Queue
     ➡️ rt3_agent_removemember=
-  # 🔴 rt3_agent_select -> Please select an Agent...
+    # 🔴 rt3_agent_select -> Please select an Agent...
     ➡️ rt3_agent_select=
-  # 🔴 rt3_agent_status -> Status
+    # 🔴 rt3_agent_status -> Status
     ➡️ rt3_agent_status=
-  # 🔴 rt3_agent_unpause -> Unpause Agent
+    # 🔴 rt3_agent_unpause -> Unpause Agent
     ➡️ rt3_agent_unpause=
     rt3_agents=Χρήστες
     rt3_agents_on_inbound=Χρήστες σε εισερχόμενες
     rt3_agents_on_outbound=Χρήστες σε εξερχόμενες
-  # 🔴 rt3_alarm_cell_value -> Cell Value
+    # 🔴 rt3_alarm_cell_value -> Cell Value
     ➡️ rt3_alarm_cell_value=
-  # 🔴 rt3_alarm_column_title -> Column
+    # 🔴 rt3_alarm_column_title -> Column
     ➡️ rt3_alarm_column_title=
-  # 🔴 rt3_all_agents -> All Agents
+    # 🔴 rt3_all_agents -> All Agents
     ➡️ rt3_all_agents=
-  # 🔴 rt3_all_columns -> All Columns
+    # 🔴 rt3_all_columns -> All Columns
     ➡️ rt3_all_columns=
     rt3_all_queues=Όλες οι ουρές αναμονής
-  # 🔴 rt3_answer -> Answer
+    # 🔴 rt3_answer -> Answer
     ➡️ rt3_answer=
-  # 🔴 rt3_avgTalk -> Avg. Talk
+    # 🔴 rt3_avgTalk -> Avg. Talk
     ➡️ rt3_avgTalk=
-  # 🔴 rt3_avgWait -> Avg. Wait
+    # 🔴 rt3_avgWait -> Avg. Wait
     ➡️ rt3_avgWait=
     rt3_avg_queue_info=Πληροφορίες μέσου όρου ουράς αναμονής
     rt3_avg_talk=Μέσος όρος συνομιλίας
     rt3_avg_wait=Μέσος όρος αναμονής
-  # 🔴 rt3_avgtalk_alarm_red -> Avg. Talk Red Alarm
+    # 🔴 rt3_avgtalk_alarm_red -> Avg. Talk Red Alarm
     ➡️ rt3_avgtalk_alarm_red=
-  # 🔴 rt3_avgtalk_alarm_yel -> Avg. Talk Yellow Alarm
+    # 🔴 rt3_avgtalk_alarm_yel -> Avg. Talk Yellow Alarm
     ➡️ rt3_avgtalk_alarm_yel=
     rt3_bar_sla=Ραβδόγραμμα - SLA
-  # 🔴 rt3_billpause -> Pause Bill.
+    # 🔴 rt3_billpause -> Pause Bill.
     ➡️ rt3_billpause=
     rt3_blue=Μπλε
     rt3_busy=Απασχολημένο
-  # 🔴 rt3_call -> Call
+    # 🔴 rt3_call -> Call
     ➡️ rt3_call=
-  # 🔴 rt3_call_action_title -> Select an action for a call
+    # 🔴 rt3_call_action_title -> Select an action for a call
     ➡️ rt3_call_action_title=
-  # 🔴 rt3_call_actions -> Call Actions
+    # 🔴 rt3_call_actions -> Call Actions
     ➡️ rt3_call_actions=
-  # 🔴 rt3_call_actions_subtitle -> Click on a call to select it
+    # 🔴 rt3_call_actions_subtitle -> Click on a call to select it
     ➡️ rt3_call_actions_subtitle=
-  # 🔴 rt3_call_agent -> Agent
+    # 🔴 rt3_call_agent -> Agent
     ➡️ rt3_call_agent=
     rt3_call_alarm_red=Κόκκινη προειδοποίηση κλήσεων
     rt3_call_alarm_yel=Κίτρινη προειδοποίηση κλήσεων
-  # 🔴 rt3_call_close -> Close Call
+    # 🔴 rt3_call_close -> Close Call
     ➡️ rt3_call_close=
-  # 🔴 rt3_call_failed -> The call has failed.
+    # 🔴 rt3_call_failed -> The call has failed.
     ➡️ rt3_call_failed=
-  # 🔴 rt3_call_hangup -> Hangup Call
+    # 🔴 rt3_call_hangup -> Hangup Call
     ➡️ rt3_call_hangup=
-  # 🔴 rt3_call_id -> Call Id
+    # 🔴 rt3_call_id -> Call Id
     ➡️ rt3_call_id=
-  # 🔴 rt3_call_in_progress -> Call in progress
+    # 🔴 rt3_call_in_progress -> Call in progress
     ➡️ rt3_call_in_progress=
-  # 🔴 rt3_call_localextension -> Local Extension
+    # 🔴 rt3_call_localextension -> Local Extension
     ➡️ rt3_call_localextension=
-  # 🔴 rt3_call_monitor -> Monitor Call
+    # 🔴 rt3_call_monitor -> Monitor Call
     ➡️ rt3_call_monitor=
-  # 🔴 rt3_call_number -> Caller
+    # 🔴 rt3_call_number -> Caller
     ➡️ rt3_call_number=
-  # 🔴 rt3_call_offhold -> The call was taken off hold.
+    # 🔴 rt3_call_offhold -> The call was taken off hold.
     ➡️ rt3_call_offhold=
-  # 🔴 rt3_call_onhold -> The call was put on hold.
+    # 🔴 rt3_call_onhold -> The call was put on hold.
     ➡️ rt3_call_onhold=
-  # 🔴 rt3_call_qa -> Grade Call
+    # 🔴 rt3_call_qa -> Grade Call
     ➡️ rt3_call_qa=
-  # 🔴 rt3_call_queue -> Queue
+    # 🔴 rt3_call_queue -> Queue
     ➡️ rt3_call_queue=
-  # 🔴 rt3_call_started -> The call has started.
+    # 🔴 rt3_call_started -> The call has started.
     ➡️ rt3_call_started=
     rt3_call_status=Κατάσταση
-  # 🔴 rt3_call_terminated -> The call was terminated.
+    # 🔴 rt3_call_terminated -> The call was terminated.
     ➡️ rt3_call_terminated=
-  # 🔴 rt3_call_transfer -> Transfer Call
+    # 🔴 rt3_call_transfer -> Transfer Call
     ➡️ rt3_call_transfer=
-  # 🔴 rt3_call_transferextension -> Transfer to (ext.)
+    # 🔴 rt3_call_transferextension -> Transfer to (ext.)
     ➡️ rt3_call_transferextension=
     rt3_caller=Καλών
-  # 🔴 rt3_callfeatures -> Call Features
+    # 🔴 rt3_callfeatures -> Call Features
     ➡️ rt3_callfeatures=
-  # 🔴 rt3_callgoalfeatures -> Goal Ftrs
+    # 🔴 rt3_callgoalfeatures -> Goal Ftrs
     ➡️ rt3_callgoalfeatures=
     rt3_calls_alm_red=Κόκκινη προειδοποίηση κλήσεων σε αναμονή
     rt3_calls_alm_yel=Κίτρινη προειδοποίηση κλήσεων σε αναμονή
-  # 🔴 rt3_calltag -> Tag
+    # 🔴 rt3_calltag -> Tag
     ➡️ rt3_calltag=
     rt3_cancel=Ακύρωση
     rt3_cannot_edit_wb_warning=Η επεξεργασία απαγορεύεται, ο χρήστης δεν διαθέτει τα απαραίτητα κλειδιά.
@@ -2364,15 +2364,15 @@ Do not change the items below:
     rt3_category_multiitem=Σύνθετα στοιχεία
     rt3_category_table=Πίνακες
     rt3_category_various=Διάφορα
-  # 🔴 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
+    # 🔴 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
     ➡️ rt3_change_queue_confirm=
-  # 🔴 rt3_choose_action -> Choose Action
+    # 🔴 rt3_choose_action -> Choose Action
     ➡️ rt3_choose_action=
-  # 🔴 rt3_choose_monitor_mode -> Monitoring Mode
+    # 🔴 rt3_choose_monitor_mode -> Monitoring Mode
     ➡️ rt3_choose_monitor_mode=
-  # 🔴 rt3_choose_queue -> Choose Queue
+    # 🔴 rt3_choose_queue -> Choose Queue
     ➡️ rt3_choose_queue=
-  # 🔴 rt3_choose_server -> Choose the server
+    # 🔴 rt3_choose_server -> Choose the server
     ➡️ rt3_choose_server=
     rt3_circle_agents_oncall=Αριθμ. χρηστών σε κλήση
     rt3_circle_answered_calls=Αριθμ. απαντημένων κλήσεων
@@ -2389,20 +2389,20 @@ Do not change the items below:
     rt3_close=Κλείσιμο
     rt3_code=ΚωδικόςΠαύσης
     rt3_color=Χρώμα
-  # 🔴 rt3_columns -> Columns
+    # 🔴 rt3_columns -> Columns
     ➡️ rt3_columns=
     rt3_comment=Σχόλια
-  # 🔴 rt3_configure_phone -> Softphone Configuration
+    # 🔴 rt3_configure_phone -> Softphone Configuration
     ➡️ rt3_configure_phone=
     rt3_connection_error=Σφάλμα σύνδεσης με server
-  # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
+    # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
     ➡️ rt3_connection_valid=
-  # 🔴 rt3_cont -> Cont.
+    # 🔴 rt3_cont -> Cont.
     ➡️ rt3_cont=
-  # 🔴 rt3_contph -> CPH
+    # 🔴 rt3_contph -> CPH
     ➡️ rt3_contph=
     rt3_conversation=Διάλογος
-  # 🔴 rt3_conversions -> Conv.
+    # 🔴 rt3_conversions -> Conv.
     ➡️ rt3_conversions=
     rt3_copy=Αντιγραφή
     rt3_copy_kiosk_url=Δημόσια διεύθυνση URL σε λειτουργία Kiosk
@@ -2411,18 +2411,18 @@ Do not change the items below:
     rt3_current_agent=Τρέχων Χρήστης:
     rt3_current_call=Προέρχεται από
     rt3_current_props=Τρέχουσες ιδιότητες:
-  # 🔴 rt3_data_block -> Data Block
+    # 🔴 rt3_data_block -> Data Block
     ➡️ rt3_data_block=
-  # 🔴 rt3_data_block_chart -> Chart
+    # 🔴 rt3_data_block_chart -> Chart
     ➡️ rt3_data_block_chart=
-  # 🔴 rt3_database -> Database
+    # 🔴 rt3_database -> Database
     ➡️ rt3_database=
-  # 🔴 rt3_datablock -> Data Block
+    # 🔴 rt3_datablock -> Data Block
     ➡️ rt3_datablock=
     rt3_del=Διαγραφή προβολής
-  # 🔴 rt3_delete_current_wallboard_confirm -> The current wallboard will be deleted, proceed?
+    # 🔴 rt3_delete_current_wallboard_confirm -> The current wallboard will be deleted, proceed?
     ➡️ rt3_delete_current_wallboard_confirm=
-  # 🔴 rt3_delete_wallboard -> Delete
+    # 🔴 rt3_delete_wallboard -> Delete
     ➡️ rt3_delete_wallboard=
     rt3_direction=Κατεύθυνση
     rt3_display_size=Μέγεθος εμφάνισης
@@ -2432,72 +2432,72 @@ Do not change the items below:
     rt3_edit=Επεξεργασία Γραφικού στοιχείου
     rt3_edit_required=Απαιτείται Επεξεργασία
     rt3_edit_wallboard_cfg=Επεξεργαστείτε και δείτε το τρέχον Wallboard
-  # 🔴 rt3_editwdg_title -> Edit Widget
+    # 🔴 rt3_editwdg_title -> Edit Widget
     ➡️ rt3_editwdg_title=
     rt3_empty_wlbd=Άδειο Wallboard
-  # 🔴 rt3_enter_title -> Enter Title
+    # 🔴 rt3_enter_title -> Enter Title
     ➡️ rt3_enter_title=
-  # 🔴 rt3_error_prefs_fetch -> The user preferences could not be retrieved
+    # 🔴 rt3_error_prefs_fetch -> The user preferences could not be retrieved
     ➡️ rt3_error_prefs_fetch=
     rt3_error_saving=Σφάλμα αποθήκευσης Wallboard
-  # 🔴 rt3_error_saving_prefs -> The user preferences could not be saved
+    # 🔴 rt3_error_saving_prefs -> The user preferences could not be saved
     ➡️ rt3_error_saving_prefs=
     rt3_error_saving_public_wb=Ο χρήστης δεν μπορεί να αποθηκεύσει ένα δημόσιο Wallboard
     rt3_error_saving_wb_missing_key=Ο χρήστης δεν μπορεί να αποθηκεύσει το Wallboard, λείπει το κλειδί χρήστη WALLBOARD_ADD
-  # 🔴 rt3_export_schema -> Export
+    # 🔴 rt3_export_schema -> Export
     ➡️ rt3_export_schema=
     rt3_extension=Επέκταση
-  # 🔴 rt3_extension_info -> Logged in as:
+    # 🔴 rt3_extension_info -> Logged in as:
     ➡️ rt3_extension_info=
-  # 🔴 rt3_extra_value -> Some of the selected values are not available
+    # 🔴 rt3_extra_value -> Some of the selected values are not available
     ➡️ rt3_extra_value=
     rt3_go=Εκτέλεση
     rt3_gohome=Αρχική
     rt3_goto_login=Πηγαίνετε στη σύνδεση
     rt3_green=Πράσινο
-  # 🔴 rt3_hangup -> Hangup
+    # 🔴 rt3_hangup -> Hangup
     ➡️ rt3_hangup=
-  # 🔴 rt3_hold -> Hold
+    # 🔴 rt3_hold -> Hold
     ➡️ rt3_hold=
-  # 🔴 rt3_html -> HTML Page
+    # 🔴 rt3_html -> HTML Page
     ➡️ rt3_html=
     rt3_idle=Ανενεργό
     rt3_idle_alarm_red=Ανενεργή Κόκκινη Προειδοποίηση
     rt3_idle_alarm_yel=Ανενεργή Κίτρινη Προειδοποίηση
-  # 🔴 rt3_import_schema -> Import
+    # 🔴 rt3_import_schema -> Import
     ➡️ rt3_import_schema=
     rt3_in_ivr=IVR
-  # 🔴 rt3_incoming_call_from -> Incoming call from
+    # 🔴 rt3_incoming_call_from -> Incoming call from
     ➡️ rt3_incoming_call_from=
-  # 🔴 rt3_insert_valid_value -> Please insert a valid value
+    # 🔴 rt3_insert_valid_value -> Please insert a valid value
     ➡️ rt3_insert_valid_value=
     rt3_ispublic=Δημόσιο;
     rt3_ivr_time=IVR
     rt3_kill=Κατάργηση αυτού του γραφικού στοιχείου από την προβολή
     rt3_kiosk_mode_warning=Αυτήν τη στιγμή βρίσκεστε σε διαμόρφωση "kiosk", η επεξεργασία του Wallboard είναι απενεργοποιημένη.
     rt3_last_completed_call=Χωρίς Κλήσεις για
-  # 🔴 rt3_live_agent -> Agent
+    # 🔴 rt3_live_agent -> Agent
     ➡️ rt3_live_agent=
     rt3_live_agent_counters=Μετρητές Ενεργών Χρηστών (Live)
     rt3_live_agent_info=Πληροφορίες Ενεργών Χρηστών (Live)
     rt3_live_queue_info=Πληροφορίες Ουράς αναμονής (Live)
-  # 🔴 rt3_live_status -> Status
+    # 🔴 rt3_live_status -> Status
     ➡️ rt3_live_status=
     rt3_load=Φόρτωση Wallboard
     rt3_loading_data=Φόρτωση δεδομένων ...
-  # 🔴 rt3_loggedoff -> Logged Off
+    # 🔴 rt3_loggedoff -> Logged Off
     ➡️ rt3_loggedoff=
-  # 🔴 rt3_loggedon -> Logged On
+    # 🔴 rt3_loggedon -> Logged On
     ➡️ rt3_loggedon=
     rt3_longest_wait=Μέγιστη Αναμονή
-  # 🔴 rt3_lost_attempts -> Lost Att.
+    # 🔴 rt3_lost_attempts -> Lost Att.
     ➡️ rt3_lost_attempts=
     rt3_lost_prc=Χαμένες
-  # 🔴 rt3_menu_delete -> Delete
+    # 🔴 rt3_menu_delete -> Delete
     ➡️ rt3_menu_delete=
-  # 🔴 rt3_menu_edit -> Edit
+    # 🔴 rt3_menu_edit -> Edit
     ➡️ rt3_menu_edit=
-  # 🔴 rt3_menu_share -> Share
+    # 🔴 rt3_menu_share -> Share
     ➡️ rt3_menu_share=
     rt3_missing_wdg=Λείπει το γραφικό στοιχείο
     rt3_n_agents=Αρ. Χρηστών
@@ -2509,35 +2509,35 @@ Do not change the items below:
     rt3_new_wlbd=Νέο Wallboard
     rt3_no_data=Μη Διαθέσιμες Πληροφορίες
     rt3_no_url_to_be_copied=Αυτό το Wallboard δεν έχει κοινή διεύθυνση URL
-  # 🔴 rt3_nobillpause -> Pause non Bill.
+    # 🔴 rt3_nobillpause -> Pause non Bill.
     ➡️ rt3_nobillpause=
     rt3_nofcalls_answered=Απαντημένες Κλήσεις
     rt3_nofcalls_lost=Χαμένες Κλήσεις
     rt3_nofcalls_offered=Αρ. Προτεινόμενων κλήσεων
     rt3_nofcolumns=Αρ. Στηλών
-  # 🔴 rt3_ntodial -> Dial Number
+    # 🔴 rt3_ntodial -> Dial Number
     ➡️ rt3_ntodial=
-  # 🔴 rt3_number_calling -> Calling:
+    # 🔴 rt3_number_calling -> Calling:
     ➡️ rt3_number_calling=
-  # 🔴 rt3_offered -> Offered
+    # 🔴 rt3_offered -> Offered
     ➡️ rt3_offered=
-  # 🔴 rt3_ok -> Ok
+    # 🔴 rt3_ok -> Ok
     ➡️ rt3_ok=
     rt3_on_pause=Σε Παύση
-  # 🔴 rt3_oncall -> On Call
+    # 🔴 rt3_oncall -> On Call
     ➡️ rt3_oncall=
-  # 🔴 rt3_onhold -> On Hold
+    # 🔴 rt3_onhold -> On Hold
     ➡️ rt3_onhold=
     rt3_pause_alarm_red=Παύση Κόκκινης Προειδοποίησης
     rt3_pause_alarm_yel=Παύση Κίτρινης Προειδοποίησης
     rt3_paused=Σε Παύση
-  # 🔴 rt3_pausetimes -> Pause Time
+    # 🔴 rt3_pausetimes -> Pause Time
     ➡️ rt3_pausetimes=
-  # 🔴 rt3_phone -> Softphone
+    # 🔴 rt3_phone -> Softphone
     ➡️ rt3_phone=
-  # 🔴 rt3_phone_settings -> Phone Settings
+    # 🔴 rt3_phone_settings -> Phone Settings
     ➡️ rt3_phone_settings=
-  # 🔴 rt3_pin -> Pin
+    # 🔴 rt3_pin -> Pin
     ➡️ rt3_pin=
     rt3_pink=Ροζ
     rt3_play=Play
@@ -2546,11 +2546,11 @@ Do not change the items below:
     rt3_private=Ιδιωτικό wallboard
     rt3_public=Κοινό Wallboard
     rt3_purple=Μώβ
-  # 🔴 rt3_qcont -> QC
+    # 🔴 rt3_qcont -> QC
     ➡️ rt3_qcont=
-  # 🔴 rt3_qcontph -> QCPH
+    # 🔴 rt3_qcontph -> QCPH
     ➡️ rt3_qcontph=
-  # 🔴 rt3_qualconversions -> QConv.
+    # 🔴 rt3_qualconversions -> QConv.
     ➡️ rt3_qualconversions=
     rt3_queue=Ουρά αναμονής
     rt3_queue_inbound=Εισερχόμενες
@@ -2564,97 +2564,97 @@ Do not change the items below:
     rt3_red_alarm=Κόκκινη Προειδοποίηση
     rt3_red_line_limit=Όριο Κόκκινης Γραμμής
     rt3_red_line_text=Κείμενο Κόκκινης Γραμμής
-  # 🔴 rt3_register -> Register
+    # 🔴 rt3_register -> Register
     ➡️ rt3_register=
-  # 🔴 rt3_register_error -> Error while registering the softphone
+    # 🔴 rt3_register_error -> Error while registering the softphone
     ➡️ rt3_register_error=
-  # 🔴 rt3_register_notset -> The softphone "register" setting must be set to "yes"
+    # 🔴 rt3_register_notset -> The softphone "register" setting must be set to "yes"
     ➡️ rt3_register_notset=
-  # 🔴 rt3_register_txt -> Register
+    # 🔴 rt3_register_txt -> Register
     ➡️ rt3_register_txt=
-  # 🔴 rt3_registered -> Registered
+    # 🔴 rt3_registered -> Registered
     ➡️ rt3_registered=
     rt3_reorder_views=Διαχείρηση προβολών
     rt3_retry_now=Δοκιμή ξανά τώρα
-  # 🔴 rt3_ringing -> Ringing
+    # 🔴 rt3_ringing -> Ringing
     ➡️ rt3_ringing=
-  # 🔴 rt3_sales -> Sales
+    # 🔴 rt3_sales -> Sales
     ➡️ rt3_sales=
-  # 🔴 rt3_salesph -> SPH
+    # 🔴 rt3_salesph -> SPH
     ➡️ rt3_salesph=
     rt3_save=Αποθήκευση
     rt3_secondary_color=Δευτερεύον χρώμα
     rt3_seconds=δευτερόλεπτα
     rt3_security_key=Κλειδί ασφαλείας
-  # 🔴 rt3_select_chart -> Select a Chart...
+    # 🔴 rt3_select_chart -> Select a Chart...
     ➡️ rt3_select_chart=
-  # 🔴 rt3_select_db -> Select a DataBlock...
+    # 🔴 rt3_select_db -> Select a DataBlock...
     ➡️ rt3_select_db=
     rt3_select_wallboard=Παρακαλώ επιλέξτε Wallboard
-  # 🔴 rt3_send_command -> Ok
+    # 🔴 rt3_send_command -> Ok
     ➡️ rt3_send_command=
     rt3_session_invalid_reconnecting=Πρόβλημα σύνδεσης με Queuemetrics, προσπάθεια επανασύνδεσης
     rt3_size_is=Μέγεθος:
-  # 🔴 rt3_sla -> SLA
+    # 🔴 rt3_sla -> SLA
     ➡️ rt3_sla=
     rt3_sla_level=Επίπεδο SLA
-  # 🔴 rt3_softphone_displayname -> Display name
+    # 🔴 rt3_softphone_displayname -> Display name
     ➡️ rt3_softphone_displayname=
-  # 🔴 rt3_softphone_displayvalue -> Display Value
+    # 🔴 rt3_softphone_displayvalue -> Display Value
     ➡️ rt3_softphone_displayvalue=
-  # 🔴 rt3_softphone_max_interval -> Connection recovery max. interval
+    # 🔴 rt3_softphone_max_interval -> Connection recovery max. interval
     ➡️ rt3_softphone_max_interval=
-  # 🔴 rt3_softphone_min_interval -> Connection recovery min. interval
+    # 🔴 rt3_softphone_min_interval -> Connection recovery min. interval
     ➡️ rt3_softphone_min_interval=
-  # 🔴 rt3_softphone_password -> Password
+    # 🔴 rt3_softphone_password -> Password
     ➡️ rt3_softphone_password=
-  # 🔴 rt3_softphone_realm -> Realm
+    # 🔴 rt3_softphone_realm -> Realm
     ➡️ rt3_softphone_realm=
-  # 🔴 rt3_softphone_rtcwebbreaker -> Rtc Web Breaker
+    # 🔴 rt3_softphone_rtcwebbreaker -> Rtc Web Breaker
     ➡️ rt3_softphone_rtcwebbreaker=
-  # 🔴 rt3_softphone_server -> Server
+    # 🔴 rt3_softphone_server -> Server
     ➡️ rt3_softphone_server=
-  # 🔴 rt3_softphone_sipuri -> Sip URI
+    # 🔴 rt3_softphone_sipuri -> Sip URI
     ➡️ rt3_softphone_sipuri=
-  # 🔴 rt3_softphone_status_info_registered -> Softphone Registered
+    # 🔴 rt3_softphone_status_info_registered -> Softphone Registered
     ➡️ rt3_softphone_status_info_registered=
-  # 🔴 rt3_softphone_status_info_unregistered -> Softphone Unregistered
+    # 🔴 rt3_softphone_status_info_unregistered -> Softphone Unregistered
     ➡️ rt3_softphone_status_info_unregistered=
-  # 🔴 rt3_softphone_status_title -> WebRTC Softphone
+    # 🔴 rt3_softphone_status_title -> WebRTC Softphone
     ➡️ rt3_softphone_status_title=
-  # 🔴 rt3_softphone_timeout -> No answer timeout
+    # 🔴 rt3_softphone_timeout -> No answer timeout
     ➡️ rt3_softphone_timeout=
-  # 🔴 rt3_softphone_username -> Username
+    # 🔴 rt3_softphone_username -> Username
     ➡️ rt3_softphone_username=
-  # 🔴 rt3_softphone_websocketurl -> Web Socket URL
+    # 🔴 rt3_softphone_websocketurl -> Web Socket URL
     ➡️ rt3_softphone_websocketurl=
     rt3_status=Κατάσταση
     rt3_stop=Στοπ
-  # 🔴 rt3_table_agentandoutcome -> Agent And Outcome
+    # 🔴 rt3_table_agentandoutcome -> Agent And Outcome
     ➡️ rt3_table_agentandoutcome=
-  # 🔴 rt3_table_aggrbyqueue -> Aggregated By Queue
+    # 🔴 rt3_table_aggrbyqueue -> Aggregated By Queue
     ➡️ rt3_table_aggrbyqueue=
-  # 🔴 rt3_table_aggrbytag -> Aggregated By Tag
+    # 🔴 rt3_table_aggrbytag -> Aggregated By Tag
     ➡️ rt3_table_aggrbytag=
     rt3_table_live_agents=Ενεργοί Χρήστες (Live)
     rt3_table_live_calls=Ενεργές Κλήσεις (Live)
     rt3_table_live_queues=Ενεργές Ουρές αναμονής (Live)
     rt3_table_raw=Ακατέργαστα Δεδομένα
-  # 🔴 rt3_taken -> Taken
+    # 🔴 rt3_taken -> Taken
     ➡️ rt3_taken=
-  # 🔴 rt3_taken_alarm_red -> Taken Red Alarm
+    # 🔴 rt3_taken_alarm_red -> Taken Red Alarm
     ➡️ rt3_taken_alarm_red=
-  # 🔴 rt3_taken_alarm_yel -> Taken Yellow Alarm
+    # 🔴 rt3_taken_alarm_yel -> Taken Yellow Alarm
     ➡️ rt3_taken_alarm_yel=
     rt3_talk_red_alarm=Συνομιλία Κόκκινη Προειδοποίηση
     rt3_talk_time=Συνομιλία
     rt3_talk_yellow_alarm=Συνομιλία Κίτρινη Προειδοποίηση
     rt3_talking=Συνομιλία
     rt3_text=Κείμενο
-  # 🔴 rt3_text_area_placeholder -> Insert text here
+    # 🔴 rt3_text_area_placeholder -> Insert text here
     ➡️ rt3_text_area_placeholder=
     rt3_title=Τίτλος
-  # 🔴 rt3_tot_talk -> Tot. Talk
+    # 🔴 rt3_tot_talk -> Tot. Talk
     ➡️ rt3_tot_talk=
     rt3_total=Σύνολο
     rt3_tottalk_alarm_red=Συνολική συνομιλία Κόκκινος Συναγερμός
@@ -2666,7 +2666,7 @@ Do not change the items below:
     rt3_unregister_txt=Αποσύνδεση
     rt3_unregistered=Αποσυνδεδεμένος
     rt3_up=Κίνηση προς τα επάνω
-  # 🔴 rt3_url -> Url
+    # 🔴 rt3_url -> Url
     ➡️ rt3_url=
     rt3_url_copied=Η κοινή διεύθυνση URL αντιγράφηκε στο πρόχειρο
     rt3_user_prefs_saved=Οι προτιμήσεις χρήστη έχουν αποθηκευτεί
@@ -2830,7 +2830,7 @@ Do not change the items below:
 
 Description of configuration properties
 
-  # 🔴 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
+    # 🔴 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
     ➡️ propedit_agent_max_qap_calls_desc=
     propedit_category_agentpage=Σελίδα agent σε πραγματικό χρόνο
     propedit_category_engine=Μηχανή υπολογισμών
@@ -2843,13 +2843,13 @@ Description of configuration properties
     propedit_category_synchronizer=Συγχρονιστής
     propedit_edit_label=Επεξεργασία
     propedit_explore_label=Εξερεύνηση
-  # 🔴 propedit_feature_agent_amo -> AMO
+    # 🔴 propedit_feature_agent_amo -> AMO
     ➡️ propedit_feature_agent_amo=
     propedit_feature_ap_backg=Επιλογές φόντου
     propedit_feature_ap_login_out=Login και Logout
     propedit_feature_ap_other=Μη κατηγοριοποιημένο
     propedit_feature_autoopenurl=Ανανέωση φόντου
-  # 🔴 propedit_feature_engine_audit -> Auditing
+    # 🔴 propedit_feature_engine_audit -> Auditing
     ➡️ propedit_feature_engine_audit=
     propedit_feature_engine_other=Μη κατηγοριοποιημένο
     propedit_feature_engine_shortcalls=Σύντομες κλήσεις
@@ -2865,7 +2865,7 @@ Description of configuration properties
     propedit_feature_platformdialer_settings=Γενικές Ρυθμίσεις
     propedit_feature_rtmisc=Άλλες παράμετροι πραγματικού χρόνου
     propedit_feature_rtpanels=Πίνακες πραγματικού χρόνου
-  # 🔴 propedit_feature_softphone_defaults -> SoftPhone Global Defaults
+    # 🔴 propedit_feature_softphone_defaults -> SoftPhone Global Defaults
     ➡️ propedit_feature_softphone_defaults=
     propedit_feature_softphone_settings=Ρυθμίσεις Softphone της σελίδας χρήστη
     propedit_feature_synchronizer_settings=Ρυθμίσεις συγχρονισμού
@@ -2874,34 +2874,34 @@ Description of configuration properties
     propedit_key_agent_background_desc=URL του φόντου της σελίδας του χρήστη.
     propedit_key_agent_outcome_size=Μέγιστο ύψος του καταλόγου επιλογής αποτελεσμάτων
     propedit_key_agent_pause_dialout=Απενεργοποίση δυνατότητας κλήσης χρηστών όταν αυτοί είναι σε παύση
-  # 🔴 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
+    # 🔴 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
     ➡️ propedit_key_agent_qap_cached_for_ms_desc=
-  # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
+    # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
     ➡️ propedit_key_amo_placed_call_timeout=
-  # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
+    # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
     ➡️ propedit_key_answer_src=
-  # 🔴 propedit_key_atxfer -> Attended Transfer Feature Code
+    # 🔴 propedit_key_atxfer -> Attended Transfer Feature Code
     ➡️ propedit_key_atxfer=
-  # 🔴 propedit_key_atxferabort -> Abort Attended Transfer Feature Code
+    # 🔴 propedit_key_atxferabort -> Abort Attended Transfer Feature Code
     ➡️ propedit_key_atxferabort=
-  # 🔴 propedit_key_atxfercomplete -> Complete Attended Transfer Feature Code
+    # 🔴 propedit_key_atxfercomplete -> Complete Attended Transfer Feature Code
     ➡️ propedit_key_atxfercomplete=
-  # 🔴 propedit_key_atxferswap -> Swap Attended Transfer Feature Code
+    # 🔴 propedit_key_atxferswap -> Swap Attended Transfer Feature Code
     ➡️ propedit_key_atxferswap=
-  # 🔴 propedit_key_atxferthreeway -> Join Attended Transfer Feature Code
+    # 🔴 propedit_key_atxferthreeway -> Join Attended Transfer Feature Code
     ➡️ propedit_key_atxferthreeway=
     propedit_key_audio_html5player_desc=Χρησιμοποιήστε την αναπαραγωγή ήχου HTML5
     propedit_key_audit_log_days=Πόσες ημέρες των αρχείων καταγραφής θα διατηρηθούν κατά την εκκαθάριση του αρχείου καταγραφής ελέγχου
-  # 🔴 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
+    # 🔴 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
     ➡️ propedit_key_audit_max_report_time=
-  # 🔴 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
+    # 🔴 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
     ➡️ propedit_key_audit_max_rows_fetched=
-  # 🔴 propedit_key_blindxfer -> Blind Transfer Feature Code
+    # 🔴 propedit_key_blindxfer -> Blind Transfer Feature Code
     ➡️ propedit_key_blindxfer=
     propedit_key_cronjobs_localwebapp=Πρωτεύουσα διεύθυνση URL για προγραμματισμένες εργασίες
-  # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
+    # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
     ➡️ propedit_key_decodeknownnumbers=
-  # 🔴 propedit_key_default_agentcanamendpause_desc -> If this property is set to Yes, agents can amend the current pause code, retroactively changing it (this will make it so that the new pause code will appear in reports instead of the old one, for the current pause). If set to No, when agents change pause code, it will automatically end the current pause and initiate a new one with the new code.
+    # 🔴 propedit_key_default_agentcanamendpause_desc -> If this property is set to Yes, agents can amend the current pause code, retroactively changing it (this will make it so that the new pause code will appear in reports instead of the old one, for the current pause). If set to No, when agents change pause code, it will automatically end the current pause and initiate a new one with the new code.
     ➡️ propedit_key_default_agentcanamendpause_desc=
     propedit_key_default_alwaysLogonUnpaused_desc=Όταν ένας agent συνδέεται, πάντα θα είναι πάντα σε μη παύση
     propedit_key_default_areacode_digits_desc=Πόσα ψηφία να θεωρούνται από προεπιλογή κωδικός περιοχής
@@ -2911,7 +2911,7 @@ Description of configuration properties
     propedit_key_default_crmapp_desc=(υπάρχει δυνατότητα δυμναμικών tag, δείτε το εγχειρίδιο χρήσης)
     propedit_key_default_crmlabel_desc=Ετικέτα που εμφανίζεται στο μενού της σελίδας Icon
     propedit_key_default_decimalDigits_desc=Αριθμός ψηφίων που θα εμφανίζονται για αριθμούς κινητής υποδιαστολής
-  # 🔴 propedit_key_default_effectiveCallThresold_desc -> The minimum length of a call to be considered effective
+    # 🔴 propedit_key_default_effectiveCallThresold_desc -> The minimum length of a call to be considered effective
     ➡️ propedit_key_default_effectiveCallThresold_desc=
     propedit_key_default_export_orientation_desc=Προσανατολισμός αναφορών από άμεση εξαγωγή σε PDF
     propedit_key_default_export_orientation_landscape_desc=Τοπίο
@@ -2924,9 +2924,9 @@ Description of configuration properties
     propedit_key_default_lockedAgentPopupCode_desc=Μπορούν οι χρήστες να αλλάξουν τον κωδικό τους στα αναδυόμενα παράθυρα Είσοδος / Αποσύνδεση / Παύση;
     propedit_key_default_maxOngoingTalkTime_desc=Αν μια κλήση σε εξέλιξη έχει χρόνο ομιλίας που υπερβαίνει την τιμή αυτή, να κλείσει. 0: αγνοήστε
     propedit_key_default_maxOngoingWaitTime_desc=Αν μια κλήση σε εξέλιξη έχει χρόνο αναμονής που υπερβαίνει την τιμή αυτή, να κλείσει. 0: αγνοήστε
-  # 🔴 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
+    # 🔴 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
     ➡️ propedit_key_default_maxrowspdf_desc=
-  # 🔴 propedit_key_default_maxrowsxls_desc -> Max. number of rows per table when exporting a report in XLS format. Keep in mind that the maximum number of rows in an XLS page cannot surpass 65435.
+    # 🔴 propedit_key_default_maxrowsxls_desc -> Max. number of rows per table when exporting a report in XLS format. Keep in mind that the maximum number of rows in an XLS page cannot surpass 65435.
     ➡️ propedit_key_default_maxrowsxls_desc=
     propedit_key_default_openUrlInPopup_desc=Ανοίξτε το CRM σε ξεχωριστό παράθυρο (μην ενσωματώσετε το εικονίδιο)
     propedit_key_default_pausecoderequired_desc=Εάν οριστεί σε true, οι agents πρέπει να δώσουν έναν έγκυρο λόγο Παύσης
@@ -2951,7 +2951,7 @@ Description of configuration properties
     propedit_key_default_viewTechInfo_desc=Προβολή Tech Info και DBTest
     propedit_key_default_webloaderpbx_desc=Ενεργοποίηση του WebLoaderPBX (UniLoader)
     propedit_key_default_wombatagentrecall_desc=Ενεργοποιήση της υπηρεσίας επανάκλησης του χρήστη του wombat
-  # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
+    # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
     ➡️ propedit_key_dialtone_src=
     propedit_key_directami_agent_desc=Ο τρόπος που υποτίθεται ότι πρέπει να είναι ένα κανάλι χρήστη
     propedit_key_directami_cmdseparator_desc=Ο διαχωριστής χρησιμοποιείται για παραμέτρους στην έκδοση Asterisk. Προεπιλογή στο κόμμα (',') και θα πρέπει να αλλάξει σε σωλήνα ('|') για πολύ παλιά συστήματα Asterisk (προ-1.8)
@@ -2961,7 +2961,7 @@ Description of configuration properties
     propedit_key_directami_outboundenabled_desc=Εάν είναι ενεργοποιημένη η εξερχόμενη κλήση
     propedit_key_directami_outboundstanza_desc=το σημείο στο dialplan που πρέπει να καλείται όταν κάνετε εξερχόμενα
     propedit_key_directami_spyoptions_desc=Οι επιλογές που θέλετε να χρησιμοποιήσετε για την εφαρμογή Asterisk ChanSpy κατά την ακρόαση κλήσεων. Με την αλλαγή αυτών των επιλογών, μπορείτε να έχετε λειτουργία Whisper ή Barge αντί για απλό ChanSpy.
-  # 🔴 propedit_key_directami_stateinterface_desc -> The StateInterface for our agent. If blank, not added.
+    # 🔴 propedit_key_directami_stateinterface_desc -> The StateInterface for our agent. If blank, not added.
     ➡️ propedit_key_directami_stateinterface_desc=
     propedit_key_directami_trackerdialout_desc=Το εσωτερικό και το context στο οποίο συνδεόμαστε κατά την κλήση
     propedit_key_directami_transfer_desc=Ο προορισμός της μεταφοράς κλήσης είναι της μορφής ext@context
@@ -2977,31 +2977,31 @@ Description of configuration properties
     propedit_key_enswitch_qpspill_desc=Η προτεραιότητα ουράς αναμονής για έναν χρήστη που έχει συνδεθεί με προτεραιότητα SPILL (προεπιλογή: 4)
     propedit_key_enswitch_qpwrap_desc=Η προτεραιότητα ουράς αναμονής για έναν χρήστη που έχει συνδεθεί με προτεραιότητα WRAP (προεπιλογή: 6)
     propedit_key_enswitch_spyprefix_desc=Το προεπιλεγμένο πρόθεμα που χρησιμοποιείται για την εκκίνηση ενός chanspy (Προεπιλογή: * 91)
-  # 🔴 propedit_key_enswitch_verbose_desc -> Whether all Enswitch interactions should be logged in full to the standard log (default: false)
+    # 🔴 propedit_key_enswitch_verbose_desc -> Whether all Enswitch interactions should be logged in full to the standard log (default: false)
     ➡️ propedit_key_enswitch_verbose_desc=
-  # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
+    # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
     ➡️ propedit_key_extrabody=
-  # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
+    # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
     ➡️ propedit_key_hangup_src=
-  # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
+    # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
     ➡️ propedit_key_hiddennumberpolicy=
-  # 🔴 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Should be resized to 200 x 72.
+    # 🔴 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Should be resized to 200 x 72.
     ➡️ propedit_key_layout_logo_desc=
     propedit_key_noans_timeout=Ώρα (σε δευτερόλεπτα) μετά την οποία μια εισερχόμενη κλήση απορρίπτεται αν δεν απαντηθεί. Η προεπιλεγμένη τιμή είναι 60.
     propedit_key_phone_iceservers=Λίστα διακομιστών ICE που θα χρησιμοποιήσετε
-  # 🔴 propedit_key_phone_maxsessions -> Max Num. of sessions for the Agent Page SoftPhone
+    # 🔴 propedit_key_phone_maxsessions -> Max Num. of sessions for the Agent Page SoftPhone
     ➡️ propedit_key_phone_maxsessions=
     propedit_key_phone_websocketurl=Web Socket URL για τη σύνδεση.
     propedit_key_platform_dialer_desc=Επιλέξτε τον τύπο του dialer που θα χρησιμοποιηθεί
-  # 🔴 propedit_key_platform_jsonapi_enabled -> A comma-separated list of actions to offer
+    # 🔴 propedit_key_platform_jsonapi_enabled -> A comma-separated list of actions to offer
     ➡️ propedit_key_platform_jsonapi_enabled=
     propedit_key_platform_jsonapi_method=Ποια μέθοδος HTTP πρέπει να χρησιμοποιηθεί
     propedit_key_platform_jsonapi_token=Ένα διακριτικό αναγνώρισης για αυτό το σύστημα QM
-  # 🔴 propedit_key_platform_jsonapi_url -> The HTTP/S URL to send commands to
+    # 🔴 propedit_key_platform_jsonapi_url -> The HTTP/S URL to send commands to
     ➡️ propedit_key_platform_jsonapi_url=
-  # 🔴 propedit_key_platform_jsonapi_verbose -> Verbose logging
+    # 🔴 propedit_key_platform_jsonapi_verbose -> Verbose logging
     ➡️ propedit_key_platform_jsonapi_verbose=
-  # 🔴 propedit_key_platform_pbx_desc -> Choose the type of PBX platform to be used.
+    # 🔴 propedit_key_platform_pbx_desc -> Choose the type of PBX platform to be used.
     ➡️ propedit_key_platform_pbx_desc=
     propedit_key_realtime_absolutePauseTimes_desc=Να φαίνονται οι απόλυτοι χρόνοι σύνδεσης των agent στη σελίδα απεικόνισης πραγματικού χρόνου;
     propedit_key_realtime_absolutePauseTimes_fase_desc=Σχετικοί χρόνοι
@@ -3032,113 +3032,113 @@ Description of configuration properties
     propedit_key_realtime_calls_invisible_desc=Προβολή επιλογέα πίνακα κλήσεων
     propedit_key_realtime_dynamicLoginQueues_desc=Ουρές αναμονής που ο agent μπορεί να επιλέξει κατά την σύνδεση
     propedit_key_realtime_hideExportButtons_desc=Προβολή κουμπιών εξαγωγής στη σελίδα απεικόνισης σε πραγματικό χρόνο
-  # 🔴 propedit_key_realtime_max_bytes_agent_desc -> Read past up to N seconds when counting realtime
+    # 🔴 propedit_key_realtime_max_bytes_agent_desc -> Read past up to N seconds when counting realtime
     ➡️ propedit_key_realtime_max_bytes_agent_desc=
     propedit_key_realtime_members_only_buttonEnabledd_desc=Κατάσταση "γνωστών" μελών
     propedit_key_realtime_members_only_desc=Προβολή μόνο "γνωστού" μέλους για την Ουρά αναμονής
     propedit_key_realtime_preventLoggedAgentInfoChanges_desc=Μπορούν οι χρήστες να αλλάξουν τον κωδικό και εσωτερικό τους αν συνδεθούν σε τουλάχιστο μία Ουρά αναμονής
     propedit_key_realtime_refresh_time_desc=Χρόνος ανανέωσης σελίδας
-  # 🔴 propedit_key_realtime_relative_pause_time -> Show ongoing pause times.
+    # 🔴 propedit_key_realtime_relative_pause_time -> Show ongoing pause times.
     ➡️ propedit_key_realtime_relative_pause_time=
-  # 🔴 propedit_key_realtime_rememberLastExtension_desc -> Remember last agent extension
+    # 🔴 propedit_key_realtime_rememberLastExtension_desc -> Remember last agent extension
     ➡️ propedit_key_realtime_rememberLastExtension_desc=
-  # 🔴 propedit_key_realtime_showAgentPriorityReports_desc -> Show agent priority level in reports.
+    # 🔴 propedit_key_realtime_showAgentPriorityReports_desc -> Show agent priority level in reports.
     ➡️ propedit_key_realtime_showAgentPriorityReports_desc=
-  # 🔴 propedit_key_realtime_showAgentPriority_desc -> Show the agent priority on the queues in the "Queue Logon Panel".
+    # 🔴 propedit_key_realtime_showAgentPriority_desc -> Show the agent priority on the queues in the "Queue Logon Panel".
     ➡️ propedit_key_realtime_showAgentPriority_desc=
     propedit_key_realtime_show_incorrect_queue_sets_desc=Θα πρέπει να φαίνονται οι διαφορές στην αναμενόμενη γραμμή εργαλείων της Ουράς αναμονής;
-  # 🔴 propedit_key_realtime_use_new_wb -> Run the user-configurable wallboard?
+    # 🔴 propedit_key_realtime_use_new_wb -> Run the user-configurable wallboard?
     ➡️ propedit_key_realtime_use_new_wb=
     propedit_key_realtime_waitAlarmOnLiveCalls_desc=Ελέγξτε για ειδοποιήσεις κατά την αναμονή σε εν εξελίξει συνομιλίες 
-  # 🔴 propedit_key_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
+    # 🔴 propedit_key_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
     ➡️ propedit_key_recovery_max=
-  # 🔴 propedit_key_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
+    # 🔴 propedit_key_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
     ➡️ propedit_key_recovery_min=
-  # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
+    # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
     ➡️ propedit_key_ringtone_src=
     propedit_key_sla_initial_interval_desc=Χρονική περίοδος για το αρχικό τμήμα του SLA
     propedit_key_sla_interval_desc=Πόσο μεγάλα είναι τα χρονικά διαστήματα για το γραφημα SLA
     propedit_key_sla_max_initial_delay_desc=Τα αρχικά όρια του χρόνου για τον υπολογισμό του SLA
     propedit_key_sla_max_monitored_delay_desc=Μέγιστη καθυστέρηση που φαίνεται στο γράφημα SLA
-  # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
+    # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
     ➡️ propedit_key_smtpsubjectprefix=
-  # 🔴 propedit_key_synchronizer_agents_file -> Default agents.conf File
+    # 🔴 propedit_key_synchronizer_agents_file -> Default agents.conf File
     ➡️ propedit_key_synchronizer_agents_file=
-  # 🔴 propedit_key_synchronizer_queuelog_file -> Default Queue Log File
+    # 🔴 propedit_key_synchronizer_queuelog_file -> Default Queue Log File
     ➡️ propedit_key_synchronizer_queuelog_file=
-  # 🔴 propedit_key_synchronizer_queues_file -> Default queues.conf File
+    # 🔴 propedit_key_synchronizer_queues_file -> Default queues.conf File
     ➡️ propedit_key_synchronizer_queues_file=
-  # 🔴 propedit_key_synchronizer_url_source -> Url to fetch Synchronizer JSON configuration file with URL Reader
+    # 🔴 propedit_key_synchronizer_url_source -> Url to fetch Synchronizer JSON configuration file with URL Reader
     ➡️ propedit_key_synchronizer_url_source=
-  # 🔴 propedit_key_synchronizer_users_file -> Default users.conf File
+    # 🔴 propedit_key_synchronizer_users_file -> Default users.conf File
     ➡️ propedit_key_synchronizer_users_file=
-  # 🔴 propedit_key_wallboard_kiosk_user -> The default user for the Wallboard Kiosk URL
+    # 🔴 propedit_key_wallboard_kiosk_user -> The default user for the Wallboard Kiosk URL
     ➡️ propedit_key_wallboard_kiosk_user=
-  # 🔴 propedit_key_wb_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
+    # 🔴 propedit_key_wb_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
     ➡️ propedit_key_wb_noans_timeout=
-  # 🔴 propedit_key_wb_phone_autoanswer -> Enable Auto Answer by default in the Wallboard SoftPhone
+    # 🔴 propedit_key_wb_phone_autoanswer -> Enable Auto Answer by default in the Wallboard SoftPhone
     ➡️ propedit_key_wb_phone_autoanswer=
-  # 🔴 propedit_key_wb_phone_displayname -> Descriptive name (String) to be shown to the called party when calling.
+    # 🔴 propedit_key_wb_phone_displayname -> Descriptive name (String) to be shown to the called party when calling.
     ➡️ propedit_key_wb_phone_displayname=
-  # 🔴 propedit_key_wb_phone_iceservers -> List of ICE Servers to use.
+    # 🔴 propedit_key_wb_phone_iceservers -> List of ICE Servers to use.
     ➡️ propedit_key_wb_phone_iceservers=
-  # 🔴 propedit_key_wb_phone_maxsessions -> Max Num. of sessions for the Wallboard SoftPhone
+    # 🔴 propedit_key_wb_phone_maxsessions -> Max Num. of sessions for the Wallboard SoftPhone
     ➡️ propedit_key_wb_phone_maxsessions=
-  # 🔴 propedit_key_wb_phone_password -> SIP Authentication password (String).
+    # 🔴 propedit_key_wb_phone_password -> SIP Authentication password (String).
     ➡️ propedit_key_wb_phone_password=
-  # 🔴 propedit_key_wb_phone_register -> Indicates if the sofphone should register to the PBX.
+    # 🔴 propedit_key_wb_phone_register -> Indicates if the sofphone should register to the PBX.
     ➡️ propedit_key_wb_phone_register=
-  # 🔴 propedit_key_wb_phone_server -> The PBX Server the phone is connected to.
+    # 🔴 propedit_key_wb_phone_server -> The PBX Server the phone is connected to.
     ➡️ propedit_key_wb_phone_server=
-  # 🔴 propedit_key_wb_phone_username -> SIP Authentication username (String).
+    # 🔴 propedit_key_wb_phone_username -> SIP Authentication username (String).
     ➡️ propedit_key_wb_phone_username=
-  # 🔴 propedit_key_wb_phone_websocketurl -> Web Socket URL for the connection.
+    # 🔴 propedit_key_wb_phone_websocketurl -> Web Socket URL for the connection.
     ➡️ propedit_key_wb_phone_websocketurl=
-  # 🔴 propedit_key_wb_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
+    # 🔴 propedit_key_wb_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
     ➡️ propedit_key_wb_recovery_max=
-  # 🔴 propedit_key_wb_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
+    # 🔴 propedit_key_wb_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
     ➡️ propedit_key_wb_recovery_min=
-  # 🔴 propedit_key_wombat_password_desc -> WombatDialer password
+    # 🔴 propedit_key_wombat_password_desc -> WombatDialer password
     ➡️ propedit_key_wombat_password_desc=
-  # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
+    # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
     ➡️ propedit_key_wombat_prevdial_desc=
-  # 🔴 propedit_key_wombat_url_desc -> WombatDialer's main URL
+    # 🔴 propedit_key_wombat_url_desc -> WombatDialer's main URL
     ➡️ propedit_key_wombat_url_desc=
-  # 🔴 propedit_key_wombat_username_desc -> WombatDialer username
+    # 🔴 propedit_key_wombat_username_desc -> WombatDialer username
     ➡️ propedit_key_wombat_username_desc=
-  # 🔴 propedit_option_barge -> Barge
+    # 🔴 propedit_option_barge -> Barge
     ➡️ propedit_option_barge=
-  # 🔴 propedit_option_classic -> Classic
+    # 🔴 propedit_option_classic -> Classic
     ➡️ propedit_option_classic=
-  # 🔴 propedit_option_classiclive -> Classic-Live
+    # 🔴 propedit_option_classiclive -> Classic-Live
     ➡️ propedit_option_classiclive=
-  # 🔴 propedit_option_directami -> DirectAMI
+    # 🔴 propedit_option_directami -> DirectAMI
     ➡️ propedit_option_directami=
-  # 🔴 propedit_option_directami_live -> DirectAMI-Live
+    # 🔴 propedit_option_directami_live -> DirectAMI-Live
     ➡️ propedit_option_directami_live=
     propedit_option_disabled=Απενεργοποιημένο
     propedit_option_enabled=Ενεργοποιημένο
-  # 🔴 propedit_option_enswitch -> Enswitch
+    # 🔴 propedit_option_enswitch -> Enswitch
     ➡️ propedit_option_enswitch=
     propedit_option_false=Λάθος
-  # 🔴 propedit_option_freeswitch -> FreeSwitch
+    # 🔴 propedit_option_freeswitch -> FreeSwitch
     ➡️ propedit_option_freeswitch=
-  # 🔴 propedit_option_freeswitch_live -> FreeSwitch-Live
+    # 🔴 propedit_option_freeswitch_live -> FreeSwitch-Live
     ➡️ propedit_option_freeswitch_live=
-  # 🔴 propedit_option_hash -> hash
+    # 🔴 propedit_option_hash -> hash
     ➡️ propedit_option_hash=
-  # 🔴 propedit_option_hide -> hide
+    # 🔴 propedit_option_hide -> hide
     ➡️ propedit_option_hide=
-  # 🔴 propedit_option_hide3 -> hide3
+    # 🔴 propedit_option_hide3 -> hide3
     ➡️ propedit_option_hide3=
-  # 🔴 propedit_option_hide5 -> hide5
+    # 🔴 propedit_option_hide5 -> hide5
     ➡️ propedit_option_hide5=
-  # 🔴 propedit_option_jsonapi -> JSON API
+    # 🔴 propedit_option_jsonapi -> JSON API
     ➡️ propedit_option_jsonapi=
-  # 🔴 propedit_option_mirtapbx -> MirtaPBX
+    # 🔴 propedit_option_mirtapbx -> MirtaPBX
     ➡️ propedit_option_mirtapbx=
     propedit_option_no=Όχι
-  # 🔴 propedit_option_none -> none
+    # 🔴 propedit_option_none -> none
     ➡️ propedit_option_none=
     propedit_option_notvisible=Μη ορατό
     propedit_option_realtime_dynamicLoginQueues_all_desc=Όλες οι ορατές Ουρές αναμονής με προσεκτική επιλογή
@@ -3147,39 +3147,39 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_assigned_label=Μόνο ορισμένες
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Μόνο ορισμένες Ουρές αναμονής με προσεκτική επιλογή 
     propedit_option_realtime_dynamicLoginQueues_registered_label=Καταχωρημένο
-  # 🔴 propedit_option_spy -> Spy
+    # 🔴 propedit_option_spy -> Spy
     ➡️ propedit_option_spy=
-  # 🔴 propedit_option_stars -> stars
+    # 🔴 propedit_option_stars -> stars
     ➡️ propedit_option_stars=
-  # 🔴 propedit_option_sync_mode_c -> Create Only
+    # 🔴 propedit_option_sync_mode_c -> Create Only
     ➡️ propedit_option_sync_mode_c=
-  # 🔴 propedit_option_sync_mode_c_d -> Create, Delete
+    # 🔴 propedit_option_sync_mode_c_d -> Create, Delete
     ➡️ propedit_option_sync_mode_c_d=
-  # 🔴 propedit_option_sync_mode_c_d_usr -> Create, Delete, Create Users
+    # 🔴 propedit_option_sync_mode_c_d_usr -> Create, Delete, Create Users
     ➡️ propedit_option_sync_mode_c_d_usr=
-  # 🔴 propedit_option_sync_mode_c_u -> Create, Update
+    # 🔴 propedit_option_sync_mode_c_u -> Create, Update
     ➡️ propedit_option_sync_mode_c_u=
-  # 🔴 propedit_option_sync_mode_c_u_d -> Create, Update, Delete
+    # 🔴 propedit_option_sync_mode_c_u_d -> Create, Update, Delete
     ➡️ propedit_option_sync_mode_c_u_d=
-  # 🔴 propedit_option_sync_mode_c_u_d_usr -> Create, Update, Delete, Create Users
+    # 🔴 propedit_option_sync_mode_c_u_d_usr -> Create, Update, Delete, Create Users
     ➡️ propedit_option_sync_mode_c_u_d_usr=
-  # 🔴 propedit_option_sync_mode_c_u_usr -> Create, Update, Create Users
+    # 🔴 propedit_option_sync_mode_c_u_usr -> Create, Update, Create Users
     ➡️ propedit_option_sync_mode_c_u_usr=
-  # 🔴 propedit_option_sync_mode_c_usr -> Create, Create User
+    # 🔴 propedit_option_sync_mode_c_usr -> Create, Create User
     ➡️ propedit_option_sync_mode_c_usr=
-  # 🔴 propedit_option_sync_mode_d -> Delete
+    # 🔴 propedit_option_sync_mode_d -> Delete
     ➡️ propedit_option_sync_mode_d=
-  # 🔴 propedit_option_sync_mode_d_c -> Delete, Create
+    # 🔴 propedit_option_sync_mode_d_c -> Delete, Create
     ➡️ propedit_option_sync_mode_d_c=
-  # 🔴 propedit_option_sync_mode_d_u -> Delete, Update
+    # 🔴 propedit_option_sync_mode_d_u -> Delete, Update
     ➡️ propedit_option_sync_mode_d_u=
-  # 🔴 propedit_option_sync_mode_d_u_usr -> Delete, Update, Create Users
+    # 🔴 propedit_option_sync_mode_d_u_usr -> Delete, Update, Create Users
     ➡️ propedit_option_sync_mode_d_u_usr=
-  # 🔴 propedit_option_sync_mode_u -> Update
+    # 🔴 propedit_option_sync_mode_u -> Update
     ➡️ propedit_option_sync_mode_u=
-  # 🔴 propedit_option_sync_mode_u_c -> Update, Create
+    # 🔴 propedit_option_sync_mode_u_c -> Update, Create
     ➡️ propedit_option_sync_mode_u_c=
-  # 🔴 propedit_option_sync_reader_ami -> Single Machine AMI
+    # 🔴 propedit_option_sync_reader_ami -> Single Machine AMI
     ➡️ propedit_option_sync_reader_ami=
     propedit_option_sync_reader_ami_cluster=AMI Cluster
     propedit_option_sync_reader_file=Αρχείο
@@ -3202,7 +3202,7 @@ Description of security keys
     keydesc_agaw_rep=Ο χρήστης έχει πρόσβαση στην οθόνη επιτηρητή AGAW
     keydesc_agent=Ο χρήστης είναι agent και βλέπει τη σελίδα του agent
     keydesc_agrep=Ο χρήστης μπορεί να φιλτράρει τις αναφορές ανά agent
-  # 🔴 keydesc_autoanswer_phone -> User can toggle Auto Answer on the softphone
+    # 🔴 keydesc_autoanswer_phone -> User can toggle Auto Answer on the softphone
     ➡️ keydesc_autoanswer_phone=
     keydesc_batch_add=Μπορεί να προσθέσει κλήσεις σε μια ανοικτή παρτίδα
     keydesc_batch_adm=Δημιουργεί και κλείνει παρτίδες για την εξαγωγή ήχου
@@ -3226,7 +3226,7 @@ Description of security keys
     keydesc_closecalls=Ο χρήστης μπορεί να κλείσει τρέχουσες κλήσεις από τη σελίδα παρακολούθησης σε πραγματικό χρόνο ή τη σελίδα στατιστικών ιστορικού.
     keydesc_config=Ο χρήστης μπορεί να ξεκινήσει τον οδηγό αυτόματης παραμετροποίησης (attended and unattended mode)
     keydesc_edit_cfg=Ο χρήστης μπορεί να επεξεργαστεί το τοπικό αρχείο configuration.properties
-  # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
+    # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     ➡️ keydesc_hidenumbers=
     keydesc_keyupdate=Ο χρήστης μπορεί να εγκαταστήσει ένα νέο κλειδί ενεργοποίησης QueueMetrics
     keydesc_mon_audio=Ο χρήστης μπορεί να παρακολουθήσει μια κλήση σε πραγματικό χρόνο
@@ -3268,16 +3268,16 @@ Description of security keys
     keydesc_user=Το κλειδί αυτό πρέπει να κατέχεται από οποιαδήποτε έγκυρο χρήστη
     keydesc_usr_agent=Ο χρήστης μπορεί να επεξεργαστεί agents
     keydesc_usr_agroups=Ο χρήστης μπορεί να επεξεργαστεί τις παραμετροποιημένες ομάδες των agent
-  # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
+    # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
     ➡️ keydesc_usr_amo_edit=
     keydesc_usr_calltag=Ο χρήστης μπορεί να επεξεργαστεί τα tag των κλήσεων
-  # 🔴 keydesc_usr_cases_edit -> User can edit Cases
+    # 🔴 keydesc_usr_cases_edit -> User can edit Cases
     ➡️ keydesc_usr_cases_edit=
     keydesc_usr_cbts=Ο χρήστης μπορεί να επεξεργαστεί τη λίστα των γνωστών CBT
-  # 🔴 keydesc_usr_clients_edit -> User can edit Clients
+    # 🔴 keydesc_usr_clients_edit -> User can edit Clients
     ➡️ keydesc_usr_clients_edit=
     keydesc_usr_cronjobs_edit=Ο χρήστης μπορεί να επεξεργαστεί Προγραμματισμένες εργασίες
-  # 🔴 keydesc_usr_customblocks_edit -> User can edit Custom Data Blocks
+    # 🔴 keydesc_usr_customblocks_edit -> User can edit Custom Data Blocks
     ➡️ keydesc_usr_customblocks_edit=
     keydesc_usr_diagnostics=Ο χρήστης μπορεί να εκτελέσει διαγνωστικά
     keydesc_usr_dnis=Ο χρήσης μπορεί να επεξεργαστεί τη λίστα των γνωστών DID/DNIS
@@ -3316,7 +3316,7 @@ Description of security keys
     tsk_detail_history=Ιστορικό εργασιών
     tsk_detail_info=Πληροφορίες εργασιών
     tsk_detail_lastUpdated=Τελευταία ενημέρωση
-  # 🔴 tsk_detail_message -> Message
+    # 🔴 tsk_detail_message -> Message
     ➡️ tsk_detail_message=
     tsk_detail_notes=Σημειώσεις
     tsk_detail_pfield=Διεργασία
@@ -3331,14 +3331,14 @@ Description of security keys
     tsk_disputed_qamsg=Φόρμα QA υπό αμφισβήτηση
     tsk_icon_detail=Εμφάνιση λεπτομερειών
     tsk_list_pfield=Διεργασία
-  # 🔴 tsk_list_tbl_agroup -> Group
+    # 🔴 tsk_list_tbl_agroup -> Group
     ➡️ tsk_list_tbl_agroup=
     tsk_list_tbl_desc=Περιγραφή
     tsk_list_tbl_expdate=Ισχύει έως
     tsk_list_tbl_from=Από
     tsk_list_tbl_id=Ταυτότητα  εργασίας
     tsk_list_tbl_status=Κατάσταση
-  # 🔴 tsk_list_tbl_ticon -> Task
+    # 🔴 tsk_list_tbl_ticon -> Task
     ➡️ tsk_list_tbl_ticon=
     tsk_lists_dueend_date=Ημερομηνία τέλους χρον. περιόδου
     tsk_lists_duestart_date=Ημερομηνία αρχής χρον. περιόδου
@@ -3420,51 +3420,51 @@ Other items
     agt_history_cbt=Αποστολή CBT
     agt_history_groupchange=Μέλος της Ομάδας
     agt_history_mtn=Αποστολή οδηγιών:
-  # 🔴 amo_close_info -> Close AMO Information
+    # 🔴 amo_close_info -> Close AMO Information
     ➡️ amo_close_info=
-  # 🔴 amo_dialer_state_completed -> Completed
+    # 🔴 amo_dialer_state_completed -> Completed
     ➡️ amo_dialer_state_completed=
-  # 🔴 amo_dialer_state_open -> Open
+    # 🔴 amo_dialer_state_open -> Open
     ➡️ amo_dialer_state_open=
-  # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
+    # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
     ➡️ amo_import_error_nonumber=
-  # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
+    # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
     ➡️ amo_import_error_norecords=
-  # 🔴 amo_last_info -> AMO Call Information
+    # 🔴 amo_last_info -> AMO Call Information
     ➡️ amo_last_info=
-  # 🔴 amo_list_state_open -> Open
+    # 🔴 amo_list_state_open -> Open
     ➡️ amo_list_state_open=
-  # 🔴 amo_list_state_paused -> Paused
+    # 🔴 amo_list_state_paused -> Paused
     ➡️ amo_list_state_paused=
-  # 🔴 amo_number_state_blklist -> Blacklisted
+    # 🔴 amo_number_state_blklist -> Blacklisted
     ➡️ amo_number_state_blklist=
-  # 🔴 amo_number_state_dialed -> Dialed
+    # 🔴 amo_number_state_dialed -> Dialed
     ➡️ amo_number_state_dialed=
-  # 🔴 amo_number_state_ko -> KO
+    # 🔴 amo_number_state_ko -> KO
     ➡️ amo_number_state_ko=
-  # 🔴 amo_number_state_ok -> OK
+    # 🔴 amo_number_state_ok -> OK
     ➡️ amo_number_state_ok=
-  # 🔴 amo_number_state_placed -> Placed
+    # 🔴 amo_number_state_placed -> Placed
     ➡️ amo_number_state_placed=
-  # 🔴 amo_number_state_reserved -> Reserved
+    # 🔴 amo_number_state_reserved -> Reserved
     ➡️ amo_number_state_reserved=
-  # 🔴 amo_number_state_todo -> To do
+    # 🔴 amo_number_state_todo -> To do
     ➡️ amo_number_state_todo=
-  # 🔴 amo_numbers_asteriskid -> Asterisk ID
+    # 🔴 amo_numbers_asteriskid -> Asterisk ID
     ➡️ amo_numbers_asteriskid=
-  # 🔴 amo_numbers_callstatus -> Status Code
+    # 🔴 amo_numbers_callstatus -> Status Code
     ➡️ amo_numbers_callstatus=
-  # 🔴 amo_numbers_date -> Date
+    # 🔴 amo_numbers_date -> Date
     ➡️ amo_numbers_date=
-  # 🔴 amo_numbers_reason -> Reason
+    # 🔴 amo_numbers_reason -> Reason
     ➡️ amo_numbers_reason=
-  # 🔴 amo_numbers_user -> User
+    # 🔴 amo_numbers_user -> User
     ➡️ amo_numbers_user=
-  # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
+    # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
     ➡️ amo_upload_numbers_error=
-  # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
+    # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
     ➡️ amo_upload_numbers_success=
-  # 🔴 at_invalid_agent -> Invalid Agent
+    # 🔴 at_invalid_agent -> Invalid Agent
     ➡️ at_invalid_agent=
     avg_time_decor_days=d
     bdcmsg_ForAgent=Χρήστης
@@ -3475,13 +3475,13 @@ Other items
     bdcmsg_Text=Μήνυμα
     bdcmsg_Time=Ώρα 
     callselectordecor_select=Επιλογή αυτής της κλήσης
-  # 🔴 ccase_case_name -> Case
+    # 🔴 ccase_case_name -> Case
     ➡️ ccase_case_name=
-  # 🔴 ccase_case_xref -> Ref. #
+    # 🔴 ccase_case_xref -> Ref. #
     ➡️ ccase_case_xref=
-  # 🔴 ccase_client_name -> Client
+    # 🔴 ccase_client_name -> Client
     ➡️ ccase_client_name=
-  # 🔴 ccase_client_xref -> Ref. #
+    # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=Κανόνες διάθεσης κλώνων
     cfgprops_file_saved=Το αρχείο με τις ιδιότητες παραμετροποίησης σώθηκε σε
@@ -3493,15 +3493,15 @@ Other items
     cfgprops_title_wizard=Εξερεύνηση παραμέτρων του συστήματος QueueMetrics
     cfgprops_wrong_line=Το αρχείο δεν αποθηκεύεται - Λάθος μορφοποίηση γραμμής
     comboex_findlabel=Εύρεση
-  # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
+    # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     ➡️ common_jdecode_error=
-  # 🔴 common_jencode_error -> Error while encoding JSON value. Check the browser's console for more information.
+    # 🔴 common_jencode_error -> Error while encoding JSON value. Check the browser's console for more information.
     ➡️ common_jencode_error=
     cronjobs_export_jobs=Εξαγωγή εργαασιών
     cronjobs_maintenance_jobs=Εργασίες Συντήρησης
-  # 🔴 customblk_id -> ID
+    # 🔴 customblk_id -> ID
     ➡️ customblk_id=
-  # 🔴 customblk_title -> Title
+    # 🔴 customblk_title -> Title
     ➡️ customblk_title=
     decoder_goal=Στόχος
     decoder_queue=Ουρά αναμονής
@@ -3510,19 +3510,19 @@ Other items
     decorator_agentpaused=Σε παύση
     decorator_queue_sla=SLA
     default.show_agent_priority_reports=Εμφάνιση του επιπέδου προτεραιότητας του χρήστη στις αναφορές.
-  # 🔴 dlr_last_pull -> Last Pull
+    # 🔴 dlr_last_pull -> Last Pull
     ➡️ dlr_last_pull=
-  # 🔴 dlr_last_pull_user -> Pull User
+    # 🔴 dlr_last_pull_user -> Pull User
     ➡️ dlr_last_pull_user=
-  # 🔴 dlr_list_state -> List State
+    # 🔴 dlr_list_state -> List State
     ➡️ dlr_list_state=
-  # 🔴 dlr_numbers_added -> Numbers Added
+    # 🔴 dlr_numbers_added -> Numbers Added
     ➡️ dlr_numbers_added=
-  # 🔴 dlr_numbers_completed -> Numbers Completed
+    # 🔴 dlr_numbers_completed -> Numbers Completed
     ➡️ dlr_numbers_completed=
-  # 🔴 dlr_numbers_pulled -> Numbers Pulled
+    # 🔴 dlr_numbers_pulled -> Numbers Pulled
     ➡️ dlr_numbers_pulled=
-  # 🔴 dlr_state -> Number State
+    # 🔴 dlr_state -> Number State
     ➡️ dlr_state=
     editor_all_reports=Όλες οι αναφορές
     editor_back=Πίσω
@@ -3558,44 +3558,44 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=Εξαγωγή σε διαμόρφωση XML
-  # 🔴 grp_ivr -> Ivr Events
+    # 🔴 grp_ivr -> Ivr Events
     ➡️ grp_ivr=
-  # 🔴 grp_ivr_calls -> IVR calls
+    # 🔴 grp_ivr_calls -> IVR calls
     ➡️ grp_ivr_calls=
-  # 🔴 grp_ivr_short -> Ivr
+    # 🔴 grp_ivr_short -> Ivr
     ➡️ grp_ivr_short=
-  # 🔴 grp_lost_calls -> Lost Calls
+    # 🔴 grp_lost_calls -> Lost Calls
     ➡️ grp_lost_calls=
-  # 🔴 grp_lost_short -> Lost
+    # 🔴 grp_lost_short -> Lost
     ➡️ grp_lost_short=
-  # 🔴 grp_taken_calls -> Taken Calls
+    # 🔴 grp_taken_calls -> Taken Calls
     ➡️ grp_taken_calls=
-  # 🔴 grp_taken_short -> Taken
+    # 🔴 grp_taken_short -> Taken
     ➡️ grp_taken_short=
-  # 🔴 gui_fileuploader_msg -> Drop file or Browse
+    # 🔴 gui_fileuploader_msg -> Drop file or Browse
     ➡️ gui_fileuploader_msg=
-  # 🔴 gui_fileuploader_types -> Supported file formats
+    # 🔴 gui_fileuploader_types -> Supported file formats
     ➡️ gui_fileuploader_types=
-  # 🔴 gui_fileuploader_upload -> Upload files
+    # 🔴 gui_fileuploader_upload -> Upload files
     ➡️ gui_fileuploader_upload=
-  # 🔴 gui_fileuploader_uploaded -> Uploaded files
+    # 🔴 gui_fileuploader_uploaded -> Uploaded files
     ➡️ gui_fileuploader_uploaded=
-  # 🔴 gui_form_back -> Back
+    # 🔴 gui_form_back -> Back
     ➡️ gui_form_back=
-  # 🔴 gui_form_cancel -> Cancel
+    # 🔴 gui_form_cancel -> Cancel
     ➡️ gui_form_cancel=
-  # 🔴 gui_form_next -> Next
+    # 🔴 gui_form_next -> Next
     ➡️ gui_form_next=
-  # 🔴 gui_form_ok -> OK
+    # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
     home_add_infobox=Πρόσθεση InfoBox
     home_configuration_agents=Πράκτορες
-  # 🔴 home_configuration_cases -> Cases
+    # 🔴 home_configuration_cases -> Cases
     ➡️ home_configuration_cases=
     home_configuration_cbt=CBTs
-  # 🔴 home_configuration_clients -> Clients
+    # 🔴 home_configuration_clients -> Clients
     ➡️ home_configuration_clients=
-  # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
+    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
     ➡️ home_configuration_custom_blocks=
     home_configuration_dnis=DID/DNIS
     home_configuration_export_jobs=Επεξεργασία Εξαγωγής Αναφορών
@@ -3622,19 +3622,19 @@ Other items
     home_dbtest_ram_cache=Προσωρινή αποθήκευση RAM
     home_dbtest_smtp=Ελεγκτής SMTP
     home_diagnostics_title=Διαγνωστικά
-  # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
+    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
     ➡️ home_error_fetch_admin_infoboxes=
-  # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
+    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
     ➡️ home_error_fetch_available_infoboxes=
-  # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
+    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
     ➡️ home_error_fetch_infoboxes=
-  # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
+    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
     ➡️ home_error_save_prefs=
     home_icon_subtitle=Σελίδα εικονιδίων πρακτόρων
     home_icon_title=Εικονίδιο
     home_infobox_close=Κλείσιμο
     home_infobox_preview=Προεπισκόπηση
-  # 🔴 home_infobox_private -> Private
+    # 🔴 home_infobox_private -> Private
     ➡️ home_infobox_private=
     home_infobox_quicklinks=Quicklinks
     home_news_subtitle=Τελευταία νέα QueueMetrics
@@ -3643,9 +3643,9 @@ Other items
     home_payroll_title=Αναφορά Μισθοδοσίας
     home_qa_subtitle=Εκκίνηση Αναφοράς QA
     home_qa_title=Αναφορές QA
-  # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
+    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
     ➡️ home_qap_subtitle=
-  # 🔴 home_qap_title -> Agent Page
+    # 🔴 home_qap_title -> Agent Page
     ➡️ home_qap_title=
     home_realtime_subtitle=Πλήρης προβολή ζωντανών κλήσεων
     home_realtime_title=Πραγματικός χρόνος
@@ -3654,7 +3654,7 @@ Other items
     home_search=Αναζήτηση
     home_search_placeholder=Αναζήτηση στην αρχική σελίδα
     home_select_infobox=Επιλέξτε το InfoBox που θέλετε να δείτε στην Αρχική σελίδα
-  # 🔴 home_ssar_subtitle -> Self Service Agent Reports
+    # 🔴 home_ssar_subtitle -> Self Service Agent Reports
     ➡️ home_ssar_subtitle=
     home_ssar_title=SSAR
     home_synchronizer_subtitle=Αυτόματη ρύθμιση QueueMetrics
@@ -3685,43 +3685,43 @@ Other items
     keyinstall_popup_descr=Αντιγράψτε και επικολλήστε τον νέο κωδικό ενεργοποίησης εδώ.
     keyinstall_popup_title=Εγκαταστήστε καινούργιο κλειδί QueueMetrics
     keyinstall_popup_title_agaw=Άδεια AGAW
-  # 🔴 ko_lst_n -> N Lost
+    # 🔴 ko_lst_n -> N Lost
     ➡️ ko_lst_n=
-  # 🔴 ko_lst_q -> Lost on Q
+    # 🔴 ko_lst_q -> Lost on Q
     ➡️ ko_lst_q=
-  # 🔴 ko_lst_t -> Last Lost
+    # 🔴 ko_lst_t -> Last Lost
     ➡️ ko_lst_t=
-  # 🔴 ko_recall_state -> Recall state
+    # 🔴 ko_recall_state -> Recall state
     ➡️ ko_recall_state=
-  # 🔴 ko_sho_n -> N Short
+    # 🔴 ko_sho_n -> N Short
     ➡️ ko_sho_n=
-  # 🔴 ko_sho_q -> Short.Q.
+    # 🔴 ko_sho_q -> Short.Q.
     ➡️ ko_sho_q=
-  # 🔴 ko_sho_t -> Short.Lst.
+    # 🔴 ko_sho_t -> Short.Lst.
     ➡️ ko_sho_t=
-  # 🔴 ko_succ_a -> Agent
+    # 🔴 ko_succ_a -> Agent
     ➡️ ko_succ_a=
-  # 🔴 ko_succ_n -> Successful
+    # 🔴 ko_succ_n -> Successful
     ➡️ ko_succ_n=
-  # 🔴 ko_succ_q -> Succ.Q.
+    # 🔴 ko_succ_q -> Succ.Q.
     ➡️ ko_succ_q=
-  # 🔴 ko_succ_t -> Succ.Last
+    # 🔴 ko_succ_t -> Succ.Last
     ➡️ ko_succ_t=
-  # 🔴 lgui_friday -> Friday
+    # 🔴 lgui_friday -> Friday
     ➡️ lgui_friday=
-  # 🔴 lgui_monday -> Monday
+    # 🔴 lgui_monday -> Monday
     ➡️ lgui_monday=
-  # 🔴 lgui_saturday -> Saturday
+    # 🔴 lgui_saturday -> Saturday
     ➡️ lgui_saturday=
-  # 🔴 lgui_selectall -> Select All
+    # 🔴 lgui_selectall -> Select All
     ➡️ lgui_selectall=
-  # 🔴 lgui_sunday -> Sunday
+    # 🔴 lgui_sunday -> Sunday
     ➡️ lgui_sunday=
-  # 🔴 lgui_thursday -> Thursday
+    # 🔴 lgui_thursday -> Thursday
     ➡️ lgui_thursday=
-  # 🔴 lgui_tuesday -> Tuesday
+    # 🔴 lgui_tuesday -> Tuesday
     ➡️ lgui_tuesday=
-  # 🔴 lgui_wednesday -> Wednesday
+    # 🔴 lgui_wednesday -> Wednesday
     ➡️ lgui_wednesday=
     licence_contributors=Συνεργάτες
     licence_firefox_client=Έκδοση Firefox
@@ -3733,19 +3733,19 @@ Other items
     licence_show_eula=Εμφάνιση Άδειας Χρήσης Τελικού Χρήστη (EULA)
     licence_software_release=Έκδοση λογισμικού:
     licence_website=Το επίσημο website του QueueMetrics βρίσκεται
-  # 🔴 list_amo_title -> AMO Campaigns
+    # 🔴 list_amo_title -> AMO Campaigns
     ➡️ list_amo_title=
     logon_ErrAlreadyPresent=Αυτό το όνομα χρήστη υπάρχει ήδη στη βάση δεδομένων
     logon_ErrClassNotFound=Η κατηγορία δε βρέθηκε
     logon_ErrHidden=Η σύνδεση απέτυχε.
-  # 🔴 logon_ErrIllegalSsoSecret -> Could not validate the SSO reply - please try again.
+    # 🔴 logon_ErrIllegalSsoSecret -> Could not validate the SSO reply - please try again.
     ➡️ logon_ErrIllegalSsoSecret=
     logon_ErrMoreThanOne=Υπάρχουν περισσότεροι από ένα χρήστες με το ίδιο όνομα χρήστη
     logon_ErrNotFound=Δε βρέθηκε ο χρήστης
     logon_ErrUserDisabled=Ο χρήστης δε μπορεί να συνδεθεί
     logon_ErrUserNotFound=Δε βρέθηκε ο χρήστης
     logon_ErrWrongPassword=Λανθασμένος κωδικός
-  # 🔴 logon_ErrWrongSsoToken -> The user has an incorrect SSO token in their profile.
+    # 🔴 logon_ErrWrongSsoToken -> The user has an incorrect SSO token in their profile.
     ➡️ logon_ErrWrongSsoToken=
     logon_ErrWrongToken=Λανθασμένη ένδειξη
     logon_ErrXmlConnect=Πρόβλημα σύνδεσης με την υπηρεσία αυθεντικοποίησης μέσω XML-RPC
@@ -3753,108 +3753,108 @@ Other items
     logon_btn=Σύνδεση
     logon_language=Γλώσσα
     logon_login=Όνομα χρήστη
-  # 🔴 logon_microsoft -> Sign in with Microsoft
+    # 🔴 logon_microsoft -> Sign in with Microsoft
     ➡️ logon_microsoft=
     logon_pass=Κωδικός πρόσβασης
-  # 🔴 logon_ssoLogInWith -> Or
+    # 🔴 logon_ssoLogInWith -> Or
     ➡️ logon_ssoLogInWith=
     logon_title=Σύνδεση χρήστη
     lstcall_calllen=Διάρκεια
     lstcall_ivr=IVR
     lstcall_waitlen=Αναμονή
-  # 🔴 memo_add_new -> Create Memo
+    # 🔴 memo_add_new -> Create Memo
     ➡️ memo_add_new=
-  # 🔴 memo_category -> Filter by category
+    # 🔴 memo_category -> Filter by category
     ➡️ memo_category=
-  # 🔴 memo_details_caller -> Caller
+    # 🔴 memo_details_caller -> Caller
     ➡️ memo_details_caller=
-  # 🔴 memo_details_create -> Create Memo
+    # 🔴 memo_details_create -> Create Memo
     ➡️ memo_details_create=
-  # 🔴 memo_details_expireson -> Expires on
+    # 🔴 memo_details_expireson -> Expires on
     ➡️ memo_details_expireson=
-  # 🔴 memo_details_form -> Form
+    # 🔴 memo_details_form -> Form
     ➡️ memo_details_form=
-  # 🔴 memo_details_from -> FROM
+    # 🔴 memo_details_from -> FROM
     ➡️ memo_details_from=
-  # 🔴 memo_details_goback -> Back
+    # 🔴 memo_details_goback -> Back
     ➡️ memo_details_goback=
-  # 🔴 memo_details_info -> Memo Info
+    # 🔴 memo_details_info -> Memo Info
     ➡️ memo_details_info=
-  # 🔴 memo_details_queue -> Queue
+    # 🔴 memo_details_queue -> Queue
     ➡️ memo_details_queue=
-  # 🔴 memo_details_save -> Save
+    # 🔴 memo_details_save -> Save
     ➡️ memo_details_save=
-  # 🔴 memo_details_title -> Title
+    # 🔴 memo_details_title -> Title
     ➡️ memo_details_title=
-  # 🔴 memo_details_to -> TO
+    # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-  # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> type
     ➡️ memo_details_type=
-  # 🔴 memo_details_user_from -> From
+    # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
-  # 🔴 memo_details_user_to -> To
+    # 🔴 memo_details_user_to -> To
     ➡️ memo_details_user_to=
-  # 🔴 memo_details_validfrom -> Valid from
+    # 🔴 memo_details_validfrom -> Valid from
     ➡️ memo_details_validfrom=
-  # 🔴 memo_due -> Due Date
+    # 🔴 memo_due -> Due Date
     ➡️ memo_due=
-  # 🔴 memo_filter_all -> All Memos
+    # 🔴 memo_filter_all -> All Memos
     ➡️ memo_filter_all=
-  # 🔴 memo_filter_alldone -> All Memos done
+    # 🔴 memo_filter_alldone -> All Memos done
     ➡️ memo_filter_alldone=
-  # 🔴 memo_filter_alltbd -> All Memos to be done
+    # 🔴 memo_filter_alltbd -> All Memos to be done
     ➡️ memo_filter_alltbd=
-  # 🔴 memo_filter_completed -> Memos I completed
+    # 🔴 memo_filter_completed -> Memos I completed
     ➡️ memo_filter_completed=
-  # 🔴 memo_filter_error -> Error filtering Memos
+    # 🔴 memo_filter_error -> Error filtering Memos
     ➡️ memo_filter_error=
-  # 🔴 memo_filter_mygroup -> My group
+    # 🔴 memo_filter_mygroup -> My group
     ➡️ memo_filter_mygroup=
-  # 🔴 memo_filter_sent -> Memos I sent
+    # 🔴 memo_filter_sent -> Memos I sent
     ➡️ memo_filter_sent=
-  # 🔴 memo_filter_status -> Status
+    # 🔴 memo_filter_status -> Status
     ➡️ memo_filter_status=
-  # 🔴 memo_filter_tbd -> Memos to be done
+    # 🔴 memo_filter_tbd -> Memos to be done
     ➡️ memo_filter_tbd=
-  # 🔴 memo_from -> From
+    # 🔴 memo_from -> From
     ➡️ memo_from=
-  # 🔴 memo_group -> Group
+    # 🔴 memo_group -> Group
     ➡️ memo_group=
-  # 🔴 memo_id -> Id
+    # 🔴 memo_id -> Id
     ➡️ memo_id=
-  # 🔴 memo_items_found -> items found
+    # 🔴 memo_items_found -> items found
     ➡️ memo_items_found=
-  # 🔴 memo_list -> Memo List
+    # 🔴 memo_list -> Memo List
     ➡️ memo_list=
-  # 🔴 memo_list_norecords -> No Records
+    # 🔴 memo_list_norecords -> No Records
     ➡️ memo_list_norecords=
-  # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
+    # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
     ➡️ memo_loadbyid_error=
-  # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
+    # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
     ➡️ memo_loadbyid_missing=
-  # 🔴 memo_manager -> Manager
+    # 🔴 memo_manager -> Manager
     ➡️ memo_manager=
-  # 🔴 memo_message -> Message
+    # 🔴 memo_message -> Message
     ➡️ memo_message=
-  # 🔴 memo_related_to -> Related to
+    # 🔴 memo_related_to -> Related to
     ➡️ memo_related_to=
-  # 🔴 memo_status -> Status
+    # 🔴 memo_status -> Status
     ➡️ memo_status=
-  # 🔴 memo_tree_empty -> Empty
+    # 🔴 memo_tree_empty -> Empty
     ➡️ memo_tree_empty=
-  # 🔴 memo_type -> Type
+    # 🔴 memo_type -> Type
     ➡️ memo_type=
     menu_licence_page=Σελίδα άδειας
     menu_user_page=Πληροφορίες χρήστη
-  # 🔴 notification_error -> Error
+    # 🔴 notification_error -> Error
     ➡️ notification_error=
-  # 🔴 notification_info -> Info
+    # 🔴 notification_info -> Info
     ➡️ notification_info=
-  # 🔴 notification_success -> Success
+    # 🔴 notification_success -> Success
     ➡️ notification_success=
-  # 🔴 notification_warning -> Warning
+    # 🔴 notification_warning -> Warning
     ➡️ notification_warning=
-  # 🔴 numberformat_defaultdigits -> 1
+    # 🔴 numberformat_defaultdigits -> 1
     ➡️ numberformat_defaultdigits=
     open_addremoveinfobox_menu=Ανοίξτε το μενού InfoBox για προσθήκη / αφαίρεση των InfoBoxes
     open_settings_menu=Ανοίγμα του μενού ρυθμίσεων
@@ -3868,81 +3868,81 @@ Other items
     phone_agent=Πράκτορας
     phone_anonymous=Ανώνυμος
     phone_answer=Απάντηση
-  # 🔴 phone_attended -> Attended Transfer
+    # 🔴 phone_attended -> Attended Transfer
     ➡️ phone_attended=
     phone_attended_transfer=Μεταφορά με παρακολούθηση
     phone_auto_answer_toggle_off=Η αυτόματη απάντηση είναι απενεργοποιημένη
     phone_auto_answer_toggle_on=Η αυτόματη απάντηση είναι απενεργοποιημένη
     phone_basic_settings=Βασικές ρυθμίσεις
-  # 🔴 phone_blind -> Blind Transfer
+    # 🔴 phone_blind -> Blind Transfer
     ➡️ phone_blind=
     phone_blind_transfer=Μεταφορά
-  # 🔴 phone_call -> Call
+    # 🔴 phone_call -> Call
     ➡️ phone_call=
-  # 🔴 phone_calling -> Calling...
+    # 🔴 phone_calling -> Calling...
     ➡️ phone_calling=
     phone_cancel=Ακύρωση
     phone_close=Κλείσιμο
     phone_confirm=Επιβεβαίωση
     phone_connectionrecoverymax=Μέγ. διάστημα ανάκτησης σύνδεσης
     phone_connectionrecoverymin=Ελάχ. διάστημα ανάκτησης σύνδεσης
-  # 🔴 phone_debug -> Click to print debug information in the browser console.
+    # 🔴 phone_debug -> Click to print debug information in the browser console.
     ➡️ phone_debug=
     phone_dial=Κλήση
     phone_dialing=Κλήση ...
-  # 🔴 phone_dialling -> Dialling...
+    # 🔴 phone_dialling -> Dialling...
     ➡️ phone_dialling=
     phone_displayname=Εμφανιζόμενο Όνομα
     phone_hangup=Τέλος κλήσης
-  # 🔴 phone_http_error -> WebRTC Error.
+    # 🔴 phone_http_error -> WebRTC Error.
     ➡️ phone_http_error=
-  # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
     ➡️ phone_http_error_body=
     phone_iceservers=Διακομιστές ICE
-  # 🔴 phone_incoming_call -> Incoming call...
+    # 🔴 phone_incoming_call -> Incoming call...
     ➡️ phone_incoming_call=
     phone_input_error=Σφάλμα εισαγωγής
-  # 🔴 phone_join -> Join
+    # 🔴 phone_join -> Join
     ➡️ phone_join=
     phone_maxsessions=Μέγ. αρ. Συνεδριών
     phone_mute=Σιγαση
-  # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
+    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     ➡️ phone_no_https=
-  # 🔴 phone_no_queue -> No Queue
+    # 🔴 phone_no_queue -> No Queue
     ➡️ phone_no_queue=
     phone_noanswertimeout=Χρόνος χωρίς απόκριση
-  # 🔴 phone_not_avaialable -> Softphone Not Available.
+    # 🔴 phone_not_avaialable -> Softphone Not Available.
     ➡️ phone_not_avaialable=
-  # 🔴 phone_not_available -> Softphone not available.
+    # 🔴 phone_not_available -> Softphone not available.
     ➡️ phone_not_available=
     phone_password=Κωδικός
     phone_register=Εγγραφή
     phone_registered=Εγγεγραμμένο
-  # 🔴 phone_registering -> Registering
+    # 🔴 phone_registering -> Registering
     ➡️ phone_registering=
-  # 🔴 phone_returntophone -> Return to Phone
+    # 🔴 phone_returntophone -> Return to Phone
     ➡️ phone_returntophone=
-  # 🔴 phone_server -> Server
+    # 🔴 phone_server -> Server
     ➡️ phone_server=
-  # 🔴 phone_settings -> Settings
+    # 🔴 phone_settings -> Settings
     ➡️ phone_settings=
-  # 🔴 phone_swap -> Swap
+    # 🔴 phone_swap -> Swap
     ➡️ phone_swap=
-  # 🔴 phone_toggle_hold -> Hold/Unhold
+    # 🔴 phone_toggle_hold -> Hold/Unhold
     ➡️ phone_toggle_hold=
-  # 🔴 phone_toggle_transfer -> Transfer
+    # 🔴 phone_toggle_transfer -> Transfer
     ➡️ phone_toggle_transfer=
-  # 🔴 phone_transfer -> Transfer
+    # 🔴 phone_transfer -> Transfer
     ➡️ phone_transfer=
-  # 🔴 phone_unmute -> Unmute
+    # 🔴 phone_unmute -> Unmute
     ➡️ phone_unmute=
-  # 🔴 phone_unregistered -> Unregistered
+    # 🔴 phone_unregistered -> Unregistered
     ➡️ phone_unregistered=
-  # 🔴 phone_update_settings -> Update Settings
+    # 🔴 phone_update_settings -> Update Settings
     ➡️ phone_update_settings=
-  # 🔴 phone_username -> Username
+    # 🔴 phone_username -> Username
     ➡️ phone_username=
-  # 🔴 phone_websocketurl -> Websocket URL
+    # 🔴 phone_websocketurl -> Websocket URL
     ➡️ phone_websocketurl=
     popupclose_alreadydone=Η κλήση έχει ήδη ολοκληρωθεί
     popupclose_close=Ολοκλήρωση κλήσης
@@ -4036,23 +4036,23 @@ Other items
     prl_time_start_time_check=Παρακαλώ ελέγξτε την εισηγμένη ώρα έναρξης
     prl_time_wrong_period=Η καθορισμένη περίοδος δεν είναι έγκυρη. Αναμένεται ώρα λήξης αργότερα από την ώρα έναρξης.
     prl_total_duration=Συνολική διάρκεια
-  # 🔴 pwres_change -> Set new password
+    # 🔴 pwres_change -> Set new password
     ➡️ pwres_change=
-  # 🔴 pwres_changed_successfully -> The password was reset successfully. Please log on now.
+    # 🔴 pwres_changed_successfully -> The password was reset successfully. Please log on now.
     ➡️ pwres_changed_successfully=
-  # 🔴 pwres_expired_link -> The link you used has expired. Please ask for a new one.
+    # 🔴 pwres_expired_link -> The link you used has expired. Please ask for a new one.
     ➡️ pwres_expired_link=
-  # 🔴 pwres_no_resettable_user -> The password reset link is invalid or it has already been used once.
+    # 🔴 pwres_no_resettable_user -> The password reset link is invalid or it has already been used once.
     ➡️ pwres_no_resettable_user=
-  # 🔴 pwres_pass -> New password
+    # 🔴 pwres_pass -> New password
     ➡️ pwres_pass=
-  # 🔴 pwres_passwords_dont_match -> The passwords you have entered do not match. Please try again.
+    # 🔴 pwres_passwords_dont_match -> The passwords you have entered do not match. Please try again.
     ➡️ pwres_passwords_dont_match=
-  # 🔴 pwres_repeat_pass -> Repeat new password
+    # 🔴 pwres_repeat_pass -> Repeat new password
     ➡️ pwres_repeat_pass=
-  # 🔴 pwres_reset_password -> Reset the password of
+    # 🔴 pwres_reset_password -> Reset the password of
     ➡️ pwres_reset_password=
-  # 🔴 pwres_unknown_link -> The provided password reset link is invalid.
+    # 🔴 pwres_unknown_link -> The provided password reset link is invalid.
     ➡️ pwres_unknown_link=
     qagrader_addedbygrtype=Προστέθηκε από
     qagrader_agent=Χρήστης
@@ -4069,504 +4069,504 @@ Other items
     qagrader_time=Χρόνος
     qagrader_wait=Αναμονή
     qagrader_wrongurl=Το URL που ορίσατε δεν ισχύει. Παρακαλώ ελέγξτε και ξαναπροσπαθήστε
-  # 🔴 qap_action_case -> Assign to Case
+    # 🔴 qap_action_case -> Assign to Case
     ➡️ qap_action_case=
-  # 🔴 qap_action_clicktodial -> Click to dial
+    # 🔴 qap_action_clicktodial -> Click to dial
     ➡️ qap_action_clicktodial=
-  # 🔴 qap_action_client -> Assign to Client
+    # 🔴 qap_action_client -> Assign to Client
     ➡️ qap_action_client=
-  # 🔴 qap_action_crm -> Open CRM
+    # 🔴 qap_action_crm -> Open CRM
     ➡️ qap_action_crm=
-  # 🔴 qap_action_flag -> Flag Interaction
+    # 🔴 qap_action_flag -> Flag Interaction
     ➡️ qap_action_flag=
-  # 🔴 qap_action_hangup -> Hangup Call
+    # 🔴 qap_action_hangup -> Hangup Call
     ➡️ qap_action_hangup=
-  # 🔴 qap_action_label -> Label Interaction
+    # 🔴 qap_action_label -> Label Interaction
     ➡️ qap_action_label=
-  # 🔴 qap_action_monitor -> Monitor Call
+    # 🔴 qap_action_monitor -> Monitor Call
     ➡️ qap_action_monitor=
-  # 🔴 qap_action_qa -> QA Forms
+    # 🔴 qap_action_qa -> QA Forms
     ➡️ qap_action_qa=
-  # 🔴 qap_action_recall -> New Recall Note
+    # 🔴 qap_action_recall -> New Recall Note
     ➡️ qap_action_recall=
-  # 🔴 qap_action_transfer -> Transfer Call
+    # 🔴 qap_action_transfer -> Transfer Call
     ➡️ qap_action_transfer=
-  # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
+    # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
     ➡️ qap_action_wbtrecall=
-  # 🔴 qap_addmember_selected -> Join selected queues.
+    # 🔴 qap_addmember_selected -> Join selected queues.
     ➡️ qap_addmember_selected=
-  # 🔴 qap_agent_code -> Agent Code
+    # 🔴 qap_agent_code -> Agent Code
     ➡️ qap_agent_code=
-  # 🔴 qap_agent_dialout_error -> Error while performing Agent Dialout.
+    # 🔴 qap_agent_dialout_error -> Error while performing Agent Dialout.
     ➡️ qap_agent_dialout_error=
-  # 🔴 qap_agent_extension -> Agent Extension
+    # 🔴 qap_agent_extension -> Agent Extension
     ➡️ qap_agent_extension=
-  # 🔴 qap_agent_notifications_error -> Error while fetching agent notifications.
+    # 🔴 qap_agent_notifications_error -> Error while fetching agent notifications.
     ➡️ qap_agent_notifications_error=
-  # 🔴 qap_agent_settings_error -> Error while fetching agent settings.
+    # 🔴 qap_agent_settings_error -> Error while fetching agent settings.
     ➡️ qap_agent_settings_error=
-  # 🔴 qap_agent_status_error -> Error while fetching agent status.
+    # 🔴 qap_agent_status_error -> Error while fetching agent status.
     ➡️ qap_agent_status_error=
-  # 🔴 qap_amo -> AMO
+    # 🔴 qap_amo -> AMO
     ➡️ qap_amo=
-  # 🔴 qap_amo_attributes -> Attributes
+    # 🔴 qap_amo_attributes -> Attributes
     ➡️ qap_amo_attributes=
-  # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
+    # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
     ➡️ qap_amo_cannot=
-  # 🔴 qap_amo_error -> Error reserving AMO call:
+    # 🔴 qap_amo_error -> Error reserving AMO call:
     ➡️ qap_amo_error=
-  # 🔴 qap_amo_list -> List Name
+    # 🔴 qap_amo_list -> List Name
     ➡️ qap_amo_list=
-  # 🔴 qap_amo_number -> Number
+    # 🔴 qap_amo_number -> Number
     ➡️ qap_amo_number=
-  # 🔴 qap_amo_queue -> Queue Name
+    # 🔴 qap_amo_queue -> Queue Name
     ➡️ qap_amo_queue=
-  # 🔴 qap_amo_recall -> Recall
+    # 🔴 qap_amo_recall -> Recall
     ➡️ qap_amo_recall=
-  # 🔴 qap_amo_request -> Request AMO Call
+    # 🔴 qap_amo_request -> Request AMO Call
     ➡️ qap_amo_request=
-  # 🔴 qap_amo_reserved -> Call successfully Reserved.
+    # 🔴 qap_amo_reserved -> Call successfully Reserved.
     ➡️ qap_amo_reserved=
-  # 🔴 qap_amo_terminated -> There are no more available AMO calls.
+    # 🔴 qap_amo_terminated -> There are no more available AMO calls.
     ➡️ qap_amo_terminated=
-  # 🔴 qap_assign_case -> Assign Interaction to Case
+    # 🔴 qap_assign_case -> Assign Interaction to Case
     ➡️ qap_assign_case=
-  # 🔴 qap_assign_client -> Assign Interaction to Client
+    # 🔴 qap_assign_client -> Assign Interaction to Client
     ➡️ qap_assign_client=
-  # 🔴 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
+    # 🔴 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
     ➡️ qap_assign_interaction_error=
-  # 🔴 qap_calendar_add -> Add New
+    # 🔴 qap_calendar_add -> Add New
     ➡️ qap_calendar_add=
-  # 🔴 qap_call_associated_to_case -> Call was associated to case
+    # 🔴 qap_call_associated_to_case -> Call was associated to case
     ➡️ qap_call_associated_to_case=
-  # 🔴 qap_case -> Case
+    # 🔴 qap_case -> Case
     ➡️ qap_case=
-  # 🔴 qap_case_add -> Add New Case
+    # 🔴 qap_case_add -> Add New Case
     ➡️ qap_case_add=
-  # 🔴 qap_case_calls -> ALL CALLS
+    # 🔴 qap_case_calls -> ALL CALLS
     ➡️ qap_case_calls=
-  # 🔴 qap_case_closed -> Closed
+    # 🔴 qap_case_closed -> Closed
     ➡️ qap_case_closed=
-  # 🔴 qap_case_comments -> Comments
+    # 🔴 qap_case_comments -> Comments
     ➡️ qap_case_comments=
-  # 🔴 qap_case_contact -> Contact
+    # 🔴 qap_case_contact -> Contact
     ➡️ qap_case_contact=
-  # 🔴 qap_case_details -> Case Details
+    # 🔴 qap_case_details -> Case Details
     ➡️ qap_case_details=
-  # 🔴 qap_case_email -> Email
+    # 🔴 qap_case_email -> Email
     ➡️ qap_case_email=
-  # 🔴 qap_case_merged -> Merged
+    # 🔴 qap_case_merged -> Merged
     ➡️ qap_case_merged=
-  # 🔴 qap_case_notes -> Notes
+    # 🔴 qap_case_notes -> Notes
     ➡️ qap_case_notes=
-  # 🔴 qap_case_open -> Open
+    # 🔴 qap_case_open -> Open
     ➡️ qap_case_open=
-  # 🔴 qap_case_title -> Title
+    # 🔴 qap_case_title -> Title
     ➡️ qap_case_title=
-  # 🔴 qap_case_unconfirmed -> Unconfirmed
+    # 🔴 qap_case_unconfirmed -> Unconfirmed
     ➡️ qap_case_unconfirmed=
-  # 🔴 qap_case_xref -> XREF
+    # 🔴 qap_case_xref -> XREF
     ➡️ qap_case_xref=
-  # 🔴 qap_cases_placeholder_search -> Search for any Case here
+    # 🔴 qap_cases_placeholder_search -> Search for any Case here
     ➡️ qap_cases_placeholder_search=
-  # 🔴 qap_choose_server_title -> Choose a Server
+    # 🔴 qap_choose_server_title -> Choose a Server
     ➡️ qap_choose_server_title=
-  # 🔴 qap_client -> Client
+    # 🔴 qap_client -> Client
     ➡️ qap_client=
-  # 🔴 qap_client_contact -> Contact
+    # 🔴 qap_client_contact -> Contact
     ➡️ qap_client_contact=
-  # 🔴 qap_client_email -> Email
+    # 🔴 qap_client_email -> Email
     ➡️ qap_client_email=
-  # 🔴 qap_client_externalRef -> External Reference
+    # 🔴 qap_client_externalRef -> External Reference
     ➡️ qap_client_externalRef=
-  # 🔴 qap_client_key -> Visibility Key
+    # 🔴 qap_client_key -> Visibility Key
     ➡️ qap_client_key=
-  # 🔴 qap_client_name -> Name
+    # 🔴 qap_client_name -> Name
     ➡️ qap_client_name=
-  # 🔴 qap_client_notes -> Notes
+    # 🔴 qap_client_notes -> Notes
     ➡️ qap_client_notes=
-  # 🔴 qap_client_xref -> XREF
+    # 🔴 qap_client_xref -> XREF
     ➡️ qap_client_xref=
-  # 🔴 qap_clients_add -> Add New Client
+    # 🔴 qap_clients_add -> Add New Client
     ➡️ qap_clients_add=
-  # 🔴 qap_clients_placeholder_search -> Search for any Client here
+    # 🔴 qap_clients_placeholder_search -> Search for any Client here
     ➡️ qap_clients_placeholder_search=
-  # 🔴 qap_control_addall -> Join selected
+    # 🔴 qap_control_addall -> Join selected
     ➡️ qap_control_addall=
-  # 🔴 qap_control_add -> Join
+    # 🔴 qap_control_add -> Join
     ➡️ qap_control_add=
-  # 🔴 qap_control_remove -> Leave
+    # 🔴 qap_control_remove -> Leave
     ➡️ qap_control_remove=
-  # 🔴 qap_control_all -> All
+    # 🔴 qap_control_all -> All
     ➡️ qap_control_all=
-  # 🔴 qap_control_amend -> Amend
+    # 🔴 qap_control_amend -> Amend
     ➡️ qap_control_amend=
-  # 🔴 qap_control_assigned -> Assigned
+    # 🔴 qap_control_assigned -> Assigned
     ➡️ qap_control_assigned=
-  # 🔴 qap_control_change -> Change
+    # 🔴 qap_control_change -> Change
     ➡️ qap_control_change=
-  # 🔴 qap_control_composition -> Composition
+    # 🔴 qap_control_composition -> Composition
     ➡️ qap_control_composition=
-  # 🔴 qap_control_name -> Name
+    # 🔴 qap_control_name -> Name
     ➡️ qap_control_name=
-  # 🔴 qap_control_pause -> Pause
+    # 🔴 qap_control_pause -> Pause
     ➡️ qap_control_pause=
-  # 🔴 qap_control_priority -> Priority
+    # 🔴 qap_control_priority -> Priority
     ➡️ qap_control_priority=
-  # 🔴 qap_control_removeall -> Leave selected
+    # 🔴 qap_control_removeall -> Leave selected
     ➡️ qap_control_removeall=
-  # 🔴 qap_control_selectall -> Select all
+    # 🔴 qap_control_selectall -> Select all
     ➡️ qap_control_selectall=
-  # 🔴 qap_control_timer -> Timer
+    # 🔴 qap_control_timer -> Timer
     ➡️ qap_control_timer=
-  # 🔴 qap_control_unpause -> Unpause
+    # 🔴 qap_control_unpause -> Unpause
     ➡️ qap_control_unpause=
-  # 🔴 qap_create_note_error -> Error while creating a new Note.
+    # 🔴 qap_create_note_error -> Error while creating a new Note.
     ➡️ qap_create_note_error=
-  # 🔴 qap_crm_links -> CRM Popup Links
+    # 🔴 qap_crm_links -> CRM Popup Links
     ➡️ qap_crm_links=
-  # 🔴 qap_daily_idle -> Idle time
+    # 🔴 qap_daily_idle -> Idle time
     ➡️ qap_daily_idle=
-  # 🔴 qap_daily_lost -> Lost Calls
+    # 🔴 qap_daily_lost -> Lost Calls
     ➡️ qap_daily_lost=
-  # 🔴 qap_daily_lostatt -> Lost Attempts
+    # 🔴 qap_daily_lostatt -> Lost Attempts
     ➡️ qap_daily_lostatt=
-  # 🔴 qap_daily_pause -> Pause time
+    # 🔴 qap_daily_pause -> Pause time
     ➡️ qap_daily_pause=
-  # 🔴 qap_daily_stats -> Daily Stats
+    # 🔴 qap_daily_stats -> Daily Stats
     ➡️ qap_daily_stats=
-  # 🔴 qap_daily_taken -> Taken Calls
+    # 🔴 qap_daily_taken -> Taken Calls
     ➡️ qap_daily_taken=
-  # 🔴 qap_daily_talk -> Talk time
+    # 🔴 qap_daily_talk -> Talk time
     ➡️ qap_daily_talk=
-  # 🔴 qap_debug_api -> API
+    # 🔴 qap_debug_api -> API
     ➡️ qap_debug_api=
-  # 🔴 qap_debug_context -> Context
+    # 🔴 qap_debug_context -> Context
     ➡️ qap_debug_context=
-  # 🔴 qap_debug_title -> Debug
+    # 🔴 qap_debug_title -> Debug
     ➡️ qap_debug_title=
-  # 🔴 qap_details_attempts -> Attempts
+    # 🔴 qap_details_attempts -> Attempts
     ➡️ qap_details_attempts=
-  # 🔴 qap_details_caller -> Caller
+    # 🔴 qap_details_caller -> Caller
     ➡️ qap_details_caller=
-  # 🔴 qap_details_direction -> Direction
+    # 🔴 qap_details_direction -> Direction
     ➡️ qap_details_direction=
-  # 🔴 qap_details_dnis -> Dnis
+    # 🔴 qap_details_dnis -> Dnis
     ➡️ qap_details_dnis=
-  # 🔴 qap_details_entered -> Entered
+    # 🔴 qap_details_entered -> Entered
     ➡️ qap_details_entered=
-  # 🔴 qap_details_features -> Features
+    # 🔴 qap_details_features -> Features
     ➡️ qap_details_features=
-  # 🔴 qap_details_ivrpath -> IVR Path
+    # 🔴 qap_details_ivrpath -> IVR Path
     ➡️ qap_details_ivrpath=
-  # 🔴 qap_details_outcome -> Outcome
+    # 🔴 qap_details_outcome -> Outcome
     ➡️ qap_details_outcome=
-  # 🔴 qap_details_position -> Position
+    # 🔴 qap_details_position -> Position
     ➡️ qap_details_position=
-  # 🔴 qap_details_queue -> Queue
+    # 🔴 qap_details_queue -> Queue
     ➡️ qap_details_queue=
-  # 🔴 qap_details_started -> Started
+    # 🔴 qap_details_started -> Started
     ➡️ qap_details_started=
-  # 🔴 qap_details_tag -> Tag
+    # 🔴 qap_details_tag -> Tag
     ➡️ qap_details_tag=
-  # 🔴 qap_details_talk -> Talk Time
+    # 🔴 qap_details_talk -> Talk Time
     ➡️ qap_details_talk=
-  # 🔴 qap_details_terminated -> Terminated
+    # 🔴 qap_details_terminated -> Terminated
     ➡️ qap_details_terminated=
-  # 🔴 qap_details_transferto -> Transfer To
+    # 🔴 qap_details_transferto -> Transfer To
     ➡️ qap_details_transferto=
-  # 🔴 qap_details_uniqueid -> Unique ID
+    # 🔴 qap_details_uniqueid -> Unique ID
     ➡️ qap_details_uniqueid=
-  # 🔴 qap_details_url -> URL
+    # 🔴 qap_details_url -> URL
     ➡️ qap_details_url=
-  # 🔴 qap_details_variables -> Variables
+    # 🔴 qap_details_variables -> Variables
     ➡️ qap_details_variables=
-  # 🔴 qap_details_wait -> Wait Time
+    # 🔴 qap_details_wait -> Wait Time
     ➡️ qap_details_wait=
-  # 🔴 qap_dial -> Dial
+    # 🔴 qap_dial -> Dial
     ➡️ qap_dial=
-  # 🔴 qap_diff_join -> Queues joined
+    # 🔴 qap_diff_join -> Queues joined
     ➡️ qap_diff_join=
-  # 🔴 qap_diff_leave -> Queues left
+    # 🔴 qap_diff_leave -> Queues left
     ➡️ qap_diff_leave=
-  # 🔴 qap_diff_paused -> Agent Paused
+    # 🔴 qap_diff_paused -> Agent Paused
     ➡️ qap_diff_paused=
-  # 🔴 qap_edit_cases -> Edit Case
+    # 🔴 qap_edit_cases -> Edit Case
     ➡️ qap_edit_cases=
-  # 🔴 qap_edit_client -> Edit Client
+    # 🔴 qap_edit_client -> Edit Client
     ➡️ qap_edit_client=
-  # 🔴 qap_edit_note -> Edit Note
+    # 🔴 qap_edit_note -> Edit Note
     ➡️ qap_edit_note=
-  # 🔴 qap_empty_note -> This note is empty.
+    # 🔴 qap_empty_note -> This note is empty.
     ➡️ qap_empty_note=
-  # 🔴 qap_end_work -> End Work
+    # 🔴 qap_end_work -> End Work
     ➡️ qap_end_work=
-  # 🔴 qap_entity_placeholder -> Type to search...
+    # 🔴 qap_entity_placeholder -> Type to search...
     ➡️ qap_entity_placeholder=
-  # 🔴 qap_fetch_notifications_error -> Error while fetching User's notifications.
+    # 🔴 qap_fetch_notifications_error -> Error while fetching User's notifications.
     ➡️ qap_fetch_notifications_error=
-  # 🔴 qap_filters_main -> Main
+    # 🔴 qap_filters_main -> Main
     ➡️ qap_filters_main=
-  # 🔴 qap_filters_priority -> Priority
+    # 🔴 qap_filters_priority -> Priority
     ➡️ qap_filters_priority=
-  # 🔴 qap_filters_queue -> Queue
+    # 🔴 qap_filters_queue -> Queue
     ➡️ qap_filters_queue=
-  # 🔴 qap_filters_spill -> Spill
+    # 🔴 qap_filters_spill -> Spill
     ➡️ qap_filters_spill=
-  # 🔴 qap_filters_status -> Status
+    # 🔴 qap_filters_status -> Status
     ➡️ qap_filters_status=
-  # 🔴 qap_filters_type -> Type
+    # 🔴 qap_filters_type -> Type
     ➡️ qap_filters_type=
-  # 🔴 qap_filters_unk -> Unknown
+    # 🔴 qap_filters_unk -> Unknown
     ➡️ qap_filters_unk=
-  # 🔴 qap_filters_wrap -> Wrap
+    # 🔴 qap_filters_wrap -> Wrap
     ➡️ qap_filters_wrap=
-  # 🔴 qap_find_cases -> Find your Cases
+    # 🔴 qap_find_cases -> Find your Cases
     ➡️ qap_find_cases=
-  # 🔴 qap_find_clients -> Find your Clients
+    # 🔴 qap_find_clients -> Find your Clients
     ➡️ qap_find_clients=
-  # 🔴 qap_form_features -> Feature Codes
+    # 🔴 qap_form_features -> Feature Codes
     ➡️ qap_form_features=
-  # 🔴 qap_form_outcome -> Outcome
+    # 🔴 qap_form_outcome -> Outcome
     ➡️ qap_form_outcome=
-  # 🔴 qap_idle_time -> Idle Time
+    # 🔴 qap_idle_time -> Idle Time
     ➡️ qap_idle_time=
-  # 🔴 qap_interaction_caller -> Caller
+    # 🔴 qap_interaction_caller -> Caller
     ➡️ qap_interaction_caller=
-  # 🔴 qap_interaction_case -> Case
+    # 🔴 qap_interaction_case -> Case
     ➡️ qap_interaction_case=
-  # 🔴 qap_interaction_client -> Client
+    # 🔴 qap_interaction_client -> Client
     ➡️ qap_interaction_client=
-  # 🔴 qap_interaction_details -> Details
+    # 🔴 qap_interaction_details -> Details
     ➡️ qap_interaction_details=
-  # 🔴 qap_interaction_details_title -> Call Details
+    # 🔴 qap_interaction_details_title -> Call Details
     ➡️ qap_interaction_details_title=
-  # 🔴 qap_interaction_duration -> Duration
+    # 🔴 qap_interaction_duration -> Duration
     ➡️ qap_interaction_duration=
-  # 🔴 qap_interaction_outcome -> Outcome
+    # 🔴 qap_interaction_outcome -> Outcome
     ➡️ qap_interaction_outcome=
-  # 🔴 qap_interaction_queue -> Queue
+    # 🔴 qap_interaction_queue -> Queue
     ➡️ qap_interaction_queue=
-  # 🔴 qap_interaction_start -> Start
+    # 🔴 qap_interaction_start -> Start
     ➡️ qap_interaction_start=
-  # 🔴 qap_interaction_tag -> Tag
+    # 🔴 qap_interaction_tag -> Tag
     ➡️ qap_interaction_tag=
-  # 🔴 qap_interaction_transfer -> Transfer
+    # 🔴 qap_interaction_transfer -> Transfer
     ➡️ qap_interaction_transfer=
-  # 🔴 qap_interaction_url -> URL
+    # 🔴 qap_interaction_url -> URL
     ➡️ qap_interaction_url=
-  # 🔴 qap_interaction_variables -> Variables
+    # 🔴 qap_interaction_variables -> Variables
     ➡️ qap_interaction_variables=
-  # 🔴 qap_interaction_waiting -> Waiting
+    # 🔴 qap_interaction_waiting -> Waiting
     ➡️ qap_interaction_waiting=
-  # 🔴 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
+    # 🔴 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
     ➡️ qap_invalid_outcome=
-  # 🔴 qap_join -> Join
+    # 🔴 qap_join -> Join
     ➡️ qap_join=
-  # 🔴 qap_label_freetext -> Free Text
+    # 🔴 qap_label_freetext -> Free Text
     ➡️ qap_label_freetext=
-  # 🔴 qap_leave -> Leave
+    # 🔴 qap_leave -> Leave
     ➡️ qap_leave=
-  # 🔴 qap_loading -> Loading...
+    # 🔴 qap_loading -> Loading...
     ➡️ qap_loading=
-  # 🔴 qap_memos -> Memos
+    # 🔴 qap_memos -> Memos
     ➡️ qap_memos=
-  # 🔴 qap_missing_cases_key -> You don't have permission to create new Cases.
+    # 🔴 qap_missing_cases_key -> You don't have permission to create new Cases.
     ➡️ qap_missing_cases_key=
-  # 🔴 qap_missing_clients_key -> You don't have permission to create new Clients.
+    # 🔴 qap_missing_clients_key -> You don't have permission to create new Clients.
     ➡️ qap_missing_clients_key=
-  # 🔴 qap_nav_calendar -> Calendar
+    # 🔴 qap_nav_calendar -> Calendar
     ➡️ qap_nav_calendar=
-  # 🔴 qap_nav_cases -> Cases
+    # 🔴 qap_nav_cases -> Cases
     ➡️ qap_nav_cases=
-  # 🔴 qap_nav_clients -> Clients
+    # 🔴 qap_nav_clients -> Clients
     ➡️ qap_nav_clients=
-  # 🔴 qap_nav_control -> Control
+    # 🔴 qap_nav_control -> Control
     ➡️ qap_nav_control=
-  # 🔴 qap_nav_debug -> Debug
+    # 🔴 qap_nav_debug -> Debug
     ➡️ qap_nav_debug=
-  # 🔴 qap_nav_dialout -> Dialout
+    # 🔴 qap_nav_dialout -> Dialout
     ➡️ qap_nav_dialout=
-  # 🔴 qap_nav_home -> Home
+    # 🔴 qap_nav_home -> Home
     ➡️ qap_nav_home=
-  # 🔴 qap_nav_interactions -> Interactions
+    # 🔴 qap_nav_interactions -> Interactions
     ➡️ qap_nav_interactions=
-  # 🔴 qap_nav_overview -> Overview
+    # 🔴 qap_nav_overview -> Overview
     ➡️ qap_nav_overview=
-  # 🔴 qap_nav_qa -> QA
+    # 🔴 qap_nav_qa -> QA
     ➡️ qap_nav_qa=
-  # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
+    # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
     ➡️ qap_nav_wombat=
-  # 🔴 qap_new_memo -> Create linked Memo
+    # 🔴 qap_new_memo -> Create linked Memo
     ➡️ qap_new_memo=
-  # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
+    # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
     ➡️ qap_no_cases=
-  # 🔴 qap_no_clients -> No Clients found for the current search, please try again.
+    # 🔴 qap_no_clients -> No Clients found for the current search, please try again.
     ➡️ qap_no_clients=
-  # 🔴 qap_none -> None
+    # 🔴 qap_none -> None
     ➡️ qap_none=
-  # 🔴 qap_note_actions -> Actions
+    # 🔴 qap_note_actions -> Actions
     ➡️ qap_note_actions=
-  # 🔴 qap_note_complete -> Complete
+    # 🔴 qap_note_complete -> Complete
     ➡️ qap_note_complete=
-  # 🔴 qap_note_dispute -> Dispute
+    # 🔴 qap_note_dispute -> Dispute
     ➡️ qap_note_dispute=
-  # 🔴 qap_note_empty -> Empty
+    # 🔴 qap_note_empty -> Empty
     ➡️ qap_note_empty=
-  # 🔴 qap_note_expires -> Expires on
+    # 🔴 qap_note_expires -> Expires on
     ➡️ qap_note_expires=
-  # 🔴 qap_note_expires_on -> Expires On
+    # 🔴 qap_note_expires_on -> Expires On
     ➡️ qap_note_expires_on=
-  # 🔴 qap_note_flag -> Flag
+    # 🔴 qap_note_flag -> Flag
     ➡️ qap_note_flag=
-  # 🔴 qap_note_ko_disputed -> Disputed
+    # 🔴 qap_note_ko_disputed -> Disputed
     ➡️ qap_note_ko_disputed=
-  # 🔴 qap_note_ko_refused -> Refused
+    # 🔴 qap_note_ko_refused -> Refused
     ➡️ qap_note_ko_refused=
-  # 🔴 qap_note_ko_rejected -> Rejected
+    # 🔴 qap_note_ko_rejected -> Rejected
     ➡️ qap_note_ko_rejected=
-  # 🔴 qap_note_meeting -> Meeting
+    # 🔴 qap_note_meeting -> Meeting
     ➡️ qap_note_meeting=
-  # 🔴 qap_note_message -> Message
+    # 🔴 qap_note_message -> Message
     ➡️ qap_note_message=
-  # 🔴 qap_note_note -> Note
+    # 🔴 qap_note_note -> Note
     ➡️ qap_note_note=
-  # 🔴 qap_note_notes -> Notes
+    # 🔴 qap_note_notes -> Notes
     ➡️ qap_note_notes=
-  # 🔴 qap_note_ok -> OK
+    # 🔴 qap_note_ok -> OK
     ➡️ qap_note_ok=
-  # 🔴 qap_note_qa -> QA
+    # 🔴 qap_note_qa -> QA
     ➡️ qap_note_qa=
-  # 🔴 qap_note_recall -> Recall
+    # 🔴 qap_note_recall -> Recall
     ➡️ qap_note_recall=
-  # 🔴 qap_note_refuse -> Refuse
+    # 🔴 qap_note_refuse -> Refuse
     ➡️ qap_note_refuse=
-  # 🔴 qap_note_reject -> Reject
+    # 🔴 qap_note_reject -> Reject
     ➡️ qap_note_reject=
-  # 🔴 qap_note_status -> Status
+    # 🔴 qap_note_status -> Status
     ➡️ qap_note_status=
-  # 🔴 qap_note_tbd -> TBD
+    # 🔴 qap_note_tbd -> TBD
     ➡️ qap_note_tbd=
-  # 🔴 qap_note_todo -> Todo
+    # 🔴 qap_note_todo -> Todo
     ➡️ qap_note_todo=
-  # 🔴 qap_note_togroup -> To Group
+    # 🔴 qap_note_togroup -> To Group
     ➡️ qap_note_togroup=
-  # 🔴 qap_note_touser -> To User
+    # 🔴 qap_note_touser -> To User
     ➡️ qap_note_touser=
-  # 🔴 qap_note_training -> Training
+    # 🔴 qap_note_training -> Training
     ➡️ qap_note_training=
-  # 🔴 qap_note_type -> Type
+    # 🔴 qap_note_type -> Type
     ➡️ qap_note_type=
-  # 🔴 qap_note_valid_from -> Valid From
+    # 🔴 qap_note_valid_from -> Valid From
     ➡️ qap_note_valid_from=
-  # 🔴 qap_notes_type_note -> Note
+    # 🔴 qap_notes_type_note -> Note
     ➡️ qap_notes_type_note=
-  # 🔴 qap_notifications -> Notifications
+    # 🔴 qap_notifications -> Notifications
     ➡️ qap_notifications=
-  # 🔴 qap_notifications_empty -> You currently have no notifications
+    # 🔴 qap_notifications_empty -> You currently have no notifications
     ➡️ qap_notifications_empty=
-  # 🔴 qap_overview_daily -> Daily
+    # 🔴 qap_overview_daily -> Daily
     ➡️ qap_overview_daily=
-  # 🔴 qap_overview_stats -> Stats
+    # 🔴 qap_overview_stats -> Stats
     ➡️ qap_overview_stats=
-  # 🔴 qap_overview_weekly -> Weekly
+    # 🔴 qap_overview_weekly -> Weekly
     ➡️ qap_overview_weekly=
-  # 🔴 qap_pause_time -> Pause Time
+    # 🔴 qap_pause_time -> Pause Time
     ➡️ qap_pause_time=
-  # 🔴 qap_platform_action_error -> Error while performing platform action.
+    # 🔴 qap_platform_action_error -> Error while performing platform action.
     ➡️ qap_platform_action_error=
-  # 🔴 qap_process_note_error -> Error while processing a Note.
+    # 🔴 qap_process_note_error -> Error while processing a Note.
     ➡️ qap_process_note_error=
-  # 🔴 qap_run -> Run
+    # 🔴 qap_run -> Run
     ➡️ qap_run=
-  # 🔴 qap_save_case_error -> Error while saving Case.
+    # 🔴 qap_save_case_error -> Error while saving Case.
     ➡️ qap_save_case_error=
-  # 🔴 qap_save_client_error -> Error while saving Client.
+    # 🔴 qap_save_client_error -> Error while saving Client.
     ➡️ qap_save_client_error=
-  # 🔴 qap_search_cases_error -> Error searching for the requested Cases.
+    # 🔴 qap_search_cases_error -> Error searching for the requested Cases.
     ➡️ qap_search_cases_error=
-  # 🔴 qap_search_clients_error -> Error searching for the requested Clients.
+    # 🔴 qap_search_clients_error -> Error searching for the requested Clients.
     ➡️ qap_search_clients_error=
-  # 🔴 qap_server -> Server
+    # 🔴 qap_server -> Server
     ➡️ qap_server=
-  # 🔴 qap_session_time -> Session Time
+    # 🔴 qap_session_time -> Session Time
     ➡️ qap_session_time=
-  # 🔴 qap_signout -> Sign out
+    # 🔴 qap_signout -> Sign out
     ➡️ qap_signout=
-  # 🔴 qap_softphone -> Phone
+    # 🔴 qap_softphone -> Phone
     ➡️ qap_softphone=
-  # 🔴 qap_softphone_debug -> Softphone
+    # 🔴 qap_softphone_debug -> Softphone
     ➡️ qap_softphone_debug=
-  # 🔴 qap_start_work -> Start Work
+    # 🔴 qap_start_work -> Start Work
     ➡️ qap_start_work=
-  # 🔴 qap_status_paused -> Paused
+    # 🔴 qap_status_paused -> Paused
     ➡️ qap_status_paused=
-  # 🔴 qap_status_unpaused -> Unpaused
+    # 🔴 qap_status_unpaused -> Unpaused
     ➡️ qap_status_unpaused=
-  # 🔴 qap_title_calendar -> Calendar
+    # 🔴 qap_title_calendar -> Calendar
     ➡️ qap_title_calendar=
-  # 🔴 qap_title_cases -> Cases
+    # 🔴 qap_title_cases -> Cases
     ➡️ qap_title_cases=
-  # 🔴 qap_title_clients -> Clients
+    # 🔴 qap_title_clients -> Clients
     ➡️ qap_title_clients=
-  # 🔴 qap_title_control -> Queue Control
+    # 🔴 qap_title_control -> Queue Control
     ➡️ qap_title_control=
-  # 🔴 qap_title_interactions -> Interactions
+    # 🔴 qap_title_interactions -> Interactions
     ➡️ qap_title_interactions=
-  # 🔴 qap_title_note -> New Note
+    # 🔴 qap_title_note -> New Note
     ➡️ qap_title_note=
-  # 🔴 qap_title_notes_done -> Done
+    # 🔴 qap_title_notes_done -> Done
     ➡️ qap_title_notes_done=
-  # 🔴 qap_title_notes_pending -> Pending
+    # 🔴 qap_title_notes_pending -> Pending
     ➡️ qap_title_notes_pending=
-  # 🔴 qap_title_outcomes -> Outcome and Feature Codes
+    # 🔴 qap_title_outcomes -> Outcome and Feature Codes
     ➡️ qap_title_outcomes=
-  # 🔴 qap_title_overview -> Overview
+    # 🔴 qap_title_overview -> Overview
     ➡️ qap_title_overview=
-  # 🔴 qap_today -> Today
+    # 🔴 qap_today -> Today
     ➡️ qap_today=
-  # 🔴 qap_transaction_body -> Comment
+    # 🔴 qap_transaction_body -> Comment
     ➡️ qap_transaction_body=
-  # 🔴 qap_transaction_title -> Title
+    # 🔴 qap_transaction_title -> Title
     ➡️ qap_transaction_title=
-  # 🔴 qap_unknown_caller -> Unknown Caller
+    # 🔴 qap_unknown_caller -> Unknown Caller
     ➡️ qap_unknown_caller=
-  # 🔴 qap_user_pref_error -> Error while fetching user preferences.
+    # 🔴 qap_user_pref_error -> Error while fetching user preferences.
     ➡️ qap_user_pref_error=
-  # 🔴 qap_wbt_campaign -> Campaign
+    # 🔴 qap_wbt_campaign -> Campaign
     ➡️ qap_wbt_campaign=
-  # 🔴 qap_wbt_comments -> Comments
+    # 🔴 qap_wbt_comments -> Comments
     ➡️ qap_wbt_comments=
-  # 🔴 qap_wbt_date -> Date
+    # 🔴 qap_wbt_date -> Date
     ➡️ qap_wbt_date=
-  # 🔴 qap_wbt_num -> Number
+    # 🔴 qap_wbt_num -> Number
     ➡️ qap_wbt_num=
-  # 🔴 qap_wbt_recall -> Recall
+    # 🔴 qap_wbt_recall -> Recall
     ➡️ qap_wbt_recall=
-  # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
+    # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
     ➡️ qap_wbt_title=
-  # 🔴 qap_welcome -> Welcome Back!
+    # 🔴 qap_welcome -> Welcome Back!
     ➡️ qap_welcome=
-  # 🔴 qap_you_have -> You have
+    # 🔴 qap_you_have -> You have
     ➡️ qap_you_have=
     qatarget_agentgroup=Ομάδα χρηστών
     qatarget_allcalls=Όλες οι κλήσεις
     qatarget_individual_agents=Χρήστης
     qatarget_outcomes=Αποτελέσματα κλήσεων
-  # 🔴 react_report_table_sort_asc -> Sort in Ascending order
+    # 🔴 react_report_table_sort_asc -> Sort in Ascending order
     ➡️ react_report_table_sort_asc=
-  # 🔴 react_report_table_sort_desc -> Sort in Descending order
+    # 🔴 react_report_table_sort_desc -> Sort in Descending order
     ➡️ react_report_table_sort_desc=
     realtime_missing_queues=Απουσιάζει από την αναμενόμενη ουρά αναμονής
     realtime_tooltip_calltags=Tag
     realtime_tooltip_features=Λείτ.
     realtime_tooltip_ivrs=IVR
     realtime_tooltip_variables=Var
-  # 🔴 recallstate_needs_further -> Needs further recall
+    # 🔴 recallstate_needs_further -> Needs further recall
     ➡️ recallstate_needs_further=
-  # 🔴 recallstate_not_recalled -> Not yet recalled
+    # 🔴 recallstate_not_recalled -> Not yet recalled
     ➡️ recallstate_not_recalled=
-  # 🔴 recallstate_recalled -> Recalled
+    # 🔴 recallstate_recalled -> Recalled
     ➡️ recallstate_recalled=
     record_tag_inserttag_button=Προσθήκη σήμανσης
     record_tag_inserttag_title=Εισαγωγή νέας σήμανσης
@@ -4577,7 +4577,7 @@ Other items
     record_tags_color_set=Αλλαγή χρώματος σήμανσης
     record_tags_duration=Διάρκεια
     record_tags_duration_s=Διάρκεια (δευτ.)
-  # 🔴 record_tags_erroradd -> Error adding marker. Please retry.
+    # 🔴 record_tags_erroradd -> Error adding marker. Please retry.
     ➡️ record_tags_erroradd=
     record_tags_errordelete=Σφάλμα διαγραφής σήμανσης. Παρακαλώ προσπαθήστε ξανά.
     record_tags_file=Αρχείο ηχογράφησης
@@ -4589,165 +4589,165 @@ Other items
     record_tags_wrongduration=Παρακαλώ εισάγετε μια έγκυρη μορφή διάρκειας
     record_tags_wrongnote=Παρακαλώ εισάγετε μια σημείωση
     record_tags_wrongtime=Παρακαλώ εισάγετε μια έγκυρη μορφή ώρας
-  # 🔴 recstat_closed -> Closed
+    # 🔴 recstat_closed -> Closed
     ➡️ recstat_closed=
-  # 🔴 recstat_merged -> Merged
+    # 🔴 recstat_merged -> Merged
     ➡️ recstat_merged=
-  # 🔴 recstat_open -> Open
+    # 🔴 recstat_open -> Open
     ➡️ recstat_open=
-  # 🔴 report_filter_noncont_time -> Between
+    # 🔴 report_filter_noncont_time -> Between
     ➡️ report_filter_noncont_time=
-  # 🔴 report_input_error -> This value is not admissibile
+    # 🔴 report_input_error -> This value is not admissibile
     ➡️ report_input_error=
-  # 🔴 reports_add_datablocks -> Add DataBlocks
+    # 🔴 reports_add_datablocks -> Add DataBlocks
     ➡️ reports_add_datablocks=
-  # 🔴 reports_add_filter -> Add Filter
+    # 🔴 reports_add_filter -> Add Filter
     ➡️ reports_add_filter=
-  # 🔴 reports_add_filter_button -> Add Filter
+    # 🔴 reports_add_filter_button -> Add Filter
     ➡️ reports_add_filter_button=
-  # 🔴 reports_adddatablock_onhover_message -> Add DataBlock
+    # 🔴 reports_adddatablock_onhover_message -> Add DataBlock
     ➡️ reports_adddatablock_onhover_message=
-  # 🔴 reports_apply -> Apply
+    # 🔴 reports_apply -> Apply
     ➡️ reports_apply=
-  # 🔴 reports_at_caller -> Caller:
+    # 🔴 reports_at_caller -> Caller:
     ➡️ reports_at_caller=
-  # 🔴 reports_at_collapse -> Collapse.
+    # 🔴 reports_at_collapse -> Collapse.
     ➡️ reports_at_collapse=
-  # 🔴 reports_at_duration -> Duration:
+    # 🔴 reports_at_duration -> Duration:
     ➡️ reports_at_duration=
-  # 🔴 reports_at_expand -> See more details.
+    # 🔴 reports_at_expand -> See more details.
     ➡️ reports_at_expand=
-  # 🔴 reports_at_idle -> Idle Time:
+    # 🔴 reports_at_idle -> Idle Time:
     ➡️ reports_at_idle=
-  # 🔴 reports_at_info -> Session information for
+    # 🔴 reports_at_info -> Session information for
     ➡️ reports_at_info=
-  # 🔴 reports_at_least_one_queue -> You must select at least one queue
+    # 🔴 reports_at_least_one_queue -> You must select at least one queue
     ➡️ reports_at_least_one_queue=
-  # 🔴 reports_at_lostatt -> Lost Attempts:
+    # 🔴 reports_at_lostatt -> Lost Attempts:
     ➡️ reports_at_lostatt=
-  # 🔴 reports_at_pause -> Pause Code:
+    # 🔴 reports_at_pause -> Pause Code:
     ➡️ reports_at_pause=
-  # 🔴 reports_at_queue -> Queue:
+    # 🔴 reports_at_queue -> Queue:
     ➡️ reports_at_queue=
-  # 🔴 reports_at_queues -> Queues:
+    # 🔴 reports_at_queues -> Queues:
     ➡️ reports_at_queues=
-  # 🔴 reports_at_taken -> Taken Calls:
+    # 🔴 reports_at_taken -> Taken Calls:
     ➡️ reports_at_taken=
-  # 🔴 reports_at_talk -> Talk Time:
+    # 🔴 reports_at_talk -> Talk Time:
     ➡️ reports_at_talk=
-  # 🔴 reports_at_wait -> Wait:
+    # 🔴 reports_at_wait -> Wait:
     ➡️ reports_at_wait=
-  # 🔴 reports_atomic_filters -> Expression Filters
+    # 🔴 reports_atomic_filters -> Expression Filters
     ➡️ reports_atomic_filters=
-  # 🔴 reports_autosave_toggle -> Auto Save
+    # 🔴 reports_autosave_toggle -> Auto Save
     ➡️ reports_autosave_toggle=
-  # 🔴 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
+    # 🔴 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
     ➡️ reports_change_report_confirm=
-  # 🔴 reports_chart_avgdur -> Avg. Duration
+    # 🔴 reports_chart_avgdur -> Avg. Duration
     ➡️ reports_chart_avgdur=
-  # 🔴 reports_chart_delta -> Delta
+    # 🔴 reports_chart_delta -> Delta
     ➡️ reports_chart_delta=
-  # 🔴 reports_chart_error -> Invalid Chart Configuration.
+    # 🔴 reports_chart_error -> Invalid Chart Configuration.
     ➡️ reports_chart_error=
-  # 🔴 reports_chart_numcalls -> Num. of Calls
+    # 🔴 reports_chart_numcalls -> Num. of Calls
     ➡️ reports_chart_numcalls=
-  # 🔴 reports_chart_others -> Others
+    # 🔴 reports_chart_others -> Others
     ➡️ reports_chart_others=
-  # 🔴 reports_chart_sla -> SLA
+    # 🔴 reports_chart_sla -> SLA
     ➡️ reports_chart_sla=
-  # 🔴 reports_clone -> Clone Report
+    # 🔴 reports_clone -> Clone Report
     ➡️ reports_clone=
-  # 🔴 reports_close_btn -> Close
+    # 🔴 reports_close_btn -> Close
     ➡️ reports_close_btn=
-  # 🔴 reports_confirm -> Confirm
+    # 🔴 reports_confirm -> Confirm
     ➡️ reports_confirm=
-  # 🔴 reports_create -> Create New Report
+    # 🔴 reports_create -> Create New Report
     ➡️ reports_create=
-  # 🔴 reports_create_page -> Create page
+    # 🔴 reports_create_page -> Create page
     ➡️ reports_create_page=
-  # 🔴 reports_create_page_confirm -> You have unsaved changes, creating a new page will undo those changes. Do you want to create a new page?
+    # 🔴 reports_create_page_confirm -> You have unsaved changes, creating a new page will undo those changes. Do you want to create a new page?
     ➡️ reports_create_page_confirm=
-  # 🔴 reports_create_successful -> Report created successfully
+    # 🔴 reports_create_successful -> Report created successfully
     ➡️ reports_create_successful=
-  # 🔴 reports_datablock_chart -> Chart
+    # 🔴 reports_datablock_chart -> Chart
     ➡️ reports_datablock_chart=
-  # 🔴 reports_datablock_columns_customization -> Customize Columns
+    # 🔴 reports_datablock_columns_customization -> Customize Columns
     ➡️ reports_datablock_columns_customization=
-  # 🔴 reports_datablock_columns_short -> Columns
+    # 🔴 reports_datablock_columns_short -> Columns
     ➡️ reports_datablock_columns_short=
-  # 🔴 reports_datablock_errormsg -> Error Message
+    # 🔴 reports_datablock_errormsg -> Error Message
     ➡️ reports_datablock_errormsg=
-  # 🔴 reports_datablock_label_subtititle -> Subtitle
+    # 🔴 reports_datablock_label_subtititle -> Subtitle
     ➡️ reports_datablock_label_subtititle=
-  # 🔴 reports_datablock_label_subtitle -> DataBlock notes
+    # 🔴 reports_datablock_label_subtitle -> DataBlock notes
     ➡️ reports_datablock_label_subtitle=
-  # 🔴 reports_datablock_label_title -> Title
+    # 🔴 reports_datablock_label_title -> Title
     ➡️ reports_datablock_label_title=
-  # 🔴 reports_datablock_order_customization -> Customize DataBlock Order
+    # 🔴 reports_datablock_order_customization -> Customize DataBlock Order
     ➡️ reports_datablock_order_customization=
-  # 🔴 reports_datablock_order_short -> DataBlocks
+    # 🔴 reports_datablock_order_short -> DataBlocks
     ➡️ reports_datablock_order_short=
-  # 🔴 reports_datablock_status -> Status
+    # 🔴 reports_datablock_status -> Status
     ➡️ reports_datablock_status=
-  # 🔴 reports_datablockview_added -> DataBlock Added
+    # 🔴 reports_datablockview_added -> DataBlock Added
     ➡️ reports_datablockview_added=
-  # 🔴 reports_datablockview_order -> DataBlock View Order
+    # 🔴 reports_datablockview_order -> DataBlock View Order
     ➡️ reports_datablockview_order=
-  # 🔴 reports_datablockview_parameters -> Parameters
+    # 🔴 reports_datablockview_parameters -> Parameters
     ➡️ reports_datablockview_parameters=
-  # 🔴 reports_datablockview_search -> Search
+    # 🔴 reports_datablockview_search -> Search
     ➡️ reports_datablockview_search=
-  # 🔴 reports_datablockview_search_placeholder -> Search for a DataBlock View
+    # 🔴 reports_datablockview_search_placeholder -> Search for a DataBlock View
     ➡️ reports_datablockview_search_placeholder=
-  # 🔴 reports_datablockview_visibilitykey -> Visibility Key
+    # 🔴 reports_datablockview_visibilitykey -> Visibility Key
     ➡️ reports_datablockview_visibilitykey=
-  # 🔴 reports_datasource -> Data Source
+    # 🔴 reports_datasource -> Data Source
     ➡️ reports_datasource=
-  # 🔴 reports_delete -> Delete Report
+    # 🔴 reports_delete -> Delete Report
     ➡️ reports_delete=
-  # 🔴 reports_delete_current_page_confirm -> Delete the current page?
+    # 🔴 reports_delete_current_page_confirm -> Delete the current page?
     ➡️ reports_delete_current_page_confirm=
-  # 🔴 reports_delete_current_report_confirm -> Delete the current report?
+    # 🔴 reports_delete_current_report_confirm -> Delete the current report?
     ➡️ reports_delete_current_report_confirm=
-  # 🔴 reports_delete_datablockview -> Delete DataBlock View
+    # 🔴 reports_delete_datablockview -> Delete DataBlock View
     ➡️ reports_delete_datablockview=
-  # 🔴 reports_delete_datablockview_short -> Delete
+    # 🔴 reports_delete_datablockview_short -> Delete
     ➡️ reports_delete_datablockview_short=
-  # 🔴 reports_delete_filter -> Delete Filter
+    # 🔴 reports_delete_filter -> Delete Filter
     ➡️ reports_delete_filter=
-  # 🔴 reports_delete_page -> Delete Page
+    # 🔴 reports_delete_page -> Delete Page
     ➡️ reports_delete_page=
-  # 🔴 reports_delete_successful -> Report deleted successfully
+    # 🔴 reports_delete_successful -> Report deleted successfully
     ➡️ reports_delete_successful=
-  # 🔴 reports_drag_info -> Drag the elements to order them.
+    # 🔴 reports_drag_info -> Drag the elements to order them.
     ➡️ reports_drag_info=
-  # 🔴 reports_edit -> Edit
+    # 🔴 reports_edit -> Edit
     ➡️ reports_edit=
-  # 🔴 reports_edit_datablocks -> DataBlocks
+    # 🔴 reports_edit_datablocks -> DataBlocks
     ➡️ reports_edit_datablocks=
-  # 🔴 reports_edit_datablockview -> Edit DataBlock
+    # 🔴 reports_edit_datablockview -> Edit DataBlock
     ➡️ reports_edit_datablockview=
-  # 🔴 reports_edit_datablockview_complete -> Confirm
+    # 🔴 reports_edit_datablockview_complete -> Confirm
     ➡️ reports_edit_datablockview_complete=
-  # 🔴 reports_edit_datablockview_short -> Edit
+    # 🔴 reports_edit_datablockview_short -> Edit
     ➡️ reports_edit_datablockview_short=
-  # 🔴 reports_edit_disabled -> This report is Read Only, because you are not authorized to edit it.
+    # 🔴 reports_edit_disabled -> This report is Read Only, because you are not authorized to edit it.
     ➡️ reports_edit_disabled=
-  # 🔴 reports_edit_filter -> Edit Filter
+    # 🔴 reports_edit_filter -> Edit Filter
     ➡️ reports_edit_filter=
-  # 🔴 reports_edit_filters -> Filters
+    # 🔴 reports_edit_filters -> Filters
     ➡️ reports_edit_filters=
-  # 🔴 reports_edit_name -> Edit Report Name
+    # 🔴 reports_edit_name -> Edit Report Name
     ➡️ reports_edit_name=
-  # 🔴 reports_edit_page -> Edit Page
+    # 🔴 reports_edit_page -> Edit Page
     ➡️ reports_edit_page=
-  # 🔴 reports_edit_page_complete -> Confirm changes
+    # 🔴 reports_edit_page_complete -> Confirm changes
     ➡️ reports_edit_page_complete=
-  # 🔴 reports_edit_report -> Edit Report
+    # 🔴 reports_edit_report -> Edit Report
     ➡️ reports_edit_report=
-  # 🔴 reports_editingkey -> Editing Key
+    # 🔴 reports_editingkey -> Editing Key
     ➡️ reports_editingkey=
-  # 🔴 reports_enter_title -> Enter the new Report title
+    # 🔴 reports_enter_title -> Enter the new Report title
     ➡️ reports_enter_title=
     reports_export_email_body=Αναφορά αποτελεσμάτων QueueMetrics για εξαγωγή με την ονομασία
     reports_export_email_subject=[QueueMetrics] Αναφορά
@@ -4756,422 +4756,422 @@ Other items
     reports_export_mode_landscape=Τοπίο
     reports_export_mode_pdf=Εξαγωγή σε PDF
     reports_export_mode_portrait=Πορτραίτο
-  # 🔴 reports_export_pdf_short -> PDF
+    # 🔴 reports_export_pdf_short -> PDF
     ➡️ reports_export_pdf_short=
-  # 🔴 reports_export_schema -> Export Report Schema
+    # 🔴 reports_export_schema -> Export Report Schema
     ➡️ reports_export_schema=
-  # 🔴 reports_export_schema_error -> The Report Schema could not be exported.
+    # 🔴 reports_export_schema_error -> The Report Schema could not be exported.
     ➡️ reports_export_schema_error=
     reports_export_test_icon=Εκτέλεση τώρα
-  # 🔴 reports_export_xls_short -> XLS
+    # 🔴 reports_export_xls_short -> XLS
     ➡️ reports_export_xls_short=
-  # 🔴 reports_fetch_error -> Error fetching DataBlock
+    # 🔴 reports_fetch_error -> Error fetching DataBlock
     ➡️ reports_fetch_error=
-  # 🔴 reports_filter_agent -> Agent
+    # 🔴 reports_filter_agent -> Agent
     ➡️ reports_filter_agent=
-  # 🔴 reports_filter_agentgroup -> Agent Group
+    # 🔴 reports_filter_agentgroup -> Agent Group
     ➡️ reports_filter_agentgroup=
-  # 🔴 reports_filter_asteriskid -> Unique Id
+    # 🔴 reports_filter_asteriskid -> Unique Id
     ➡️ reports_filter_asteriskid=
-  # 🔴 reports_filter_atomicqueuefilter -> Queue
+    # 🔴 reports_filter_atomicqueuefilter -> Queue
     ➡️ reports_filter_atomicqueuefilter=
-  # 🔴 reports_filter_attemptsmax -> Max Attempts
+    # 🔴 reports_filter_attemptsmax -> Max Attempts
     ➡️ reports_filter_attemptsmax=
-  # 🔴 reports_filter_attemptsmin -> Min. Attempts
+    # 🔴 reports_filter_attemptsmin -> Min. Attempts
     ➡️ reports_filter_attemptsmin=
-  # 🔴 reports_filter_calldurmax -> Max. Call Duration
+    # 🔴 reports_filter_calldurmax -> Max. Call Duration
     ➡️ reports_filter_calldurmax=
-  # 🔴 reports_filter_calldurmin -> Min. Call Duration
+    # 🔴 reports_filter_calldurmin -> Min. Call Duration
     ➡️ reports_filter_calldurmin=
-  # 🔴 reports_filter_caller -> Caller
+    # 🔴 reports_filter_caller -> Caller
     ➡️ reports_filter_caller=
-  # 🔴 reports_filter_callskills -> Call Skill
+    # 🔴 reports_filter_callskills -> Call Skill
     ➡️ reports_filter_callskills=
-  # 🔴 reports_filter_calltags -> Call Tag
+    # 🔴 reports_filter_calltags -> Call Tag
     ➡️ reports_filter_calltags=
-  # 🔴 reports_filter_case -> Case
+    # 🔴 reports_filter_case -> Case
     ➡️ reports_filter_case=
-  # 🔴 reports_filter_client -> Client
+    # 🔴 reports_filter_client -> Client
     ➡️ reports_filter_client=
-  # 🔴 reports_filter_date_from -> From
+    # 🔴 reports_filter_date_from -> From
     ➡️ reports_filter_date_from=
-  # 🔴 reports_filter_date_to -> To
+    # 🔴 reports_filter_date_to -> To
     ➡️ reports_filter_date_to=
-  # 🔴 reports_filter_disconnection -> Disconnection Cause
+    # 🔴 reports_filter_disconnection -> Disconnection Cause
     ➡️ reports_filter_disconnection=
-  # 🔴 reports_filter_dnis -> DNIS
+    # 🔴 reports_filter_dnis -> DNIS
     ➡️ reports_filter_dnis=
-  # 🔴 reports_filter_enterposmax -> Max Enter Position
+    # 🔴 reports_filter_enterposmax -> Max Enter Position
     ➡️ reports_filter_enterposmax=
-  # 🔴 reports_filter_enterposmin -> Min. Enter Position
+    # 🔴 reports_filter_enterposmin -> Min. Enter Position
     ➡️ reports_filter_enterposmin=
-  # 🔴 reports_filter_features -> Feature Code
+    # 🔴 reports_filter_features -> Feature Code
     ➡️ reports_filter_features=
-  # 🔴 reports_filter_group_delete -> Delete Filter Group
+    # 🔴 reports_filter_group_delete -> Delete Filter Group
     ➡️ reports_filter_group_delete=
-  # 🔴 reports_filter_input_error -> Input Error
+    # 🔴 reports_filter_input_error -> Input Error
     ➡️ reports_filter_input_error=
-  # 🔴 reports_filter_ivr -> IVR
+    # 🔴 reports_filter_ivr -> IVR
     ➡️ reports_filter_ivr=
-  # 🔴 reports_filter_location -> Location
+    # 🔴 reports_filter_location -> Location
     ➡️ reports_filter_location=
-  # 🔴 reports_filter_none -> None
+    # 🔴 reports_filter_none -> None
     ➡️ reports_filter_none=
-  # 🔴 reports_filter_noncont_time -> Between
+    # 🔴 reports_filter_noncont_time -> Between
     ➡️ reports_filter_noncont_time=
-  # 🔴 reports_filter_noncontdays -> Days
+    # 🔴 reports_filter_noncontdays -> Days
     ➡️ reports_filter_noncontdays=
-  # 🔴 reports_filter_noncontr1from -> Time 1 from
+    # 🔴 reports_filter_noncontr1from -> Time 1 from
     ➡️ reports_filter_noncontr1from=
-  # 🔴 reports_filter_noncontr1to -> Time 1 to
+    # 🔴 reports_filter_noncontr1to -> Time 1 to
     ➡️ reports_filter_noncontr1to=
-  # 🔴 reports_filter_nrmcaller -> Normalized Caller
+    # 🔴 reports_filter_nrmcaller -> Normalized Caller
     ➡️ reports_filter_nrmcaller=
-  # 🔴 reports_filter_operator -> Operator
+    # 🔴 reports_filter_operator -> Operator
     ➡️ reports_filter_operator=
-  # 🔴 reports_filter_outcome -> Outcome
+    # 🔴 reports_filter_outcome -> Outcome
     ➡️ reports_filter_outcome=
-  # 🔴 reports_filter_selected_queues -> Queues
+    # 🔴 reports_filter_selected_queues -> Queues
     ➡️ reports_filter_selected_queues=
-  # 🔴 reports_filter_server -> Server
+    # 🔴 reports_filter_server -> Server
     ➡️ reports_filter_server=
-  # 🔴 reports_filter_shortcallattempt -> Min. Attempt Time (short calls)
+    # 🔴 reports_filter_shortcallattempt -> Min. Attempt Time (short calls)
     ➡️ reports_filter_shortcallattempt=
-  # 🔴 reports_filter_shortcalltalk -> Min. Talk Time (short calls)
+    # 🔴 reports_filter_shortcalltalk -> Min. Talk Time (short calls)
     ➡️ reports_filter_shortcalltalk=
-  # 🔴 reports_filter_shortcallwait -> Min. Wait Time (short calls)
+    # 🔴 reports_filter_shortcallwait -> Min. Wait Time (short calls)
     ➡️ reports_filter_shortcallwait=
-  # 🔴 reports_filter_timerange -> Select time range
+    # 🔴 reports_filter_timerange -> Select time range
     ➡️ reports_filter_timerange=
-  # 🔴 reports_filter_variable_name -> Variable Name
+    # 🔴 reports_filter_variable_name -> Variable Name
     ➡️ reports_filter_variable_name=
-  # 🔴 reports_filter_variable_value -> Variable Value
+    # 🔴 reports_filter_variable_value -> Variable Value
     ➡️ reports_filter_variable_value=
-  # 🔴 reports_filter_variables -> Variables
+    # 🔴 reports_filter_variables -> Variables
     ➡️ reports_filter_variables=
-  # 🔴 reports_filter_waitmax -> Max. Wait Time
+    # 🔴 reports_filter_waitmax -> Max. Wait Time
     ➡️ reports_filter_waitmax=
-  # 🔴 reports_filter_waitmin -> Min. Wait Time
+    # 🔴 reports_filter_waitmin -> Min. Wait Time
     ➡️ reports_filter_waitmin=
-  # 🔴 reports_filters -> Show/Hide Filters
+    # 🔴 reports_filters -> Show/Hide Filters
     ➡️ reports_filters=
-  # 🔴 reports_goto_page -> Go to
+    # 🔴 reports_goto_page -> Go to
     ➡️ reports_goto_page=
-  # 🔴 reports_grouping_title -> Call Grouping
+    # 🔴 reports_grouping_title -> Call Grouping
     ➡️ reports_grouping_title=
-  # 🔴 reports_import_schema -> Import Report Schema
+    # 🔴 reports_import_schema -> Import Report Schema
     ➡️ reports_import_schema=
-  # 🔴 reports_import_schema_error -> Error while importing Report Schema.
+    # 🔴 reports_import_schema_error -> Error while importing Report Schema.
     ➡️ reports_import_schema_error=
-  # 🔴 reports_import_schema_success -> Report Schema Imported Successfully.
+    # 🔴 reports_import_schema_success -> Report Schema Imported Successfully.
     ➡️ reports_import_schema_success=
-  # 🔴 reports_invalid_input -> The value you have entered is not allowed
+    # 🔴 reports_invalid_input -> The value you have entered is not allowed
     ➡️ reports_invalid_input=
-  # 🔴 reports_link_copy_successful -> Report URL copied to Clipboard
+    # 🔴 reports_link_copy_successful -> Report URL copied to Clipboard
     ➡️ reports_link_copy_successful=
-  # 🔴 reports_lost_calls -> Lost Calls
+    # 🔴 reports_lost_calls -> Lost Calls
     ➡️ reports_lost_calls=
-  # 🔴 reports_modify_report_name -> Modify Report name
+    # 🔴 reports_modify_report_name -> Modify Report name
     ➡️ reports_modify_report_name=
-  # 🔴 reports_multistint -> Multi-Stint Mode
+    # 🔴 reports_multistint -> Multi-Stint Mode
     ➡️ reports_multistint=
-  # 🔴 reports_new_page_shorttitle -> New
+    # 🔴 reports_new_page_shorttitle -> New
     ➡️ reports_new_page_shorttitle=
-  # 🔴 reports_new_page_title -> New Page
+    # 🔴 reports_new_page_title -> New Page
     ➡️ reports_new_page_title=
-  # 🔴 reports_new_report -> New Report
+    # 🔴 reports_new_report -> New Report
     ➡️ reports_new_report=
-  # 🔴 reports_next_datablock -> Next
+    # 🔴 reports_next_datablock -> Next
     ➡️ reports_next_datablock=
-  # 🔴 reports_no_available_queues -> The current user cannot access any queue.
+    # 🔴 reports_no_available_queues -> The current user cannot access any queue.
     ➡️ reports_no_available_queues=
-  # 🔴 reports_no_filters -> Add Filters
+    # 🔴 reports_no_filters -> Add Filters
     ➡️ reports_no_filters=
-  # 🔴 reports_no_queue_selected -> No Queue Selected
+    # 🔴 reports_no_queue_selected -> No Queue Selected
     ➡️ reports_no_queue_selected=
-  # 🔴 reports_noncont_days_filter -> Days of the week
+    # 🔴 reports_noncont_days_filter -> Days of the week
     ➡️ reports_noncont_days_filter=
-  # 🔴 reports_noncont_time_filter -> Time Period Filter
+    # 🔴 reports_noncont_time_filter -> Time Period Filter
     ➡️ reports_noncont_time_filter=
-  # 🔴 reports_not_filter -> Negate this filter
+    # 🔴 reports_not_filter -> Negate this filter
     ➡️ reports_not_filter=
-  # 🔴 reports_operator_and -> And
+    # 🔴 reports_operator_and -> And
     ➡️ reports_operator_and=
-  # 🔴 reports_operator_nor -> Nor
+    # 🔴 reports_operator_nor -> Nor
     ➡️ reports_operator_nor=
-  # 🔴 reports_operator_or -> or
+    # 🔴 reports_operator_or -> or
     ➡️ reports_operator_or=
-  # 🔴 reports_optilock_exception -> The report you are trying to edit has been modified by someone else and cannot be saved.
+    # 🔴 reports_optilock_exception -> The report you are trying to edit has been modified by someone else and cannot be saved.
     ➡️ reports_optilock_exception=
-  # 🔴 reports_owned_by -> Owned by
+    # 🔴 reports_owned_by -> Owned by
     ➡️ reports_owned_by=
-  # 🔴 reports_page_create_successful -> Page created successfully
+    # 🔴 reports_page_create_successful -> Page created successfully
     ➡️ reports_page_create_successful=
-  # 🔴 reports_page_delete -> Delete Page
+    # 🔴 reports_page_delete -> Delete Page
     ➡️ reports_page_delete=
-  # 🔴 reports_page_delete_successful -> Page deleted successfully
+    # 🔴 reports_page_delete_successful -> Page deleted successfully
     ➡️ reports_page_delete_successful=
-  # 🔴 reports_page_shorttitle -> Short Title
+    # 🔴 reports_page_shorttitle -> Short Title
     ➡️ reports_page_shorttitle=
-  # 🔴 reports_page_visibilitykey -> Visibility Key
+    # 🔴 reports_page_visibilitykey -> Visibility Key
     ➡️ reports_page_visibilitykey=
-  # 🔴 reports_pagination_gotopage -> Go to page
+    # 🔴 reports_pagination_gotopage -> Go to page
     ➡️ reports_pagination_gotopage=
-  # 🔴 reports_pagination_loading -> Loading...
+    # 🔴 reports_pagination_loading -> Loading...
     ➡️ reports_pagination_loading=
-  # 🔴 reports_pagination_next -> Next page
+    # 🔴 reports_pagination_next -> Next page
     ➡️ reports_pagination_next=
-  # 🔴 reports_pagination_of -> Of
+    # 🔴 reports_pagination_of -> Of
     ➡️ reports_pagination_of=
-  # 🔴 reports_pagination_page -> Page
+    # 🔴 reports_pagination_page -> Page
     ➡️ reports_pagination_page=
-  # 🔴 reports_pagination_prev -> Previous page
+    # 🔴 reports_pagination_prev -> Previous page
     ➡️ reports_pagination_prev=
-  # 🔴 reports_pagination_show -> Show
+    # 🔴 reports_pagination_show -> Show
     ➡️ reports_pagination_show=
-  # 🔴 reports_pagination_showing -> Showing
+    # 🔴 reports_pagination_showing -> Showing
     ➡️ reports_pagination_showing=
-  # 🔴 reports_period_too_long -> This report covers a longer period than you are allowed to run.
+    # 🔴 reports_period_too_long -> This report covers a longer period than you are allowed to run.
     ➡️ reports_period_too_long=
-  # 🔴 reports_prev_datablock -> Prev
+    # 🔴 reports_prev_datablock -> Prev
     ➡️ reports_prev_datablock=
-  # 🔴 reports_preview_switch -> Preview
+    # 🔴 reports_preview_switch -> Preview
     ➡️ reports_preview_switch=
-  # 🔴 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
+    # 🔴 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
     ➡️ reports_print_notification=
-  # 🔴 reports_public -> Public
+    # 🔴 reports_public -> Public
     ➡️ reports_public=
-  # 🔴 reports_qa_agent -> Agent
+    # 🔴 reports_qa_agent -> Agent
     ➡️ reports_qa_agent=
-  # 🔴 reports_qa_agentgroup -> Agent group
+    # 🔴 reports_qa_agentgroup -> Agent group
     ➡️ reports_qa_agentgroup=
-  # 🔴 reports_qa_caller -> Caller
+    # 🔴 reports_qa_caller -> Caller
     ➡️ reports_qa_caller=
-  # 🔴 reports_qa_code -> Code
+    # 🔴 reports_qa_code -> Code
     ➡️ reports_qa_code=
-  # 🔴 reports_qa_deletenotes -> Delete All
+    # 🔴 reports_qa_deletenotes -> Delete All
     ➡️ reports_qa_deletenotes=
-  # 🔴 reports_qa_description -> Description
+    # 🔴 reports_qa_description -> Description
     ➡️ reports_qa_description=
-  # 🔴 reports_qa_error_add_note -> Error Adding Note
+    # 🔴 reports_qa_error_add_note -> Error Adding Note
     ➡️ reports_qa_error_add_note=
-  # 🔴 reports_qa_error_commit_form -> Error Committing QA Form
+    # 🔴 reports_qa_error_commit_form -> Error Committing QA Form
     ➡️ reports_qa_error_commit_form=
-  # 🔴 reports_qa_error_delete_form -> Error Deleting QA Form
+    # 🔴 reports_qa_error_delete_form -> Error Deleting QA Form
     ➡️ reports_qa_error_delete_form=
-  # 🔴 reports_qa_error_delete_note -> Error Deleting Note
+    # 🔴 reports_qa_error_delete_note -> Error Deleting Note
     ➡️ reports_qa_error_delete_note=
-  # 🔴 reports_qa_error_download_forms -> Error Downloading QA Forms
+    # 🔴 reports_qa_error_download_forms -> Error Downloading QA Forms
     ➡️ reports_qa_error_download_forms=
-  # 🔴 reports_qa_error_edit_form -> Error Editing QA Form
+    # 🔴 reports_qa_error_edit_form -> Error Editing QA Form
     ➡️ reports_qa_error_edit_form=
-  # 🔴 reports_qa_error_update_form -> Error Updating QA Form
+    # 🔴 reports_qa_error_update_form -> Error Updating QA Form
     ➡️ reports_qa_error_update_form=
-  # 🔴 reports_qa_items -> Items
+    # 🔴 reports_qa_items -> Items
     ➡️ reports_qa_items=
-  # 🔴 reports_qa_level -> Level
+    # 🔴 reports_qa_level -> Level
     ➡️ reports_qa_level=
-  # 🔴 reports_qa_na -> N/A
+    # 🔴 reports_qa_na -> N/A
     ➡️ reports_qa_na=
-  # 🔴 reports_qa_newnote -> New Note
+    # 🔴 reports_qa_newnote -> New Note
     ➡️ reports_qa_newnote=
-  # 🔴 reports_qa_noteform_placeholder -> Write your comment here
+    # 🔴 reports_qa_noteform_placeholder -> Write your comment here
     ➡️ reports_qa_noteform_placeholder=
-  # 🔴 reports_qa_noteform_title -> Add Note
+    # 🔴 reports_qa_noteform_title -> Add Note
     ➡️ reports_qa_noteform_title=
-  # 🔴 reports_qa_notes -> Notes
+    # 🔴 reports_qa_notes -> Notes
     ➡️ reports_qa_notes=
-  # 🔴 reports_qa_performance_avg -> Avg.
+    # 🔴 reports_qa_performance_avg -> Avg.
     ➡️ reports_qa_performance_avg=
-  # 🔴 reports_qa_performance_title -> Performance
+    # 🔴 reports_qa_performance_title -> Performance
     ➡️ reports_qa_performance_title=
-  # 🔴 reports_qa_performance_total -> Total score
+    # 🔴 reports_qa_performance_total -> Total score
     ➡️ reports_qa_performance_total=
-  # 🔴 reports_qa_queue -> Queue
+    # 🔴 reports_qa_queue -> Queue
     ➡️ reports_qa_queue=
-  # 🔴 reports_qa_recap_heading -> Call Details
+    # 🔴 reports_qa_recap_heading -> Call Details
     ➡️ reports_qa_recap_heading=
-  # 🔴 reports_qa_select_form -> Select Form
+    # 🔴 reports_qa_select_form -> Select Form
     ➡️ reports_qa_select_form=
-  # 🔴 reports_qa_start -> Start Time
+    # 🔴 reports_qa_start -> Start Time
     ➡️ reports_qa_start=
-  # 🔴 reports_qa_status -> Status
+    # 🔴 reports_qa_status -> Status
     ➡️ reports_qa_status=
-  # 🔴 reports_qa_uid -> Unique Id
+    # 🔴 reports_qa_uid -> Unique Id
     ➡️ reports_qa_uid=
-  # 🔴 reports_qa_value -> Value
+    # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
-  # 🔴 reports_query_loading -> Loading
+    # 🔴 reports_query_loading -> Loading
     ➡️ reports_query_loading=
-  # 🔴 reports_ratio -> Ratio
+    # 🔴 reports_ratio -> Ratio
     ➡️ reports_ratio=
-  # 🔴 reports_recap_no_filters -> Click to add additional filters
+    # 🔴 reports_recap_no_filters -> Click to add additional filters
     ➡️ reports_recap_no_filters=
-  # 🔴 reports_recap_queues -> Queues
+    # 🔴 reports_recap_queues -> Queues
     ➡️ reports_recap_queues=
-  # 🔴 reports_recap_report -> Report
+    # 🔴 reports_recap_report -> Report
     ➡️ reports_recap_report=
-  # 🔴 reports_reload -> Reload Report (unsaved changes will be lost)
+    # 🔴 reports_reload -> Reload Report (unsaved changes will be lost)
     ➡️ reports_reload=
-  # 🔴 reports_reset_resizing -> Reset column resizing
+    # 🔴 reports_reset_resizing -> Reset column resizing
     ➡️ reports_reset_resizing=
-  # 🔴 reports_save -> Save Report
+    # 🔴 reports_save -> Save Report
     ➡️ reports_save=
-  # 🔴 reports_save_report_confirm -> Click OK to edit the current report, Click cancel to create a copy.
+    # 🔴 reports_save_report_confirm -> Click OK to edit the current report, Click cancel to create a copy.
     ➡️ reports_save_report_confirm=
-  # 🔴 reports_save_report_confirm_clone -> Copy & Edit
+    # 🔴 reports_save_report_confirm_clone -> Copy & Edit
     ➡️ reports_save_report_confirm_clone=
-  # 🔴 reports_save_report_confirm_current -> Current
+    # 🔴 reports_save_report_confirm_current -> Current
     ➡️ reports_save_report_confirm_current=
-  # 🔴 reports_save_report_confirm_message -> Edit the current report or create a copy with the new changes?
+    # 🔴 reports_save_report_confirm_message -> Edit the current report or create a copy with the new changes?
     ➡️ reports_save_report_confirm_message=
-  # 🔴 reports_save_report_confirm_title -> Save Report
+    # 🔴 reports_save_report_confirm_title -> Save Report
     ➡️ reports_save_report_confirm_title=
-  # 🔴 reports_save_successful -> Report saved successfully
+    # 🔴 reports_save_successful -> Report saved successfully
     ➡️ reports_save_successful=
-  # 🔴 reports_search_placeholder -> Search Filter
+    # 🔴 reports_search_placeholder -> Search Filter
     ➡️ reports_search_placeholder=
-  # 🔴 reports_select_report -> Choose a Report
+    # 🔴 reports_select_report -> Choose a Report
     ➡️ reports_select_report=
-  # 🔴 reports_settings -> Settings
+    # 🔴 reports_settings -> Settings
     ➡️ reports_settings=
-  # 🔴 reports_settings_areacode -> Area Code
+    # 🔴 reports_settings_areacode -> Area Code
     ➡️ reports_settings_areacode=
-  # 🔴 reports_settings_datablock -> DataBlock
+    # 🔴 reports_settings_datablock -> DataBlock
     ➡️ reports_settings_datablock=
-  # 🔴 reports_settings_hourlyslot -> Hourly Slot
+    # 🔴 reports_settings_hourlyslot -> Hourly Slot
     ➡️ reports_settings_hourlyslot=
-  # 🔴 reports_settings_report -> Report
+    # 🔴 reports_settings_report -> Report
     ➡️ reports_settings_report=
-  # 🔴 reports_settings_shortcallattemptwaitlimit -> Short Call Attempt Wait Limit
+    # 🔴 reports_settings_shortcallattemptwaitlimit -> Short Call Attempt Wait Limit
     ➡️ reports_settings_shortcallattemptwaitlimit=
-  # 🔴 reports_settings_shortcalls -> Short Calls
+    # 🔴 reports_settings_shortcalls -> Short Calls
     ➡️ reports_settings_shortcalls=
-  # 🔴 reports_settings_shortcalltalklimit -> Short Call Talk Limit
+    # 🔴 reports_settings_shortcalltalklimit -> Short Call Talk Limit
     ➡️ reports_settings_shortcalltalklimit=
-  # 🔴 reports_settings_shortcallwaitlimit -> Short Call Wait Limit
+    # 🔴 reports_settings_shortcallwaitlimit -> Short Call Wait Limit
     ➡️ reports_settings_shortcallwaitlimit=
-  # 🔴 reports_settings_slainitialinterval -> SLA Initial Interval
+    # 🔴 reports_settings_slainitialinterval -> SLA Initial Interval
     ➡️ reports_settings_slainitialinterval=
-  # 🔴 reports_settings_slainterval -> SLA Interval
+    # 🔴 reports_settings_slainterval -> SLA Interval
     ➡️ reports_settings_slainterval=
-  # 🔴 reports_settings_slamaxinitialdelay -> SLA Max. Initial Delay
+    # 🔴 reports_settings_slamaxinitialdelay -> SLA Max. Initial Delay
     ➡️ reports_settings_slamaxinitialdelay=
-  # 🔴 reports_settings_slamaxmonitoreddelay -> SLA Max. Monitored Delay
+    # 🔴 reports_settings_slamaxmonitoreddelay -> SLA Max. Monitored Delay
     ➡️ reports_settings_slamaxmonitoreddelay=
-  # 🔴 reports_shortcalls_no -> No
+    # 🔴 reports_shortcalls_no -> No
     ➡️ reports_shortcalls_no=
-  # 🔴 reports_skill_level -> Skill Level
+    # 🔴 reports_skill_level -> Skill Level
     ➡️ reports_skill_level=
-  # 🔴 reports_ssaragents -> Self Service Report Agents
+    # 🔴 reports_ssaragents -> Self Service Report Agents
     ➡️ reports_ssaragents=
-  # 🔴 reports_supervised -> Supervised
+    # 🔴 reports_supervised -> Supervised
     ➡️ reports_supervised=
-  # 🔴 reports_tab_editor -> Edit Tabs Order
+    # 🔴 reports_tab_editor -> Edit Tabs Order
     ➡️ reports_tab_editor=
-  # 🔴 reports_tab_page_list -> Available Report pages
+    # 🔴 reports_tab_page_list -> Available Report pages
     ➡️ reports_tab_page_list=
-  # 🔴 reports_taken_calls -> Taken Calls
+    # 🔴 reports_taken_calls -> Taken Calls
     ➡️ reports_taken_calls=
-  # 🔴 reports_throwaway_report_new -> Unsaved Report
+    # 🔴 reports_throwaway_report_new -> Unsaved Report
     ➡️ reports_throwaway_report_new=
-  # 🔴 reports_time -> Time
+    # 🔴 reports_time -> Time
     ➡️ reports_time=
-  # 🔴 reports_time_mode -> Change Time Period selection mode
+    # 🔴 reports_time_mode -> Change Time Period selection mode
     ➡️ reports_time_mode=
-  # 🔴 reports_time_preset_daybeforeyesterday -> Day before yesterday
+    # 🔴 reports_time_preset_daybeforeyesterday -> Day before yesterday
     ➡️ reports_time_preset_daybeforeyesterday=
-  # 🔴 reports_time_preset_last12hours -> Last 12 hours
+    # 🔴 reports_time_preset_last12hours -> Last 12 hours
     ➡️ reports_time_preset_last12hours=
-  # 🔴 reports_time_preset_last15minutes -> Last 15 minutes
+    # 🔴 reports_time_preset_last15minutes -> Last 15 minutes
     ➡️ reports_time_preset_last15minutes=
-  # 🔴 reports_time_preset_last1hour -> Last 1 hour
+    # 🔴 reports_time_preset_last1hour -> Last 1 hour
     ➡️ reports_time_preset_last1hour=
-  # 🔴 reports_time_preset_last24hours -> Last 24 hours
+    # 🔴 reports_time_preset_last24hours -> Last 24 hours
     ➡️ reports_time_preset_last24hours=
-  # 🔴 reports_time_preset_last2days -> Last 2 Days (Since Current Time)
+    # 🔴 reports_time_preset_last2days -> Last 2 Days (Since Current Time)
     ➡️ reports_time_preset_last2days=
-  # 🔴 reports_time_preset_last2days_midnight -> Last 2 Days (Since Midnight)
+    # 🔴 reports_time_preset_last2days_midnight -> Last 2 Days (Since Midnight)
     ➡️ reports_time_preset_last2days_midnight=
-  # 🔴 reports_time_preset_last2years -> Last 2 years
+    # 🔴 reports_time_preset_last2years -> Last 2 years
     ➡️ reports_time_preset_last2years=
-  # 🔴 reports_time_preset_last30days -> Last 30 Days (Since Current Time)
+    # 🔴 reports_time_preset_last30days -> Last 30 Days (Since Current Time)
     ➡️ reports_time_preset_last30days=
-  # 🔴 reports_time_preset_last30days_midnight -> Last 30 Days (Since Midnight)
+    # 🔴 reports_time_preset_last30days_midnight -> Last 30 Days (Since Midnight)
     ➡️ reports_time_preset_last30days_midnight=
-  # 🔴 reports_time_preset_last30minutes -> Last 30 minutes
+    # 🔴 reports_time_preset_last30minutes -> Last 30 minutes
     ➡️ reports_time_preset_last30minutes=
-  # 🔴 reports_time_preset_last3hours -> Last 3 hours
+    # 🔴 reports_time_preset_last3hours -> Last 3 hours
     ➡️ reports_time_preset_last3hours=
-  # 🔴 reports_time_preset_last5minutes -> Last 5 minutes
+    # 🔴 reports_time_preset_last5minutes -> Last 5 minutes
     ➡️ reports_time_preset_last5minutes=
-  # 🔴 reports_time_preset_last5years -> Last 5 years
+    # 🔴 reports_time_preset_last5years -> Last 5 years
     ➡️ reports_time_preset_last5years=
-  # 🔴 reports_time_preset_last6hours -> Last 6 hours
+    # 🔴 reports_time_preset_last6hours -> Last 6 hours
     ➡️ reports_time_preset_last6hours=
-  # 🔴 reports_time_preset_last6months -> Last 6 months
+    # 🔴 reports_time_preset_last6months -> Last 6 months
     ➡️ reports_time_preset_last6months=
-  # 🔴 reports_time_preset_last7days -> Last 7 Days (Since Current Time)
+    # 🔴 reports_time_preset_last7days -> Last 7 Days (Since Current Time)
     ➡️ reports_time_preset_last7days=
-  # 🔴 reports_time_preset_last7days_midnight -> Last 7 Days (Since Midnight)
+    # 🔴 reports_time_preset_last7days_midnight -> Last 7 Days (Since Midnight)
     ➡️ reports_time_preset_last7days_midnight=
-  # 🔴 reports_time_preset_last90days -> Last 90 Days (Since Current Time)
+    # 🔴 reports_time_preset_last90days -> Last 90 Days (Since Current Time)
     ➡️ reports_time_preset_last90days=
-  # 🔴 reports_time_preset_last90days_midnight -> Last 90 Days (Since Midnight)
+    # 🔴 reports_time_preset_last90days_midnight -> Last 90 Days (Since Midnight)
     ➡️ reports_time_preset_last90days_midnight=
-  # 🔴 reports_time_preset_lastyear -> Last year
+    # 🔴 reports_time_preset_lastyear -> Last year
     ➡️ reports_time_preset_lastyear=
-  # 🔴 reports_time_preset_previousmonth -> Previous month
+    # 🔴 reports_time_preset_previousmonth -> Previous month
     ➡️ reports_time_preset_previousmonth=
-  # 🔴 reports_time_preset_previousweek -> Previous week
+    # 🔴 reports_time_preset_previousweek -> Previous week
     ➡️ reports_time_preset_previousweek=
-  # 🔴 reports_time_preset_previousyear -> Previous year
+    # 🔴 reports_time_preset_previousyear -> Previous year
     ➡️ reports_time_preset_previousyear=
-  # 🔴 reports_time_preset_thisdaylastweek -> This day last week
+    # 🔴 reports_time_preset_thisdaylastweek -> This day last week
     ➡️ reports_time_preset_thisdaylastweek=
-  # 🔴 reports_time_preset_thismonth -> This month
+    # 🔴 reports_time_preset_thismonth -> This month
     ➡️ reports_time_preset_thismonth=
-  # 🔴 reports_time_preset_thismonthsofar -> This month so far
+    # 🔴 reports_time_preset_thismonthsofar -> This month so far
     ➡️ reports_time_preset_thismonthsofar=
-  # 🔴 reports_time_preset_thisweek -> This week
+    # 🔴 reports_time_preset_thisweek -> This week
     ➡️ reports_time_preset_thisweek=
-  # 🔴 reports_time_preset_thisweeksofar -> This week so far
+    # 🔴 reports_time_preset_thisweeksofar -> This week so far
     ➡️ reports_time_preset_thisweeksofar=
-  # 🔴 reports_time_preset_thisyear -> This year
+    # 🔴 reports_time_preset_thisyear -> This year
     ➡️ reports_time_preset_thisyear=
-  # 🔴 reports_time_preset_thisyearsofar -> This year so far
+    # 🔴 reports_time_preset_thisyearsofar -> This year so far
     ➡️ reports_time_preset_thisyearsofar=
-  # 🔴 reports_time_preset_today -> Today
+    # 🔴 reports_time_preset_today -> Today
     ➡️ reports_time_preset_today=
-  # 🔴 reports_time_preset_todaysofar -> Today so far
+    # 🔴 reports_time_preset_todaysofar -> Today so far
     ➡️ reports_time_preset_todaysofar=
-  # 🔴 reports_time_preset_yesterday -> Yesterday
+    # 🔴 reports_time_preset_yesterday -> Yesterday
     ➡️ reports_time_preset_yesterday=
-  # 🔴 reports_topbar_icon_datablock_open_hover_tooltip -> Open DataBlocks menu
+    # 🔴 reports_topbar_icon_datablock_open_hover_tooltip -> Open DataBlocks menu
     ➡️ reports_topbar_icon_datablock_open_hover_tooltip=
-  # 🔴 reports_topbar_icon_export_PDF__open_hover_tooltip -> Export PDF
+    # 🔴 reports_topbar_icon_export_PDF__open_hover_tooltip -> Export PDF
     ➡️ reports_topbar_icon_export_PDF__open_hover_tooltip=
-  # 🔴 reports_topbar_icon_export_excel__open_hover_tooltip -> Export XLS
+    # 🔴 reports_topbar_icon_export_excel__open_hover_tooltip -> Export XLS
     ➡️ reports_topbar_icon_export_excel__open_hover_tooltip=
-  # 🔴 reports_topbar_icon_filter_open_hover_tooltip -> Filters
+    # 🔴 reports_topbar_icon_filter_open_hover_tooltip -> Filters
     ➡️ reports_topbar_icon_filter_open_hover_tooltip=
-  # 🔴 reports_topbar_icon_print_hover_tooltip -> Print
+    # 🔴 reports_topbar_icon_print_hover_tooltip -> Print
     ➡️ reports_topbar_icon_print_hover_tooltip=
-  # 🔴 reports_topbar_icon_run_report_hover_tooltip -> Process Query
+    # 🔴 reports_topbar_icon_run_report_hover_tooltip -> Process Query
     ➡️ reports_topbar_icon_run_report_hover_tooltip=
-  # 🔴 reports_topbar_icon_save_report_hover_tooltip -> Save Report
+    # 🔴 reports_topbar_icon_save_report_hover_tooltip -> Save Report
     ➡️ reports_topbar_icon_save_report_hover_tooltip=
-  # 🔴 reports_topbar_icon_settings_open_hover_tooltip -> Settings
+    # 🔴 reports_topbar_icon_settings_open_hover_tooltip -> Settings
     ➡️ reports_topbar_icon_settings_open_hover_tooltip=
-  # 🔴 reports_topbar_icon_share_open_hover_tooltip -> Share URL
+    # 🔴 reports_topbar_icon_share_open_hover_tooltip -> Share URL
     ➡️ reports_topbar_icon_share_open_hover_tooltip=
-  # 🔴 reports_total_calls -> Total Calls
+    # 🔴 reports_total_calls -> Total Calls
     ➡️ reports_total_calls=
-  # 🔴 reports_trash -> Drag here to delete
+    # 🔴 reports_trash -> Drag here to delete
     ➡️ reports_trash=
-  # 🔴 reports_unsaved -> Unsaved
+    # 🔴 reports_unsaved -> Unsaved
     ➡️ reports_unsaved=
-  # 🔴 reports_visibilitykey -> Visibility Key
+    # 🔴 reports_visibilitykey -> Visibility Key
     ➡️ reports_visibilitykey=
     rt_active_queues=Εμφάνιση ενεργών ουρών αναμονής
     rt_addmember=Προσθήκη μέλους
@@ -5186,7 +5186,7 @@ Other items
     rt_all_queues=Εμφάνιση όλων των ουρών αναμονής
     rt_all_selected=Όλα επιλεγμένα
     rt_bsy=Kατειλημμένοι
-  # 🔴 rt_busysince -> Busy Since
+    # 🔴 rt_busysince -> Busy Since
     ➡️ rt_busysince=
     rt_caller_nbsp=Καλών
     rt_callid=Ταυτότητα καλούντος
@@ -5206,7 +5206,7 @@ Other items
     rt_exception_supervisoronly=Δεν μπορείτε να φιλτράρετε ανα χρήση ή ανα τοποθεσία όταν εκτελούνται αναφορές επόπτη.
     rt_extension_nbsp=Εσωτερικό
     rt_freesince=Ελεύθερος από
-  # 🔴 rt_hangupcall -> Hangup
+    # 🔴 rt_hangupcall -> Hangup
     ➡️ rt_hangupcall=
     rt_hangupcall_capt=Τερματισμός κλήσης
     rt_hangupcall_tt=Τερματισμός
@@ -5260,21 +5260,21 @@ Other items
     rt_on_phone_inbound=Στο τηλέφωνο (εισερχόμενη)
     rt_on_phone_outbound=Στο τηλέφωνο (εξερχόμενη)
     rt_onqueue=Σε ουρά αναμονής
-  # 🔴 rt_open -> click for relevant  action
+    # 🔴 rt_open -> click for relevant  action
     ➡️ rt_open=
     rt_outbound=εξερχόμενη
     rt_pauseagent=Παύση χρήστη
     rt_pauseagent_tt=Παύση χρήστη
     rt_paused_for=Σε παύση για
-  # 🔴 rt_pausedsince -> Paused Since
+    # 🔴 rt_pausedsince -> Paused Since
     ➡️ rt_pausedsince=
     rt_pop_agent_code=Κωδικός χρήστη:
     rt_pop_agent_extension=Εσωτερικό χρήστη:
     rt_pop_agent_logon_extension=Εσωτερικό σύνδεσης χρήστη:
     rt_pop_agent_name=Όνομα χρήστη:
-  # 🔴 rt_pop_barge -> Barge-in
+    # 🔴 rt_pop_barge -> Barge-in
     ➡️ rt_pop_barge=
-  # 🔴 rt_pop_chanspy -> Spy (listen only)
+    # 🔴 rt_pop_chanspy -> Spy (listen only)
     ➡️ rt_pop_chanspy=
     rt_pop_close=Κλείσιμο
     rt_pop_hangup_runbtn=Τερματισμός
@@ -5282,13 +5282,13 @@ Other items
     rt_pop_live_call_monitor=Παρακολούθηση κλήσεων ζωντανά
     rt_pop_monitor_now=Παρακολούθηση τώρα
     rt_pop_please_enter_your_local_or_remote_extension=Παρακαλώ εισάγετε το τοπικό ή απομακρυσμένο εσωτερικό σας ώστε να αρχίσει η παρακολούθηση κλήσεων
-  # 🔴 rt_pop_spy_mode -> Monitoring mode
+    # 🔴 rt_pop_spy_mode -> Monitoring mode
     ➡️ rt_pop_spy_mode=
     rt_pop_transfer_extension=Μεταφορά σε εσωτερικό:
     rt_pop_transfer_runbtn=Μεταφορά
     rt_pop_transfer_title=Μεταφορά κλήσης
     rt_pop_unique_id=Μοναδικό ID
-  # 🔴 rt_pop_whisper -> Whisper to the agent
+    # 🔴 rt_pop_whisper -> Whisper to the agent
     ➡️ rt_pop_whisper=
     rt_pop_your_extension=Το εσωτερικό σας:
     rt_qacall=QA
@@ -5315,7 +5315,7 @@ Other items
     rt_rep_contph=CPH
     rt_rep_conversions=Μετατρ.
     rt_rep_gotoreports=Εκτέλεση αναφοράς
-  # 🔴 rt_rep_lost_attempts -> Lost Att.
+    # 🔴 rt_rep_lost_attempts -> Lost Att.
     ➡️ rt_rep_lost_attempts=
     rt_rep_nobillpause=Μη χρεώσιμη παύση
     rt_rep_offered=Προτεινόμενο
@@ -5350,7 +5350,7 @@ Other items
     rt_show_any_agent=Προβολή οποιουδήποτε χρήστη
     rt_show_calls=Προβολή κλήσεων
     rt_show_members_only=Προβολή μόνο μελών
-  # 🔴 rt_since -> Since
+    # 🔴 rt_since -> Since
     ➡️ rt_since=
     rt_transfercall=Μεταφορά
     rt_transfercall_tt=Μεταφορά
@@ -5421,9 +5421,9 @@ Other items
     sync2_agent_filter=Φίλτρο χρηστών
     sync2_agent_id=Ταυτότητα Χρήστη
     sync2_agent_im=ΙΜ
-  # 🔴 sync2_agent_info -> Agent Information
+    # 🔴 sync2_agent_info -> Agent Information
     ➡️ sync2_agent_info=
-  # 🔴 sync2_agent_misc -> Misc
+    # 🔴 sync2_agent_misc -> Misc
     ➡️ sync2_agent_misc=
     sync2_agent_sip_pass=Κωδικός WebRTC
     sync2_agent_sip_realm=WebRTC Realm
@@ -5431,7 +5431,7 @@ Other items
     sync2_agent_sip_user=Χρήστης WebRTC
     sync2_agent_user_password=Κωδικός χρήστη
     sync2_agent_vnc=VNC
-  # 🔴 sync2_agent_webrtc -> WebRTC
+    # 🔴 sync2_agent_webrtc -> WebRTC
     ➡️ sync2_agent_webrtc=
     sync2_agents_placeholder=Χρήστες
     sync2_ami_host=AMI Host
@@ -5443,19 +5443,19 @@ Other items
     sync2_choose_source=Επιλογή πηγής
     sync2_cluster=Ρυθμίσεις συμπλέγματος
     sync2_cluster_info=Πληροφορίες συμπλέγματος
-  # 🔴 sync2_collapse -> Collapse
+    # 🔴 sync2_collapse -> Collapse
     ➡️ sync2_collapse=
     sync2_configuration_applied=Οι νέες ρυθμίσεις εφαρμόστηκαν με επιτυχία
-  # 🔴 sync2_configuration_export -> Download your configuration
+    # 🔴 sync2_configuration_export -> Download your configuration
     ➡️ sync2_configuration_export=
-  # 🔴 sync2_configuration_import -> Upload your configuration
+    # 🔴 sync2_configuration_import -> Upload your configuration
     ➡️ sync2_configuration_import=
     sync2_create=Ενεργοποίηση ενεργειών Δημιουργίας 
     sync2_create_users=Ενεργοποίηση δημιουργίας Χρήστη
     sync2_delete=Ενεργοποίηση ενεργειών Διαγραφής
     sync2_delete_agents_confirm=Είστε βέβαιοι ότι θέλετε να διαγράψετε όλους τους χρήστες;
     sync2_delete_queues_confirm=Είστε βέβαιοι ότι θέλετε να διαγράψετε όλες τις ουρές αναμονής;
-  # 🔴 sync2_delete_selected -> Delete
+    # 🔴 sync2_delete_selected -> Delete
     ➡️ sync2_delete_selected=
     sync2_deleteall_agent=Διαγραφή όλων των χρηστών
     sync2_deleteall_queues=Διαγράψτε όλες τις ουρές αναμονής
@@ -5465,10 +5465,10 @@ Other items
     sync2_edit_queues=Επεξεργασία ουράς αναμονής
     sync2_error_applying_configuration=Παρουσιάστηκε σφάλμα κατά την εφαρμογή των νέων ρυθμίσεων
     sync2_error_comparing_configuration=Σφάλμα σύγκρισης ρυθμίσεων
-  # 🔴 sync2_error_invalid_input -> The JSON configuration that was imported is a valid JSON file, but one or more data fields are of the wrong data type. Please check the configuration file.
+    # 🔴 sync2_error_invalid_input -> The JSON configuration that was imported is a valid JSON file, but one or more data fields are of the wrong data type. Please check the configuration file.
     ➡️ sync2_error_invalid_input=
     sync2_error_read_configuration=Η επιλεγμένη πηγή δεν παρέχει έγκυρες ρυθμίσεις.
-  # 🔴 sync2_expand -> Expand
+    # 🔴 sync2_expand -> Expand
     ➡️ sync2_expand=
     sync2_export=Εξαγωγή ρυθμίσεων
     sync2_export_filename=Όνομα αρχείου
@@ -5487,7 +5487,7 @@ Other items
     sync2_import=Εισαγωγή ρυθμίσεων
     sync2_import_confirm=Έχετε μη αποθηκευμένες αλλαγές, εάν εισαγάγετε νέα διαμόρφωση, θα χαθούν. Θέλετε να προχωρήσετε;
     sync2_inbound=Εισερχόμενες
-  # 🔴 sync2_mode_configuration -> Synchronizer Configuration
+    # 🔴 sync2_mode_configuration -> Synchronizer Configuration
     ➡️ sync2_mode_configuration=
     sync2_new_pbx=Νέο Τηλεφωνικό Κέντρο
     sync2_outbound=Εξερχόμενες
@@ -5503,16 +5503,16 @@ Other items
     sync2_queue_composition=Σύνθεση
     sync2_queue_created=Η ουρά αναμονής δημιουργήθηκε επιτυχώς
     sync2_queue_filter=Φίλτρο ουράς αναμονής
-  # 🔴 sync2_queue_info -> Queue Information
+    # 🔴 sync2_queue_info -> Queue Information
     ➡️ sync2_queue_info=
     sync2_queue_name=Όνομα
     sync2_queues_placeholder=Ουρές αναμονής
     sync2_read=Ανάγνωση
     sync2_reset=Επαναφορά
     sync2_save=Αποθήκευση
-  # 🔴 sync2_selectall_agents -> Select All Agents
+    # 🔴 sync2_selectall_agents -> Select All Agents
     ➡️ sync2_selectall_agents=
-  # 🔴 sync2_selectall_queues -> Select All Queues
+    # 🔴 sync2_selectall_queues -> Select All Queues
     ➡️ sync2_selectall_queues=
     sync2_show_mode_selectors=Εμφάνιση Επιλογέων Λειτουργίας
     sync2_success_read_configuration=Η επιλεγμένη διαμόρφωση έχει εισαχθεί σωστά.
@@ -5522,66 +5522,66 @@ Other items
     sync2_url_input=URL
     t3_circle_lost_calls=Χαμένες Κλήσεις
     t3_live_agent_info=Πληροφ. Ενεργού Χρήστη (Live)
-  # 🔴 timeline_avg -> Avg.
+    # 🔴 timeline_avg -> Avg.
     ➡️ timeline_avg=
-  # 🔴 timeline_close -> Return to Report
+    # 🔴 timeline_close -> Return to Report
     ➡️ timeline_close=
-  # 🔴 timeline_debug -> Download Debug Info
+    # 🔴 timeline_debug -> Download Debug Info
     ➡️ timeline_debug=
-  # 🔴 timeline_download_recording -> Download Recording
+    # 🔴 timeline_download_recording -> Download Recording
     ➡️ timeline_download_recording=
-  # 🔴 timeline_event -> Event
+    # 🔴 timeline_event -> Event
     ➡️ timeline_event=
-  # 🔴 timeline_events -> Timeline Events
+    # 🔴 timeline_events -> Timeline Events
     ➡️ timeline_events=
-  # 🔴 timeline_interaction_calltot -> Total:
+    # 🔴 timeline_interaction_calltot -> Total:
     ➡️ timeline_interaction_calltot=
-  # 🔴 timeline_marker_add -> Marker
+    # 🔴 timeline_marker_add -> Marker
     ➡️ timeline_marker_add=
-  # 🔴 timeline_marker_delete -> Delete Marker
+    # 🔴 timeline_marker_delete -> Delete Marker
     ➡️ timeline_marker_delete=
-  # 🔴 timeline_marker_delete_confirm -> The selected Marker will be deleted. Continue?
+    # 🔴 timeline_marker_delete_confirm -> The selected Marker will be deleted. Continue?
     ➡️ timeline_marker_delete_confirm=
-  # 🔴 timeline_marker_duration -> Duration
+    # 🔴 timeline_marker_duration -> Duration
     ➡️ timeline_marker_duration=
-  # 🔴 timeline_marker_editor_title -> Create a Marker
+    # 🔴 timeline_marker_editor_title -> Create a Marker
     ➡️ timeline_marker_editor_title=
-  # 🔴 timeline_marker_list -> Markers
+    # 🔴 timeline_marker_list -> Markers
     ➡️ timeline_marker_list=
-  # 🔴 timeline_marker_message -> Message
+    # 🔴 timeline_marker_message -> Message
     ➡️ timeline_marker_message=
-  # 🔴 timeline_marker_play -> Go to Marker
+    # 🔴 timeline_marker_play -> Go to Marker
     ➡️ timeline_marker_play=
-  # 🔴 timeline_marker_time -> Time
+    # 🔴 timeline_marker_time -> Time
     ➡️ timeline_marker_time=
-  # 🔴 timeline_markers_hide -> Hide Markers
+    # 🔴 timeline_markers_hide -> Hide Markers
     ➡️ timeline_markers_hide=
-  # 🔴 timeline_markers_show -> Show Markers
+    # 🔴 timeline_markers_show -> Show Markers
     ➡️ timeline_markers_show=
-  # 🔴 timeline_max -> Max.
+    # 🔴 timeline_max -> Max.
     ➡️ timeline_max=
-  # 🔴 timeline_min -> Min.
+    # 🔴 timeline_min -> Min.
     ➡️ timeline_min=
-  # 🔴 timeline_no_recordings -> No Recordings
+    # 🔴 timeline_no_recordings -> No Recordings
     ➡️ timeline_no_recordings=
-  # 🔴 timeline_number -> Number
+    # 🔴 timeline_number -> Number
     ➡️ timeline_number=
-  # 🔴 timeline_stint_end -> Stint End
+    # 🔴 timeline_stint_end -> Stint End
     ➡️ timeline_stint_end=
-  # 🔴 timeline_stint_start -> Stint Start
+    # 🔴 timeline_stint_start -> Stint Start
     ➡️ timeline_stint_start=
-  # 🔴 timeline_tab_details -> Details
+    # 🔴 timeline_tab_details -> Details
     ➡️ timeline_tab_details=
-  # 🔴 timeline_tab_qa -> QA/Recordings
+    # 🔴 timeline_tab_qa -> QA/Recordings
     ➡️ timeline_tab_qa=
-  # 🔴 timeline_tab_recordings -> Recordings
+    # 🔴 timeline_tab_recordings -> Recordings
     ➡️ timeline_tab_recordings=
-  # 🔴 timeline_totdur -> Tot. Dur.
+    # 🔴 timeline_totdur -> Tot. Dur.
     ➡️ timeline_totdur=
     ts_agawrep_invalidlocation=Παρακαλώ ορίστε έγκυρη τοποθεσία
     userpage_change_button=Αλλαγή
     userpage_change_password=Αλλαγή κωδικού πρόσβασης
-  # 🔴 userpage_change_theme -> Select Theme
+    # 🔴 userpage_change_theme -> Select Theme
     ➡️ userpage_change_theme=
     userpage_class=Τρέχουσα κατηγορία 
     userpage_err_password=Οι νέοι κωδικοί που έχετε δηλώσει είναι διαφορετικοί ή ο παλιός κωδικός πρόσβασης είναι λάθος.
@@ -5593,7 +5593,7 @@ Other items
     userpage_number_logons=Αριθμός συνδέσεων
     userpage_old_password=Παλιός κωδικός πρόσβασης
     userpage_retype=Πληκτρολογήστε ξανά τον νέο κωδικό πρόσβασης
-  # 🔴 userpage_theme -> Theme
+    # 🔴 userpage_theme -> Theme
     ➡️ userpage_theme=
     userpage_title=Πληροφορίες τρέχοντος χρήστη
     xtsrc_err=Σφάλμα κατά την πρόσβαση σε εξωτερική πηγή δεδομένων. Παρακαλούμε δείτε το αρχείο καταγραφής σφαλμάτων του διακομιστή.
