@@ -496,7 +496,7 @@ Do not change the items below:
     clage_n_calls=Кол-во вызовов
     clage_n_of_agents_available=Кол-во доступных агентов:
     clage_nanswcalls=Число вызовов
-    ➡️ clage_nbsp=
+    clage_nbsp= 
     clage_nftrs=Свойства
     clage_ngoalftrs=Особенности цели
     clage_nobillpause=Неоплачиваемый
@@ -659,7 +659,7 @@ Do not change the items below:
     cld_n_calls=Кол-во вызовов
     cld_n_lost=Потерянные вызовы
     cld_n_taken=Принятые вызовы
-    ➡️ cld_nbsp=
+    cld_nbsp= 
     cld_nopayable=Не оплачивается
     cld_opos=Поз.
     cld_pause=Пауза
@@ -766,7 +766,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour=SLA за час
     cldst_max=Макс.
     cldst_min=Мин.
-    ➡️ cldst_nbsp=
+    cldst_nbsp= 
     cldst_noskills=Нет квалификаций
     cldst_num=Кол-во
     cldst_percent=%
@@ -898,7 +898,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Мин. очередь перед разъединением:
     clko_min_wait_time_before_disconnection=Мин. время ожидания перед разъединением:
     clko_n_calls=Кол-во вызовов
-    ➡️ clko_nbsp=
+    clko_nbsp= 
     clko_nof_unanswered_calls=Кол-во неотвеченных вызовов:
     clko_offered=% предложенных
     clko_percent=Процент
@@ -1015,7 +1015,7 @@ Do not change the items below:
     clok_n_calls=Кол-во вызовов
     clok_n_calls_answered_by_operators=Кол-во вызовов, обработанных агентами:
     clok_n_stints=Кол-во очередей
-    ➡️ clok_nbsp=
+    clok_nbsp= 
     clok_offered=% предлож.
     clok_percent=Процент
     clok_position_enter=Позиция
@@ -4111,7 +4111,7 @@ Other items
     rt_monitor_tt=Отслеживать сейчас
     rt_n_agents=Кол-во агентов
     rt_n_calls_waiting=Кол-во звонков на ожидании
-    ➡️ rt_nbsp=
+    rt_nbsp= 
     rt_on_pause=На паузе
     rt_on_pause_nbsp=На паузе
     rt_on_phone_inbound=Входящих
@@ -4238,7 +4238,7 @@ Other items
     rt_wall_moh=MOH
     rt_wall_n_agents=Агенты
     rt_wall_n_calls_waiting=Ожидание
-    ➡️ rt_wall_nbsp=
+    rt_wall_nbsp= 
     rt_wall_on_pause=На паузе
     rt_wall_on_phone_inbound=Входящих
     rt_wall_on_phone_outbound=Исходящих

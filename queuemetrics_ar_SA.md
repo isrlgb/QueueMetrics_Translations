@@ -496,7 +496,7 @@ Do not change the items below:
     clage_n_calls=عدد المكالمات
     clage_n_of_agents_available=عدد الوكلاء المتاحين
     clage_nanswcalls=مستلمة
-    ➡️ clage_nbsp=
+    clage_nbsp= 
     clage_nftrs=Ftrs
     clage_ngoalftrs= Ftrs هدف 
     clage_nobillpause=غير مفوتر

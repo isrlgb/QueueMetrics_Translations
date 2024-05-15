@@ -496,7 +496,7 @@ Do not change the items below:
     clage_n_calls=Nb. d'appels
     clage_n_of_agents_available=Nb. d'agents disponibles:
     clage_nanswcalls=Répondu
-    ➡️ clage_nbsp=
+    clage_nbsp= 
     clage_nftrs=Caractéristiques
     clage_ngoalftrs=Caract. de l'Objectif
     clage_nobillpause=Non facturable
@@ -659,7 +659,7 @@ Do not change the items below:
     cld_n_calls=Nb d'Appels
     cld_n_lost=Appels non-répondus
     cld_n_taken=Appels Répondus
-    ➡️ cld_nbsp=
+    cld_nbsp= 
     cld_nopayable=Non facturable
     cld_opos=Pos.
     cld_pause=Pause
@@ -766,7 +766,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour=Accord de Qualité de Service par heure
     cldst_max=Max
     cldst_min=Min
-    ➡️ cldst_nbsp=
+    cldst_nbsp= 
     cldst_noskills=Sans compétence
     cldst_num=Numéro
     cldst_percent=%
@@ -898,7 +898,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Position mininale dans la File lors de la déconnexion:
     clko_min_wait_time_before_disconnection=Temps minimal d'attente avant déconnexion:
     clko_n_calls=Nb.
-    ➡️ clko_nbsp=
+    clko_nbsp= 
     clko_nof_unanswered_calls=Nb d'appels non répondus:
     clko_offered=%age offert
     clko_percent=Pourcentage
@@ -1015,7 +1015,7 @@ Do not change the items below:
     clok_n_calls=Nb. Appels
     clok_n_calls_answered_by_operators=Nb. d'appels répondus:
     clok_n_stints=Nombre des morceaux
-    ➡️ clok_nbsp=
+    clok_nbsp= 
     clok_offered=% offert
     clok_percent=Pourcentage
     clok_position_enter=Position à l'entrée
@@ -4111,7 +4111,7 @@ Other items
     rt_monitor_tt=Enregistrer maintenant
     rt_n_agents=Nb. Opérateurs
     rt_n_calls_waiting=Nb. Appels en attente
-    ➡️ rt_nbsp=
+    rt_nbsp= 
     rt_on_pause=En pause
     rt_on_pause_nbsp=En pause
     rt_on_phone_inbound=Au téléphone (app. entrant)
@@ -4216,7 +4216,7 @@ Other items
     rt_visitor_ext_nbsp=Ext.
     rt_visitor_in_order_to_mantain_session_information=Pour rafraichir les informations cette page se rechargera automatiquement
     rt_visitor_n_calls=Nb. Appels
-    ➡️ rt_visitor_nbsp=
+    rt_visitor_nbsp= 
     rt_visitor_queue=File
     rt_visitor_queue_nbsp=File
     rt_visitor_queues=File(s):
@@ -4238,7 +4238,7 @@ Other items
     rt_wall_moh=Mus.Patience
     rt_wall_n_agents=Agents
     rt_wall_n_calls_waiting=Attente
-    ➡️ rt_wall_nbsp=
+    rt_wall_nbsp= 
     rt_wall_on_pause=Pause
     rt_wall_on_phone_inbound=Entrant
     rt_wall_on_phone_outbound=Sortant

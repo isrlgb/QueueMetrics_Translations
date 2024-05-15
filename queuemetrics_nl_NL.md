@@ -496,7 +496,7 @@ Do not change the items below:
     clage_n_calls=Aantal oproepen
     clage_n_of_agents_available=N. agents beschikbaar:
     clage_nanswcalls=Beantwoord
-    ➡️ clage_nbsp=
+    clage_nbsp= 
     clage_nftrs=Functies
     clage_ngoalftrs=Doel functies
     clage_nobillpause=Niet facturable
@@ -659,7 +659,7 @@ Do not change the items below:
     cld_n_calls=Aantal gesprekken
     cld_n_lost=Gemiste gesprekken
     cld_n_taken=Aangenomen gesprekken
-    ➡️ cld_nbsp=
+    cld_nbsp= 
     ➡️ cld_nopayable=
     cld_opos=Pos.
     cld_pause=Status
@@ -766,7 +766,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour=Inclusief SLA per uur
     cldst_max=Max
     cldst_min=Min
-    ➡️ cldst_nbsp=
+    cldst_nbsp= 
     cldst_noskills=Geen vaardigheid
     cldst_num=Num
     ➡️ cldst_percent=
@@ -898,7 +898,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Minimale wachtrij positie op moment van ophangen:
     clko_min_wait_time_before_disconnection=Minimale wachttijd voordat opgehangen:
     clko_n_calls=Aantal oproepen
-    ➡️ clko_nbsp=
+    clko_nbsp= 
     clko_nof_unanswered_calls=Aantal onbeantwoorde oproepen:
     clko_offered=aangeboden
     clko_percent=Procent
@@ -1015,7 +1015,7 @@ Do not change the items below:
     clok_n_calls=Aantal Oproepen
     clok_n_calls_answered_by_operators=Aantal oproepen beantwoord door agents:
     clok_n_stints=Aantal stints
-    ➡️ clok_nbsp=
+    clok_nbsp= 
     clok_offered=Van aangeboden
     clok_percent=Procent
     clok_position_enter=Positie bij binnenkomst
@@ -4111,7 +4111,7 @@ Other items
     rt_monitor_tt=Beluister nu
     rt_n_agents=Aantal agents
     rt_n_calls_waiting=Aantal wachtende oproepen
-    ➡️ rt_nbsp=
+    rt_nbsp= 
     rt_on_pause=Status
     rt_on_pause_nbsp=Status  
     rt_on_phone_inbound=In gesprek inbound
@@ -4216,7 +4216,7 @@ Other items
     rt_visitor_ext_nbsp=Ext.
     rt_visitor_in_order_to_mantain_session_information=Om de sessie informatie up-to-date te houden zal deze pagina automatisch herladen
     rt_visitor_n_calls=N. oproepen
-    ➡️ rt_visitor_nbsp=
+    rt_visitor_nbsp= 
     rt_visitor_queue=Wachtrij
     rt_visitor_queue_nbsp=Wachtrij
     rt_visitor_queues=Wachtrij(en):
@@ -4238,7 +4238,7 @@ Other items
     rt_wall_moh=MOH
     rt_wall_n_agents=Agent
     rt_wall_n_calls_waiting=Wachtende
-    ➡️ rt_wall_nbsp=
+    rt_wall_nbsp= 
     rt_wall_on_pause=Stat
     rt_wall_on_phone_inbound=In
     rt_wall_on_phone_outbound=Uit

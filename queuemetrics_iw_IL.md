@@ -496,7 +496,7 @@ Do not change the items below:
     clage_n_calls=כמות שיחות
     clage_n_of_agents_available=כמות נציגים פנויים:
     clage_nanswcalls=נענו
-    ➡️ clage_nbsp=
+    clage_nbsp= 
     clage_nftrs=תכונות
     clage_ngoalftrs=תכונות היעדים
     clage_nobillpause=לא לחיוב
@@ -659,7 +659,7 @@ Do not change the items below:
     cld_n_calls=כמות שיחות
     cld_n_lost=שיחות שלא נענו
     cld_n_taken=שיחות שנלקחו
-    ➡️ cld_nbsp=
+    cld_nbsp= 
     cld_nopayable=לא לתשלום
     cld_opos=מיקום
     cld_pause=הפסקה
@@ -766,7 +766,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour= כולל לשעה SLA
     cldst_max=מקס.
     cldst_min=מינ,
-    ➡️ cldst_nbsp=
+    cldst_nbsp= 
     cldst_noskills=ללא כישורים
     cldst_num=מספר
     cldst_percent=%
@@ -898,7 +898,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=מיקום מינ. בתור בניתוק
     clko_min_wait_time_before_disconnection=זמן המתנה מינ. לפני ניתוק
     clko_n_calls=מ. שיחות
-    ➡️ clko_nbsp=
+    clko_nbsp= 
     clko_nof_unanswered_calls=מ. שיחות שלא נענו
     clko_offered=% הצעות
     clko_percent=אחוז
@@ -1015,7 +1015,7 @@ Do not change the items below:
     clok_n_calls=מ. שיחות
     clok_n_calls_answered_by_operators=מ. שיחות שנענו ע"י נציגים
     clok_n_stints=מספר שלבי שיחה
-    ➡️ clok_nbsp=
+    clok_nbsp= 
     clok_offered=הצעות %
     clok_percent=נוכחי
     clok_position_enter=מיקום בכניסה
@@ -4111,7 +4111,7 @@ Other items
     ➡️ rt_monitor_tt=
     ➡️ rt_n_agents=
     ➡️ rt_n_calls_waiting=
-    ➡️ rt_nbsp=
+    rt_nbsp= 
     ➡️ rt_on_pause=
     rt_on_pause_nbsp=בהפסקה
     rt_on_phone_inbound=בשיחה פעילה
@@ -4216,7 +4216,7 @@ Other items
     ➡️ rt_visitor_ext_nbsp=
     ➡️ rt_visitor_in_order_to_mantain_session_information=
     ➡️ rt_visitor_n_calls=
-    ➡️ rt_visitor_nbsp=
+    rt_visitor_nbsp= 
     ➡️ rt_visitor_queue=
     ➡️ rt_visitor_queue_nbsp=
     ➡️ rt_visitor_queues=
@@ -4238,7 +4238,7 @@ Other items
     ➡️ rt_wall_moh=
     ➡️ rt_wall_n_agents=
     ➡️ rt_wall_n_calls_waiting=
-    ➡️ rt_wall_nbsp=
+    rt_wall_nbsp= 
     ➡️ rt_wall_on_pause=
     ➡️ rt_wall_on_phone_inbound=
     ➡️ rt_wall_on_phone_outbound=

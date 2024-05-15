@@ -496,7 +496,7 @@ Do not change the items below:
     clage_n_calls=Anz. Anrufe
     clage_n_of_agents_available=Anz. verfügbarer Agenten:
     clage_nanswcalls=Beantwortet
-    ➡️ clage_nbsp=
+    clage_nbsp= 
     clage_nftrs=Eigenschaften
     clage_ngoalftrs=Ziel Ftrs
     clage_nobillpause=Nicht abrechenbar
@@ -659,7 +659,7 @@ Do not change the items below:
     cld_n_calls=Anzahl der Anrufe
     cld_n_lost=Verlorene Anrufe
     cld_n_taken=Angenommene Anrufe
-    ➡️ cld_nbsp=
+    cld_nbsp= 
     cld_nopayable=Nicht zahlbar
     cld_opos=Pos.
     cld_pause=Pause
@@ -766,7 +766,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour=Innerhalb SLA pro Stunde
     cldst_max=Max.
     cldst_min=Min.
-    ➡️ cldst_nbsp=
+    cldst_nbsp= 
     cldst_noskills=Keine Fähigkeiten
     cldst_num=Anz.
     cldst_percent=%
@@ -898,7 +898,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Min. Position in der Warteschlange bei Verbindungsende:
     clko_min_wait_time_before_disconnection=Min. Wartezeit vor Verbindungsende:
     clko_n_calls=Anz. Anrufe
-    ➡️ clko_nbsp=
+    clko_nbsp= 
     clko_nof_unanswered_calls=Anz. nicht angenommener Anrufe:
     clko_offered=% Von angebotenen
     clko_percent=Prozente
@@ -1015,7 +1015,7 @@ Do not change the items below:
     clok_n_calls=Anz. Anrufe
     clok_n_calls_answered_by_operators=Anz. der durch einen Agenten angenommenen Gespräche:
     clok_n_stints=Anzahl der Zeitperioden
-    ➡️ clok_nbsp=
+    clok_nbsp= 
     clok_offered=Von Angeboten
     clok_percent=Prozente
     clok_position_enter=Position zur Eingabe
@@ -4111,7 +4111,7 @@ Other items
     rt_monitor_tt=Jetzt überwachen
     rt_n_agents=Anz. Agenten
     rt_n_calls_waiting=Anz. wartender Anrufe
-    ➡️ rt_nbsp=
+    rt_nbsp= 
     rt_on_pause=In der Pause
     rt_on_pause_nbsp=In der Pause
     rt_on_phone_inbound=Im Gespräch (eingehend)
@@ -4238,7 +4238,7 @@ Other items
     rt_wall_moh=Wartemusik
     rt_wall_n_agents=Age.
     rt_wall_n_calls_waiting=Gewartet
-    ➡️ rt_wall_nbsp=
+    rt_wall_nbsp= 
     rt_wall_on_pause=Pause
     rt_wall_on_phone_inbound=Eing.
     rt_wall_on_phone_outbound=Ausg.

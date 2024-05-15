@@ -496,7 +496,7 @@ Do not change the items below:
     clage_n_calls=Çağrı Sayısı
     clage_n_of_agents_available=Müşteri temsilcisi Sayısı:
     clage_nanswcalls=Cevaplandı
-    ➡️ clage_nbsp=
+    clage_nbsp= 
     clage_nftrs=Özellikler
     clage_ngoalftrs=Hedef Özellikleri
     clage_nobillpause=Ücrete Tabi Olmayan
@@ -766,7 +766,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour=Saat için SLA içeren
     cldst_max=Max
     cldst_min=Min
-    ➡️ cldst_nbsp=
+    cldst_nbsp= 
     cldst_noskills=Özellikler yok
     cldst_num=Sayı
     cldst_percent=%
@@ -898,7 +898,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Bağlantı kesilmesi sırasında min havuz konumu:
     clko_min_wait_time_before_disconnection=Bağlantı kesilmesi sırasında min bekleme süresi:
     clko_n_calls=Çağrı Sayısı
-    ➡️ clko_nbsp=
+    clko_nbsp= 
     clko_nof_unanswered_calls=Cevaplanmayan çağrı Sayısı
     clko_offered=Teklif edilenler %
     clko_percent=Yüzde

@@ -496,7 +496,7 @@ Do not change the items below:
     clage_n_calls=N. llamadas
     clage_n_of_agents_available=N. de agentes disponibles:
     clage_nanswcalls=Atendidas
-    ➡️ clage_nbsp=
+    clage_nbsp=? 
     clage_nftrs=Característica
     clage_ngoalftrs=Filtro por Metas
     clage_nobillpause=No facturable
@@ -659,7 +659,7 @@ Do not change the items below:
     cld_n_calls=Nro. de Llamadas
     cld_n_lost=Llamadas Perdidas
     cld_n_taken=Llamadas Atendidas
-    ➡️ cld_nbsp=
+    cld_nbsp=? 
     cld_nopayable=No Pagable
     cld_opos=Pos.
     cld_pause=Pausa
@@ -766,7 +766,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour=SLA por hora
     cldst_max=Max.
     cldst_min=Min.
-    ➡️ cldst_nbsp=
+    cldst_nbsp=? 
     cldst_noskills=Sin Habilidades
     cldst_num=Num.
     cldst_percent=Porcentaje
@@ -898,7 +898,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Posicion Min en cola antes de desconect.:
     clko_min_wait_time_before_disconnection=Espera Min antes de desconect.:
     clko_n_calls=N. Llamadas
-    ➡️ clko_nbsp=
+    clko_nbsp=? 
     clko_nof_unanswered_calls=N. de llamadas no contest.:
     clko_offered=% ofrecido
     clko_percent=Porcentaje
@@ -1015,7 +1015,7 @@ Do not change the items below:
     clok_n_calls=N. Llamadas
     clok_n_calls_answered_by_operators=N. llamadas contestadas por operador(es):
     clok_n_stints=Cantidad de stints
-    ➡️ clok_nbsp=
+    clok_nbsp=? 
     clok_offered=% ofrecido
     clok_percent=Porcentaje
     clok_position_enter=Posición a la entrada
@@ -4111,7 +4111,7 @@ Other items
     rt_monitor_tt=Monitorear ahora
     rt_n_agents=N. agentes
     rt_n_calls_waiting=N. llamadas en espera
-    ➡️ rt_nbsp=
+    rt_nbsp=? 
     rt_on_pause=En pausa
     rt_on_pause_nbsp=En pausa
     rt_on_phone_inbound=Al teléfono entrante
@@ -4216,7 +4216,7 @@ Other items
     rt_visitor_ext_nbsp=Ext.
     rt_visitor_in_order_to_mantain_session_information=Para mantener la informacion de esta sesion, esta página es actualizada periodicamente
     rt_visitor_n_calls=N. llamadas
-    ➡️ rt_visitor_nbsp=
+    rt_visitor_nbsp=? 
     rt_visitor_queue=Cola
     rt_visitor_queue_nbsp=Cola
     rt_visitor_queues=Cola(s):
@@ -4238,7 +4238,7 @@ Other items
     rt_wall_moh=MOH
     rt_wall_n_agents=Agentes
     rt_wall_n_calls_waiting=Esperando
-    ➡️ rt_wall_nbsp=
+    rt_wall_nbsp=? 
     rt_wall_on_pause=Pausa
     rt_wall_on_phone_inbound=Entrante
     rt_wall_on_phone_outbound=Saliente

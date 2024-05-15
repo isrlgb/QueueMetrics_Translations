@@ -4111,7 +4111,7 @@ Other items
     rt_monitor_tt=Παρακολούθηση τώρα
     rt_n_agents=Αρ. χρηστών
     rt_n_calls_waiting=Αρ. κλήσεων σε αναμονή
-    ➡️ rt_nbsp=
+    rt_nbsp= 
     rt_on_pause=Σε παύση
     rt_on_pause_nbsp=Σε παύση
     rt_on_phone_inbound=Στο τηλέφωνο (εισερχόμενη)
@@ -4216,7 +4216,7 @@ Other items
     rt_visitor_ext_nbsp=Εσωτ.
     rt_visitor_in_order_to_mantain_session_information=Για να διατηρηθούν οι πληροφορίες της συνεδρίας η σελίδα θα κάνει επαναφόρτωση αυτόματα.
     rt_visitor_n_calls=Αρ. κλήσεων
-    ➡️ rt_visitor_nbsp=
+    rt_visitor_nbsp= 
     rt_visitor_queue=Ουρά αναμονής
     rt_visitor_queue_nbsp=Ουρά αναμονής
     rt_visitor_queues=Ουρά(ές) αναμονής:

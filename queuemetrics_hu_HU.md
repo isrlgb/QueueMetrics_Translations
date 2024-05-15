@@ -496,7 +496,7 @@ Do not change the items below:
     clage_n_calls=Hívások száma
     clage_n_of_agents_available=Elérhetõ közvetitõk száma
     ➡️ clage_nanswcalls=
-    ➡️ clage_nbsp=
+    clage_nbsp= 
     ➡️ clage_nftrs=
     ➡️ clage_ngoalftrs=
     ➡️ clage_nobillpause=
@@ -659,7 +659,7 @@ Do not change the items below:
     ➡️ cld_n_calls=
     ➡️ cld_n_lost=
     ➡️ cld_n_taken=
-    ➡️ cld_nbsp=
+    cld_nbsp= 
     ➡️ cld_nopayable=
     cld_opos=Poz.
     cld_pause=Szünet
@@ -766,7 +766,7 @@ Do not change the items below:
     ➡️ cldst_inclusive_sla_per_hour=
     cldst_max=Max
     cldst_min=Min
-    ➡️ cldst_nbsp=
+    cldst_nbsp= 
     ➡️ cldst_noskills=
     cldst_num=Szám
     ➡️ cldst_percent=
@@ -898,7 +898,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Minimum sor helyzet szétkapcsolódásnál
     clko_min_wait_time_before_disconnection=Minimum várakozási idõ szétkapcsolás elött
     clko_n_calls=Hívások száma
-    ➡️ clko_nbsp=
+    clko_nbsp= 
     clko_nof_unanswered_calls=Nem fogadott hívások száma
     ➡️ clko_offered=
     ➡️ clko_percent=
@@ -1015,7 +1015,7 @@ Do not change the items below:
     clok_n_calls=Hívások száma
     clok_n_calls_answered_by_operators=Operátorok által fogadott hívások száma
     clok_n_stints=Munkafeladatok száma
-    ➡️ clok_nbsp=
+    clok_nbsp= 
     ➡️ clok_offered=
     ➡️ clok_percent=
     clok_position_enter=Belépés helyzete
@@ -4111,7 +4111,7 @@ Other items
     ➡️ rt_monitor_tt=
     rt_n_agents=Közvetítõk száma
     rt_n_calls_waiting=Várakozó hívások száma
-    ➡️ rt_nbsp=
+    rt_nbsp= 
     rt_on_pause=Szünet alatt
     rt_on_pause_nbsp=Szünet
     rt_on_phone_inbound=Bejövõ telefonhívás
@@ -4238,7 +4238,7 @@ Other items
     ➡️ rt_wall_moh=
     rt_wall_n_agents=Közv
     rt_wall_n_calls_waiting=Várakozás
-    ➡️ rt_wall_nbsp=
+    rt_wall_nbsp= 
     rt_wall_on_pause=Szünet
     rt_wall_on_phone_inbound=Bejövõ
     rt_wall_on_phone_outbound=Kimenõ

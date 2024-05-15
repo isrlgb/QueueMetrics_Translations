@@ -4111,7 +4111,7 @@ Other items
     rt_monitor_tt=Supervisar ara
     rt_n_agents=N. agents
     rt_n_calls_waiting=N. trucades en espera
-    ➡️ rt_nbsp=
+    rt_nbsp= 
     rt_on_pause=En pausa
     rt_on_pause_nbsp=En pausa
     rt_on_phone_inbound=Al telèfon entrant
