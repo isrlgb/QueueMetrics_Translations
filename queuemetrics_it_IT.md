@@ -7,7 +7,8 @@
 
 ## Language pack
 
-General information about this language pack.
+General information about this language pack. The language name should be written in the
+language itself, and will appear in the drop-down language selector.
 
     00-LanguageName=Italiano
     
@@ -92,7 +93,7 @@ Do not change the items below:
     td_cko_key_press=Tasto
     td_cko_timeout=Scaduta
     td_cko_timeout_voicemail=Scaduta (segreteria)
-    - td_cko_unanswered_yet=
+    td_cko_unanswered_yet=Non ancora risposto
     td_cok_agent=Agente
     td_cok_agent_disconnected=Chiusa dall'agente
     td_cok_att_transferred=Trasferita con presentazione
@@ -418,9 +419,9 @@ Do not change the items below:
 
 
 
-    - clage_%_of_pause_time=
+    clage_%_of_pause_time=% di tempo di pausa
     clage_%_of_queue=% coda
-    - clage_%_of_session_time=
+    clage_%_of_session_time=% di tempo di sessione
     clage_acd_available=Disp.
     clage_acd_avg_dur=Dur Media
     clage_acd_avg_in=Media E.
@@ -445,7 +446,7 @@ Do not change the items below:
     clage_agent_performance_acd_group=Performance agente per gruppo ACD
     clage_agent_ptimebyhour=Tempo pagabile per agente, per ora
     clage_agent_session_detail=Dettaglio sessioni agente
-    - clage_agent_session_overview=
+    clage_agent_session_overview=Panoramica della sessione dell'agente
     clage_agent_sessionreport=Sessioni agente per coda, tag e feature
     clage_agent_sessions=Sessioni agente
     clage_agent_stimebyhour=Sessioni agente per ora
@@ -495,7 +496,7 @@ Do not change the items below:
     clage_n_calls=N. chiam.
     clage_n_of_agents_available=N. agenti disponibili:
     clage_nanswcalls=Risposte
-    - clage_nbsp=
+    ➡️ clage_nbsp=
     clage_nftrs=Features
     clage_ngoalftrs=Goal Ftrs.
     clage_nobillpause=Non billable
@@ -507,7 +508,7 @@ Do not change the items below:
     clage_overlaps=Sovrapp.
     clage_pause=Pausa
     clage_pause_%=Pausa %
-    - clage_pause_type_stats=
+    clage_pause_type_stats=Dettagli dei tipi di pausa
     clage_pauses=Pause
     clage_pauses_per_session=Pause/sess.
     clage_pausetype=Tipo
@@ -523,16 +524,16 @@ Do not change the items below:
     clage_session_and_pause_durations=Durata sessioni e pause
     clage_session_byquetagftrreport=Sessioni cumulate per coda, tag e feature
     clage_session_byquetagreport=Sessioni cumulate per Coda e Tag
-    - clage_session_calls=
+    clage_session_calls=N. chiamate
     clage_session_details=Dettaglio sessioni
-    - clage_session_end=
-    - clage_session_idle=
-    - clage_session_lostatt=
-    - clage_session_pause=
-    - clage_session_queues=
-    - clage_session_start=
-    - clage_session_talk=
-    - clage_session_type=
+    clage_session_end=Fine segmento
+    clage_session_idle=Tempo di inattività
+    clage_session_lostatt=Tentativi persi
+    clage_session_pause=Pausa
+    clage_session_queues=Code
+    clage_session_start=Inizio segmento
+    clage_session_talk=Tempo di conversazione
+    clage_session_type=Tipo di sessione
     clage_sessions=Sessioni
     clage_tag_sessionreport=Vedi Tag Sessioni
     clage_takenshort=T
@@ -623,8 +624,8 @@ Do not change the items below:
     cld_detail_of_agent_sessions_raw=Dettagli sessioni agente (RAW)
     cld_detail_of_answered_calls=Dettaglio chiamate prese
     cld_detail_of_unanswered_calls=Dettaglio chiamate perse
-    - cld_detail_of_unanswered_calls_afp=
-    - cld_detail_of_unanswered_calls_raw=
+    cld_detail_of_unanswered_calls_afp=Dettagli delle chiamate senza risposta
+    cld_detail_of_unanswered_calls_raw=Dettagli grezzi delle chiamate senza risposta
     cld_detail_summary=Riassunto Dettagli per ora
     cld_detail_summary_dom=Riassunto Dettagli per giorno
     cld_detail_summary_dow=Riassunto Dettagli per giorno della settimana
@@ -658,7 +659,7 @@ Do not change the items below:
     cld_n_calls=Chiamate Totali
     cld_n_lost=Chiamate Perse
     cld_n_taken=Chiamate Prese
-    - cld_nbsp=
+    ➡️ cld_nbsp=
     cld_nopayable=Non pagabile
     cld_opos=Pos.
     cld_pause=Pause
@@ -703,8 +704,8 @@ Do not change the items below:
     cld_queue=Coda
     cld_queue_batch_export=Aggiungi le chiamate al batch di esportazione
     cld_queue_detail=Dettaglio coda
-    - cld_queue_detail_afp=
-    - cld_queue_detail_raw=
+    cld_queue_detail_afp=Dettaglio coda
+    cld_queue_detail_raw=Dettaglio coda grezzo
     cld_return=Indietro
     cld_server=Srv
     cld_session_agent_detail=Dettaglio sessione agente
@@ -765,7 +766,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour=Livello complessivo di servizio per ora
     cldst_max=Max
     cldst_min=Min
-    - cldst_nbsp=
+    ➡️ cldst_nbsp=
     cldst_noskills=Nessuna Skill
     cldst_num=Num
     cldst_percent=Percentuale
@@ -897,7 +898,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Posizione minima:
     clko_min_wait_time_before_disconnection=Attesa minima:
     clko_n_calls=N. Chiamate
-    - clko_nbsp=
+    ➡️ clko_nbsp=
     clko_nof_unanswered_calls=Numero chiamate perse:
     clko_offered=% Offerte
     clko_percent=Percentuale
@@ -1014,7 +1015,7 @@ Do not change the items below:
     clok_n_calls=N. Chiamate
     clok_n_calls_answered_by_operators=Chiamate prese dagli operatori:
     clok_n_stints=Numero di stint
-    - clok_nbsp=
+    ➡️ clok_nbsp=
     clok_offered=% Offerte
     clok_percent=Percentuale
     clok_position_enter=Posizione in coda all'ingresso
@@ -2509,7 +2510,7 @@ Description of configuration properties
     propedit_category_synchronizer=Synchronizer
     propedit_edit_label=Modifica
     propedit_explore_label=Esplora
-    - propedit_feature_agent_amo=
+    propedit_feature_agent_amo=AMO
     propedit_feature_ap_backg=Sfondi opzionali
     propedit_feature_ap_login_out=Login e logout
     propedit_feature_ap_other=Varie
@@ -2538,7 +2539,7 @@ Description of configuration properties
     propedit_key_agent_outcome_size=Numero massimo elementi selettore outcomes
     propedit_key_agent_pause_dialout=Disabilita dialout agenti se sono in pausa
     propedit_key_agent_qap_cached_for_ms_desc=Durata della cache delle analisi per la pagina agente
-    - propedit_key_amo_placed_call_timeout=
+    propedit_key_amo_placed_call_timeout=Timeout riciclo AMO
     propedit_key_answer_src=Tono di risposta del softphone (URL)
     propedit_key_atxfer=Feature Code Trasferimento Assistito
     propedit_key_atxferabort=Feature Code Cancella Trasferimento
@@ -2551,7 +2552,7 @@ Description of configuration properties
     propedit_key_audit_max_rows_fetched=Numero massimo di righe lette per report che non richiedono auditing
     propedit_key_blindxfer=Feature Code Trasferimento alla Cieca
     propedit_key_cronjobs_localwebapp=Url di base per l'esecuzione dei Job Pianificati
-    - propedit_key_decodeknownnumbers=
+    propedit_key_decodeknownnumbers=Decodifica numeri noti
     propedit_key_default_agentcanamendpause_desc=Se questa proprietà è impostata su Si, gli agenti possono modificare il loro codice di pausa corrente in maniera retroattiva, mostrando nei report il nuovo codice di pausa al posto del precedente, per la pausa corrente. Se questa proprietà è impostata su No,  quando un agente cambia codice di pausa, la sua pausa viene interrotta e una nuova pausa viene iniziata con il nuovo codice di pausa.
     propedit_key_default_alwaysLogonUnpaused_desc=Quando l'agente si collega, è sempre senza pausa
     propedit_key_default_areacode_digits_desc=Quante cifre considerare come prefisso di zona
@@ -2623,9 +2624,9 @@ Description of configuration properties
     propedit_key_enswitch_qpwrap_desc=Priorità WRAP
     propedit_key_enswitch_spyprefix_desc=Prefisso di default per un ChanSpy
     propedit_key_enswitch_verbose_desc=LOg completo interazioni ENswitch
-    - propedit_key_extrabody=
+    propedit_key_extrabody=Testo extra nei corpi e-mail.
     propedit_key_hangup_src=Tono di hangup (URL)
-    - propedit_key_hiddennumberpolicy=
+    propedit_key_hiddennumberpolicy=Politica per nascondere i numeri
     propedit_key_layout_logo_desc=Il vostro logo (Percorso assoluto o relativo). È consigliato ridimensionare il logo a 200 x 72.
     propedit_key_noans_timeout=Tempo (in secondi) dopo il quale una chiamata in arrivo viene rifiutata se non risposta. Il valore di default è 60.
     propedit_key_phone_iceservers=Lista di server ICE da usare.
@@ -2686,7 +2687,7 @@ Description of configuration properties
     propedit_key_sla_interval_desc=Dimensione intervalli nella SLA
     propedit_key_sla_max_initial_delay_desc=Periodo per la parte iniziale delle SLA
     propedit_key_sla_max_monitored_delay_desc=Durata massima grafico SLA
-    - propedit_key_smtpsubjectprefix=
+    propedit_key_smtpsubjectprefix=Prefisso per oggetti e-mail
     propedit_key_synchronizer_agents_file=File agents.conf di default
     propedit_key_synchronizer_queuelog_file=File Queue Log di default
     propedit_key_synchronizer_queues_file=File queues.conf di default
@@ -2720,10 +2721,10 @@ Description of configuration properties
     propedit_option_false=Falso
     propedit_option_freeswitch=FreeSwitch
     propedit_option_freeswitch_live=FreeSwitch Live
-    - propedit_option_hash=
-    - propedit_option_hide=
-    - propedit_option_hide3=
-    - propedit_option_hide5=
+    propedit_option_hash=hash
+    propedit_option_hide=nascondi
+    propedit_option_hide3=nascondi3
+    propedit_option_hide5=nascondi5
     propedit_option_jsonapi=API JSON
     propedit_option_mirtapbx=MirtaPBX
     propedit_option_no=No
@@ -2736,7 +2737,7 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Solo le code assegnate con scelta
     propedit_option_realtime_dynamicLoginQueues_registered_label=Registrate
     propedit_option_spy=Spy
-    - propedit_option_stars=
+    propedit_option_stars=stelle
     propedit_option_sync_mode_c=Crea Soltanto
     propedit_option_sync_mode_c_d=Crea, Cancella
     propedit_option_sync_mode_c_d_usr=Crea, Cancella, Crea Utenti
@@ -2796,7 +2797,7 @@ Description of security keys
     keydesc_closecalls=Può chiudere chiamate dalla pagina Real-time o report storici
     keydesc_config=Può far partire il wizard di autoconfigurazione (Synchronizer)
     keydesc_edit_cfg=Può editare le properties di configurazione
-    - keydesc_hidenumbers=
+    keydesc_hidenumbers=Tutti i numeri di telefono/identità del chiamante sono nascosti
     keydesc_keyupdate=Può installare una nuova chiave di licenza QueueMetrics
     keydesc_mon_audio=Può ascoltare una chiamata in tempo reale
     keydesc_mon_barge=L'utente può entrare in una chiamata
@@ -2837,7 +2838,7 @@ Description of security keys
     keydesc_user=Questa chiave DEVE essere settata su tutti gli utenti validi
     keydesc_usr_agent=Può modificare gli agenti
     keydesc_usr_agroups=Può editare i gruppi di agenti
-    - keydesc_usr_amo_edit=
+    keydesc_usr_amo_edit=L'utente può modificare le campagne Assisted Manual Outbound (AMO)
     keydesc_usr_calltag=Può editare i tag delle chiamate
     keydesc_usr_cases_edit=L'utente può modificare i casi
     keydesc_usr_cbts=Può editare la lista dei CBT noti
@@ -2881,7 +2882,7 @@ Description of security keys
     tsk_detail_history=Storia del task
     tsk_detail_info=Info del task
     tsk_detail_lastUpdated=Ultimo aggiornamento
-    - tsk_detail_message=
+    ➡️ tsk_detail_message=
     tsk_detail_notes=Note
     tsk_detail_pfield=Processo
     tsk_detail_process=Lavora
@@ -2982,12 +2983,12 @@ Other items
     agt_history_cbt=CBT inviato:
     agt_history_groupchange=Membro del gruppo
     agt_history_mtn=Coaching inviato:
-    - amo_close_info=
+    amo_close_info=Chiudi informazioni AMO
     amo_dialer_state_completed=Completato
     amo_dialer_state_open=Aperto
     amo_import_error_nonumber=Il campo 'numero' è obbligatorio per ogni record.
     amo_import_error_norecords=Si prega di includere almeno un record nel file CSV.
-    - amo_last_info=
+    amo_last_info=Informazioni ultima chiamata AMO
     amo_list_state_open=Aperto
     amo_list_state_paused=in pausa
     amo_number_state_blklist=In blacklist
@@ -3083,7 +3084,7 @@ Other items
     export_to_pdf=PDF
     export_xml=Esporta in formato XML
     grp_ivr=Eventi Ivr
-    - grp_ivr_calls=
+    grp_ivr_calls=Chiamate IVR
     grp_ivr_short=Ivr
     grp_lost_calls=Chiamate Perse
     grp_lost_short=Perse
@@ -3472,7 +3473,7 @@ Other items
     qap_action_qa=Form QA
     qap_action_recall=Nuova nota di richiamata
     qap_action_transfer=Trasferisci chiamata
-    - qap_action_wbtrecall=
+    ➡️ qap_action_wbtrecall=
     qap_addmember_selected=Unisciti alle code selezionate
     qap_agent_code=Codice agente
     qap_agent_dialout_error=Errore durante la chiamata dell'agente
@@ -3500,9 +3501,9 @@ Other items
     qap_case_add=Nuovo caso
     qap_case_calls=TUTTE LE CHIAMATE
     qap_case_closed=Chiuso
-    - qap_case_comments=
+    qap_case_comments=Commenti
     qap_case_contact=Contatto
-    - qap_case_details=
+    qap_case_details=Dettagli caso
     qap_case_email=Email
     qap_case_merged=Unito
     qap_case_notes=Note
@@ -3523,8 +3524,8 @@ Other items
     qap_clients_add=Nuovo cliente
     qap_clients_placeholder_search=Cerca un cliente
     qap_control_addall=Unisci tutti
-    - qap_control_add=
-    - qap_control_remove=
+    qap_control_add=Entra
+    qap_control_remove=Esci
     qap_control_all=Tutte
     qap_control_amend=Modifica
     qap_control_assigned=Assegnate
@@ -3538,7 +3539,7 @@ Other items
     qap_control_timer=Timer
     qap_control_unpause=Ripresa
     qap_create_note_error=Errore durante la creazione di una nuova Nota.
-    - qap_crm_links=
+    qap_crm_links=Link popup CRM
     qap_daily_idle=Tempo disponibile
     qap_daily_lost=Chiamate perse
     qap_daily_lostatt=Tentativi persi
@@ -3852,7 +3853,7 @@ Other items
     reports_filter_input_error=Errore di input
     reports_filter_ivr=IVR
     reports_filter_location=Location
-    - reports_filter_none=
+    reports_filter_none=Nessuno
     reports_filter_noncont_time=Periodo
     reports_filter_noncontdays=Giorni
     reports_filter_noncontr1from=Tempo 1 da
@@ -3871,7 +3872,7 @@ Other items
     reports_filter_variables=Variabili
     reports_filter_waitmax=Tempo di attesa massimo
     reports_filter_waitmin=Tempo di attesa minimo
-    - reports_filters=
+    reports_filters=Mostra/Nascondi filtri
     reports_goto_page=Vai a
     reports_grouping_title=Gruppo chiamate
     reports_import_schema=Importa schema report
@@ -4110,7 +4111,7 @@ Other items
     rt_monitor_tt=Ascolta ora
     rt_n_agents=N. agenti
     rt_n_calls_waiting=In attesa
-    - rt_nbsp=
+    ➡️ rt_nbsp=
     rt_on_pause=In pausa
     rt_on_pause_nbsp=In Pausa
     rt_on_phone_inbound=Ag. su c. entranti
@@ -4203,7 +4204,7 @@ Other items
     rt_transfercall=Trasferisci
     rt_transfercall_tt=Trasferisci
     rt_unk=Scon.
-    rt_unknown=??
+    rt_unknown=?
     rt_unpauseagent=Fine pausa
     rt_unpauseagent_tt=Fine pausa
     rt_visitor_agent_nbsp=Agente
@@ -4215,7 +4216,7 @@ Other items
     rt_visitor_ext_nbsp=Int.
     rt_visitor_in_order_to_mantain_session_information=Per mantenere attiva la Vostra sessione, questa pagina si ricaricherà automaticamente.
     rt_visitor_n_calls=N. chiamate
-    - rt_visitor_nbsp=
+    ➡️ rt_visitor_nbsp=
     rt_visitor_queue=Coda
     rt_visitor_queue_nbsp=Coda
     rt_visitor_queues=Code:
@@ -4237,7 +4238,7 @@ Other items
     rt_wall_moh=Mus.Att.
     rt_wall_n_agents=Age
     rt_wall_n_calls_waiting=Attesa
-    - rt_wall_nbsp=
+    ➡️ rt_wall_nbsp=
     rt_wall_on_pause=Pau
     rt_wall_on_phone_inbound=Entr
     rt_wall_on_phone_outbound=Usc
