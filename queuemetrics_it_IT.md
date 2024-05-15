@@ -68,6 +68,7 @@ Do not change the items below:
     td_autoconf_wz_summary_opresult=Risultato dell'operazione
     td_autoconf_wz_summary_type=Tipo
     td_autoconf_wz_users=Utenti
+  # 👽 td_calloutc_? -> 
     td_calloutc_?=?
     td_calloutc_contact=Contatto
     td_calloutc_known=Noto
@@ -2882,6 +2883,7 @@ Description of security keys
     tsk_detail_history=Storia del task
     tsk_detail_info=Info del task
     tsk_detail_lastUpdated=Ultimo aggiornamento
+  # 🔴 tsk_detail_message -> Message
     ➡️ tsk_detail_message=
     tsk_detail_notes=Note
     tsk_detail_pfield=Processo
@@ -3473,6 +3475,7 @@ Other items
     qap_action_qa=Form QA
     qap_action_recall=Nuova nota di richiamata
     qap_action_transfer=Trasferisci chiamata
+  # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
     ➡️ qap_action_wbtrecall=
     qap_addmember_selected=Unisciti alle code selezionate
     qap_agent_code=Codice agente
@@ -4204,6 +4207,7 @@ Other items
     rt_transfercall=Trasferisci
     rt_transfercall_tt=Trasferisci
     rt_unk=Scon.
+  # 👽 rt_unknown -> unknown
     rt_unknown=?
     rt_unpauseagent=Fine pausa
     rt_unpauseagent_tt=Fine pausa

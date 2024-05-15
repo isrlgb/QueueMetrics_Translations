@@ -68,6 +68,7 @@ Do not change the items below:
     td_autoconf_wz_summary_opresult=Resultado da operação
     td_autoconf_wz_summary_type=Tipo
     td_autoconf_wz_users=Utilizadores
+  # 👽 td_calloutc_? -> 
     td_calloutc_?=?
     td_calloutc_contact=Contacto
     td_calloutc_known=Conhecido
@@ -241,8 +242,11 @@ Do not change the items below:
     aout_call_res_by_outcome=Categorização de chamadas, por tipo de contacto
     aout_call_res_by_tag=Resultados de chamada, por tag
     aout_calltag=Tag
+  # 👽 aout_case_distribution -> Case Distribution
     aout_case_distribution=?Distribuição de casos
+  # 👽 aout_chart -> ~
     aout_chart=?~
+  # 👽 aout_client_distribution -> Client Distribution
     aout_client_distribution=?Distribuição de clientes
     aout_contacts_n=Contac.
     aout_convratio=Conv.
@@ -271,6 +275,7 @@ Do not change the items below:
     aout_fcr_recalls_percentage=%
     aout_fcr_recalls_tot_calls=Total de Chamadas
     aout_fcr_recalls_tot_prc=% Total
+  # 👽 aout_fcr_recalls_type -> Type
     aout_fcr_recalls_type=?Tipo
     aout_fcr_recalls_up_to_attempts=Até Tentativas:
     aout_fcr_tot_duration=Duração Total
@@ -332,6 +337,7 @@ Do not change the items below:
     art_agentCode=Código de Agente
     art_btnAmendPause=Corrigir
     art_btnCancel=Cancelar
+  # 👽 art_btnChangePause -> Change
     art_btnChangePause=?Mudar
     art_btnPause=Pausa
     art_btnUnpause=Retirar de Pausa
@@ -385,6 +391,7 @@ Do not change the items below:
     art_outboundNumber=Número
     art_outcomeFor=Definir Categorização para a chamada
     art_outcomePanelCallInfo=Chamada:
+  # 👽 art_pauseNoExtWarning -> The pause command will probably not work because the agent has no valid extension, despite Hotdesking mode being active.
     art_pauseNoExtWarning=?O comando de pausa provavelmente não funcionará porque o agente não tem um ramal válido, mesmo estando com o modo hotdesking ativo.
     art_row_cache_error=A variável 'realtime.useRowCache' não está definida correctamente, deve ser definida como 'true'.
     art_runAction=Executar
@@ -419,8 +426,10 @@ Do not change the items below:
 
 
 
+  # 🔴 clage_%_of_pause_time -> % of pause time
     ➡️ clage_%_of_pause_time=
     clage_%_of_queue=% da queue
+  # 🔴 clage_%_of_session_time -> % of session time
     ➡️ clage_%_of_session_time=
     clage_acd_available=Dispon.
     clage_acd_avg_dur=Dur. Méd.
@@ -441,11 +450,13 @@ Do not change the items below:
     clage_agent_btimebyhour=Tempo Pago de Agente por Hora
     clage_agent_numbyhour=Agentes por Hora
     clage_agent_occupancy=Relatório de Ocupação de Agente
+  # 👽 clage_agent_outbound_productivity -> Outbound Productivity
     clage_agent_outbound_productivity=?Produtividade de saída
     clage_agent_perf_prg=Desempenho Programável do Agente 
     clage_agent_performance_acd_group=Desempenho de Agente por Grupo ACD
     clage_agent_ptimebyhour=Tempo Pago de Agente por Hora
     clage_agent_session_detail=Detalhes de sessão de agentes
+  # 🔴 clage_agent_session_overview -> Agent Session Overview
     ➡️ clage_agent_session_overview=
     clage_agent_sessionreport=Vista de sessão de agente
     clage_agent_sessions=Sessões dos agentes
@@ -466,6 +477,7 @@ Do not change the items below:
     clage_billpause=Pago
     clage_callfeatures=Feature
     clage_calltag=Tag
+  # 👽 clage_chart -> ~
     clage_chart=?Grafico
     clage_cont=Cont.
     clage_contph=CPH
@@ -508,10 +520,12 @@ Do not change the items below:
     clage_overlaps=Sobreposição
     clage_pause=Pausa
     clage_pause_%=Pausa em %
+  # 🔴 clage_pause_type_stats -> Details of pause types
     ➡️ clage_pause_type_stats=
     clage_pauses=Pausas
     clage_pauses_per_session=Pausas por sessão
     clage_pausetype=Tipo de Pausa
+  # 👽 clage_percent -> %
     clage_percent=?Percentagem
     clage_presence=Presença
     clage_qcont=QC
@@ -524,15 +538,24 @@ Do not change the items below:
     clage_session_and_pause_durations=Durações de sessões e pausas
     clage_session_byquetagftrreport=Sessões acumuladas por Queue, Tag e Feature
     clage_session_byquetagreport=Sessões acumuladas por Queue, Tag
+  # 🔴 clage_session_calls -> N. calls
     ➡️ clage_session_calls=
     clage_session_details=Detalhes de sessão
+  # 🔴 clage_session_end -> Segment end
     ➡️ clage_session_end=
+  # 🔴 clage_session_idle -> Idle time
     ➡️ clage_session_idle=
+  # 🔴 clage_session_lostatt -> Lost attempts
     ➡️ clage_session_lostatt=
+  # 🔴 clage_session_pause -> Pause
     ➡️ clage_session_pause=
+  # 🔴 clage_session_queues -> Queues
     ➡️ clage_session_queues=
+  # 🔴 clage_session_start -> Segment start
     ➡️ clage_session_start=
+  # 🔴 clage_session_talk -> Talk time
     ➡️ clage_session_talk=
+  # 🔴 clage_session_type -> Session type
     ➡️ clage_session_type=
     clage_sessions=Sessões
     clage_tag_sessionreport=Vista de sessões por Tag
@@ -543,14 +566,18 @@ Do not change the items below:
     clage_total=Total
     clage_total_agent_time=Tempo total do agente:
     clage_total_call_time=Tempo total de chamada
+  # 👽 clage_total_calls -> Total Calls
     clage_total_calls=?Total de chamadas
     clage_total_outsession_call_time=Tempo de chamadas fora de sessões
     clage_total_pauses=Detalhes totais das actividades de pausa
     clage_total_sessions=Sessões totais:
     clage_totaltime=Tempo Total
     clage_totwaittime=Espera Tot.
+  # 👽 clage_unique_answ -> Unique answered
     clage_unique_answ=?Resposta única
+  # 👽 clage_unique_calls -> Unique calls
     clage_unique_calls=?Ligações únicas
+  # 👽 clage_unique_effective -> Unique effective
     clage_unique_effective=?Único efetiva
 
 ## Area codes
@@ -617,6 +644,7 @@ Do not change the items below:
     cld_caller_statistics=Estatísticas de Chamadores
     cld_calltag=Tag
     cld_complete_calls=Chamadas Atendidas
+  # 👽 cld_connect -> Connect
     cld_connect=?Conectar
     cld_date=Data
     cld_detail_of_agent_pauses=Detalhe das pausas de agente
@@ -624,7 +652,9 @@ Do not change the items below:
     cld_detail_of_agent_sessions_raw=Detalhes da sessão do agente (raw)
     cld_detail_of_answered_calls=Detalhes de chamadas atendidas
     cld_detail_of_unanswered_calls=Detalhes de chamadas não atendidas
+  # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
     ➡️ cld_detail_of_unanswered_calls_afp=
+  # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
     ➡️ cld_detail_of_unanswered_calls_raw=
     cld_detail_summary=Resumo Detalhado por Hora
     cld_detail_summary_dom=Resumo Detalhado por Dia
@@ -634,8 +664,10 @@ Do not change the items below:
     cld_dom=Dia
     cld_dow=Dia da Semana
     cld_duration=Duração
+  # 👽 cld_end -> End
     cld_end=?Fim
     cld_end_hour=Hora Final
+  # 👽 cld_enter -> Enter
     cld_enter=?Entrar
     cld_executive_summary=Resumo Executivo
     cld_ext=Ext.
@@ -645,11 +677,13 @@ Do not change the items below:
     cld_goal=Objectivo
     cld_handled_by=Atendida por
     cld_hour=Hora
+  # 👽 cld_idle -> Idle
     cld_idle=?Disponível
     cld_info=Info
     cld_ivr=Selecção de IVR
     cld_ivr_detail=Detalhes de IVR
     cld_ivr_detail_full=Detalhes de IVR (lista completa para impressão)
+  # 👽 cld_ivr_dur -> IVR Dur.
     cld_ivr_dur=?Dur. URA
     cld_ivr_time=IVR
     cld_ivr_time_long=Tempo no IVR antes de entrar na Queue:
@@ -660,11 +694,13 @@ Do not change the items below:
     cld_n_lost=Chamadas Perdidas
     cld_n_taken=Chamadas Atendidas
     cld_nbsp= 
+  # 👽 cld_nopayable -> Non Payable
     cld_nopayable=?Não Pagável
     cld_opos=Pos.
     cld_pause=Pausa
     cld_pause_code=Código
     cld_pause_name=Actividade
+  # 👽 cld_pause_type -> Pause Type
     cld_pause_type=?Tipo de pausa
     cld_pop_asterisk_call_id=ID único:
     cld_pop_attempts=Tentativas:
@@ -686,6 +722,7 @@ Do not change the items below:
     cld_pop_opos=Posição Original
     cld_pop_qa=QA
     cld_pop_queue=Queue
+  # 👽 cld_pop_server -> Server
     cld_pop_server=?Servidor
     cld_pop_sound_files=Ficheiros de Som:
     cld_pop_status_code=Código de Estado:
@@ -704,7 +741,9 @@ Do not change the items below:
     cld_queue=Queue
     cld_queue_batch_export=Adicionar chamadas para o batch de exportação
     cld_queue_detail=Detalhes da Queue
+  # 🔴 cld_queue_detail_afp -> Queue detail
     ➡️ cld_queue_detail_afp=
+  # 🔴 cld_queue_detail_raw -> Raw queue detail
     ➡️ cld_queue_detail_raw=
     cld_return=Voltar
     cld_server=Servidor
@@ -721,13 +760,17 @@ Do not change the items below:
     cld_start_hour=Hora Inicial
     cld_status_code=Código
     cld_stints=Stints
+  # 👽 cld_talk -> Talk
     cld_talk=?Conversa
+  # 👽 cld_talk_and_idle_times -> Talk and Idle Times
     cld_talk_and_idle_times=?Tempos de conversa e espera
     cld_termination=Terminação
+  # 👽 cld_tot_dur -> Tot. Dur.
     cld_tot_dur=?Dur. Total
     cld_total_calls=Total de Chamadas
     cld_total_elapsed_time=Duração Total
     cld_transfer_to=Transferida para
+  # 👽 cld_uid -> Unique ID
     cld_uid=?ID Único
     cld_unique_callers=Chamadores Únicos
     cld_unique_final_lost=Chamadores únicos perdidos na última tentativa
@@ -755,6 +798,7 @@ Do not change the items below:
     cldst_avg=Méd
     cldst_avg_duration=Duração méd.
     cldst_avg_wait=Espera méd.
+  # 👽 cldst_chart -> ~
     cldst_chart=?Gráfico
     cldst_contacts=Contactos
     cldst_conv=Conv.
@@ -769,6 +813,7 @@ Do not change the items below:
     cldst_nbsp= 
     cldst_noskills=Sem Competências
     cldst_num=Num.
+  # 👽 cldst_percent -> %
     cldst_percent=?%
     cldst_qconv=QConv.
     cldst_qual_contacts=QCont.
@@ -880,6 +925,7 @@ Do not change the items below:
     clko_call_overview=Visão Geral de Chamadas
     clko_calls_fully_within_the_given_time_interval=Chamadas completas dentro do intervalo de tempo definido
     clko_cause=Causa
+  # 👽 clko_chart -> ~
     clko_chart=?Gráfico
     clko_delta=Delta
     clko_detail=Detalhe
@@ -913,8 +959,11 @@ Do not change the items below:
     clko_threedots= ...
     clko_total_rows_processed=Total de registos processados:
     clko_total_wait_time_before_disconnection=Tempo total de espera antes de desconectar:
+  # 👽 clko_unans_nums_recalled -> Numbers recalled
     clko_unans_nums_recalled=?Números revisados
+  # 👽 clko_unans_nums_recap -> Recap of all recalls
     clko_unans_nums_recap=?Resumo de números revisados
+  # 👽 clko_unans_nums_to_recall -> Numbers to be recalled
     clko_unans_nums_to_recall=?Números à rediscar
     clko_unanswered_calls=Chamadas não atendidas
     clko_unanswered_calls_by_queue=Chamadas não atendidas, por queue
@@ -968,6 +1017,7 @@ Do not change the items below:
 
 
 
+  # 👽 clok_% -> %
     clok_%=?%
     clok_agent=Agente
     clok_agents_on_queue=Agente em queue
@@ -985,6 +1035,7 @@ Do not change the items below:
     clok_calls_lost=Chamadas perdidas
     clok_calls_offered=Chamadas oferecidas
     clok_cause=Causa
+  # 👽 clok_chart -> Histogram
     clok_chart=?Gráfico
     clok_coverage_initial_position=Cobertura
     clok_delta=Delta
@@ -993,6 +1044,7 @@ Do not change the items below:
     clok_disconnection_causes=Causas de desconexão
     clok_dnis=DNIS usado
     clok_dnis_choice=DNIS
+  # 👽 clok_grouping -> Open Group
     clok_grouping=?Grupo Aberto
     clok_hdr=Cabeçalho do Relatório
     clok_ivr=Selecção do IVR
@@ -1045,19 +1097,30 @@ Do not change the items below:
 
 
 
+  # 👽 evt_abandon -> Caller Abandoned
     evt_abandon=?Chamador abandonou
     evt_agentattempt=Tentativa de Chamada
     evt_agentdump=Dump de Agente
+  # 👽 evt_attended_transfer -> Attended Transfer
     evt_attended_transfer=?Transferência assistida
+  # 👽 evt_blind_transfer -> Blind Transfer
     evt_blind_transfer=?Transferência cega
+  # 👽 evt_call_outbound -> Outbound Call
     evt_call_outbound=?Chamada Sainte
     evt_call_tag=Tag de Chamada
+  # 👽 evt_complete_agent -> Complete Agent
     evt_complete_agent=?Completada pelo Agente
+  # 👽 evt_complete_caller -> Complete Caller
     evt_complete_caller=?Completada pelo Chamador
+  # 👽 evt_connect -> Connect
     evt_connect=?Conexão
+  # 👽 evt_enter_queue -> Enter Queue
     evt_enter_queue=?Entrar na fila
+  # 👽 evt_exit_empty -> Exit Empty
     evt_exit_empty=?Saída Vazia
+  # 👽 evt_exit_with_key -> Exit With Key
     evt_exit_with_key=?Saída com Chave
+  # 👽 evt_exit_with_timeout -> Exit With Timeout
     evt_exit_with_timeout=?Saída com tempo limite
     evt_feature_added=Feature Adicionada
     evt_feature_deleted=Feature Removida
@@ -1069,12 +1132,19 @@ Do not change the items below:
     evt_ivr_start=Iniciar Chamada de IVR
     evt_ivr_waitonly=Espera de IVR
     evt_moh=Música em Espera
+  # 👽 evt_other_end_session -> Other Session End
     evt_other_end_session=?Outro fim de sessão
+  # 👽 evt_other_fail_session -> Other Session Fail
     evt_other_fail_session=?Outra falha de Sessão
+  # 👽 evt_other_start_session -> Other Session Start
     evt_other_start_session=?Outro início de Sessão
+  # 👽 evt_phone_end_session -> Phone Session End
     evt_phone_end_session=?Fim da sessão Telefônica
+  # 👽 evt_phone_fail_session -> Phone Session Fail
     evt_phone_fail_session=?Sessão telefônica com falha
+  # 👽 evt_phone_start_session -> Phone Session Start
     evt_phone_start_session=?Início de sessão telefônica
+  # 👽 evt_ringcancel -> Ring Cancel
     evt_ringcancel=?Cancelar toque
     evt_ringing=A Tocar
     evt_ringnoanswer=Chamada não atendida
@@ -1085,13 +1155,21 @@ Do not change the items below:
     evt_short_ringing=A Tocar (Curto)
     evt_short_ringnoanswer=Toque Sem Resposta (Curto)
     evt_skillreq=Competência Necessária
+  # 👽 evt_teams_end_session -> MS Teams Session End
     evt_teams_end_session=?Fim de sessão MS Teams
+  # 👽 evt_teams_fail_session -> Teams Session Fail
     evt_teams_fail_session=?Falha de sessão Teams
+  # 👽 evt_teams_start_session -> MS Teams Session Start
     evt_teams_start_session=?Início de sessão MS Teams
+  # 👽 evt_transfer -> Transfer
     evt_transfer=?Transferir
+  # 👽 evt_unanswered_yet -> Unanswered Yet
     evt_unanswered_yet=?Ainda sem resposta
+  # 👽 evt_web_end_session -> Web Session End
     evt_web_end_session=?Fim de sessão Web
+  # 👽 evt_web_fail_session -> Web Session Fail
     evt_web_fail_session=?Sessão Web com falha
+  # 👽 evt_web_start_session -> Web Session Start
     evt_web_start_session=?Início de sessão Web
     hdr_agaw_agent=Agente
     hdr_agaw_logs=Logs
@@ -1101,6 +1179,7 @@ Do not change the items below:
     hdr_agents_det_title=Detalhes de sessão e pausas do agente
     hdr_agents_title=Agentes e Sessões
     hdr_all=Tudo
+  # 👽 hdr_amo -> AMO
     hdr_amo=?AMO
     hdr_answered=Atendidas
     hdr_answered_details=Detal. Atend.
@@ -1109,21 +1188,34 @@ Do not change the items below:
     hdr_area_title=Análise de código de área
     hdr_attempts=Tent.
     hdr_broadcast=Broadcast
+  # 👽 hdr_calls -> Calls
     hdr_calls=?Chamadas
+  # 👽 hdr_calls_title -> Call Details
     hdr_calls_title=?Detalhes de chamada
+  # 👽 hdr_casedo -> Cases
     hdr_casedo=?Casos
+  # 👽 hdr_casedo_title -> Cases and Clients
     hdr_casedo_title=?Casos e Clientes
+  # 👽 hdr_cases -> Cases
     hdr_cases=?Casos
     hdr_cbt=CBTs
+  # 👽 hdr_clients -> Clients
     hdr_clients=?Clientes
     hdr_cronjobs=Tarefas Agendadas
+  # 👽 hdr_customblocks -> Custom Blocks
     hdr_customblocks=?Blocos personalizados
     hdr_customreports=CR
+  # 👽 hdr_dbtest_ami -> Test AMI
     hdr_dbtest_ami=?AMI
+  # 👽 hdr_dbtest_ami_queue -> View Cmds
     hdr_dbtest_ami_queue=?Ver Comandos
+  # 👽 hdr_dbtest_configuration -> View Cfg
     hdr_dbtest_configuration=?Ver Configuração
+  # 👽 hdr_dbtest_db_inspector -> View DB
     hdr_dbtest_db_inspector=?Ver Banco de Dados
+  # 👽 hdr_dbtest_ram_cache -> View Cache
     hdr_dbtest_ram_cache=?Ver Cache
+  # 👽 hdr_dbtest_smtp -> Test SMTP
     hdr_dbtest_smtp=?Teste de SMTP
     hdr_distrib=Distrib.
     hdr_distrib_day=Dia
@@ -1143,6 +1235,7 @@ Do not change the items below:
     hdr_ivr=IVR
     hdr_ivr_title=Análise de IVR
     hdr_ivrdo=IVR
+  # 👽 hdr_links -> Header links
     hdr_links=?Links de cabeçalho
     hdr_live=Directo(Live)
     hdr_locations=Localizações
@@ -1151,6 +1244,7 @@ Do not change the items below:
     hdr_outcomes=Categorizações
     hdr_outcomes_title=Categorizações de chamadas
     hdr_pauses=Pausas
+  # 👽 hdr_performance -> Performance
     hdr_performance=?Performance
     hdr_performancetrack=PrfTrk
     hdr_print=Imprimir
@@ -1159,15 +1253,20 @@ Do not change the items below:
     hdr_qa_details=Detalhes QA
     hdr_qa_report=Relatório QA
     hdr_qa_summary=Resumo QA
+  # 👽 hdr_qmlogo_returntohomelink -> Return to home
     hdr_qmlogo_returntohomelink=?Voltar ao início
     hdr_queues=Queues
     hdr_realtime=Tempo Real
     hdr_reports=Relatórios
     hdr_resetquery=Reinicializar parâmetros de pesquisa
+  # 👽 hdr_rt -> RT
     hdr_rt=?RT
+  # 👽 hdr_rt_title -> Real-Time Metrics
     hdr_rt_title=?Métricas em tempo real
     hdr_skills=Competências
+  # 👽 hdr_stats -> Stats
     hdr_stats=?Estatísticas
+  # 👽 hdr_stats_title -> Statistics
     hdr_stats_title=?Estatísticas
     hdr_tags=Tags
     hdr_tags_title=Tags de chamada
@@ -1196,52 +1295,99 @@ Do not change the items below:
     edit_ac_supervisor=Supervisor
     edit_ac_term=Term.
     edit_ac_title=Configuração de Agentes Conhecidos
+  # 👽 edit_amo_attribute -> Attribute
     edit_amo_attribute=?Atributo
+  # 👽 edit_amo_attributes -> Attributes
     edit_amo_attributes=?Atributos
+  # 👽 edit_amo_campaign -> Campaign
     edit_amo_campaign=?Campanha
+  # 👽 edit_amo_last_pull -> Last Pull
     edit_amo_last_pull=?Último envio
+  # 👽 edit_amo_list_dialer_state -> Dialer State
     edit_amo_list_dialer_state=?Estado do discador
+  # 👽 edit_amo_list_id -> List ID
     edit_amo_list_id=?Lista ID
+  # 👽 edit_amo_list_last_pull -> Last Pull
     edit_amo_list_last_pull=?Último envio
+  # 👽 edit_amo_list_n_added -> N. added
     edit_amo_list_n_added=?Num. adicionados
+  # 👽 edit_amo_list_n_completed -> N. completed
     edit_amo_list_n_completed=?Num. completados
+  # 👽 edit_amo_list_n_pulled -> N. pulled
     edit_amo_list_n_pulled=?Num. enviados
+  # 👽 edit_amo_list_name -> Name
     edit_amo_list_name=?Nome
+  # 👽 edit_amo_list_numbers -> Edit Numbers
     edit_amo_list_numbers=?Editar números
+  # 👽 edit_amo_list_pull_by -> Pulled by
     edit_amo_list_pull_by=?Enviado por
+  # 👽 edit_amo_list_state -> List State
     edit_amo_list_state=?Lista estado
+  # 👽 edit_amo_list_upload_numbers -> Upload Numbers
     edit_amo_list_upload_numbers=?Carregar números
+  # 👽 edit_amo_list_upload_text -> Drop csv files or browse
     edit_amo_list_upload_text=?Soltar arquivo CSV ou procurar
+  # 👽 edit_amo_list_weight -> Weight
     edit_amo_list_weight=?PEso
+  # 👽 edit_amo_lists_list -> AMO Lists
     edit_amo_lists_list=?Listas AMO
+  # 👽 edit_amo_lists_name_present -> The selected list name already exists
     edit_amo_lists_name_present=?O nome de lista selecionado já existe.
+  # 👽 edit_amo_lists_title -> Edit AMO List
     edit_amo_lists_title=?Editar lista AMO
+  # 👽 edit_amo_n_added -> N. added
     edit_amo_n_added=?Num. adicionado
+  # 👽 edit_amo_n_completed -> N. completed
     edit_amo_n_completed=?Num. completado
+  # 👽 edit_amo_n_lists -> N. of Lists
     edit_amo_n_lists=?Num. de listas
+  # 👽 edit_amo_name -> Name
     edit_amo_name=?Nome
+  # 👽 edit_amo_notes -> Notes
     edit_amo_notes=?Notas
+  # 👽 edit_amo_number -> Number
     edit_amo_number=?Número
+  # 👽 edit_amo_number_id -> Number ID
     edit_amo_number_id=?Número ID
+  # 👽 edit_amo_numbers_current_uid -> Current UID
     edit_amo_numbers_current_uid=?UID Atual
+  # 👽 edit_amo_numbers_edit -> Edit AMO Number
     edit_amo_numbers_edit=?Editar número AMO
+  # 👽 edit_amo_numbers_list -> AMO Numbers
     edit_amo_numbers_list=?Números AMO
+  # 👽 edit_amo_numbers_previous_retries -> Previous Retries
     edit_amo_numbers_previous_retries=?Tentativas anteriores
+  # 👽 edit_amo_numbers_retry_no -> Retry Number
     edit_amo_numbers_retry_no=?Tentar número
+  # 👽 edit_amo_queue_id -> Queue ID
     edit_amo_queue_id=?ID da Fila
+  # 👽 edit_amo_retry_no -> N. of retries
     edit_amo_retry_no=?Num. de tentativas
+  # 👽 edit_amo_state -> State
     edit_amo_state=?Estado
+  # 👽 edit_amo_valid_attribute -> Attribute
     edit_amo_valid_attribute=?Atributo
+  # 👽 edit_amo_valid_from -> Valid from
     edit_amo_valid_from=?Válido desde
+  # 👽 edit_amo_valid_value -> Value
     edit_amo_valid_value=?Valor
+  # 👽 edit_cases_client -> Client
     edit_cases_client=?Cliente
+  # 👽 edit_cases_contact -> Contact
     edit_cases_contact=?Contato
+  # 👽 edit_cases_email -> Email
     edit_cases_email=?Email
+  # 👽 edit_cases_header -> Cases
     edit_cases_header=?Casos
+  # 👽 edit_cases_id -> Case Id
     edit_cases_id=?ID Caso
+  # 👽 edit_cases_key -> Key
     edit_cases_key=?Chave
+  # 👽 edit_cases_status -> Status
     edit_cases_status=?Estado
+  # 👽 edit_cases_title -> Title
     edit_cases_title=?Título
+  # 👽 edit_cases_xref -> Reference
     edit_cases_xref=?Referência
     edit_cbt_deleted=Eliminado
     edit_cbt_description=Descrição
@@ -1253,17 +1399,29 @@ Do not change the items below:
     edit_classes_keys=Chaves
     edit_classes_title=Classes de Utilizador
     edit_classes_user_num=Utilizador #
+  # 👽 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
     edit_clients_client_in_use=?Este cliente não pode ser apagado pois está em uso.
+  # 👽 edit_clients_contact -> Contact
     edit_clients_contact=?Contato
+  # 👽 edit_clients_email -> Email
     edit_clients_email=?E-mail
+  # 👽 edit_clients_header -> Clients
     edit_clients_header=?Clientes
+  # 👽 edit_clients_key -> Key
     edit_clients_key=?Chave
+  # 👽 edit_clients_name -> Name
     edit_clients_name=?Nome
+  # 👽 edit_clients_name_present -> Name already present
     edit_clients_name_present=?Nome já existe
+  # 👽 edit_clients_status -> Status
     edit_clients_status=?Estado
+  # 👽 edit_clients_xref -> Reference
     edit_clients_xref=?Referência
+  # 👽 edit_clients_xref_already_present -> This reference is already present
     edit_clients_xref_already_present=?Esta referência já está presente
+  # 👽 edit_clients_xref_missing -> You must set a reference
     edit_clients_xref_missing=?Você deve selecionar uma referência
+  # 👽 edit_clients_xref_not_allowed -> This reference has an invalid format
     edit_clients_xref_not_allowed=?Esta referência tem um formato inválido
     edit_cronjobs_asuser=Executar como Utilizador
     edit_cronjobs_cyclic=Cíclico
@@ -1283,10 +1441,15 @@ Do not change the items below:
     edit_ct_key=Chave
     edit_ct_tag=Tag
     edit_ct_title=Tags de Chamada
+  # 👽 edit_customblocks_description -> Description
     edit_customblocks_description=?Descrição
+  # 👽 edit_customblocks_header -> Custom DataBlocks
     edit_customblocks_header=?DataBlocks personalizados
+  # 👽 edit_customblocks_key -> Security Key
     edit_customblocks_key=?Chave de segurança
+  # 👽 edit_customblocks_provider -> Provider
     edit_customblocks_provider=?Provedor
+  # 👽 edit_customblocks_title -> Title
     edit_customblocks_title=?Título
     edit_dnis_description=Descrição
     edit_dnis_dnis=Código DNIS
@@ -1435,6 +1598,7 @@ Do not change the items below:
     edit_record_agents_terminal=Terminal Actual:
     edit_record_agents_title=Detalhe do Agente
     edit_record_agents_vnc=URL de monitorização VNC:
+  # 👽 edit_record_agents_webphoneautoanswer -> Auto Answer
     edit_record_agents_webphoneautoanswer=?Resposta automática
     edit_record_agents_webphonepassword=WebPhone Password:
     edit_record_agents_webphonerealm=WebPhone Realm:
@@ -1445,20 +1609,35 @@ Do not change the items below:
     edit_record_backtolist=Voltar para a lista
     edit_record_backtoqueue=Voltar à queue
     edit_record_backtoreports=Voltar aos relatórios
+  # 👽 edit_record_case_transactions -> Activity for this case
     edit_record_case_transactions=?Atividade deste caso
+  # 👽 edit_record_cases_contact -> Contact
     edit_record_cases_contact=?Contato
+  # 👽 edit_record_cases_email -> Email
     edit_record_cases_email=?Email
+  # 👽 edit_record_cases_for_client -> Recent cases for this client
     edit_record_cases_for_client=?Casos recentes deste cliente
+  # 👽 edit_record_cases_handled_by -> Handled by
     edit_record_cases_handled_by=?Gerenciado por
+  # 👽 edit_record_cases_header -> Edit Case
     edit_record_cases_header=?Editar Caso
+  # 👽 edit_record_cases_id -> Case Id
     edit_record_cases_id=?ID Caso
+  # 👽 edit_record_cases_none_found -> None found
     edit_record_cases_none_found=?Sem resultado
+  # 👽 edit_record_cases_notes -> Notes
     edit_record_cases_notes=?Notas
+  # 👽 edit_record_cases_queue -> Queue
     edit_record_cases_queue=?Fila
+  # 👽 edit_record_cases_securitykey -> Security Key
     edit_record_cases_securitykey=?Chave de segurança
+  # 👽 edit_record_cases_status -> Status
     edit_record_cases_status=?Estado
+  # 👽 edit_record_cases_text -> Note text
     edit_record_cases_text=?Texto da nota
+  # 👽 edit_record_cases_title -> Title
     edit_record_cases_title=?Título
+  # 👽 edit_record_cases_xref -> Reference
     edit_record_cases_xref=?Referência
     edit_record_cbt_code=Código CBT:
     edit_record_cbt_counter=Contador enviado:
@@ -1471,13 +1650,21 @@ Do not change the items below:
     edit_record_classes_name=Nome da Classe:
     edit_record_classes_title=Detalhe da Classe
     edit_record_classes_usersinclass=Número de utilizadores que pertencem a esta classe:
+  # 👽 edit_record_client_id -> Client
     edit_record_client_id=?Cliente
+  # 👽 edit_record_clients_contact -> Contact
     edit_record_clients_contact=?Contato
+  # 👽 edit_record_clients_email -> Email
     edit_record_clients_email=?Email
+  # 👽 edit_record_clients_header -> Edit Client
     edit_record_clients_header=?Editar Cliente
+  # 👽 edit_record_clients_name -> Name
     edit_record_clients_name=?Nome
+  # 👽 edit_record_clients_notes -> Notes
     edit_record_clients_notes=?Notas
+  # 👽 edit_record_clients_securitykey -> Security Key
     edit_record_clients_securitykey=?Chave de Segurança
+  # 👽 edit_record_clients_status -> Client status
     edit_record_clients_status=?Estado do cliente
     edit_record_clone=Clonar
     edit_record_createdby=Criado Por
@@ -1499,17 +1686,29 @@ Do not change the items below:
     edit_record_cronjobs_name=Nome
     edit_record_cronjobs_nolastruns=Não há execuções recentes para mostrar
     edit_record_cronjobs_title=Detalhes de tarefas agendadas
+  # 👽 edit_record_customblocks_block -> Dispatch Name
     edit_record_customblocks_block=?Nome de Despacho
+  # 👽 edit_record_customblocks_description -> Description
     edit_record_customblocks_description=?Descrição
+  # 👽 edit_record_customblocks_graph_params -> Chart Parameters
     edit_record_customblocks_graph_params=?Parâmetros Gráficos
+  # 👽 edit_record_customblocks_graph_provider -> Chart Provider
     edit_record_customblocks_graph_provider=?Provedor gráfico
+  # 👽 edit_record_customblocks_graphnone -> None
     edit_record_customblocks_graphnone=?Nenhum
+  # 👽 edit_record_customblocks_graphreact -> React
     edit_record_customblocks_graphreact=?Reagir
+  # 👽 edit_record_customblocks_header -> Edit Custom DataBlock
     edit_record_customblocks_header=?Modifica o DataBlock personalizado
+  # 👽 edit_record_customblocks_provider -> Provider
     edit_record_customblocks_provider=?Provedor
+  # 👽 edit_record_customblocks_securitykey -> Security Key
     edit_record_customblocks_securitykey=?Chave de Segurança
+  # 👽 edit_record_customblocks_source_body -> Source
     edit_record_customblocks_source_body=?Fonte
+  # 👽 edit_record_customblocks_title -> Title
     edit_record_customblocks_title=?Título
+  # 👽 edit_record_customblocks_view -> View
     edit_record_customblocks_view=?Vista
     edit_record_delete=Eliminar
     edit_record_description=Descrição
@@ -1526,6 +1725,7 @@ Do not change the items below:
     edit_record_export_title=Detalhe de Exportação de Relatórios
     edit_record_export_titlefield=Título:
     edit_record_export_visibility=Chave de Visibilidade:
+  # 👽 edit_record_ext_ref -> Reference
     edit_record_ext_ref=?Referência
     edit_record_external_reference=ID de Referência Externa
     edit_record_features_code=Feature code
@@ -1605,15 +1805,25 @@ Do not change the items below:
     edit_record_queue_agentspaused=Número de agentes em pausa:
     edit_record_queue_agentswaiting=Número de agentes em espera:
     edit_record_queue_alias=Alias da Queue:
+  # 👽 edit_record_queue_amo -> AMO Settings
     edit_record_queue_amo=?Configurações AMO
+  # 👽 edit_record_queue_amo_enabled -> Enabled
     edit_record_queue_amo_enabled=?Ativado
+  # 👽 edit_record_queue_amo_exponential -> Exponential
     edit_record_queue_amo_exponential=?Exponencial
+  # 👽 edit_record_queue_amo_fixed -> Fixed
     edit_record_queue_amo_fixed=?Fixado
+  # 👽 edit_record_queue_amo_linear -> Linear
     edit_record_queue_amo_linear=?Linear
+  # 👽 edit_record_queue_amo_recall_attributes -> Recall attributes
     edit_record_queue_amo_recall_attributes=?Recuperar atributos
+  # 👽 edit_record_queue_amo_recall_max_attempts -> Max. attempts
     edit_record_queue_amo_recall_max_attempts=?Tentativas Máximas
+  # 👽 edit_record_queue_amo_recall_sec -> Seconds before recall
     edit_record_queue_amo_recall_sec=?Segundos antes de re-chamar
+  # 👽 edit_record_queue_amo_recall_stepping -> Recall stepping
     edit_record_queue_amo_recall_stepping=?Períodos de re-chamado
+  # 👽 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
     edit_record_queue_amo_recall_valid_outcomes=?Resultados válidos
     edit_record_queue_attention=Níveis de atenção
     edit_record_queue_callsinqueue=Número de chamadas na queue:
@@ -1687,6 +1897,7 @@ Do not change the items below:
     edit_record_users_realname=Nome Real:
     edit_record_users_title=Detalhe de Utilizador
     edit_record_users_token=Token:
+  # 👽 edit_record_xref_blank -> Leave blank to create a reference automatically
     edit_record_xref_blank=?Deixe em branco para criar uma referência automaticamente
     edit_reports_automatic=Configuração de relatórios automáticos
     edit_reports_desc=Desc.
@@ -1729,6 +1940,7 @@ Do not change the items below:
 
     qa_agent=Agente
     qa_agent_groups=Grupos de  agente
+  # 👽 qa_agent_groups_icon -> Icon
     qa_agent_groups_icon=?Ícone
     qa_all_calls=Todas as Chamadas
     qa_analyst=Analista de QA
@@ -2000,6 +2212,7 @@ Do not change the items below:
     filter_idAgentGroup=Grupo de Agente
     filter_idLocation=Localização
     filter_ivr=IVR
+  # 👽 filter_lostAttemptFor -> Lost Attempt For
     filter_lostAttemptFor=?Tentativa perdida por
     filter_noncont_days=Dias
     filter_noncont_r1_from=Tempo desde
@@ -2049,6 +2262,7 @@ Do not change the items below:
     rt3_agent_action_title=Selecione uma ação para um agente
     rt3_agent_actions=Ações do Agente
     rt3_agent_addmember=Adicionar Operador à Queue
+  # 👽 rt3_agent_changepause -> Change Pause
     rt3_agent_changepause=?Modificar Pausa
     rt3_agent_code=Código de Agente
     rt3_agent_extension=Extensão do agente
@@ -2058,14 +2272,18 @@ Do not change the items below:
     rt3_agent_logout=Logout (Todas as Queues)
     rt3_agent_pause=Pausar agente
     rt3_agent_removemember=Remover Operador da Queue
+  # 👽 rt3_agent_select -> Please select an Agent...
     rt3_agent_select=?Selecione um Agente...
     rt3_agent_status=Estado
     rt3_agent_unpause=Retirar Agente de Pausa
     rt3_agents=Agentes
     rt3_agents_on_inbound=Agentes em Inbound
     rt3_agents_on_outbound=Agentes em Outbound
+  # 👽 rt3_alarm_cell_value -> Cell Value
     rt3_alarm_cell_value=?Valor da Célula
+  # 👽 rt3_alarm_column_title -> Column
     rt3_alarm_column_title=?Coluna
+  # 👽 rt3_all_agents -> All Agents
     rt3_all_agents=?Todos os Agentes
     rt3_all_columns=Todas as Colunas
     rt3_all_queues=Todas as Queues
@@ -2084,6 +2302,7 @@ Do not change the items below:
     rt3_call=Chamada
     rt3_call_action_title=Selecione uma ação para uma chamada
     rt3_call_actions=Ações de chamada
+  # 👽 rt3_call_actions_subtitle -> Click on a call to select it
     rt3_call_actions_subtitle=?Clique em uma chamada para selecioná-la
     rt3_call_agent=Agente
     rt3_call_alarm_red=Alarme Vermelho de Chamada
@@ -2120,6 +2339,7 @@ Do not change the items below:
     rt3_category_multiitem=Itens Compostos
     rt3_category_table=Tabelas
     rt3_category_various=Vários
+  # 👽 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
     rt3_change_queue_confirm=?Você tem alterações não salvas que serão perdidas se você alterar a fila. Confirma?
     rt3_choose_action=Escolher Ação
     rt3_choose_monitor_mode=Modo de monitorização
@@ -2144,6 +2364,7 @@ Do not change the items below:
     rt3_comment=Comentário
     rt3_configure_phone=Configuração do Softphone
     rt3_connection_error=Erro de conecção do servidor
+  # 👽 rt3_connection_valid -> The connection to the server is working correctly.
     rt3_connection_valid=?A conexão ao servidor está funcionando corretamente.
     rt3_cont=Cont.
     rt3_contph=CPH
@@ -2156,12 +2377,17 @@ Do not change the items below:
     rt3_current_agent=Agente Actual:
     rt3_current_call=Chamada Actual
     rt3_current_props=Propriedades Actuais:
+  # 👽 rt3_data_block -> Data Block
     rt3_data_block=?Bloco de Dados
+  # 👽 rt3_data_block_chart -> Chart
     rt3_data_block_chart=?Gráfico
     rt3_database=Base de Dados
+  # 👽 rt3_datablock -> Data Block
     rt3_datablock=?Bloco de Dados
     rt3_del=Eliminar Vista
+  # 👽 rt3_delete_current_wallboard_confirm -> The current wallboard will be deleted, proceed?
     rt3_delete_current_wallboard_confirm=?O wallboard atual será excluído, continuar?
+  # 👽 rt3_delete_wallboard -> Delete
     rt3_delete_wallboard=?Excluir
     rt3_direction=Direcção
     rt3_display_size=Mostrar Tamanho
@@ -2173,12 +2399,14 @@ Do not change the items below:
     rt3_edit_wallboard_cfg=Editar wallboard e vista actual 
     rt3_editwdg_title=Editar Widget
     rt3_empty_wlbd=Wallboard vazio
+  # 👽 rt3_enter_title -> Enter Title
     rt3_enter_title=?Inserir Título
     rt3_error_prefs_fetch=Não foi possível recuperar as preferências do utilizador
     rt3_error_saving=Erro a guardar Wallboard
     rt3_error_saving_prefs=Não foi possível salvar as preferências do utilizador
     rt3_error_saving_public_wb=Utilizador não pode guardar um wallboard público
     rt3_error_saving_wb_missing_key=Utilizador não pode guardar um wallboard, a chave WALLBOARD_ADD está em falta
+  # 👽 rt3_export_schema -> Export
     rt3_export_schema=?Exportar
     rt3_extension=Extensão
     rt3_extension_info=Conectado como:
@@ -2189,12 +2417,15 @@ Do not change the items below:
     rt3_green=Verde
     rt3_hangup=Hangup
     rt3_hold=Espera
+  # 👽 rt3_html -> HTML Page
     rt3_html=?Página HTML
     rt3_idle=Livre
     rt3_idle_alarm_red=Alarme Vermelho Livre
     rt3_idle_alarm_yel=Alarme Amarelo Livre
+  # 👽 rt3_import_schema -> Import
     rt3_import_schema=?Importar
     rt3_in_ivr=IVR
+  # 👽 rt3_incoming_call_from -> Incoming call from
     rt3_incoming_call_from=?Chamada entrante de
     rt3_insert_valid_value=Por favor inserir um valor válido
     rt3_ispublic=Público?
@@ -2214,8 +2445,11 @@ Do not change the items below:
     rt3_longest_wait=Espera Mais Longa
     rt3_lost_attempts=Tent. Perdidas
     rt3_lost_prc=Perdida
+  # 👽 rt3_menu_delete -> Delete
     rt3_menu_delete=?Apagar
+  # 👽 rt3_menu_edit -> Edit
     rt3_menu_edit=?Editar
+  # 👽 rt3_menu_share -> Share
     rt3_menu_share=?Compartilhar
     rt3_missing_wdg=Widget em Falta
     rt3_n_agents=N. de Agentes
@@ -2282,7 +2516,9 @@ Do not change the items below:
     rt3_secondary_color=Cor Secundária
     rt3_seconds=segundos
     rt3_security_key=Chave de visibilidade
+  # 👽 rt3_select_chart -> Select a Chart...
     rt3_select_chart=?Selecionar um gráfico...
+  # 👽 rt3_select_db -> Select a DataBlock...
     rt3_select_db=?Selecionar um Bloco de Dados...
     rt3_select_wallboard=Por favor seleccione um Wallboard
     rt3_send_command=Ok
@@ -2322,6 +2558,7 @@ Do not change the items below:
     rt3_talk_yellow_alarm=Alarme Amarelo de Conversação
     rt3_talking=Conversação
     rt3_text=Texto
+  # 👽 rt3_text_area_placeholder -> Insert text here
     rt3_text_area_placeholder=?Digite o texto aqui
     rt3_title=Título
     rt3_tot_talk=Tot. Conversação
@@ -2335,6 +2572,7 @@ Do not change the items below:
     rt3_unregister_txt=Cancelar Registo
     rt3_unregistered=Não Registado
     rt3_up=Mover para Cima
+  # 👽 rt3_url -> Url
     rt3_url=?Url
     rt3_url_copied=URL partilhável copiado para a área de transferência
     rt3_user_prefs_saved=As preferências do utilizador foram salvas
@@ -2498,6 +2736,7 @@ Do not change the items below:
 
 Description of configuration properties
 
+  # 👽 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
     propedit_agent_max_qap_calls_desc=?Número máximo de chamadas mostradas aos agentes
     propedit_category_agentpage=Página de tempo real do agente
     propedit_category_engine=Motor de cálculo
@@ -2510,11 +2749,13 @@ Description of configuration properties
     propedit_category_synchronizer=Sincronizador
     propedit_edit_label=Editar
     propedit_explore_label=Explorar
+  # 🔴 propedit_feature_agent_amo -> AMO
     ➡️ propedit_feature_agent_amo=
     propedit_feature_ap_backg=Fundos Opcionais
     propedit_feature_ap_login_out=Login e logout
     propedit_feature_ap_other=Não categorizado
     propedit_feature_autoopenurl=Actualizar fundo
+  # 👽 propedit_feature_engine_audit -> Auditing
     propedit_feature_engine_audit=?Auditoria
     propedit_feature_engine_other=Não categorizado
     propedit_feature_engine_shortcalls=Chamadas Curtas
@@ -2530,6 +2771,7 @@ Description of configuration properties
     propedit_feature_platformdialer_settings=Definições Gerais
     propedit_feature_rtmisc=Outros parâmetros de tempo real
     propedit_feature_rtpanels=Painéis de Tempo Real
+  # 👽 propedit_feature_softphone_defaults -> SoftPhone Global Defaults
     propedit_feature_softphone_defaults=?Padrões globais do SoftPhone
     propedit_feature_softphone_settings=Configurações do softphone da página do agente
     propedit_feature_synchronizer_settings=Definições do Sincronizador
@@ -2538,21 +2780,34 @@ Description of configuration properties
     propedit_key_agent_background_desc=URL do background da página do agente.
     propedit_key_agent_outcome_size=Altura máxima da lista de selecção de categorizações
     propedit_key_agent_pause_dialout=Desactivar ligação de saída aos agentes quando estão em pausa
+  # 👽 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
     propedit_key_agent_qap_cached_for_ms_desc=?Tempo máximo de cache para a página do agente
+  # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
     ➡️ propedit_key_amo_placed_call_timeout=
+  # 👽 propedit_key_answer_src -> The Softphone's answer tone (URL)
     propedit_key_answer_src=?Tom de resposta do Softphone (URL)
+  # 👽 propedit_key_atxfer -> Attended Transfer Feature Code
     propedit_key_atxfer=?Código de recurso de transferência assistida
+  # 👽 propedit_key_atxferabort -> Abort Attended Transfer Feature Code
     propedit_key_atxferabort=?Código de recurso de transferência assistida para abortar
+  # 👽 propedit_key_atxfercomplete -> Complete Attended Transfer Feature Code
     propedit_key_atxfercomplete=?Código de recurso de transferência assistida completa
+  # 👽 propedit_key_atxferswap -> Swap Attended Transfer Feature Code
     propedit_key_atxferswap=?Trocar código de recurso de transferência assistida
+  # 👽 propedit_key_atxferthreeway -> Join Attended Transfer Feature Code
     propedit_key_atxferthreeway=?Código de recurso de transferência assistida para ingressar
     propedit_key_audio_html5player_desc=Utilizar o leitor de áudio HTML5
     propedit_key_audit_log_days=Quantos dias de logs devem ser preservados durante uma limpeza de auditoria do log
+  # 👽 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
     propedit_key_audit_max_report_time=?Tempo máximo de duração do relatório não requer auditoria
+  # 👽 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
     propedit_key_audit_max_rows_fetched=?Número máximo de linhas lidas que não requerem auditoria
+  # 👽 propedit_key_blindxfer -> Blind Transfer Feature Code
     propedit_key_blindxfer=?Código de recurso de transferência cega
     propedit_key_cronjobs_localwebapp=URL Base para Execução de Tarefas Agendadas
+  # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
     ➡️ propedit_key_decodeknownnumbers=
+  # 👽 propedit_key_default_agentcanamendpause_desc -> If this property is set to Yes, agents can amend the current pause code, retroactively changing it (this will make it so that the new pause code will appear in reports instead of the old one, for the current pause). If set to No, when agents change pause code, it will automatically end the current pause and initiate a new one with the new code.
     propedit_key_default_agentcanamendpause_desc=?Se esta propriedade está marcada como Sim, os agentes podem alterar o código de pausa atual, alterando-o retroativamente (isso fará com que o novo código de pausa apareça nos relatórios em vez do antigo, para a pausa atual). Se definido como Não, quando os agentes alterarem o código de pausa, a pausa atual será encerrada automaticamente e uma nova será iniciada com o novo código.
     propedit_key_default_alwaysLogonUnpaused_desc=Quando o agente faz o login, ele nunca estará em pausa
     propedit_key_default_areacode_digits_desc=Considerar quantos dígitos para o código de área por defeito
@@ -2562,6 +2817,7 @@ Description of configuration properties
     propedit_key_default_crmapp_desc=URL(pode ter tags dinâmicas, ver manual de utilizador)
     propedit_key_default_crmlabel_desc=Etiqueta mostrada no Ícone da página de menu
     propedit_key_default_decimalDigits_desc=Número de dígitos apresentados para números de floating-point
+  # 👽 propedit_key_default_effectiveCallThresold_desc -> The minimum length of a call to be considered effective
     propedit_key_default_effectiveCallThresold_desc=?A duração mínima de uma chamada para ser considerada efetiva
     propedit_key_default_export_orientation_desc=Orientação dos relatórios exportados directamente para PDF
     propedit_key_default_export_orientation_landscape_desc=Horizontal
@@ -2574,7 +2830,9 @@ Description of configuration properties
     propedit_key_default_lockedAgentPopupCode_desc=Os utilizadores podem alterar o código nas janelas de login/logoff/pausa?
     propedit_key_default_maxOngoingTalkTime_desc=Se uma chamada a decorrer tem um tempo de conversação que excede este valor, encerra-a. 0: ignorar 
     propedit_key_default_maxOngoingWaitTime_desc=Se uma chamada a decorrer tem um tempo de espera que excede este valor, encerra-a. 0: ignorar
+  # 👽 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
     propedit_key_default_maxrowspdf_desc=?Número máximo de linhas por tabela quando exportar um relatório em formato PDF.
+  # 👽 propedit_key_default_maxrowsxls_desc -> Max. number of rows per table when exporting a report in XLS format. Keep in mind that the maximum number of rows in an XLS page cannot surpass 65435.
     propedit_key_default_maxrowsxls_desc=?Máx. número de linhas por tabela ao exportar um relatório no formato XLS. Lembre-se de que o número máximo de linhas em uma página XLS não pode ultrapassar 65.435.
     propedit_key_default_openUrlInPopup_desc=Abrir o CRM numa janela separada (não incorporar no ícone)
     propedit_key_default_pausecoderequired_desc=Se definido como verdadeiro, os agentes são obrigados a fornecer um motivo de pausa válida.
@@ -2599,6 +2857,7 @@ Description of configuration properties
     propedit_key_default_viewTechInfo_desc=Informações Técnicas e visibilidade do DBTest
     propedit_key_default_webloaderpbx_desc=Activar WebLoaderPBX (UniLoader)
     propedit_key_default_wombatagentrecall_desc=Activar serviço de remarcação de agente do wombat
+  # 👽 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
     propedit_key_dialtone_src=?Tom de discagem do Softphone (URL)
     propedit_key_directami_agent_desc=O formato que um canal de agente deve ter
     propedit_key_directami_cmdseparator_desc=O separador usado para parâmetros na sua versão do Asterisk. Por defeito é vírgula (',') e deve ser alterado para pipe ('|') para sistemas Asterisk muito antigos (pré-1.8)
@@ -2608,6 +2867,7 @@ Description of configuration properties
     propedit_key_directami_outboundenabled_desc=Se ligar para fora está activado
     propedit_key_directami_outboundstanza_desc=o ponto no dialplan que deve ser chamado quando ligar para fora
     propedit_key_directami_spyoptions_desc=As opções que deseja usar para o ChanSpy do Asterisk ao ouvir chamadas. Ao alterar estas opções, pode ter whisper ou barge em vez de simplesmente ouvir.
+  # 👽 propedit_key_directami_stateinterface_desc -> The StateInterface for our agent. If blank, not added.
     propedit_key_directami_stateinterface_desc=?A StateInterface para nosso agente. Se estiver em branco, não é adicionado.
     propedit_key_directami_trackerdialout_desc=A extensão e o contexto usado quando ligar para fora
     propedit_key_directami_transfer_desc=O destino da transferência, no formato ext@context
@@ -2624,12 +2884,17 @@ Description of configuration properties
     propedit_key_enswitch_qpwrap_desc=A prioridade da queue para um agente a ser adicionado com prioridade WRAP (por defeito: 6)
     propedit_key_enswitch_spyprefix_desc=O prefixo por defeito a ser utilizado para iniciar um chanspy (por defeito: * 91)
     propedit_key_enswitch_verbose_desc=Se todas as interacções Enswitch devem ser loggadas em full para o log padrão (por defeito: false)
+  # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
     ➡️ propedit_key_extrabody=
+  # 👽 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
     propedit_key_hangup_src=?Tom de ocupado do Softphone (URL)
+  # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
     ➡️ propedit_key_hiddennumberpolicy=
+  # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Should be resized to 200 x 72.
     propedit_key_layout_logo_desc=?Logo de sua empresa (caminho completo ou relativo). Se recomenda alterar o tamanho para 200 x 72 pixels.
     propedit_key_noans_timeout=Tempo (em segundos) após o qual uma chamada é rejeitada se não for atendida. O valor por defeito é 60
     propedit_key_phone_iceservers=Lista de Servidores ICE a usar. 
+  # 👽 propedit_key_phone_maxsessions -> Max Num. of sessions for the Agent Page SoftPhone
     propedit_key_phone_maxsessions=?Número máximo de sessões para o SoftPhone na pagina de agente
     propedit_key_phone_websocketurl=Web Socket URL usado para a conexão
     propedit_key_platform_dialer_desc=Selecionar o tipo de dialer a ser utilizado
@@ -2682,11 +2947,13 @@ Description of configuration properties
     propedit_key_realtime_waitAlarmOnLiveCalls_desc=Verificar alarmes no tempo de espera das chamadas em curso
     propedit_key_recovery_max=Intervalo máximo em segundos entre as tentativas de reconexão da WebSocket. O valor por defeito é 30.
     propedit_key_recovery_min=Intervalo mínimo em segundos entre as tentativas de reconexão da WebSocket. O valor por defeito é 2.
+  # 👽 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
     propedit_key_ringtone_src=?Tom de toque do Softphone (URL)
     propedit_key_sla_initial_interval_desc=Intervalo para a parte inícial do SLA
     propedit_key_sla_interval_desc=Quão grandes são os intervalos de tempo para o gráfico de SLA
     propedit_key_sla_max_initial_delay_desc=Período inicial para o cálculo de SLA
     propedit_key_sla_max_monitored_delay_desc=Atraso máx. apresentado no gráfico de SLA
+  # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
     ➡️ propedit_key_smtpsubjectprefix=
     propedit_key_synchronizer_agents_file=Ficheiro agents.conf por Defeito
     propedit_key_synchronizer_queuelog_file=Ficheiro Queue Log por Defeito
@@ -2695,9 +2962,11 @@ Description of configuration properties
     propedit_key_synchronizer_users_file=Ficheiro users.conf por Defeito
     propedit_key_wallboard_kiosk_user=O utilizador por defeito para o URL do Wallboard Kiosk
     propedit_key_wb_noans_timeout=Tempo (em segundos) após o qual uma chamada é rejeitada se não for atendida. O valor por defeito é 60.
+  # 👽 propedit_key_wb_phone_autoanswer -> Enable Auto Answer by default in the Wallboard SoftPhone
     propedit_key_wb_phone_autoanswer=?Ativar Resposta automática por padrão no Wallboard SoftPhone
     propedit_key_wb_phone_displayname=Nome descritivo (String) a ser mostrado para a parte chamada ao chamar.
     propedit_key_wb_phone_iceservers=Lista de servidores ICE a utilizar
+  # 👽 propedit_key_wb_phone_maxsessions -> Max Num. of sessions for the Wallboard SoftPhone
     propedit_key_wb_phone_maxsessions=?Número máximo de sessões para o SoftPhone pelo Wallboard
     propedit_key_wb_phone_password=Password de autenticação SIP (String).
     propedit_key_wb_phone_register=Indica se o sofphone se deve registar no PBX.
@@ -2707,6 +2976,7 @@ Description of configuration properties
     propedit_key_wb_recovery_max=Intervalo máximo em segundos entre as tentativas de reconexão da WebSocket. O valor por defeito é 30.
     propedit_key_wb_recovery_min=Intervalo mínimo em segundos entre as tentativas de reconexão da WebSocket. O valor por defeito é 2.
     propedit_key_wombat_password_desc=WombatDialer password
+  # 👽 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
     propedit_key_wombat_prevdial_desc=?URL da página de visão prévia de discagem do WombatDialer
     propedit_key_wombat_url_desc=URL principal do WombatDialer
     propedit_key_wombat_username_desc=Utilizador WombatDialer
@@ -2721,11 +2991,16 @@ Description of configuration properties
     propedit_option_false=Falso
     propedit_option_freeswitch=FreeSwitch
     propedit_option_freeswitch_live=FreeSwitch-Live
+  # 🔴 propedit_option_hash -> hash
     ➡️ propedit_option_hash=
+  # 🔴 propedit_option_hide -> hide
     ➡️ propedit_option_hide=
+  # 🔴 propedit_option_hide3 -> hide3
     ➡️ propedit_option_hide3=
+  # 🔴 propedit_option_hide5 -> hide5
     ➡️ propedit_option_hide5=
     propedit_option_jsonapi=JSON API
+  # 👽 propedit_option_mirtapbx -> MirtaPBX
     propedit_option_mirtapbx=?MirtaPBX
     propedit_option_no=Não
     propedit_option_none=Nenhum
@@ -2737,6 +3012,7 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Apenas atribuir queues seleccionadas
     propedit_option_realtime_dynamicLoginQueues_registered_label=Registadas
     propedit_option_spy=Espiar
+  # 🔴 propedit_option_stars -> stars
     ➡️ propedit_option_stars=
     propedit_option_sync_mode_c=Apenas Criar
     propedit_option_sync_mode_c_d=Criar, Eliminar
@@ -2774,6 +3050,7 @@ Description of security keys
     keydesc_agaw_rep=Utilizador pode aceder aos ecrãs de supervisão AGAW
     keydesc_agent=Utilizador é um agente e vê a página de agente
     keydesc_agrep=Utilizador pode filtrar relatórios por agente
+  # 👽 keydesc_autoanswer_phone -> User can toggle Auto Answer on the softphone
     keydesc_autoanswer_phone=?O usuário pode alternar o Atendimento automático no softphone
     keydesc_batch_add=Pode adicionar chamadas a um batch aberto
     keydesc_batch_adm=Cria e fecha batches para exportar áudio
@@ -2797,6 +3074,7 @@ Description of security keys
     keydesc_closecalls=utilizador pode terminar chamadas em curso na página de tempo real ou no histórico de estatísticas
     keydesc_config=Utilizador pode iniciar o assitente de auto-configuração (modo assitido ou não)
     keydesc_edit_cfg=Utilizador pode editar o ficheiro configuration.properties
+  # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
     ➡️ keydesc_hidenumbers=
     keydesc_keyupdate=Utilizador pode instalar uma nova chave de activação do QueueMetrics
     keydesc_mon_audio=O utilizador pode monitorizar chamadas em tempo real
@@ -2838,13 +3116,18 @@ Description of security keys
     keydesc_user=Esta chave Deve ser usada por qualquer utilizador válido
     keydesc_usr_agent=Utilizador pode editar agentes
     keydesc_usr_agroups=Utilizador pode editar grupos de agentes customizados
+  # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
     ➡️ keydesc_usr_amo_edit=
     keydesc_usr_calltag=Utilizador pode editar tags de chamadas
+  # 👽 keydesc_usr_cases_edit -> User can edit Cases
     keydesc_usr_cases_edit=?Usuário podem editar Casos
     keydesc_usr_cbts=Utilizador pode editar a lista de CBTs conhecidos
+  # 👽 keydesc_usr_clients_edit -> User can edit Clients
     keydesc_usr_clients_edit=?Usuário podem editar Clientes
     keydesc_usr_cronjobs_edit=Utilizador pode editar Tarefas Agendadas
+  # 👽 keydesc_usr_customblocks_edit -> User can edit Custom Data Blocks
     keydesc_usr_customblocks_edit=?Usuário pode editar blocos de dados personalizados
+  # 👽 keydesc_usr_diagnostics -> User can run diagnostics
     keydesc_usr_diagnostics=?O usuário pode executar diagnósticos
     keydesc_usr_dnis=Utilizador pode editar a lista de DID/DNIS conhecidos
     keydesc_usr_ivr=Utilizador pode editar a lista de selecções IVR conhecidas
@@ -2882,6 +3165,7 @@ Description of security keys
     tsk_detail_history=Histórico de tarefas
     tsk_detail_info=Info de Tarefa
     tsk_detail_lastUpdated=Última actualização
+  # 🔴 tsk_detail_message -> Message
     ➡️ tsk_detail_message=
     tsk_detail_notes=Observações
     tsk_detail_pfield=Campo de Processo
@@ -2896,12 +3180,14 @@ Description of security keys
     tsk_disputed_qamsg=Formulário de Disputa QA
     tsk_icon_detail=Ver detalhes
     tsk_list_pfield=Campo de Processo
+  # 👽 tsk_list_tbl_agroup -> Group
     tsk_list_tbl_agroup=?Grupo
     tsk_list_tbl_desc=Descrição
     tsk_list_tbl_expdate=Data de Vencimento
     tsk_list_tbl_from=De
     tsk_list_tbl_id=ID da Tarefa
     tsk_list_tbl_status=Estado
+  # 👽 tsk_list_tbl_ticon -> Task
     tsk_list_tbl_ticon=?Tarefa
     tsk_lists_dueend_date=Fim do período de vencimento
     tsk_lists_duestart_date=Início do período de vencimento
@@ -2983,28 +3269,51 @@ Other items
     agt_history_cbt=CBT Enviado
     agt_history_groupchange=Integrante do grupo
     agt_history_mtn=Treino Enviado
+  # 👽 amo_close_info -> Close AMO Information
     amo_close_info=?Fechar informação AMO
+  # 👽 amo_dialer_state_completed -> Completed
     amo_dialer_state_completed=?Completado
+  # 👽 amo_dialer_state_open -> Open
     amo_dialer_state_open=?Aberto
+  # 👽 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
     amo_import_error_nonumber=?O campo 'número' é mandatório para cada registro.
+  # 👽 amo_import_error_norecords -> Please include at least one record in the CSV file.
     amo_import_error_norecords=?Favor incluir ao menos um registro no arquivo CSV.
+  # 👽 amo_last_info -> AMO Call Information
     amo_last_info=?Informação de ligação AMO
+  # 👽 amo_list_state_open -> Open
     amo_list_state_open=?Aberto
+  # 👽 amo_list_state_paused -> Paused
     amo_list_state_paused=?Pausado
+  # 👽 amo_number_state_blklist -> Blacklisted
     amo_number_state_blklist=?Em lista negra
+  # 👽 amo_number_state_dialed -> Dialed
     amo_number_state_dialed=?Discado
+  # 👽 amo_number_state_ko -> KO
     amo_number_state_ko=?KO
+  # 👽 amo_number_state_ok -> OK
     amo_number_state_ok=?OK
+  # 👽 amo_number_state_placed -> Placed
     amo_number_state_placed=?Enviado
+  # 👽 amo_number_state_reserved -> Reserved
     amo_number_state_reserved=?Reservado
+  # 👽 amo_number_state_todo -> To do
     amo_number_state_todo=?Pendente
+  # 👽 amo_numbers_asteriskid -> Asterisk ID
     amo_numbers_asteriskid=?ID Asterisk
+  # 👽 amo_numbers_callstatus -> Status Code
     amo_numbers_callstatus=?Código de estado
+  # 👽 amo_numbers_date -> Date
     amo_numbers_date=?Data
+  # 👽 amo_numbers_reason -> Reason
     amo_numbers_reason=?Motivo
+  # 👽 amo_numbers_user -> User
     amo_numbers_user=?Usuário
+  # 👽 amo_upload_numbers_error -> Error while uploading AMO numbers
     amo_upload_numbers_error=?Erro enquanto carregava números AMO
+  # 👽 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
     amo_upload_numbers_success=?Números AMO carregados com sucesso.
+  # 👽 at_invalid_agent -> Invalid Agent
     at_invalid_agent=?Agente inválido
     avg_time_decor_days=d
     bdcmsg_ForAgent=Agente
@@ -3015,9 +3324,13 @@ Other items
     bdcmsg_Text=Mensagem
     bdcmsg_Time=Hora
     callselectordecor_select=Seleciona esta chamada
+  # 👽 ccase_case_name -> Case
     ccase_case_name=?Caso
+  # 👽 ccase_case_xref -> Ref. #
     ccase_case_xref=?No. ref.
+  # 👽 ccase_client_name -> Client
     ccase_client_name=?Cliente
+  # 👽 ccase_client_xref -> Ref. #
     ccase_client_xref=?No. ref.
     cdp_clonedispositions=Clonar Disposição de Regras
     cfgprops_file_saved=Ficheiro configuration.properties salvo em
@@ -3029,11 +3342,15 @@ Other items
     cfgprops_title_wizard=Explorar os parâmetros de sistema do QueueMetrics
     cfgprops_wrong_line=Ficheiro não salvo - Formato de linha incorrecto
     comboex_findlabel=Encontrar
+  # 👽 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     common_jdecode_error=?Erro enquanto decodificava valor JSON. Verifique no console do navegador para mais informações.
+  # 👽 common_jencode_error -> Error while encoding JSON value. Check the browser's console for more information.
     common_jencode_error=?Erro enquanto codificava valor JSON. Verifique no console do navegador para mais informações.
     cronjobs_export_jobs=Exportação de Tarefas
     cronjobs_maintenance_jobs=Manutenção de Tarefas
+  # 👽 customblk_id -> ID
     customblk_id=?ID
+  # 👽 customblk_title -> Title
     customblk_title=?Título
     decoder_goal=Objectivo
     decoder_queue=Queue
@@ -3042,12 +3359,19 @@ Other items
     decorator_agentpaused=Em Pausa
     decorator_queue_sla=SLA
     default.show_agent_priority_reports=Mostrar nível de prioridade do agente nos relatórios
+  # 👽 dlr_last_pull -> Last Pull
     dlr_last_pull=?Última extração
+  # 👽 dlr_last_pull_user -> Pull User
     dlr_last_pull_user=?Extrair usuário
+  # 👽 dlr_list_state -> List State
     dlr_list_state=?Lista de estado
+  # 👽 dlr_numbers_added -> Numbers Added
     dlr_numbers_added=?Números adicionados
+  # 👽 dlr_numbers_completed -> Numbers Completed
     dlr_numbers_completed=?Números completados
+  # 👽 dlr_numbers_pulled -> Numbers Pulled
     dlr_numbers_pulled=?Números enviados
+  # 👽 dlr_state -> Number State
     dlr_state=?Estado do Número
     editor_all_reports=Todos os Relatórios
     editor_back=Voltar
@@ -3083,94 +3407,183 @@ Other items
     export_to_excel=XLS
     export_to_pdf=PDF
     export_xml=Exportar como XML
+  # 👽 grp_ivr -> Ivr Events
     grp_ivr=?Eventos URA
+  # 🔴 grp_ivr_calls -> IVR calls
     ➡️ grp_ivr_calls=
+  # 👽 grp_ivr_short -> Ivr
     grp_ivr_short=?URA
+  # 👽 grp_lost_calls -> Lost Calls
     grp_lost_calls=?Chamadas perdidas
+  # 👽 grp_lost_short -> Lost
     grp_lost_short=?Perdidas
+  # 👽 grp_taken_calls -> Taken Calls
     grp_taken_calls=?Chamadas recebidas
+  # 👽 grp_taken_short -> Taken
     grp_taken_short=?Recebidas
+  # 👽 gui_fileuploader_msg -> Drop file or Browse
     gui_fileuploader_msg=?Arrastar arquivo ou procurar
+  # 👽 gui_fileuploader_types -> Supported file formats
     gui_fileuploader_types=?Formatos compatíveis
+  # 👽 gui_fileuploader_upload -> Upload files
     gui_fileuploader_upload=?Carregar arquivos
+  # 👽 gui_fileuploader_uploaded -> Uploaded files
     gui_fileuploader_uploaded=?Arquivos carregados
+  # 👽 gui_form_back -> Back
     gui_form_back=?Voltar
+  # 👽 gui_form_cancel -> Cancel
     gui_form_cancel=?Cancelar
+  # 👽 gui_form_next -> Next
     gui_form_next=?Próximo
+  # 👽 gui_form_ok -> OK
     gui_form_ok=?OK
+  # 👽 home_add_infobox -> Add InfoBox
     home_add_infobox=?Adicionar infobox
+  # 👽 home_configuration_agents -> Agents
     home_configuration_agents=?Agentes
+  # 👽 home_configuration_cases -> Cases
     home_configuration_cases=?Casos
+  # 👽 home_configuration_cbt -> CBTs
     home_configuration_cbt=?CBTs
+  # 👽 home_configuration_clients -> Clients
     home_configuration_clients=?Clientes
+  # 👽 home_configuration_custom_blocks -> Custom Data Blocks
     home_configuration_custom_blocks=?Blocos de dados personalizados
+  # 👽 home_configuration_dnis -> DID/DNIS Lines
     home_configuration_dnis=?DID DNIS
+  # 👽 home_configuration_export_jobs -> Edit Report Exports
     home_configuration_export_jobs=?Editar Exportações de Relatório
+  # 👽 home_configuration_features -> Call Features
     home_configuration_features=?Recursos de chamada
+  # 👽 home_configuration_groups -> Agent Groups
     home_configuration_groups=?Grupo de agentes
+  # 👽 home_configuration_ivr -> IVR Selections
     home_configuration_ivr=?Seleções da URA
+  # 👽 home_configuration_known_numbers -> Known Numbers
     home_configuration_known_numbers=?Números Conhecidos
+  # 👽 home_configuration_locations -> Locations
     home_configuration_locations=?Localizações
+  # 👽 home_configuration_outcomes -> Call Outcomes
     home_configuration_outcomes=?Resultados das chamadas
+  # 👽 home_configuration_pause_codes -> Pause Codes
     home_configuration_pause_codes=?Código de Pausas
+  # 👽 home_configuration_perftracker -> QA Performance Tracker
     home_configuration_perftracker=?Controlador de desempenho de controle de qualidade
+  # 👽 home_configuration_qaforms -> QA Forms
     home_configuration_qaforms=?Formulários de controle de qualidade
+  # 👽 home_configuration_queues -> Queues
     home_configuration_queues=?Filas
+  # 👽 home_configuration_scheduled_jobs -> Edit Scheduled Jobs
     home_configuration_scheduled_jobs=?Editar trabalhos programados
+  # 👽 home_configuration_skills -> Agent Skills
     home_configuration_skills=?Habilidades do Agente
+  # 👽 home_configuration_subtitle -> Edit QueueMetrics Configuration Objects
     home_configuration_subtitle=?Editar objetos de configuração QueueMetrics
+  # 👽 home_configuration_tags -> Call Tags
     home_configuration_tags=?Etiqueta de Chamadas
+  # 👽 home_configuration_title -> Configuration
     home_configuration_title=?Configuração
+  # 👽 home_configuration_users -> Users
     home_configuration_users=?Usuários
+  # 👽 home_dbtest_ami -> AMI tester
     home_dbtest_ami=?Teste AMI
+  # 👽 home_dbtest_ami_queue -> AMI Commands
     home_dbtest_ami_queue=?Comandos AMI
+  # 👽 home_dbtest_configuration -> View configuration
     home_dbtest_configuration=?Ver configuração
+  # 👽 home_dbtest_db_inspector -> Database inspector
     home_dbtest_db_inspector=?Inspetor de banco de dados
+  # 👽 home_dbtest_ram_cache -> RAM caching
     home_dbtest_ram_cache=?Cache de RAM
+  # 👽 home_dbtest_smtp -> SMTP tester
     home_dbtest_smtp=?Testador SMTP
+  # 👽 home_diagnostics_title -> Diagnostics
     home_diagnostics_title=?Diagnóstico
+  # 👽 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
     home_error_fetch_admin_infoboxes=?Erro buscando InfoBoxes de administração
+  # 👽 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
     home_error_fetch_available_infoboxes=?Erro buscando InfoBoxes disponíveis
+  # 👽 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
     home_error_fetch_infoboxes=?Erro buscando Infoboxes
+  # 👽 home_error_save_prefs -> Error Saving InfoBox Data
     home_error_save_prefs=?Erro salvando dados InfoBox
+  # 👽 home_icon_subtitle -> Icon Agent Page
     home_icon_subtitle=?Página Ícone do Agente
+  # 👽 home_icon_title -> Icon
     home_icon_title=?Ícone
+  # 👽 home_infobox_close -> Close
     home_infobox_close=?Fechar
+  # 👽 home_infobox_preview -> Preview
     home_infobox_preview=?Antevisão
+  # 👽 home_infobox_private -> Private
     home_infobox_private=?Privado
+  # 👽 home_infobox_quicklinks -> Quicklinks
     home_infobox_quicklinks=?Links Rápidos
+  # 👽 home_news_subtitle -> QueueMetrics Latest News
     home_news_subtitle=?Últimas notícias da QueueMetrics
+  # 👽 home_news_title -> News
     home_news_title=?Notícias
+  # 👽 home_payroll_subtitle -> Start a Payroll Report
     home_payroll_subtitle=?Iniciar um relatório de folha de pagamento
+  # 👽 home_payroll_title -> Payroll Report
     home_payroll_title=?Relatório de folha de pagamento
+  # 👽 home_qa_subtitle -> Start a QA Report
     home_qa_subtitle=?Relatório de controle de qualidade
+  # 👽 home_qa_title -> QA Reports
     home_qa_title=?Relatórios de QA
+  # 👽 home_qap_subtitle -> Queuemetrics Agent Interface
     home_qap_subtitle=?Interface de Agente Queuemetrics
+  # 👽 home_qap_title -> Agent Page
     home_qap_title=?Página de Agente
+  # 👽 home_realtime_subtitle -> Comprehensive view of Live calls
     home_realtime_subtitle=?Visão abrangente de chamadas ao vivo
+  # 👽 home_realtime_title -> Realtime
     home_realtime_title=?Tempo real
+  # 👽 home_reports_subtitle -> Historical reports
     home_reports_subtitle=?Relatórios históricos
+  # 👽 home_reports_title -> Reports
     home_reports_title=?Relatórios
+  # 👽 home_search -> Search
     home_search=?Procurar
+  # 👽 home_search_placeholder -> Search...
     home_search_placeholder=?Pesquise na página inicial
+  # 👽 home_select_infobox -> Check the InfoBox you want to see in the Home Page
     home_select_infobox=?Verifique a infobox que deseja ver na página inicial
+  # 👽 home_ssar_subtitle -> Self Service Agent Reports
     home_ssar_subtitle=?Relatórios de agente de autoatendimento
+  # 👽 home_ssar_title -> SSAR
     home_ssar_title=?SSAR
+  # 👽 home_synchronizer_subtitle -> QueueMetrics Automatic Setup
     home_synchronizer_subtitle=?Configuração automática do QueueMetrics
+  # 👽 home_synchronizer_title -> Synchronizer
     home_synchronizer_title=?Sincronizador
+  # 👽 home_sysadmin_agaw -> Agent Awareness Manager
     home_sysadmin_agaw=?Gerente de Conscientização de Agente
+  # 👽 home_sysadmin_audit -> View Audit Logs
     home_sysadmin_audit=?Ver registros de auditoria
+  # 👽 home_sysadmin_diagnostic_tools -> System diagnostic tools
     home_sysadmin_diagnostic_tools=?Ferramentas de diagnóstico do sistema
+  # 👽 home_sysadmin_edit_parameters -> Edit System Parameters
     home_sysadmin_edit_parameters=?Editar parâmetros do sistema
+  # 👽 home_sysadmin_explore_parameters -> Explore System Parameters
     home_sysadmin_explore_parameters=?Explorar os parâmetros do sistema
+  # 👽 home_sysadmin_import_export -> Import/Export Calls
     home_sysadmin_import_export=?Importar / Exportar chamadas
+  # 👽 home_sysadmin_mysql_storage -> Storage Information
     home_sysadmin_mysql_storage=?Informações de armazenamento Mysql
+  # 👽 home_sysadmin_subtitle -> Useful tools for Sysadmins
     home_sysadmin_subtitle=?Ferramentas úteis para administradores de sistemas
+  # 👽 home_sysadmin_title -> System Administration
     home_sysadmin_title=?Administrador do Sistema
+  # 👽 home_throwaway_report -> Create Throw Away Report
     home_throwaway_report=?Criar relatório de descarte
+  # 👽 home_unexpected_server_error -> An unexpected server error has occured
     home_unexpected_server_error=?Ocorreu um erro inesperado no servidor
+  # 👽 home_wallboards_subtitle -> Customizable wallboards for live data
     home_wallboards_subtitle=?Painéis de parede personalizáveis para dados ao vivo
+  # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?Wallboards
+  # 👽 jump_to_main_content -> Jump to the main content
     jump_to_main_content=?Vá para o conteúdo principal
     keyinstall_err_nokey=Utilizador necessita da chave KEYUPDATE. Não pode continuar.
     keyinstall_err_noscript=tpf
@@ -3184,24 +3597,43 @@ Other items
     keyinstall_popup_descr=Copie e introduza aqui o seu novo código de activação
     keyinstall_popup_title=Instale uma nova chave do QueueMetrics
     keyinstall_popup_title_agaw=Licença AGAW
+  # 👽 ko_lst_n -> N Lost
     ko_lst_n=?N. Perdidas
+  # 👽 ko_lst_q -> Lost on Q
     ko_lst_q=?Perdidas na Fila
+  # 👽 ko_lst_t -> Last Lost
     ko_lst_t=?Última perda
+  # 👽 ko_recall_state -> Recall state
     ko_recall_state=?Estado reclamado
+  # 👽 ko_sho_n -> N Short
     ko_sho_n=?N. Curto
+  # 👽 ko_sho_q -> Short.Q.
     ko_sho_q=?Fila Curta
+  # 👽 ko_sho_t -> Short.Lst.
     ko_sho_t=?Lista Curta
+  # 👽 ko_succ_a -> Agent
     ko_succ_a=?Agente
+  # 👽 ko_succ_n -> Successful
     ko_succ_n=?Sucesso
+  # 👽 ko_succ_q -> Succ.Q.
     ko_succ_q=?Filas Sucesso
+  # 👽 ko_succ_t -> Succ.Last
     ko_succ_t=?Último Sucesso
+  # 👽 lgui_friday -> Friday
     lgui_friday=?Sexta-feira
+  # 👽 lgui_monday -> Monday
     lgui_monday=?Segunda-feira
+  # 👽 lgui_saturday -> Saturday
     lgui_saturday=?Sábado
+  # 👽 lgui_selectall -> Select All
     lgui_selectall=?Selecionar tudo
+  # 👽 lgui_sunday -> Sunday
     lgui_sunday=?Domingo
+  # 👽 lgui_thursday -> Thursday
     lgui_thursday=?Quinta-feira
+  # 👽 lgui_tuesday -> Tuesday
     lgui_tuesday=?Terça-feira
+  # 👽 lgui_wednesday -> Wednesday
     lgui_wednesday=?Quarta-feira
     licence_contributors=Colaboradores
     licence_firefox_client=Versão do cliente para Firefox:
@@ -3213,16 +3645,20 @@ Other items
     licence_show_eula=Mostrar o contrato da licença (EULA)
     licence_software_release=Versão de software:
     licence_website=O website oficial do QueueMetrics está localizado em
+  # 👽 list_amo_title -> AMO Campaigns
     list_amo_title=?Campanha AMO
     logon_ErrAlreadyPresent=Este logon já está na base de dados
     logon_ErrClassNotFound=Classe não encontrada
+  # 👽 logon_ErrHidden -> Log-in failed.
     logon_ErrHidden=?Falha na autenticação.
+  # 👽 logon_ErrIllegalSsoSecret -> Could not validate the SSO reply - please try again.
     logon_ErrIllegalSsoSecret=?Impossível validar resposta SSO - tente novamente.
     logon_ErrMoreThanOne=Mais de um utilizador com o mesmo login
     logon_ErrNotFound=Utilizador não encontrado
     logon_ErrUserDisabled=O utilizador não consegue efectuar login
     logon_ErrUserNotFound=Utilizador não encontrado
     logon_ErrWrongPassword=Password errada
+  # 👽 logon_ErrWrongSsoToken -> The user has an incorrect SSO token in their profile.
     logon_ErrWrongSsoToken=?O usuário tem um token SSO inválido no seu perfil.
     logon_ErrWrongToken=Símbolo errado
     logon_ErrXmlConnect=Problemas na conexão à fonte XML-RPC
@@ -3230,62 +3666,112 @@ Other items
     logon_btn=Entrar
     logon_language=Idioma
     logon_login=Login
+  # 👽 logon_microsoft -> Sign in with Microsoft
     logon_microsoft=?Iniciar sessão Microsoft
     logon_pass=Password
+  # 👽 logon_ssoLogInWith -> Or
     logon_ssoLogInWith=?Ou
     logon_title=Autenticação
     lstcall_calllen=Duração
     lstcall_ivr=IVR
     lstcall_waitlen=Espera
+  # 👽 memo_add_new -> Create Memo
     memo_add_new=?Criar Memo
+  # 👽 memo_category -> Filter by category
     memo_category=?Filtrar por categoria
+  # 👽 memo_details_caller -> Caller
     memo_details_caller=?Chamador
+  # 👽 memo_details_create -> Create Memo
     memo_details_create=?Criar Memo
+  # 👽 memo_details_expireson -> Expires on
     memo_details_expireson=?Vence em
+  # 👽 memo_details_form -> Form
     memo_details_form=?Formulário
+  # 👽 memo_details_from -> FROM
     memo_details_from=?DE
+  # 👽 memo_details_goback -> Back
     memo_details_goback=?Anterior
+  # 👽 memo_details_info -> Memo Info
     memo_details_info=?Informação Memo
+  # 👽 memo_details_queue -> Queue
     memo_details_queue=?Fila
+  # 👽 memo_details_save -> Save
     memo_details_save=?Salvar
+  # 👽 memo_details_title -> Title
     memo_details_title=?Título
+  # 👽 memo_details_to -> TO
     memo_details_to=?PARA
+  # 👽 memo_details_type -> type
     memo_details_type=?tipo
+  # 👽 memo_details_user_from -> From
     memo_details_user_from=?De
+  # 👽 memo_details_user_to -> To
     memo_details_user_to=?Para
+  # 👽 memo_details_validfrom -> Valid from
     memo_details_validfrom=?Válido desde
+  # 👽 memo_due -> Due Date
     memo_due=?Vencimento
+  # 👽 memo_filter_all -> All Memos
     memo_filter_all=?Todos os Memos
+  # 👽 memo_filter_alldone -> All Memos done
     memo_filter_alldone=?Totos os Memos completados
+  # 👽 memo_filter_alltbd -> All Memos to be done
     memo_filter_alltbd=?Totos os Memos para completar
+  # 👽 memo_filter_completed -> Memos I completed
     memo_filter_completed=?Memos completados
+  # 👽 memo_filter_error -> Error filtering Memos
     memo_filter_error=?Erro filtrando Memos
+  # 👽 memo_filter_mygroup -> My group
     memo_filter_mygroup=?Meu grupo
+  # 👽 memo_filter_sent -> Memos I sent
     memo_filter_sent=?Memos enviados
+  # 👽 memo_filter_status -> Status
     memo_filter_status=?Estado
+  # 👽 memo_filter_tbd -> Memos to be done
     memo_filter_tbd=?Memos pendentes
+  # 👽 memo_from -> From
     memo_from=?De
+  # 👽 memo_group -> Group
     memo_group=?Grupo
+  # 👽 memo_id -> Id
     memo_id=?ID
+  # 👽 memo_items_found -> items found
     memo_items_found=?itens encontrados
+  # 👽 memo_list -> Memo List
     memo_list=?Lista de Memos
+  # 👽 memo_list_norecords -> No Records
     memo_list_norecords=?Sem registros
+  # 👽 memo_loadbyid_error -> There was an error loading the Memo by ID
     memo_loadbyid_error=?Aconteceu um erro quando carregando o Memo pelo ID
+  # 👽 memo_loadbyid_missing -> There seems to be no Memo with ID
     memo_loadbyid_missing=?Parece que não existe nenhum Memo com ID
+  # 👽 memo_manager -> Manager
     memo_manager=?Responsável
+  # 👽 memo_message -> Message
     memo_message=?Mensagem
+  # 👽 memo_related_to -> Related to
     memo_related_to=?Relacionado a
+  # 👽 memo_status -> Status
     memo_status=?Estado
+  # 👽 memo_tree_empty -> Empty
     memo_tree_empty=?Vazio
+  # 👽 memo_type -> Type
     memo_type=?Tipo
     menu_licence_page=Página da licença
     menu_user_page=Informação de utilizador
+  # 👽 notification_error -> Error
     notification_error=?Erro
+  # 👽 notification_info -> Info
     notification_info=?Info
+  # 👽 notification_success -> Success
     notification_success=?Sucesso
+  # 👽 notification_warning -> Warning
     notification_warning=?Atenção
+  # 👽 numberformat_defaultdigits -> 1
     numberformat_defaultdigits=?1
+  # 👽 open_addremoveinfobox_menu -> Open InfoBox menu to add / remove InfoBoxes
     open_addremoveinfobox_menu=?Abra o menu da infobox para adicionar / remover infoboxes
+  # 👽 open_settings_menu -> Open settings menu
     open_settings_menu=?Abra o menu de configurações
     pager_current_page=Página actual:
     pager_fields=Seleccione as colunas a apresentar
@@ -3293,58 +3779,111 @@ Other items
     pager_last=Última página
     pager_next=Próxima página
     pager_prev=Página anterior
+  # 👽 phone_advanced_settings -> Advanced Settings
     phone_advanced_settings=?Configurações avançadas
+  # 👽 phone_agent -> Agent
     phone_agent=?Agente
+  # 👽 phone_anonymous -> Anonymous
     phone_anonymous=?Anônimo
+  # 👽 phone_answer -> Answer
     phone_answer=?Responder
+  # 👽 phone_attended -> Attended Transfer
     phone_attended=?Transferência assistida
+  # 👽 phone_attended_transfer -> Attended Transfer
     phone_attended_transfer=?Transferência negociada
+  # 👽 phone_auto_answer_toggle_off -> Auto Answer is Disabled
     phone_auto_answer_toggle_off=?O atendimento automático está desativado
+  # 👽 phone_auto_answer_toggle_on -> Auto Answer is Enabled
     phone_auto_answer_toggle_on=?O atendimento automático está habilitado
+  # 👽 phone_basic_settings -> Basic Settings
     phone_basic_settings=?Configurações básicas
+  # 👽 phone_blind -> Blind Transfer
     phone_blind=?Transferência cega
+  # 👽 phone_blind_transfer -> Blind Transfer
     phone_blind_transfer=?Transferir
+  # 👽 phone_call -> Call
     phone_call=?Chamada
+  # 👽 phone_calling -> Calling...
     phone_calling=?Chamando...
+  # 👽 phone_cancel -> Cancel
     phone_cancel=?Cancelar
+  # 👽 phone_close -> Close
     phone_close=?Fechar
+  # 👽 phone_confirm -> Confirm
     phone_confirm=?Confirmar
+  # 👽 phone_connectionrecoverymax -> Conn. Recovery Max.
     phone_connectionrecoverymax=?Recuperação de conexão máx. intervalo
+  # 👽 phone_connectionrecoverymin -> Conn. Recovery Min.
     phone_connectionrecoverymin=?Recuperação de conexão mín. intervalo
+  # 👽 phone_debug -> Click to print debug information in the browser console.
     phone_debug=?Clique para imprimir as informações de Debug no console do navegador.
+  # 👽 phone_dial -> Dial
     phone_dial=?Discar
+  # 👽 phone_dialing -> Dialing...
     phone_dialing=?Chamando
+  # 👽 phone_dialling -> Dialling...
     phone_dialling=?Discando...
+  # 👽 phone_displayname -> Display Name
     phone_displayname=?Nome em Exibição
+  # 👽 phone_hangup -> Hangup
     phone_hangup=?Terminar chamada
+  # 👽 phone_http_error -> WebRTC Error.
     phone_http_error=?Erro WebRTC
+  # 👽 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
     phone_http_error_body=?PAra o correto funcionamento do WebRTC o Queuemetrics deve ser oferecido com HTTPS
+  # 👽 phone_iceservers -> Ice Servers
     phone_iceservers=?Servidores ICE
+  # 👽 phone_incoming_call -> Incoming call...
     phone_incoming_call=?Chamada entrante
+  # 👽 phone_input_error -> Input Error
     phone_input_error=?Erro de entrada
+  # 👽 phone_join -> Join
     phone_join=?Juntar
+  # 👽 phone_maxsessions -> Max. Sessions
     phone_maxsessions=?Máx. Sessões
+  # 👽 phone_mute -> Mute
     phone_mute=?Mudo
+  # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
     phone_no_https=?QueueMetrics deve ser oferecido com HTTPS para que o SoftPhone funcione corretamente
+  # 👽 phone_no_queue -> No Queue
     phone_no_queue=?Sem fila
+  # 👽 phone_noanswertimeout -> No Answer Timeout
     phone_noanswertimeout=?Tempo limite sem resposta
+  # 👽 phone_not_avaialable -> Softphone Not Available.
     phone_not_avaialable=?Softphone não disponível
+  # 👽 phone_not_available -> Softphone not available.
     phone_not_available=?Softphone não disponível.
+  # 👽 phone_password -> Password
     phone_password=?Senha
+  # 👽 phone_register -> Register
     phone_register=?Registrar
+  # 👽 phone_registered -> Registered
     phone_registered=?Registrado
+  # 👽 phone_registering -> Registering
     phone_registering=?Registrando
+  # 👽 phone_returntophone -> Return to Phone
     phone_returntophone=?Retornar ao telefone
+  # 👽 phone_server -> Server
     phone_server=?Servidor
+  # 👽 phone_settings -> Settings
     phone_settings=?Configurações
+  # 👽 phone_swap -> Swap
     phone_swap=?Trocar
+  # 👽 phone_toggle_hold -> Hold/Unhold
     phone_toggle_hold=?Reter/Liberar
+  # 👽 phone_toggle_transfer -> Transfer
     phone_toggle_transfer=?Transferir
+  # 👽 phone_transfer -> Transfer
     phone_transfer=?Transferência
+  # 👽 phone_unmute -> Unmute
     phone_unmute=?Com som
+  # 👽 phone_unregistered -> Unregistered
     phone_unregistered=?Não registrado
+  # 👽 phone_update_settings -> Update Settings
     phone_update_settings=?Modificar opções
+  # 👽 phone_username -> Username
     phone_username=?Nome do usuário
+  # 👽 phone_websocketurl -> Websocket URL
     phone_websocketurl=?URL WebSocket
     popupclose_alreadydone=A chamada já foi encerrada.
     popupclose_close=Encerrar chamada
@@ -3438,14 +3977,23 @@ Other items
     prl_time_start_time_check=Por favor verificar o tempo inicial inserido.
     prl_time_wrong_period=O período específicado não é válido. O tempo final deve ser maior que o tempo inicial.
     prl_total_duration=Duração total
+  # 👽 pwres_change -> Set new password
     pwres_change=?Defina a nova senha
+  # 👽 pwres_changed_successfully -> The password was reset successfully. Please log on now.
     pwres_changed_successfully=?Senha receptada com sucesso. Por favor faça o login.
+  # 👽 pwres_expired_link -> The link you used has expired. Please ask for a new one.
     pwres_expired_link=?O link utilizado expirou. Favor solicitar um novo link.
+  # 👽 pwres_no_resettable_user -> The password reset link is invalid or it has already been used once.
     pwres_no_resettable_user=?O link para reset da senha é inválido ou já foi usado uma vez.
+  # 👽 pwres_pass -> New password
     pwres_pass=?Nova senha
+  # 👽 pwres_passwords_dont_match -> The passwords you have entered do not match. Please try again.
     pwres_passwords_dont_match=?As senhas digitadas não conferem. Tente novamente.
+  # 👽 pwres_repeat_pass -> Repeat new password
     pwres_repeat_pass=?Repita a nova senha
+  # 👽 pwres_reset_password -> Reset the password of
     pwres_reset_password=?Resetar a senha para
+  # 👽 pwres_unknown_link -> The provided password reset link is invalid.
     pwres_unknown_link=?O link de reset de senha fornecido é inválido.
     qagrader_addedbygrtype=Adicionado por
     qagrader_agent=Agente
@@ -3462,259 +4010,504 @@ Other items
     qagrader_time=Tempo
     qagrader_wait=Espera
     qagrader_wrongurl=O URL específicado não é válido. Por favor verificar e tentar novamente
+  # 👽 qap_action_case -> Assign to Case
     qap_action_case=?Atribuir ao Caso
+  # 👽 qap_action_clicktodial -> Click to dial
     qap_action_clicktodial=?Clique para discar
+  # 👽 qap_action_client -> Assign to Client
     qap_action_client=?Atribuir ao Cliente
+  # 👽 qap_action_crm -> Open CRM
     qap_action_crm=?Abrir CRM
+  # 👽 qap_action_flag -> Flag Interaction
     qap_action_flag=?Marcar interação
+  # 👽 qap_action_hangup -> Hangup Call
     qap_action_hangup=?Desligar chamada
+  # 👽 qap_action_label -> Label Interaction
     qap_action_label=?Etiquetar Interação
+  # 👽 qap_action_monitor -> Monitor Call
     qap_action_monitor=?Monitorar chamada
+  # 👽 qap_action_qa -> QA Forms
     qap_action_qa=?Formulário QA
+  # 👽 qap_action_recall -> New Recall Note
     qap_action_recall=?Nova nota de rechamada
+  # 👽 qap_action_transfer -> Transfer Call
     qap_action_transfer=?Transferir chamada
+  # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
     ➡️ qap_action_wbtrecall=
+  # 👽 qap_addmember_selected -> Join selected queues.
     qap_addmember_selected=?Entrar nas filas selecionadas
+  # 👽 qap_agent_code -> Agent Code
     qap_agent_code=?Código do Agente
+  # 👽 qap_agent_dialout_error -> Error while performing Agent Dialout.
     qap_agent_dialout_error=?Erro enquanto realizava discagem do Agente
+  # 👽 qap_agent_extension -> Agent Extension
     qap_agent_extension=?Ramal do agente
+  # 👽 qap_agent_notifications_error -> Error while fetching agent notifications.
     qap_agent_notifications_error=?Erro enquanto buscava as notificações do agente.
+  # 👽 qap_agent_settings_error -> Error while fetching agent settings.
     qap_agent_settings_error=?Erro enquanto buscava as configurações do agente
+  # 👽 qap_agent_status_error -> Error while fetching agent status.
     qap_agent_status_error=?Erro enquanto buscava o estado do agente.
+  # 👽 qap_amo -> AMO
     qap_amo=?AMO
+  # 👽 qap_amo_attributes -> Attributes
     qap_amo_attributes=?Atributos
+  # 👽 qap_amo_cannot -> Cannot reserve a call at this time.
     qap_amo_cannot=?Impossível reservar a chamada nesta hora.
+  # 👽 qap_amo_error -> Error reserving AMO call:
     qap_amo_error=?Erro reservando chamada AMO:
+  # 👽 qap_amo_list -> List Name
     qap_amo_list=?Nome da Lista
+  # 👽 qap_amo_number -> Number
     qap_amo_number=?Número
+  # 👽 qap_amo_queue -> Queue Name
     qap_amo_queue=?Nome da Fila
+  # 👽 qap_amo_recall -> Recall
     qap_amo_recall=?Rechamada
+  # 👽 qap_amo_request -> Request AMO Call
     qap_amo_request=?Solicitar chamada AMO
+  # 👽 qap_amo_reserved -> Call successfully Reserved.
     qap_amo_reserved=?Chamada reservada com sucesso.
+  # 👽 qap_amo_terminated -> There are no more available AMO calls.
     qap_amo_terminated=?Não existe mais chamadas AMO disponíveis.
+  # 👽 qap_assign_case -> Assign Interaction to Case
     qap_assign_case=?Atribuir interação ao Caso
+  # 👽 qap_assign_client -> Assign Interaction to Client
     qap_assign_client=?Atribuir Interação ao Cliente
+  # 👽 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
     qap_assign_interaction_error=?Erro enquanto atribuir relacionamento a esta interação
+  # 👽 qap_calendar_add -> Add New
     qap_calendar_add=?Adicionar nova
+  # 👽 qap_call_associated_to_case -> Call was associated to case
     qap_call_associated_to_case=?Chamada foi associada ao caso
+  # 👽 qap_case -> Case
     qap_case=?Caso
+  # 👽 qap_case_add -> Add New Case
     qap_case_add=?Adicionar novo Caso
+  # 👽 qap_case_calls -> ALL CALLS
     qap_case_calls=?TODAS AS CHAMADAS
+  # 👽 qap_case_closed -> Closed
     qap_case_closed=?Fechado
+  # 🔴 qap_case_comments -> Comments
     ➡️ qap_case_comments=
+  # 👽 qap_case_contact -> Contact
     qap_case_contact=?Contato
+  # 🔴 qap_case_details -> Case Details
     ➡️ qap_case_details=
+  # 👽 qap_case_email -> Email
     qap_case_email=?Email
+  # 👽 qap_case_merged -> Merged
     qap_case_merged=?Combinado
+  # 👽 qap_case_notes -> Notes
     qap_case_notes=?Notas
+  # 👽 qap_case_open -> Open
     qap_case_open=?Aberto
+  # 👽 qap_case_title -> Title
     qap_case_title=?Título
+  # 👽 qap_case_unconfirmed -> Unconfirmed
     qap_case_unconfirmed=?Não confirmado
+  # 👽 qap_case_xref -> XREF
     qap_case_xref=?Ref. #
+  # 👽 qap_cases_placeholder_search -> Search for any Case here
     qap_cases_placeholder_search=?Buscar um caso
+  # 👽 qap_choose_server_title -> Choose a Server
     qap_choose_server_title=?Escolher um servidor
+  # 👽 qap_client -> Client
     qap_client=?Cliente
+  # 👽 qap_client_contact -> Contact
     qap_client_contact=?Contato
+  # 👽 qap_client_email -> Email
     qap_client_email=?Email
+  # 👽 qap_client_externalRef -> External Reference
     qap_client_externalRef=?Referência externa
+  # 👽 qap_client_key -> Visibility Key
     qap_client_key=?Chave de visibilidade
+  # 👽 qap_client_name -> Name
     qap_client_name=?Nome
+  # 👽 qap_client_notes -> Notes
     qap_client_notes=?Notas
+  # 👽 qap_client_xref -> XREF
     qap_client_xref=?Ref. #
+  # 👽 qap_clients_add -> Add New Client
     qap_clients_add=?Adicionar novo Cliente
+  # 👽 qap_clients_placeholder_search -> Search for any Client here
     qap_clients_placeholder_search=?Buscar por um cliente
+  # 👽 qap_control_addall -> Join selected
     qap_control_addall=?Combinar selecionados
+  # 🔴 qap_control_add -> Join
     ➡️ qap_control_add=
+  # 🔴 qap_control_remove -> Leave
     ➡️ qap_control_remove=
+  # 👽 qap_control_all -> All
     qap_control_all=?Todas
+  # 👽 qap_control_amend -> Amend
     qap_control_amend=?Editar
+  # 👽 qap_control_assigned -> Assigned
     qap_control_assigned=?Atribuido
+  # 👽 qap_control_change -> Change
     qap_control_change=?Mudar
+  # 👽 qap_control_composition -> Composition
     qap_control_composition=?Composição
+  # 👽 qap_control_name -> Name
     qap_control_name=?Nome
+  # 👽 qap_control_pause -> Pause
     qap_control_pause=?Pausa
+  # 👽 qap_control_priority -> Priority
     qap_control_priority=?Prioridade
+  # 👽 qap_control_removeall -> Leave selected
     qap_control_removeall=?Sair de todas
+  # 👽 qap_control_selectall -> Select all
     qap_control_selectall=?Selecionar todas
+  # 👽 qap_control_timer -> Timer
     qap_control_timer=?Temporizador
+  # 👽 qap_control_unpause -> Unpause
     qap_control_unpause=?Resumir pausa
+  # 👽 qap_create_note_error -> Error while creating a new Note.
     qap_create_note_error=?Erro enquanto criava uma nova nota
+  # 🔴 qap_crm_links -> CRM Popup Links
     ➡️ qap_crm_links=
+  # 👽 qap_daily_idle -> Idle time
     qap_daily_idle=?Tempo disponível
+  # 👽 qap_daily_lost -> Lost Calls
     qap_daily_lost=?Chamadas perdidas
+  # 👽 qap_daily_lostatt -> Lost Attempts
     qap_daily_lostatt=?Tentativas perdidas
+  # 👽 qap_daily_pause -> Pause time
     qap_daily_pause=?Tempo de pausa
+  # 👽 qap_daily_stats -> Daily Stats
     qap_daily_stats=?Estatísticas Diárias
+  # 👽 qap_daily_taken -> Taken Calls
     qap_daily_taken=?Chamadas atendidas
+  # 👽 qap_daily_talk -> Talk time
     qap_daily_talk=?Tempo de chamada
+  # 👽 qap_debug_api -> API
     qap_debug_api=?API
+  # 👽 qap_debug_context -> Context
     qap_debug_context=?Contexto
+  # 👽 qap_debug_title -> Debug
     qap_debug_title=?Debug
+  # 👽 qap_details_attempts -> Attempts
     qap_details_attempts=?Tentativas
+  # 👽 qap_details_caller -> Caller
     qap_details_caller=?Chamador
+  # 👽 qap_details_direction -> Direction
     qap_details_direction=?Direção
+  # 👽 qap_details_dnis -> Dnis
     qap_details_dnis=?DNIS
+  # 👽 qap_details_entered -> Entered
     qap_details_entered=?Ingressado
+  # 👽 qap_details_features -> Features
     qap_details_features=?Características
+  # 👽 qap_details_ivrpath -> IVR Path
     qap_details_ivrpath=?Caminho URA
+  # 👽 qap_details_outcome -> Outcome
     qap_details_outcome=?Resultado
+  # 👽 qap_details_position -> Position
     qap_details_position=?Posição
+  # 👽 qap_details_queue -> Queue
     qap_details_queue=?Fila
+  # 👽 qap_details_started -> Started
     qap_details_started=?Iniciado
+  # 👽 qap_details_tag -> Tag
     qap_details_tag=?Etiqueta
+  # 👽 qap_details_talk -> Talk Time
     qap_details_talk=?Tempo de fala
+  # 👽 qap_details_terminated -> Terminated
     qap_details_terminated=?Terminada
+  # 👽 qap_details_transferto -> Transfer To
     qap_details_transferto=?Trasferir para
+  # 👽 qap_details_uniqueid -> Unique ID
     qap_details_uniqueid=?ID Único
+  # 👽 qap_details_url -> URL
     qap_details_url=?URL
+  # 👽 qap_details_variables -> Variables
     qap_details_variables=?Variáveis
+  # 👽 qap_details_wait -> Wait Time
     qap_details_wait=?Tempo de espera
+  # 👽 qap_dial -> Dial
     qap_dial=?Discar
+  # 👽 qap_diff_join -> Queues joined
     qap_diff_join=?Filas unidas
+  # 👽 qap_diff_leave -> Queues left
     qap_diff_leave=?Filas desconectadas
+  # 👽 qap_diff_paused -> Agent Paused
     qap_diff_paused=?Agente em Pausa
+  # 👽 qap_edit_cases -> Edit Case
     qap_edit_cases=?Editar Caso
+  # 👽 qap_edit_client -> Edit Client
     qap_edit_client=?Editar Cliente
+  # 👽 qap_edit_note -> Edit Note
     qap_edit_note=?Editar Nota
+  # 👽 qap_empty_note -> This note is empty.
     qap_empty_note=?Esta nota está vazia
+  # 👽 qap_end_work -> End Work
     qap_end_work=?Fim de trabalho
+  # 👽 qap_entity_placeholder -> Type to search...
     qap_entity_placeholder=?Digite para buscar...
+  # 👽 qap_fetch_notifications_error -> Error while fetching User's notifications.
     qap_fetch_notifications_error=?Erro enquanto buscava notificações do usuário
+  # 👽 qap_filters_main -> Main
     qap_filters_main=?Principal
+  # 👽 qap_filters_priority -> Priority
     qap_filters_priority=?Prioridade
+  # 👽 qap_filters_queue -> Queue
     qap_filters_queue=?Fila
+  # 👽 qap_filters_spill -> Spill
     qap_filters_spill=?Transbordo
+  # 👽 qap_filters_status -> Status
     qap_filters_status=?Estado
+  # 👽 qap_filters_type -> Type
     qap_filters_type=?Tipo
+  # 👽 qap_filters_unk -> Unknown
     qap_filters_unk=?Desconhecido
+  # 👽 qap_filters_wrap -> Wrap
     qap_filters_wrap=?Revisão
+  # 👽 qap_find_cases -> Find your Cases
     qap_find_cases=?Buscar seus Casos
+  # 👽 qap_find_clients -> Find your Clients
     qap_find_clients=?Buscar seus Clientes
+  # 👽 qap_form_features -> Feature Codes
     qap_form_features=?Códigos de facilidades
+  # 👽 qap_form_outcome -> Outcome
     qap_form_outcome=?Resultado
+  # 👽 qap_idle_time -> Idle Time
     qap_idle_time=?Tempo disponível
+  # 👽 qap_interaction_caller -> Caller
     qap_interaction_caller=?Chamador
+  # 👽 qap_interaction_case -> Case
     qap_interaction_case=?Caso
+  # 👽 qap_interaction_client -> Client
     qap_interaction_client=?Cliente
+  # 👽 qap_interaction_details -> Details
     qap_interaction_details=?Detalhes
+  # 👽 qap_interaction_details_title -> Call Details
     qap_interaction_details_title=?Detalhes de chamada
+  # 👽 qap_interaction_duration -> Duration
     qap_interaction_duration=?Duração
+  # 👽 qap_interaction_outcome -> Outcome
     qap_interaction_outcome=?Resultado
+  # 👽 qap_interaction_queue -> Queue
     qap_interaction_queue=?Fila
+  # 👽 qap_interaction_start -> Start
     qap_interaction_start=?Início
+  # 👽 qap_interaction_tag -> Tag
     qap_interaction_tag=?Etiqueta
+  # 👽 qap_interaction_transfer -> Transfer
     qap_interaction_transfer=?Transferir
+  # 👽 qap_interaction_url -> URL
     qap_interaction_url=?URL
+  # 👽 qap_interaction_variables -> Variables
     qap_interaction_variables=?Variáveis
+  # 👽 qap_interaction_waiting -> Waiting
     qap_interaction_waiting=?Esperando
+  # 👽 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
     qap_invalid_outcome=?O resultado selecionado não é válido para um ou mais códigos de recurso da interação.
+  # 👽 qap_join -> Join
     qap_join=?Ingressar
+  # 👽 qap_label_freetext -> Free Text
     qap_label_freetext=?Texto livre
+  # 👽 qap_leave -> Leave
     qap_leave=?Abandonar
+  # 👽 qap_loading -> Loading...
     qap_loading=?Carregando...
+  # 👽 qap_memos -> Memos
     qap_memos=?Memos
+  # 👽 qap_missing_cases_key -> You don't have permission to create new Cases.
     qap_missing_cases_key=?Você não tem permissão para criar novos Casos
+  # 👽 qap_missing_clients_key -> You don't have permission to create new Clients.
     qap_missing_clients_key=?Você não tem permissão para criar novos Clientes
+  # 👽 qap_nav_calendar -> Calendar
     qap_nav_calendar=?Calendário
+  # 👽 qap_nav_cases -> Cases
     qap_nav_cases=?Casos
+  # 👽 qap_nav_clients -> Clients
     qap_nav_clients=?Clientes
+  # 👽 qap_nav_control -> Control
     qap_nav_control=?Controle
+  # 👽 qap_nav_debug -> Debug
     qap_nav_debug=?Debug
+  # 👽 qap_nav_dialout -> Dialout
     qap_nav_dialout=?Painel de discagem
+  # 👽 qap_nav_home -> Home
     qap_nav_home=?Início
+  # 👽 qap_nav_interactions -> Interactions
     qap_nav_interactions=?Interações
+  # 👽 qap_nav_overview -> Overview
     qap_nav_overview=?Visão geral
+  # 👽 qap_nav_qa -> QA
     qap_nav_qa=?QA
+  # 👽 qap_nav_wombat -> WombatDialer Preview Dialing
     qap_nav_wombat=?Prévia de discagem do WombatDialer
+  # 👽 qap_new_memo -> Create linked Memo
     qap_new_memo=?Criar link de Memo
+  # 👽 qap_no_cases -> No Cases found for the current search, please try again.
     qap_no_cases=?Nenhum caso encontrado para a busca atual, tente novamente.
+  # 👽 qap_no_clients -> No Clients found for the current search, please try again.
     qap_no_clients=?Nenhum cliente encontrado para a busca atual, tente novamente.
+  # 👽 qap_none -> None
     qap_none=?Nenhum
+  # 👽 qap_note_actions -> Actions
     qap_note_actions=?Ações
+  # 👽 qap_note_complete -> Complete
     qap_note_complete=?Completar
+  # 👽 qap_note_dispute -> Dispute
     qap_note_dispute=?Questionar
+  # 👽 qap_note_empty -> Empty
     qap_note_empty=?Vazio
+  # 👽 qap_note_expires -> Expires on
     qap_note_expires=?Vence em
+  # 👽 qap_note_expires_on -> Expires On
     qap_note_expires_on=?Vence em
+  # 👽 qap_note_flag -> Flag
     qap_note_flag=?Marcação
+  # 👽 qap_note_ko_disputed -> Disputed
     qap_note_ko_disputed=?Questionada
+  # 👽 qap_note_ko_refused -> Refused
     qap_note_ko_refused=?Recusada
+  # 👽 qap_note_ko_rejected -> Rejected
     qap_note_ko_rejected=?Rejeitada
+  # 👽 qap_note_meeting -> Meeting
     qap_note_meeting=?Reunião
+  # 👽 qap_note_message -> Message
     qap_note_message=?Mensagem
+  # 👽 qap_note_note -> Note
     qap_note_note=?Nota
+  # 👽 qap_note_notes -> Notes
     qap_note_notes=?Notas
+  # 👽 qap_note_ok -> OK
     qap_note_ok=?OK
+  # 👽 qap_note_qa -> QA
     qap_note_qa=?QA
+  # 👽 qap_note_recall -> Recall
     qap_note_recall=?Rechamar
+  # 👽 qap_note_refuse -> Refuse
     qap_note_refuse=?Recusar
+  # 👽 qap_note_reject -> Reject
     qap_note_reject=?Rejeitar
+  # 👽 qap_note_status -> Status
     qap_note_status=?Estado
+  # 👽 qap_note_tbd -> TBD
     qap_note_tbd=?A definir
+  # 👽 qap_note_todo -> Todo
     qap_note_todo=?Pendente
+  # 👽 qap_note_togroup -> To Group
     qap_note_togroup=?Para o grupo
+  # 👽 qap_note_touser -> To User
     qap_note_touser=?Para o usuário
+  # 👽 qap_note_training -> Training
     qap_note_training=?Treinamento
+  # 👽 qap_note_type -> Type
     qap_note_type=?Tipo
+  # 👽 qap_note_valid_from -> Valid From
     qap_note_valid_from=?Válido desde
+  # 👽 qap_notes_type_note -> Note
     qap_notes_type_note=?Nota
+  # 👽 qap_notifications -> Notifications
     qap_notifications=?Notificações
+  # 👽 qap_notifications_empty -> You currently have no notifications
     qap_notifications_empty=?Você não tem notificações.
+  # 👽 qap_overview_daily -> Daily
     qap_overview_daily=?Diário
+  # 👽 qap_overview_stats -> Stats
     qap_overview_stats=?Estatísticas
+  # 👽 qap_overview_weekly -> Weekly
     qap_overview_weekly=?Semanal
+  # 👽 qap_pause_time -> Pause Time
     qap_pause_time=?Tempo de Pausa
+  # 👽 qap_platform_action_error -> Error while performing platform action.
     qap_platform_action_error=?Erro enquanto executava a ação
+  # 👽 qap_process_note_error -> Error while processing a Note.
     qap_process_note_error=?Erro enquanto processava a Nota
+  # 👽 qap_run -> Run
     qap_run=?Executar
+  # 👽 qap_save_case_error -> Error while saving Case.
     qap_save_case_error=?Erro enquanto salvava o Caso
+  # 👽 qap_save_client_error -> Error while saving Client.
     qap_save_client_error=?Erro enquanto salvava o Cliente
+  # 👽 qap_search_cases_error -> Error searching for the requested Cases.
     qap_search_cases_error=?Erro buscando pelo Caso requisitado.
+  # 👽 qap_search_clients_error -> Error searching for the requested Clients.
     qap_search_clients_error=?Erro buscando pelo Cliente requisitado
+  # 👽 qap_server -> Server
     qap_server=?Servidor
+  # 👽 qap_session_time -> Session Time
     qap_session_time=?Tempo de sessão
+  # 👽 qap_signout -> Sign out
     qap_signout=?Sair
+  # 👽 qap_softphone -> Phone
     qap_softphone=?Telefone
+  # 👽 qap_softphone_debug -> Softphone
     qap_softphone_debug=?Softphone
+  # 👽 qap_start_work -> Start Work
     qap_start_work=?Iniciar trabalho
+  # 👽 qap_status_paused -> Paused
     qap_status_paused=?Pausado
+  # 👽 qap_status_unpaused -> Unpaused
     qap_status_unpaused=?Não pausado
+  # 👽 qap_title_calendar -> Calendar
     qap_title_calendar=?Calendário
+  # 👽 qap_title_cases -> Cases
     qap_title_cases=?Casos
+  # 👽 qap_title_clients -> Clients
     qap_title_clients=?Clientes
+  # 👽 qap_title_control -> Queue Control
     qap_title_control=?Controle de Filas
+  # 👽 qap_title_interactions -> Interactions
     qap_title_interactions=?Interações
+  # 👽 qap_title_note -> New Note
     qap_title_note=?Nova nota
+  # 👽 qap_title_notes_done -> Done
     qap_title_notes_done=?Completado
+  # 👽 qap_title_notes_pending -> Pending
     qap_title_notes_pending=?Pendentes
+  # 👽 qap_title_outcomes -> Outcome and Feature Codes
     qap_title_outcomes=?Resultado e códigos de facilidades
+  # 👽 qap_title_overview -> Overview
     qap_title_overview=?Visão geral
+  # 👽 qap_today -> Today
     qap_today=?Hoje
+  # 👽 qap_transaction_body -> Comment
     qap_transaction_body=?Comentário
+  # 👽 qap_transaction_title -> Title
     qap_transaction_title=?Título
+  # 👽 qap_unknown_caller -> Unknown Caller
     qap_unknown_caller=?Chamador desconhecido
+  # 👽 qap_user_pref_error -> Error while fetching user preferences.
     qap_user_pref_error=?Erro enquanto buscava preferências do usuário
+  # 👽 qap_wbt_campaign -> Campaign
     qap_wbt_campaign=?Campanha
+  # 👽 qap_wbt_comments -> Comments
     qap_wbt_comments=?Comentários
+  # 👽 qap_wbt_date -> Date
     qap_wbt_date=?Data
+  # 👽 qap_wbt_num -> Number
     qap_wbt_num=?Número
+  # 👽 qap_wbt_recall -> Recall
     qap_wbt_recall=?Rechamada
+  # 👽 qap_wbt_title -> Schedule WombatDialer Recall
     qap_wbt_title=?Programar reclamada WombatDialer
+  # 👽 qap_welcome -> Welcome Back!
     qap_welcome=?Bem vindo!
+  # 👽 qap_you_have -> You have
     qap_you_have=?Você tem
     qatarget_agentgroup=Grupo de Agente
     qatarget_allcalls=Todas as chamadas
     qatarget_individual_agents=Agente
     qatarget_outcomes=Categorização das chamadas
+  # 👽 react_report_table_sort_asc -> Sort in Ascending order
     react_report_table_sort_asc=?Classificar em ordem crescente
+  # 👽 react_report_table_sort_desc -> Sort in Descending order
     react_report_table_sort_desc=?Classificar em ordem decrescente
     realtime_missing_queues=Não está presente nas queues esperadas
     realtime_tooltip_calltags=Tag
     realtime_tooltip_features= Ftr
     realtime_tooltip_ivrs=IVR
     realtime_tooltip_variables=Var
+  # 👽 recallstate_needs_further -> Needs further recall
     recallstate_needs_further=?Necessita de outra chamada
+  # 👽 recallstate_not_recalled -> Not yet recalled
     recallstate_not_recalled=?Ainda não ouve rechamada
+  # 👽 recallstate_recalled -> Recalled
     recallstate_recalled=?Rechamados
     record_tag_inserttag_button=Adicionar marcador
     record_tag_inserttag_title=Inserir novo marcador
@@ -3725,6 +4518,7 @@ Other items
     record_tags_color_set=Definir Cor do Marcador
     record_tags_duration=Duração
     record_tags_duration_s=Duração (seg.)
+  # 👽 record_tags_erroradd -> Error adding marker. Please retry.
     record_tags_erroradd=?Erro adicionando marcação. Tente novamente
     record_tags_errordelete=Erro ao eliminar marcador. Por favor tente novamente.
     record_tags_file=Ficheiro de gravação
@@ -3736,85 +4530,165 @@ Other items
     record_tags_wrongduration=Por favor introduzir um formato de duração válido
     record_tags_wrongnote=Por favor introduzir uma observação
     record_tags_wrongtime=Por favor introduzir um formato de tempo válido
+  # 👽 recstat_closed -> Closed
     recstat_closed=?Fechado
+  # 👽 recstat_merged -> Merged
     recstat_merged=?Combinado
+  # 👽 recstat_open -> Open
     recstat_open=?Aberto
+  # 👽 report_filter_noncont_time -> Between
     report_filter_noncont_time=?Entre
+  # 👽 report_input_error -> This value is not admissibile
     report_input_error=?Este valor não é admissível
+  # 👽 reports_add_datablocks -> Add DataBlocks
     reports_add_datablocks=?Adicionar DataBlocks
+  # 👽 reports_add_filter -> Add Filter
     reports_add_filter=?Adicionar Filtro
+  # 👽 reports_add_filter_button -> Add Filter
     reports_add_filter_button=?Adicionar Filtro
+  # 👽 reports_adddatablock_onhover_message -> Add DataBlock
     reports_adddatablock_onhover_message=?Adicionar DataBlock
+  # 👽 reports_apply -> Apply
     reports_apply=?Aplicar
+  # 👽 reports_at_caller -> Caller:
     reports_at_caller=?Chamador
+  # 👽 reports_at_collapse -> Collapse.
     reports_at_collapse=?Ocultar.
+  # 👽 reports_at_duration -> Duration:
     reports_at_duration=?Duração:
+  # 👽 reports_at_expand -> See more details.
     reports_at_expand=?Veja mais detalhes.
+  # 👽 reports_at_idle -> Idle Time:
     reports_at_idle=?Tempo ocioso:
+  # 👽 reports_at_info -> Session information for
     reports_at_info=?Informações de sessão para
+  # 👽 reports_at_least_one_queue -> You must select at least one queue
     reports_at_least_one_queue=?Você deve selecionar pelo menos uma fila
+  # 👽 reports_at_lostatt -> Lost Attempts:
     reports_at_lostatt=?Tentativas perdidas
+  # 👽 reports_at_pause -> Pause Code:
     reports_at_pause=?Código de pausa:
+  # 👽 reports_at_queue -> Queue:
     reports_at_queue=?Fila:
+  # 👽 reports_at_queues -> Queues:
     reports_at_queues=?Filas:
+  # 👽 reports_at_taken -> Taken Calls:
     reports_at_taken=?Chamadas atendidas:
+  # 👽 reports_at_talk -> Talk Time:
     reports_at_talk=?Tempo e conversação:
+  # 👽 reports_at_wait -> Wait:
     reports_at_wait=?Espera:
+  # 👽 reports_atomic_filters -> Expression Filters
     reports_atomic_filters=?Filtros de Expressão
+  # 👽 reports_autosave_toggle -> Auto Save
     reports_autosave_toggle=?Salvo automaticamente
+  # 👽 reports_change_report_confirm -> You have unsaved changes, selecting a different report will undo those changes. Do you want to change report?
     reports_change_report_confirm=?Você tem alterações não salvas, selecionar um relatório diferente irá desfazer essas alterações. Você quer mudar de relatório?
+  # 👽 reports_chart_avgdur -> Avg. Duration
     reports_chart_avgdur=?Duração média
+  # 👽 reports_chart_delta -> Delta
     reports_chart_delta=?Delta
+  # 👽 reports_chart_error -> Invalid Chart Configuration.
     reports_chart_error=?Configuração gráfica incorreta.
+  # 👽 reports_chart_numcalls -> Num. of Calls
     reports_chart_numcalls=?Quantidade de chamadas
+  # 👽 reports_chart_others -> Others
     reports_chart_others=?Outros
+  # 👽 reports_chart_sla -> SLA
     reports_chart_sla=?SLA
+  # 👽 reports_clone -> Clone Report
     reports_clone=?Duplicar relatório
+  # 👽 reports_close_btn -> Close
     reports_close_btn=?Fechar
+  # 👽 reports_confirm -> Confirm
     reports_confirm=?Comfirmar
+  # 👽 reports_create -> Create New Report
     reports_create=?Criar Novo Relatório
+  # 👽 reports_create_page -> Create page
     reports_create_page=?Criar página
+  # 👽 reports_create_page_confirm -> You have unsaved changes, creating a new page will undo those changes. Do you want to create a new page?
     reports_create_page_confirm=?Você tem alterações não salvas., criar uma nova página desfará essas alterações. Você quer criar uma nova página?
+  # 👽 reports_create_successful -> Report created successfully
     reports_create_successful=?Relatório criado com sucesso
+  # 👽 reports_datablock_chart -> Chart
     reports_datablock_chart=?Gráfico
+  # 👽 reports_datablock_columns_customization -> Customize Columns
     reports_datablock_columns_customization=?Personalizar Colunas
+  # 👽 reports_datablock_columns_short -> Columns
     reports_datablock_columns_short=?Colunas
+  # 👽 reports_datablock_errormsg -> Error Message
     reports_datablock_errormsg=?Mensagem de Erro
+  # 👽 reports_datablock_label_subtititle -> Subtitle
     reports_datablock_label_subtititle=?Sub-título
+  # 👽 reports_datablock_label_subtitle -> DataBlock notes
     reports_datablock_label_subtitle=?Notas do DataBlock
+  # 👽 reports_datablock_label_title -> Title
     reports_datablock_label_title=?Título do DataBlock
+  # 👽 reports_datablock_order_customization -> Customize DataBlock Order
     reports_datablock_order_customization=?Personalizar ordem dos blocos de dados
+  # 👽 reports_datablock_order_short -> DataBlocks
     reports_datablock_order_short=?Blocos de Dados
+  # 👽 reports_datablock_status -> Status
     reports_datablock_status=?Estado
+  # 👽 reports_datablockview_added -> DataBlock Added
     reports_datablockview_added=?DataBlock adicionado
+  # 👽 reports_datablockview_order -> DataBlock View Order
     reports_datablockview_order=?Ordem de visualização do DataBlock
+  # 👽 reports_datablockview_parameters -> Parameters
     reports_datablockview_parameters=?Parâmetros
+  # 👽 reports_datablockview_search -> Search
     reports_datablockview_search=?Procurar
+  # 👽 reports_datablockview_search_placeholder -> Search for a DataBlock View
     reports_datablockview_search_placeholder=?Procure por uma visualização de DataBlock
+  # 👽 reports_datablockview_visibilitykey -> Visibility Key
     reports_datablockview_visibilitykey=?Chave de Visibilidade
+  # 👽 reports_datasource -> Data Source
     reports_datasource=?Fonte de dados
+  # 👽 reports_delete -> Delete Report
     reports_delete=?Apagar Relatório
+  # 👽 reports_delete_current_page_confirm -> Delete the current page?
     reports_delete_current_page_confirm=?Excluir a página atual?
+  # 👽 reports_delete_current_report_confirm -> Delete the current report?
     reports_delete_current_report_confirm=?Excluir o relatório atual?
+  # 👽 reports_delete_datablockview -> Delete DataBlock View
     reports_delete_datablockview=?Excluir visualização de DataBlock
+  # 👽 reports_delete_datablockview_short -> Delete
     reports_delete_datablockview_short=?Apagar
+  # 👽 reports_delete_filter -> Delete Filter
     reports_delete_filter=?Apagar filtro
+  # 👽 reports_delete_page -> Delete Page
     reports_delete_page=?Apagar Página
+  # 👽 reports_delete_successful -> Report deleted successfully
     reports_delete_successful=?Relatório excluído com sucesso
+  # 👽 reports_drag_info -> Drag the elements to order them.
     reports_drag_info=?Arraste os elementos para organizar sua ordem.
+  # 👽 reports_edit -> Edit
     reports_edit=?Editar
+  # 👽 reports_edit_datablocks -> DataBlocks
     reports_edit_datablocks=?DataBlocks
+  # 👽 reports_edit_datablockview -> Edit DataBlock
     reports_edit_datablockview=?Editar DataBlock
+  # 👽 reports_edit_datablockview_complete -> Confirm
     reports_edit_datablockview_complete=?Confirmar
+  # 👽 reports_edit_datablockview_short -> Edit
     reports_edit_datablockview_short=?Editar
+  # 👽 reports_edit_disabled -> This report is Read Only, because you are not authorized to edit it.
     reports_edit_disabled=?Este relatório é somente leitura, porque você não está autorizado a editá-lo.
+  # 👽 reports_edit_filter -> Edit Filter
     reports_edit_filter=?Editar filtro
+  # 👽 reports_edit_filters -> Filters
     reports_edit_filters=?Filtros
+  # 👽 reports_edit_name -> Edit Report Name
     reports_edit_name=?Editar Nome do Relatório
+  # 👽 reports_edit_page -> Edit Page
     reports_edit_page=?Editar Página
+  # 👽 reports_edit_page_complete -> Confirm changes
     reports_edit_page_complete=?Confirme as alterações
+  # 👽 reports_edit_report -> Edit Report
     reports_edit_report=?Editar Relatório
+  # 👽 reports_editingkey -> Editing Key
     reports_editingkey=?Chave de Edição
+  # 👽 reports_enter_title -> Enter the new Report title
     reports_enter_title=?Insira o novo título do relatório
     reports_export_email_body=Resultados do QueueMetrics para exportar relatório nomeado
     reports_export_email_subject=Relatório [QueueMetrics]
@@ -3823,214 +4697,422 @@ Other items
     reports_export_mode_landscape=Horizontal
     reports_export_mode_pdf=Exportar para PDF
     reports_export_mode_portrait=Vertical
+  # 👽 reports_export_pdf_short -> PDF
     reports_export_pdf_short=?PDF
+  # 👽 reports_export_schema -> Export Report Schema
     reports_export_schema=?Exportar esquema do relatório
+  # 👽 reports_export_schema_error -> The Report Schema could not be exported.
     reports_export_schema_error=?O esquema do relatório não pode ser exportado.
     reports_export_test_icon=Executar agora
+  # 👽 reports_export_xls_short -> XLS
     reports_export_xls_short=?XLS
+  # 👽 reports_fetch_error -> Error fetching DataBlock
     reports_fetch_error=?Erro buscando blocos de dados
+  # 👽 reports_filter_agent -> Agent
     reports_filter_agent=?Agente
+  # 👽 reports_filter_agentgroup -> Agent Group
     reports_filter_agentgroup=?Grupo de agente
+  # 👽 reports_filter_asteriskid -> Unique Id
     reports_filter_asteriskid=?ID único
+  # 👽 reports_filter_atomicqueuefilter -> Queue
     reports_filter_atomicqueuefilter=?Fila
+  # 👽 reports_filter_attemptsmax -> Max Attempts
     reports_filter_attemptsmax=?Máximo de tentativas
+  # 👽 reports_filter_attemptsmin -> Min. Attempts
     reports_filter_attemptsmin=?Min. Tentativas
+  # 👽 reports_filter_calldurmax -> Max. Call Duration
     reports_filter_calldurmax=?Máx. Duraçao da chamada
+  # 👽 reports_filter_calldurmin -> Min. Call Duration
     reports_filter_calldurmin=?Min. Duraçao da chamada
+  # 👽 reports_filter_caller -> Caller
     reports_filter_caller=?Chamador
+  # 👽 reports_filter_callskills -> Call Skill
     reports_filter_callskills=?Capacidade de chamada
+  # 👽 reports_filter_calltags -> Call Tag
     reports_filter_calltags=?Etiqueta de Chamada
+  # 👽 reports_filter_case -> Case
     reports_filter_case=?Caso
+  # 👽 reports_filter_client -> Client
     reports_filter_client=?Cliente
+  # 👽 reports_filter_date_from -> From
     reports_filter_date_from=?De
+  # 👽 reports_filter_date_to -> To
     reports_filter_date_to=?Para
+  # 👽 reports_filter_disconnection -> Disconnection Cause
     reports_filter_disconnection=?Causa de desconexão
+  # 👽 reports_filter_dnis -> DNIS
     reports_filter_dnis=?DNIS
+  # 👽 reports_filter_enterposmax -> Max Enter Position
     reports_filter_enterposmax=?Posição máxima de entrada
+  # 👽 reports_filter_enterposmin -> Min. Enter Position
     reports_filter_enterposmin=?Posição de entrar mínima
+  # 👽 reports_filter_features -> Feature Code
     reports_filter_features=?Código de função
+  # 👽 reports_filter_group_delete -> Delete Filter Group
     reports_filter_group_delete=?Excluir Grupo de Filtro
+  # 👽 reports_filter_input_error -> Input Error
     reports_filter_input_error=?Erro de entrada
+  # 👽 reports_filter_ivr -> IVR
     reports_filter_ivr=?URA
+  # 👽 reports_filter_location -> Location
     reports_filter_location=?Localização
+  # 🔴 reports_filter_none -> None
     ➡️ reports_filter_none=
+  # 👽 reports_filter_noncont_time -> Between
     reports_filter_noncont_time=?Entre
+  # 👽 reports_filter_noncontdays -> Days
     reports_filter_noncontdays=?Dias
+  # 👽 reports_filter_noncontr1from -> Time 1 from
     reports_filter_noncontr1from=?Tempo 1 de
+  # 👽 reports_filter_noncontr1to -> Time 1 to
     reports_filter_noncontr1to=?Tempo 1 de
+  # 👽 reports_filter_nrmcaller -> Normalized Caller
     reports_filter_nrmcaller=?Chamador normalizado
+  # 👽 reports_filter_operator -> Operator
     reports_filter_operator=?Operador(a)
+  # 👽 reports_filter_outcome -> Outcome
     reports_filter_outcome=?Resultado
+  # 👽 reports_filter_selected_queues -> Queues
     reports_filter_selected_queues=?Filas
+  # 👽 reports_filter_server -> Server
     reports_filter_server=?Servidor
+  # 👽 reports_filter_shortcallattempt -> Min. Attempt Time (short calls)
     reports_filter_shortcallattempt=?Min. Tempo de tentativa (chamadas curtas)
+  # 👽 reports_filter_shortcalltalk -> Min. Talk Time (short calls)
     reports_filter_shortcalltalk=?Min. Tempo de conversação (chamadas curtas)
+  # 👽 reports_filter_shortcallwait -> Min. Wait Time (short calls)
     reports_filter_shortcallwait=?Min. Tempo de espera (chamadas curtas)
+  # 👽 reports_filter_timerange -> Select time range
     reports_filter_timerange=?Selecionar período de tempo
+  # 👽 reports_filter_variable_name -> Variable Name
     reports_filter_variable_name=?Nome da Variável
+  # 👽 reports_filter_variable_value -> Variable Value
     reports_filter_variable_value=?Valor da Variável
+  # 👽 reports_filter_variables -> Variables
     reports_filter_variables=?Variáveis
+  # 👽 reports_filter_waitmax -> Max. Wait Time
     reports_filter_waitmax=?Máx. Tempo de espera
+  # 👽 reports_filter_waitmin -> Min. Wait Time
     reports_filter_waitmin=?Min. Tempo de espera
+  # 🔴 reports_filters -> Show/Hide Filters
     ➡️ reports_filters=
+  # 👽 reports_goto_page -> Go to
     reports_goto_page=?Vamos para
+  # 👽 reports_grouping_title -> Call Grouping
     reports_grouping_title=?Chamada de grupo
+  # 👽 reports_import_schema -> Import Report Schema
     reports_import_schema=?Importar esquema de relatório
+  # 👽 reports_import_schema_error -> Error while importing Report Schema.
     reports_import_schema_error=?Erro enquanto importava esquema de relatório
+  # 👽 reports_import_schema_success -> Report Schema Imported Successfully.
     reports_import_schema_success=?Esquema de relatório importado com êxito
+  # 👽 reports_invalid_input -> The value you have entered is not allowed
     reports_invalid_input=?O valor que você inseriu não é permitido
+  # 👽 reports_link_copy_successful -> Report URL copied to Clipboard
     reports_link_copy_successful=?URL do relatório copiado para a área de transferência
+  # 👽 reports_lost_calls -> Lost Calls
     reports_lost_calls=?Chamadas perdidas
+  # 👽 reports_modify_report_name -> Modify Report name
     reports_modify_report_name=?Modificar o nome do relatório
+  # 👽 reports_multistint -> Multi-Stint Mode
     reports_multistint=?Modo Multi-Stint
+  # 👽 reports_new_page_shorttitle -> New
     reports_new_page_shorttitle=?Novo
+  # 👽 reports_new_page_title -> New Page
     reports_new_page_title=?Nova página
+  # 👽 reports_new_report -> New Report
     reports_new_report=?Novo Relatório
+  # 👽 reports_next_datablock -> Next
     reports_next_datablock=?Próximo
+  # 👽 reports_no_available_queues -> The current user cannot access any queue.
     reports_no_available_queues=?O usuário atual não pode acessar nenhuma fila.
+  # 👽 reports_no_filters -> Add Filters
     reports_no_filters=?Adicionar filtros
+  # 👽 reports_no_queue_selected -> No Queue Selected
     reports_no_queue_selected=?Nenhuma fila selecionada
+  # 👽 reports_noncont_days_filter -> Days of the week
     reports_noncont_days_filter=?Dias da semana
+  # 👽 reports_noncont_time_filter -> Time Period Filter
     reports_noncont_time_filter=?Filtro de Período de Tempo
+  # 👽 reports_not_filter -> Negate this filter
     reports_not_filter=?Negar filtro
+  # 👽 reports_operator_and -> And
     reports_operator_and=?E
+  # 👽 reports_operator_nor -> Nor
     reports_operator_nor=?Nem
+  # 👽 reports_operator_or -> or
     reports_operator_or=?ou
+  # 👽 reports_optilock_exception -> The report you are trying to edit has been modified by someone else and cannot be saved.
     reports_optilock_exception=?O relatório que está tentando editar foi modificado por outra pessoa e não pode ser salvo.
+  # 👽 reports_owned_by -> Owned by
     reports_owned_by=?Criado por
+  # 👽 reports_page_create_successful -> Page created successfully
     reports_page_create_successful=?Página criada com sucesso
+  # 👽 reports_page_delete -> Delete Page
     reports_page_delete=?Apagar Página
+  # 👽 reports_page_delete_successful -> Page deleted successfully
     reports_page_delete_successful=?Página excluída com sucesso
+  # 👽 reports_page_shorttitle -> Short Title
     reports_page_shorttitle=?Título curto
+  # 👽 reports_page_visibilitykey -> Visibility Key
     reports_page_visibilitykey=?Chave de Visibilidade
+  # 👽 reports_pagination_gotopage -> Go to page
     reports_pagination_gotopage=?Vá para página
+  # 👽 reports_pagination_loading -> Loading...
     reports_pagination_loading=?Carregando...
+  # 👽 reports_pagination_next -> Next page
     reports_pagination_next=?Próxima página
+  # 👽 reports_pagination_of -> Of
     reports_pagination_of=?De
+  # 👽 reports_pagination_page -> Page
     reports_pagination_page=?Página
+  # 👽 reports_pagination_prev -> Previous page
     reports_pagination_prev=?Página anterior
+  # 👽 reports_pagination_show -> Show
     reports_pagination_show=?Mostrar
+  # 👽 reports_pagination_showing -> Showing
     reports_pagination_showing=?Mostrando
+  # 👽 reports_period_too_long -> This report covers a longer period than you are allowed to run.
     reports_period_too_long=?Este relatório cobre um período maior do que você tem autorização para executar.
+  # 👽 reports_prev_datablock -> Prev
     reports_prev_datablock=?Anterior
+  # 👽 reports_preview_switch -> Preview
     reports_preview_switch=?Visualizar
+  # 👽 reports_print_notification -> Exiting print mode. Please wait for the report to be reloaded. This may take a while, especially if you are printing large tables.
     reports_print_notification=?Saindo do modo de impressão. Aguarde até que o relatório seja recarregado. Isso pode demorar um pouco, especialmente se você estiver imprimindo tabelas grandes.
+  # 👽 reports_public -> Public
     reports_public=?Público
+  # 👽 reports_qa_agent -> Agent
     reports_qa_agent=?Agente
+  # 👽 reports_qa_agentgroup -> Agent group
     reports_qa_agentgroup=?Grupo de agente
+  # 👽 reports_qa_caller -> Caller
     reports_qa_caller=?Chamador
+  # 👽 reports_qa_code -> Code
     reports_qa_code=?Código
+  # 👽 reports_qa_deletenotes -> Delete All
     reports_qa_deletenotes=?Apagar
+  # 👽 reports_qa_description -> Description
     reports_qa_description=?Descrição
+  # 👽 reports_qa_error_add_note -> Error Adding Note
     reports_qa_error_add_note=?Erro adicionando Nota
+  # 👽 reports_qa_error_commit_form -> Error Committing QA Form
     reports_qa_error_commit_form=?Erro ao enviar formulário de QA
+  # 👽 reports_qa_error_delete_form -> Error Deleting QA Form
     reports_qa_error_delete_form=?Erro apagando formulário de QA
+  # 👽 reports_qa_error_delete_note -> Error Deleting Note
     reports_qa_error_delete_note=?Erro apagando nota
+  # 👽 reports_qa_error_download_forms -> Error Downloading QA Forms
     reports_qa_error_download_forms=?Erro ao baixar formulário de QA
+  # 👽 reports_qa_error_edit_form -> Error Editing QA Form
     reports_qa_error_edit_form=?Erro ao editar formulário de QA
+  # 👽 reports_qa_error_update_form -> Error Updating QA Form
     reports_qa_error_update_form=?Erro ao atualizar formulário de QA
+  # 👽 reports_qa_items -> Items
     reports_qa_items=?Itens
+  # 👽 reports_qa_level -> Level
     reports_qa_level=?Nível
+  # 👽 reports_qa_na -> N/A
     reports_qa_na=?N/A
+  # 👽 reports_qa_newnote -> New Note
     reports_qa_newnote=?Nova nota
+  # 👽 reports_qa_noteform_placeholder -> Write your comment here
     reports_qa_noteform_placeholder=?Escreva seu comentário aqui
+  # 👽 reports_qa_noteform_title -> Add Note
     reports_qa_noteform_title=?Adicionar nota
+  # 👽 reports_qa_notes -> Notes
     reports_qa_notes=?Notas
+  # 👽 reports_qa_performance_avg -> Avg.
     reports_qa_performance_avg=?Média
+  # 👽 reports_qa_performance_title -> Performance
     reports_qa_performance_title=?Performance
+  # 👽 reports_qa_performance_total -> Total score
     reports_qa_performance_total=?Total
+  # 👽 reports_qa_queue -> Queue
     reports_qa_queue=?Fila
+  # 👽 reports_qa_recap_heading -> Call Details
     reports_qa_recap_heading=?Detalhes da chamada
+  # 👽 reports_qa_select_form -> Select Form
     reports_qa_select_form=?Selecionar formulário
+  # 👽 reports_qa_start -> Start Time
     reports_qa_start=?Hora de início
+  # 👽 reports_qa_status -> Status
     reports_qa_status=?Estado
+  # 👽 reports_qa_uid -> Unique Id
     reports_qa_uid=?ID Único
+  # 👽 reports_qa_value -> Value
     reports_qa_value=?Valor
+  # 👽 reports_query_loading -> Loading
     reports_query_loading=?Carregando
+  # 👽 reports_ratio -> Ratio
     reports_ratio=?Relação
+  # 👽 reports_recap_no_filters -> Click to add additional filters
     reports_recap_no_filters=?Clique para adicionar filtros adicionais
+  # 👽 reports_recap_queues -> Queues
     reports_recap_queues=?Filas
+  # 👽 reports_recap_report -> Report
     reports_recap_report=?Relatório
+  # 👽 reports_reload -> Reload Report (unsaved changes will be lost)
     reports_reload=?Recarregar relatório (as alterações não salvas serão perdidas)
+  # 👽 reports_reset_resizing -> Reset column resizing
     reports_reset_resizing=?Redefinir o redimensionamento da coluna
+  # 👽 reports_save -> Save Report
     reports_save=?Salvar o relatorio
+  # 👽 reports_save_report_confirm -> Click OK to edit the current report, Click cancel to create a copy.
     reports_save_report_confirm=?Clique em OK para editar o relatório atual, clique em cancelar para criar uma cópia.
+  # 👽 reports_save_report_confirm_clone -> Copy & Edit
     reports_save_report_confirm_clone=?Copiar e editar
+  # 👽 reports_save_report_confirm_current -> Current
     reports_save_report_confirm_current=?Atual
+  # 👽 reports_save_report_confirm_message -> Edit the current report or create a copy with the new changes?
     reports_save_report_confirm_message=?Editar o relatório atual ou criar uma cópia com as novas alterações?
+  # 👽 reports_save_report_confirm_title -> Save Report
     reports_save_report_confirm_title=?Salvar o relatorio
+  # 👽 reports_save_successful -> Report saved successfully
     reports_save_successful=?Relatório salvo com sucesso
+  # 👽 reports_search_placeholder -> Search Filter
     reports_search_placeholder=?Buscar filtro
+  # 👽 reports_select_report -> Choose a Report
     reports_select_report=?Escolha um relatório
+  # 👽 reports_settings -> Settings
     reports_settings=?Definições
+  # 👽 reports_settings_areacode -> Area Code
     reports_settings_areacode=?Código de área
+  # 👽 reports_settings_datablock -> DataBlock
     reports_settings_datablock=?DataBlock
+  # 👽 reports_settings_hourlyslot -> Hourly Slot
     reports_settings_hourlyslot=?Slot por hora
+  # 👽 reports_settings_report -> Report
     reports_settings_report=?Relatório
+  # 👽 reports_settings_shortcallattemptwaitlimit -> Short Call Attempt Wait Limit
     reports_settings_shortcallattemptwaitlimit=?Limite de espera de tentativa de curta chamada
+  # 👽 reports_settings_shortcalls -> Short Calls
     reports_settings_shortcalls=?Chamadas curtas
+  # 👽 reports_settings_shortcalltalklimit -> Short Call Talk Limit
     reports_settings_shortcalltalklimit=?Limite de conversação de chamadas curtas
+  # 👽 reports_settings_shortcallwaitlimit -> Short Call Wait Limit
     reports_settings_shortcallwaitlimit=?Limite de Espera de Chamadas Curtas
+  # 👽 reports_settings_slainitialinterval -> SLA Initial Interval
     reports_settings_slainitialinterval=?Intervalo inicial de SLA
+  # 👽 reports_settings_slainterval -> SLA Interval
     reports_settings_slainterval=?Intervalo SLA
+  # 👽 reports_settings_slamaxinitialdelay -> SLA Max. Initial Delay
     reports_settings_slamaxinitialdelay=?SLA Máx. Atraso Inicial
+  # 👽 reports_settings_slamaxmonitoreddelay -> SLA Max. Monitored Delay
     reports_settings_slamaxmonitoreddelay=?SLA Máx. Atraso monitorado
+  # 👽 reports_shortcalls_no -> No
     reports_shortcalls_no=?Não
+  # 👽 reports_skill_level -> Skill Level
     reports_skill_level=?Nível de habilidade
+  # 👽 reports_ssaragents -> Self Service Report Agents
     reports_ssaragents=?Agentes de relatório de autoatendimento
+  # 👽 reports_supervised -> Supervised
     reports_supervised=?Supervisionado(a)
+  # 👽 reports_tab_editor -> Edit Tabs Order
     reports_tab_editor=?Editar a ordem das guias
+  # 👽 reports_tab_page_list -> Available Report pages
     reports_tab_page_list=?Páginas de relatório disponíveis
+  # 👽 reports_taken_calls -> Taken Calls
     reports_taken_calls=?Chamadas atendidas
+  # 👽 reports_throwaway_report_new -> Unsaved Report
     reports_throwaway_report_new=?Relatório não salvo
+  # 👽 reports_time -> Time
     reports_time=?Tempo
+  # 👽 reports_time_mode -> Change Time Period selection mode
     reports_time_mode=?Alterar o modo de seleção do período de tempo
+  # 👽 reports_time_preset_daybeforeyesterday -> Day before yesterday
     reports_time_preset_daybeforeyesterday=?Anteontem
+  # 👽 reports_time_preset_last12hours -> Last 12 hours
     reports_time_preset_last12hours=?Últimas 12 horas
+  # 👽 reports_time_preset_last15minutes -> Last 15 minutes
     reports_time_preset_last15minutes=?Últimos 15 minutos
+  # 👽 reports_time_preset_last1hour -> Last 1 hour
     reports_time_preset_last1hour=?Última 1 hora
+  # 👽 reports_time_preset_last24hours -> Last 24 hours
     reports_time_preset_last24hours=?Últimas 24 horas
+  # 👽 reports_time_preset_last2days -> Last 2 Days (Since Current Time)
     reports_time_preset_last2days=?Últimos 2 dias
+  # 👽 reports_time_preset_last2days_midnight -> Last 2 Days (Since Midnight)
     reports_time_preset_last2days_midnight=?Últimos 2 dias
+  # 👽 reports_time_preset_last2years -> Last 2 years
     reports_time_preset_last2years=?Últimos 2 anos
+  # 👽 reports_time_preset_last30days -> Last 30 Days (Since Current Time)
     reports_time_preset_last30days=?Últimos 30 dias
+  # 👽 reports_time_preset_last30days_midnight -> Last 30 Days (Since Midnight)
     reports_time_preset_last30days_midnight=?Últimos 30 dias
+  # 👽 reports_time_preset_last30minutes -> Last 30 minutes
     reports_time_preset_last30minutes=?Últimos 30 minutos
+  # 👽 reports_time_preset_last3hours -> Last 3 hours
     reports_time_preset_last3hours=?Últimas 3 horas
+  # 👽 reports_time_preset_last5minutes -> Last 5 minutes
     reports_time_preset_last5minutes=?Últimos 5 minutos
+  # 👽 reports_time_preset_last5years -> Last 5 years
     reports_time_preset_last5years=?Últimos 5 anos
+  # 👽 reports_time_preset_last6hours -> Last 6 hours
     reports_time_preset_last6hours=?Últimas 6 horas
+  # 👽 reports_time_preset_last6months -> Last 6 months
     reports_time_preset_last6months=?Último 6 meses
+  # 👽 reports_time_preset_last7days -> Last 7 Days (Since Current Time)
     reports_time_preset_last7days=?Último 7 dias
+  # 👽 reports_time_preset_last7days_midnight -> Last 7 Days (Since Midnight)
     reports_time_preset_last7days_midnight=?Últimos 7 dias
+  # 👽 reports_time_preset_last90days -> Last 90 Days (Since Current Time)
     reports_time_preset_last90days=?Último 90 dias
+  # 👽 reports_time_preset_last90days_midnight -> Last 90 Days (Since Midnight)
     reports_time_preset_last90days_midnight=?Últimos 90 dias
+  # 👽 reports_time_preset_lastyear -> Last year
     reports_time_preset_lastyear=?Último ano
+  # 👽 reports_time_preset_previousmonth -> Previous month
     reports_time_preset_previousmonth=?Mês anterior
+  # 👽 reports_time_preset_previousweek -> Previous week
     reports_time_preset_previousweek=?Semana anterior
+  # 👽 reports_time_preset_previousyear -> Previous year
     reports_time_preset_previousyear=?Ano anterior
+  # 👽 reports_time_preset_thisdaylastweek -> This day last week
     reports_time_preset_thisdaylastweek=?Este dia semana passada
+  # 👽 reports_time_preset_thismonth -> This month
     reports_time_preset_thismonth=?Este mês
+  # 👽 reports_time_preset_thismonthsofar -> This month so far
     reports_time_preset_thismonthsofar=?Este mês até agora
+  # 👽 reports_time_preset_thisweek -> This week
     reports_time_preset_thisweek=?Esta semana
+  # 👽 reports_time_preset_thisweeksofar -> This week so far
     reports_time_preset_thisweeksofar=?Esta semana até agora
+  # 👽 reports_time_preset_thisyear -> This year
     reports_time_preset_thisyear=?Este ano
+  # 👽 reports_time_preset_thisyearsofar -> This year so far
     reports_time_preset_thisyearsofar=?Este ano até agora
+  # 👽 reports_time_preset_today -> Today
     reports_time_preset_today=?Hoje
+  # 👽 reports_time_preset_todaysofar -> Today so far
     reports_time_preset_todaysofar=?Hoje até agora
+  # 👽 reports_time_preset_yesterday -> Yesterday
     reports_time_preset_yesterday=?Ontem
+  # 👽 reports_topbar_icon_datablock_open_hover_tooltip -> Open DataBlocks menu
     reports_topbar_icon_datablock_open_hover_tooltip=?Abra o menu DataBlocks
+  # 👽 reports_topbar_icon_export_PDF__open_hover_tooltip -> Export PDF
     reports_topbar_icon_export_PDF__open_hover_tooltip=?Exportar PDF
+  # 👽 reports_topbar_icon_export_excel__open_hover_tooltip -> Export XLS
     reports_topbar_icon_export_excel__open_hover_tooltip=?Exportar XLS
+  # 👽 reports_topbar_icon_filter_open_hover_tooltip -> Filters
     reports_topbar_icon_filter_open_hover_tooltip=?Filtros
+  # 👽 reports_topbar_icon_print_hover_tooltip -> Print
     reports_topbar_icon_print_hover_tooltip=?Imprimir
+  # 👽 reports_topbar_icon_run_report_hover_tooltip -> Process Query
     reports_topbar_icon_run_report_hover_tooltip=?Consulta de Processo
+  # 👽 reports_topbar_icon_save_report_hover_tooltip -> Save Report
     reports_topbar_icon_save_report_hover_tooltip=?Salvar o relatorio
+  # 👽 reports_topbar_icon_settings_open_hover_tooltip -> Settings
     reports_topbar_icon_settings_open_hover_tooltip=?Definições
+  # 👽 reports_topbar_icon_share_open_hover_tooltip -> Share URL
     reports_topbar_icon_share_open_hover_tooltip=?URL para compartilhar
+  # 👽 reports_total_calls -> Total Calls
     reports_total_calls=?Chamadas Totais
+  # 👽 reports_trash -> Drag here to delete
     reports_trash=?Arraste aqui para deletar
+  # 👽 reports_unsaved -> Unsaved
     reports_unsaved=?Não salvo
+  # 👽 reports_visibilitykey -> Visibility Key
     reports_visibilitykey=?Chave de Visibilidade
     rt_active_queues=Mostrar queues activas
     rt_addmember=Adicionar Operador
@@ -4045,6 +5127,7 @@ Other items
     rt_all_queues=Mostrar todas as queues
     rt_all_selected=Todas seleccionadas
     rt_bsy=Ocup.
+  # 👽 rt_busysince -> Busy Since
     rt_busysince=?Ocupado desde
     rt_caller_nbsp=Originador
     rt_callid=callID
@@ -4122,6 +5205,7 @@ Other items
     rt_pauseagent=Pausar Agente
     rt_pauseagent_tt=Pausar Agente
     rt_paused_for=Em Pausa por
+  # 👽 rt_pausedsince -> Paused Since
     rt_pausedsince=?Em pausa desde
     rt_pop_agent_code=Código de agente:
     rt_pop_agent_extension=Extensão do agente:
@@ -4270,7 +5354,9 @@ Other items
     sync2_agent_filter=Filtro de Agente
     sync2_agent_id=ID do Agente
     sync2_agent_im=IM
+  # 👽 sync2_agent_info -> Agent Information
     sync2_agent_info=?Informação do Agente
+  # 👽 sync2_agent_misc -> Misc
     sync2_agent_misc=?Miscelânea
     sync2_agent_sip_pass=Password WebRTC
     sync2_agent_sip_realm=WebRTC Realm
@@ -4278,7 +5364,9 @@ Other items
     sync2_agent_sip_user=Utilizador WebRTC
     sync2_agent_user_password=Password de Utilizador
     sync2_agent_vnc=Vnc
+  # 👽 sync2_agent_webrtc -> WebRTC
     sync2_agent_webrtc=?WebRTC
+  # 👽 sync2_agents_placeholder -> Agents
     sync2_agents_placeholder=?Agentes
     sync2_ami_host=AMI Host
     sync2_ami_pass=AMI Password
@@ -4289,15 +5377,19 @@ Other items
     sync2_choose_source=Selecionar a fonte
     sync2_cluster=Configurações do Cluster
     sync2_cluster_info=Informação do Cluster
+  # 👽 sync2_collapse -> Collapse
     sync2_collapse=?Ocultar
     sync2_configuration_applied=A nova configuração foi aplicada com sucesso
+  # 👽 sync2_configuration_export -> Download your configuration
     sync2_configuration_export=?Baixe sua configuração
+  # 👽 sync2_configuration_import -> Upload your configuration
     sync2_configuration_import=?Carregue sua configuração
     sync2_create=Ativar Criar ações
     sync2_create_users=Ativar criação de utilizador
     sync2_delete=Ativar Remover ações
     sync2_delete_agents_confirm=Tem a certeza que deseja remover todos os agentes?
     sync2_delete_queues_confirm=Tem a certeza que deseja remover todas as queues?
+  # 👽 sync2_delete_selected -> Delete
     sync2_delete_selected=?Apagar
     sync2_deleteall_agent=Remover todos os agentes
     sync2_deleteall_queues=Remover todas as queues
@@ -4307,8 +5399,11 @@ Other items
     sync2_edit_queues=Editar Queue
     sync2_error_applying_configuration=Ocorreu um erro ao aplicar a nova configuração
     sync2_error_comparing_configuration=Erro ao comparar a configuração
+  # 👽 sync2_error_invalid_input -> The JSON configuration that was imported is a valid JSON file, but one or more data fields are of the wrong data type. Please check the configuration file.
     sync2_error_invalid_input=?A configuração JSON que foi importada é um arquivo JSON válido, mas um ou mais campos de dados têm o tipo de dados errado. Verifique o arquivo de configuração.
+  # 👽 sync2_error_read_configuration -> The selected source did not provide a valid configuration.
     sync2_error_read_configuration=?A fonte selecionada não forneceu uma configuração válida.
+  # 👽 sync2_expand -> Expand
     sync2_expand=?Expandir
     sync2_export=Exportar a configuração
     sync2_export_filename=Nome do Ficheiro
@@ -4325,8 +5420,10 @@ Other items
     sync2_general_unlinkallagents_queue=Desvincular todos os agentes da queue selecionada
     sync2_home=Início
     sync2_import=Importar configuração
+  # 👽 sync2_import_confirm -> You have unsaved changes, if you import a new configuration they will be lost. Do you wish to proceed?
     sync2_import_confirm=?Você tem alterações não salvas; se importar uma nova configuração, elas serão perdidas. Você deseja continuar?
     sync2_inbound=De entrada
+  # 👽 sync2_mode_configuration -> Synchronizer Configuration
     sync2_mode_configuration=?Sincronizar configuração
     sync2_new_pbx=Novo PBX
     sync2_outbound=Saída
@@ -4342,15 +5439,20 @@ Other items
     sync2_queue_composition=Composição
     sync2_queue_created=A queue foi criada com sucesso
     sync2_queue_filter=Filtro da Queue
+  # 👽 sync2_queue_info -> Queue Information
     sync2_queue_info=?Informação da Fila
     sync2_queue_name=Nome
+  # 👽 sync2_queues_placeholder -> Queues
     sync2_queues_placeholder=?Filas
     sync2_read=Ler
     sync2_reset=Reiniciar
     sync2_save=Guardar
+  # 👽 sync2_selectall_agents -> Select All Agents
     sync2_selectall_agents=?Selecionar todos os Agentes
+  # 👽 sync2_selectall_queues -> Select All Queues
     sync2_selectall_queues=?Selecionar todas as Filas
     sync2_show_mode_selectors=Mostrar Selectores de Modo
+  # 👽 sync2_success_read_configuration -> The selected configuration has been imported correctly.
     sync2_success_read_configuration=?A configuração selecionada foi importada corretamente.
     sync2_trash=Remover
     sync2_update=Ativar Atualização de ações
@@ -4358,37 +5460,66 @@ Other items
     sync2_url_input=Url
     t3_circle_lost_calls=Chamadas perdidas
     t3_live_agent_info=Informação de agentes em Directo(Live)
+  # 👽 timeline_avg -> Avg.
     timeline_avg=?Média
+  # 👽 timeline_close -> Return to Report
     timeline_close=?Voltar ao relatório
+  # 👽 timeline_debug -> Download Debug Info
     timeline_debug=?Baixar informações de Debug
+  # 👽 timeline_download_recording -> Download Recording
     timeline_download_recording=?Baixar gravação
+  # 👽 timeline_event -> Event
     timeline_event=?Evento
+  # 👽 timeline_events -> Timeline Events
     timeline_events=?Linha do tempo de eventos
+  # 👽 timeline_interaction_calltot -> Total:
     timeline_interaction_calltot=?Total
+  # 👽 timeline_marker_add -> Marker
     timeline_marker_add=?Marcar
+  # 👽 timeline_marker_delete -> Delete Marker
     timeline_marker_delete=?Eliminar marcador
+  # 👽 timeline_marker_delete_confirm -> The selected Marker will be deleted. Continue?
     timeline_marker_delete_confirm=?O marcador selecionado será apagado. Confirma?
+  # 👽 timeline_marker_duration -> Duration
     timeline_marker_duration=?Duração
+  # 👽 timeline_marker_editor_title -> Create a Marker
     timeline_marker_editor_title=?Criar um marcador
+  # 👽 timeline_marker_list -> Markers
     timeline_marker_list=?Marcadores
+  # 👽 timeline_marker_message -> Message
     timeline_marker_message=?Mensagem
+  # 👽 timeline_marker_play -> Go to Marker
     timeline_marker_play=?Ir para o Marcador
+  # 👽 timeline_marker_time -> Time
     timeline_marker_time=?Tempo
+  # 👽 timeline_markers_hide -> Hide Markers
     timeline_markers_hide=?Ocultar Marcadores
+  # 👽 timeline_markers_show -> Show Markers
     timeline_markers_show=?Mostrar Marcadores
+  # 👽 timeline_max -> Max.
     timeline_max=?Max.
+  # 👽 timeline_min -> Min.
     timeline_min=?Min.
+  # 👽 timeline_no_recordings -> No Recordings
     timeline_no_recordings=?Sem gravação
+  # 👽 timeline_number -> Number
     timeline_number=?Número
+  # 👽 timeline_stint_end -> Stint End
     timeline_stint_end=?Fim do período
+  # 👽 timeline_stint_start -> Stint Start
     timeline_stint_start=?Início do período
+  # 👽 timeline_tab_details -> Details
     timeline_tab_details=?Detalhes
+  # 👽 timeline_tab_qa -> QA/Recordings
     timeline_tab_qa=?QA/Gravações
+  # 👽 timeline_tab_recordings -> Recordings
     timeline_tab_recordings=?Gravações
+  # 👽 timeline_totdur -> Tot. Dur.
     timeline_totdur=?Dur. Total
     ts_agawrep_invalidlocation=Por favor especifique uma localização válida
     userpage_change_button=Alterar
     userpage_change_password=Alterar password
+  # 👽 userpage_change_theme -> Select Theme
     userpage_change_theme=?Selecione Tema
     userpage_class=Classe actual
     userpage_err_password=As novas passwords inseridas são diferentes, ou a password antiga está errada.
@@ -4400,6 +5531,7 @@ Other items
     userpage_number_logons=Número de logons
     userpage_old_password=Password antiga
     userpage_retype=Reintroduzir nova password
+  # 👽 userpage_theme -> Theme
     userpage_theme=?Tema
     userpage_title=Informação actual do utilizador
     xtsrc_err=Erro ao aceder a uma fonte de dados externa. Por favor ver o ficheiro de logs de erro do servidor.
