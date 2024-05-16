@@ -29,7 +29,7 @@ The document structure of the language is instead taken verbatim from English,
 and you should not modify it. Even if you were to change it, it would be put back to the format used by English. 
 The structure and comments have no function in the translation but clarifying what is what.
 
-There is also an index file that display the status of completion for different languages.
+There is also an index file that displays [the status of completion for different languages](../blob/master/INDEX.md). 
 
 ## In practice
 
@@ -54,7 +54,7 @@ You can find alien translations by looking for alien icon in the comment line. A
 
 <img width="341" alt="image" src="https://github.com/Loway/QueueMetrics_Translations/assets/1101849/0964652f-61e2-44cc-be34-6f2440beb16b">
 
-If you want to confirm the translation is right, you simply remove the `?` after `=`, so that what ised to be `label=?translation` becomes `label=translation`.
+If you want to confirm the translation is right, you simply remove the `?` after `=`, so that what used to be `label=?translation` becomes `label=translation`. If you need to make any changes, go ahead and make them.
 
 <img width="347" alt="image" src="https://github.com/Loway/QueueMetrics_Translations/assets/1101849/9a3ee4ac-ce09-44b9-a7d2-b2f4cb8dd888">
 
@@ -65,7 +65,7 @@ If you want to confirm the translation is right, you simply remove the `?` after
 As this is GitHub, the way to do a complete translation is first forking this repo to a local copy, 
 then making your changes, and at the end sending us a pull  request.
 
-THere is an excellent tutorial here: 
+THere is an excellent tutorial here: https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project
 
 
 
