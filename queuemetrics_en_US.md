@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=Logged off
     td_agawlogon_logged_on=Logged on
@@ -221,8 +221,7 @@ Do not change the items below:
     td_yesno_no=No
     td_yesno_yes=Yes
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=Billable activities
@@ -496,7 +495,7 @@ Do not change the items below:
     clage_n_calls=N. calls
     clage_n_of_agents_available=N. of agents available:
     clage_nanswcalls=Answered
-    clage_nbsp=
+    clage_nbsp:=
     clage_nftrs=Ftrs
     clage_ngoalftrs=Goal Ftrs
     clage_nobillpause=Not Billable
@@ -554,7 +553,6 @@ Do not change the items below:
     clage_unique_effective=Unique effective
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=Area code/Caller id
@@ -659,7 +657,7 @@ Do not change the items below:
     cld_n_calls=N. of Calls
     cld_n_lost=Lost Calls
     cld_n_taken=Taken Calls
-    cld_nbsp=
+    cld_nbsp:=
     cld_nopayable=Non Payable
     cld_opos=Pos.
     cld_pause=Pause
@@ -766,7 +764,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour=Inclusive SLA per hour
     cldst_max=Max
     cldst_min=Min
-    cldst_nbsp=
+    cldst_nbsp:=
     cldst_noskills=No skills
     cldst_num=Num
     cldst_percent=%
@@ -898,7 +896,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Min queue position at disconnection:
     clko_min_wait_time_before_disconnection=Min wait time before disconnection:
     clko_n_calls=N. Calls
-    clko_nbsp=
+    clko_nbsp:=
     clko_nof_unanswered_calls=N.of unanswered calls:
     clko_offered=Of offered
     clko_percent=Percent
@@ -961,7 +959,7 @@ Do not change the items below:
     clhdr_supervised_by=Supervised by:
     clhdr_timerange=Time range:
     clhdr_total_calls_processed=Total calls processed:
-    clhdr_unans=unans
+    clhdr_unans=Unans
     clhdr_wait=Filtered by wait time:
 
 ## Taken calls
@@ -1015,7 +1013,7 @@ Do not change the items below:
     clok_n_calls=N. Calls
     clok_n_calls_answered_by_operators=N. calls answered by operators:
     clok_n_stints=Number of stints
-    clok_nbsp=
+    clok_nbsp:=
     clok_offered=Of Offered
     clok_percent=Percent
     clok_position_enter=Position at enter
@@ -1093,6 +1091,9 @@ Do not change the items below:
     evt_web_end_session=Web Session End
     evt_web_fail_session=Web Session Fail
     evt_web_start_session=Web Session Start
+
+## Headers
+
     hdr_agaw_agent=Agent
     hdr_agaw_logs=Logs
     hdr_agaw_status=Status
@@ -1183,7 +1184,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     edit_ac_agent_code=Agent Code
     edit_ac_description=Description
     edit_ac_gr=Gr.
@@ -1197,6 +1197,9 @@ Do not change the items below:
     edit_ac_term=Term.
     edit_ac_title=Known Agents Configuration
     edit_amo_attribute=Attribute
+
+### AMO
+
     edit_amo_attributes=Attributes
     edit_amo_campaign=Campaign
     edit_amo_last_pull=Last Pull
@@ -1234,6 +1237,9 @@ Do not change the items below:
     edit_amo_valid_attribute=Attribute
     edit_amo_valid_from=Valid from
     edit_amo_valid_value=Value
+
+### Cases
+
     edit_cases_client=Client
     edit_cases_contact=Contact
     edit_cases_email=Email
@@ -1748,7 +1754,7 @@ Do not change the items below:
     qa_comment=Comment
     qa_date=Date
     qa_form=Form:
-    qa_frm_about=
+    qa_frm_about=About
     qa_frm_addbtn=Add
     qa_frm_addtojob=Add to job
     qa_frm_calladded=Call added to the job
@@ -1981,7 +1987,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     filter_agenteFiltro=Agent
     filter_asteriskid=Unique ID
     filter_atomicQueueFilter=Queue
@@ -2018,7 +2023,6 @@ Do not change the items below:
     filter_wait_min=Min wait
 
 ## Wallboard
-
 
 
     rt3_Talk=Talk
@@ -2361,8 +2365,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=Join Q
     pgag_agawqueueinfo=AGAW related info
     pgag_call_status=Outcome
@@ -2418,8 +2420,6 @@ Do not change the items below:
     pgag_waiting=Waiting
 
 ## Front page
-
-
 
     fp_agent_awareness=Agent Awareness manager
     fp_agent_inbound=Inbound calls
@@ -2765,9 +2765,9 @@ Description of configuration properties
     propedit_option_yes=Yes
     propedit_rewrite_hotdesking_desc=Enables rewriting of hotdesking information in data1 field of queue_log table
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     keydesc_agaw=User can access AGAW facades (for agents).
     keydesc_agaw_adm=User can access the AGAW administration screens
@@ -2870,8 +2870,7 @@ Description of security keys
     keydesc_wallboard_phone=User can use the wallboard softphone
     keydesc_wqloader=The user can upload logs over HTTP
 
-## Tasks
-
+## Tasks/Memos
 
 
     tsk_detail_btnAddNote=Edit Note
@@ -2948,7 +2947,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     tsk_traincoach_agent=Agent
     tsk_traincoach_agentcode=Agent Code
     tsk_traincoach_agentgroup=Agent Group
@@ -2974,6 +2972,64 @@ Description of security keys
     tsk_traincoach_sendtask=Send Tasks
     tsk_traincoach_start_date=Valid from
     tsk_traincoach_title=Push Training and Coaching tasks
+
+
+
+### Softphone
+
+    phone_advanced_settings=Advanced Settings
+    phone_agent=Agent
+    phone_anonymous=Anonymous
+    phone_answer=Answer
+    phone_attended=Attended Transfer
+    phone_attended_transfer=Attended Transfer
+    phone_auto_answer_toggle_off=Auto Answer is Disabled
+    phone_auto_answer_toggle_on=Auto Answer is Enabled
+    phone_basic_settings=Basic Settings
+    phone_blind=Blind Transfer
+    phone_blind_transfer=Blind Transfer
+    phone_call=Call
+    phone_calling=Calling...
+    phone_cancel=Cancel
+    phone_close=Close
+    phone_confirm=Confirm
+    phone_connectionrecoverymax=Conn. Recovery Max.
+    phone_connectionrecoverymin=Conn. Recovery Min.
+    phone_debug=Click to print debug information in the browser console.
+    phone_dial=Dial
+    phone_dialing=Dialing...
+    phone_dialling=Dialling...
+    phone_displayname=Display Name
+    phone_hangup=Hangup
+    phone_http_error=WebRTC Error.
+    phone_http_error_body=In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    phone_iceservers=Ice Servers
+    phone_incoming_call=Incoming call...
+    phone_input_error=Input Error
+    phone_join=Join
+    phone_maxsessions=Max. Sessions
+    phone_mute=Mute
+    phone_no_https=QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
+    phone_no_queue=No Queue
+    phone_noanswertimeout=No Answer Timeout
+    phone_not_avaialable=Softphone Not Available.
+    phone_not_available=Softphone not available.
+    phone_password=Password
+    phone_register=Register
+    phone_registered=Registered
+    phone_registering=Registering
+    phone_returntophone=Return to Phone
+    phone_server=Server
+    phone_settings=Settings
+    phone_swap=Swap
+    phone_toggle_hold=Hold/Unhold
+    phone_toggle_transfer=Transfer
+    phone_transfer=Transfer
+    phone_unmute=Unmute
+    phone_unregistered=Unregistered
+    phone_update_settings=Update Settings
+    phone_username=Username
+    phone_websocketurl=Websocket URL
 
 ## Misc
 
@@ -3293,59 +3349,6 @@ Other items
     pager_last=Last page
     pager_next=Next page
     pager_prev=Previous page
-    phone_advanced_settings=Advanced Settings
-    phone_agent=Agent
-    phone_anonymous=Anonymous
-    phone_answer=Answer
-    phone_attended=Attended Transfer
-    phone_attended_transfer=Attended Transfer
-    phone_auto_answer_toggle_off=Auto Answer is Disabled
-    phone_auto_answer_toggle_on=Auto Answer is Enabled
-    phone_basic_settings=Basic Settings
-    phone_blind=Blind Transfer
-    phone_blind_transfer=Blind Transfer
-    phone_call=Call
-    phone_calling=Calling...
-    phone_cancel=Cancel
-    phone_close=Close
-    phone_confirm=Confirm
-    phone_connectionrecoverymax=Conn. Recovery Max.
-    phone_connectionrecoverymin=Conn. Recovery Min.
-    phone_debug=Click to print debug information in the browser console.
-    phone_dial=Dial
-    phone_dialing=Dialing...
-    phone_dialling=Dialling...
-    phone_displayname=Display Name
-    phone_hangup=Hangup
-    phone_http_error=WebRTC Error.
-    phone_http_error_body=In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
-    phone_iceservers=Ice Servers
-    phone_incoming_call=Incoming call...
-    phone_input_error=Input Error
-    phone_join=Join
-    phone_maxsessions=Max. Sessions
-    phone_mute=Mute
-    phone_no_https=QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
-    phone_no_queue=No Queue
-    phone_noanswertimeout=No Answer Timeout
-    phone_not_avaialable=Softphone Not Available.
-    phone_not_available=Softphone not available.
-    phone_password=Password
-    phone_register=Register
-    phone_registered=Registered
-    phone_registering=Registering
-    phone_returntophone=Return to Phone
-    phone_server=Server
-    phone_settings=Settings
-    phone_swap=Swap
-    phone_toggle_hold=Hold/Unhold
-    phone_toggle_transfer=Transfer
-    phone_transfer=Transfer
-    phone_unmute=Unmute
-    phone_unregistered=Unregistered
-    phone_update_settings=Update Settings
-    phone_username=Username
-    phone_websocketurl=Websocket URL
     popupclose_alreadydone=The call was already closed.
     popupclose_close=Close call
     popupclose_error=<b>Error:</b> It was not possible to close the call successfully.
@@ -4111,7 +4114,7 @@ Other items
     rt_monitor_tt=Monitor now
     rt_n_agents=N. agents
     rt_n_calls_waiting=N. Calls waiting
-    rt_nbsp=
+    rt_nbsp:=
     rt_on_pause=On pause
     rt_on_pause_nbsp=On pause
     rt_on_phone_inbound=On phone inbound
@@ -4216,7 +4219,7 @@ Other items
     rt_visitor_ext_nbsp=Ext.
     rt_visitor_in_order_to_mantain_session_information=In order to mantain session information, this page will reload automatically
     rt_visitor_n_calls=N. calls
-    rt_visitor_nbsp=
+    rt_visitor_nbsp:= 
     rt_visitor_queue=Queue
     rt_visitor_queue_nbsp=Queue
     rt_visitor_queues=Queue(s):
@@ -4238,7 +4241,7 @@ Other items
     rt_wall_moh=MOH
     rt_wall_n_agents=Age
     rt_wall_n_calls_waiting=Waiting
-    rt_wall_nbsp=
+    rt_wall_nbsp:= 
     rt_wall_on_pause=Pau
     rt_wall_on_phone_inbound=In
     rt_wall_on_phone_outbound=Out
