@@ -29,7 +29,7 @@ The document structure of the language is instead taken verbatim from English,
 and you should not modify it. Even if you were to change it, it would be put back to the format used by English. 
 The structure and comments have no function in the translation but clarifying what is what.
 
-There is also an index file that displays [the status of completion for different languages](../blob/master/INDEX.md). 
+There is also an index file that displays [the completion status for supported languages](../../blob/main/INDEX.md). 
 
 ## In practice
 
@@ -72,5 +72,9 @@ THere is an excellent tutorial here: https://docs.github.com/en/get-started/expl
 ### Do I need to do it even if I only have a couple of changes, or want to correct a typo?
 
 If you need to change just a few labels here and there, just open a GitHub issue and explain the changes you want done.
+
+## Licenses
+
+All contributions are subject to the MIT license.
 
 
