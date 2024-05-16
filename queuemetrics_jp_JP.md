@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=ログオフ
     td_agawlogon_logged_on=ログオン
@@ -242,8 +242,7 @@ Do not change the items below:
     td_yesno_no=いいえ
     td_yesno_yes=はい
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=支払請求可能なアクティビティ
@@ -798,7 +797,6 @@ Do not change the items below:
     ➡️ clage_unique_effective=
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=市外局番/発信者ID
@@ -1542,6 +1540,9 @@ Do not change the items below:
     ➡️ evt_web_fail_session=
     # 🔴 evt_web_start_session -> Web Session Start
     ➡️ evt_web_start_session=
+
+## Headers
+
     # 🔴 hdr_agaw_agent -> Agent
     ➡️ hdr_agaw_agent=
     # 🔴 hdr_agaw_logs -> Logs
@@ -1689,7 +1690,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     # 🔴 edit_ac_agent_code -> Agent Code
     ➡️ edit_ac_agent_code=
     # 🔴 edit_ac_description -> Description
@@ -1716,6 +1716,9 @@ Do not change the items below:
     ➡️ edit_ac_title=
     # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
+
+### AMO
+
     # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
     # 🔴 edit_amo_campaign -> Campaign
@@ -1790,6 +1793,9 @@ Do not change the items below:
     ➡️ edit_amo_valid_from=
     # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
+
+### Cases
+
     # 🔴 edit_cases_client -> Client
     ➡️ edit_cases_client=
     # 🔴 edit_cases_contact -> Contact
@@ -2798,7 +2804,7 @@ Do not change the items below:
     qa_comment=コメント
     qa_date=日付
     qa_form=：から
-    # 🔴 qa_frm_about -> 
+    # 🔴 qa_frm_about -> About
     ➡️ qa_frm_about=
     # 🔴 qa_frm_addbtn -> Add
     ➡️ qa_frm_addbtn=
@@ -3162,7 +3168,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     # 🔴 filter_agenteFiltro -> Agent
     ➡️ filter_agenteFiltro=
     # 🔴 filter_asteriskid -> Unique ID
@@ -3233,7 +3238,6 @@ Do not change the items below:
     ➡️ filter_wait_min=
 
 ## Wallboard
-
 
 
     # 🔴 rt3_Talk -> Talk
@@ -3913,8 +3917,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=メンバー追加
     pgag_agawqueueinfo=AGAW関連情報
     pgag_call_status=結果
@@ -3983,8 +3985,6 @@ Do not change the items below:
     pgag_waiting=待機中
 
 ## Front page
-
-
 
     # 🔴 fp_agent_awareness -> Agent Awareness manager
     ➡️ fp_agent_awareness=
@@ -4638,9 +4638,9 @@ Description of configuration properties
     # 🔴 propedit_rewrite_hotdesking_desc -> Enables rewriting of hotdesking information in data1 field of queue_log table
     ➡️ propedit_rewrite_hotdesking_desc=
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     # 🔴 keydesc_agaw -> User can access AGAW facades (for agents).
     ➡️ keydesc_agaw=
@@ -4843,8 +4843,7 @@ Description of security keys
     # 🔴 keydesc_wqloader -> The user can upload logs over HTTP
     ➡️ keydesc_wqloader=
 
-## Tasks
-
+## Tasks/Memos
 
 
     # 🔴 tsk_detail_btnAddNote -> Edit Note
@@ -4991,7 +4990,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     # 🔴 tsk_traincoach_agent -> Agent
     ➡️ tsk_traincoach_agent=
     # 🔴 tsk_traincoach_agentcode -> Agent Code
@@ -5042,6 +5040,117 @@ Description of security keys
     ➡️ tsk_traincoach_start_date=
     # 🔴 tsk_traincoach_title -> Push Training and Coaching tasks
     ➡️ tsk_traincoach_title=
+
+
+
+### Softphone
+
+    # 🔴 phone_advanced_settings -> Advanced Settings
+    ➡️ phone_advanced_settings=
+    # 🔴 phone_agent -> Agent
+    ➡️ phone_agent=
+    # 🔴 phone_anonymous -> Anonymous
+    ➡️ phone_anonymous=
+    # 🔴 phone_answer -> Answer
+    ➡️ phone_answer=
+    # 🔴 phone_attended -> Attended Transfer
+    ➡️ phone_attended=
+    # 🔴 phone_attended_transfer -> Attended Transfer
+    ➡️ phone_attended_transfer=
+    # 🔴 phone_auto_answer_toggle_off -> Auto Answer is Disabled
+    ➡️ phone_auto_answer_toggle_off=
+    # 🔴 phone_auto_answer_toggle_on -> Auto Answer is Enabled
+    ➡️ phone_auto_answer_toggle_on=
+    # 🔴 phone_basic_settings -> Basic Settings
+    ➡️ phone_basic_settings=
+    # 🔴 phone_blind -> Blind Transfer
+    ➡️ phone_blind=
+    # 🔴 phone_blind_transfer -> Blind Transfer
+    ➡️ phone_blind_transfer=
+    # 🔴 phone_call -> Call
+    ➡️ phone_call=
+    # 🔴 phone_calling -> Calling...
+    ➡️ phone_calling=
+    # 🔴 phone_cancel -> Cancel
+    ➡️ phone_cancel=
+    # 🔴 phone_close -> Close
+    ➡️ phone_close=
+    # 🔴 phone_confirm -> Confirm
+    ➡️ phone_confirm=
+    # 🔴 phone_connectionrecoverymax -> Conn. Recovery Max.
+    ➡️ phone_connectionrecoverymax=
+    # 🔴 phone_connectionrecoverymin -> Conn. Recovery Min.
+    ➡️ phone_connectionrecoverymin=
+    # 🔴 phone_debug -> Click to print debug information in the browser console.
+    ➡️ phone_debug=
+    # 🔴 phone_dial -> Dial
+    ➡️ phone_dial=
+    # 🔴 phone_dialing -> Dialing...
+    ➡️ phone_dialing=
+    # 🔴 phone_dialling -> Dialling...
+    ➡️ phone_dialling=
+    # 🔴 phone_displayname -> Display Name
+    ➡️ phone_displayname=
+    # 🔴 phone_hangup -> Hangup
+    ➡️ phone_hangup=
+    # 🔴 phone_http_error -> WebRTC Error.
+    ➡️ phone_http_error=
+    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    ➡️ phone_http_error_body=
+    # 🔴 phone_iceservers -> Ice Servers
+    ➡️ phone_iceservers=
+    # 🔴 phone_incoming_call -> Incoming call...
+    ➡️ phone_incoming_call=
+    # 🔴 phone_input_error -> Input Error
+    ➡️ phone_input_error=
+    # 🔴 phone_join -> Join
+    ➡️ phone_join=
+    # 🔴 phone_maxsessions -> Max. Sessions
+    ➡️ phone_maxsessions=
+    # 🔴 phone_mute -> Mute
+    ➡️ phone_mute=
+    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
+    ➡️ phone_no_https=
+    # 🔴 phone_no_queue -> No Queue
+    ➡️ phone_no_queue=
+    # 🔴 phone_noanswertimeout -> No Answer Timeout
+    ➡️ phone_noanswertimeout=
+    # 🔴 phone_not_avaialable -> Softphone Not Available.
+    ➡️ phone_not_avaialable=
+    # 🔴 phone_not_available -> Softphone not available.
+    ➡️ phone_not_available=
+    # 🔴 phone_password -> Password
+    ➡️ phone_password=
+    # 🔴 phone_register -> Register
+    ➡️ phone_register=
+    # 🔴 phone_registered -> Registered
+    ➡️ phone_registered=
+    # 🔴 phone_registering -> Registering
+    ➡️ phone_registering=
+    # 🔴 phone_returntophone -> Return to Phone
+    ➡️ phone_returntophone=
+    # 🔴 phone_server -> Server
+    ➡️ phone_server=
+    # 🔴 phone_settings -> Settings
+    ➡️ phone_settings=
+    # 🔴 phone_swap -> Swap
+    ➡️ phone_swap=
+    # 🔴 phone_toggle_hold -> Hold/Unhold
+    ➡️ phone_toggle_hold=
+    # 🔴 phone_toggle_transfer -> Transfer
+    ➡️ phone_toggle_transfer=
+    # 🔴 phone_transfer -> Transfer
+    ➡️ phone_transfer=
+    # 🔴 phone_unmute -> Unmute
+    ➡️ phone_unmute=
+    # 🔴 phone_unregistered -> Unregistered
+    ➡️ phone_unregistered=
+    # 🔴 phone_update_settings -> Update Settings
+    ➡️ phone_update_settings=
+    # 🔴 phone_username -> Username
+    ➡️ phone_username=
+    # 🔴 phone_websocketurl -> Websocket URL
+    ➡️ phone_websocketurl=
 
 ## Misc
 
@@ -5640,112 +5749,6 @@ Other items
     ➡️ pager_next=
     # 🔴 pager_prev -> Previous page
     ➡️ pager_prev=
-    # 🔴 phone_advanced_settings -> Advanced Settings
-    ➡️ phone_advanced_settings=
-    # 🔴 phone_agent -> Agent
-    ➡️ phone_agent=
-    # 🔴 phone_anonymous -> Anonymous
-    ➡️ phone_anonymous=
-    # 🔴 phone_answer -> Answer
-    ➡️ phone_answer=
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=
-    # 🔴 phone_attended_transfer -> Attended Transfer
-    ➡️ phone_attended_transfer=
-    # 🔴 phone_auto_answer_toggle_off -> Auto Answer is Disabled
-    ➡️ phone_auto_answer_toggle_off=
-    # 🔴 phone_auto_answer_toggle_on -> Auto Answer is Enabled
-    ➡️ phone_auto_answer_toggle_on=
-    # 🔴 phone_basic_settings -> Basic Settings
-    ➡️ phone_basic_settings=
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
-    # 🔴 phone_blind_transfer -> Blind Transfer
-    ➡️ phone_blind_transfer=
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=
-    # 🔴 phone_calling -> Calling...
-    ➡️ phone_calling=
-    # 🔴 phone_cancel -> Cancel
-    ➡️ phone_cancel=
-    # 🔴 phone_close -> Close
-    ➡️ phone_close=
-    # 🔴 phone_confirm -> Confirm
-    ➡️ phone_confirm=
-    # 🔴 phone_connectionrecoverymax -> Conn. Recovery Max.
-    ➡️ phone_connectionrecoverymax=
-    # 🔴 phone_connectionrecoverymin -> Conn. Recovery Min.
-    ➡️ phone_connectionrecoverymin=
-    # 🔴 phone_debug -> Click to print debug information in the browser console.
-    ➡️ phone_debug=
-    # 🔴 phone_dial -> Dial
-    ➡️ phone_dial=
-    # 🔴 phone_dialing -> Dialing...
-    ➡️ phone_dialing=
-    # 🔴 phone_dialling -> Dialling...
-    ➡️ phone_dialling=
-    # 🔴 phone_displayname -> Display Name
-    ➡️ phone_displayname=
-    # 🔴 phone_hangup -> Hangup
-    ➡️ phone_hangup=
-    # 🔴 phone_http_error -> WebRTC Error.
-    ➡️ phone_http_error=
-    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
-    ➡️ phone_http_error_body=
-    # 🔴 phone_iceservers -> Ice Servers
-    ➡️ phone_iceservers=
-    # 🔴 phone_incoming_call -> Incoming call...
-    ➡️ phone_incoming_call=
-    # 🔴 phone_input_error -> Input Error
-    ➡️ phone_input_error=
-    # 🔴 phone_join -> Join
-    ➡️ phone_join=
-    # 🔴 phone_maxsessions -> Max. Sessions
-    ➡️ phone_maxsessions=
-    # 🔴 phone_mute -> Mute
-    ➡️ phone_mute=
-    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
-    ➡️ phone_no_https=
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
-    # 🔴 phone_noanswertimeout -> No Answer Timeout
-    ➡️ phone_noanswertimeout=
-    # 🔴 phone_not_avaialable -> Softphone Not Available.
-    ➡️ phone_not_avaialable=
-    # 🔴 phone_not_available -> Softphone not available.
-    ➡️ phone_not_available=
-    # 🔴 phone_password -> Password
-    ➡️ phone_password=
-    # 🔴 phone_register -> Register
-    ➡️ phone_register=
-    # 🔴 phone_registered -> Registered
-    ➡️ phone_registered=
-    # 🔴 phone_registering -> Registering
-    ➡️ phone_registering=
-    # 🔴 phone_returntophone -> Return to Phone
-    ➡️ phone_returntophone=
-    # 🔴 phone_server -> Server
-    ➡️ phone_server=
-    # 🔴 phone_settings -> Settings
-    ➡️ phone_settings=
-    # 🔴 phone_swap -> Swap
-    ➡️ phone_swap=
-    # 🔴 phone_toggle_hold -> Hold/Unhold
-    ➡️ phone_toggle_hold=
-    # 🔴 phone_toggle_transfer -> Transfer
-    ➡️ phone_toggle_transfer=
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
-    # 🔴 phone_unmute -> Unmute
-    ➡️ phone_unmute=
-    # 🔴 phone_unregistered -> Unregistered
-    ➡️ phone_unregistered=
-    # 🔴 phone_update_settings -> Update Settings
-    ➡️ phone_update_settings=
-    # 🔴 phone_username -> Username
-    ➡️ phone_username=
-    # 🔴 phone_websocketurl -> Websocket URL
-    ➡️ phone_websocketurl=
     popupclose_alreadydone=この呼び出しはすでに終了しています
     popupclose_close=呼び出し終了
     popupclose_error=エラー：呼び出しを正常に完了することはできませんでした

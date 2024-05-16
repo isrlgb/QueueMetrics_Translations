@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=Выйти
     td_agawlogon_logged_on=Войти
@@ -222,8 +222,7 @@ Do not change the items below:
     td_yesno_no=Нет
     td_yesno_yes=Да
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=Оплачиваемая деятельность
@@ -568,7 +567,6 @@ Do not change the items below:
     clage_unique_effective=Уникальные эффективные
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=Код региона/номер абонента
@@ -1118,6 +1116,9 @@ Do not change the items below:
     # 🔴 evt_web_fail_session -> Web Session Fail
     ➡️ evt_web_fail_session=
     evt_web_start_session=Старт Web-сессии
+
+## Headers
+
     hdr_agaw_agent=Агент
     hdr_agaw_logs=Логи
     hdr_agaw_status=Состояние
@@ -1220,7 +1221,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     edit_ac_agent_code=Код агента
     edit_ac_description=Описание
     edit_ac_gr=Гр.
@@ -1235,6 +1235,9 @@ Do not change the items below:
     edit_ac_title=Конфигурация известных агентов
     # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
+
+### AMO
+
     # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
     # 🔴 edit_amo_campaign -> Campaign
@@ -1309,6 +1312,9 @@ Do not change the items below:
     ➡️ edit_amo_valid_from=
     # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
+
+### Cases
+
     edit_cases_client=Клиент
     edit_cases_contact=Контакт
     edit_cases_email=Email
@@ -1854,7 +1860,7 @@ Do not change the items below:
     qa_comment=Комментарии
     qa_date=Дата
     qa_form=Форма
-    # 🔴 qa_frm_about -> 
+    # 🔴 qa_frm_about -> About
     ➡️ qa_frm_about=
     qa_frm_addbtn=Добавить
     qa_frm_addtojob=Добавить к заданию
@@ -2088,7 +2094,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     filter_agenteFiltro=Агент
     filter_asteriskid=Asterisk ID
     filter_atomicQueueFilter=Очередь 
@@ -2126,7 +2131,6 @@ Do not change the items below:
     filter_wait_min=мин. ожидание
 
 ## Wallboard
-
 
 
     rt3_Talk=Разговор
@@ -2477,8 +2481,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=Добавить участника
     pgag_agawqueueinfo=Информация по AGAW
     pgag_call_status=Результат
@@ -2534,8 +2536,6 @@ Do not change the items below:
     pgag_waiting=Ожидание
 
 ## Front page
-
-
 
     fp_agent_awareness=Менеджер AGAW
     fp_agent_inbound=Входящие вызовы
@@ -2899,9 +2899,9 @@ Description of configuration properties
     propedit_option_yes=Да
     propedit_rewrite_hotdesking_desc=Разрешает перезаписывать информацию hotdesking в поле data1 таблицы queue_log
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     keydesc_agaw=Пользователь может получить доступ к интерфейсам AGAW (для агентов)
     keydesc_agaw_adm=Пользователь может получить доступ к административным экранам  AGAW
@@ -3008,8 +3008,7 @@ Description of security keys
     keydesc_wallboard_phone=Пользователь может использовать софтфон на табло
     keydesc_wqloader=Пользователь может выгружать логи через HTTP
 
-## Tasks
-
+## Tasks/Memos
 
 
     tsk_detail_btnAddNote=Редактировать заметку
@@ -3089,7 +3088,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     tsk_traincoach_agent=Агент
     tsk_traincoach_agentcode=Код агента
     tsk_traincoach_agentgroup=Группа агента
@@ -3115,6 +3113,77 @@ Description of security keys
     tsk_traincoach_sendtask=Послать задачи
     tsk_traincoach_start_date=Действительно с
     tsk_traincoach_title=Выполнять задачи по обучению и сопровождению
+
+
+
+### Softphone
+
+    phone_advanced_settings=Расширенные настройки
+    phone_agent=Агент
+    phone_anonymous=Анонимно
+    phone_answer=Ответ
+    # 🔴 phone_attended -> Attended Transfer
+    ➡️ phone_attended=
+    phone_attended_transfer=Сопровождаемый перевод
+    phone_auto_answer_toggle_off=Автоответ выключен
+    phone_auto_answer_toggle_on=Автоответ включен
+    phone_basic_settings=Базовые настройки
+    # 🔴 phone_blind -> Blind Transfer
+    ➡️ phone_blind=
+    phone_blind_transfer=Перевод
+    # 🔴 phone_call -> Call
+    ➡️ phone_call=
+    # 🔴 phone_calling -> Calling...
+    ➡️ phone_calling=
+    phone_cancel=Отмена
+    phone_close=Закрыть
+    phone_confirm=Подтвердить
+    phone_connectionrecoverymax=Макс. интервал для восстановления соединения
+    phone_connectionrecoverymin=Мин. интервал для восстановления соединения
+    phone_debug=Щелкните, чтобы распечатать отладочную информацию в консоли браузера.
+    phone_dial=Набрать
+    phone_dialing=Набор...
+    # 🔴 phone_dialling -> Dialling...
+    ➡️ phone_dialling=
+    phone_displayname=Отображаемое имя
+    phone_hangup=Разъединение
+    # 🔴 phone_http_error -> WebRTC Error.
+    ➡️ phone_http_error=
+    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    ➡️ phone_http_error_body=
+    phone_iceservers=Сервера ICE
+    # 🔴 phone_incoming_call -> Incoming call...
+    ➡️ phone_incoming_call=
+    phone_input_error=Ошибка ввода
+    phone_join=Присоединение
+    phone_maxsessions=Макс. число сессий
+    phone_mute=Немой
+    phone_no_https=QueueMetrics должен обслуживаться через HTTPS для корректной работы софтфона.
+    # 🔴 phone_no_queue -> No Queue
+    ➡️ phone_no_queue=
+    phone_noanswertimeout=Таймаут "нет ответа"
+    # 🔴 phone_not_avaialable -> Softphone Not Available.
+    ➡️ phone_not_avaialable=
+    # 🔴 phone_not_available -> Softphone not available.
+    ➡️ phone_not_available=
+    phone_password=Пароль
+    phone_register=Регистр
+    phone_registered=Зарегистрированный
+    phone_registering=Регистрация
+    phone_returntophone=Вернуться к телефону
+    phone_server=Сервер
+    phone_settings=Настройки
+    phone_swap=Swap
+    phone_toggle_hold=Удерживать/Не удерживать
+    phone_toggle_transfer=Перевод
+    # 🔴 phone_transfer -> Transfer
+    ➡️ phone_transfer=
+    phone_unmute=Включить звук
+    phone_unregistered=Незарегистрированный
+    # 🔴 phone_update_settings -> Update Settings
+    ➡️ phone_update_settings=
+    phone_username=Имя пользователя
+    phone_websocketurl=WebSocket URL
 
 ## Misc
 
@@ -3543,72 +3612,6 @@ Other items
     pager_last=Последняя страница
     pager_next=Следующая страница
     pager_prev=Предыдущая страница
-    phone_advanced_settings=Расширенные настройки
-    phone_agent=Агент
-    phone_anonymous=Анонимно
-    phone_answer=Ответ
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=
-    phone_attended_transfer=Сопровождаемый перевод
-    phone_auto_answer_toggle_off=Автоответ выключен
-    phone_auto_answer_toggle_on=Автоответ включен
-    phone_basic_settings=Базовые настройки
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
-    phone_blind_transfer=Перевод
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=
-    # 🔴 phone_calling -> Calling...
-    ➡️ phone_calling=
-    phone_cancel=Отмена
-    phone_close=Закрыть
-    phone_confirm=Подтвердить
-    phone_connectionrecoverymax=Макс. интервал для восстановления соединения
-    phone_connectionrecoverymin=Мин. интервал для восстановления соединения
-    phone_debug=Щелкните, чтобы распечатать отладочную информацию в консоли браузера.
-    phone_dial=Набрать
-    phone_dialing=Набор...
-    # 🔴 phone_dialling -> Dialling...
-    ➡️ phone_dialling=
-    phone_displayname=Отображаемое имя
-    phone_hangup=Разъединение
-    # 🔴 phone_http_error -> WebRTC Error.
-    ➡️ phone_http_error=
-    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
-    ➡️ phone_http_error_body=
-    phone_iceservers=Сервера ICE
-    # 🔴 phone_incoming_call -> Incoming call...
-    ➡️ phone_incoming_call=
-    phone_input_error=Ошибка ввода
-    phone_join=Присоединение
-    phone_maxsessions=Макс. число сессий
-    phone_mute=Немой
-    phone_no_https=QueueMetrics должен обслуживаться через HTTPS для корректной работы софтфона.
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
-    phone_noanswertimeout=Таймаут "нет ответа"
-    # 🔴 phone_not_avaialable -> Softphone Not Available.
-    ➡️ phone_not_avaialable=
-    # 🔴 phone_not_available -> Softphone not available.
-    ➡️ phone_not_available=
-    phone_password=Пароль
-    phone_register=Регистр
-    phone_registered=Зарегистрированный
-    phone_registering=Регистрация
-    phone_returntophone=Вернуться к телефону
-    phone_server=Сервер
-    phone_settings=Настройки
-    phone_swap=Swap
-    phone_toggle_hold=Удерживать/Не удерживать
-    phone_toggle_transfer=Перевод
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
-    phone_unmute=Включить звук
-    phone_unregistered=Незарегистрированный
-    # 🔴 phone_update_settings -> Update Settings
-    ➡️ phone_update_settings=
-    phone_username=Имя пользователя
-    phone_websocketurl=WebSocket URL
     popupclose_alreadydone=Вызов был завершен
     popupclose_close=Завершить вызов
     popupclose_error=Ошибка: Невозможно нормально завершить вызов

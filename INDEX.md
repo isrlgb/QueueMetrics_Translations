@@ -2,8 +2,8 @@
 
 |  | Language | Alternatives | Missing | Human checked | AI based | Completion |   |
 |--|----------|--------------|---------|---------------|----------|------------|---|
-| 1 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
-| 2 | *English (en_US)* |  | 9 | 99.8% | 0.0% | 99.8% | 😎 |
+| 1 | *English (en_US)* |  | 0 | 100.0% | 0.0% | 100.0% | 😎 |
+| 2 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
 | 3 | *Brazil Portuguese (pt_BR)* | pt_PT | 40 | 98.9% | 0.1% | 99.1% | 🟢 |
 | 4 | *Portuguese (pt_PT)* | pt_BR | 40 | 73.6% | 25.5% | 99.1% | 🟢 |
 | 5 | *Spanish (es_ES)* | es_LA | 45 | 20.2% | 78.8% | 98.9% | 🟢 |
@@ -36,5 +36,5 @@
 - 🔴 Incomplete
 
 
-Generated at Thu, May 16 2024 @ 14:18.
+Generated at Thu, May 16 2024 @ 14:26.
 

@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=Αποσυνδεδεμένος
     td_agawlogon_logged_on=Συνδεδεμένος
@@ -223,8 +223,7 @@ Do not change the items below:
     td_yesno_no=Όχι
     td_yesno_yes=Ναι
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=Χρεώσιμες ενέργειες
@@ -571,7 +570,6 @@ Do not change the items below:
     clage_unique_effective=Μοναδική Αποτελεσματικότητα
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=Κωδικός περιοχής/Αριθμός καλούντος
@@ -1156,6 +1154,9 @@ Do not change the items below:
     ➡️ evt_web_fail_session=
     # 🔴 evt_web_start_session -> Web Session Start
     ➡️ evt_web_start_session=
+
+## Headers
+
     hdr_agaw_agent=Χρήστης
     hdr_agaw_logs=Αρχείο καταγραφής (Log)
     hdr_agaw_status=Κατάσταση
@@ -1259,7 +1260,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     edit_ac_agent_code=Κωδικός Χρήστη
     edit_ac_description=Περιγραφή
     edit_ac_gr=Ομ.
@@ -1274,6 +1274,9 @@ Do not change the items below:
     edit_ac_title=Διαμορφωση Γνωστών Χρηστών
     # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
+
+### AMO
+
     # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
     # 🔴 edit_amo_campaign -> Campaign
@@ -1348,6 +1351,9 @@ Do not change the items below:
     ➡️ edit_amo_valid_from=
     # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
+
+### Cases
+
     # 🔴 edit_cases_client -> Client
     ➡️ edit_cases_client=
     # 🔴 edit_cases_contact -> Contact
@@ -2170,7 +2176,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     filter_agenteFiltro=Χρήστης
     filter_asteriskid=Asterisk ID
     filter_atomicQueueFilter=Ουρά αναμονής
@@ -2208,7 +2213,6 @@ Do not change the items below:
     filter_wait_min=Ελάχιστη αναμονή
 
 ## Wallboard
-
 
 
     # 🔴 rt3_Talk -> Talk
@@ -2693,8 +2697,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=Προσθήκη μέλους σε ουρά αναμονής
     pgag_agawqueueinfo=Πληροφορίες AGAW
     pgag_call_status=Αποτέλεσμα
@@ -2750,8 +2752,6 @@ Do not change the items below:
     pgag_waiting=Αναμονή
 
 ## Front page
-
-
 
     fp_agent_awareness=Διαχειριστής επίγνωσης χρήστη
     fp_agent_inbound=Εισερχόμενες κλήσεις
@@ -3193,9 +3193,9 @@ Description of configuration properties
     propedit_option_yes=Ναι
     propedit_rewrite_hotdesking_desc=Επιτρέπει την επανεγγραφή των πληροφοριών hotdesking στο πεδίο data1 του πίνακα queue_log
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     keydesc_agaw=Ο χρήστης έχει πρόσβαση σε πληροφορίες AGAW (για χρήστες)
     keydesc_agaw_adm=Ο χρήστης έχει πρόσβαση στις οθόνες διαχείρησης AGAW
@@ -3304,8 +3304,7 @@ Description of security keys
     keydesc_wallboard_phone=Ο χρήστης μπορεί να χρησιμοποιήσει το softphone στην οθόνη
     keydesc_wqloader=Ο χρήστης μπορεί να ανεβάσει αρχεία καταγραφής μέσω HTTP
 
-## Tasks
-
+## Tasks/Memos
 
 
     tsk_detail_btnAddNote=Επεξεργασία σημείωσης
@@ -3385,7 +3384,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     tsk_traincoach_agent=Χρήστης
     tsk_traincoach_agentcode=Κωδικός χρήστη
     tsk_traincoach_agentgroup=Ομάδα χρηστών
@@ -3411,6 +3409,91 @@ Description of security keys
     tsk_traincoach_sendtask=Απεσταλμένες εργασίες
     tsk_traincoach_start_date=Έγκυρο από
     tsk_traincoach_title=Αποστολή εργασιών εκπαίδευσης και κατάρτησης
+
+
+
+### Softphone
+
+    phone_advanced_settings=Προηγμένες ρυθμίσεις
+    phone_agent=Πράκτορας
+    phone_anonymous=Ανώνυμος
+    phone_answer=Απάντηση
+    # 🔴 phone_attended -> Attended Transfer
+    ➡️ phone_attended=
+    phone_attended_transfer=Μεταφορά με παρακολούθηση
+    phone_auto_answer_toggle_off=Η αυτόματη απάντηση είναι απενεργοποιημένη
+    phone_auto_answer_toggle_on=Η αυτόματη απάντηση είναι απενεργοποιημένη
+    phone_basic_settings=Βασικές ρυθμίσεις
+    # 🔴 phone_blind -> Blind Transfer
+    ➡️ phone_blind=
+    phone_blind_transfer=Μεταφορά
+    # 🔴 phone_call -> Call
+    ➡️ phone_call=
+    # 🔴 phone_calling -> Calling...
+    ➡️ phone_calling=
+    phone_cancel=Ακύρωση
+    phone_close=Κλείσιμο
+    phone_confirm=Επιβεβαίωση
+    phone_connectionrecoverymax=Μέγ. διάστημα ανάκτησης σύνδεσης
+    phone_connectionrecoverymin=Ελάχ. διάστημα ανάκτησης σύνδεσης
+    # 🔴 phone_debug -> Click to print debug information in the browser console.
+    ➡️ phone_debug=
+    phone_dial=Κλήση
+    phone_dialing=Κλήση ...
+    # 🔴 phone_dialling -> Dialling...
+    ➡️ phone_dialling=
+    phone_displayname=Εμφανιζόμενο Όνομα
+    phone_hangup=Τέλος κλήσης
+    # 🔴 phone_http_error -> WebRTC Error.
+    ➡️ phone_http_error=
+    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    ➡️ phone_http_error_body=
+    phone_iceservers=Διακομιστές ICE
+    # 🔴 phone_incoming_call -> Incoming call...
+    ➡️ phone_incoming_call=
+    phone_input_error=Σφάλμα εισαγωγής
+    # 🔴 phone_join -> Join
+    ➡️ phone_join=
+    phone_maxsessions=Μέγ. αρ. Συνεδριών
+    phone_mute=Σιγαση
+    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
+    ➡️ phone_no_https=
+    # 🔴 phone_no_queue -> No Queue
+    ➡️ phone_no_queue=
+    phone_noanswertimeout=Χρόνος χωρίς απόκριση
+    # 🔴 phone_not_avaialable -> Softphone Not Available.
+    ➡️ phone_not_avaialable=
+    # 🔴 phone_not_available -> Softphone not available.
+    ➡️ phone_not_available=
+    phone_password=Κωδικός
+    phone_register=Εγγραφή
+    phone_registered=Εγγεγραμμένο
+    # 🔴 phone_registering -> Registering
+    ➡️ phone_registering=
+    # 🔴 phone_returntophone -> Return to Phone
+    ➡️ phone_returntophone=
+    # 🔴 phone_server -> Server
+    ➡️ phone_server=
+    # 🔴 phone_settings -> Settings
+    ➡️ phone_settings=
+    # 🔴 phone_swap -> Swap
+    ➡️ phone_swap=
+    # 🔴 phone_toggle_hold -> Hold/Unhold
+    ➡️ phone_toggle_hold=
+    # 🔴 phone_toggle_transfer -> Transfer
+    ➡️ phone_toggle_transfer=
+    # 🔴 phone_transfer -> Transfer
+    ➡️ phone_transfer=
+    # 🔴 phone_unmute -> Unmute
+    ➡️ phone_unmute=
+    # 🔴 phone_unregistered -> Unregistered
+    ➡️ phone_unregistered=
+    # 🔴 phone_update_settings -> Update Settings
+    ➡️ phone_update_settings=
+    # 🔴 phone_username -> Username
+    ➡️ phone_username=
+    # 🔴 phone_websocketurl -> Websocket URL
+    ➡️ phone_websocketurl=
 
 ## Misc
 
@@ -3864,86 +3947,6 @@ Other items
     pager_last=Τελευταία σελίδα
     pager_next=Επόμενη σελίδα
     pager_prev=Προηγούμενη σελίδα
-    phone_advanced_settings=Προηγμένες ρυθμίσεις
-    phone_agent=Πράκτορας
-    phone_anonymous=Ανώνυμος
-    phone_answer=Απάντηση
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=
-    phone_attended_transfer=Μεταφορά με παρακολούθηση
-    phone_auto_answer_toggle_off=Η αυτόματη απάντηση είναι απενεργοποιημένη
-    phone_auto_answer_toggle_on=Η αυτόματη απάντηση είναι απενεργοποιημένη
-    phone_basic_settings=Βασικές ρυθμίσεις
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
-    phone_blind_transfer=Μεταφορά
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=
-    # 🔴 phone_calling -> Calling...
-    ➡️ phone_calling=
-    phone_cancel=Ακύρωση
-    phone_close=Κλείσιμο
-    phone_confirm=Επιβεβαίωση
-    phone_connectionrecoverymax=Μέγ. διάστημα ανάκτησης σύνδεσης
-    phone_connectionrecoverymin=Ελάχ. διάστημα ανάκτησης σύνδεσης
-    # 🔴 phone_debug -> Click to print debug information in the browser console.
-    ➡️ phone_debug=
-    phone_dial=Κλήση
-    phone_dialing=Κλήση ...
-    # 🔴 phone_dialling -> Dialling...
-    ➡️ phone_dialling=
-    phone_displayname=Εμφανιζόμενο Όνομα
-    phone_hangup=Τέλος κλήσης
-    # 🔴 phone_http_error -> WebRTC Error.
-    ➡️ phone_http_error=
-    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
-    ➡️ phone_http_error_body=
-    phone_iceservers=Διακομιστές ICE
-    # 🔴 phone_incoming_call -> Incoming call...
-    ➡️ phone_incoming_call=
-    phone_input_error=Σφάλμα εισαγωγής
-    # 🔴 phone_join -> Join
-    ➡️ phone_join=
-    phone_maxsessions=Μέγ. αρ. Συνεδριών
-    phone_mute=Σιγαση
-    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
-    ➡️ phone_no_https=
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
-    phone_noanswertimeout=Χρόνος χωρίς απόκριση
-    # 🔴 phone_not_avaialable -> Softphone Not Available.
-    ➡️ phone_not_avaialable=
-    # 🔴 phone_not_available -> Softphone not available.
-    ➡️ phone_not_available=
-    phone_password=Κωδικός
-    phone_register=Εγγραφή
-    phone_registered=Εγγεγραμμένο
-    # 🔴 phone_registering -> Registering
-    ➡️ phone_registering=
-    # 🔴 phone_returntophone -> Return to Phone
-    ➡️ phone_returntophone=
-    # 🔴 phone_server -> Server
-    ➡️ phone_server=
-    # 🔴 phone_settings -> Settings
-    ➡️ phone_settings=
-    # 🔴 phone_swap -> Swap
-    ➡️ phone_swap=
-    # 🔴 phone_toggle_hold -> Hold/Unhold
-    ➡️ phone_toggle_hold=
-    # 🔴 phone_toggle_transfer -> Transfer
-    ➡️ phone_toggle_transfer=
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
-    # 🔴 phone_unmute -> Unmute
-    ➡️ phone_unmute=
-    # 🔴 phone_unregistered -> Unregistered
-    ➡️ phone_unregistered=
-    # 🔴 phone_update_settings -> Update Settings
-    ➡️ phone_update_settings=
-    # 🔴 phone_username -> Username
-    ➡️ phone_username=
-    # 🔴 phone_websocketurl -> Websocket URL
-    ➡️ phone_websocketurl=
     popupclose_alreadydone=Η κλήση έχει ήδη ολοκληρωθεί
     popupclose_close=Ολοκλήρωση κλήσης
     popupclose_error=Σφάλμα: Δεν ήταν δυνατόν να ολοκληρωθεί η κλήση με επιτυχία.

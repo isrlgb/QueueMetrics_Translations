@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=Ausgeloggt
     td_agawlogon_logged_on=Eingeloggt
@@ -222,8 +222,7 @@ Do not change the items below:
     td_yesno_no=Nein
     td_yesno_yes=Ja
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=Abrechnungsfähige Aktivitäten
@@ -570,7 +569,6 @@ Do not change the items below:
     clage_unique_effective=Einzigartig effektiv
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=Vorwahl/Anruferkennung
@@ -1115,6 +1113,9 @@ Do not change the items below:
     evt_web_end_session=Ende der Web-Sitzung
     evt_web_fail_session=Web-Sitzung fehlgeschlagen
     evt_web_start_session=Websession Start
+
+## Headers
+
     hdr_agaw_agent=Agent
     hdr_agaw_logs=Protokolle
     hdr_agaw_status=Status
@@ -1217,7 +1218,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     edit_ac_agent_code=Nebenstelle des Agenten
     edit_ac_description=Beschreibung
     edit_ac_gr=Gr.
@@ -1232,6 +1232,9 @@ Do not change the items below:
     edit_ac_title=Konfiguration bekannter Agenten
     # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
+
+### AMO
+
     # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
     # 🔴 edit_amo_campaign -> Campaign
@@ -1306,6 +1309,9 @@ Do not change the items below:
     ➡️ edit_amo_valid_from=
     # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
+
+### Cases
+
     # 🔴 edit_cases_client -> Client
     ➡️ edit_cases_client=
     # 🔴 edit_cases_contact -> Contact
@@ -2109,7 +2115,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     filter_agenteFiltro=Agent
     filter_asteriskid=Asterisk ID
     filter_atomicQueueFilter=Warteschlange
@@ -2147,7 +2152,6 @@ Do not change the items below:
     filter_wait_min=Min warten
 
 ## Wallboard
-
 
 
     rt3_Talk=Gespräch
@@ -2491,8 +2495,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=Member hinzufügen
     pgag_agawqueueinfo=AGAW Information
     pgag_call_status=Ergebnis
@@ -2548,8 +2550,6 @@ Do not change the items below:
     pgag_waiting=Gewartet
 
 ## Front page
-
-
 
     fp_agent_awareness=Agent Awareness Manager
     fp_agent_inbound=Eingehende Anrufe
@@ -2913,9 +2913,9 @@ Description of configuration properties
     propedit_option_yes=Ja
     propedit_rewrite_hotdesking_desc=Ermöglicht das Umschreiben von Hotdesking-Informationen im Feld data1 der Tabelle queue_log
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     keydesc_agaw=Benutzer können auf AGAW-Fassaden (für Agenten) zugreifen.
     keydesc_agaw_adm=Der Benutzer kann auf die AGAW-Verwaltungsbildschirme zugreifen
@@ -3022,8 +3022,7 @@ Description of security keys
     keydesc_wallboard_phone=Der Benutzer kann das Wallboard-Softphone verwenden
     keydesc_wqloader=Der Benutzer kann Protokolle über HTTP hochladen
 
-## Tasks
-
+## Tasks/Memos
 
 
     tsk_detail_btnAddNote=Notiz bearbeiten
@@ -3101,7 +3100,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     tsk_traincoach_agent=Agent
     tsk_traincoach_agentcode=Nebenstelle des Agenten
     tsk_traincoach_agentgroup=Agent Gruppe
@@ -3127,6 +3125,69 @@ Description of security keys
     tsk_traincoach_sendtask=Aufgaben senden
     tsk_traincoach_start_date=Gültig von
     tsk_traincoach_title=Push Training und Coaching Aufgaben
+
+
+
+### Softphone
+
+    phone_advanced_settings=Erweiterte Einstellungen
+    phone_agent=Agent
+    phone_anonymous=Anonym
+    phone_answer=Antwort
+    # 🔴 phone_attended -> Attended Transfer
+    ➡️ phone_attended=
+    phone_attended_transfer=Besuchte Übertragung
+    phone_auto_answer_toggle_off=Automatische Antwort ist deaktiviert
+    phone_auto_answer_toggle_on=Automatische Antwort ist aktiviert
+    phone_basic_settings=Allgemeine Einstellungen
+    # 🔴 phone_blind -> Blind Transfer
+    ➡️ phone_blind=
+    phone_blind_transfer=Blinde Übertragung
+    # 🔴 phone_call -> Call
+    ➡️ phone_call=
+    phone_calling=Anrufe...
+    phone_cancel=Abbrechen
+    phone_close=Schliessen
+    phone_confirm=Bestätigen
+    phone_connectionrecoverymax=Conn. Wiederherstellung Max.
+    phone_connectionrecoverymin=Conn. Erholung Min.
+    phone_debug=Klicken Sie darauf, um Debug-Informationen in der Browser-Konsole zu drucken.
+    phone_dial=Dial
+    phone_dialing=Dialing...
+    phone_dialling=Dialling...
+    phone_displayname=Name anzeigen
+    phone_hangup=Auflegen
+    phone_http_error=WebRTC Error.
+    phone_http_error_body=Damit das WebRTC SoftPhone korrekt funktioniert, muss QueueMetrics über HTTPS bereitgestellt werden.
+    phone_iceservers=Ice Servers
+    phone_incoming_call=Eingehender Anruf...
+    phone_input_error=Eingabefehler
+    phone_join=Beitreten
+    phone_maxsessions=Max. Sitzungen
+    phone_mute=Stummschalten
+    phone_no_https=QueueMetrics muss über HTTPS bereitgestellt werden, damit das SoftPhone korrekt funktioniert.
+    # 🔴 phone_no_queue -> No Queue
+    ➡️ phone_no_queue=
+    phone_noanswertimeout=Zeitlimit für keine Antwort
+    phone_not_avaialable=Softphone nicht verfügbar.
+    phone_not_available=Softphone nicht verfügbar.
+    phone_password=Passwort
+    phone_register=Registrieren
+    phone_registered=Registriert
+    phone_registering=Registrieren
+    phone_returntophone=Zurück zum Telefon
+    phone_server=Server
+    phone_settings=Einstellungen
+    phone_swap=Tauschen
+    phone_toggle_hold=Halten/Entsperren
+    phone_toggle_transfer=Übertragung
+    # 🔴 phone_transfer -> Transfer
+    ➡️ phone_transfer=
+    phone_unmute=Stummschaltung aufheben
+    phone_unregistered=Unregistriert
+    phone_update_settings=Einstellungen aktualisieren
+    phone_username=Benutzername
+    phone_websocketurl=Websocket URL
 
 ## Misc
 
@@ -3535,64 +3596,6 @@ Other items
     pager_last=Letzte Seite
     pager_next=Nächste Seite
     pager_prev=Vorherige Seite
-    phone_advanced_settings=Erweiterte Einstellungen
-    phone_agent=Agent
-    phone_anonymous=Anonym
-    phone_answer=Antwort
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=
-    phone_attended_transfer=Besuchte Übertragung
-    phone_auto_answer_toggle_off=Automatische Antwort ist deaktiviert
-    phone_auto_answer_toggle_on=Automatische Antwort ist aktiviert
-    phone_basic_settings=Allgemeine Einstellungen
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
-    phone_blind_transfer=Blinde Übertragung
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=
-    phone_calling=Anrufe...
-    phone_cancel=Abbrechen
-    phone_close=Schliessen
-    phone_confirm=Bestätigen
-    phone_connectionrecoverymax=Conn. Wiederherstellung Max.
-    phone_connectionrecoverymin=Conn. Erholung Min.
-    phone_debug=Klicken Sie darauf, um Debug-Informationen in der Browser-Konsole zu drucken.
-    phone_dial=Dial
-    phone_dialing=Dialing...
-    phone_dialling=Dialling...
-    phone_displayname=Name anzeigen
-    phone_hangup=Auflegen
-    phone_http_error=WebRTC Error.
-    phone_http_error_body=Damit das WebRTC SoftPhone korrekt funktioniert, muss QueueMetrics über HTTPS bereitgestellt werden.
-    phone_iceservers=Ice Servers
-    phone_incoming_call=Eingehender Anruf...
-    phone_input_error=Eingabefehler
-    phone_join=Beitreten
-    phone_maxsessions=Max. Sitzungen
-    phone_mute=Stummschalten
-    phone_no_https=QueueMetrics muss über HTTPS bereitgestellt werden, damit das SoftPhone korrekt funktioniert.
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
-    phone_noanswertimeout=Zeitlimit für keine Antwort
-    phone_not_avaialable=Softphone nicht verfügbar.
-    phone_not_available=Softphone nicht verfügbar.
-    phone_password=Passwort
-    phone_register=Registrieren
-    phone_registered=Registriert
-    phone_registering=Registrieren
-    phone_returntophone=Zurück zum Telefon
-    phone_server=Server
-    phone_settings=Einstellungen
-    phone_swap=Tauschen
-    phone_toggle_hold=Halten/Entsperren
-    phone_toggle_transfer=Übertragung
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
-    phone_unmute=Stummschaltung aufheben
-    phone_unregistered=Unregistriert
-    phone_update_settings=Einstellungen aktualisieren
-    phone_username=Benutzername
-    phone_websocketurl=Websocket URL
     popupclose_alreadydone=Der Anruf wurde schon beendet.
     popupclose_close=Beendeter Anruf
     popupclose_error=Es war nicht möglich den Anruf erfolgreich zu beenden.

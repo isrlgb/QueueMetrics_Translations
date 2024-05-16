@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=Desconectado
     td_agawlogon_logged_on=Conectado
@@ -222,8 +222,7 @@ Do not change the items below:
     td_yesno_no=Não
     td_yesno_yes=Sim
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=Tempo produtivo
@@ -568,7 +567,6 @@ Do not change the items below:
     clage_unique_effective=Único efetiva
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=Código de Área/Bina
@@ -1114,6 +1112,9 @@ Do not change the items below:
     evt_web_end_session=Fim de sessão Web
     evt_web_fail_session=Sessão Web com falha
     evt_web_start_session=Início de sessão Web
+
+## Headers
+
     hdr_agaw_agent=Agente
     hdr_agaw_logs=Logs
     hdr_agaw_status=Estado
@@ -1204,7 +1205,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     edit_ac_agent_code=Código do Agente
     edit_ac_description=Descrição
     edit_ac_gr=Gr.
@@ -1218,6 +1218,9 @@ Do not change the items below:
     edit_ac_term=Term.
     edit_ac_title=Configuração de Agentes Conhecidos
     edit_amo_attribute=Atributo
+
+### AMO
+
     edit_amo_attributes=Atributos
     edit_amo_campaign=Campanha
     edit_amo_last_pull=Último envio
@@ -1255,6 +1258,9 @@ Do not change the items below:
     edit_amo_valid_attribute=Atributo
     edit_amo_valid_from=Válido desde
     edit_amo_valid_value=Valor
+
+### Cases
+
     edit_cases_client=Cliente
     edit_cases_contact=Contato
     edit_cases_email=Email
@@ -2002,7 +2008,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     filter_agenteFiltro=Agente
     filter_asteriskid=ID único
     filter_atomicQueueFilter=Fila
@@ -2039,7 +2044,6 @@ Do not change the items below:
     filter_wait_min=Espera mínima
 
 ## Wallboard
-
 
 
     rt3_Talk=Conversa
@@ -2382,8 +2386,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=Adicionar membro
     pgag_agawqueueinfo=Informações AGAW
     pgag_call_status=Tipo de chamada
@@ -2439,8 +2441,6 @@ Do not change the items below:
     pgag_waiting=Aguardando
 
 ## Front page
-
-
 
     fp_agent_awareness=Manager AGAW
     fp_agent_inbound=Chamadas Entrantes
@@ -2797,9 +2797,9 @@ Description of configuration properties
     propedit_option_yes=Sim
     propedit_rewrite_hotdesking_desc=Permite a regravação de informações de hotdesking no campo data1 da tabela queue_log
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     keydesc_agaw=Usuário pode acessar as fachadas AGAW (para agentes)
     keydesc_agaw_adm=Usuário pode acessar as telas de administração AGAW
@@ -2904,8 +2904,7 @@ Description of security keys
     keydesc_wallboard_phone=O usuário pode usar o softphone do wallboard
     keydesc_wqloader=O usuário pode carregar os logs via HTTP
 
-## Tasks
-
+## Tasks/Memos
 
 
     tsk_detail_btnAddNote=Editar Nota
@@ -2983,7 +2982,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     tsk_traincoach_agent=Agente
     tsk_traincoach_agentcode=Código de Agente
     tsk_traincoach_agentgroup=Group de Agente
@@ -3009,6 +3007,64 @@ Description of security keys
     tsk_traincoach_sendtask=Busca Tarefas
     tsk_traincoach_start_date=Válido desde
     tsk_traincoach_title=Força Tarefas de Formação e Treinamento
+
+
+
+### Softphone
+
+    phone_advanced_settings=Configurações avançadas
+    phone_agent=Agente
+    phone_anonymous=Anônimo
+    phone_answer=Responder
+    phone_attended=Transferência assistida
+    phone_attended_transfer=Transferência negociada
+    phone_auto_answer_toggle_off=O atendimento automático está desativado
+    phone_auto_answer_toggle_on=O atendimento automático está habilitado
+    phone_basic_settings=Configurações básicas
+    phone_blind=Transferência cega
+    phone_blind_transfer=Transferir
+    phone_call=Chamada
+    phone_calling=Chamando...
+    phone_cancel=Cancelar
+    phone_close=Fechar
+    phone_confirm=Confirmar
+    phone_connectionrecoverymax=Recuperação de conexão máx. intervalo
+    phone_connectionrecoverymin=Recuperação de conexão mín. intervalo
+    phone_debug=Clique para imprimir as informações de Debug no console do navegador.
+    phone_dial=Discar
+    phone_dialing=Chamando
+    phone_dialling=Discando...
+    phone_displayname=Nome em Exibição
+    phone_hangup=Terminar chamada
+    phone_http_error=Erro WebRTC
+    phone_http_error_body=PAra o correto funcionamento do WebRTC o Queuemetrics deve ser oferecido com HTTPS
+    phone_iceservers=Servidores ICE
+    phone_incoming_call=Chamada entrante
+    phone_input_error=Erro de entrada
+    phone_join=Juntar
+    phone_maxsessions=Máx. Sessões
+    phone_mute=Mudo
+    phone_no_https=QueueMetrics deve ser oferecido com HTTPS para que o SoftPhone funcione corretamente
+    phone_no_queue=Sem fila
+    phone_noanswertimeout=Tempo limite sem resposta
+    phone_not_avaialable=Softphone não disponível
+    phone_not_available=Softphone não disponível.
+    phone_password=Senha
+    phone_register=Registrar
+    phone_registered=Registrado
+    phone_registering=Registrando
+    phone_returntophone=Retornar ao telefone
+    phone_server=Servidor
+    phone_settings=Configurações
+    phone_swap=Trocar
+    phone_toggle_hold=Reter/Liberar
+    phone_toggle_transfer=Transferir
+    phone_transfer=Transferência
+    phone_unmute=Com som
+    phone_unregistered=Não registrado
+    phone_update_settings=Modificar opções
+    phone_username=Nome do usuário
+    phone_websocketurl=URL WebSocket
 
 ## Misc
 
@@ -3329,59 +3385,6 @@ Other items
     pager_last=Última página
     pager_next=Próxima página
     pager_prev=Página anterior
-    phone_advanced_settings=Configurações avançadas
-    phone_agent=Agente
-    phone_anonymous=Anônimo
-    phone_answer=Responder
-    phone_attended=Transferência assistida
-    phone_attended_transfer=Transferência negociada
-    phone_auto_answer_toggle_off=O atendimento automático está desativado
-    phone_auto_answer_toggle_on=O atendimento automático está habilitado
-    phone_basic_settings=Configurações básicas
-    phone_blind=Transferência cega
-    phone_blind_transfer=Transferir
-    phone_call=Chamada
-    phone_calling=Chamando...
-    phone_cancel=Cancelar
-    phone_close=Fechar
-    phone_confirm=Confirmar
-    phone_connectionrecoverymax=Recuperação de conexão máx. intervalo
-    phone_connectionrecoverymin=Recuperação de conexão mín. intervalo
-    phone_debug=Clique para imprimir as informações de Debug no console do navegador.
-    phone_dial=Discar
-    phone_dialing=Chamando
-    phone_dialling=Discando...
-    phone_displayname=Nome em Exibição
-    phone_hangup=Terminar chamada
-    phone_http_error=Erro WebRTC
-    phone_http_error_body=PAra o correto funcionamento do WebRTC o Queuemetrics deve ser oferecido com HTTPS
-    phone_iceservers=Servidores ICE
-    phone_incoming_call=Chamada entrante
-    phone_input_error=Erro de entrada
-    phone_join=Juntar
-    phone_maxsessions=Máx. Sessões
-    phone_mute=Mudo
-    phone_no_https=QueueMetrics deve ser oferecido com HTTPS para que o SoftPhone funcione corretamente
-    phone_no_queue=Sem fila
-    phone_noanswertimeout=Tempo limite sem resposta
-    phone_not_avaialable=Softphone não disponível
-    phone_not_available=Softphone não disponível.
-    phone_password=Senha
-    phone_register=Registrar
-    phone_registered=Registrado
-    phone_registering=Registrando
-    phone_returntophone=Retornar ao telefone
-    phone_server=Servidor
-    phone_settings=Configurações
-    phone_swap=Trocar
-    phone_toggle_hold=Reter/Liberar
-    phone_toggle_transfer=Transferir
-    phone_transfer=Transferência
-    phone_unmute=Com som
-    phone_unregistered=Não registrado
-    phone_update_settings=Modificar opções
-    phone_username=Nome do usuário
-    phone_websocketurl=URL WebSocket
     popupclose_alreadydone=A chamada já foi encerrada.
     popupclose_close=Encerrar chamada
     popupclose_error=<b>Erro:</b> Não foi possível encerrar a chamada com sucesso.
@@ -4282,7 +4285,7 @@ Other items
     rt_wall_moh=MOH
     rt_wall_n_agents=Age
     rt_wall_n_calls_waiting=Aguardando
-    # 👽 rt_wall_nbsp -> 
+    # 👽 rt_wall_nbsp ->  
     rt_wall_nbsp=? 
     rt_wall_on_pause=Pausa
     rt_wall_on_phone_inbound=Entr.

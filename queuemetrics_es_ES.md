@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=Desconectado
     td_agawlogon_logged_on=Conectado
@@ -243,8 +243,7 @@ Do not change the items below:
     td_yesno_no=No
     td_yesno_yes=Si
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=Tiempo productivo
@@ -797,7 +796,6 @@ Do not change the items below:
     clage_unique_effective=?Efectivas Únicas
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=Código de area/Id llamante
@@ -1565,6 +1563,9 @@ Do not change the items below:
     evt_web_fail_session=?Sesión Web Fallida
     # 👽 evt_web_start_session -> Web Session Start
     evt_web_start_session=?Inicio sesión Web
+
+## Headers
+
     # 👽 hdr_agaw_agent -> Agent
     hdr_agaw_agent=?Agente
     # 👽 hdr_agaw_logs -> Logs
@@ -1726,7 +1727,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     # 👽 edit_ac_agent_code -> Agent Code
     edit_ac_agent_code=?Código Agente
     # 👽 edit_ac_description -> Description
@@ -1753,6 +1753,9 @@ Do not change the items below:
     edit_ac_title=?Configuración Agentes conocidos
     # 👽 edit_amo_attribute -> Attribute
     edit_amo_attribute=?Atributo
+
+### AMO
+
     # 👽 edit_amo_attributes -> Attributes
     edit_amo_attributes=?Atributos
     # 👽 edit_amo_campaign -> Campaign
@@ -1827,6 +1830,9 @@ Do not change the items below:
     edit_amo_valid_from=?Válido desde
     # 👽 edit_amo_valid_value -> Value
     edit_amo_valid_value=?Valor
+
+### Cases
+
     # 👽 edit_cases_client -> Client
     edit_cases_client=?Clientes
     # 👽 edit_cases_contact -> Contact
@@ -2836,7 +2842,7 @@ Do not change the items below:
     qa_comment=Comentario
     qa_date=Fecha
     qa_form=Formulario:
-    # 👽 qa_frm_about -> 
+    # 👽 qa_frm_about -> About
     qa_frm_about=?Sobre
     # 👽 qa_frm_addbtn -> Add
     qa_frm_addbtn=?Agregar
@@ -3265,7 +3271,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     # 👽 filter_agenteFiltro -> Agent
     filter_agenteFiltro=?Agente
     filter_asteriskid=ID llamada
@@ -3335,7 +3340,6 @@ Do not change the items below:
     filter_wait_min=?Espera Min
 
 ## Wallboard
-
 
 
     # 👽 rt3_Talk -> Talk
@@ -4014,8 +4018,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=Añadir miembro
     pgag_agawqueueinfo=Información AGAW
     pgag_call_status=Tipo de llamadas
@@ -4084,8 +4086,6 @@ Do not change the items below:
     pgag_waiting=Esperando
 
 ## Front page
-
-
 
     # 👽 fp_agent_awareness -> Agent Awareness manager
     fp_agent_awareness=?Administrador AGAW
@@ -4739,9 +4739,9 @@ Description of configuration properties
     # 👽 propedit_rewrite_hotdesking_desc -> Enables rewriting of hotdesking information in data1 field of queue_log table
     propedit_rewrite_hotdesking_desc=?Habilita re-escritura de las informaciones de hotdesking en el campo data1 de la tabla queue_log
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     # 👽 keydesc_agaw -> User can access AGAW facades (for agents).
     keydesc_agaw=?El usuario puede acceder a la información AGAW (por agentes).
@@ -4944,8 +4944,7 @@ Description of security keys
     # 👽 keydesc_wqloader -> The user can upload logs over HTTP
     keydesc_wqloader=?El usuario puede cargar los logs via HTTP
 
-## Tasks
-
+## Tasks/Memos
 
 
     # 👽 tsk_detail_btnAddNote -> Edit Note
@@ -5083,7 +5082,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     # 👽 tsk_traincoach_agent -> Agent
     tsk_traincoach_agent=?Agente
     # 👽 tsk_traincoach_agentcode -> Agent Code
@@ -5134,6 +5132,117 @@ Description of security keys
     tsk_traincoach_start_date=?Válido desde
     # 👽 tsk_traincoach_title -> Push Training and Coaching tasks
     tsk_traincoach_title=?Envía tareas de Entrenamiento y Formación
+
+
+
+### Softphone
+
+    # 👽 phone_advanced_settings -> Advanced Settings
+    phone_advanced_settings=?Configuración Avanzada
+    # 👽 phone_agent -> Agent
+    phone_agent=?Agente
+    # 👽 phone_anonymous -> Anonymous
+    phone_anonymous=?Anónimo
+    # 👽 phone_answer -> Answer
+    phone_answer=?Contestar
+    # 👽 phone_attended -> Attended Transfer
+    phone_attended=?Transferencia atendida
+    # 👽 phone_attended_transfer -> Attended Transfer
+    phone_attended_transfer=?Transferencia Atendida
+    # 👽 phone_auto_answer_toggle_off -> Auto Answer is Disabled
+    phone_auto_answer_toggle_off=?La respuesta automática está deshabilitada
+    # 👽 phone_auto_answer_toggle_on -> Auto Answer is Enabled
+    phone_auto_answer_toggle_on=?La respuesta automática está habilitada
+    # 👽 phone_basic_settings -> Basic Settings
+    phone_basic_settings=?Configuración básica
+    # 👽 phone_blind -> Blind Transfer
+    phone_blind=?Transferencia Ciega
+    # 👽 phone_blind_transfer -> Blind Transfer
+    phone_blind_transfer=?Transferencia
+    # 👽 phone_call -> Call
+    phone_call=?Llamada
+    # 👽 phone_calling -> Calling...
+    phone_calling=?Llamando...
+    # 👽 phone_cancel -> Cancel
+    phone_cancel=?Cancelar
+    # 👽 phone_close -> Close
+    phone_close=?Cerrar
+    # 👽 phone_confirm -> Confirm
+    phone_confirm=?Confirmar
+    # 👽 phone_connectionrecoverymax -> Conn. Recovery Max.
+    phone_connectionrecoverymax=?Intervalo máximo de recuperación
+    # 👽 phone_connectionrecoverymin -> Conn. Recovery Min.
+    phone_connectionrecoverymin=?Intervalo mínimo de recuperación
+    # 👽 phone_debug -> Click to print debug information in the browser console.
+    phone_debug=?Haga click para imprimir informaciones de depuración en la consola del navegador
+    # 👽 phone_dial -> Dial
+    phone_dial=?Llamar
+    # 👽 phone_dialing -> Dialing...
+    phone_dialing=?Llamando...
+    # 👽 phone_dialling -> Dialling...
+    phone_dialling=?Marcando...
+    # 👽 phone_displayname -> Display Name
+    phone_displayname=?Nombre visualizado
+    # 👽 phone_hangup -> Hangup
+    phone_hangup=?Terminar llamada
+    # 👽 phone_http_error -> WebRTC Error.
+    phone_http_error=?Error WebRTC
+    # 👽 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    phone_http_error_body=?Para funcionar correctamente el softphone WebRTC Queuemetrics tiene que funcionar con HTTPS
+    # 👽 phone_iceservers -> Ice Servers
+    phone_iceservers=?Servicio ICE
+    # 👽 phone_incoming_call -> Incoming call...
+    phone_incoming_call=?Llamada Entrante
+    # 👽 phone_input_error -> Input Error
+    phone_input_error=?Error de Input
+    # 👽 phone_join -> Join
+    phone_join=?Unificar
+    # 👽 phone_maxsessions -> Max. Sessions
+    phone_maxsessions=?Sesiones Máximas
+    # 👽 phone_mute -> Mute
+    phone_mute=?Mudo
+    # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
+    phone_no_https=?Queuemetrics debe estar disponible via HTTPS para que el telefono funcione correctamente
+    # 👽 phone_no_queue -> No Queue
+    phone_no_queue=?Ningúna Cola
+    # 👽 phone_noanswertimeout -> No Answer Timeout
+    phone_noanswertimeout=?Tiempo de espera sin respuesta
+    # 👽 phone_not_avaialable -> Softphone Not Available.
+    phone_not_avaialable=?SoftPhone no disponible
+    # 👽 phone_not_available -> Softphone not available.
+    phone_not_available=?Softphone no disponible
+    # 👽 phone_password -> Password
+    phone_password=?Clave
+    # 👽 phone_register -> Register
+    phone_register=?Registrar
+    # 👽 phone_registered -> Registered
+    phone_registered=?Registrado
+    # 👽 phone_registering -> Registering
+    phone_registering=?Registrando
+    # 👽 phone_returntophone -> Return to Phone
+    phone_returntophone=?Volver al Teléfono
+    # 👽 phone_server -> Server
+    phone_server=?Servidor
+    # 👽 phone_settings -> Settings
+    phone_settings=?Configuración
+    # 👽 phone_swap -> Swap
+    phone_swap=?Intercambiar
+    # 👽 phone_toggle_hold -> Hold/Unhold
+    phone_toggle_hold=?Pausa/Despausa
+    # 👽 phone_toggle_transfer -> Transfer
+    phone_toggle_transfer=?Transferir
+    # 👽 phone_transfer -> Transfer
+    phone_transfer=?Transferencia
+    # 👽 phone_unmute -> Unmute
+    phone_unmute=?Activar sonido
+    # 👽 phone_unregistered -> Unregistered
+    phone_unregistered=?Sin registrar
+    # 👽 phone_update_settings -> Update Settings
+    phone_update_settings=?Actualizar Configuración
+    # 👽 phone_username -> Username
+    phone_username=?Nombre de Usuario
+    # 👽 phone_websocketurl -> Websocket URL
+    phone_websocketurl=?URL WebSocket
 
 ## Misc
 
@@ -5732,112 +5841,6 @@ Other items
     pager_next=?Página Siguiente
     # 👽 pager_prev -> Previous page
     pager_prev=?Página Anterior
-    # 👽 phone_advanced_settings -> Advanced Settings
-    phone_advanced_settings=?Configuración Avanzada
-    # 👽 phone_agent -> Agent
-    phone_agent=?Agente
-    # 👽 phone_anonymous -> Anonymous
-    phone_anonymous=?Anónimo
-    # 👽 phone_answer -> Answer
-    phone_answer=?Contestar
-    # 👽 phone_attended -> Attended Transfer
-    phone_attended=?Transferencia atendida
-    # 👽 phone_attended_transfer -> Attended Transfer
-    phone_attended_transfer=?Transferencia Atendida
-    # 👽 phone_auto_answer_toggle_off -> Auto Answer is Disabled
-    phone_auto_answer_toggle_off=?La respuesta automática está deshabilitada
-    # 👽 phone_auto_answer_toggle_on -> Auto Answer is Enabled
-    phone_auto_answer_toggle_on=?La respuesta automática está habilitada
-    # 👽 phone_basic_settings -> Basic Settings
-    phone_basic_settings=?Configuración básica
-    # 👽 phone_blind -> Blind Transfer
-    phone_blind=?Transferencia Ciega
-    # 👽 phone_blind_transfer -> Blind Transfer
-    phone_blind_transfer=?Transferencia
-    # 👽 phone_call -> Call
-    phone_call=?Llamada
-    # 👽 phone_calling -> Calling...
-    phone_calling=?Llamando...
-    # 👽 phone_cancel -> Cancel
-    phone_cancel=?Cancelar
-    # 👽 phone_close -> Close
-    phone_close=?Cerrar
-    # 👽 phone_confirm -> Confirm
-    phone_confirm=?Confirmar
-    # 👽 phone_connectionrecoverymax -> Conn. Recovery Max.
-    phone_connectionrecoverymax=?Intervalo máximo de recuperación
-    # 👽 phone_connectionrecoverymin -> Conn. Recovery Min.
-    phone_connectionrecoverymin=?Intervalo mínimo de recuperación
-    # 👽 phone_debug -> Click to print debug information in the browser console.
-    phone_debug=?Haga click para imprimir informaciones de depuración en la consola del navegador
-    # 👽 phone_dial -> Dial
-    phone_dial=?Llamar
-    # 👽 phone_dialing -> Dialing...
-    phone_dialing=?Llamando...
-    # 👽 phone_dialling -> Dialling...
-    phone_dialling=?Marcando...
-    # 👽 phone_displayname -> Display Name
-    phone_displayname=?Nombre visualizado
-    # 👽 phone_hangup -> Hangup
-    phone_hangup=?Terminar llamada
-    # 👽 phone_http_error -> WebRTC Error.
-    phone_http_error=?Error WebRTC
-    # 👽 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
-    phone_http_error_body=?Para funcionar correctamente el softphone WebRTC Queuemetrics tiene que funcionar con HTTPS
-    # 👽 phone_iceservers -> Ice Servers
-    phone_iceservers=?Servicio ICE
-    # 👽 phone_incoming_call -> Incoming call...
-    phone_incoming_call=?Llamada Entrante
-    # 👽 phone_input_error -> Input Error
-    phone_input_error=?Error de Input
-    # 👽 phone_join -> Join
-    phone_join=?Unificar
-    # 👽 phone_maxsessions -> Max. Sessions
-    phone_maxsessions=?Sesiones Máximas
-    # 👽 phone_mute -> Mute
-    phone_mute=?Mudo
-    # 👽 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
-    phone_no_https=?Queuemetrics debe estar disponible via HTTPS para que el telefono funcione correctamente
-    # 👽 phone_no_queue -> No Queue
-    phone_no_queue=?Ningúna Cola
-    # 👽 phone_noanswertimeout -> No Answer Timeout
-    phone_noanswertimeout=?Tiempo de espera sin respuesta
-    # 👽 phone_not_avaialable -> Softphone Not Available.
-    phone_not_avaialable=?SoftPhone no disponible
-    # 👽 phone_not_available -> Softphone not available.
-    phone_not_available=?Softphone no disponible
-    # 👽 phone_password -> Password
-    phone_password=?Clave
-    # 👽 phone_register -> Register
-    phone_register=?Registrar
-    # 👽 phone_registered -> Registered
-    phone_registered=?Registrado
-    # 👽 phone_registering -> Registering
-    phone_registering=?Registrando
-    # 👽 phone_returntophone -> Return to Phone
-    phone_returntophone=?Volver al Teléfono
-    # 👽 phone_server -> Server
-    phone_server=?Servidor
-    # 👽 phone_settings -> Settings
-    phone_settings=?Configuración
-    # 👽 phone_swap -> Swap
-    phone_swap=?Intercambiar
-    # 👽 phone_toggle_hold -> Hold/Unhold
-    phone_toggle_hold=?Pausa/Despausa
-    # 👽 phone_toggle_transfer -> Transfer
-    phone_toggle_transfer=?Transferir
-    # 👽 phone_transfer -> Transfer
-    phone_transfer=?Transferencia
-    # 👽 phone_unmute -> Unmute
-    phone_unmute=?Activar sonido
-    # 👽 phone_unregistered -> Unregistered
-    phone_unregistered=?Sin registrar
-    # 👽 phone_update_settings -> Update Settings
-    phone_update_settings=?Actualizar Configuración
-    # 👽 phone_username -> Username
-    phone_username=?Nombre de Usuario
-    # 👽 phone_websocketurl -> Websocket URL
-    phone_websocketurl=?URL WebSocket
     popupclose_alreadydone=La llamada ya estaba cerrada
     popupclose_close=Cerrrar llamada
     popupclose_error=<b>Error:</b> Imposible cerrar llamada

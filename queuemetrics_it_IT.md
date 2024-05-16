@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=Staccato
     td_agawlogon_logged_on=Connesso
@@ -221,8 +221,7 @@ Do not change the items below:
     td_yesno_no=No
     td_yesno_yes=Sì
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=Attività fatturabili
@@ -554,7 +553,6 @@ Do not change the items below:
     clage_unique_effective=Uniche Efficaci
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=Prefisso/Caller ID
@@ -1093,6 +1091,9 @@ Do not change the items below:
     evt_web_end_session=Fine sessione web
     evt_web_fail_session=Fallimento sessione web
     evt_web_start_session=Inizio sessione web
+
+## Headers
+
     hdr_agaw_agent=Agente
     hdr_agaw_logs=Registro
     hdr_agaw_status=Status
@@ -1183,7 +1184,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     edit_ac_agent_code=Codice Agente
     edit_ac_description=Descrizione
     edit_ac_gr=Gr.
@@ -1197,6 +1197,9 @@ Do not change the items below:
     edit_ac_term=Term.
     edit_ac_title=Configurazione Agenti Noti
     edit_amo_attribute=Attributo
+
+### AMO
+
     edit_amo_attributes=Attributi
     edit_amo_campaign=Campagna
     edit_amo_last_pull=Ultima estrazione
@@ -1234,6 +1237,9 @@ Do not change the items below:
     edit_amo_valid_attribute=Attributo valido
     edit_amo_valid_from=Valido da
     edit_amo_valid_value=Valore valido
+
+### Cases
+
     edit_cases_client=ddddddddddd
     edit_cases_contact=Contatto
     edit_cases_email=Email
@@ -1981,7 +1987,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     filter_agenteFiltro=Agente
     filter_asteriskid=ID unico
     filter_atomicQueueFilter=Coda
@@ -2018,7 +2023,6 @@ Do not change the items below:
     filter_wait_min=Attesa Min
 
 ## Wallboard
-
 
 
     rt3_Talk=Conversazione
@@ -2361,8 +2365,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=Aggiungiti alla coda
     pgag_agawqueueinfo=Informazioni AGAW
     pgag_call_status=Risultato
@@ -2418,8 +2420,6 @@ Do not change the items below:
     pgag_waiting=Attesa
 
 ## Front page
-
-
 
     fp_agent_awareness=Agent Awareness Manager
     fp_agent_inbound=Chiamate entranti
@@ -2765,9 +2765,9 @@ Description of configuration properties
     propedit_option_yes=Si
     propedit_rewrite_hotdesking_desc=Abilita la riscrittua delle informazion di hotdesking nel campo data1 della tabella queue_log
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     keydesc_agaw=L'utente può cedere i dati AGAW
     keydesc_agaw_adm=L'utente può accedere all'amministrazione AGAW
@@ -2870,8 +2870,7 @@ Description of security keys
     keydesc_wallboard_phone=L'utente può usare il softphone della wallboard
     keydesc_wqloader=L'utente può caricare logs via HTTP
 
-## Tasks
-
+## Tasks/Memos
 
 
     tsk_detail_btnAddNote=Modifica nota
@@ -2948,7 +2947,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     tsk_traincoach_agent=Agente
     tsk_traincoach_agentcode=Codice agente
     tsk_traincoach_agentgroup=Gruppo agente
@@ -2974,6 +2972,64 @@ Description of security keys
     tsk_traincoach_sendtask=Invia Task
     tsk_traincoach_start_date=Valido da
     tsk_traincoach_title=Invia task di Traning e Coaching
+
+
+
+### Softphone
+
+    phone_advanced_settings=Impostazioni Avanzate
+    phone_agent=Agente
+    phone_anonymous=Anonimo
+    phone_answer=Rispondi
+    phone_attended=Trasferimento 
+    phone_attended_transfer=Trasferimento Ass.
+    phone_auto_answer_toggle_off=La risposta automatica è disabilitata
+    phone_auto_answer_toggle_on=La risposta automatica è abilitata
+    phone_basic_settings=Impostazioni
+    phone_blind=Trasferimento cieco
+    phone_blind_transfer=Trasferimento
+    phone_call=Chiamata
+    phone_calling=Chiamando...
+    phone_cancel=Cancella
+    phone_close=Chiudi
+    phone_confirm=Conferma
+    phone_connectionrecoverymax=Intervallo Massimo di Recupero Connessione
+    phone_connectionrecoverymin=Intervallo Minimo di Recupero Connessione
+    phone_debug=Clicca per stampare informazioni di debug nella console del browser.
+    phone_dial=Chiama
+    phone_dialing=Chiamando...
+    phone_dialling=Componendo...
+    phone_displayname=Nome Mostrato
+    phone_hangup=Chiudi Chiamata
+    phone_http_error=Errore WebRTC
+    phone_http_error_body=Affinché il Softphone WebRTC possa funzionare correttamente, QueueMetrics deve essere servito tramite HTTPS.
+    phone_iceservers=Server ICE
+    phone_incoming_call=Chiamata in arrivo...
+    phone_input_error=Errore di Input
+    phone_join=Unisci
+    phone_maxsessions=Sessioni Massime
+    phone_mute=Muto
+    phone_no_https=QueueMetrics deve essere servito via HTTPS affinchè il telefono funzioni correttamente.
+    phone_no_queue=Nessuna Coda
+    phone_noanswertimeout=Timeout di Nessuna Risposta
+    phone_not_avaialable=Softphone non disponibile.
+    phone_not_available=Softphone non disponibile.
+    phone_password=Password
+    phone_register=Reigstra
+    phone_registered=Registrato
+    phone_registering=Registrando
+    phone_returntophone=Ritorna al Telefono
+    phone_server=Server
+    phone_settings=Impostazioni
+    phone_swap=Scambia
+    phone_toggle_hold=Metti/Togli Attesa
+    phone_toggle_transfer=Trasferisci
+    phone_transfer=Trasferimento
+    phone_unmute=Togli Muto
+    phone_unregistered=Non Registrato
+    phone_update_settings=Aggiorna Impostazioni
+    phone_username=Nome Utente
+    phone_websocketurl=URL WebSocket
 
 ## Misc
 
@@ -3293,59 +3349,6 @@ Other items
     pager_last=Ultima pagina
     pager_next=Pagina seguente
     pager_prev=Pagina precedente
-    phone_advanced_settings=Impostazioni Avanzate
-    phone_agent=Agente
-    phone_anonymous=Anonimo
-    phone_answer=Rispondi
-    phone_attended=Trasferimento 
-    phone_attended_transfer=Trasferimento Ass.
-    phone_auto_answer_toggle_off=La risposta automatica è disabilitata
-    phone_auto_answer_toggle_on=La risposta automatica è abilitata
-    phone_basic_settings=Impostazioni
-    phone_blind=Trasferimento cieco
-    phone_blind_transfer=Trasferimento
-    phone_call=Chiamata
-    phone_calling=Chiamando...
-    phone_cancel=Cancella
-    phone_close=Chiudi
-    phone_confirm=Conferma
-    phone_connectionrecoverymax=Intervallo Massimo di Recupero Connessione
-    phone_connectionrecoverymin=Intervallo Minimo di Recupero Connessione
-    phone_debug=Clicca per stampare informazioni di debug nella console del browser.
-    phone_dial=Chiama
-    phone_dialing=Chiamando...
-    phone_dialling=Componendo...
-    phone_displayname=Nome Mostrato
-    phone_hangup=Chiudi Chiamata
-    phone_http_error=Errore WebRTC
-    phone_http_error_body=Affinché il Softphone WebRTC possa funzionare correttamente, QueueMetrics deve essere servito tramite HTTPS.
-    phone_iceservers=Server ICE
-    phone_incoming_call=Chiamata in arrivo...
-    phone_input_error=Errore di Input
-    phone_join=Unisci
-    phone_maxsessions=Sessioni Massime
-    phone_mute=Muto
-    phone_no_https=QueueMetrics deve essere servito via HTTPS affinchè il telefono funzioni correttamente.
-    phone_no_queue=Nessuna Coda
-    phone_noanswertimeout=Timeout di Nessuna Risposta
-    phone_not_avaialable=Softphone non disponibile.
-    phone_not_available=Softphone non disponibile.
-    phone_password=Password
-    phone_register=Reigstra
-    phone_registered=Registrato
-    phone_registering=Registrando
-    phone_returntophone=Ritorna al Telefono
-    phone_server=Server
-    phone_settings=Impostazioni
-    phone_swap=Scambia
-    phone_toggle_hold=Metti/Togli Attesa
-    phone_toggle_transfer=Trasferisci
-    phone_transfer=Trasferimento
-    phone_unmute=Togli Muto
-    phone_unregistered=Non Registrato
-    phone_update_settings=Aggiorna Impostazioni
-    phone_username=Nome Utente
-    phone_websocketurl=URL WebSocket
     popupclose_alreadydone=La chiamata era già chiusa.
     popupclose_close=Chiudi chiamata
     popupclose_error=<b>Errore:</b> Impossibile chiudere la chiamata.

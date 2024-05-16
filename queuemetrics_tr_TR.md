@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=Oturum kapalı
     td_agawlogon_logged_on=Oturum açıldı
@@ -223,8 +223,7 @@ Do not change the items below:
     td_yesno_no=Hayır
     td_yesno_yes=Evet
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=Ücrete tabi mola etkinlikler
@@ -572,7 +571,6 @@ Do not change the items below:
     clage_unique_effective=Uniq Etkili
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=Alan Kodu/Caller id
@@ -1155,6 +1153,9 @@ Do not change the items below:
     ➡️ evt_web_fail_session=
     # 🔴 evt_web_start_session -> Web Session Start
     ➡️ evt_web_start_session=
+
+## Headers
+
     hdr_agaw_agent=Müşteri Temsilcisi
     hdr_agaw_logs=Kayıtlar
     hdr_agaw_status=Durum
@@ -1258,7 +1259,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     edit_ac_agent_code=Müşteri Temsilcisi Kodu
     edit_ac_description=Açıklama
     edit_ac_gr=Snf.
@@ -1273,6 +1273,9 @@ Do not change the items below:
     edit_ac_title=Bilinen Müşteri Temsilcileri Konfigrasyonu
     # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
+
+### AMO
+
     # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
     # 🔴 edit_amo_campaign -> Campaign
@@ -1347,6 +1350,9 @@ Do not change the items below:
     ➡️ edit_amo_valid_from=
     # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
+
+### Cases
+
     # 🔴 edit_cases_client -> Client
     ➡️ edit_cases_client=
     # 🔴 edit_cases_contact -> Contact
@@ -1934,7 +1940,7 @@ Do not change the items below:
     qa_comment=Açıklama
     qa_date=Tarih
     qa_form=Form:
-    # 🔴 qa_frm_about -> 
+    # 🔴 qa_frm_about -> About
     ➡️ qa_frm_about=
     qa_frm_addbtn=Ekle
     qa_frm_addtojob=İşe ekle
@@ -2168,7 +2174,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     filter_agenteFiltro=Müşteri Temsilcisi
     filter_asteriskid=Asterisk ID
     filter_atomicQueueFilter=Havuz
@@ -2206,7 +2211,6 @@ Do not change the items below:
     filter_wait_min=XML olarak dışa aktar
 
 ## Wallboard
-
 
 
     rt3_Talk=Konuşma
@@ -2572,8 +2576,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=Q'ye katıl
     pgag_agawqueueinfo=AGAW ilgili bilgi
     pgag_call_status=Sonuç
@@ -2629,8 +2631,6 @@ Do not change the items below:
     pgag_waiting=Bekliyor
 
 ## Front page
-
-
 
     fp_agent_awareness=Müşteri temsilcisi farkındalık müdürü
     fp_agent_inbound=Gelen çağrılar
@@ -2999,9 +2999,9 @@ Description of configuration properties
     propedit_option_yes=Evet
     propedit_rewrite_hotdesking_desc=Evet
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     keydesc_agaw=Kullanıcı AGAW cephelerine müşteri temsilcileri için) erişebilir.
     keydesc_agaw_adm=Kullanıcı AGAW yönetim ekranlarına erişebilir
@@ -3109,8 +3109,7 @@ Description of security keys
     keydesc_wallboard_phone=Kullanıcı duvar panolarını koruyabilir
     keydesc_wqloader=Kullanıcı, HTTP üzerinden günlükleri yükleyebilir
 
-## Tasks
-
+## Tasks/Memos
 
 
     tsk_detail_btnAddNote=Notu düzenle
@@ -3190,7 +3189,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     tsk_traincoach_agent=Müşteri Temsilcisi
     tsk_traincoach_agentcode=Müşteri Temsilcisi Kodu
     tsk_traincoach_agentgroup=Müşteri Temsilcisi Grubu
@@ -3216,6 +3214,79 @@ Description of security keys
     tsk_traincoach_sendtask=Görev Gönder
     tsk_traincoach_start_date=Geçerli
     tsk_traincoach_title=Eğitim ve Koçluk görevlerini gönderin
+
+
+
+### Softphone
+
+    phone_advanced_settings=İleri Ayarlar
+    phone_agent=Müşteri Temsilcisi
+    phone_anonymous=Anonymous
+    phone_answer=Cevap
+    # 🔴 phone_attended -> Attended Transfer
+    ➡️ phone_attended=
+    phone_attended_transfer=Att. Transfer
+    phone_auto_answer_toggle_off=Otomatik Yanıt Devre Dışı
+    phone_auto_answer_toggle_on=Otomatik Yanıt Etkin
+    phone_basic_settings=Temel Ayarlar
+    # 🔴 phone_blind -> Blind Transfer
+    ➡️ phone_blind=
+    phone_blind_transfer=Transfer
+    # 🔴 phone_call -> Call
+    ➡️ phone_call=
+    # 🔴 phone_calling -> Calling...
+    ➡️ phone_calling=
+    phone_cancel=İptal
+    phone_close=Kapat
+    phone_confirm=Onayla
+    phone_connectionrecoverymax=Bağlantı kurtarma maks. aralığı
+    phone_connectionrecoverymin=Bağlantı kurtarma min. aralığı
+    # 🔴 phone_debug -> Click to print debug information in the browser console.
+    ➡️ phone_debug=
+    phone_dial=Ara
+    phone_dialing=Arama...
+    # 🔴 phone_dialling -> Dialling...
+    ➡️ phone_dialling=
+    phone_displayname=Görünen Ad
+    phone_hangup=Telefonu kapat
+    # 🔴 phone_http_error -> WebRTC Error.
+    ➡️ phone_http_error=
+    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    ➡️ phone_http_error_body=
+    phone_iceservers=ICE Sunucuları
+    # 🔴 phone_incoming_call -> Incoming call...
+    ➡️ phone_incoming_call=
+    phone_input_error=Giriş Hatası
+    phone_join=Katıl
+    phone_maxsessions=Max Oturum Sayısı
+    phone_mute=Sessiz
+    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
+    ➡️ phone_no_https=
+    # 🔴 phone_no_queue -> No Queue
+    ➡️ phone_no_queue=
+    phone_noanswertimeout=Yanıt Zaman Aşımı Yok
+    # 🔴 phone_not_avaialable -> Softphone Not Available.
+    ➡️ phone_not_avaialable=
+    # 🔴 phone_not_available -> Softphone not available.
+    ➡️ phone_not_available=
+    phone_password=Şifre
+    phone_register=Kayıt ol
+    phone_registered=Kayıtlı
+    phone_registering=Kaydediliyor
+    phone_returntophone=Telefona Dön
+    phone_server=Santral
+    phone_settings=Ayarlar
+    phone_swap=Swap
+    phone_toggle_hold=Bekle / Bırak
+    phone_toggle_transfer=Transfer
+    # 🔴 phone_transfer -> Transfer
+    ➡️ phone_transfer=
+    phone_unmute=Sesi aç
+    phone_unregistered=Bilinmeyen
+    # 🔴 phone_update_settings -> Update Settings
+    ➡️ phone_update_settings=
+    phone_username=Kullanıcı Adı
+    phone_websocketurl=Bekliyor
 
 ## Misc
 
@@ -3668,74 +3739,6 @@ Other items
     pager_last=Son Sayfa
     pager_next=Sonraki Sayfa
     pager_prev=Önceki sayfa
-    phone_advanced_settings=İleri Ayarlar
-    phone_agent=Müşteri Temsilcisi
-    phone_anonymous=Anonymous
-    phone_answer=Cevap
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=
-    phone_attended_transfer=Att. Transfer
-    phone_auto_answer_toggle_off=Otomatik Yanıt Devre Dışı
-    phone_auto_answer_toggle_on=Otomatik Yanıt Etkin
-    phone_basic_settings=Temel Ayarlar
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
-    phone_blind_transfer=Transfer
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=
-    # 🔴 phone_calling -> Calling...
-    ➡️ phone_calling=
-    phone_cancel=İptal
-    phone_close=Kapat
-    phone_confirm=Onayla
-    phone_connectionrecoverymax=Bağlantı kurtarma maks. aralığı
-    phone_connectionrecoverymin=Bağlantı kurtarma min. aralığı
-    # 🔴 phone_debug -> Click to print debug information in the browser console.
-    ➡️ phone_debug=
-    phone_dial=Ara
-    phone_dialing=Arama...
-    # 🔴 phone_dialling -> Dialling...
-    ➡️ phone_dialling=
-    phone_displayname=Görünen Ad
-    phone_hangup=Telefonu kapat
-    # 🔴 phone_http_error -> WebRTC Error.
-    ➡️ phone_http_error=
-    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
-    ➡️ phone_http_error_body=
-    phone_iceservers=ICE Sunucuları
-    # 🔴 phone_incoming_call -> Incoming call...
-    ➡️ phone_incoming_call=
-    phone_input_error=Giriş Hatası
-    phone_join=Katıl
-    phone_maxsessions=Max Oturum Sayısı
-    phone_mute=Sessiz
-    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
-    ➡️ phone_no_https=
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
-    phone_noanswertimeout=Yanıt Zaman Aşımı Yok
-    # 🔴 phone_not_avaialable -> Softphone Not Available.
-    ➡️ phone_not_avaialable=
-    # 🔴 phone_not_available -> Softphone not available.
-    ➡️ phone_not_available=
-    phone_password=Şifre
-    phone_register=Kayıt ol
-    phone_registered=Kayıtlı
-    phone_registering=Kaydediliyor
-    phone_returntophone=Telefona Dön
-    phone_server=Santral
-    phone_settings=Ayarlar
-    phone_swap=Swap
-    phone_toggle_hold=Bekle / Bırak
-    phone_toggle_transfer=Transfer
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
-    phone_unmute=Sesi aç
-    phone_unregistered=Bilinmeyen
-    # 🔴 phone_update_settings -> Update Settings
-    ➡️ phone_update_settings=
-    phone_username=Kullanıcı Adı
-    phone_websocketurl=Bekliyor
     popupclose_alreadydone=Çağrı zaten kapalıydı.
     popupclose_close=Çağrıyı kapat
     popupclose_error=Hata: Çağrı başarıyla kapatılamadı.

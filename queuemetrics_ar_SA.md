@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=تسجيل الخروج
     td_agawlogon_logged_on=مسجل دخول
@@ -221,8 +221,7 @@ Do not change the items below:
     td_yesno_no=لا
     td_yesno_yes=نعم
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=أنشطة مفوترة
@@ -570,7 +569,6 @@ Do not change the items below:
     clage_unique_effective=فريدة غير فعالة
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=رمز المنطقة \ هوية المتصل
@@ -1154,6 +1152,9 @@ Do not change the items below:
     ➡️ evt_web_fail_session=
     # 🔴 evt_web_start_session -> Web Session Start
     ➡️ evt_web_start_session=
+
+## Headers
+
     hdr_agaw_agent=وكيل
     hdr_agaw_logs=سجلات
     hdr_agaw_status=حالة
@@ -1257,7 +1258,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     edit_ac_agent_code=رمز الوكيل
     edit_ac_description=الوصف
     edit_ac_gr=Gr.
@@ -1272,6 +1272,9 @@ Do not change the items below:
     edit_ac_title=اعدادات الوكلاء المعروفين
     # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
+
+### AMO
+
     # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
     # 🔴 edit_amo_campaign -> Campaign
@@ -1346,6 +1349,9 @@ Do not change the items below:
     ➡️ edit_amo_valid_from=
     # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
+
+### Cases
+
     # 🔴 edit_cases_client -> Client
     ➡️ edit_cases_client=
     # 🔴 edit_cases_contact -> Contact
@@ -2166,7 +2172,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     filter_agenteFiltro=وكيل
     filter_asteriskid=Asterisk ID
     filter_atomicQueueFilter=صف
@@ -2204,7 +2209,6 @@ Do not change the items below:
     filter_wait_min=أقل انتظار
 
 ## Wallboard
-
 
 
     rt3_Talk=الكلام
@@ -2570,8 +2574,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=اضافة عضو
     pgag_agawqueueinfo=معلومات AGAW ذات الصلة
     pgag_call_status=مخرجات
@@ -2627,8 +2629,6 @@ Do not change the items below:
     pgag_waiting=انتظار
 
 ## Front page
-
-
 
     fp_agent_awareness=مدير توعية الوكيل
     fp_agent_inbound=المكالمات الواردة
@@ -2997,9 +2997,9 @@ Description of configuration properties
     propedit_option_yes=نعم
     propedit_rewrite_hotdesking_desc=تفعيل امكانية اعادة الكتابة في معلومات hotdesking في خانة data1 في جدول سجل الصف
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     keydesc_agaw=يمكن للمستخدم الوصول إلى واجهات AGAW (وكلاء)
     keydesc_agaw_adm=يمكن للمستخدم الوصول إلى شاشات الإدارة AGAW
@@ -3107,8 +3107,7 @@ Description of security keys
     keydesc_wallboard_phone=المستخدم يستطيع استخدام الهاتف المدمج في الشاشة
     keydesc_wqloader=المستخدم يستطيع رفع السجلات عبر HTTP
 
-## Tasks
-
+## Tasks/Memos
 
 
     tsk_detail_btnAddNote=تعديل ملاحظة
@@ -3188,7 +3187,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     tsk_traincoach_agent=وكيل
     tsk_traincoach_agentcode=رمز الوكيل
     tsk_traincoach_agentgroup=مجموعة الوكيل
@@ -3214,6 +3212,79 @@ Description of security keys
     tsk_traincoach_sendtask=إرسال المهام
     tsk_traincoach_start_date=صالحة من
     tsk_traincoach_title=دفع مهام التدريب والارشاد
+
+
+
+### Softphone
+
+    phone_advanced_settings=الاعدادات المتقدمة
+    phone_agent=وكيل
+    phone_anonymous=مجهول
+    phone_answer=رد
+    # 🔴 phone_attended -> Attended Transfer
+    ➡️ phone_attended=
+    phone_attended_transfer=تحويل بالمساعدة
+    phone_auto_answer_toggle_off=الرد التلقائي غير مفعل
+    phone_auto_answer_toggle_on=الرد التلقائي مفعل
+    phone_basic_settings=اعدادات أولية
+    # 🔴 phone_blind -> Blind Transfer
+    ➡️ phone_blind=
+    phone_blind_transfer=تحويل
+    # 🔴 phone_call -> Call
+    ➡️ phone_call=
+    # 🔴 phone_calling -> Calling...
+    ➡️ phone_calling=
+    phone_cancel=الغاء
+    phone_close=اغلاق
+    phone_confirm=تأكيد
+    phone_connectionrecoverymax=أقصى وقت لاستعادة الاتصال
+    phone_connectionrecoverymin=أقل وقت لاستعادة الاتصال
+    # 🔴 phone_debug -> Click to print debug information in the browser console.
+    ➡️ phone_debug=
+    phone_dial=اتصل
+    phone_dialing=جاري الاتصال ...
+    # 🔴 phone_dialling -> Dialling...
+    ➡️ phone_dialling=
+    phone_displayname=اسم العرض
+    phone_hangup=اغلاق
+    # 🔴 phone_http_error -> WebRTC Error.
+    ➡️ phone_http_error=
+    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
+    ➡️ phone_http_error_body=
+    phone_iceservers=ICE مخدمات
+    # 🔴 phone_incoming_call -> Incoming call...
+    ➡️ phone_incoming_call=
+    phone_input_error=ادخال خاطئ
+    phone_join=التحاق
+    phone_maxsessions=عدد الجلسات الأقصى
+    phone_mute=كتم
+    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
+    ➡️ phone_no_https=
+    # 🔴 phone_no_queue -> No Queue
+    ➡️ phone_no_queue=
+    phone_noanswertimeout=حد وقت عدم الرد
+    # 🔴 phone_not_avaialable -> Softphone Not Available.
+    ➡️ phone_not_avaialable=
+    # 🔴 phone_not_available -> Softphone not available.
+    ➡️ phone_not_available=
+    phone_password=كلمة المرور
+    phone_register=تسجيل
+    phone_registered=مسجل
+    phone_registering=جاري التسجيل
+    phone_returntophone=العودة للهاتف
+    phone_server=مخدم
+    phone_settings=اعدادات
+    phone_swap=تبديل
+    phone_toggle_hold=انتظار \ الغاء انتظار
+    phone_toggle_transfer=تحويل
+    # 🔴 phone_transfer -> Transfer
+    ➡️ phone_transfer=
+    phone_unmute=الغاء كتم
+    phone_unregistered=غير مسجل
+    # 🔴 phone_update_settings -> Update Settings
+    ➡️ phone_update_settings=
+    phone_username=اسم المستخدم
+    phone_websocketurl=WebSocket URL
 
 ## Misc
 
@@ -3666,74 +3737,6 @@ Other items
     pager_last=آخر صفحة
     pager_next=الصفحة التالية
     pager_prev=الصفحة السابقة
-    phone_advanced_settings=الاعدادات المتقدمة
-    phone_agent=وكيل
-    phone_anonymous=مجهول
-    phone_answer=رد
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=
-    phone_attended_transfer=تحويل بالمساعدة
-    phone_auto_answer_toggle_off=الرد التلقائي غير مفعل
-    phone_auto_answer_toggle_on=الرد التلقائي مفعل
-    phone_basic_settings=اعدادات أولية
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
-    phone_blind_transfer=تحويل
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=
-    # 🔴 phone_calling -> Calling...
-    ➡️ phone_calling=
-    phone_cancel=الغاء
-    phone_close=اغلاق
-    phone_confirm=تأكيد
-    phone_connectionrecoverymax=أقصى وقت لاستعادة الاتصال
-    phone_connectionrecoverymin=أقل وقت لاستعادة الاتصال
-    # 🔴 phone_debug -> Click to print debug information in the browser console.
-    ➡️ phone_debug=
-    phone_dial=اتصل
-    phone_dialing=جاري الاتصال ...
-    # 🔴 phone_dialling -> Dialling...
-    ➡️ phone_dialling=
-    phone_displayname=اسم العرض
-    phone_hangup=اغلاق
-    # 🔴 phone_http_error -> WebRTC Error.
-    ➡️ phone_http_error=
-    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
-    ➡️ phone_http_error_body=
-    phone_iceservers=ICE مخدمات
-    # 🔴 phone_incoming_call -> Incoming call...
-    ➡️ phone_incoming_call=
-    phone_input_error=ادخال خاطئ
-    phone_join=التحاق
-    phone_maxsessions=عدد الجلسات الأقصى
-    phone_mute=كتم
-    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
-    ➡️ phone_no_https=
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
-    phone_noanswertimeout=حد وقت عدم الرد
-    # 🔴 phone_not_avaialable -> Softphone Not Available.
-    ➡️ phone_not_avaialable=
-    # 🔴 phone_not_available -> Softphone not available.
-    ➡️ phone_not_available=
-    phone_password=كلمة المرور
-    phone_register=تسجيل
-    phone_registered=مسجل
-    phone_registering=جاري التسجيل
-    phone_returntophone=العودة للهاتف
-    phone_server=مخدم
-    phone_settings=اعدادات
-    phone_swap=تبديل
-    phone_toggle_hold=انتظار \ الغاء انتظار
-    phone_toggle_transfer=تحويل
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
-    phone_unmute=الغاء كتم
-    phone_unregistered=غير مسجل
-    # 🔴 phone_update_settings -> Update Settings
-    ➡️ phone_update_settings=
-    phone_username=اسم المستخدم
-    phone_websocketurl=WebSocket URL
     popupclose_alreadydone=تم إغلاق المكالمة بالفعل
     popupclose_close=اغلاق المكالمة
     popupclose_error=خطأ لم يكن من الممكن لإغلاق المكالمة بنجاح

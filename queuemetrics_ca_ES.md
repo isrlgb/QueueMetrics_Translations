@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=Desconnectat
     td_agawlogon_logged_on=Connectat
@@ -222,8 +222,7 @@ Do not change the items below:
     td_yesno_no=No
     td_yesno_yes=Si
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=Temps productiu
@@ -570,7 +569,6 @@ Do not change the items below:
     clage_unique_effective=Efectives Úniques
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=Prefix / Identificació número entrant
@@ -1120,6 +1118,9 @@ Do not change the items below:
     # 🔴 evt_web_fail_session -> Web Session Fail
     ➡️ evt_web_fail_session=
     evt_web_start_session=Inici de sessió Web
+
+## Headers
+
     hdr_agaw_agent=Agent
     hdr_agaw_logs=Registres
     hdr_agaw_status=Estat
@@ -1222,7 +1223,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     edit_ac_agent_code=Codi d'Agent
     edit_ac_description=Descripció
     edit_ac_gr=Gr.
@@ -1237,6 +1237,9 @@ Do not change the items below:
     edit_ac_title=Configuració dels agents coneguts
     # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
+
+### AMO
+
     # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
     # 🔴 edit_amo_campaign -> Campaign
@@ -1311,6 +1314,9 @@ Do not change the items below:
     ➡️ edit_amo_valid_from=
     # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
+
+### Cases
+
     # 🔴 edit_cases_client -> Client
     ➡️ edit_cases_client=
     # 🔴 edit_cases_contact -> Contact
@@ -2115,7 +2121,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     filter_agenteFiltro=Agent
     filter_asteriskid=Asterisk ID
     filter_atomicQueueFilter=Cua
@@ -2153,7 +2158,6 @@ Do not change the items below:
     filter_wait_min=Espera Min.
 
 ## Wallboard
-
 
 
     # 🔴 rt3_Talk -> Talk
@@ -2647,8 +2651,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=Afegir Membre
     pgag_agawqueueinfo=Informació AGAW
     pgag_call_status=Resultats
@@ -2704,8 +2706,6 @@ Do not change the items below:
     pgag_waiting=Esperant
 
 ## Front page
-
-
 
     fp_agent_awareness=Administrador AGAW
     fp_agent_inbound=Trucades entrants
@@ -3114,9 +3114,9 @@ Description of configuration properties
     propedit_option_yes=Si
     propedit_rewrite_hotdesking_desc=Habilita re-escriptura de les informacions de 'hotdesking' en el camp 'data1' de la taula queue_log
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     keydesc_agaw=L'usuari pot accedir a l'informació AGAW (per agents)
     keydesc_agaw_adm=L'usuari pot accedir als panells d'administració AGAW
@@ -3223,8 +3223,7 @@ Description of security keys
     keydesc_wallboard_phone=L'Usuari pot utilitzar el softphone del Tauler
     keydesc_wqloader=L'usuari pot carregar els logs a través d'HTTP
 
-## Tasks
-
+## Tasks/Memos
 
 
     tsk_detail_btnAddNote=Editar Nota
@@ -3304,7 +3303,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     tsk_traincoach_agent=Agent
     tsk_traincoach_agentcode=Codi d'Agent
     tsk_traincoach_agentgroup=Grup d'Agents
@@ -3330,6 +3328,69 @@ Description of security keys
     tsk_traincoach_sendtask=Envia Tasca
     tsk_traincoach_start_date=Vàlid des de
     tsk_traincoach_title=Envia tasques de formació
+
+
+
+### Softphone
+
+    phone_advanced_settings=Configuració Avançada
+    phone_agent=Agent
+    phone_anonymous=Anònim
+    phone_answer=Contestar
+    # 🔴 phone_attended -> Attended Transfer
+    ➡️ phone_attended=
+    phone_attended_transfer=Transferència atesa
+    phone_auto_answer_toggle_off=La resposta automàtica està des habilitada
+    phone_auto_answer_toggle_on=La resposta automàtica està habilitada
+    phone_basic_settings=Configuració Bàsica
+    # 🔴 phone_blind -> Blind Transfer
+    ➡️ phone_blind=
+    phone_blind_transfer=Transferència cega
+    # 🔴 phone_call -> Call
+    ➡️ phone_call=
+    phone_calling=Trucant...
+    phone_cancel=Cancel·lar
+    phone_close=Tancar
+    phone_confirm=Confirmar
+    phone_connectionrecoverymax=Interval màxim de recuperació
+    phone_connectionrecoverymin=Interval mínim de recuperació
+    phone_debug=Faci click per mostrar les informacions de depuració a la consola del navegador
+    phone_dial=Trucar
+    phone_dialing=Trucant...
+    phone_dialling=Marcació...
+    phone_displayname=Nom mostrat
+    phone_hangup=Penjar trucada
+    phone_http_error=Error WebRTC
+    phone_http_error_body=Per fer funcionar correctament el softphone WebRTC, Queuemetrics te que funcionar amb HTTPS
+    phone_iceservers=Servei ICE
+    phone_incoming_call=Trucada entrant
+    phone_input_error=Error d'entrada
+    phone_join=Unificar
+    phone_maxsessions=Sessions Màximes
+    phone_mute=Mute
+    phone_no_https=Queuemetrics ha de funcionar amb HTTPS perquè el telèfon funcioni correctament
+    # 🔴 phone_no_queue -> No Queue
+    ➡️ phone_no_queue=
+    phone_noanswertimeout=Temps d'espera sense resposta
+    phone_not_avaialable=SoftPhone no disponible
+    phone_not_available=SoftPhone no disponible
+    phone_password=Password
+    phone_register=Registre
+    phone_registered=Registrat
+    phone_registering=Registrant
+    phone_returntophone=Tornar al Telèfon
+    phone_server=Ssrvidor
+    phone_settings=Configuració
+    phone_swap=Intercanviar
+    phone_toggle_hold=Pausar/Des pausar
+    phone_toggle_transfer=Transferir
+    # 🔴 phone_transfer -> Transfer
+    ➡️ phone_transfer=
+    phone_unmute=Activar el so
+    phone_unregistered=Sense registrar
+    phone_update_settings=Modificar Opcions
+    phone_username=Nom d'usuari
+    phone_websocketurl=URL de WebSocket
 
 ## Misc
 
@@ -3752,64 +3813,6 @@ Other items
     pager_last=Última Pàgina
     pager_next=Pàgina següent
     pager_prev=Pàgina anterior
-    phone_advanced_settings=Configuració Avançada
-    phone_agent=Agent
-    phone_anonymous=Anònim
-    phone_answer=Contestar
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=
-    phone_attended_transfer=Transferència atesa
-    phone_auto_answer_toggle_off=La resposta automàtica està des habilitada
-    phone_auto_answer_toggle_on=La resposta automàtica està habilitada
-    phone_basic_settings=Configuració Bàsica
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
-    phone_blind_transfer=Transferència cega
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=
-    phone_calling=Trucant...
-    phone_cancel=Cancel·lar
-    phone_close=Tancar
-    phone_confirm=Confirmar
-    phone_connectionrecoverymax=Interval màxim de recuperació
-    phone_connectionrecoverymin=Interval mínim de recuperació
-    phone_debug=Faci click per mostrar les informacions de depuració a la consola del navegador
-    phone_dial=Trucar
-    phone_dialing=Trucant...
-    phone_dialling=Marcació...
-    phone_displayname=Nom mostrat
-    phone_hangup=Penjar trucada
-    phone_http_error=Error WebRTC
-    phone_http_error_body=Per fer funcionar correctament el softphone WebRTC, Queuemetrics te que funcionar amb HTTPS
-    phone_iceservers=Servei ICE
-    phone_incoming_call=Trucada entrant
-    phone_input_error=Error d'entrada
-    phone_join=Unificar
-    phone_maxsessions=Sessions Màximes
-    phone_mute=Mute
-    phone_no_https=Queuemetrics ha de funcionar amb HTTPS perquè el telèfon funcioni correctament
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
-    phone_noanswertimeout=Temps d'espera sense resposta
-    phone_not_avaialable=SoftPhone no disponible
-    phone_not_available=SoftPhone no disponible
-    phone_password=Password
-    phone_register=Registre
-    phone_registered=Registrat
-    phone_registering=Registrant
-    phone_returntophone=Tornar al Telèfon
-    phone_server=Ssrvidor
-    phone_settings=Configuració
-    phone_swap=Intercanviar
-    phone_toggle_hold=Pausar/Des pausar
-    phone_toggle_transfer=Transferir
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
-    phone_unmute=Activar el so
-    phone_unregistered=Sense registrar
-    phone_update_settings=Modificar Opcions
-    phone_username=Nom d'usuari
-    phone_websocketurl=URL de WebSocket
     popupclose_alreadydone=La trucada ja estava tancada
     popupclose_close=Tancar la trucada
     popupclose_error=Error: No es possible tancar la trucada

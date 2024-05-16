@@ -21,7 +21,7 @@ Do not change the items below:
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
-## Table decoders
+## Data decoders
 
     td_agawlogon_logged_off=Logged off
     td_agawlogon_logged_on=Logged on
@@ -222,8 +222,7 @@ Do not change the items below:
     td_yesno_no=No
     td_yesno_yes=Yes
 
-## AOUT?
-
+## AOUT
 
 
     aout_act_billable=과금대상 활동
@@ -568,7 +567,6 @@ Do not change the items below:
     clage_unique_effective=Unique effective
 
 ## Area codes
-
 
 
     carea_area_code_caller_id=지역번호/발신번호
@@ -1115,6 +1113,9 @@ Do not change the items below:
     evt_web_end_session=웹 세션 종료
     evt_web_fail_session=웹 세션 실패
     evt_web_start_session=웹 세션 시작
+
+## Headers
+
     hdr_agaw_agent=상담원
     hdr_agaw_logs=로그(Logs)
     hdr_agaw_status=상태
@@ -1211,7 +1212,6 @@ Do not change the items below:
 ## Configuration editors
 
 
-
     edit_ac_agent_code=상담원 코드
     edit_ac_description=설명
     edit_ac_gr=Gr.
@@ -1226,6 +1226,9 @@ Do not change the items below:
     edit_ac_title=상담원 환경설정
     # 🔴 edit_amo_attribute -> Attribute
     ➡️ edit_amo_attribute=
+
+### AMO
+
     # 🔴 edit_amo_attributes -> Attributes
     ➡️ edit_amo_attributes=
     # 🔴 edit_amo_campaign -> Campaign
@@ -1300,6 +1303,9 @@ Do not change the items below:
     ➡️ edit_amo_valid_from=
     # 🔴 edit_amo_valid_value -> Value
     ➡️ edit_amo_valid_value=
+
+### Cases
+
     edit_cases_client=Client
     edit_cases_contact=Contact
     edit_cases_email=eMail
@@ -2058,7 +2064,6 @@ Do not change the items below:
 ## Report filters
 
 
-
     filter_agenteFiltro=상담원
     filter_asteriskid=Asterisk ID
     filter_atomicQueueFilter=대기큐(Queue)
@@ -2096,7 +2101,6 @@ Do not change the items below:
     filter_wait_min=최소 대기시간
 
 ## Wallboard
-
 
 
     rt3_Talk=Talk
@@ -2470,8 +2474,6 @@ Do not change the items below:
 
 ## Agent page
 
-
-
     pgag_addmember=멤버 추가
     pgag_agawqueueinfo=AGAW 관련 정보
     pgag_call_status=통화결과
@@ -2527,8 +2529,6 @@ Do not change the items below:
     pgag_waiting=대기중
 
 ## Front page
-
-
 
     fp_agent_awareness=AGAW(Agent Awareness) 관리
     fp_agent_inbound=인바운드 통화
@@ -2987,9 +2987,9 @@ Description of configuration properties
     propedit_option_yes=Yes
     propedit_rewrite_hotdesking_desc=Enables rewriting of hotdesking information in data1 field of queue_log table
 
-## Editor of securitx keys
+## Editor of security keys
 
-Description of security keys
+Description of security keys:
 
     keydesc_agaw=사용자는 AGAW(상담원 용) 에 접근할 수 있습니다
     keydesc_agaw_adm=사용자는 AGAW 관리자 화면에 접근할 수 있습니다
@@ -3094,8 +3094,7 @@ Description of security keys
     keydesc_wallboard_phone=사용자는 현황판의 소프트폰을 사용할 수 있습니다.
     keydesc_wqloader=사용자는 HTTP를 통해 로그를 업로드 할 수 있습니다.
 
-## Tasks
-
+## Tasks/Memos
 
 
     tsk_detail_btnAddNote=Edit Note
@@ -3175,7 +3174,6 @@ Description of security keys
 ## Tasks: training and coaching
 
 
-
     tsk_traincoach_agent=상담원
     tsk_traincoach_agentcode=상담원 코드
     tsk_traincoach_agentgroup=상담원 그룹
@@ -3201,6 +3199,98 @@ Description of security keys
     tsk_traincoach_sendtask=Send Tasks
     tsk_traincoach_start_date=Valid from
     tsk_traincoach_title=Push Training and Coaching tasks
+
+
+
+### Softphone
+
+    phone_advanced_settings=고급설정
+    phone_agent=상담원
+    phone_anonymous=Anonymous
+    phone_answer=Answer
+    phone_attended=Attended Transfer
+    phone_attended_transfer=Attended Transfer
+    phone_auto_answer_toggle_off=Auto Answer 비활성화
+    phone_auto_answer_toggle_on=Auto Answer 활성화
+    phone_basic_settings=기본 설정
+    phone_blind=Blind Transfer
+    phone_blind_transfer=Blind Transfer
+    # 🔴 phone_call -> Call
+    ➡️ phone_call=
+    # 🔴 phone_calling -> Calling...
+    ➡️ phone_calling=
+    # 🔴 phone_cancel -> Cancel
+    ➡️ phone_cancel=
+    # 🔴 phone_close -> Close
+    ➡️ phone_close=
+    # 🔴 phone_confirm -> Confirm
+    ➡️ phone_confirm=
+    # 🔴 phone_connectionrecoverymax -> Conn. Recovery Max.
+    ➡️ phone_connectionrecoverymax=
+    # 🔴 phone_connectionrecoverymin -> Conn. Recovery Min.
+    ➡️ phone_connectionrecoverymin=
+    # 🔴 phone_debug -> Click to print debug information in the browser console.
+    ➡️ phone_debug=
+    # 🔴 phone_dial -> Dial
+    ➡️ phone_dial=
+    # 🔴 phone_dialing -> Dialing...
+    ➡️ phone_dialing=
+    # 🔴 phone_dialling -> Dialling...
+    ➡️ phone_dialling=
+    # 🔴 phone_displayname -> Display Name
+    ➡️ phone_displayname=
+    # 🔴 phone_hangup -> Hangup
+    ➡️ phone_hangup=
+    phone_http_error=WebRTC 에러
+    phone_http_error_body=WebRTC 소프트폰을 정상적으로 사용하기위해서는 QueueMetrics 가 HTTPS를 통해 연결되어야 합니다.
+    phone_iceservers=Ice Servers
+    # 🔴 phone_incoming_call -> Incoming call...
+    ➡️ phone_incoming_call=
+    # 🔴 phone_input_error -> Input Error
+    ➡️ phone_input_error=
+    # 🔴 phone_join -> Join
+    ➡️ phone_join=
+    phone_maxsessions=최대 세션
+    phone_mute=소리끔
+    phone_no_https=소프트폰의 정상 동작을 위해 HTTPS로 연결되어야 합니다.
+    # 🔴 phone_no_queue -> No Queue
+    ➡️ phone_no_queue=
+    # 🔴 phone_noanswertimeout -> No Answer Timeout
+    ➡️ phone_noanswertimeout=
+    # 🔴 phone_not_avaialable -> Softphone Not Available.
+    ➡️ phone_not_avaialable=
+    # 🔴 phone_not_available -> Softphone not available.
+    ➡️ phone_not_available=
+    phone_password=비밀번호
+    # 🔴 phone_register -> Register
+    ➡️ phone_register=
+    # 🔴 phone_registered -> Registered
+    ➡️ phone_registered=
+    # 🔴 phone_registering -> Registering
+    ➡️ phone_registering=
+    # 🔴 phone_returntophone -> Return to Phone
+    ➡️ phone_returntophone=
+    # 🔴 phone_server -> Server
+    ➡️ phone_server=
+    phone_settings=설정
+    # 🔴 phone_swap -> Swap
+    ➡️ phone_swap=
+    # 🔴 phone_toggle_hold -> Hold/Unhold
+    ➡️ phone_toggle_hold=
+    # 🔴 phone_toggle_transfer -> Transfer
+    ➡️ phone_toggle_transfer=
+    # 🔴 phone_transfer -> Transfer
+    ➡️ phone_transfer=
+    # 🔴 phone_unmute -> Unmute
+    ➡️ phone_unmute=
+    # 🔴 phone_unregistered -> Unregistered
+    ➡️ phone_unregistered=
+    # 🔴 phone_update_settings -> Update Settings
+    ➡️ phone_update_settings=
+    # 🔴 phone_username -> Username
+    ➡️ phone_username=
+    # 🔴 phone_websocketurl -> Websocket URL
+    ➡️ phone_websocketurl=
 
 ## Misc
 
@@ -3601,93 +3691,6 @@ Other items
     pager_last=마지막 페이지
     pager_next=다음 페이지
     pager_prev=이전 페이지
-    phone_advanced_settings=고급설정
-    phone_agent=상담원
-    phone_anonymous=Anonymous
-    phone_answer=Answer
-    phone_attended=Attended Transfer
-    phone_attended_transfer=Attended Transfer
-    phone_auto_answer_toggle_off=Auto Answer 비활성화
-    phone_auto_answer_toggle_on=Auto Answer 활성화
-    phone_basic_settings=기본 설정
-    phone_blind=Blind Transfer
-    phone_blind_transfer=Blind Transfer
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=
-    # 🔴 phone_calling -> Calling...
-    ➡️ phone_calling=
-    # 🔴 phone_cancel -> Cancel
-    ➡️ phone_cancel=
-    # 🔴 phone_close -> Close
-    ➡️ phone_close=
-    # 🔴 phone_confirm -> Confirm
-    ➡️ phone_confirm=
-    # 🔴 phone_connectionrecoverymax -> Conn. Recovery Max.
-    ➡️ phone_connectionrecoverymax=
-    # 🔴 phone_connectionrecoverymin -> Conn. Recovery Min.
-    ➡️ phone_connectionrecoverymin=
-    # 🔴 phone_debug -> Click to print debug information in the browser console.
-    ➡️ phone_debug=
-    # 🔴 phone_dial -> Dial
-    ➡️ phone_dial=
-    # 🔴 phone_dialing -> Dialing...
-    ➡️ phone_dialing=
-    # 🔴 phone_dialling -> Dialling...
-    ➡️ phone_dialling=
-    # 🔴 phone_displayname -> Display Name
-    ➡️ phone_displayname=
-    # 🔴 phone_hangup -> Hangup
-    ➡️ phone_hangup=
-    phone_http_error=WebRTC 에러
-    phone_http_error_body=WebRTC 소프트폰을 정상적으로 사용하기위해서는 QueueMetrics 가 HTTPS를 통해 연결되어야 합니다.
-    phone_iceservers=Ice Servers
-    # 🔴 phone_incoming_call -> Incoming call...
-    ➡️ phone_incoming_call=
-    # 🔴 phone_input_error -> Input Error
-    ➡️ phone_input_error=
-    # 🔴 phone_join -> Join
-    ➡️ phone_join=
-    phone_maxsessions=최대 세션
-    phone_mute=소리끔
-    phone_no_https=소프트폰의 정상 동작을 위해 HTTPS로 연결되어야 합니다.
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
-    # 🔴 phone_noanswertimeout -> No Answer Timeout
-    ➡️ phone_noanswertimeout=
-    # 🔴 phone_not_avaialable -> Softphone Not Available.
-    ➡️ phone_not_avaialable=
-    # 🔴 phone_not_available -> Softphone not available.
-    ➡️ phone_not_available=
-    phone_password=비밀번호
-    # 🔴 phone_register -> Register
-    ➡️ phone_register=
-    # 🔴 phone_registered -> Registered
-    ➡️ phone_registered=
-    # 🔴 phone_registering -> Registering
-    ➡️ phone_registering=
-    # 🔴 phone_returntophone -> Return to Phone
-    ➡️ phone_returntophone=
-    # 🔴 phone_server -> Server
-    ➡️ phone_server=
-    phone_settings=설정
-    # 🔴 phone_swap -> Swap
-    ➡️ phone_swap=
-    # 🔴 phone_toggle_hold -> Hold/Unhold
-    ➡️ phone_toggle_hold=
-    # 🔴 phone_toggle_transfer -> Transfer
-    ➡️ phone_toggle_transfer=
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
-    # 🔴 phone_unmute -> Unmute
-    ➡️ phone_unmute=
-    # 🔴 phone_unregistered -> Unregistered
-    ➡️ phone_unregistered=
-    # 🔴 phone_update_settings -> Update Settings
-    ➡️ phone_update_settings=
-    # 🔴 phone_username -> Username
-    ➡️ phone_username=
-    # 🔴 phone_websocketurl -> Websocket URL
-    ➡️ phone_websocketurl=
     popupclose_alreadydone=통화가 이미 종료되었습니다.
     popupclose_close=통화 종료
     popupclose_error=에러 : 통화를 종료할 수 없습니다.
