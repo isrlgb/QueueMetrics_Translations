@@ -2882,8 +2882,7 @@ Description of security keys
     tsk_detail_history=Storia del task
     tsk_detail_info=Info del task
     tsk_detail_lastUpdated=Ultimo aggiornamento
-    # 🔴 tsk_detail_message -> Message
-    ➡️ tsk_detail_message=Messaggio
+    tsk_detail_message=Messaggio
     tsk_detail_notes=Note
     tsk_detail_pfield=Processo
     tsk_detail_process=Lavora
@@ -3474,8 +3473,7 @@ Other items
     qap_action_qa=Form QA
     qap_action_recall=Nuova nota di richiamata
     qap_action_transfer=Trasferisci chiamata
-    # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
-    ➡️ qap_action_wbtrecall=Richiama con WombatDialer
+    qap_action_wbtrecall=Richiama con WombatDialer
     qap_addmember_selected=Unisciti alle code selezionate
     qap_agent_code=Codice agente
     qap_agent_dialout_error=Errore durante la chiamata dell'agente
