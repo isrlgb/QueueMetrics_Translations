@@ -11,13 +11,13 @@ you need to open a GithHub Issue and let an admin create an empty language for y
 
 Once the language is created, it can contain three kinds of localizations:
 
-– A _translated entry_, meaning a translation that has been written or at least reviewed 
+* A _translated entry_, meaning a translation that has been written or at least reviewed 
  by a translator. It will appear as it is in QueueMetrics.
-– An 👽  _alien translation_  , meaning that it was either created automatically through an AI, 
+* An 👽  _alien translation_  , meaning that it was either created automatically through an AI, 
   or imported from a similar language (for example, if there is no entry for an item for Spanish, but 
   there is one for Latin-American Spanish, we display the latter because it’s likely to be kind of right). 
   Those translation appear as they are in QueueMetrics.
-– A 🔴 _missing translation_. This is an item that exists in the English language, but nobody yet translated it 
+* A 🔴 _missing translation_. This is an item that exists in the English language, but nobody yet translated it 
   to your language. In QueueMetrics, it appears using the English localization.
 
 When you work on a translation for a specific language, your goal is to  **review alien translations** and, 
@@ -50,46 +50,27 @@ If you want to, you can remove the comment and remove the arrow, but it’s not 
 
 ### How do I confirm that  an alien translation is correct, or change it?
 
-You can find Alun translations by looking for the Alun icon in the comment line. As it is the case for missing the translations, before each of those lines there is a comment that shows the current value for English.
+You can find alien translations by looking for alien icon in the comment line. As it is the case for missing translations, before each of those lines there is a comment that shows the current value for English (as a reference).
+
+<img width="341" alt="image" src="https://github.com/Loway/QueueMetrics_Translations/assets/1101849/0964652f-61e2-44cc-be34-6f2440beb16b">
+
+If you want to confirm the translation is right, you simply remove the `?` after `=`, so that what ised to be `label=?translation` becomes `label=translation`.
+
+<img width="347" alt="image" src="https://github.com/Loway/QueueMetrics_Translations/assets/1101849/9a3ee4ac-ce09-44b9-a7d2-b2f4cb8dd888">
 
 
 
+### How do I do this in practice?
 
-If you want to confirm, the translation is right, or to edit it, you simply remove the? After the =.
+As this is GitHub, the way to do a complete translation is first forking this repo to a local copy, 
+then making your changes, and at the end sending us a pull  request.
 
-How do I do this in practice?
-
-As this is, this is GitHub, the way to do a complete translation is first for king of the project,then making your changes, then sending us a polo request.
-
-Do I need to do it even if I only have a couple of changes, or want to correct the typo?
-
-Blah blah blah
+THere is an excellent tutorial here: 
 
 
 
+### Do I need to do it even if I only have a couple of changes, or want to correct a typo?
+
+If you need to change just a few labels here and there, just open a GitHub issue and explain the changes you want done.
 
 
-
-
-<img width="388" alt="image" src="https://github.com/Loway/translation_queuemetrics/assets/1101849/e8ff68cd-af56-4dfc-a225-bc65d2dbdb23">
-
-
-
-<img width="428" alt="image" src="https://github.com/Loway/translation_queuemetrics/assets/1101849/077e010f-acd0-48b4-9865-c75707889388">
-
-
-## Completions
-
-
-<img width="333" alt="image" src="https://github.com/Loway/QueueMetrics_Translations/assets/1101849/25d44f85-7eb2-47f9-8458-36b73fc06467">
-
-
-<img width="354" alt="image" src="https://github.com/Loway/QueueMetrics_Translations/assets/1101849/5c9fdd0a-91a3-4a9c-aa0d-ae1ef952c2c5">
-
-## Aliens
-
-
-![image](https://github.com/Loway/QueueMetrics_Translations/assets/1101849/50c77f52-a34a-4ca0-922b-0a7a8fd6c562)
-
-
-![image](https://github.com/Loway/QueueMetrics_Translations/assets/1101849/adcd14bd-d06e-4425-b753-e2dc8d94327d)
