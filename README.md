@@ -4,6 +4,7 @@ This repository contains translation files for Loway QueueMetrics. Here you can 
 create, complete and fix translations.
 In order to participate, you need a GitHub account.
 
+
 ## How it works.
 
 If you need to create a translation for a **new language**, meaning one of the languages that are not yet included here, 
@@ -72,6 +73,76 @@ THere is an excellent tutorial here: https://docs.github.com/en/get-started/expl
 ### Do I need to do it even if I only have a couple of changes, or want to correct a typo?
 
 If you need to change just a few labels here and there, just open a GitHub issue and explain the changes you want done.
+
+### Do I need to translate QueueMetrics entirely?
+
+No - QueueMetrics will automatically go back to the main language (English) 
+if some entries are missing in the selected language. 
+
+When shipping languages for Queuemetrics, we will only include languages 
+that have a sufficient completion grade so that the
+layout will look quite consistent.
+
+
+### How do I know when there are new items to be translated?
+
+Loway periodically sends a mailing to translators to inform that there
+are new items added that can be translated. 
+
+You can anyway click on the "Watch" button within this repo so that
+GitHub will notify you of changes.
+
+
+
+
+
+
+## Futher information
+
+### The Locale
+
+QueueMetrics translations work by applying a "locale" to QueueMetrics, i.e. a set of
+conventions known for a certain language, as spoken in a certain country. The locale
+used shall be compatible with the Java language; if in doubt, ask Loway first.
+
+Valid examples of locales are
+
+* *en_US*: English as spoken in the USA
+* *it_IT*: Italian for Italy
+* *es_ES*: Spanish for Spain
+* *fr_FR*: French for France
+* *de_DE*: German for Germany
+* *pt_PT*: Portuguese for Portugal and Brazil
+
+Locales are expressed as a two-letter language (in ISO-639-1 format) plus a two-letter country code (in ISO 3166)
+
+References can be found for:
+
+* ISO-639-1: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+* ISO-3166: https://en.wikipedia.org/wiki/ISO_3166-1
+* Java-specific items: https://docs.oracle.com/javase/1.5.0/docs/api/java/util/Locale.html
+
+A complete list of Java-supported locales can be found at: https://www.oracle.com/technetwork/java/javase/locales-137662.html
+
+### Adding new languages
+
+Translators cannot add new languages directly, but they can ask for a new language to be added.
+They will need to provide Loway with the following pieces of information, as they apply to
+the new language:
+
+* `name`: The name of this translation, translated itself (e.g. `Italiano` for Italian)
+* `code`: The language and country this translation is for, e.g. `en_US`
+* `df_complete`: A date and time sequence, e.g. `MMMM dd yyyy, H:mm` for `May 24 2008, 8:32`
+* `df_completeshort`: A shortened complete date and time, e.g `MM/dd - H:mm:ss` for `05/24 - 8:32:23`
+* `df_date`: A date, e.g. `yyyy-MM-dd` for `2008-05-24`
+* `df_time`: A time format, e.g. `H:mm:ss` for `8:32:23`
+* `df_time_short`: A short time format, e.g `H:mm` for `8:32`
+* `left_to_right`: If the language is written left-to-right or right-to-left (This is not currently used)
+
+A full list of valid date and time placeholders can be found at: http://java.sun.com/j2se/1.4.2/docs/api/java/text/SimpleDateFormat.html
+
+
+
 
 ## Licenses
 
