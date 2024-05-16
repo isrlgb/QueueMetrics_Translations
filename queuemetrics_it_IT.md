@@ -68,7 +68,6 @@ Do not change the items below:
     td_autoconf_wz_summary_opresult=Risultato dell'operazione
     td_autoconf_wz_summary_type=Tipo
     td_autoconf_wz_users=Utenti
-    # 👽 td_calloutc_? -> 
     td_calloutc_?:=?
     td_calloutc_contact=Contatto
     td_calloutc_known=Noto
