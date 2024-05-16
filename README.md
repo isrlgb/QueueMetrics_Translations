@@ -11,6 +11,12 @@ Maybe,
 <img width="428" alt="image" src="https://github.com/Loway/translation_queuemetrics/assets/1101849/077e010f-acd0-48b4-9865-c75707889388">
 
 
+## Completions
+
+
+<img width="333" alt="image" src="https://github.com/Loway/QueueMetrics_Translations/assets/1101849/25d44f85-7eb2-47f9-8458-36b73fc06467">
+
+<img width="354" alt="image" src="https://github.com/Loway/QueueMetrics_Translations/assets/1101849/5c9fdd0a-91a3-4a9c-aa0d-ae1ef952c2c5">
 
 
 ## Aliens
