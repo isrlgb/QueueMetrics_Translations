@@ -391,7 +391,7 @@ Do not change the items below:
     art_selectPause=Select pause code
     art_server=Server
     art_server_selection=Choose a Server.
-    art_session_problem=Session Problem, Please Relogin.
+    art_session_problem=Session Problem, Please Log-In Again.
     art_setFeatureCode=Feature codes:
     art_setOutcome=Call outcome:
     art_startCall=Start Call
@@ -2342,7 +2342,7 @@ Do not change the items below:
     rt3_url=Url
     rt3_url_copied=Shareable URL copied to clipboard
     rt3_user_prefs_saved=The user preferences have been saved
-    rt3_user_session_invalid=User session is invalid, please relogin
+    rt3_user_session_invalid=User session is invalid, please log-in again.
     rt3_value_not_allowed_anymore=This value is not allowed anymore
     rt3_view=View
     rt3_views_list=Views list
