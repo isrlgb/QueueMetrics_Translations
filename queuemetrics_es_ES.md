@@ -533,7 +533,7 @@ Do not change the items below:
     art_server=?Servidor
     # 👽 art_server_selection -> Choose a Server.
     art_server_selection=?Seleccionar un Servidor:
-    # 👽 art_session_problem -> Session Problem, Please Relogin.
+    # 👽 art_session_problem -> Session Problem, Please Log-In Again.
     art_session_problem=?Problema de Sesión, favor de reconectar.
     # 👽 art_setFeatureCode -> Feature codes:
     art_setFeatureCode=?Código de función:
@@ -3975,7 +3975,7 @@ Do not change the items below:
     rt3_url_copied=?la URL del Tablero fue copiada en la clipboard
     # 👽 rt3_user_prefs_saved -> The user preferences have been saved
     rt3_user_prefs_saved=?Las preferencias del usuario fueron guardadas.
-    # 👽 rt3_user_session_invalid -> User session is invalid, please relogin
+    # 👽 rt3_user_session_invalid -> User session is invalid, please log-in again.
     rt3_user_session_invalid=?La sesión de usuario venció, por favor repetir nuevamente la autenticación
     # 👽 rt3_value_not_allowed_anymore -> This value is not allowed anymore
     rt3_value_not_allowed_anymore=?Este valor no es más valido

@@ -519,7 +519,7 @@ Do not change the items below:
     ➡️ art_server=
     # 🔴 art_server_selection -> Choose a Server.
     ➡️ art_server_selection=
-    # 🔴 art_session_problem -> Session Problem, Please Relogin.
+    # 🔴 art_session_problem -> Session Problem, Please Log-In Again.
     ➡️ art_session_problem=
     # 🔴 art_setFeatureCode -> Feature codes:
     ➡️ art_setFeatureCode=
@@ -3674,7 +3674,7 @@ Do not change the items below:
     ➡️ rt3_url_copied=
     # 🔴 rt3_user_prefs_saved -> The user preferences have been saved
     ➡️ rt3_user_prefs_saved=
-    # 🔴 rt3_user_session_invalid -> User session is invalid, please relogin
+    # 🔴 rt3_user_session_invalid -> User session is invalid, please log-in again.
     ➡️ rt3_user_session_invalid=
     # 🔴 rt3_value_not_allowed_anymore -> This value is not allowed anymore
     ➡️ rt3_value_not_allowed_anymore=

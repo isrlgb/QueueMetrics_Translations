@@ -25,6 +25,7 @@
 | 21 | *Japanese (jp_JP)* |  | 3247 | 24.1% | 0.0% | 24.1% | 🔴 |
 | 22 | *Polish (pl_PL)* |  | 3252 | 24.0% | 0.0% | 24.0% | 🔴 |
 | 23 | *Hungarian (hu_HU)* |  | 3556 | 16.9% | 0.0% | 16.9% | 🔴 |
+| 24 | *Ahmaric (Ethiopia) (am_ET)* |  | 4264 | 0.4% | 0.0% | 0.4% | 🔴 |
 
 
 *Legend*
@@ -36,5 +37,5 @@
 - 🔴 Incomplete
 
 
-Generated at Thu, May 16 2024 @ 14:26.
+Generated at Thu, June 13 2024 @ 16:47.
 

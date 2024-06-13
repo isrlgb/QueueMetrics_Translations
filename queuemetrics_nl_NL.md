@@ -3363,7 +3363,7 @@ Do not change the items below:
     ➡️ rt3_url_copied=
     # 🔴 rt3_user_prefs_saved -> The user preferences have been saved
     ➡️ rt3_user_prefs_saved=
-    # 🔴 rt3_user_session_invalid -> User session is invalid, please relogin
+    # 🔴 rt3_user_session_invalid -> User session is invalid, please log-in again.
     ➡️ rt3_user_session_invalid=
     # 🔴 rt3_value_not_allowed_anymore -> This value is not allowed anymore
     ➡️ rt3_value_not_allowed_anymore=

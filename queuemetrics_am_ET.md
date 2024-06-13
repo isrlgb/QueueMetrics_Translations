@@ -10,93 +10,165 @@
 General information about this language pack. The language name should be written in the
 language itself, and will appear in the drop-down language selector.
 
-    00-LanguageName=Polish
+    00-LanguageName=አማርኛ
     
 Do not change the items below:
 
     dateformat_complete=dd MMMM yyyy, HH:mm
     dateformat_completeshort=dd/MM - HH:mm:ss
-    dateformat_date=dd-MM-yyyy
+    dateformat_date=yyyy-MM-dd
     dateformat_flow=1
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
 ## Data decoders
 
-    td_agawlogon_logged_off=Wylogowany
-    td_agawlogon_logged_on=Zalogowany
-    td_agawlogon_paused=Spauzowany
-    td_agawlogon_unknown=Nieznany
-    td_agawstat_current=Obecny
-    td_agawstat_inserting=Ustawia
-    td_agawstat_obsolete=Nieaktualny
-    td_agawstat_querying=Odpytywanie
-    td_aglev_main=Główny
-    td_aglev_spill=Przelew2
-    td_aglev_undefined=<font color='red'>Niezdefiniowany</font>
-    td_aglev_wrap=Przelew1
-    td_agstatus_agent_is_currently_logged_off=Konsultant jest wylogowany
-    td_agstatus_agent_is_currently_logged_on=Konsultant jest zalogowany
-    td_agstatus_agent_is_currently_logged_on_some_queues=Konsultant jest zalogowany do kolejek
-    td_agstatus_agent_is_currently_paused=Konsultant jest na pauzie
-    td_agstatus_agent_status_cannot_be_determined=Status konsultanta nie rozpoznany
-    td_ancod_agent_availability_for_all_the_queues=Dostępność konsultanta (dla wszystkich kolejek)
-    td_ancod_agent_sessions_detail=Sesje konsultanta: Szczegóły
-    td_ancod_answered_calls_agents_on_queue=Połączenia odebrane: Konsultanci na kolejkę
-    td_ancod_answered_calls_details=Połączenia odebrane: Szczegóły
-    td_ancod_answered_calls_disconnection_causes=Połączenia odebrane: Przyczyny rozłączenia
-    td_ancod_answered_calls_for_selected_queues=Połączenia odebrane (na wybrane kolejki)
-    td_ancod_answered_calls_sla=Połączenia odebrane: SLA
-    td_ancod_call_distribuition_by_day_of_week=Dystrybucja połączeń na dzień tygodnia
-    td_ancod_call_distribuition_by_hour=Dystrybucja połączeń na godzinę
-    td_ancod_call_distribuition_per_day=Dystrybucja połączeń na dzień
-    td_ancod_unanswered_calls_details=Połączenia nieodebrane: Szczegóły
-    td_ancod_unanswered_calls_disconnection_causes=Połączenia nieodebrane: Przyczyny rozłączenia
-    td_autoconf_wz_agentcode=Kod konsultanta
-    td_autoconf_wz_agentname=Pełna nazwa
-    td_autoconf_wz_agentpwd=Hasło
-    td_autoconf_wz_agents=Konsultanci
-    td_autoconf_wz_queuename=Nazwa kolejki
-    td_autoconf_wz_queues=Kolejki
-    td_autoconf_wz_queuewrapup=Czas po rozmowie
-    td_autoconf_wz_servername=Serwer
-    td_autoconf_wz_start=Źródło
-    td_autoconf_wz_summary=Podsumowanie
-    td_autoconf_wz_summary_id=ID
-    td_autoconf_wz_summary_name=Pełna nazwa
-    td_autoconf_wz_summary_operation=Typ operacji
-    td_autoconf_wz_summary_opresult=Rezultat operacji
-    td_autoconf_wz_summary_type=Typ
-    td_autoconf_wz_users=Użytkownicy
-    # 👽 td_calloutc_? -> 
-    td_calloutc_?=?
-    td_calloutc_contact=Kontakt
-    td_calloutc_known=Znany
-    td_calloutc_none=Żaden
-    td_calloutc_qualif=Rzeczowy
-    td_calloutc_sale=Sprzedaż
-    td_calloutc_unknown=Nieznany
-    td_callstatus_html_in_conversation=<font color='green'>Rozmawia</font>
-    td_callstatus_html_terminated=Przerwano
-    td_callstatus_html_transferred=<font color='red'>Przetransferowano</font>
-    td_callstatus_in_conversation=Rozmawia
-    td_callstatus_terminated=Przerwano
-    td_callstatus_transferred=Przetransferowano
-    td_cko_abandon=Rozłączył
-    td_cko_agent_dump=Zrzut konsultanta
-    td_cko_caller_abandon=Rozmówca rozłączył
-    td_cko_channel=Kanał
-    td_cko_dumped=Zrzut
-    td_cko_empty=Pusty
-    td_cko_exit_empty=Wyjście pusty
-    td_cko_exit_with_key_press=Wyjście przez przyciśnięcie klawisza
-    td_cko_incomp_channel=Niekompatybilny kanał
-    td_cko_key_press=Wciśnięty klawisz
-    td_cko_timeout=Timeout
-    td_cko_timeout_voicemail=Timeout (poczta głosowa)
-    td_cko_unanswered_yet=<font color='red'>Nieodebrane</font>
-    td_cok_agent=Konsultant
-    td_cok_agent_disconnected=Konsultant rozłączył
+    # 🔴 td_agawlogon_logged_off -> Logged off
+    ➡️ td_agawlogon_logged_off=
+    # 🔴 td_agawlogon_logged_on -> Logged on
+    ➡️ td_agawlogon_logged_on=
+    # 🔴 td_agawlogon_paused -> Paused
+    ➡️ td_agawlogon_paused=
+    # 🔴 td_agawlogon_unknown -> Unknown
+    ➡️ td_agawlogon_unknown=
+    # 🔴 td_agawstat_current -> Current
+    ➡️ td_agawstat_current=
+    # 🔴 td_agawstat_inserting -> Inserting
+    ➡️ td_agawstat_inserting=
+    # 🔴 td_agawstat_obsolete -> Obsolete
+    ➡️ td_agawstat_obsolete=
+    # 🔴 td_agawstat_querying -> Querying
+    ➡️ td_agawstat_querying=
+    # 🔴 td_aglev_main -> Main
+    ➡️ td_aglev_main=
+    # 🔴 td_aglev_spill -> Spill
+    ➡️ td_aglev_spill=
+    # 🔴 td_aglev_undefined -> <font color='red'>Undefined</font>
+    ➡️ td_aglev_undefined=
+    # 🔴 td_aglev_wrap -> Wrap
+    ➡️ td_aglev_wrap=
+    # 🔴 td_agstatus_agent_is_currently_logged_off -> Agent is currently logged off
+    ➡️ td_agstatus_agent_is_currently_logged_off=
+    # 🔴 td_agstatus_agent_is_currently_logged_on -> Agent is currently logged on
+    ➡️ td_agstatus_agent_is_currently_logged_on=
+    # 🔴 td_agstatus_agent_is_currently_logged_on_some_queues -> Agent is currently logged on queues
+    ➡️ td_agstatus_agent_is_currently_logged_on_some_queues=
+    # 🔴 td_agstatus_agent_is_currently_paused -> Agent is currently paused
+    ➡️ td_agstatus_agent_is_currently_paused=
+    # 🔴 td_agstatus_agent_status_cannot_be_determined -> Agent status cannot be determined
+    ➡️ td_agstatus_agent_status_cannot_be_determined=
+    # 🔴 td_ancod_agent_availability_for_all_the_queues -> Agent availability (for all the queues)
+    ➡️ td_ancod_agent_availability_for_all_the_queues=
+    # 🔴 td_ancod_agent_sessions_detail -> Agent sessions: Detail
+    ➡️ td_ancod_agent_sessions_detail=
+    # 🔴 td_ancod_answered_calls_agents_on_queue -> Answered calls: Agents on queue
+    ➡️ td_ancod_answered_calls_agents_on_queue=
+    # 🔴 td_ancod_answered_calls_details -> Answered calls: Details
+    ➡️ td_ancod_answered_calls_details=
+    # 🔴 td_ancod_answered_calls_disconnection_causes -> Answered calls: Disconnection causes
+    ➡️ td_ancod_answered_calls_disconnection_causes=
+    # 🔴 td_ancod_answered_calls_for_selected_queues -> Answered calls (for selected queues)
+    ➡️ td_ancod_answered_calls_for_selected_queues=
+    # 🔴 td_ancod_answered_calls_sla -> Answered calls: SLA
+    ➡️ td_ancod_answered_calls_sla=
+    # 🔴 td_ancod_call_distribuition_by_day_of_week -> Call distribuition by day of week
+    ➡️ td_ancod_call_distribuition_by_day_of_week=
+    # 🔴 td_ancod_call_distribuition_by_hour -> Call distribuition by hour
+    ➡️ td_ancod_call_distribuition_by_hour=
+    # 🔴 td_ancod_call_distribuition_per_day -> Call distribuition per day
+    ➡️ td_ancod_call_distribuition_per_day=
+    # 🔴 td_ancod_unanswered_calls_details -> Unanswered calls: Details
+    ➡️ td_ancod_unanswered_calls_details=
+    # 🔴 td_ancod_unanswered_calls_disconnection_causes -> Unanswered calls: Disconnection causes
+    ➡️ td_ancod_unanswered_calls_disconnection_causes=
+    # 🔴 td_autoconf_wz_agentcode -> Agent code
+    ➡️ td_autoconf_wz_agentcode=
+    # 🔴 td_autoconf_wz_agentname -> Full name
+    ➡️ td_autoconf_wz_agentname=
+    # 🔴 td_autoconf_wz_agentpwd -> Password
+    ➡️ td_autoconf_wz_agentpwd=
+    # 🔴 td_autoconf_wz_agents -> Agents
+    ➡️ td_autoconf_wz_agents=
+    # 🔴 td_autoconf_wz_queuename -> Queue name
+    ➡️ td_autoconf_wz_queuename=
+    # 🔴 td_autoconf_wz_queues -> Queues
+    ➡️ td_autoconf_wz_queues=
+    # 🔴 td_autoconf_wz_queuewrapup -> Wrap-up time
+    ➡️ td_autoconf_wz_queuewrapup=
+    # 🔴 td_autoconf_wz_servername -> Server
+    ➡️ td_autoconf_wz_servername=
+    # 🔴 td_autoconf_wz_start -> Source
+    ➡️ td_autoconf_wz_start=
+    # 🔴 td_autoconf_wz_summary -> Summary
+    ➡️ td_autoconf_wz_summary=
+    # 🔴 td_autoconf_wz_summary_id -> Id
+    ➡️ td_autoconf_wz_summary_id=
+    # 🔴 td_autoconf_wz_summary_name -> Full name
+    ➡️ td_autoconf_wz_summary_name=
+    # 🔴 td_autoconf_wz_summary_operation -> Operation type
+    ➡️ td_autoconf_wz_summary_operation=
+    # 🔴 td_autoconf_wz_summary_opresult -> Operation result
+    ➡️ td_autoconf_wz_summary_opresult=
+    # 🔴 td_autoconf_wz_summary_type -> Type
+    ➡️ td_autoconf_wz_summary_type=
+    # 🔴 td_autoconf_wz_users -> Users
+    ➡️ td_autoconf_wz_users=
+    # 🔴 td_calloutc_? -> 
+    ➡️ td_calloutc_?=
+    # 🔴 td_calloutc_contact -> Contact
+    ➡️ td_calloutc_contact=
+    # 🔴 td_calloutc_known -> Known
+    ➡️ td_calloutc_known=
+    # 🔴 td_calloutc_none -> None
+    ➡️ td_calloutc_none=
+    # 🔴 td_calloutc_qualif -> Qualif.
+    ➡️ td_calloutc_qualif=
+    # 🔴 td_calloutc_sale -> Sale
+    ➡️ td_calloutc_sale=
+    # 🔴 td_calloutc_unknown -> Unknown
+    ➡️ td_calloutc_unknown=
+    # 🔴 td_callstatus_html_in_conversation -> <font color='green'>In conversation</font>
+    ➡️ td_callstatus_html_in_conversation=
+    # 🔴 td_callstatus_html_terminated -> Terminated
+    ➡️ td_callstatus_html_terminated=
+    # 🔴 td_callstatus_html_transferred -> <font color='red'>Transferred</font>
+    ➡️ td_callstatus_html_transferred=
+    # 🔴 td_callstatus_in_conversation -> In conversation
+    ➡️ td_callstatus_in_conversation=
+    # 🔴 td_callstatus_terminated -> Terminated
+    ➡️ td_callstatus_terminated=
+    # 🔴 td_callstatus_transferred -> Transferred
+    ➡️ td_callstatus_transferred=
+    # 🔴 td_cko_abandon -> Abandon
+    ➡️ td_cko_abandon=
+    # 🔴 td_cko_agent_dump -> Agent dump
+    ➡️ td_cko_agent_dump=
+    # 🔴 td_cko_caller_abandon -> Caller abandon
+    ➡️ td_cko_caller_abandon=
+    # 🔴 td_cko_channel -> Channel
+    ➡️ td_cko_channel=
+    # 🔴 td_cko_dumped -> Dumped
+    ➡️ td_cko_dumped=
+    # 🔴 td_cko_empty -> Empty
+    ➡️ td_cko_empty=
+    # 🔴 td_cko_exit_empty -> Exit empty
+    ➡️ td_cko_exit_empty=
+    # 🔴 td_cko_exit_with_key_press -> Exit with key press
+    ➡️ td_cko_exit_with_key_press=
+    # 🔴 td_cko_incomp_channel -> Incomp. channel
+    ➡️ td_cko_incomp_channel=
+    # 🔴 td_cko_key_press -> Key press
+    ➡️ td_cko_key_press=
+    # 🔴 td_cko_timeout -> Timeout
+    ➡️ td_cko_timeout=
+    # 🔴 td_cko_timeout_voicemail -> Timeout (voicemail)
+    ➡️ td_cko_timeout_voicemail=
+    # 🔴 td_cko_unanswered_yet -> Unanswered yet
+    ➡️ td_cko_unanswered_yet=
+    # 🔴 td_cok_agent -> Agent
+    ➡️ td_cok_agent=
+    # 🔴 td_cok_agent_disconnected -> Agent Disconnected
+    ➡️ td_cok_agent_disconnected=
     # 🔴 td_cok_att_transferred -> Attended transfer
     ➡️ td_cok_att_transferred=
     # 🔴 td_cok_atxfr -> Attended transfer
@@ -105,133 +177,234 @@ Do not change the items below:
     ➡️ td_cok_bln_transferred=
     # 🔴 td_cok_blxfr -> Blind transfer
     ➡️ td_cok_blxfr=
-    td_cok_caller=Rozmówca
-    td_cok_caller_disconnected=Rozmówca rozłączył
-    td_cok_ongoing=<font color='red'>Wchodzące</font>
-    td_cok_ongoing_call=Wchodzące połączenie
-    td_cok_transfer=Transfer
-    td_cok_transferred=Przetransferowane
-    td_dbtest_wz_agawcleanup=Czyszczenie AGAW
-    td_dbtest_wz_backup=Backup
-    td_dbtest_wz_end=Gotowy
-    td_dbtest_wz_operationname=Operacja w trakcie wykonywania
-    td_dbtest_wz_operationtime=Czas (ms)
-    td_dbtest_wz_optimize=Optymalizuj
-    td_dbtest_wz_start=Start
-    td_dbtest_wz_testerror=Test zakończony błędem
-    td_dbtest_wz_testname=Test w trakcie wykonywania
-    td_dbtest_wz_testresult=Wyniki testu
-    td_dbtest_wz_updatedb=Aktualizuj i odzyskaj
+    # 🔴 td_cok_caller -> Caller
+    ➡️ td_cok_caller=
+    # 🔴 td_cok_caller_disconnected -> Caller disconnected
+    ➡️ td_cok_caller_disconnected=
+    # 🔴 td_cok_ongoing -> Ongoing
+    ➡️ td_cok_ongoing=
+    # 🔴 td_cok_ongoing_call -> Ongoing call
+    ➡️ td_cok_ongoing_call=
+    # 🔴 td_cok_transfer -> Transfer
+    ➡️ td_cok_transfer=
+    # 🔴 td_cok_transferred -> Transferred
+    ➡️ td_cok_transferred=
+    # 🔴 td_dbtest_wz_agawcleanup -> Cleanup AGAW
+    ➡️ td_dbtest_wz_agawcleanup=
+    # 🔴 td_dbtest_wz_backup -> Backup
+    ➡️ td_dbtest_wz_backup=
+    # 🔴 td_dbtest_wz_end -> Ready
+    ➡️ td_dbtest_wz_end=
+    # 🔴 td_dbtest_wz_operationname -> Operation Performed
+    ➡️ td_dbtest_wz_operationname=
+    # 🔴 td_dbtest_wz_operationtime -> Time (ms)
+    ➡️ td_dbtest_wz_operationtime=
+    # 🔴 td_dbtest_wz_optimize -> Optimize
+    ➡️ td_dbtest_wz_optimize=
+    # 🔴 td_dbtest_wz_start -> Start
+    ➡️ td_dbtest_wz_start=
+    # 🔴 td_dbtest_wz_testerror -> Test error
+    ➡️ td_dbtest_wz_testerror=
+    # 🔴 td_dbtest_wz_testname -> Test performed
+    ➡️ td_dbtest_wz_testname=
+    # 🔴 td_dbtest_wz_testresult -> Test result
+    ➡️ td_dbtest_wz_testresult=
+    # 🔴 td_dbtest_wz_updatedb -> Update and Recover
+    ➡️ td_dbtest_wz_updatedb=
     # 🔴 td_dm_all -> All
     ➡️ td_dm_all=
-    td_dm_april=Kwiecień
-    td_dm_august=Sierpień
-    td_dm_december=Grudzień
-    td_dm_february=Luty
-    td_dm_friday=Piątek
+    # 🔴 td_dm_april -> April
+    ➡️ td_dm_april=
+    # 🔴 td_dm_august -> August
+    ➡️ td_dm_august=
+    # 🔴 td_dm_december -> December
+    ➡️ td_dm_december=
+    # 🔴 td_dm_february -> February
+    ➡️ td_dm_february=
+    # 🔴 td_dm_friday -> Friday
+    ➡️ td_dm_friday=
     # 🔴 td_dm_friday_short -> Fri
     ➡️ td_dm_friday_short=
-    td_dm_january=Styczeń
-    td_dm_july=Lipiec
-    td_dm_june=Czerwiec
-    td_dm_march=Marzec
-    td_dm_may=Maj
-    td_dm_monday=Poniedziałek
+    # 🔴 td_dm_january -> January
+    ➡️ td_dm_january=
+    # 🔴 td_dm_july -> July
+    ➡️ td_dm_july=
+    # 🔴 td_dm_june -> June
+    ➡️ td_dm_june=
+    # 🔴 td_dm_march -> March
+    ➡️ td_dm_march=
+    # 🔴 td_dm_may -> May
+    ➡️ td_dm_may=
+    # 🔴 td_dm_monday -> Monday
+    ➡️ td_dm_monday=
     # 🔴 td_dm_monday_short -> Mon
     ➡️ td_dm_monday_short=
-    td_dm_november=Listopad
-    td_dm_october=Październik
-    td_dm_saturday=Sobota
+    # 🔴 td_dm_november -> November
+    ➡️ td_dm_november=
+    # 🔴 td_dm_october -> October
+    ➡️ td_dm_october=
+    # 🔴 td_dm_saturday -> Saturday
+    ➡️ td_dm_saturday=
     # 🔴 td_dm_saturday_short -> Sat
     ➡️ td_dm_saturday_short=
-    td_dm_september=Wrzesień
-    td_dm_sunday=Niedziela
+    # 🔴 td_dm_september -> September
+    ➡️ td_dm_september=
+    # 🔴 td_dm_sunday -> Sunday
+    ➡️ td_dm_sunday=
     # 🔴 td_dm_sunday_short -> Sun
     ➡️ td_dm_sunday_short=
-    td_dm_thursday=Czwartek
+    # 🔴 td_dm_thursday -> Thursday
+    ➡️ td_dm_thursday=
     # 🔴 td_dm_thursday_short -> Thu
     ➡️ td_dm_thursday_short=
-    td_dm_tuesday=Wtorek
+    # 🔴 td_dm_tuesday -> Tuesday
+    ➡️ td_dm_tuesday=
     # 🔴 td_dm_tuesday_short -> Tue
     ➡️ td_dm_tuesday_short=
-    td_dm_wednesday=Środa
+    # 🔴 td_dm_wednesday -> Wednesday
+    ➡️ td_dm_wednesday=
     # 🔴 td_dm_wednesday_short -> Wed
     ➡️ td_dm_wednesday_short=
-    td_imwiz_added_agent=Konsultant dodany
-    td_imwiz_added_queue=Kolejka dodana
-    td_imwiz_added_user=Użytkownik dodany
-    td_imwiz_updated_agent=Konsultant zaktualizowany
-    td_imwiz_updated_queue=Kolejka zaktualizowana
+    # 🔴 td_imwiz_added_agent -> Added agent
+    ➡️ td_imwiz_added_agent=
+    # 🔴 td_imwiz_added_queue -> Added queue
+    ➡️ td_imwiz_added_queue=
+    # 🔴 td_imwiz_added_user -> Added user
+    ➡️ td_imwiz_added_user=
+    # 🔴 td_imwiz_updated_agent -> Updated agent
+    ➡️ td_imwiz_updated_agent=
+    # 🔴 td_imwiz_updated_queue -> Updated queue
+    ➡️ td_imwiz_updated_queue=
     # 🔴 td_knumbers_blacklist -> Blacklist
     ➡️ td_knumbers_blacklist=
     # 🔴 td_knumbers_none -> None
     ➡️ td_knumbers_none=
     # 🔴 td_knumbers_vip -> VIP caller
     ➡️ td_knumbers_vip=
-    td_nodupnum_allow_duplicate_numbers=Pozwól duplikować numery
-    td_nodupnum_no_duplicate_numbers=Nie duplikuj numerów
-    td_oh_+10_hours=+10 godzin
-    td_oh_+11_hours=+11 godzin
-    td_oh_+12_hours=+12 godzin
-    td_oh_+13_hours=+13 godzin
-    td_oh_+14_hours=+14 godzin
-    td_oh_+15_hours=+15 godzin
-    td_oh_+16_hours=+16 godzin
-    td_oh_+17_hours=+17 godzin
-    td_oh_+18_hours=+18 godzin
-    td_oh_+19_hours=+19 godzin
-    td_oh_+1_hour=+1 godzina
-    td_oh_+20_hours=+20 godzin
-    td_oh_+21_hours=+21 godzin
-    td_oh_+22_hours=+22 godziny
-    td_oh_+23_hours=+23 godziny
-    td_oh_+24_hours=+24 godziny
-    td_oh_+2_hours=+2 godziny
-    td_oh_+3_hours=+3 godziny
-    td_oh_+4_hours=+4 godziny
-    td_oh_+5_hours=+5 godzin
-    td_oh_+6_hours=+6 godzin
-    td_oh_+7_hours=+7 godzin
-    td_oh_+8_hours=+8 godzin
-    td_oh_+9_hours=+9 godzin
-    td_oh_-10_hours=-10 godzin
-    td_oh_-11_hours=-11 godzin
-    td_oh_-12_hours=-12 godzin
-    td_oh_-13_hours=-13 godzin
-    td_oh_-14_hours=-14 godzin
-    td_oh_-15_hours=-15 godzin
-    td_oh_-16_hours=-16 godzin
-    td_oh_-17_hours=-17 godzin
-    td_oh_-18_hours=-18 godzin
-    td_oh_-19_hours=-19 godzin
-    td_oh_-1_hour=-1 godzina
-    td_oh_-20_hours=-20 godzin
-    td_oh_-21_hours=-21 godzin
-    td_oh_-22_hours=-22 godziny
-    td_oh_-23_hours=-23 godziny
-    td_oh_-24_hours=-24 godziny
-    td_oh_-2_hours=-2 godziny
-    td_oh_-3_hours=-3 godziny
-    td_oh_-4_hours=-4 godziny
-    td_oh_-5_hours=-5 godzin
-    td_oh_-6_hours=-6 godzin
-    td_oh_-7_hours=-7 godzin
-    td_oh_-8_hours=-8 godzin
-    td_oh_-9_hours=-9 godzin
-    td_oh_no_offset=Bez wyrównania
-    td_pautype_-=-
+    # 🔴 td_nodupnum_allow_duplicate_numbers -> Allow duplicate numbers
+    ➡️ td_nodupnum_allow_duplicate_numbers=
+    # 🔴 td_nodupnum_no_duplicate_numbers -> No duplicate numbers
+    ➡️ td_nodupnum_no_duplicate_numbers=
+    # 🔴 td_oh_+10_hours -> +10 hours
+    ➡️ td_oh_+10_hours=
+    # 🔴 td_oh_+11_hours -> +11 hours
+    ➡️ td_oh_+11_hours=
+    # 🔴 td_oh_+12_hours -> +12 hours
+    ➡️ td_oh_+12_hours=
+    # 🔴 td_oh_+13_hours -> +13 hours
+    ➡️ td_oh_+13_hours=
+    # 🔴 td_oh_+14_hours -> +14 hours
+    ➡️ td_oh_+14_hours=
+    # 🔴 td_oh_+15_hours -> +15 hours
+    ➡️ td_oh_+15_hours=
+    # 🔴 td_oh_+16_hours -> +16 hours
+    ➡️ td_oh_+16_hours=
+    # 🔴 td_oh_+17_hours -> +17 hours
+    ➡️ td_oh_+17_hours=
+    # 🔴 td_oh_+18_hours -> +18 hours
+    ➡️ td_oh_+18_hours=
+    # 🔴 td_oh_+19_hours -> +19 hours
+    ➡️ td_oh_+19_hours=
+    # 🔴 td_oh_+1_hour -> +1 hour
+    ➡️ td_oh_+1_hour=
+    # 🔴 td_oh_+20_hours -> +20 hours
+    ➡️ td_oh_+20_hours=
+    # 🔴 td_oh_+21_hours -> +21 hours
+    ➡️ td_oh_+21_hours=
+    # 🔴 td_oh_+22_hours -> +22 hours
+    ➡️ td_oh_+22_hours=
+    # 🔴 td_oh_+23_hours -> +23 hours
+    ➡️ td_oh_+23_hours=
+    # 🔴 td_oh_+24_hours -> +24 hours
+    ➡️ td_oh_+24_hours=
+    # 🔴 td_oh_+2_hours -> +2 hours
+    ➡️ td_oh_+2_hours=
+    # 🔴 td_oh_+3_hours -> +3 hours
+    ➡️ td_oh_+3_hours=
+    # 🔴 td_oh_+4_hours -> +4 hours
+    ➡️ td_oh_+4_hours=
+    # 🔴 td_oh_+5_hours -> +5 hours
+    ➡️ td_oh_+5_hours=
+    # 🔴 td_oh_+6_hours -> +6 hours
+    ➡️ td_oh_+6_hours=
+    # 🔴 td_oh_+7_hours -> +7 hours
+    ➡️ td_oh_+7_hours=
+    # 🔴 td_oh_+8_hours -> +8 hours
+    ➡️ td_oh_+8_hours=
+    # 🔴 td_oh_+9_hours -> +9 hours
+    ➡️ td_oh_+9_hours=
+    # 🔴 td_oh_-10_hours -> -10 hours
+    ➡️ td_oh_-10_hours=
+    # 🔴 td_oh_-11_hours -> -11 hours
+    ➡️ td_oh_-11_hours=
+    # 🔴 td_oh_-12_hours -> -12 hours
+    ➡️ td_oh_-12_hours=
+    # 🔴 td_oh_-13_hours -> -13 hours
+    ➡️ td_oh_-13_hours=
+    # 🔴 td_oh_-14_hours -> -14 hours
+    ➡️ td_oh_-14_hours=
+    # 🔴 td_oh_-15_hours -> -15 hours
+    ➡️ td_oh_-15_hours=
+    # 🔴 td_oh_-16_hours -> -16 hours
+    ➡️ td_oh_-16_hours=
+    # 🔴 td_oh_-17_hours -> -17 hours
+    ➡️ td_oh_-17_hours=
+    # 🔴 td_oh_-18_hours -> -18 hours
+    ➡️ td_oh_-18_hours=
+    # 🔴 td_oh_-19_hours -> -19 hours
+    ➡️ td_oh_-19_hours=
+    # 🔴 td_oh_-1_hour -> -1 hour
+    ➡️ td_oh_-1_hour=
+    # 🔴 td_oh_-20_hours -> -20 hours
+    ➡️ td_oh_-20_hours=
+    # 🔴 td_oh_-21_hours -> -21 hours
+    ➡️ td_oh_-21_hours=
+    # 🔴 td_oh_-22_hours -> -22 hours
+    ➡️ td_oh_-22_hours=
+    # 🔴 td_oh_-23_hours -> -23 hours
+    ➡️ td_oh_-23_hours=
+    # 🔴 td_oh_-24_hours -> -24 hours
+    ➡️ td_oh_-24_hours=
+    # 🔴 td_oh_-2_hours -> -2 hours
+    ➡️ td_oh_-2_hours=
+    # 🔴 td_oh_-3_hours -> -3 hours
+    ➡️ td_oh_-3_hours=
+    # 🔴 td_oh_-4_hours -> -4 hours
+    ➡️ td_oh_-4_hours=
+    # 🔴 td_oh_-5_hours -> -5 hours
+    ➡️ td_oh_-5_hours=
+    # 🔴 td_oh_-6_hours -> -6 hours
+    ➡️ td_oh_-6_hours=
+    # 🔴 td_oh_-7_hours -> -7 hours
+    ➡️ td_oh_-7_hours=
+    # 🔴 td_oh_-8_hours -> -8 hours
+    ➡️ td_oh_-8_hours=
+    # 🔴 td_oh_-9_hours -> -9 hours
+    ➡️ td_oh_-9_hours=
+    # 🔴 td_oh_no_offset -> No offset
+    ➡️ td_oh_no_offset=
+    # 🔴 td_pautype_- -> -
+    ➡️ td_pautype_-=
     # 🔴 td_pautype_admin -> Admin
     ➡️ td_pautype_admin=
-    td_pautype_outb=Wych.
-    td_pautype_outbound=Wychodzący
-    td_pautype_pause=Pauza
-    td_pautype_wrap=Zwłoka
-    td_pautype_wrap-up_time=Czas zwłoki
+    # 🔴 td_pautype_outb -> Outb.
+    ➡️ td_pautype_outb=
+    # 🔴 td_pautype_outbound -> Outbound
+    ➡️ td_pautype_outbound=
+    # 🔴 td_pautype_pause -> Pause
+    ➡️ td_pautype_pause=
+    # 🔴 td_pautype_wrap -> Wrap
+    ➡️ td_pautype_wrap=
+    # 🔴 td_pautype_wrap-up_time -> Wrap-up time
+    ➡️ td_pautype_wrap-up_time=
     # 🔴 td_qdir_any -> Any call
     ➡️ td_qdir_any=
-    td_qdir_inbound_calls=Inbound
-    td_qdir_outbound_calls=Outbound
-    td_qdir_undefined=<font color='red'>Niezdefiniowany</font>
+    # 🔴 td_qdir_inbound_calls -> Inbound calls
+    ➡️ td_qdir_inbound_calls=
+    # 🔴 td_qdir_outbound_calls -> Outbound calls
+    ➡️ td_qdir_outbound_calls=
+    # 🔴 td_qdir_undefined -> <font color='red'>Undefined</font>
+    ➡️ td_qdir_undefined=
     # 🔴 td_sychronizer_start -> Source
     ➡️ td_sychronizer_start=
     # 🔴 td_synchronier_configuration -> Configuration
@@ -240,29 +413,42 @@ Do not change the items below:
     ➡️ td_synchronizer_actions=
     # 🔴 td_synchronizer_result -> Result
     ➡️ td_synchronizer_result=
-    td_yesno_no=Nie
-    td_yesno_yes=Tak
+    # 🔴 td_yesno_no -> No
+    ➡️ td_yesno_no=
+    # 🔴 td_yesno_yes -> Yes
+    ➡️ td_yesno_yes=
 
 ## AOUT
 
 
-    aout_act_billable=Doliczone aktywności
-    aout_act_notbillable=Niedoliczone aktywności
-    aout_activity=Aktywność
-    aout_agent=Nazwa konsultanta
-    aout_agent_report=Szczegółowy raport konsultanta
-    aout_available_s=Dostępność
-    aout_available_time=Całkowity czas dostępności konsultanta:
-    aout_avg_sec=Śred.
+    # 🔴 aout_act_billable -> Billable activities
+    ➡️ aout_act_billable=
+    # 🔴 aout_act_notbillable -> Non billable activities
+    ➡️ aout_act_notbillable=
+    # 🔴 aout_activity -> Activity
+    ➡️ aout_activity=
+    # 🔴 aout_agent -> Agent name
+    ➡️ aout_agent=
+    # 🔴 aout_agent_report -> Detailed agent report
+    ➡️ aout_agent_report=
+    # 🔴 aout_available_s -> Avail.
+    ➡️ aout_available_s=
+    # 🔴 aout_available_time -> Total agent available time:
+    ➡️ aout_available_time=
+    # 🔴 aout_avg_sec -> Avg.
+    ➡️ aout_avg_sec=
     # 🔴 aout_avg_talk_time -> Avg. Talk
     ➡️ aout_avg_talk_time=
     # 🔴 aout_avg_wait_time -> Avg. Wait
     ➡️ aout_avg_wait_time=
-    aout_billable_s=Doliczony
-    aout_billable_time=Całkowita doliczona aktywność konsultanta:
+    # 🔴 aout_billable_s -> Bill.
+    ➡️ aout_billable_s=
+    # 🔴 aout_billable_time -> Total agent billable activities:
+    ➡️ aout_billable_time=
     # 🔴 aout_call_res_by_feature -> Call results, by feature code
     ➡️ aout_call_res_by_feature=
-    aout_call_res_by_outcome=Rezultaty połączeń, wg wyników
+    # 🔴 aout_call_res_by_outcome -> Call results, by outcomes
+    ➡️ aout_call_res_by_outcome=
     # 🔴 aout_call_res_by_tag -> Call results, by tag
     ➡️ aout_call_res_by_tag=
     # 🔴 aout_calltag -> Tag
@@ -273,9 +459,12 @@ Do not change the items below:
     ➡️ aout_chart=
     # 🔴 aout_client_distribution -> Client Distribution
     ➡️ aout_client_distribution=
-    aout_contacts_n=Kontakt
-    aout_convratio=CONV
-    aout_cph=CPH
+    # 🔴 aout_contacts_n -> Cont.
+    ➡️ aout_contacts_n=
+    # 🔴 aout_convratio -> CONV
+    ➡️ aout_convratio=
+    # 🔴 aout_cph -> CPH
+    ➡️ aout_cph=
     # 🔴 aout_fcr_avg_duration -> Avg. Duration
     ➡️ aout_fcr_avg_duration=
     # 🔴 aout_fcr_caller_avg_calls -> Average calls per caller-id
@@ -338,12 +527,18 @@ Do not change the items below:
     ➡️ aout_feature_isgoal=
     # 🔴 aout_ftrconv -> Ftr. Conv.
     ➡️ aout_ftrconv=
-    aout_general_outcomes=Ogólne wyniki
-    aout_index_conv=Index konwersji:
-    aout_index_cph=Kontaktów na godzinę (CPH):
-    aout_index_qconv=Przelicznik
-    aout_index_qcph=Rzeczowe kontakty na godzinę (RKNG):
-    aout_index_sph=Sprzedaż na godzinę (SPH):
+    # 🔴 aout_general_outcomes -> General outcomes
+    ➡️ aout_general_outcomes=
+    # 🔴 aout_index_conv -> Conversion index:
+    ➡️ aout_index_conv=
+    # 🔴 aout_index_cph -> Contacts per Hour (CPH):
+    ➡️ aout_index_cph=
+    # 🔴 aout_index_qconv -> Qualified conversion index:
+    ➡️ aout_index_qconv=
+    # 🔴 aout_index_qcph -> Qualified Contacts per Hour (QCPH):
+    ➡️ aout_index_qcph=
+    # 🔴 aout_index_sph -> Sales per Hour (SPH):
+    ➡️ aout_index_sph=
     # 🔴 aout_inforec -> IVR
     ➡️ aout_inforec=
     # 🔴 aout_ivr_attrition -> Attrition rate
@@ -372,34 +567,56 @@ Do not change the items below:
     ➡️ aout_ivr_timing=
     # 🔴 aout_ivr_totTime -> Total time
     ➡️ aout_ivr_totTime=
-    aout_lost=Utraconych
-    aout_max_sec=Max.
-    aout_min_sec=Min.
-    aout_n_pauses=Iloś
-    aout_nonbillable_s=Niedoliczony
-    aout_outcome=Wynik rozmowy
-    aout_outcomes=Wyniki
+    # 🔴 aout_lost -> Lost
+    ➡️ aout_lost=
+    # 🔴 aout_max_sec -> Max.
+    ➡️ aout_max_sec=
+    # 🔴 aout_min_sec -> Min.
+    ➡️ aout_min_sec=
+    # 🔴 aout_n_pauses -> N. Times
+    ➡️ aout_n_pauses=
+    # 🔴 aout_nonbillable_s -> NonB.
+    ➡️ aout_nonbillable_s=
+    # 🔴 aout_outcome -> Call outcome
+    ➡️ aout_outcome=
+    # 🔴 aout_outcomes -> Outcomes
+    ➡️ aout_outcomes=
     # 🔴 aout_outcomes_per_agent -> Outcomes per agent
     ➡️ aout_outcomes_per_agent=
-    aout_percent=%
+    # 🔴 aout_percent -> %
+    ➡️ aout_percent=
     # 🔴 aout_percent_taken -> % taken
     ➡️ aout_percent_taken=
     # 🔴 aout_qcont -> QC
     ➡️ aout_qcont=
-    aout_qconvratio=WKKR
-    aout_qcph=RKNG
-    aout_qual_contacts_n=RK.
-    aout_sales_n=Sprzedaż
-    aout_sph=SPH
-    aout_sum=Całkowite
-    aout_taken=Przyjętych
-    aout_tot_billable_time=Całkowity czas doliczony:
-    aout_tot_contacts=Liczba kontaktów:
-    aout_tot_nonbillable_time=Całkowita niedoliczona aktywność konsultanta:
-    aout_tot_qualified_contacts=Liczba rzeczowych kontaktów:
-    aout_tot_sales=Całkowita sprzedaż:
-    aout_tot_sec=Całkowity czas
-    aout_type=Typ
+    # 🔴 aout_qconvratio -> QCONV
+    ➡️ aout_qconvratio=
+    # 🔴 aout_qcph -> QCPH
+    ➡️ aout_qcph=
+    # 🔴 aout_qual_contacts_n -> QC.
+    ➡️ aout_qual_contacts_n=
+    # 🔴 aout_sales_n -> Sales
+    ➡️ aout_sales_n=
+    # 🔴 aout_sph -> SPH
+    ➡️ aout_sph=
+    # 🔴 aout_sum -> Total
+    ➡️ aout_sum=
+    # 🔴 aout_taken -> Taken
+    ➡️ aout_taken=
+    # 🔴 aout_tot_billable_time -> Total billable time:
+    ➡️ aout_tot_billable_time=
+    # 🔴 aout_tot_contacts -> Number of Contacts:
+    ➡️ aout_tot_contacts=
+    # 🔴 aout_tot_nonbillable_time -> Total nonbillable time:
+    ➡️ aout_tot_nonbillable_time=
+    # 🔴 aout_tot_qualified_contacts -> Number of Qualified Contacts:
+    ➡️ aout_tot_qualified_contacts=
+    # 🔴 aout_tot_sales -> Number of Sales:
+    ➡️ aout_tot_sales=
+    # 🔴 aout_tot_sec -> Tot. Time
+    ➡️ aout_tot_sec=
+    # 🔴 aout_type -> Type
+    ➡️ aout_type=
 
 ## ART?
 
@@ -584,25 +801,42 @@ Do not change the items below:
 
     # 🔴 clage_%_of_pause_time -> % of pause time
     ➡️ clage_%_of_pause_time=
-    clage_%_of_queue=% kolejki
+    # 🔴 clage_%_of_queue -> % of queue
+    ➡️ clage_%_of_queue=
     # 🔴 clage_%_of_session_time -> % of session time
     ➡️ clage_%_of_session_time=
-    clage_acd_available=Dost.
-    clage_acd_avg_dur=Śr.dł.
-    clage_acd_avg_in=Śr.wej.
-    clage_acd_avg_out=Śr.wyj.
-    clage_acd_calls_in=Połączenia przych.
-    clage_acd_calls_out=Połączenia wych.
-    clage_acd_duration=Dł.
-    clage_acd_login=Zaloguj
-    clage_acd_logoff=Wyloguj
-    clage_acd_on_call_in=Połączenie przych.
-    clage_acd_on_call_out=Połączenie wych.
-    clage_acd_pau_bill=Pauza dol.
-    clage_acd_pau_unbill=Pauza niedol.
-    clage_acd_tot_calls=Wszystkie połączenia
-    clage_agent=Konsultant
-    clage_agent_availability_for_all_the_queues_they_are_member_of=Dostępność konsultanta (Na wszystkie kolejki, których jest członkiem)
+    # 🔴 clage_acd_available -> Avail.
+    ➡️ clage_acd_available=
+    # 🔴 clage_acd_avg_dur -> Avg dur
+    ➡️ clage_acd_avg_dur=
+    # 🔴 clage_acd_avg_in -> Avg in
+    ➡️ clage_acd_avg_in=
+    # 🔴 clage_acd_avg_out -> Avg out
+    ➡️ clage_acd_avg_out=
+    # 🔴 clage_acd_calls_in -> Calls in
+    ➡️ clage_acd_calls_in=
+    # 🔴 clage_acd_calls_out -> Calls out
+    ➡️ clage_acd_calls_out=
+    # 🔴 clage_acd_duration -> Dur.
+    ➡️ clage_acd_duration=
+    # 🔴 clage_acd_login -> Login
+    ➡️ clage_acd_login=
+    # 🔴 clage_acd_logoff -> Logoff
+    ➡️ clage_acd_logoff=
+    # 🔴 clage_acd_on_call_in -> On call in
+    ➡️ clage_acd_on_call_in=
+    # 🔴 clage_acd_on_call_out -> On call out
+    ➡️ clage_acd_on_call_out=
+    # 🔴 clage_acd_pau_bill -> Pau Bill
+    ➡️ clage_acd_pau_bill=
+    # 🔴 clage_acd_pau_unbill -> Pau N/Bill
+    ➡️ clage_acd_pau_unbill=
+    # 🔴 clage_acd_tot_calls -> Tot calls
+    ➡️ clage_acd_tot_calls=
+    # 🔴 clage_agent -> Agent
+    ➡️ clage_agent=
+    # 🔴 clage_agent_availability_for_all_the_queues_they_are_member_of -> Agent availability (for all the queues they are member of)
+    ➡️ clage_agent_availability_for_all_the_queues_they_are_member_of=
     # 🔴 clage_agent_btimebyhour -> Agent Billable Time by Hour
     ➡️ clage_agent_btimebyhour=
     # 🔴 clage_agent_numbyhour -> Agents by Hour
@@ -613,33 +847,46 @@ Do not change the items below:
     ➡️ clage_agent_outbound_productivity=
     # 🔴 clage_agent_perf_prg -> Programmable Agent Performance
     ➡️ clage_agent_perf_prg=
-    clage_agent_performance_acd_group=Wykonanie zadań przez konsultanta w grupie ACD
+    # 🔴 clage_agent_performance_acd_group -> Agent Performance by ACD Group
+    ➡️ clage_agent_performance_acd_group=
     # 🔴 clage_agent_ptimebyhour -> Agent Payable Time by Hour
     ➡️ clage_agent_ptimebyhour=
-    clage_agent_session_detail=Szczegóły sesji konsultanta
+    # 🔴 clage_agent_session_detail -> Agent session detail
+    ➡️ clage_agent_session_detail=
     # 🔴 clage_agent_session_overview -> Agent Session Overview
     ➡️ clage_agent_session_overview=
     # 🔴 clage_agent_sessionreport -> Agent Sessions View
     ➡️ clage_agent_sessionreport=
-    clage_agent_sessions=Sesje konsultanta
+    # 🔴 clage_agent_sessions -> Agent sessions
+    ➡️ clage_agent_sessions=
     # 🔴 clage_agent_stimebyhour -> Agent Session Time by Hour
     ➡️ clage_agent_stimebyhour=
     # 🔴 clage_agent_talktime_perhour -> Agents talk time per hour
     ➡️ clage_agent_talktime_perhour=
-    clage_answered_calls_by_custom_group=Połączenia odebrane przez grupę
-    clage_answered_calls_by_location=Połączenia odebrane przez lokalizację
-    clage_answered_calls_by_service_group=Połączenia odebrane przez grupę serwisową
-    clage_answered_calls_for_selected_queues=Połączenia odebrane (na wybrane kolejki)
-    clage_average_agent_time=Średni czas konsultanta:
+    # 🔴 clage_answered_calls_by_custom_group -> Answered calls by custom group
+    ➡️ clage_answered_calls_by_custom_group=
+    # 🔴 clage_answered_calls_by_location -> Answered calls by location
+    ➡️ clage_answered_calls_by_location=
+    # 🔴 clage_answered_calls_by_service_group -> Answered calls by service group
+    ➡️ clage_answered_calls_by_service_group=
+    # 🔴 clage_answered_calls_for_selected_queues -> Answered calls (for selected queues)
+    ➡️ clage_answered_calls_for_selected_queues=
+    # 🔴 clage_average_agent_time -> Average agent time:
+    ➡️ clage_average_agent_time=
     # 🔴 clage_avg -> Avg
     ➡️ clage_avg=
-    clage_avg_call_time=Średni czas połączenia
-    clage_avg_pause=Średnia pauza
-    clage_avg_session=Średnia sesja
-    clage_avg_wait_time=Średni czas oczekiwania
+    # 🔴 clage_avg_call_time -> Avg call time
+    ➡️ clage_avg_call_time=
+    # 🔴 clage_avg_pause -> Avg Pause
+    ➡️ clage_avg_pause=
+    # 🔴 clage_avg_session -> Avg Session
+    ➡️ clage_avg_session=
+    # 🔴 clage_avg_wait_time -> Avg wait time
+    ➡️ clage_avg_wait_time=
     # 🔴 clage_avgduration -> Avg
     ➡️ clage_avgduration=
-    clage_billable=Doliczone
+    # 🔴 clage_billable -> Billable
+    ➡️ clage_billable=
     # 🔴 clage_billpause -> Billable
     ➡️ clage_billpause=
     # 🔴 clage_callfeatures -> Feature
@@ -656,7 +903,8 @@ Do not change the items below:
     ➡️ clage_conversions=
     # 🔴 clage_day -> Day
     ➡️ clage_day=
-    clage_detail=Szegóły
+    # 🔴 clage_detail -> Detail
+    ➡️ clage_detail=
     # 🔴 clage_detailed_pause_tracking -> Detailed Pause Tracking
     ➡️ clage_detailed_pause_tracking=
     # 🔴 clage_fcr_callerid_all -> Recall details
@@ -685,18 +933,24 @@ Do not change the items below:
     ➡️ clage_free=
     # 🔴 clage_idle -> Idle
     ➡️ clage_idle=
-    clage_level=Poziom
-    clage_location=Lokalizacja
+    # 🔴 clage_level -> Level
+    ➡️ clage_level=
+    # 🔴 clage_location -> Location
+    ➡️ clage_location=
     # 🔴 clage_lostshort -> L
     ➡️ clage_lostshort=
     # 🔴 clage_max -> Max
     ➡️ clage_max=
-    clage_max_agent_time=Maksymalny czas konsultanta:
+    # 🔴 clage_max_agent_time -> Max agent time:
+    ➡️ clage_max_agent_time=
     # 🔴 clage_min -> Min
     ➡️ clage_min=
-    clage_min_agent_time=Minimalny czas konsultanta:
-    clage_n_calls=L. połączeń
-    clage_n_of_agents_available=Liczba dostępnych konsultantów:
+    # 🔴 clage_min_agent_time -> Min agent time:
+    ➡️ clage_min_agent_time=
+    # 🔴 clage_n_calls -> N. calls
+    ➡️ clage_n_calls=
+    # 🔴 clage_n_of_agents_available -> N. of agents available:
+    ➡️ clage_n_of_agents_available=
     # 🔴 clage_nanswcalls -> Answered
     ➡️ clage_nanswcalls=
     clage_nbsp= 
@@ -706,23 +960,28 @@ Do not change the items below:
     ➡️ clage_ngoalftrs=
     # 🔴 clage_nobillpause -> Not Billable
     ➡️ clage_nobillpause=
-    clage_nonbill=Niedoliczone
+    # 🔴 clage_nonbill -> Non bill.
+    ➡️ clage_nonbill=
     # 🔴 clage_num -> Num
     ➡️ clage_num=
     # 🔴 clage_occupancy -> Occupancy %
     ➡️ clage_occupancy=
     # 🔴 clage_offered -> Offered
     ➡️ clage_offered=
-    clage_on_pause=Na pauzie
+    # 🔴 clage_on_pause -> On pause
+    ➡️ clage_on_pause=
     # 🔴 clage_overlaps -> Overlapping
     ➡️ clage_overlaps=
     # 🔴 clage_pause -> Pause
     ➡️ clage_pause=
-    clage_pause_%=Pauza %
+    # 🔴 clage_pause_% -> Pause %
+    ➡️ clage_pause_%=
     # 🔴 clage_pause_type_stats -> Details of pause types
     ➡️ clage_pause_type_stats=
-    clage_pauses=Pauzy
-    clage_pauses_per_session=Pauz na sesje
+    # 🔴 clage_pauses -> Pauses
+    ➡️ clage_pauses=
+    # 🔴 clage_pauses_per_session -> Pauses per session
+    ➡️ clage_pauses_per_session=
     # 🔴 clage_pausetype -> Pause Type
     ➡️ clage_pausetype=
     # 🔴 clage_percent -> %
@@ -743,14 +1002,16 @@ Do not change the items below:
     ➡️ clage_sales=
     # 🔴 clage_salesph -> S PH
     ➡️ clage_salesph=
-    clage_session_and_pause_durations=Długość sesji i pauzy
+    # 🔴 clage_session_and_pause_durations -> Session and pause durations
+    ➡️ clage_session_and_pause_durations=
     # 🔴 clage_session_byquetagftrreport -> Cumulated sessions by Queue, Tag and Feature
     ➡️ clage_session_byquetagftrreport=
     # 🔴 clage_session_byquetagreport -> Cumulated sessions by Queue, Tag
     ➡️ clage_session_byquetagreport=
     # 🔴 clage_session_calls -> N. calls
     ➡️ clage_session_calls=
-    clage_session_details=Szegóły sesji
+    # 🔴 clage_session_details -> Session details
+    ➡️ clage_session_details=
     # 🔴 clage_session_end -> Segment end
     ➡️ clage_session_end=
     # 🔴 clage_session_idle -> Idle time
@@ -767,7 +1028,8 @@ Do not change the items below:
     ➡️ clage_session_talk=
     # 🔴 clage_session_type -> Session type
     ➡️ clage_session_type=
-    clage_sessions=Sesje
+    # 🔴 clage_sessions -> Sessions
+    ➡️ clage_sessions=
     # 🔴 clage_tag_sessionreport -> Tag Sessions View
     ➡️ clage_tag_sessionreport=
     # 🔴 clage_takenshort -> T
@@ -775,17 +1037,22 @@ Do not change the items below:
     # 🔴 clage_talk -> Talk
     ➡️ clage_talk=
     clage_threedots=...
-    clage_time=Czas
+    # 🔴 clage_time -> Time
+    ➡️ clage_time=
     # 🔴 clage_total -> Total
     ➡️ clage_total=
-    clage_total_agent_time=Całkowity czas konsultanta:
-    clage_total_call_time=Całkowity czas połączenia
+    # 🔴 clage_total_agent_time -> Total agent time:
+    ➡️ clage_total_agent_time=
+    # 🔴 clage_total_call_time -> Total call time
+    ➡️ clage_total_call_time=
     # 🔴 clage_total_calls -> Total Calls
     ➡️ clage_total_calls=
     # 🔴 clage_total_outsession_call_time -> Out of sessions call time
     ➡️ clage_total_outsession_call_time=
-    clage_total_pauses=Szegóły pauz
-    clage_total_sessions=Wszystkich sesji:
+    # 🔴 clage_total_pauses -> Total pause activity detail
+    ➡️ clage_total_pauses=
+    # 🔴 clage_total_sessions -> Total sessions:
+    ➡️ clage_total_sessions=
     # 🔴 clage_totaltime -> Total Time
     ➡️ clage_totaltime=
     # 🔴 clage_totwaittime -> Tot. Wait
@@ -800,60 +1067,95 @@ Do not change the items below:
 ## Area codes
 
 
-    carea_area_code_caller_id=Kierunek/Caller id
-    carea_area_code_report=Raport wg kierunku
-    carea_average_position=Średnia pozycja
-    carea_average_time_per_call=Średni czas na rozmowę
-    carea_average_wait_time_per_call=Średni czas oczekiwania na rozmowę
-    carea_average_wait_time_per_call_=Średni czas oczekiwania na rozmowę
+    # 🔴 carea_area_code_caller_id -> Area code/Caller id
+    ➡️ carea_area_code_caller_id=
+    # 🔴 carea_area_code_report -> Area code report
+    ➡️ carea_area_code_report=
+    # 🔴 carea_average_position -> Average position
+    ➡️ carea_average_position=
+    # 🔴 carea_average_time_per_call -> Average time per call
+    ➡️ carea_average_time_per_call=
+    # 🔴 carea_average_wait_time_per_call -> Average wait time per call
+    ➡️ carea_average_wait_time_per_call=
+    # 🔴 carea_average_wait_time_per_call_ -> Average wait time per call
+    ➡️ carea_average_wait_time_per_call_=
     # 🔴 carea_avg_duration -> Avg. Duration
     ➡️ carea_avg_duration=
-    carea_detail_for_answered_calls=Szczegóły dla połączeń odebranych
-    carea_detail_for_unanswered_calls=Szczegóły dla połączeń nieodebranych
+    # 🔴 carea_detail_for_answered_calls -> Detail for answered calls
+    ➡️ carea_detail_for_answered_calls=
+    # 🔴 carea_detail_for_unanswered_calls -> Detail for unanswered calls
+    ➡️ carea_detail_for_unanswered_calls=
     # 🔴 carea_frequent_area_codes -> Frequent Area codes
     ➡️ carea_frequent_area_codes=
-    carea_lost_calls=Połączenia utracone
+    # 🔴 carea_lost_calls -> Lost calls
+    ➡️ carea_lost_calls=
     # 🔴 carea_n_of_callers -> N. of Callers
     ➡️ carea_n_of_callers=
     # 🔴 carea_perc_taken -> % of Taken Calls
     ➡️ carea_perc_taken=
     # 🔴 carea_prefix -> Prefix
     ➡️ carea_prefix=
-    carea_return=Powrót
-    carea_search=Szukaj
-    carea_select_number_of_clid_digits_to_search=Liczba cyfr CLID'u do analizy:
-    carea_starting_from_position=Startuj z pozycji:
-    carea_taken_calls=Przyjęte połączenia
-    carea_threedots=...
+    # 🔴 carea_return -> Return
+    ➡️ carea_return=
+    # 🔴 carea_search -> Search
+    ➡️ carea_search=
+    # 🔴 carea_select_number_of_clid_digits_to_search -> Number of CLID digits:
+    ➡️ carea_select_number_of_clid_digits_to_search=
+    # 🔴 carea_starting_from_position -> Starting from position:
+    ➡️ carea_starting_from_position=
+    # 🔴 carea_taken_calls -> Taken calls
+    ➡️ carea_taken_calls=
+    # 🔴 carea_threedots -> ...
+    ➡️ carea_threedots=
     # 🔴 carea_tot_calls -> Total Calls
     ➡️ carea_tot_calls=
     # 🔴 carea_tot_duration -> Total Duration
     ➡️ carea_tot_duration=
-    carea_total_calling_time=Całkowity czas rozmowy
-    clacd_acd_attempts_by_queue=Próby ACD na kolejke
-    clacd_acd_attempts_by_terminal=Próby ACD na terminal
-    clacd_agent=Konsultant
-    clacd_average_attempts=Średnia ilość prób:
-    clacd_avg_ring=Średnia długość dzwonienia
-    clacd_inbound_acd_call_attempts=Próby ACD dla połączeń przychodzących
-    clacd_lost_calls=Połączenia utracone
-    clacd_max_attempts=Maksymalna ilość prób:
-    clacd_min_attempts=Minimalna ilość prób:
-    clacd_n_lost=Ilość utraconych
-    clacd_n_taken=Ilość podjętych
-    clacd_queue=Kolejka
-    clacd_ring_s=Dzwonienie (s)
-    clacd_taken_calls=Przyjęte połączenia
-    clacd_total_acd_attempts_sent_to_operators=Całkowita ilość prób przekazana do konsultantów:
-    clacd_total_attempts=Całkowita ilość prób:
+    # 🔴 carea_total_calling_time -> Total calling time
+    ➡️ carea_total_calling_time=
+    # 🔴 clacd_acd_attempts_by_queue -> ACD attempts by queue
+    ➡️ clacd_acd_attempts_by_queue=
+    # 🔴 clacd_acd_attempts_by_terminal -> ACD attempts by terminal
+    ➡️ clacd_acd_attempts_by_terminal=
+    # 🔴 clacd_agent -> Agent
+    ➡️ clacd_agent=
+    # 🔴 clacd_average_attempts -> Average attempts:
+    ➡️ clacd_average_attempts=
+    # 🔴 clacd_avg_ring -> Avg ring
+    ➡️ clacd_avg_ring=
+    # 🔴 clacd_inbound_acd_call_attempts -> Inbound ACD call attempts
+    ➡️ clacd_inbound_acd_call_attempts=
+    # 🔴 clacd_lost_calls -> Lost calls
+    ➡️ clacd_lost_calls=
+    # 🔴 clacd_max_attempts -> Max attempts:
+    ➡️ clacd_max_attempts=
+    # 🔴 clacd_min_attempts -> Min attempts:
+    ➡️ clacd_min_attempts=
+    # 🔴 clacd_n_lost -> N. lost
+    ➡️ clacd_n_lost=
+    # 🔴 clacd_n_taken -> N. Taken
+    ➡️ clacd_n_taken=
+    # 🔴 clacd_queue -> Queue
+    ➡️ clacd_queue=
+    # 🔴 clacd_ring_s -> Ring (s)
+    ➡️ clacd_ring_s=
+    # 🔴 clacd_taken_calls -> Taken calls
+    ➡️ clacd_taken_calls=
+    # 🔴 clacd_total_acd_attempts_sent_to_operators -> Total ACD attempts sent to operators:
+    ➡️ clacd_total_acd_attempts_sent_to_operators=
+    # 🔴 clacd_total_attempts -> Total attempts:
+    ➡️ clacd_total_attempts=
 
 ## Call details
 
 
 
-    cld_agent=Konsultant
-    cld_area_analysis=Analiza wg kierunku
-    cld_asterisk_call_id=Asterisk UID
+    # 🔴 cld_agent -> Agent
+    ➡️ cld_agent=
+    # 🔴 cld_area_analysis -> Area analysis
+    ➡️ cld_area_analysis=
+    # 🔴 cld_asterisk_call_id -> Call Unique ID
+    ➡️ cld_asterisk_call_id=
     # 🔴 cld_asterisk_dnis -> DNIS
     ➡️ cld_asterisk_dnis=
     # 🔴 cld_asterisk_ivr -> IVR path
@@ -864,13 +1166,16 @@ Do not change the items below:
     ➡️ cld_asterisk_mohdur=
     # 🔴 cld_asterisk_mohevts -> MOH events
     ➡️ cld_asterisk_mohevts=
-    cld_attempts=Próby
+    # 🔴 cld_attempts -> Attempts
+    ➡️ cld_attempts=
     # 🔴 cld_avg_elapsed_time -> Avg. elapsed time
     ➡️ cld_avg_elapsed_time=
-    cld_billable=Doliczone?
+    # 🔴 cld_billable -> Billable?
+    ➡️ cld_billable=
     # 🔴 cld_btn_export_calls -> Export calls
     ➡️ cld_btn_export_calls=
-    cld_caller=Caller ID
+    # 🔴 cld_caller -> Caller
+    ➡️ cld_caller=
     # 🔴 cld_caller_statistics -> Caller Statistics
     ➡️ cld_caller_statistics=
     # 🔴 cld_calltag -> Tag
@@ -879,13 +1184,18 @@ Do not change the items below:
     ➡️ cld_complete_calls=
     # 🔴 cld_connect -> Connect
     ➡️ cld_connect=
-    cld_date=Data
-    cld_detail_of_agent_pauses=Szczegóły pauz konsultanta
-    cld_detail_of_agent_sessions=Szczegóły sesji konsultanta
+    # 🔴 cld_date -> Date
+    ➡️ cld_date=
+    # 🔴 cld_detail_of_agent_pauses -> Detail of agent pauses
+    ➡️ cld_detail_of_agent_pauses=
+    # 🔴 cld_detail_of_agent_sessions -> Detail of agent sessions
+    ➡️ cld_detail_of_agent_sessions=
     # 🔴 cld_detail_of_agent_sessions_raw -> Detail of agent session raw
     ➡️ cld_detail_of_agent_sessions_raw=
-    cld_detail_of_answered_calls=Szczegóły połączeń odebranych
-    cld_detail_of_unanswered_calls=Szczegóły połączeń nieodebranych
+    # 🔴 cld_detail_of_answered_calls -> Detail of answered calls
+    ➡️ cld_detail_of_answered_calls=
+    # 🔴 cld_detail_of_unanswered_calls -> Detail of unanswered calls
+    ➡️ cld_detail_of_unanswered_calls=
     # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
     ➡️ cld_detail_of_unanswered_calls_afp=
     # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
@@ -896,21 +1206,26 @@ Do not change the items below:
     ➡️ cld_detail_summary_dom=
     # 🔴 cld_detail_summary_dow -> Detail Summary by day of the week
     ➡️ cld_detail_summary_dow=
-    cld_disconnection=Rozłączenie
-    cld_dnis=DNIS
+    # 🔴 cld_disconnection -> Disconnection
+    ➡️ cld_disconnection=
+    # 🔴 cld_dnis -> DNIS
+    ➡️ cld_dnis=
     # 🔴 cld_dom -> Day
     ➡️ cld_dom=
     # 🔴 cld_dow -> Day of week
     ➡️ cld_dow=
-    cld_duration=Długość
+    # 🔴 cld_duration -> Duration
+    ➡️ cld_duration=
     # 🔴 cld_end -> End
     ➡️ cld_end=
-    cld_end_hour=Godz. zakończenia
+    # 🔴 cld_end_hour -> End hour
+    ➡️ cld_end_hour=
     # 🔴 cld_enter -> Enter
     ➡️ cld_enter=
     # 🔴 cld_executive_summary -> Executive Summary
     ➡️ cld_executive_summary=
-    cld_ext=nr. wew.
+    # 🔴 cld_ext -> Ext.
+    ➡️ cld_ext=
     # 🔴 cld_features -> Feature Codes
     ➡️ cld_features=
     # 🔴 cld_featuresnum -> Feat
@@ -919,14 +1234,16 @@ Do not change the items below:
     ➡️ cld_general_statistics=
     # 🔴 cld_goal -> Goal
     ➡️ cld_goal=
-    cld_handled_by=Przechwycone przez
+    # 🔴 cld_handled_by -> Handled by
+    ➡️ cld_handled_by=
     # 🔴 cld_hour -> Hour
     ➡️ cld_hour=
     # 🔴 cld_idle -> Idle
     ➡️ cld_idle=
     # 🔴 cld_info -> Info
     ➡️ cld_info=
-    cld_ivr=Wybór na IVR
+    # 🔴 cld_ivr -> IVR
+    ➡️ cld_ivr=
     # 🔴 cld_ivr_detail -> IVR details
     ➡️ cld_ivr_detail=
     # 🔴 cld_ivr_detail_full -> IVR details (full printable list)
@@ -937,7 +1254,8 @@ Do not change the items below:
     ➡️ cld_ivr_time=
     # 🔴 cld_ivr_time_long -> Time in IVR before queueing:
     ➡️ cld_ivr_time_long=
-    cld_key=Klucz
+    # 🔴 cld_key -> Key
+    ➡️ cld_key=
     # 🔴 cld_lost_calls -> Lost Calls
     ➡️ cld_lost_calls=
     # 🔴 cld_lost_calls_statistics -> Lost Calls Statistics
@@ -951,26 +1269,38 @@ Do not change the items below:
     cld_nbsp= 
     # 🔴 cld_nopayable -> Non Payable
     ➡️ cld_nopayable=
-    cld_opos=Pos.
-    cld_pause=Pauza
-    cld_pause_code=Kod
-    cld_pause_name=Aktywność
+    # 🔴 cld_opos -> Pos.
+    ➡️ cld_opos=
+    # 🔴 cld_pause -> Pause
+    ➡️ cld_pause=
+    # 🔴 cld_pause_code -> Code
+    ➡️ cld_pause_code=
+    # 🔴 cld_pause_name -> Activity
+    ➡️ cld_pause_name=
     # 🔴 cld_pause_type -> Pause Type
     ➡️ cld_pause_type=
-    cld_pop_asterisk_call_id=Asterisk Call ID:
-    cld_pop_attempts=Próby:
+    # 🔴 cld_pop_asterisk_call_id -> Call Unique ID:
+    ➡️ cld_pop_asterisk_call_id=
+    # 🔴 cld_pop_attempts -> Attempts:
+    ➡️ cld_pop_attempts=
     # 🔴 cld_pop_bridgedchannel -> Bridged Channel:
     ➡️ cld_pop_bridgedchannel=
-    cld_pop_call_detail=Szczegóły
+    # 🔴 cld_pop_call_detail -> Call detail
+    ➡️ cld_pop_call_detail=
     # 🔴 cld_pop_call_events -> Call events
     ➡️ cld_pop_call_events=
-    cld_pop_caller_id=Caller ID:
+    # 🔴 cld_pop_caller_id -> Caller ID:
+    ➡️ cld_pop_caller_id=
     # 🔴 cld_pop_calltag -> Tag:
     ➡️ cld_pop_calltag=
-    cld_pop_close=Zamknij
-    cld_pop_date_and_time=Data i czas:
-    cld_pop_disconnection_cause=Przyczyna rozłączenia:
-    cld_pop_duration=Długość połączenia:
+    # 🔴 cld_pop_close -> Close
+    ➡️ cld_pop_close=
+    # 🔴 cld_pop_date_and_time -> Date and time:
+    ➡️ cld_pop_date_and_time=
+    # 🔴 cld_pop_disconnection_cause -> Disconnection cause:
+    ➡️ cld_pop_disconnection_cause=
+    # 🔴 cld_pop_duration -> Duration:
+    ➡️ cld_pop_duration=
     # 🔴 cld_pop_evt_agent -> Agent
     ➡️ cld_pop_evt_agent=
     # 🔴 cld_pop_evt_dur -> Duration:
@@ -979,42 +1309,64 @@ Do not change the items below:
     ➡️ cld_pop_evt_event=
     # 🔴 cld_pop_evt_hr -> Hour
     ➡️ cld_pop_evt_hr=
-    cld_pop_handled_by=Przechwycone przez:
+    # 🔴 cld_pop_handled_by -> Handled by:
+    ➡️ cld_pop_handled_by=
     # 🔴 cld_pop_lastattempt -> Last Failed Attempt:
     ➡️ cld_pop_lastattempt=
-    cld_pop_opos=Pozycja
+    # 🔴 cld_pop_opos -> Original position
+    ➡️ cld_pop_opos=
     # 🔴 cld_pop_qa -> QA
     ➡️ cld_pop_qa=
-    cld_pop_queue=Kolejka:
+    # 🔴 cld_pop_queue -> Queue:
+    ➡️ cld_pop_queue=
     # 🔴 cld_pop_server -> Server
     ➡️ cld_pop_server=
-    cld_pop_sound_files=Pliki dzwiękowe:
-    cld_pop_status_code=Status:
-    cld_pop_stint_cause=Rozłączenie
-    cld_pop_stint_enter=Wejscie
-    cld_pop_stint_queue=Kolejka
-    cld_pop_stint_wait=Oczekuje
-    cld_pop_stints=Szczegóły okresu połączenia
-    cld_pop_stints_det=Ograniczenia:
+    # 🔴 cld_pop_sound_files -> Sound files:
+    ➡️ cld_pop_sound_files=
+    # 🔴 cld_pop_status_code -> Status code:
+    ➡️ cld_pop_status_code=
+    # 🔴 cld_pop_stint_cause -> Disconnection
+    ➡️ cld_pop_stint_cause=
+    # 🔴 cld_pop_stint_enter -> Entered
+    ➡️ cld_pop_stint_enter=
+    # 🔴 cld_pop_stint_queue -> Queue
+    ➡️ cld_pop_stint_queue=
+    # 🔴 cld_pop_stint_wait -> Wait
+    ➡️ cld_pop_stint_wait=
+    # 🔴 cld_pop_stints -> Detail of call stints
+    ➡️ cld_pop_stints=
+    # 🔴 cld_pop_stints_det -> Stints:
+    ➡️ cld_pop_stints_det=
     # 🔴 cld_pop_tags -> Markers
     ➡️ cld_pop_tags=
-    cld_pop_transferred_to=Transferowane do:
-    cld_pop_url=DNID:
-    cld_pop_waiting_time=Czas oczekiwania:
-    cld_position=Pozycja
-    cld_ptime=Czas Pauzy
-    cld_queue=Kolejka
+    # 🔴 cld_pop_transferred_to -> Transferred to:
+    ➡️ cld_pop_transferred_to=
+    # 🔴 cld_pop_url -> URL:
+    ➡️ cld_pop_url=
+    # 🔴 cld_pop_waiting_time -> Waiting time:
+    ➡️ cld_pop_waiting_time=
+    # 🔴 cld_position -> Position
+    ➡️ cld_position=
+    # 🔴 cld_ptime -> P.Time
+    ➡️ cld_ptime=
+    # 🔴 cld_queue -> Queue
+    ➡️ cld_queue=
     # 🔴 cld_queue_batch_export -> Add calls to export batch
     ➡️ cld_queue_batch_export=
-    cld_queue_detail=Szczegóły kolejki
+    # 🔴 cld_queue_detail -> Queue details
+    ➡️ cld_queue_detail=
     # 🔴 cld_queue_detail_afp -> Queue detail
     ➡️ cld_queue_detail_afp=
     # 🔴 cld_queue_detail_raw -> Raw queue detail
     ➡️ cld_queue_detail_raw=
-    cld_return=Powrót
-    cld_server=Srv
-    cld_session_agent_detail=Szczegóły sesji konsultanta
-    cld_session_pause_detail=Szczegóły pauz
+    # 🔴 cld_return -> Return
+    ➡️ cld_return=
+    # 🔴 cld_server -> Srv
+    ➡️ cld_server=
+    # 🔴 cld_session_agent_detail -> Session agent detail
+    ➡️ cld_session_agent_detail=
+    # 🔴 cld_session_pause_detail -> Pause activities detail
+    ➡️ cld_session_pause_detail=
     # 🔴 cld_session_pause_detail_hdr_totalb -> Total billable time
     ➡️ cld_session_pause_detail_hdr_totalb=
     # 🔴 cld_session_pause_detail_hdr_totaloverlaps -> Total call/pause overlaps
@@ -1031,14 +1383,18 @@ Do not change the items below:
     ➡️ cld_session_pause_detail_hdr_totalt=
     # 🔴 cld_short_calls -> Short Calls
     ➡️ cld_short_calls=
-    cld_start_hour=Godz. rozpoczęcia
-    cld_status_code=Kod
-    cld_stints=Okres
+    # 🔴 cld_start_hour -> Start hour
+    ➡️ cld_start_hour=
+    # 🔴 cld_status_code -> Code
+    ➡️ cld_status_code=
+    # 🔴 cld_stints -> Stints
+    ➡️ cld_stints=
     # 🔴 cld_talk -> Talk
     ➡️ cld_talk=
     # 🔴 cld_talk_and_idle_times -> Talk and Idle Times
     ➡️ cld_talk_and_idle_times=
-    cld_termination=Zakończenie
+    # 🔴 cld_termination -> Termination
+    ➡️ cld_termination=
     # 🔴 cld_tot_dur -> Tot. Dur.
     ➡️ cld_tot_dur=
     # 🔴 cld_total_calls -> Total Calls
@@ -1061,56 +1417,94 @@ Do not change the items below:
     ➡️ cld_variables=
     # 🔴 cld_variablesnum -> Vars
     ➡️ cld_variablesnum=
-    cld_wait=Czas oczekiwania
+    # 🔴 cld_wait -> Wait
+    ➡️ cld_wait=
 
 ## Call distribution
 
 
 
-    cldst_agents=Konsultanci
-    cldst_ans=Odeb.
-    cldst_answered_call_distribution_per_day=Dystrybucja połączeń odebranych na dzień
-    cldst_answered_call_distribution_per_day_of_week=Dystrybucja połączeń odebranych na dzień tygodnia
-    cldst_answered_call_distribution_per_dow=Połączenia odebrane w dany dzień tygodnia
-    cldst_answered_call_distribution_per_hour=Dystrybucja połączeń odebranych na godzinę
-    cldst_answered_call_wait_time_per_day=Czas oczekiwania dla połączeń odebranych na dzień
-    cldst_answered_call_wait_time_per_day_of_week=Czas oczekiwania dla połączeń odebranych na dzień tygodnia
-    cldst_answered_call_wait_time_per_dow=Czas oczekiwania połączeń odebranych w dany dzień tygodnia
-    cldst_answered_call_wait_time_per_hour=Czas oczekiwania dla połączeń odebranych na godzinę
-    cldst_answered_calls=Połączenia odebrane
-    cldst_avg=Średnia
-    cldst_avg_duration=Średni czas trwania
-    cldst_avg_wait=Średni czas oczekiwania
+    # 🔴 cldst_agents -> Agents
+    ➡️ cldst_agents=
+    # 🔴 cldst_ans -> Ans.
+    ➡️ cldst_ans=
+    # 🔴 cldst_answered_call_distribution_per_day -> Answered call distribution per day
+    ➡️ cldst_answered_call_distribution_per_day=
+    # 🔴 cldst_answered_call_distribution_per_day_of_week -> Answered call distribution per day of week
+    ➡️ cldst_answered_call_distribution_per_day_of_week=
+    # 🔴 cldst_answered_call_distribution_per_dow -> Answered call distribution per day of week
+    ➡️ cldst_answered_call_distribution_per_dow=
+    # 🔴 cldst_answered_call_distribution_per_hour -> Answered call distribution per hour
+    ➡️ cldst_answered_call_distribution_per_hour=
+    # 🔴 cldst_answered_call_wait_time_per_day -> Answered call wait time per day
+    ➡️ cldst_answered_call_wait_time_per_day=
+    # 🔴 cldst_answered_call_wait_time_per_day_of_week -> Answered call wait time per day of week
+    ➡️ cldst_answered_call_wait_time_per_day_of_week=
+    # 🔴 cldst_answered_call_wait_time_per_dow -> Answered call wait time per day of week
+    ➡️ cldst_answered_call_wait_time_per_dow=
+    # 🔴 cldst_answered_call_wait_time_per_hour -> Answered call wait time per hour
+    ➡️ cldst_answered_call_wait_time_per_hour=
+    # 🔴 cldst_answered_calls -> Answered calls
+    ➡️ cldst_answered_calls=
+    # 🔴 cldst_avg -> Avg
+    ➡️ cldst_avg=
+    # 🔴 cldst_avg_duration -> Avg duration
+    ➡️ cldst_avg_duration=
+    # 🔴 cldst_avg_wait -> Avg wait
+    ➡️ cldst_avg_wait=
     # 🔴 cldst_chart -> ~
     ➡️ cldst_chart=
-    cldst_contacts=Kontakty
-    cldst_conv=Conv.
-    cldst_coverage=Pokrycie
-    cldst_day=Dzień
-    cldst_hour=Godzina
-    cldst_inclusive_sla_per_day=Łączny SLA na dzień
-    cldst_inclusive_sla_per_dow=Łączny SLA na dzień tygodnia
-    cldst_inclusive_sla_per_hour=Łączny SLA na godzinę
-    cldst_max=Max
-    cldst_min=Min
+    # 🔴 cldst_contacts -> Contacts
+    ➡️ cldst_contacts=
+    # 🔴 cldst_conv -> Conv.
+    ➡️ cldst_conv=
+    # 🔴 cldst_coverage -> Cover.
+    ➡️ cldst_coverage=
+    # 🔴 cldst_day -> Day
+    ➡️ cldst_day=
+    # 🔴 cldst_hour -> Hour
+    ➡️ cldst_hour=
+    # 🔴 cldst_inclusive_sla_per_day -> Inclusive SLA per day
+    ➡️ cldst_inclusive_sla_per_day=
+    # 🔴 cldst_inclusive_sla_per_dow -> Inclusive SLA per day of week
+    ➡️ cldst_inclusive_sla_per_dow=
+    # 🔴 cldst_inclusive_sla_per_hour -> Inclusive SLA per hour
+    ➡️ cldst_inclusive_sla_per_hour=
+    # 🔴 cldst_max -> Max
+    ➡️ cldst_max=
+    # 🔴 cldst_min -> Min
+    ➡️ cldst_min=
     cldst_nbsp= 
     # 🔴 cldst_noskills -> No skills
     ➡️ cldst_noskills=
-    cldst_num=Ilość
+    # 🔴 cldst_num -> Num
+    ➡️ cldst_num=
     # 🔴 cldst_percent -> %
     ➡️ cldst_percent=
-    cldst_qconv=RP.
-    cldst_qual_contacts=RK.
-    cldst_queue_length_per_day=Długość kolejki na dzień
-    cldst_queue_length_per_dow=Długość kolejki na tydzień
-    cldst_queue_length_per_hour=Długość kolejki na godzine
-    cldst_sales=Sprzedaż
-    cldst_sales_per_day=Sprzedaż na dzień
-    cldst_sales_per_dow=Sprzedaż na dzień tygodnia
-    cldst_sales_per_hour=Sprzedaż na godzinę
-    cldst_schedule_per_day=Zgodnść harmonogramu na dzień
-    cldst_schedule_per_dow=Zgodność harmonogramu na tydzień
-    cldst_schedule_per_hour=Zgodność harmonogramu na godzine
+    # 🔴 cldst_qconv -> QConv.
+    ➡️ cldst_qconv=
+    # 🔴 cldst_qual_contacts -> QCont.
+    ➡️ cldst_qual_contacts=
+    # 🔴 cldst_queue_length_per_day -> Queue length per day
+    ➡️ cldst_queue_length_per_day=
+    # 🔴 cldst_queue_length_per_dow -> Queue length per day of week
+    ➡️ cldst_queue_length_per_dow=
+    # 🔴 cldst_queue_length_per_hour -> Queue length per hour
+    ➡️ cldst_queue_length_per_hour=
+    # 🔴 cldst_sales -> Sales
+    ➡️ cldst_sales=
+    # 🔴 cldst_sales_per_day -> Sales per day
+    ➡️ cldst_sales_per_day=
+    # 🔴 cldst_sales_per_dow -> Sales per day of week
+    ➡️ cldst_sales_per_dow=
+    # 🔴 cldst_sales_per_hour -> Sales per hour
+    ➡️ cldst_sales_per_hour=
+    # 🔴 cldst_schedule_per_day -> Schedule Adherence per day
+    ➡️ cldst_schedule_per_day=
+    # 🔴 cldst_schedule_per_dow -> Schedule Adherence per day of week
+    ➡️ cldst_schedule_per_dow=
+    # 🔴 cldst_schedule_per_hour -> Schedule Adherence per hour
+    ➡️ cldst_schedule_per_hour=
     # 🔴 cldst_skills_per_day -> Skills per Day
     ➡️ cldst_skills_per_day=
     # 🔴 cldst_skills_per_dow -> Skills per Day of Week
@@ -1119,77 +1513,129 @@ Do not change the items below:
     ➡️ cldst_skills_per_hr=
     # 🔴 cldst_sla -> Within SLA
     ➡️ cldst_sla=
-    cldst_steps=Kroki
-    cldst_ta_ag_max=Max Ag.
-    cldst_ta_ag_min=Min Ag.
-    cldst_ta_avg_ag=Średni Ag.
-    cldst_ta_avg_ans=Średnio odeb.
-    cldst_ta_avg_out=Średnia wych.
-    cldst_ta_avg_talk=Średnio rozmowa
-    cldst_ta_call_ag=Rozmowy/Ag.
-    cldst_ta_max_dur=Maks. dł.
-    cldst_ta_max_dur_out=Maks. czas.
-    cldst_ta_max_wait_ans=Maks. oczekiwanie odebrane
-    cldst_ta_max_wait_lost=Maks. oczekiwania utracone
-    cldst_ta_n_answ=Odeb.
-    cldst_ta_n_answ_out=Odeb. wych.
-    cldst_ta_n_offered=Wył.
-    cldst_ta_out_in=Wych./przych.
-    cldst_ta_svclvl=Svc Lvl
-    cldst_ta_traffic_analysis_by_period_day=Analiza ruchu - na dzień
-    cldst_ta_traffic_analysis_by_period_dow=Analiza ruchu - DOW
-    cldst_ta_traffic_analysis_by_period_hr=Analiza ruchu - na godzinę
-    cldst_ta_unans=Nieodeb.
-    cldst_ta_unans_short=Nieodeb. krótkie
-    cldst_unans=Nieodeb.
-    cldst_unanswered_call_wait_time_per_day=Czas oczekiwania dla połączeń nieodebranych na dzień
-    cldst_unanswered_call_wait_time_per_day_of_week=Czas oczekiwania dla połączeń nieodebranych na dzień tygodnia
-    cldst_unanswered_call_wait_time_per_dow=Czas oczekiwania dla połączeń nieodebranych na dzień tygodnia
-    cldst_unanswered_call_wait_time_per_hour=Czas oczekiwania dla połączeń nieodebranych na godzinę
-    cldst_unanswered_calls=Połączenia nieodebrane
+    # 🔴 cldst_steps -> Steps
+    ➡️ cldst_steps=
+    # 🔴 cldst_ta_ag_max -> Max Ag.
+    ➡️ cldst_ta_ag_max=
+    # 🔴 cldst_ta_ag_min -> Min Ag.
+    ➡️ cldst_ta_ag_min=
+    # 🔴 cldst_ta_avg_ag -> Avg ag
+    ➡️ cldst_ta_avg_ag=
+    # 🔴 cldst_ta_avg_ans -> Avg ans
+    ➡️ cldst_ta_avg_ans=
+    # 🔴 cldst_ta_avg_out -> Avg out
+    ➡️ cldst_ta_avg_out=
+    # 🔴 cldst_ta_avg_talk -> Avg talk
+    ➡️ cldst_ta_avg_talk=
+    # 🔴 cldst_ta_call_ag -> Calls/Ag
+    ➡️ cldst_ta_call_ag=
+    # 🔴 cldst_ta_max_dur -> Max dur
+    ➡️ cldst_ta_max_dur=
+    # 🔴 cldst_ta_max_dur_out -> Max dur out
+    ➡️ cldst_ta_max_dur_out=
+    # 🔴 cldst_ta_max_wait_ans -> Max wait ans
+    ➡️ cldst_ta_max_wait_ans=
+    # 🔴 cldst_ta_max_wait_lost -> Max wait lost
+    ➡️ cldst_ta_max_wait_lost=
+    # 🔴 cldst_ta_n_answ -> Ans.
+    ➡️ cldst_ta_n_answ=
+    # 🔴 cldst_ta_n_answ_out -> Ans. out
+    ➡️ cldst_ta_n_answ_out=
+    # 🔴 cldst_ta_n_offered -> Off.
+    ➡️ cldst_ta_n_offered=
+    # 🔴 cldst_ta_out_in -> Out/in
+    ➡️ cldst_ta_out_in=
+    # 🔴 cldst_ta_svclvl -> Svc Lvl
+    ➡️ cldst_ta_svclvl=
+    # 🔴 cldst_ta_traffic_analysis_by_period_day -> Traffic Analysis by period - per day
+    ➡️ cldst_ta_traffic_analysis_by_period_day=
+    # 🔴 cldst_ta_traffic_analysis_by_period_dow -> Traffic Analysis by period - per DOW
+    ➡️ cldst_ta_traffic_analysis_by_period_dow=
+    # 🔴 cldst_ta_traffic_analysis_by_period_hr -> Traffic Analysis by period - per hour
+    ➡️ cldst_ta_traffic_analysis_by_period_hr=
+    # 🔴 cldst_ta_unans -> Unans
+    ➡️ cldst_ta_unans=
+    # 🔴 cldst_ta_unans_short -> Unans short
+    ➡️ cldst_ta_unans_short=
+    # 🔴 cldst_unans -> Unans.
+    ➡️ cldst_unans=
+    # 🔴 cldst_unanswered_call_wait_time_per_day -> Unanswered call wait time per day
+    ➡️ cldst_unanswered_call_wait_time_per_day=
+    # 🔴 cldst_unanswered_call_wait_time_per_day_of_week -> Unanswered call wait time per day of week
+    ➡️ cldst_unanswered_call_wait_time_per_day_of_week=
+    # 🔴 cldst_unanswered_call_wait_time_per_dow -> Unanswered call wait time per day of week
+    ➡️ cldst_unanswered_call_wait_time_per_dow=
+    # 🔴 cldst_unanswered_call_wait_time_per_hour -> Unanswered call wait time per hour
+    ➡️ cldst_unanswered_call_wait_time_per_hour=
+    # 🔴 cldst_unanswered_calls -> Unanswered calls
+    ➡️ cldst_unanswered_calls=
 
 ## Custom reports
 
 
 
-    custrep_agent=Konsultant:
-    custrep_agentgroup=Grupa konsultanta:
-    custrep_asterisk_id=Asterisk-ID
-    custrep_call_dur=Długość połączenia
-    custrep_caller=Rozmówca
+    # 🔴 custrep_agent -> Agent:
+    ➡️ custrep_agent=
+    # 🔴 custrep_agentgroup -> Agent Group:
+    ➡️ custrep_agentgroup=
+    # 🔴 custrep_asterisk_id -> Call Unique ID
+    ➡️ custrep_asterisk_id=
+    # 🔴 custrep_call_dur -> Call duration
+    ➡️ custrep_call_dur=
+    # 🔴 custrep_caller -> Caller
+    ➡️ custrep_caller=
     # 🔴 custrep_calltags -> Call tags
     ➡️ custrep_calltags=
-    custrep_criteria=Kryterium filtrowania połączenia
-    custrep_custom_report_analysis=Raport na żądanie
+    # 🔴 custrep_criteria -> Call filtering criteria
+    ➡️ custrep_criteria=
+    # 🔴 custrep_custom_report_analysis -> Custom report analysis
+    ➡️ custrep_custom_report_analysis=
     # 🔴 custrep_date_call -> Call
     ➡️ custrep_date_call=
     # 🔴 custrep_date_callorform -> Date applied to:
     ➡️ custrep_date_callorform=
     # 🔴 custrep_date_form -> Form Filling
     ➡️ custrep_date_form=
-    custrep_disconnection=Powód rozłączenia
-    custrep_dnis=DNIS
-    custrep_end_date=Data zakończenia:
-    custrep_enterpos=Pozycja wejściowa
+    # 🔴 custrep_disconnection -> Disconnection cause
+    ➡️ custrep_disconnection=
+    # 🔴 custrep_dnis -> DNIS
+    ➡️ custrep_dnis=
+    # 🔴 custrep_end_date -> Call end date:
+    ➡️ custrep_end_date=
+    # 🔴 custrep_enterpos -> Enter position
+    ➡️ custrep_enterpos=
     # 🔴 custrep_features -> Call features
     ➡️ custrep_features=
-    custrep_file=Plik:
-    custrep_grader=Oceniający: 
+    # 🔴 custrep_file -> File:
+    ➡️ custrep_file=
+    # 🔴 custrep_grader -> Grader:
+    ➡️ custrep_grader=
     # 🔴 custrep_hourly_slot_minutes -> Hourly slot (minutes)
     ➡️ custrep_hourly_slot_minutes=
-    custrep_ivr_choice=Wybór IVR
-    custrep_list_calls=Lista połączeń
-    custrep_location=Lokalizacja:
-    custrep_max=i
-    custrep_min=między
-    custrep_multistint=Połącz połączenia z wielu okresów:
-    custrep_n_attempts=Liczba prób
+    # 🔴 custrep_ivr_choice -> IVR choice
+    ➡️ custrep_ivr_choice=
+    # 🔴 custrep_list_calls -> List Calls
+    ➡️ custrep_list_calls=
+    # 🔴 custrep_location -> Location:
+    ➡️ custrep_location=
+    # 🔴 custrep_max -> and
+    ➡️ custrep_max=
+    # 🔴 custrep_min -> Between
+    ➡️ custrep_min=
+    # 🔴 custrep_multistint -> Join multi-stint calls:
+    ➡️ custrep_multistint=
+    # 🔴 custrep_n_attempts -> Number of attempts
+    ➡️ custrep_n_attempts=
     # 🔴 custrep_non_contig -> Non-contiguous time:
     ➡️ custrep_non_contig=
-    custrep_outcome=Wynik
-    custrep_queue=Kolejka:
-    custrep_run_custom_report=Uruchom raport na żądanie
-    custrep_server=Serwer
+    # 🔴 custrep_outcome -> Outcome
+    ➡️ custrep_outcome=
+    # 🔴 custrep_queue -> Queue:
+    ➡️ custrep_queue=
+    # 🔴 custrep_run_custom_report -> Run custom report
+    ➡️ custrep_run_custom_report=
+    # 🔴 custrep_server -> Server
+    ➡️ custrep_server=
     # 🔴 custrep_shortcall_attempts -> Short Attempt Wait Limit
     ➡️ custrep_shortcall_attempts=
     # 🔴 custrep_shortcall_talk -> Short Call Talk Limit
@@ -1214,132 +1660,197 @@ Do not change the items below:
     ➡️ custrep_sla_max_initial_delay=
     # 🔴 custrep_sla_max_monitored_delay -> SLA: max period
     ➡️ custrep_sla_max_monitored_delay=
-    custrep_start_date=Data rozpoczęcia:
-    custrep_start_realtime_monitoring=Uruchom Monitoring-OnLine
-    custrep_supervision=Nadzorca:
+    # 🔴 custrep_start_date -> Call start date:
+    ➡️ custrep_start_date=
+    # 🔴 custrep_start_realtime_monitoring -> Start realtime monitoring
+    ➡️ custrep_start_realtime_monitoring=
+    # 🔴 custrep_supervision -> Supervision:
+    ➡️ custrep_supervision=
     # 🔴 custrep_time_period -> Time period
     ➡️ custrep_time_period=
-    custrep_time_zone_offset=Strefa czasowa:
+    # 🔴 custrep_time_zone_offset -> Time zone offset:
+    ➡️ custrep_time_zone_offset=
     # 🔴 custrep_variables -> Variables
     ➡️ custrep_variables=
-    custrep_wait_dur=Długość oczekiwania
+    # 🔴 custrep_wait_dur -> Wait duration
+    ➡️ custrep_wait_dur=
 
 ## Lost calls
 
 
 
-    clko_all_calls=Wszystkie połączenia
-    clko_average_queue_position_at_disconnection=Średnia pozycja w kolejce przed rozłączeniem:
-    clko_average_wait_time_before_disconnection=Średni czas oczekiwania przed rozłączeniem:
+    # 🔴 clko_all_calls -> All calls
+    ➡️ clko_all_calls=
+    # 🔴 clko_average_queue_position_at_disconnection -> Average queue position at disconnection:
+    ➡️ clko_average_queue_position_at_disconnection=
+    # 🔴 clko_average_wait_time_before_disconnection -> Average wait time before disconnection:
+    ➡️ clko_average_wait_time_before_disconnection=
     # 🔴 clko_call_overview -> Call Overview
     ➡️ clko_call_overview=
-    clko_calls_fully_within_the_given_time_interval=Wszystkie połączenia w ciągu podanego interwału czasowego
-    clko_cause=Przyczyna
+    # 🔴 clko_calls_fully_within_the_given_time_interval -> Calls fully within the given time interval
+    ➡️ clko_calls_fully_within_the_given_time_interval=
+    # 🔴 clko_cause -> Cause
+    ➡️ clko_cause=
     # 🔴 clko_chart -> ~
     ➡️ clko_chart=
-    clko_delta=Delta
-    clko_detail=Szczegóły
-    clko_disconnection_causes=Przyczyny rozłączenia
-    clko_dnis_all=DNIS użyty, dla wszystkich połączeń
-    clko_dnis_ko=DNIS użyty
-    clko_hangup=Hangup
+    # 🔴 clko_delta -> Delta
+    ➡️ clko_delta=
+    # 🔴 clko_detail -> Detail
+    ➡️ clko_detail=
+    # 🔴 clko_disconnection_causes -> Disconnection causes
+    ➡️ clko_disconnection_causes=
+    # 🔴 clko_dnis_all -> DNIS used, for all calls
+    ➡️ clko_dnis_all=
+    # 🔴 clko_dnis_ko -> DNIS used
+    ➡️ clko_dnis_ko=
+    # 🔴 clko_hangup -> Hangup
+    ➡️ clko_hangup=
     # 🔴 clko_inclusive_answ_sla -> Inclusive Answered SLA
     ➡️ clko_inclusive_answ_sla=
-    clko_inclusive_sla_computed=SLA (raport połączony - połączenia odebrane/nieodebrane)
-    clko_ivr_all=Wybór IVR, dla wszystkich połączeń
-    clko_ivr_ko=Wybór IVR
-    clko_key=Klawisz
-    clko_keypress=Połączenia nieodebrane, wg wcisnietego klawisza
-    clko_max_queue_position_at_disconnection=Maksymalna pozycja w kolejce przed rozłączeniem:
-    clko_max_wait_time_before_disconnection=Maksymalny czas oczekiwania przed rozłączeniem:
-    clko_min_queue_position_at_disconnection=Minimalna pozycja w kolejce przed rozłączeniem:
-    clko_min_wait_time_before_disconnection=Minimalny czas oczekiwania przed rozłączeniem:
-    clko_n_calls=Ilość połączeń
+    # 🔴 clko_inclusive_sla_computed -> Inclusive SLA (computed on both answered and unanswered calls)
+    ➡️ clko_inclusive_sla_computed=
+    # 🔴 clko_ivr_all -> IVR selection, for all calls
+    ➡️ clko_ivr_all=
+    # 🔴 clko_ivr_ko -> IVR selection
+    ➡️ clko_ivr_ko=
+    # 🔴 clko_key -> Key
+    ➡️ clko_key=
+    # 🔴 clko_keypress -> Unanswered calls by key press
+    ➡️ clko_keypress=
+    # 🔴 clko_max_queue_position_at_disconnection -> Max queue position at disconnection:
+    ➡️ clko_max_queue_position_at_disconnection=
+    # 🔴 clko_max_wait_time_before_disconnection -> Max wait time before disconnection:
+    ➡️ clko_max_wait_time_before_disconnection=
+    # 🔴 clko_min_queue_position_at_disconnection -> Min queue position at disconnection:
+    ➡️ clko_min_queue_position_at_disconnection=
+    # 🔴 clko_min_wait_time_before_disconnection -> Min wait time before disconnection:
+    ➡️ clko_min_wait_time_before_disconnection=
+    # 🔴 clko_n_calls -> N. Calls
+    ➡️ clko_n_calls=
     clko_nbsp= 
-    clko_nof_unanswered_calls=Ilość połączeń nieodebranych:
+    # 🔴 clko_nof_unanswered_calls -> N.of unanswered calls:
+    ➡️ clko_nof_unanswered_calls=
     # 🔴 clko_offered -> Of offered
     ➡️ clko_offered=
     # 🔴 clko_percent -> Percent
     ➡️ clko_percent=
-    clko_qpos_all=Pozycja wejściowa dla wszystkich rozmów
-    clko_qpos_ko=Pozycja wejściowa
-    clko_queue=Kolejka
-    clko_report_details_unanswered_calls=Szczegółowy raport połączeń nieodebranych
+    # 🔴 clko_qpos_all -> Enter queue position for all calls
+    ➡️ clko_qpos_all=
+    # 🔴 clko_qpos_ko -> Enter queue position
+    ➡️ clko_qpos_ko=
+    # 🔴 clko_queue -> Queue
+    ➡️ clko_queue=
+    # 🔴 clko_report_details_unanswered_calls -> Report details unanswered calls
+    ➡️ clko_report_details_unanswered_calls=
     # 🔴 clko_skills_ko -> Required Skills on Lost Calls
     ➡️ clko_skills_ko=
     # 🔴 clko_skills_ok_ko -> Required Skills on All Calls
     ➡️ clko_skills_ok_ko=
-    clko_stints_all=Wszystkie połączenia, na okres
-    clko_stints_ko=Połączenia nieodebrane, na okres
-    clko_threedots=...
-    clko_total_rows_processed=Całkowita ilość wierszy:
-    clko_total_wait_time_before_disconnection=Całkowity czas oczekiwania przed rozłączeniem:
+    # 🔴 clko_stints_all -> All calls, by stints
+    ➡️ clko_stints_all=
+    # 🔴 clko_stints_ko -> Unanswered calls, by stints
+    ➡️ clko_stints_ko=
+    # 🔴 clko_threedots -> ...
+    ➡️ clko_threedots=
+    # 🔴 clko_total_rows_processed -> Total rows processed:
+    ➡️ clko_total_rows_processed=
+    # 🔴 clko_total_wait_time_before_disconnection -> Total wait time before disconnection:
+    ➡️ clko_total_wait_time_before_disconnection=
     # 🔴 clko_unans_nums_recalled -> Numbers recalled
     ➡️ clko_unans_nums_recalled=
     # 🔴 clko_unans_nums_recap -> Recap of all recalls
     ➡️ clko_unans_nums_recap=
     # 🔴 clko_unans_nums_to_recall -> Numbers to be recalled
     ➡️ clko_unans_nums_to_recall=
-    clko_unanswered_calls=Połączenia nieodebrane
-    clko_unanswered_calls_by_queue=Połączenia nieodebrane, na kolejkę
-    clko_unanswered_calls_distribution_by_length=Połączenia nieodebrane - dystrybucja wg długości
-    clko_unanswered_outbound=Nieodebrane połączenia wychodzące, dla konsultanta
-    clko_within_x_seconds=W ciągu ## sekund:
+    # 🔴 clko_unanswered_calls -> Unanswered calls
+    ➡️ clko_unanswered_calls=
+    # 🔴 clko_unanswered_calls_by_queue -> Unanswered calls, by queue
+    ➡️ clko_unanswered_calls_by_queue=
+    # 🔴 clko_unanswered_calls_distribution_by_length -> Unanswered calls - distribution by length
+    ➡️ clko_unanswered_calls_distribution_by_length=
+    # 🔴 clko_unanswered_outbound -> Unanswered outbound calls, by agent
+    ➡️ clko_unanswered_outbound=
+    # 🔴 clko_within_x_seconds -> Within ## seconds:
+    ➡️ clko_within_x_seconds=
 
 ## Report headers
 
 
 
-    clhdr_agentgroup=Filtrowanie po grupie konsultanta:
-    clhdr_ans=Odebranych
-    clhdr_asteriskid=Filtrowanie po UID
-    clhdr_atomic_queues_considered=Raporty dotyczą kolejki/kolejek:
-    clhdr_attempts=Filtrowanie po liczbie prób
+    # 🔴 clhdr_agentgroup -> Filtered by agent group:
+    ➡️ clhdr_agentgroup=
+    # 🔴 clhdr_ans -> ans
+    ➡️ clhdr_ans=
+    # 🔴 clhdr_asteriskid -> Filtered by Unique Id:
+    ➡️ clhdr_asteriskid=
+    # 🔴 clhdr_atomic_queues_considered -> Atomic queue(s) considered:
+    ➡️ clhdr_atomic_queues_considered=
+    # 🔴 clhdr_attempts -> Filtered by number of attempts:
+    ➡️ clhdr_attempts=
     # 🔴 clhdr_available_cols -> Available data columns
     ➡️ clhdr_available_cols=
-    clhdr_call=Filtrowanie po czasie rozmowy
-    clhdr_caller=Filtrowanie po CLIP
+    # 🔴 clhdr_call -> Filtered by conversation time:
+    ➡️ clhdr_call=
+    # 🔴 clhdr_caller -> Filtered by Caller-Id:
+    ➡️ clhdr_caller=
     # 🔴 clhdr_callfeaturecode -> Filtered by feature code:
     ➡️ clhdr_callfeaturecode=
     # 🔴 clhdr_calltag -> Filtered by call tag:
     ➡️ clhdr_calltag=
     # 🔴 clhdr_dayofweek -> Days of week:
     ➡️ clhdr_dayofweek=
-    clhdr_disconnection=Filtrowania po typie rozłączenia
-    clhdr_dnis=Filtrowanie po DNIS
-    clhdr_enterpos=Filtrowanie po pozycji wejściowej
-    clhdr_export_as=Eksportuj jako...
+    # 🔴 clhdr_disconnection -> Filtered by disconnection:
+    ➡️ clhdr_disconnection=
+    # 🔴 clhdr_dnis -> Filtered by DNIS:
+    ➡️ clhdr_dnis=
+    # 🔴 clhdr_enterpos -> Filtered by enter position:
+    ➡️ clhdr_enterpos=
+    # 🔴 clhdr_export_as -> Export as...
+    ➡️ clhdr_export_as=
     # 🔴 clhdr_filter -> Filter
     ➡️ clhdr_filter=
-    clhdr_filtered_for_agent=Filtrowanie wg konsultanta:
-    clhdr_ivr=Filtrowanie po wyborze na IVR
-    clhdr_location=Filtrowanie po lokalizacji
-    clhdr_multistint=Rozmowy z wielu okresów połączone razem
+    # 🔴 clhdr_filtered_for_agent -> Filtered for agent:
+    ➡️ clhdr_filtered_for_agent=
+    # 🔴 clhdr_ivr -> Filtered by IVR selection:
+    ➡️ clhdr_ivr=
+    # 🔴 clhdr_location -> Filtered by location:
+    ➡️ clhdr_location=
+    # 🔴 clhdr_multistint -> Multi-stint calls joined together
+    ➡️ clhdr_multistint=
     # 🔴 clhdr_normalizedcaller -> Normalized Caller
     ➡️ clhdr_normalizedcaller=
-    clhdr_outcome=Filtrowanie po wyniku rozmowy
+    # 🔴 clhdr_outcome -> Filtered by call outcome:
+    ➡️ clhdr_outcome=
     # 🔴 clhdr_perc_calls_processed -> Ratio:
     ➡️ clhdr_perc_calls_processed=
-    clhdr_period_end_date=Koniec okresu raportowania:
-    clhdr_period_start_date=Początek okresu raportowania:
+    # 🔴 clhdr_period_end_date -> Period end date:
+    ➡️ clhdr_period_end_date=
+    # 🔴 clhdr_period_start_date -> Period start date:
+    ➡️ clhdr_period_start_date=
     # 🔴 clhdr_preferences -> Preferences
     ➡️ clhdr_preferences=
-    clhdr_report_details=Raport szczgółowy:
+    # 🔴 clhdr_report_details -> Report Details:
+    ➡️ clhdr_report_details=
     # 🔴 clhdr_report_generated -> Report generated on:
     ➡️ clhdr_report_generated=
     # 🔴 clhdr_search -> Search
     ➡️ clhdr_search=
-    clhdr_server=Filtrowanie po serwerze
+    # 🔴 clhdr_server -> Filtered by  server:
+    ➡️ clhdr_server=
     # 🔴 clhdr_short_calls -> Short Calls
     ➡️ clhdr_short_calls=
     # 🔴 clhdr_skill -> Filtered by skills:
     ➡️ clhdr_skill=
-    clhdr_supervised_by=Nadzorowane przez:
+    # 🔴 clhdr_supervised_by -> Supervised by:
+    ➡️ clhdr_supervised_by=
     # 🔴 clhdr_timerange -> Time range:
     ➡️ clhdr_timerange=
-    clhdr_total_calls_processed=Wszystkie połączenia:
-    clhdr_unans=Nieodebranych
-    clhdr_wait=Filtrowanie po czasie oczekiwania
+    # 🔴 clhdr_total_calls_processed -> Total calls processed:
+    ➡️ clhdr_total_calls_processed=
+    # 🔴 clhdr_unans -> Unans
+    ➡️ clhdr_unans=
+    # 🔴 clhdr_wait -> Filtered by wait time:
+    ➡️ clhdr_wait=
 
 ## Taken calls
 
@@ -1347,54 +1858,82 @@ Do not change the items below:
 
     # 🔴 clok_% -> %
     ➡️ clok_%=
-    clok_agent=Konsultant
-    clok_agents_on_queue=Konsultanci w kolejce
-    clok_all_calls=Wszystkie połączenia
-    clok_answer=Odebrane
-    clok_answered_calls=Połączenia odebrane
-    clok_answered_calls_by_direction=Połączenia odebrane, na kierunek
-    clok_answered_calls_by_queue=Połączenia odebrane, na kolejkę
-    clok_average_call_length=Średnia długość połączenia:
-    clok_average_call_waiting_time=Średni czas oczekiwania:
-    clok_average_initial_position=Średnia pozycja w kolejce
-    clok_averagetime=Średnia długość połączenia
+    # 🔴 clok_agent -> Agent
+    ➡️ clok_agent=
+    # 🔴 clok_agents_on_queue -> Agents on queue
+    ➡️ clok_agents_on_queue=
+    # 🔴 clok_all_calls -> All calls
+    ➡️ clok_all_calls=
+    # 🔴 clok_answer -> Answer
+    ➡️ clok_answer=
+    # 🔴 clok_answered_calls -> Answered calls
+    ➡️ clok_answered_calls=
+    # 🔴 clok_answered_calls_by_direction -> Answered calls, by direction
+    ➡️ clok_answered_calls_by_direction=
+    # 🔴 clok_answered_calls_by_queue -> Answered calls, by queue
+    ➡️ clok_answered_calls_by_queue=
+    # 🔴 clok_average_call_length -> Average call length:
+    ➡️ clok_average_call_length=
+    # 🔴 clok_average_call_waiting_time -> Average call waiting time:
+    ➡️ clok_average_call_waiting_time=
+    # 🔴 clok_average_initial_position -> Average initial position
+    ➡️ clok_average_initial_position=
+    # 🔴 clok_averagetime -> Average call time
+    ➡️ clok_averagetime=
     # 🔴 clok_calls_answered -> Calls answered
     ➡️ clok_calls_answered=
-    clok_calls_fully_within_the_given_time_interval=Wszystkie połączenia w ciągu podanego interwału czasowego
+    # 🔴 clok_calls_fully_within_the_given_time_interval -> Calls fully within the given time interval
+    ➡️ clok_calls_fully_within_the_given_time_interval=
     # 🔴 clok_calls_lost -> Calls lost
     ➡️ clok_calls_lost=
     # 🔴 clok_calls_offered -> Calls offered
     ➡️ clok_calls_offered=
-    clok_cause=Powód
+    # 🔴 clok_cause -> Cause
+    ➡️ clok_cause=
     # 🔴 clok_chart -> Histogram
     ➡️ clok_chart=
-    clok_coverage_initial_position=Pokrycie
-    clok_delta=Delta
-    clok_detail=Szczegóły
-    clok_direction=Kierunek
-    clok_disconnection_causes=Przyczyny rozłączenia
-    clok_dnis=DNIS użyty
-    clok_dnis_choice=DNIS
+    # 🔴 clok_coverage_initial_position -> Coverage
+    ➡️ clok_coverage_initial_position=
+    # 🔴 clok_delta -> Delta
+    ➡️ clok_delta=
+    # 🔴 clok_detail -> Detail
+    ➡️ clok_detail=
+    # 🔴 clok_direction -> Direction
+    ➡️ clok_direction=
+    # 🔴 clok_disconnection_causes -> Disconnection causes
+    ➡️ clok_disconnection_causes=
+    # 🔴 clok_dnis -> DNIS used
+    ➡️ clok_dnis=
+    # 🔴 clok_dnis_choice -> DNIS
+    ➡️ clok_dnis_choice=
     # 🔴 clok_grouping -> Open Group
     ➡️ clok_grouping=
     # 🔴 clok_hdr -> Report Header
     ➡️ clok_hdr=
-    clok_ivr=Wybór IVR
+    # 🔴 clok_ivr -> IVR selection
+    ➡️ clok_ivr=
     # 🔴 clok_ivrMaxTime -> Max Duration
     ➡️ clok_ivrMaxTime=
     # 🔴 clok_ivr_avgTime -> Average Duration
     ➡️ clok_ivr_avgTime=
-    clok_ivr_choice=IVR
+    # 🔴 clok_ivr_choice -> IVR
+    ➡️ clok_ivr_choice=
     # 🔴 clok_ivr_minTime -> Min Duration
     ➡️ clok_ivr_minTime=
     # 🔴 clok_ivr_totTime -> Total Duration
     ➡️ clok_ivr_totTime=
-    clok_max_call_length=Maksymalna długość połączenia:
-    clok_max_initial_position=Maksymalna pozycja w kolejce
-    clok_max_waiting_time=Maksymalny czas oczekiwania:
-    clok_min_call_length=Minimalna długość połączenia:
-    clok_min_initial_position=Mininimalna pozycja w kolejce
-    clok_min_waiting_time=Minimalny czas oczekiwania:
+    # 🔴 clok_max_call_length -> Max call length:
+    ➡️ clok_max_call_length=
+    # 🔴 clok_max_initial_position -> Max initial position
+    ➡️ clok_max_initial_position=
+    # 🔴 clok_max_waiting_time -> Max waiting time:
+    ➡️ clok_max_waiting_time=
+    # 🔴 clok_min_call_length -> Min call length:
+    ➡️ clok_min_call_length=
+    # 🔴 clok_min_initial_position -> Min initial position
+    ➡️ clok_min_initial_position=
+    # 🔴 clok_min_waiting_time -> Min waiting time:
+    ➡️ clok_min_waiting_time=
     # 🔴 clok_moh -> Music-on-Hold by Agent
     ➡️ clok_moh=
     # 🔴 clok_moh_average -> Average Duration
@@ -1405,19 +1944,27 @@ Do not change the items below:
     ➡️ clok_mohevts_avg=
     # 🔴 clok_mohtotal -> Total Duration
     ➡️ clok_mohtotal=
-    clok_n_calls=Liczba połączeń
-    clok_n_calls_answered_by_operators=Liczba połączeń odebranych przez konsultantów:
-    clok_n_stints=Liczba okresów
+    # 🔴 clok_n_calls -> N. Calls
+    ➡️ clok_n_calls=
+    # 🔴 clok_n_calls_answered_by_operators -> N. calls answered by operators:
+    ➡️ clok_n_calls_answered_by_operators=
+    # 🔴 clok_n_stints -> Number of stints
+    ➡️ clok_n_stints=
     clok_nbsp= 
     # 🔴 clok_offered -> Of Offered
     ➡️ clok_offered=
     # 🔴 clok_percent -> Percent
     ➡️ clok_percent=
-    clok_position_enter=Pozycja przy wejściu
-    clok_queue=Kolejka
-    clok_queue_position=Pozycja w kolejce
-    clok_report_details_answered_calls=Szczegółowy raport połączeń odebranych
-    clok_service_level_agreement=Service level
+    # 🔴 clok_position_enter -> Position at enter
+    ➡️ clok_position_enter=
+    # 🔴 clok_queue -> Queue
+    ➡️ clok_queue=
+    # 🔴 clok_queue_position -> Queue position
+    ➡️ clok_queue_position=
+    # 🔴 clok_report_details_answered_calls -> Report details answered calls
+    ➡️ clok_report_details_answered_calls=
+    # 🔴 clok_service_level_agreement -> Service level agreement
+    ➡️ clok_service_level_agreement=
     # 🔴 clok_skill_avglevel -> Avg lvl
     ➡️ clok_skill_avglevel=
     # 🔴 clok_skill_avgtalk -> Avg Talk
@@ -1432,16 +1979,26 @@ Do not change the items below:
     ➡️ clok_skill_name=
     # 🔴 clok_skills_ok -> Required Skills on Taken Calls
     ➡️ clok_skills_ok=
-    clok_stints=Połączenia odebrane, na okres
-    clok_threedots=...
-    clok_total_call_length=Całkowita długość połączeń:
-    clok_total_rows_processed=Całkowita liczba wierszy:
-    clok_total_waiting_time=Całkowity czas oczekiwania:
-    clok_totalcalltime=Całkowity czas połączenia
-    clok_transfer_to=Transfer do
-    clok_transfers=Transfery
-    clok_untracked=Bez ścieżki
-    clok_within_xx_seconds=W ciągu ## sekund:
+    # 🔴 clok_stints -> Answered calls, by stints
+    ➡️ clok_stints=
+    # 🔴 clok_threedots -> ...
+    ➡️ clok_threedots=
+    # 🔴 clok_total_call_length -> Total call length:
+    ➡️ clok_total_call_length=
+    # 🔴 clok_total_rows_processed -> Total rows processed:
+    ➡️ clok_total_rows_processed=
+    # 🔴 clok_total_waiting_time -> Total waiting time:
+    ➡️ clok_total_waiting_time=
+    # 🔴 clok_totalcalltime -> Total call time
+    ➡️ clok_totalcalltime=
+    # 🔴 clok_transfer_to -> Transfer to
+    ➡️ clok_transfer_to=
+    # 🔴 clok_transfers -> Transfers
+    ➡️ clok_transfers=
+    # 🔴 clok_untracked -> Untracked
+    ➡️ clok_untracked=
+    # 🔴 clok_within_xx_seconds -> Within ## seconds:
+    ➡️ clok_within_xx_seconds=
 
 ## Call events
 
@@ -1552,19 +2109,30 @@ Do not change the items below:
     ➡️ hdr_agaw_logs=
     # 🔴 hdr_agaw_status -> Status
     ➡️ hdr_agaw_status=
-    hdr_agents=Konsultanci
-    hdr_agents_det=Kons.szczeg.
-    hdr_agents_det_title=Szczególy sesji i pauz konsultanta
-    hdr_agents_title=Konsultanci i sesje
-    hdr_all=Wszystko
+    # 🔴 hdr_agents -> Agents
+    ➡️ hdr_agents=
+    # 🔴 hdr_agents_det -> Ag.Dt.
+    ➡️ hdr_agents_det=
+    # 🔴 hdr_agents_det_title -> Details of Agent sessions and pauses
+    ➡️ hdr_agents_det_title=
+    # 🔴 hdr_agents_title -> Agents and Sessions
+    ➡️ hdr_agents_title=
+    # 🔴 hdr_all -> All
+    ➡️ hdr_all=
     # 🔴 hdr_amo -> AMO
     ➡️ hdr_amo=
-    hdr_answered=Odebrane
-    hdr_answered_details=Odeb.szczeg.
-    hdr_answered_details_title=Szczegóły połączeń odebranych
-    hdr_area=Kod
-    hdr_area_title=Analiza po prefiksie
-    hdr_attempts=Próby
+    # 🔴 hdr_answered -> Answered
+    ➡️ hdr_answered=
+    # 🔴 hdr_answered_details -> Ans.Dt.
+    ➡️ hdr_answered_details=
+    # 🔴 hdr_answered_details_title -> Details of answered calls
+    ➡️ hdr_answered_details_title=
+    # 🔴 hdr_area -> Area
+    ➡️ hdr_area=
+    # 🔴 hdr_area_title -> Area code analysis
+    ➡️ hdr_area_title=
+    # 🔴 hdr_attempts -> Att.
+    ➡️ hdr_attempts=
     # 🔴 hdr_broadcast -> Broadcast
     ➡️ hdr_broadcast=
     # 🔴 hdr_calls -> Calls
@@ -1599,14 +2167,22 @@ Do not change the items below:
     ➡️ hdr_dbtest_ram_cache=
     # 🔴 hdr_dbtest_smtp -> Test SMTP
     ➡️ hdr_dbtest_smtp=
-    hdr_distrib=Dystrybucja
-    hdr_distrib_day=Dzień
-    hdr_distrib_day_title=Dystrybucja połączeń, na dzień
-    hdr_distrib_dow=Dz.tyg.
-    hdr_distrib_dow_title=Dystrybucja połączeń, na dzień tygodznia
-    hdr_distrib_hour=Godz.
-    hdr_distrib_hour_title=Dystrybucja połączeń, na godzinę
-    hdr_distrib_title=Dystrybucja połączeń
+    # 🔴 hdr_distrib -> Distrib.
+    ➡️ hdr_distrib=
+    # 🔴 hdr_distrib_day -> Day
+    ➡️ hdr_distrib_day=
+    # 🔴 hdr_distrib_day_title -> Call distribution, by day
+    ➡️ hdr_distrib_day_title=
+    # 🔴 hdr_distrib_dow -> DOW
+    ➡️ hdr_distrib_dow=
+    # 🔴 hdr_distrib_dow_title -> Call distribution, by day of week
+    ➡️ hdr_distrib_dow_title=
+    # 🔴 hdr_distrib_hour -> Hr.
+    ➡️ hdr_distrib_hour=
+    # 🔴 hdr_distrib_hour_title -> Call distribution, by hour
+    ➡️ hdr_distrib_hour_title=
+    # 🔴 hdr_distrib_title -> Call distribuition
+    ➡️ hdr_distrib_title=
     # 🔴 hdr_dnis -> DNIS
     ➡️ hdr_dnis=
     # 🔴 hdr_exports -> Exports
@@ -1619,7 +2195,8 @@ Do not change the items below:
     ➡️ hdr_features=
     # 🔴 hdr_groups -> Groups
     ➡️ hdr_groups=
-    hdr_home=Strona domowa
+    # 🔴 hdr_home -> Home
+    ➡️ hdr_home=
     # 🔴 hdr_ivr -> IVR
     ➡️ hdr_ivr=
     # 🔴 hdr_ivr_title -> IVR Analysis
@@ -1632,18 +2209,22 @@ Do not change the items below:
     ➡️ hdr_live=
     # 🔴 hdr_locations -> Locations
     ➡️ hdr_locations=
-    hdr_logoff=Wyloguj
+    # 🔴 hdr_logoff -> Log off
+    ➡️ hdr_logoff=
     # 🔴 hdr_numbers -> Nums
     ➡️ hdr_numbers=
-    hdr_outcomes=Wyniki
-    hdr_outcomes_title=Wyniki rozmowy
+    # 🔴 hdr_outcomes -> Outcomes
+    ➡️ hdr_outcomes=
+    # 🔴 hdr_outcomes_title -> Call outcomes
+    ➡️ hdr_outcomes_title=
     # 🔴 hdr_pauses -> Pauses
     ➡️ hdr_pauses=
     # 🔴 hdr_performance -> Performance
     ➡️ hdr_performance=
     # 🔴 hdr_performancetrack -> PrfTrk
     ➡️ hdr_performancetrack=
-    hdr_print=Drukuj
+    # 🔴 hdr_print -> Print
+    ➡️ hdr_print=
     # 🔴 hdr_qa -> QA
     ➡️ hdr_qa=
     # 🔴 hdr_qa_calibration -> QA Calibration Report
@@ -1662,7 +2243,8 @@ Do not change the items below:
     ➡️ hdr_realtime=
     # 🔴 hdr_reports -> Reports
     ➡️ hdr_reports=
-    hdr_resetquery=Reset poarametrów zapytania
+    # 🔴 hdr_resetquery -> Reset query parameters
+    ➡️ hdr_resetquery=
     # 🔴 hdr_rt -> RT
     ➡️ hdr_rt=
     # 🔴 hdr_rt_title -> Real-Time Metrics
@@ -1683,10 +2265,14 @@ Do not change the items below:
     ➡️ hdr_tasks_rss=
     # 🔴 hdr_tc -> T&C
     ➡️ hdr_tc=
-    hdr_unanswered=Nieodebrane
-    hdr_unanswered_details=Nieodeb.szczeg.
-    hdr_unanswered_details_title=Szczegóły nieodebranych połączeń
-    hdr_user=Info
+    # 🔴 hdr_unanswered -> Unans.
+    ➡️ hdr_unanswered=
+    # 🔴 hdr_unanswered_details -> Unans.Dt.
+    ➡️ hdr_unanswered_details=
+    # 🔴 hdr_unanswered_details_title -> Details of unanswered calls
+    ➡️ hdr_unanswered_details_title=
+    # 🔴 hdr_user -> User profile information
+    ➡️ hdr_user=
     # 🔴 hdr_users -> Users
     ➡️ hdr_users=
 
@@ -2780,33 +3366,48 @@ Do not change the items below:
 
 
 
-    qa_agent=Agent
-    qa_agent_groups=Grupy konsultanta
+    # 🔴 qa_agent -> Agent
+    ➡️ qa_agent=
+    # 🔴 qa_agent_groups -> Agent groups
+    ➡️ qa_agent_groups=
     # 🔴 qa_agent_groups_icon -> Icon
     ➡️ qa_agent_groups_icon=
-    qa_all_calls=Wszystkie połączenia
+    # 🔴 qa_all_calls -> All Calls
+    ➡️ qa_all_calls=
     # 🔴 qa_analyst -> QA Analyst
     ➡️ qa_analyst=
-    qa_astclid=AstClid
-    qa_audio_recordings=Nagrania
-    qa_average=Średni
-    qa_avg_score=Średnia
-    qa_btn_back=Wstecz
+    # 🔴 qa_astclid -> AstClid
+    ➡️ qa_astclid=
+    # 🔴 qa_audio_recordings -> Audio recordings
+    ➡️ qa_audio_recordings=
+    # 🔴 qa_average -> Avg.
+    ➡️ qa_average=
+    # 🔴 qa_avg_score -> Avg
+    ➡️ qa_avg_score=
+    # 🔴 qa_btn_back -> Back
+    ➡️ qa_btn_back=
     # 🔴 qa_btn_compact -> Toggle N/As
     ➡️ qa_btn_compact=
     # 🔴 qa_btn_delete -> Delete
     ➡️ qa_btn_delete=
     # 🔴 qa_btn_editscoredform -> Edit
     ➡️ qa_btn_editscoredform=
-    qa_btn_save=Zapisz
+    # 🔴 qa_btn_save -> Save
+    ➡️ qa_btn_save=
     # 🔴 qa_btn_update -> Update
     ➡️ qa_btn_update=
-    qa_call_detail=Szczegóły połączenia
-    qa_call_outcomes=Wyniki połączeń
-    qa_caller=Klient
-    qa_comment=Komentarz
-    qa_date=Data
-    qa_form=Forma
+    # 🔴 qa_call_detail -> Call details
+    ➡️ qa_call_detail=
+    # 🔴 qa_call_outcomes -> Call outcomes
+    ➡️ qa_call_outcomes=
+    # 🔴 qa_caller -> Caller
+    ➡️ qa_caller=
+    # 🔴 qa_comment -> Comment
+    ➡️ qa_comment=
+    # 🔴 qa_date -> Date
+    ➡️ qa_date=
+    # 🔴 qa_form -> Form:
+    ➡️ qa_form=
     # 🔴 qa_frm_about -> About
     ➡️ qa_frm_about=
     # 🔴 qa_frm_addbtn -> Add
@@ -2821,75 +3422,122 @@ Do not change the items below:
     ➡️ qa_frm_cmtdlg_title_about=
     # 🔴 qa_frm_cmtdlg_title_ofform -> of form
     ➡️ qa_frm_cmtdlg_title_ofform=
-    qa_frm_code=Kod
-    qa_frm_commentid=Id
-    qa_frm_desc=Opis
-    qa_frm_feedback=Notatki
+    # 🔴 qa_frm_code -> Code
+    ➡️ qa_frm_code=
+    # 🔴 qa_frm_commentid -> Id
+    ➡️ qa_frm_commentid=
+    # 🔴 qa_frm_desc -> Description
+    ➡️ qa_frm_desc=
+    # 🔴 qa_frm_feedback -> Notes
+    ➡️ qa_frm_feedback=
     # 🔴 qa_frm_item -> Form, Question
     ➡️ qa_frm_item=
-    qa_frm_itemtype_dropdown=Multi wartość
-    qa_frm_itemtype_freetype=Numer
-    qa_frm_itemtype_yesno=Tak/Nie
-    qa_frm_mandatory=N/A
+    # 🔴 qa_frm_itemtype_dropdown -> Multi Value
+    ➡️ qa_frm_itemtype_dropdown=
+    # 🔴 qa_frm_itemtype_freetype -> Number
+    ➡️ qa_frm_itemtype_freetype=
+    # 🔴 qa_frm_itemtype_yesno -> Yes/No
+    ➡️ qa_frm_itemtype_yesno=
+    # 🔴 qa_frm_mandatory -> N/A
+    ➡️ qa_frm_mandatory=
     # 🔴 qa_frm_noformavailable -> No forms available to be graded and/or read
     ➡️ qa_frm_noformavailable=
-    qa_frm_st=Status
-    qa_frm_st_approved=Zatwierdzono
-    qa_frm_st_default=-
-    qa_frm_st_notapproved=Nie zatwierdzony
-    qa_frm_status=Status
-    qa_frm_statuscode=Status kod
-    qa_frm_user=Użytkownik
-    qa_frm_value=Wartość
+    # 🔴 qa_frm_st -> Status
+    ➡️ qa_frm_st=
+    # 🔴 qa_frm_st_approved -> Approved
+    ➡️ qa_frm_st_approved=
+    # 🔴 qa_frm_st_default -> -
+    ➡️ qa_frm_st_default=
+    # 🔴 qa_frm_st_notapproved -> Not approved
+    ➡️ qa_frm_st_notapproved=
+    # 🔴 qa_frm_status -> Status
+    ➡️ qa_frm_status=
+    # 🔴 qa_frm_statuscode -> Status code
+    ➡️ qa_frm_statuscode=
+    # 🔴 qa_frm_user -> User
+    ➡️ qa_frm_user=
+    # 🔴 qa_frm_value -> Value
+    ➡️ qa_frm_value=
     # 🔴 qa_gradeedit_comment -> This form was edited. Previous graded score was
     ➡️ qa_gradeedit_comment=
-    qa_grading_change_criteria=Zmień kryteria wyszukiwania
-    qa_grading_page=Strona ocen
-    qa_grading_run_again=Uruchom ponownie
-    qa_grading_search_form=Formulara wyszukiwania ocen
-    qa_grading_suggested_calls=Proponowane rozmowy
-    qa_gradings_stats=Docelowe statystyki
+    # 🔴 qa_grading_change_criteria -> Change search criteria
+    ➡️ qa_grading_change_criteria=
+    # 🔴 qa_grading_page -> Grading page
+    ➡️ qa_grading_page=
+    # 🔴 qa_grading_run_again -> Run again
+    ➡️ qa_grading_run_again=
+    # 🔴 qa_grading_search_form -> Grading search form
+    ➡️ qa_grading_search_form=
+    # 🔴 qa_grading_suggested_calls -> Suggested calls
+    ➡️ qa_grading_suggested_calls=
+    # 🔴 qa_gradings_stats -> Target statistics
+    ➡️ qa_gradings_stats=
     # 🔴 qa_gtype_agent -> Peers
     ➡️ qa_gtype_agent=
     # 🔴 qa_gtype_caller -> Users
     ➡️ qa_gtype_caller=
     # 🔴 qa_gtype_grader -> Graders
     ➡️ qa_gtype_grader=
-    qa_individual_agents=Indywidualni konsultanci
-    qa_input_form=Formularz wejściowy:
+    # 🔴 qa_individual_agents -> Individual agents
+    ➡️ qa_individual_agents=
+    # 🔴 qa_input_form -> Input form
+    ➡️ qa_input_form=
     # 🔴 qa_input_form_tasks -> Tasks
     ➡️ qa_input_form_tasks=
     # 🔴 qa_itemcomment_title -> Click here to add a note
     ➡️ qa_itemcomment_title=
-    qa_items=Pozycje
-    qa_level=Poziom
-    qa_lvl_exc=Exceeds exp.
-    qa_lvl_issue=Wydanie
-    qa_lvl_meets=Spotkania
-    qa_lvl_req=Req. Impr.
-    qa_max=Max
-    qa_max_perc=Maks. %
-    qa_menu_grader_report=Raport ocen
-    qa_menu_grader_search=Osoba oceniająca
+    # 🔴 qa_items -> Items
+    ➡️ qa_items=
+    # 🔴 qa_level -> Level
+    ➡️ qa_level=
+    # 🔴 qa_lvl_exc -> Exceeds exp.
+    ➡️ qa_lvl_exc=
+    # 🔴 qa_lvl_issue -> Issue
+    ➡️ qa_lvl_issue=
+    # 🔴 qa_lvl_meets -> Meets exp.
+    ➡️ qa_lvl_meets=
+    # 🔴 qa_lvl_req -> Req. Impr.
+    ➡️ qa_lvl_req=
+    # 🔴 qa_max -> Max
+    ➡️ qa_max=
+    # 🔴 qa_max_perc -> Max %
+    ➡️ qa_max_perc=
+    # 🔴 qa_menu_grader_report -> Grader Report
+    ➡️ qa_menu_grader_report=
+    # 🔴 qa_menu_grader_search -> Grader
+    ➡️ qa_menu_grader_search=
     # 🔴 qa_menu_perftracker_detail -> Ag. Detail
     ➡️ qa_menu_perftracker_detail=
     # 🔴 qa_menu_perftracker_report -> Ag. Scoring
     ➡️ qa_menu_perftracker_report=
     # 🔴 qa_menu_perftracker_search -> Perf. Track
     ➡️ qa_menu_perftracker_search=
-    qa_min_num=Min #
-    qa_min_perc=Min %
-    qa_n_calls=Liczba połączeń
-    qa_n_exceeds=Exc.
-    qa_n_improvem=Impr.
-    qa_n_issue=Wydanie
-    qa_n_meets=Spotkań
-    qa_num_act=#
-    qa_num_min=# wymagane
-    qa_num_rem=# pozostałych
-    qa_num_tot=Znaleziono
-    qa_on_date=Data
-    qa_overall_performance=Całkowita wydajność
+    # 🔴 qa_min_num -> Min #
+    ➡️ qa_min_num=
+    # 🔴 qa_min_perc -> Min %
+    ➡️ qa_min_perc=
+    # 🔴 qa_n_calls -> N.Calls
+    ➡️ qa_n_calls=
+    # 🔴 qa_n_exceeds -> Exc.
+    ➡️ qa_n_exceeds=
+    # 🔴 qa_n_improvem -> Impr.
+    ➡️ qa_n_improvem=
+    # 🔴 qa_n_issue -> Issue
+    ➡️ qa_n_issue=
+    # 🔴 qa_n_meets -> Meet
+    ➡️ qa_n_meets=
+    # 🔴 qa_num_act -> #
+    ➡️ qa_num_act=
+    # 🔴 qa_num_min -> # needed
+    ➡️ qa_num_min=
+    # 🔴 qa_num_rem -> # remaining
+    ➡️ qa_num_rem=
+    # 🔴 qa_num_tot -> Found
+    ➡️ qa_num_tot=
+    # 🔴 qa_on_date -> Date
+    ➡️ qa_on_date=
+    # 🔴 qa_overall_performance -> Overall Performance
+    ➡️ qa_overall_performance=
     # 🔴 qa_perftrack_ag_actions -> Actions
     ➡️ qa_perftrack_ag_actions=
     # 🔴 qa_perftrack_ag_history -> Agent History
@@ -3064,9 +3712,12 @@ Do not change the items below:
     ➡️ qa_perftrack_tot_calls=
     # 🔴 qa_perftrack_visible_calls -> Visible calls
     ➡️ qa_perftrack_visible_calls=
-    qa_pop_addcomment=Dodaj
-    qa_pop_alreadyfilled=Formularz został utworzony przez innego użytkownika
-    qa_pop_comments=Notatki
+    # 🔴 qa_pop_addcomment -> Add
+    ➡️ qa_pop_addcomment=
+    # 🔴 qa_pop_alreadyfilled -> The form was already graded for this call.
+    ➡️ qa_pop_alreadyfilled=
+    # 🔴 qa_pop_comments -> Notes
+    ➡️ qa_pop_comments=
     # 🔴 qa_pop_delcomment -> Delete this note
     ➡️ qa_pop_delcomment=
     # 🔴 qa_pop_delcomments -> Delete All
@@ -3075,22 +3726,36 @@ Do not change the items below:
     ➡️ qa_pop_delcommentsalert=
     # 🔴 qa_pop_deleted -> This form has been deleted
     ➡️ qa_pop_deleted=
-    qa_pop_form=QA
-    qa_pop_print=Drukuj
-    qa_prc_act=%
-    qa_prc_min=% wymagane
-    qa_queryfilterwarn=Tylko jeden filtr konsultanta jest obecnie dostępny
-    qa_queue=Kolejka
+    # 🔴 qa_pop_form -> QA
+    ➡️ qa_pop_form=
+    # 🔴 qa_pop_print -> Print
+    ➡️ qa_pop_print=
+    # 🔴 qa_prc_act -> %
+    ➡️ qa_prc_act=
+    # 🔴 qa_prc_min -> % needed
+    ➡️ qa_prc_min=
+    # 🔴 qa_queryfilterwarn -> Only one agent filter selection at time is supported.
+    ➡️ qa_queryfilterwarn=
+    # 🔴 qa_queue -> Queue
+    ➡️ qa_queue=
     # 🔴 qa_range -> Range
     ➡️ qa_range=
-    qa_report_calc=Kalkuluj
-    qa_report_data=Raportuj dane
-    qa_report_detail=Szczegóły dla:
-    qa_report_filterby=Filtr po
-    qa_report_header_enddate=Koniec okresu:
-    qa_report_header_startdate=Początek okresu:
-    qa_report_header_timestamp=Utworzone przez:
-    qa_reports=Ocena jakości
+    # 🔴 qa_report_calc -> Calculate
+    ➡️ qa_report_calc=
+    # 🔴 qa_report_data -> Report data
+    ➡️ qa_report_data=
+    # 🔴 qa_report_detail -> Detail for:
+    ➡️ qa_report_detail=
+    # 🔴 qa_report_filterby -> Filter by
+    ➡️ qa_report_filterby=
+    # 🔴 qa_report_header_enddate -> End period:
+    ➡️ qa_report_header_enddate=
+    # 🔴 qa_report_header_startdate -> Start period:
+    ➡️ qa_report_header_startdate=
+    # 🔴 qa_report_header_timestamp -> Created by:
+    ➡️ qa_report_header_timestamp=
+    # 🔴 qa_reports -> Quality Assessment
+    ➡️ qa_reports=
     # 🔴 qa_reports_mcr_average -> Average
     ➡️ qa_reports_mcr_average=
     # 🔴 qa_reports_mcr_calls -> Calls
@@ -3127,46 +3792,80 @@ Do not change the items below:
     ➡️ qa_reports_summary_overall=
     # 🔴 qa_reports_summary_scoring -> Scoring questions
     ➡️ qa_reports_summary_scoring=
-    qa_score=Wynik
-    qa_search_form=Szukaj
-    qa_section=Sekcja:
-    qa_section10_score=Sekcja 10 śr:
-    qa_section1_score=Sekcja 1 śr.:
-    qa_section2_score=Sekcja 2 śr.:
-    qa_section3_score=Sekcja 3 śr.:
-    qa_section4_score=Sekcja 4 śr.:
-    qa_section5_score=Sekcja 5 śr.:
-    qa_section6_score=Sekcja 6 śr.:
-    qa_section7_score=Sekcja 7 śr.:
-    qa_section8_score=Sekcja 8 śr.:
-    qa_section9_score=Sekcja 9 śr.:
-    qa_start_time=Czas startu
-    qa_summary_avgscore=Śr. wynik
-    qa_summary_best=Najlepszy
-    qa_summary_calc=Pokaż podsumowanie
-    qa_summary_data=Podsumowanie formularza
-    qa_summary_detail=Filtr po:
+    # 🔴 qa_score -> Score
+    ➡️ qa_score=
+    # 🔴 qa_search_form -> Search
+    ➡️ qa_search_form=
+    # 🔴 qa_section -> Section:
+    ➡️ qa_section=
+    # 🔴 qa_section10_score -> Section 10 avg:
+    ➡️ qa_section10_score=
+    # 🔴 qa_section1_score -> Section 1 avg:
+    ➡️ qa_section1_score=
+    # 🔴 qa_section2_score -> Section 2 avg:
+    ➡️ qa_section2_score=
+    # 🔴 qa_section3_score -> Section 3 avg:
+    ➡️ qa_section3_score=
+    # 🔴 qa_section4_score -> Section 4 avg:
+    ➡️ qa_section4_score=
+    # 🔴 qa_section5_score -> Section 5 avg:
+    ➡️ qa_section5_score=
+    # 🔴 qa_section6_score -> Section 6 avg:
+    ➡️ qa_section6_score=
+    # 🔴 qa_section7_score -> Section 7 avg:
+    ➡️ qa_section7_score=
+    # 🔴 qa_section8_score -> Section 8 avg:
+    ➡️ qa_section8_score=
+    # 🔴 qa_section9_score -> Section 9 avg:
+    ➡️ qa_section9_score=
+    # 🔴 qa_start_time -> Start time
+    ➡️ qa_start_time=
+    # 🔴 qa_summary_avgscore -> Avg score
+    ➡️ qa_summary_avgscore=
+    # 🔴 qa_summary_best -> Exc.
+    ➡️ qa_summary_best=
+    # 🔴 qa_summary_calc -> Show Summary
+    ➡️ qa_summary_calc=
+    # 🔴 qa_summary_data -> Form summary
+    ➡️ qa_summary_data=
+    # 🔴 qa_summary_detail -> Filter by
+    ➡️ qa_summary_detail=
     # 🔴 qa_summary_formid -> Form ID
     ➡️ qa_summary_formid=
     # 🔴 qa_summary_formname -> Form Name
     ➡️ qa_summary_formname=
-    qa_summary_good=Dobrze
-    qa_summary_itemcode=Kod pozycji
-    qa_summary_itemtext=Pytanie
-    qa_summary_ncalls=Rozmowy
+    # 🔴 qa_summary_good -> Meet
+    ➡️ qa_summary_good=
+    # 🔴 qa_summary_itemcode -> Item code
+    ➡️ qa_summary_itemcode=
+    # 🔴 qa_summary_itemtext -> Question
+    ➡️ qa_summary_itemtext=
+    # 🔴 qa_summary_ncalls -> N Calls
+    ➡️ qa_summary_ncalls=
     # 🔴 qa_summary_nonscoring_score -> Values
     ➡️ qa_summary_nonscoring_score=
-    qa_summary_ok=Ok
-    qa_summary_queue=Wybrana kolejka:
-    qa_summary_reqimpr=Req.Imp.
-    qa_summary_shtcut=Skróty
-    qa_supervisor=Kierownik
-    qa_supervisors_tracking_calls=Rozmowy kierowników
-    qa_time_period=Okres czasu:
-    qa_total_score=Całkowity wynik:
-    qa_tracked_calls=Przeprowadzone rozmowy
-    qa_tracked_calls_agentgroup=Rozmowy prowadzone przez grupę konsultantów
-    qa_tracked_calls_queue=Przeprowadzone rozmowy na godzinę
+    # 🔴 qa_summary_ok -> Impr
+    ➡️ qa_summary_ok=
+    # 🔴 qa_summary_queue -> Selected queue:
+    ➡️ qa_summary_queue=
+    # 🔴 qa_summary_reqimpr -> Issue
+    ➡️ qa_summary_reqimpr=
+    # 🔴 qa_summary_shtcut -> Shortcuts
+    ➡️ qa_summary_shtcut=
+    # 🔴 qa_supervisor -> Analyst
+    ➡️ qa_supervisor=
+    # 🔴 qa_supervisors_tracking_calls -> Analysts tracking calls
+    ➡️ qa_supervisors_tracking_calls=
+    # 🔴 qa_time_period -> Time period:
+    ➡️ qa_time_period=
+    # 🔴 qa_total_score -> Total score:
+    ➡️ qa_total_score=
+    # 🔴 qa_tracked_calls -> Tracked calls per agent
+    ➡️ qa_tracked_calls=
+    # 🔴 qa_tracked_calls_agentgroup -> Tracked calls per agent group
+    ➡️ qa_tracked_calls_agentgroup=
+    # 🔴 qa_tracked_calls_queue -> Tracked calls per queue
+    ➡️ qa_tracked_calls_queue=
 
 ## Report filters
 
@@ -3920,83 +4619,127 @@ Do not change the items below:
 
 ## Agent page
 
-    pgag_addmember=Dodaj uczestnika
-    pgag_agawqueueinfo=Informacje AGAW
-    pgag_call_status=Wynik
-    pgag_caller_id=Caller ID
+    # 🔴 pgag_addmember -> Join Q
+    ➡️ pgag_addmember=
+    # 🔴 pgag_agawqueueinfo -> AGAW related info
+    ➡️ pgag_agawqueueinfo=
+    # 🔴 pgag_call_status -> Outcome
+    ➡️ pgag_call_status=
+    # 🔴 pgag_caller_id -> Caller ID
+    ➡️ pgag_caller_id=
     # 🔴 pgag_connectivity_problem -> Connectivity Problem
     ➡️ pgag_connectivity_problem=
     # 🔴 pgag_copied_to_clipboard -> Copied To Clipboard
     ➡️ pgag_copied_to_clipboard=
-    pgag_customdial=Dzwoń
-    pgag_entering_at=Wejście jako
+    # 🔴 pgag_customdial -> Dial
+    ➡️ pgag_customdial=
+    # 🔴 pgag_entering_at -> Entering at
+    ➡️ pgag_entering_at=
     # 🔴 pgag_force_queues -> Force All
     ➡️ pgag_force_queues=
     # 🔴 pgag_incompatible_feature_code -> The selected outcome is not compatible with the selected feature codes. Incompatible features:
     ➡️ pgag_incompatible_feature_code=
-    pgag_logoff=Wyloguj
-    pgag_logon=Zaloguj
-    pgag_open=Otwórz
-    pgag_pause=Pauzuj
-    pgag_popup_addmember=Konsultant dodaje uczestnika
-    pgag_popup_agentcode=Kod konsultanta:
-    pgag_popup_call_status=Status połączenia:
-    pgag_popup_callstatus=Ustaw status rozmowy
+    # 🔴 pgag_logoff -> Log off
+    ➡️ pgag_logoff=
+    # 🔴 pgag_logon -> Log on
+    ➡️ pgag_logon=
+    # 🔴 pgag_open -> Open
+    ➡️ pgag_open=
+    # 🔴 pgag_pause -> Pause
+    ➡️ pgag_pause=
+    # 🔴 pgag_popup_addmember -> Agent add member
+    ➡️ pgag_popup_addmember=
+    # 🔴 pgag_popup_agentcode -> Agent's code:
+    ➡️ pgag_popup_agentcode=
+    # 🔴 pgag_popup_call_status -> Call status:
+    ➡️ pgag_popup_call_status=
+    # 🔴 pgag_popup_callstatus -> Set call status
+    ➡️ pgag_popup_callstatus=
     # 🔴 pgag_popup_cannot_send_message -> QueueMetrics cannot send the command to the PBX.
     ➡️ pgag_popup_cannot_send_message=
     # 🔴 pgag_popup_cluster_server -> Server:
     ➡️ pgag_popup_cluster_server=
-    pgag_popup_cur_extension=Numer wewnętrzny:
-    pgag_popup_customdial=Zadzwoń pod numer
-    pgag_popup_extensiontodial=Numer wew.:
-    pgag_popup_logoff=Konsultant wylogowany
-    pgag_popup_logon=Konsultant zalogowany
+    # 🔴 pgag_popup_cur_extension -> Current extension:
+    ➡️ pgag_popup_cur_extension=
+    # 🔴 pgag_popup_customdial -> Dial a number
+    ➡️ pgag_popup_customdial=
+    # 🔴 pgag_popup_extensiontodial -> Phone # to dial:
+    ➡️ pgag_popup_extensiontodial=
+    # 🔴 pgag_popup_logoff -> Agent log off
+    ➡️ pgag_popup_logoff=
+    # 🔴 pgag_popup_logon -> Agent log on
+    ➡️ pgag_popup_logon=
     # 🔴 pgag_popup_messagetosend -> Message:
     ➡️ pgag_popup_messagetosend=
-    pgag_popup_pause=Konsultant zpauzowany
-    pgag_popup_pause_reason=Przyczyna pauzy:
+    # 🔴 pgag_popup_pause -> Agent pause
+    ➡️ pgag_popup_pause=
+    # 🔴 pgag_popup_pause_reason -> Pause reason:
+    ➡️ pgag_popup_pause_reason=
     # 🔴 pgag_popup_pause_required -> Please provide a valid pause reason
     ➡️ pgag_popup_pause_required=
-    pgag_popup_queue_list=Kolejki konsultanta:
-    pgag_popup_removemember=Konsultant usuwa uczestnika
-    pgag_popup_run=Uruchom
+    # 🔴 pgag_popup_queue_list -> Agent's queues:
+    ➡️ pgag_popup_queue_list=
+    # 🔴 pgag_popup_removemember -> Agent remove member
+    ➡️ pgag_popup_removemember=
+    # 🔴 pgag_popup_run -> Run
+    ➡️ pgag_popup_run=
     # 🔴 pgag_popup_sendtextmessage -> Send Text Message
     ➡️ pgag_popup_sendtextmessage=
-    pgag_popup_statusko=Błąd.Żądana akcja nie może zostać wykonana.
-    pgag_popup_statusne=Nie masz praw do wykonania tej akcji.
-    pgag_popup_statusok=Żądana akcja jest w trakcie przetwarzania. To może zająć kilka sekund.
-    pgag_popup_unpause=Konsultant odpauzowany
-    pgag_popup_wintimeclose=Okno zostanie zamknięte w ciągu ## sekund
+    # 🔴 pgag_popup_statusko -> An error occurred and the requested action has not been completed.
+    ➡️ pgag_popup_statusko=
+    # 🔴 pgag_popup_statusne -> You do not have the rights to perform the requested action.
+    ➡️ pgag_popup_statusne=
+    # 🔴 pgag_popup_statusok -> The requested action has been performed. It may take a few seconds to be implemented.
+    ➡️ pgag_popup_statusok=
+    # 🔴 pgag_popup_unpause -> Agent unpause
+    ➡️ pgag_popup_unpause=
+    # 🔴 pgag_popup_wintimeclose -> This window will close in ## seconds
+    ➡️ pgag_popup_wintimeclose=
     # 🔴 pgag_popup_wrong_agent -> Wrong agent code
     ➡️ pgag_popup_wrong_agent=
     # 🔴 pgag_popup_wrong_extension -> Wrong extension
     ➡️ pgag_popup_wrong_extension=
     # 🔴 pgag_popup_wrong_regexp -> It looks like there is a configuration issue with a regular expression.
     ➡️ pgag_popup_wrong_regexp=
-    pgag_queue=Kolejka
-    pgag_reload_now=Przeładuj teraz
-    pgag_removemember=Usuń uczestnika
-    pgag_session_info=Strona będzie przeładowywana automatycznie, w celu utrzymania aktualnych informacji o sesji.
+    # 🔴 pgag_queue -> Queue
+    ➡️ pgag_queue=
+    # 🔴 pgag_reload_now -> Reload now
+    ➡️ pgag_reload_now=
+    # 🔴 pgag_removemember -> Leave Q
+    ➡️ pgag_removemember=
+    # 🔴 pgag_session_info -> In order to mantain session information, this page will reload automatically
+    ➡️ pgag_session_info=
     # 🔴 pgag_session_problem -> Session Problem
     ➡️ pgag_session_problem=
-    pgag_status=Status
-    pgag_talking=Rozmowa
-    pgag_title=Aktywne rozmowy konsultanta
-    pgag_transfer_to=Transfer do
-    pgag_unpause=Odpauzuj
-    pgag_url=DNID
-    pgag_waiting=Oczekiwanie
+    # 🔴 pgag_status -> Status
+    ➡️ pgag_status=
+    # 🔴 pgag_talking -> Talking
+    ➡️ pgag_talking=
+    # 🔴 pgag_title -> Active calls for agent
+    ➡️ pgag_title=
+    # 🔴 pgag_transfer_to -> Transfer to
+    ➡️ pgag_transfer_to=
+    # 🔴 pgag_unpause -> Unpause
+    ➡️ pgag_unpause=
+    # 🔴 pgag_url -> URL
+    ➡️ pgag_url=
+    # 🔴 pgag_waiting -> Waiting
+    ➡️ pgag_waiting=
 
 ## Front page
 
     # 🔴 fp_agent_awareness -> Agent Awareness manager
     ➡️ fp_agent_awareness=
-    fp_agent_inbound=Połączenia przychodzące
-    fp_agent_showinbound=Pokaż połączenia przychodzące dla konsultanta
+    # 🔴 fp_agent_inbound -> Inbound calls
+    ➡️ fp_agent_inbound=
+    # 🔴 fp_agent_showinbound -> Show inbound calls for agent
+    ➡️ fp_agent_showinbound=
     # 🔴 fp_agentquickactivity -> Quick reports including current day
     ➡️ fp_agentquickactivity=
-    fp_agentreport=Raport konsultanta
-    fp_before_yesterday=Przedwczoraj
+    # 🔴 fp_agentreport -> Agent report
+    ➡️ fp_agentreport=
+    # 🔴 fp_before_yesterday -> The day before yesterday
+    ➡️ fp_before_yesterday=
     # 🔴 fp_callftr_edit -> Call Features
     ➡️ fp_callftr_edit=
     # 🔴 fp_calltag_edit -> Call Tags
@@ -4005,7 +4748,8 @@ Do not change the items below:
     ➡️ fp_cbts_edit=
     # 🔴 fp_configuration_synchronizer -> Configuration Synchronizer
     ➡️ fp_configuration_synchronizer=
-    fp_customreport=Raport na żądanie
+    # 🔴 fp_customreport -> Custom report
+    ➡️ fp_customreport=
     # 🔴 fp_dataload_asterisk -> (Load Data from the PBX)
     ➡️ fp_dataload_asterisk=
     # 🔴 fp_day -> Day
@@ -4044,9 +4788,12 @@ Do not change the items below:
     ➡️ fp_edit_reports=
     # 🔴 fp_edit_users -> Users
     ➡️ fp_edit_users=
-    fp_filteredforagent=Filtrowanie dla konsultanta
-    fp_filteredforlocation=Filtrowanie dla lokalizacji
-    fp_filteredforsupervised=Nadzorowani konsultanci
+    # 🔴 fp_filteredforagent -> Filtered for agent
+    ➡️ fp_filteredforagent=
+    # 🔴 fp_filteredforlocation -> Filtered for location
+    ➡️ fp_filteredforlocation=
+    # 🔴 fp_filteredforsupervised -> My supervised agents
+    ➡️ fp_filteredforsupervised=
     # 🔴 fp_import_export_calls -> Import/Export calls
     ➡️ fp_import_export_calls=
     # 🔴 fp_ivr_edit -> Ivr Selections
@@ -4055,11 +4802,16 @@ Do not change the items below:
     ➡️ fp_known_numbers_edit=
     # 🔴 fp_last -> Last
     ➡️ fp_last=
-    fp_last_30=Ostatnie 30 dni
-    fp_last_7=Ostatnie 7 dni
-    fp_last_90=Ostatnie 90 dni
-    fp_lastday=Ostatnie 24 godz.
-    fp_licenceinfo=Pokaż informacje o licencji
+    # 🔴 fp_last_30 -> Last 30 days
+    ➡️ fp_last_30=
+    # 🔴 fp_last_7 -> Last 7 days
+    ➡️ fp_last_7=
+    # 🔴 fp_last_90 -> Last 90 days
+    ➡️ fp_last_90=
+    # 🔴 fp_lastday -> Last day
+    ➡️ fp_lastday=
+    # 🔴 fp_licenceinfo -> Show licence information
+    ➡️ fp_licenceinfo=
     # 🔴 fp_mysql_storageinfo -> Mysql storage information
     ➡️ fp_mysql_storageinfo=
     # 🔴 fp_news -> QueueMetrics news
@@ -4068,22 +4820,32 @@ Do not change the items below:
     ➡️ fp_outcome_edit=
     # 🔴 fp_payroll -> Payroll
     ➡️ fp_payroll=
-    fp_qa_edit=Edytuj formularz oceny jakości
-    fp_qa_grader_page=Strona ocenienia
+    # 🔴 fp_qa_edit -> QA Forms
+    ➡️ fp_qa_edit=
+    # 🔴 fp_qa_grader_page -> Grader's page
+    ➡️ fp_qa_grader_page=
     # 🔴 fp_qa_perftrack_page -> Performance Tracker
     ➡️ fp_qa_perftrack_page=
     # 🔴 fp_qa_perftrack_rule_edit -> QA Performance Tracker
     ➡️ fp_qa_perftrack_rule_edit=
-    fp_qa_runqa=Uruchom raport oceny jakości
-    fp_qa_title=Ocena jakości
+    # 🔴 fp_qa_runqa -> Run QA Reports
+    ➡️ fp_qa_runqa=
+    # 🔴 fp_qa_title -> Quality Assessment
+    ➡️ fp_qa_title=
     # 🔴 fp_qa_traincoach_page -> Training and Coaching
     ➡️ fp_qa_traincoach_page=
-    fp_queue=Kolejka
-    fp_quickactivity=Raporty
-    fp_realtime=Rozpocznij monitorowanie On-Line
-    fp_realtimereport=Monitor On-Line
-    fp_report=Raport
-    fp_runcust=Uruchom raport na żądanie
+    # 🔴 fp_queue -> Queue
+    ➡️ fp_queue=
+    # 🔴 fp_quickactivity -> Quick activity reports
+    ➡️ fp_quickactivity=
+    # 🔴 fp_realtime -> Start realtime monitoring
+    ➡️ fp_realtime=
+    # 🔴 fp_realtimereport -> Real-time report
+    ➡️ fp_realtimereport=
+    # 🔴 fp_report -> Report
+    ➡️ fp_report=
+    # 🔴 fp_runcust -> Run custom report
+    ➡️ fp_runcust=
     # 🔴 fp_setup_wizard -> Setup Wizard
     ➡️ fp_setup_wizard=
     # 🔴 fp_skills_edit -> Agents Skills
@@ -4094,15 +4856,22 @@ Do not change the items below:
     ➡️ fp_squery_rt=
     # 🔴 fp_squery_wallboards -> Wallboards
     ➡️ fp_squery_wallboards=
-    fp_supervision=Nadzór
-    fp_title=Strona domowa
-    fp_today=Dzisiaj
+    # 🔴 fp_supervision -> Supervision
+    ➡️ fp_supervision=
+    # 🔴 fp_title -> Home Page
+    ➡️ fp_title=
+    # 🔴 fp_today -> Today
+    ➡️ fp_today=
     # 🔴 fp_view_auditlog -> View audit log
     ➡️ fp_view_auditlog=
-    fp_visitorcmd=Pokaż aktualną aktywność systemu
-    fp_visitortitle=Zdalny monitoring
-    fp_wallboard=Pokaż WallBoard
-    fp_yesterday=Wczoraj
+    # 🔴 fp_visitorcmd -> Show current system activity
+    ➡️ fp_visitorcmd=
+    # 🔴 fp_visitortitle -> Remote monitoring
+    ➡️ fp_visitortitle=
+    # 🔴 fp_wallboard -> Start wallboard
+    ➡️ fp_wallboard=
+    # 🔴 fp_yesterday -> Yesterday
+    ➡️ fp_yesterday=
 
 ## Editor of configuration properties
 
@@ -5217,12 +5986,18 @@ Other items
     ➡️ avg_time_decor_days=
     # 🔴 bdcmsg_ForAgent -> Agent
     ➡️ bdcmsg_ForAgent=
-    bdcmsg_Group=Grupa
-    bdcmsg_Location=Lokalizacja
-    bdcmsg_Queue=Kolejka
-    bdcmsg_Sender=Wysłane przez
-    bdcmsg_Text=Wiadomość
-    bdcmsg_Time=Czas
+    # 🔴 bdcmsg_Group -> Group
+    ➡️ bdcmsg_Group=
+    # 🔴 bdcmsg_Location -> Location
+    ➡️ bdcmsg_Location=
+    # 🔴 bdcmsg_Queue -> Queue
+    ➡️ bdcmsg_Queue=
+    # 🔴 bdcmsg_Sender -> Sent by
+    ➡️ bdcmsg_Sender=
+    # 🔴 bdcmsg_Text -> Message
+    ➡️ bdcmsg_Text=
+    # 🔴 bdcmsg_Time -> Time
+    ➡️ bdcmsg_Time=
     # 🔴 callselectordecor_select -> Selects this call
     ➡️ callselectordecor_select=
     # 🔴 ccase_case_name -> Case
@@ -5333,8 +6108,10 @@ Other items
     ➡️ editor_show_classes=
     # 🔴 editor_show_users -> Show Users
     ➡️ editor_show_users=
-    err_super_multiple=Nie możesz filtrować po konsultancie lub lokalizacji, kiedy włączone jest raportowanie nadzorcy
-    err_super_noagents=Obecny użytkownik nadzoruje.
+    # 🔴 err_super_multiple -> You cannot filter by  agent or location when running Supervisor reports
+    ➡️ err_super_multiple=
+    # 🔴 err_super_noagents -> Current user supervises no agents.
+    ➡️ err_super_noagents=
     # 🔴 expc_exportcallist -> Call List
     ➡️ expc_exportcallist=
     # 🔴 expc_exportcalls -> Job
@@ -5599,44 +6376,68 @@ Other items
     ➡️ lgui_tuesday=
     # 🔴 lgui_wednesday -> Wednesday
     ➡️ lgui_wednesday=
-    licence_contributors=Współpracownicy
-    licence_firefox_client=Wersja Firefox
-    licence_install_now=Instaluj teraz
-    licence_licence_expires_on=Licencja wygasa:
-    licence_licence_information=Informacja o licencji
-    licence_licenced_to=Licencja na:
-    licence_maximum_licenced_agents=Maksymalna ilość konsultantów:
+    # 🔴 licence_contributors -> Contributors
+    ➡️ licence_contributors=
+    # 🔴 licence_firefox_client -> Firefox client version:
+    ➡️ licence_firefox_client=
+    # 🔴 licence_install_now -> Install now
+    ➡️ licence_install_now=
+    # 🔴 licence_licence_expires_on -> Licence expires on:
+    ➡️ licence_licence_expires_on=
+    # 🔴 licence_licence_information -> Licence information
+    ➡️ licence_licence_information=
+    # 🔴 licence_licenced_to -> Licenced to:
+    ➡️ licence_licenced_to=
+    # 🔴 licence_maximum_licenced_agents -> Maximum licenced agents:
+    ➡️ licence_maximum_licenced_agents=
     # 🔴 licence_show_eula -> Show end-user licence agreement
     ➡️ licence_show_eula=
-    licence_software_release=Wydanie:
-    licence_website=Oficjalna strona internetowa QueueMetrics
+    # 🔴 licence_software_release -> Software release:
+    ➡️ licence_software_release=
+    # 🔴 licence_website -> The official QueueMetrics website is located at
+    ➡️ licence_website=
     # 🔴 list_amo_title -> AMO Campaigns
     ➡️ list_amo_title=
-    logon_ErrAlreadyPresent=Sesja aktualnie otwarta
-    logon_ErrClassNotFound=Klasa nie znaleziona
+    # 🔴 logon_ErrAlreadyPresent -> This logon is already present in the database
+    ➡️ logon_ErrAlreadyPresent=
+    # 🔴 logon_ErrClassNotFound -> Class not found
+    ➡️ logon_ErrClassNotFound=
     # 🔴 logon_ErrHidden -> Log-in failed.
     ➡️ logon_ErrHidden=
     # 🔴 logon_ErrIllegalSsoSecret -> Could not validate the SSO reply - please try again.
     ➡️ logon_ErrIllegalSsoSecret=
-    logon_ErrMoreThanOne=Istnieje więcej niż jeden użytkownik z tym samym Login
-    logon_ErrNotFound=Użytkownik nie znaleziony
-    logon_ErrUserDisabled=Nie można zalogować użytkownika
-    logon_ErrUserNotFound=Użytkownik nie znaleziony
-    logon_ErrWrongPassword=Złe hasło
+    # 🔴 logon_ErrMoreThanOne -> More than one user exists with same login
+    ➡️ logon_ErrMoreThanOne=
+    # 🔴 logon_ErrNotFound -> User not found
+    ➡️ logon_ErrNotFound=
+    # 🔴 logon_ErrUserDisabled -> The user cannot login
+    ➡️ logon_ErrUserDisabled=
+    # 🔴 logon_ErrUserNotFound -> User not found
+    ➡️ logon_ErrUserNotFound=
+    # 🔴 logon_ErrWrongPassword -> Wrong password
+    ➡️ logon_ErrWrongPassword=
     # 🔴 logon_ErrWrongSsoToken -> The user has an incorrect SSO token in their profile.
     ➡️ logon_ErrWrongSsoToken=
-    logon_ErrWrongToken=Zły znak
-    logon_ErrXmlConnect=Problem z komunikacją ze źródłem XML-RPC
-    logon_ErrXmlForbid=Błąd logowania
-    logon_btn=Zaloguj
-    logon_language=Język
-    logon_login=Login
+    # 🔴 logon_ErrWrongToken -> Wrong token
+    ➡️ logon_ErrWrongToken=
+    # 🔴 logon_ErrXmlConnect -> Problems contacting the XML-RPC auth source.
+    ➡️ logon_ErrXmlConnect=
+    # 🔴 logon_ErrXmlForbid -> The supplied set of credentials is not valid.
+    ➡️ logon_ErrXmlForbid=
+    # 🔴 logon_btn -> Log In
+    ➡️ logon_btn=
+    # 🔴 logon_language -> Language
+    ➡️ logon_language=
+    # 🔴 logon_login -> Login
+    ➡️ logon_login=
     # 🔴 logon_microsoft -> Sign in with Microsoft
     ➡️ logon_microsoft=
-    logon_pass=Hasło
+    # 🔴 logon_pass -> Password
+    ➡️ logon_pass=
     # 🔴 logon_ssoLogInWith -> Or
     ➡️ logon_ssoLogInWith=
-    logon_title=Logowanie
+    # 🔴 logon_title -> User Logon
+    ➡️ logon_title=
     # 🔴 lstcall_calllen -> Last Talk
     ➡️ lstcall_calllen=
     # 🔴 lstcall_ivr -> Last IVR
@@ -5755,20 +6556,32 @@ Other items
     ➡️ pager_next=
     # 🔴 pager_prev -> Previous page
     ➡️ pager_prev=
-    popupclose_alreadydone=Rozmowa została zakończona.
-    popupclose_close=Zamknij rozmowę
-    popupclose_error=<b>Błąd:</b> Nie jest możliwe poprawne zakończenie rozmowy.
-    popupclose_exit=Wyjście
-    popupclose_force_confirm=Jesteś pewien, że chcesz zakończyć rozmowę?
-    popupclose_length=Długość rozmowy
-    popupclose_sec=s.
-    popupclose_successful=Rozmowa została pomyślnie zakończona. <p> Proszę włączyć ponowanie analizę, aby zobaczyć zmiany.
-    prl_actual=Aktualny
+    # 🔴 popupclose_alreadydone -> The call was already closed.
+    ➡️ popupclose_alreadydone=
+    # 🔴 popupclose_close -> Close call
+    ➡️ popupclose_close=
+    # 🔴 popupclose_error -> <b>Error:</b> It was not possible to close the call successfully.
+    ➡️ popupclose_error=
+    # 🔴 popupclose_exit -> Exit
+    ➡️ popupclose_exit=
+    # 🔴 popupclose_force_confirm -> You are going to force a call to be closed! Are you sure you want to do this?
+    ➡️ popupclose_force_confirm=
+    # 🔴 popupclose_length -> Call length
+    ➡️ popupclose_length=
+    # 🔴 popupclose_sec -> s.
+    ➡️ popupclose_sec=
+    # 🔴 popupclose_successful -> Call was closed successfully. <p> Please run the analysis again to see the changes.
+    ➡️ popupclose_successful=
+    # 🔴 prl_actual -> Actual
+    ➡️ prl_actual=
     # 🔴 prl_addcomment -> Add
     ➡️ prl_addcomment=
-    prl_agent_name=Nazwa konsultanta
-    prl_agentgroup=Grupa konsultanta:
-    prl_change=Zmiana:
+    # 🔴 prl_agent_name -> Agent name
+    ➡️ prl_agent_name=
+    # 🔴 prl_agentgroup -> Agent group:
+    ➡️ prl_agentgroup=
+    # 🔴 prl_change -> Change
+    ➡️ prl_change=
     # 🔴 prl_delcomment -> Delete this note
     ➡️ prl_delcomment=
     # 🔴 prl_delcommentsalert -> To permanently delete this entry press the delete button once more
@@ -5779,35 +6592,56 @@ Other items
     ➡️ prl_edit_timesuggestion=
     # 🔴 prl_edit_timesuggestion_or -> or complete format
     ➡️ prl_edit_timesuggestion_or=
-    prl_end_date=Data do:
+    # 🔴 prl_end_date -> Date to:
+    ➡️ prl_end_date=
     # 🔴 prl_error_changepause -> Error found when modifying the pause on database. See log for more details.
     ➡️ prl_error_changepause=
     # 🔴 prl_error_changepausecode -> Error found when modifying the pause code on database. See log for more details.
     ➡️ prl_error_changepausecode=
-    prl_error_changesession=Wystąpił błąd w trakcie modyfikowania sesji w bazie danych. Więcej szczegółów w logach
-    prl_export_as=Eksportuj jako: 
-    prl_export_now=Eksportuj teraz:
-    prl_header_agentcode=Kod konsultanta
-    prl_header_agentdetail=Konsultant:
-    prl_header_agentgroup=Grupa konsultanta
-    prl_header_agentlocation=Lokalizacja konsultanta
-    prl_header_agentname=Nazwa konsultanta
-    prl_header_endperiod=Okres do:
-    prl_header_filteredby=Filtrowanie po:
-    prl_header_startperiod=Okres od:
-    prl_invalidTimeMove=Podałeś niepoprawny czas przeniesienia
+    # 🔴 prl_error_changesession -> Error found when modifying the session on database. See log for more details.
+    ➡️ prl_error_changesession=
+    # 🔴 prl_export_as -> Export as:
+    ➡️ prl_export_as=
+    # 🔴 prl_export_now -> Export now
+    ➡️ prl_export_now=
+    # 🔴 prl_header_agentcode -> Agent code
+    ➡️ prl_header_agentcode=
+    # 🔴 prl_header_agentdetail -> Agent:
+    ➡️ prl_header_agentdetail=
+    # 🔴 prl_header_agentgroup -> Agent group
+    ➡️ prl_header_agentgroup=
+    # 🔴 prl_header_agentlocation -> Agent location
+    ➡️ prl_header_agentlocation=
+    # 🔴 prl_header_agentname -> Agent name
+    ➡️ prl_header_agentname=
+    # 🔴 prl_header_endperiod -> Period to:
+    ➡️ prl_header_endperiod=
+    # 🔴 prl_header_filteredby -> Filtered by:
+    ➡️ prl_header_filteredby=
+    # 🔴 prl_header_startperiod -> Period from:
+    ➡️ prl_header_startperiod=
+    # 🔴 prl_invalidTimeMove -> You have specified an invalid move time.
+    ➡️ prl_invalidTimeMove=
     # 🔴 prl_invalid_pause -> The pause is not well formed in the database. It's impossible to change it.
     ➡️ prl_invalid_pause=
-    prl_invalid_session=Sesja nie została poprawnie zapisana do bazy danych. Nie jest możliwa zmiana
-    prl_location=Lokalizacja:
-    prl_maximum=Maksimum
+    # 🔴 prl_invalid_session -> The session is not well formed in the database. It's impossible to change it.
+    ➡️ prl_invalid_session=
+    # 🔴 prl_location -> Location:
+    ➡️ prl_location=
+    # 🔴 prl_maximum -> Maximum
+    ➡️ prl_maximum=
     # 🔴 prl_menu_editpaus -> Edit Pause
     ➡️ prl_menu_editpaus=
-    prl_menu_editsess=Edytuj sesję
-    prl_menu_search=Szukaj
-    prl_menu_sessdetail=Szczegóły sesji
-    prl_menu_sesslist=Lista sesji
-    prl_minimum=Minimum
+    # 🔴 prl_menu_editsess -> Edit Session
+    ➡️ prl_menu_editsess=
+    # 🔴 prl_menu_search -> Search
+    ➡️ prl_menu_search=
+    # 🔴 prl_menu_sessdetail -> Session Details
+    ➡️ prl_menu_sessdetail=
+    # 🔴 prl_menu_sesslist -> Sessions List
+    ➡️ prl_menu_sesslist=
+    # 🔴 prl_minimum -> Minimum
+    ➡️ prl_minimum=
     # 🔴 prl_move_inv_endtime -> Invalid end time inserted. Please correct and retry.
     ➡️ prl_move_inv_endtime=
     # 🔴 prl_move_inv_sttime -> Invalid start time inserted. Please correct and retry.
@@ -5820,7 +6654,8 @@ Other items
     ➡️ prl_net_payable=
     # 🔴 prl_notabletochangepause -> You're not allowed to change a not billable pause to a billable pause.
     ➡️ prl_notabletochangepause=
-    prl_notabletogrow=Nie masz uprawnień do zwiększenia sesji konsultanta
+    # 🔴 prl_notabletogrow -> You're not allowed to grow an agent session.
+    ➡️ prl_notabletogrow=
     # 🔴 prl_notabletogrowpause -> You're not allowed to grow a billable agent pause.
     ➡️ prl_notabletogrowpause=
     # 🔴 prl_note_date -> Date
@@ -5835,10 +6670,14 @@ Other items
     ➡️ prl_notes_old_icontitle=
     # 🔴 prl_notes_other -> Historical notes
     ➡️ prl_notes_other=
-    prl_opt_earlier=wcześniej
-    prl_opt_later=później
-    prl_opt_sessionend=koniec sesji
-    prl_opt_sessionstart=początek sesji
+    # 🔴 prl_opt_earlier -> earlier
+    ➡️ prl_opt_earlier=
+    # 🔴 prl_opt_later -> later
+    ➡️ prl_opt_later=
+    # 🔴 prl_opt_sessionend -> session end
+    ➡️ prl_opt_sessionend=
+    # 🔴 prl_opt_sessionstart -> session start
+    ➡️ prl_opt_sessionstart=
     # 🔴 prl_pause_code -> Pause Code
     ➡️ prl_pause_code=
     # 🔴 prl_pausecode_change -> Change
@@ -5853,35 +6692,54 @@ Other items
     ➡️ prl_pausestart=
     # 🔴 prl_payroll_notes -> Payroll Notes
     ➡️ prl_payroll_notes=
-    prl_report_calc=Uruchom raport
-    prl_searchpage=Uruchom raport płac
-    prl_searchpage_title=Wydobycie listy płac
-    prl_session_available=Dostępni konsultanci
-    prl_session_detail=Szczegóły sesji
-    prl_session_duration=Długość
-    prl_session_end=Zakończenia
-    prl_session_move=Przeniesienie
+    # 🔴 prl_report_calc -> Run report
+    ➡️ prl_report_calc=
+    # 🔴 prl_searchpage -> Run payroll reports
+    ➡️ prl_searchpage=
+    # 🔴 prl_searchpage_title -> Payroll extraction
+    ➡️ prl_searchpage_title=
+    # 🔴 prl_session_available -> Available agents
+    ➡️ prl_session_available=
+    # 🔴 prl_session_detail -> Session detail
+    ➡️ prl_session_detail=
+    # 🔴 prl_session_duration -> Duration
+    ➡️ prl_session_duration=
+    # 🔴 prl_session_end -> Ends
+    ➡️ prl_session_end=
+    # 🔴 prl_session_move -> Move
+    ➡️ prl_session_move=
     # 🔴 prl_session_npauses -> N. Pauses
     ➡️ prl_session_npauses=
-    prl_session_number=Liczba sesji
-    prl_session_start=Początek
-    prl_sessiondetailpage_title=Wydobycie listy płac dla
-    prl_sessioneditorpage_title=Edytor sesji konsultanta
-    prl_sessionend=Koniec obecnej sesji
-    prl_sessionstart=Początek obecnej sesji
-    prl_start_date=Data od:
-    prl_supbybe=Ja
-    prl_supervision=Nadzorowany przez:
+    # 🔴 prl_session_number -> N. sessions
+    ➡️ prl_session_number=
+    # 🔴 prl_session_start -> Starts
+    ➡️ prl_session_start=
+    # 🔴 prl_sessiondetailpage_title -> Payroll extraction for
+    ➡️ prl_sessiondetailpage_title=
+    # 🔴 prl_sessioneditorpage_title -> Agent session editor
+    ➡️ prl_sessioneditorpage_title=
+    # 🔴 prl_sessionend -> Current session end
+    ➡️ prl_sessionend=
+    # 🔴 prl_sessionstart -> Current session start
+    ➡️ prl_sessionstart=
+    # 🔴 prl_start_date -> Date from:
+    ➡️ prl_start_date=
+    # 🔴 prl_supbybe -> Me
+    ➡️ prl_supbybe=
+    # 🔴 prl_supervision -> Supervised by:
+    ➡️ prl_supervision=
     # 🔴 prl_supervisor -> Supervisor
     ➡️ prl_supervisor=
     # 🔴 prl_time_end_time_check -> Please check the inserted end time.
     ➡️ prl_time_end_time_check=
-    prl_time_excedes_range=Zmiana poza granicami
+    # 🔴 prl_time_excedes_range -> The specified change exceedes boundaries.
+    ➡️ prl_time_excedes_range=
     # 🔴 prl_time_start_time_check -> Please check the inserted start time.
     ➡️ prl_time_start_time_check=
     # 🔴 prl_time_wrong_period -> The specified period is not valid. We expect end time greater than start time.
     ➡️ prl_time_wrong_period=
-    prl_total_duration=Całkowita długość
+    # 🔴 prl_total_duration -> Total duration
+    ➡️ prl_total_duration=
     # 🔴 pwres_change -> Set new password
     ➡️ pwres_change=
     # 🔴 pwres_changed_successfully -> The password was reset successfully. Please log on now.
@@ -5902,22 +6760,32 @@ Other items
     ➡️ pwres_unknown_link=
     # 🔴 qagrader_addedbygrtype -> Added by
     ➡️ qagrader_addedbygrtype=
-    qagrader_agent=Konsultant
-    qagrader_audio=Audio
-    qagrader_caller=Rozmówca
+    # 🔴 qagrader_agent -> Agent
+    ➡️ qagrader_agent=
+    # 🔴 qagrader_audio -> Audio
+    ➡️ qagrader_audio=
+    # 🔴 qagrader_caller -> Caller
+    ➡️ qagrader_caller=
     # 🔴 qagrader_callid -> CallId
     ➡️ qagrader_callid=
-    qagrader_complete=Zakończono
-    qagrader_forms=Formularze
+    # 🔴 qagrader_complete -> Cmpl
+    ➡️ qagrader_complete=
+    # 🔴 qagrader_forms -> Forms
+    ➡️ qagrader_forms=
     # 🔴 qagrader_jumpurl -> URL
     ➡️ qagrader_jumpurl=
-    qagrader_outcome=Wyniki
-    qagrader_queue=Kolejka
+    # 🔴 qagrader_outcome -> Outcome
+    ➡️ qagrader_outcome=
+    # 🔴 qagrader_queue -> Queue
+    ➡️ qagrader_queue=
     # 🔴 qagrader_supervisor -> Supervisor
     ➡️ qagrader_supervisor=
-    qagrader_talk=Rozmowa
-    qagrader_time=Czas
-    qagrader_wait=Oczekiwanie
+    # 🔴 qagrader_talk -> Talk
+    ➡️ qagrader_talk=
+    # 🔴 qagrader_time -> Time
+    ➡️ qagrader_time=
+    # 🔴 qagrader_wait -> Wait
+    ➡️ qagrader_wait=
     # 🔴 qagrader_wrongurl -> The specified URL is not valid. Please check it and retry.
     ➡️ qagrader_wrongurl=
     # 🔴 qap_action_case -> Assign to Case
@@ -6400,10 +7268,14 @@ Other items
     ➡️ qap_welcome=
     # 🔴 qap_you_have -> You have
     ➡️ qap_you_have=
-    qatarget_agentgroup=Grupa konsultanta
-    qatarget_allcalls=Wszystkie połączenia
-    qatarget_individual_agents=Konsultant
-    qatarget_outcomes=Wynik rozmowy
+    # 🔴 qatarget_agentgroup -> Agent Group
+    ➡️ qatarget_agentgroup=
+    # 🔴 qatarget_allcalls -> All calls
+    ➡️ qatarget_allcalls=
+    # 🔴 qatarget_individual_agents -> Agent
+    ➡️ qatarget_individual_agents=
+    # 🔴 qatarget_outcomes -> Call outcome
+    ➡️ qatarget_outcomes=
     # 🔴 react_report_table_sort_asc -> Sort in Ascending order
     ➡️ react_report_table_sort_asc=
     # 🔴 react_report_table_sort_desc -> Sort in Descending order
@@ -7056,45 +7928,68 @@ Other items
     ➡️ reports_unsaved=
     # 🔴 reports_visibilitykey -> Visibility Key
     ➡️ reports_visibilitykey=
-    rt_active_queues=Pokaż aktywne kolejki
+    # 🔴 rt_active_queues -> Show active queues
+    ➡️ rt_active_queues=
     # 🔴 rt_addmember -> Add Member
     ➡️ rt_addmember=
-    rt_agent_nbsp=Konsultant
-    rt_agentgroup=Grupa konsultanta
+    # 🔴 rt_agent_nbsp -> Agent
+    ➡️ rt_agent_nbsp=
+    # 🔴 rt_agentgroup -> Agent Group
+    ➡️ rt_agentgroup=
     # 🔴 rt_agentoutcome_view -> Agent and outcome view:
     ➡️ rt_agentoutcome_view=
-    rt_agents_all_assigned_queues=Wszystkie wybrane
-    rt_agents_currently_logged_in=Zalogowani konsultanci:
+    # 🔴 rt_agents_all_assigned_queues -> All Assigned
+    ➡️ rt_agents_all_assigned_queues=
+    # 🔴 rt_agents_currently_logged_in -> Agents currently logged in:
+    ➡️ rt_agents_currently_logged_in=
     # 🔴 rt_agg_by_queue_view -> Aggregated by queue view
     ➡️ rt_agg_by_queue_view=
     # 🔴 rt_agg_by_tag_view -> Aggregated by tag view
     ➡️ rt_agg_by_tag_view=
     # 🔴 rt_alarms -> Alarms
     ➡️ rt_alarms=
-    rt_all_queues=Pokaż wszystkie kolejki
-    rt_all_selected=Wszystkie zaznaczone
-    rt_bsy=Zajęty
+    # 🔴 rt_all_queues -> Show all queues
+    ➡️ rt_all_queues=
+    # 🔴 rt_all_selected -> All selected
+    ➡️ rt_all_selected=
+    # 🔴 rt_bsy -> Bsy
+    ➡️ rt_bsy=
     # 🔴 rt_busysince -> Busy Since
     ➡️ rt_busysince=
-    rt_caller_nbsp=Klient
-    rt_callid=callId
-    rt_calls_being_processed=Połączenia:
+    # 🔴 rt_caller_nbsp -> Caller
+    ➡️ rt_caller_nbsp=
+    # 🔴 rt_callid -> callId
+    ➡️ rt_callid=
+    # 🔴 rt_calls_being_processed -> Calls being processed:
+    ➡️ rt_calls_being_processed=
     # 🔴 rt_closecall -> Close
     ➡️ rt_closecall=
     # 🔴 rt_closecall_tt -> Close
     ➡️ rt_closecall_tt=
-    rt_comboval_active=Aktywny
-    rt_comboval_all=Wszyskto
-    rt_comboval_hide=Ukryj
-    rt_comboval_members=Uczestnicy
-    rt_comboval_show=Pokaż
-    rt_duration_nbsp=Długość poł.
-    rt_entered_nbsp=Wejście
-    rt_exception_noagents=Użytkownik nie nadzoruje żadnego konsultanta
-    rt_exception_nolocations=Żadna lokalizacja nie jest dostępna dla użytkownika. Monitoring On-Line niedozwolony. Proszę o kontakt z administratorem systemu
-    rt_exception_noqueues=Zapytanie nie zawiera kolejki
-    rt_exception_supervisoronly=Nie możesz filtrować po konsultancie lub lokalizacji, kiedy jest włączony raport nadzorcy
-    rt_extension_nbsp=Nr wew.
+    # 🔴 rt_comboval_active -> Active
+    ➡️ rt_comboval_active=
+    # 🔴 rt_comboval_all -> All
+    ➡️ rt_comboval_all=
+    # 🔴 rt_comboval_hide -> Hide
+    ➡️ rt_comboval_hide=
+    # 🔴 rt_comboval_members -> Members
+    ➡️ rt_comboval_members=
+    # 🔴 rt_comboval_show -> Show
+    ➡️ rt_comboval_show=
+    # 🔴 rt_duration_nbsp -> Talk
+    ➡️ rt_duration_nbsp=
+    # 🔴 rt_entered_nbsp -> Entered
+    ➡️ rt_entered_nbsp=
+    # 🔴 rt_exception_noagents -> Current user supervises no agents.
+    ➡️ rt_exception_noagents=
+    # 🔴 rt_exception_nolocations -> No locations available for the current user. Realtime monitoring is not allowed. Please contact your system administrator.
+    ➡️ rt_exception_nolocations=
+    # 🔴 rt_exception_noqueues -> The requested query contains no Queues.
+    ➡️ rt_exception_noqueues=
+    # 🔴 rt_exception_supervisoronly -> You cannot filter by  agent or location when running Supervisor reports
+    ➡️ rt_exception_supervisoronly=
+    # 🔴 rt_extension_nbsp -> Extension
+    ➡️ rt_extension_nbsp=
     # 🔴 rt_freesince -> Free Since
     ➡️ rt_freesince=
     # 🔴 rt_hangupcall -> Hangup
@@ -7107,44 +8002,76 @@ Other items
     ➡️ rt_hdrFilterName=
     # 🔴 rt_hdrFilterValue -> Parameters
     ➡️ rt_hdrFilterValue=
-    rt_hide_agents=Ukryj konsultantów
-    rt_hide_calls=Ukryj połączenia
+    # 🔴 rt_hide_agents -> Hide agents
+    ➡️ rt_hide_agents=
+    # 🔴 rt_hide_calls -> Hide calls
+    ➡️ rt_hide_calls=
     # 🔴 rt_im -> IM
     ➡️ rt_im=
     # 🔴 rt_im_tt -> IM
     ➡️ rt_im_tt=
-    rt_in_order_to_mantain_session_information=W celu odświeżenia informacji, strona zostanie automatycznie przeładowana
-    rt_inbound=inbound
+    # 🔴 rt_in_order_to_mantain_session_information -> In order to mantain session information, this page will reload automatically
+    ➡️ rt_in_order_to_mantain_session_information=
+    # 🔴 rt_inbound -> inbound
+    ➡️ rt_inbound=
     # 🔴 rt_ivr -> IVR
     ➡️ rt_ivr=
-    rt_last_logon_nbsp=Ostatnie logowanie
-    rt_lastcall=Ostatnia rozmowa
-    rt_live_agent=Konsultant
-    rt_live_astclid=*Clid
-    rt_live_callerid=Called ID
-    rt_live_entered=Wszedł
-    rt_live_free=Wolny
-    rt_live_last=Ostatni
-    rt_live_length=Długość
-    rt_live_logoff=Wylogowanie
-    rt_live_logon=Zaloguj
-    rt_live_max_wait=Maksymalny czas oczekiwania
-    rt_live_other_queue=Inna kol.
-    rt_live_pause=Pauza
-    rt_live_queue=Kolejka
-    rt_live_queue_pos=Poz.kol.
-    rt_live_queues=Kolejki
-    rt_live_realtime_call_center_monitoring=Live call center monitor
-    rt_live_server=Server
-    rt_live_server_status=Server status
-    rt_live_status=Status
-    rt_live_talk=Rozmowa
-    rt_live_talking=Rozmawia
-    rt_live_time_ms=Czas(ms)
-    rt_live_total=Całk.
-    rt_live_type=Typ
-    rt_live_wait=Oczekuje
-    rt_location=Lokalizacja
+    # 🔴 rt_last_logon_nbsp -> Last logon
+    ➡️ rt_last_logon_nbsp=
+    # 🔴 rt_lastcall -> Last call
+    ➡️ rt_lastcall=
+    # 🔴 rt_live_agent -> Agent
+    ➡️ rt_live_agent=
+    # 🔴 rt_live_astclid -> *Clid
+    ➡️ rt_live_astclid=
+    # 🔴 rt_live_callerid -> Called ID
+    ➡️ rt_live_callerid=
+    # 🔴 rt_live_entered -> Entered
+    ➡️ rt_live_entered=
+    # 🔴 rt_live_free -> Free
+    ➡️ rt_live_free=
+    # 🔴 rt_live_last -> Last
+    ➡️ rt_live_last=
+    # 🔴 rt_live_length -> Length
+    ➡️ rt_live_length=
+    # 🔴 rt_live_logoff -> Logoff
+    ➡️ rt_live_logoff=
+    # 🔴 rt_live_logon -> Logon
+    ➡️ rt_live_logon=
+    # 🔴 rt_live_max_wait -> Max wait
+    ➡️ rt_live_max_wait=
+    # 🔴 rt_live_other_queue -> Other q.
+    ➡️ rt_live_other_queue=
+    # 🔴 rt_live_pause -> Pause
+    ➡️ rt_live_pause=
+    # 🔴 rt_live_queue -> Queue
+    ➡️ rt_live_queue=
+    # 🔴 rt_live_queue_pos -> Q.Pos
+    ➡️ rt_live_queue_pos=
+    # 🔴 rt_live_queues -> Queues
+    ➡️ rt_live_queues=
+    # 🔴 rt_live_realtime_call_center_monitoring -> Live call center monitoring
+    ➡️ rt_live_realtime_call_center_monitoring=
+    # 🔴 rt_live_server -> Server
+    ➡️ rt_live_server=
+    # 🔴 rt_live_server_status -> Server status
+    ➡️ rt_live_server_status=
+    # 🔴 rt_live_status -> Status
+    ➡️ rt_live_status=
+    # 🔴 rt_live_talk -> Talk
+    ➡️ rt_live_talk=
+    # 🔴 rt_live_talking -> Talking
+    ➡️ rt_live_talking=
+    # 🔴 rt_live_time_ms -> Time (ms)
+    ➡️ rt_live_time_ms=
+    # 🔴 rt_live_total -> Tot.
+    ➡️ rt_live_total=
+    # 🔴 rt_live_type -> Type
+    ➡️ rt_live_type=
+    # 🔴 rt_live_wait -> Wait
+    ➡️ rt_live_wait=
+    # 🔴 rt_location -> Location
+    ➡️ rt_location=
     # 🔴 rt_lostcalls -> Lost Calls
     ➡️ rt_lostcalls=
     # 🔴 rt_lstcall_caller -> Last Caller
@@ -7155,17 +8082,25 @@ Other items
     ➡️ rt_monitor=
     # 🔴 rt_monitor_tt -> Monitor now
     ➡️ rt_monitor_tt=
-    rt_n_agents=Ilość konsultantów
-    rt_n_calls_waiting=Ilość połączeń oczekujących
+    # 🔴 rt_n_agents -> N. agents
+    ➡️ rt_n_agents=
+    # 🔴 rt_n_calls_waiting -> N. Calls waiting
+    ➡️ rt_n_calls_waiting=
     rt_nbsp= 
-    rt_on_pause=Na pauzie
-    rt_on_pause_nbsp=Na pauzie
-    rt_on_phone_inbound=Przychodzące na telefonie
-    rt_on_phone_outbound=Wychodzące na telefonie
-    rt_onqueue=W kolejce
+    # 🔴 rt_on_pause -> On pause
+    ➡️ rt_on_pause=
+    # 🔴 rt_on_pause_nbsp -> On pause
+    ➡️ rt_on_pause_nbsp=
+    # 🔴 rt_on_phone_inbound -> On phone inbound
+    ➡️ rt_on_phone_inbound=
+    # 🔴 rt_on_phone_outbound -> On phone outbound
+    ➡️ rt_on_phone_outbound=
+    # 🔴 rt_onqueue -> On queue
+    ➡️ rt_onqueue=
     # 🔴 rt_open -> click for relevant  action
     ➡️ rt_open=
-    rt_outbound=outbound
+    # 🔴 rt_outbound -> outbound
+    ➡️ rt_outbound=
     # 🔴 rt_pauseagent -> Pause Agent
     ➡️ rt_pauseagent=
     # 🔴 rt_pauseagent_tt -> Pause Agent
@@ -7174,23 +8109,30 @@ Other items
     ➡️ rt_paused_for=
     # 🔴 rt_pausedsince -> Paused Since
     ➡️ rt_pausedsince=
-    rt_pop_agent_code=Kod konsultanta:
-    rt_pop_agent_extension=Nr konsultanta:
+    # 🔴 rt_pop_agent_code -> Agent code:
+    ➡️ rt_pop_agent_code=
+    # 🔴 rt_pop_agent_extension -> Agent extension:
+    ➡️ rt_pop_agent_extension=
     # 🔴 rt_pop_agent_logon_extension -> Agent logon extension:
     ➡️ rt_pop_agent_logon_extension=
-    rt_pop_agent_name=Nazwa konsultanta:
+    # 🔴 rt_pop_agent_name -> Agent name:
+    ➡️ rt_pop_agent_name=
     # 🔴 rt_pop_barge -> Barge-in
     ➡️ rt_pop_barge=
     # 🔴 rt_pop_chanspy -> Spy (listen only)
     ➡️ rt_pop_chanspy=
-    rt_pop_close=Zamknij
+    # 🔴 rt_pop_close -> Close
+    ➡️ rt_pop_close=
     # 🔴 rt_pop_hangup_runbtn -> Hang up
     ➡️ rt_pop_hangup_runbtn=
     # 🔴 rt_pop_hangup_title -> Hang up a call
     ➡️ rt_pop_hangup_title=
-    rt_pop_live_call_monitor=Monitorowanie rozmów
-    rt_pop_monitor_now=Monitoruj
-    rt_pop_please_enter_your_local_or_remote_extension=Prosze podaj swój nr wew. lub publiczny.
+    # 🔴 rt_pop_live_call_monitor -> Live call monitor
+    ➡️ rt_pop_live_call_monitor=
+    # 🔴 rt_pop_monitor_now -> Monitor now
+    ➡️ rt_pop_monitor_now=
+    # 🔴 rt_pop_please_enter_your_local_or_remote_extension -> Please enter your local or remote extension to start ongoing call monitoring.
+    ➡️ rt_pop_please_enter_your_local_or_remote_extension=
     # 🔴 rt_pop_spy_mode -> Monitoring mode
     ➡️ rt_pop_spy_mode=
     # 🔴 rt_pop_transfer_extension -> Transfer to extension:
@@ -7203,7 +8145,8 @@ Other items
     ➡️ rt_pop_unique_id=
     # 🔴 rt_pop_whisper -> Whisper to the agent
     ➡️ rt_pop_whisper=
-    rt_pop_your_extension=Twój nr:
+    # 🔴 rt_pop_your_extension -> Your extension:
+    ➡️ rt_pop_your_extension=
     # 🔴 rt_qacall -> QA
     ➡️ rt_qacall=
     # 🔴 rt_qacall_tt -> QA
@@ -7212,11 +8155,16 @@ Other items
     ➡️ rt_queue_and_tags_view=
     # 🔴 rt_queue_and_times_view -> Queues and times view:
     ➡️ rt_queue_and_times_view=
-    rt_queue_nbsp=Kolejka
-    rt_queues=Kolejka(i):
-    rt_ready_agents=Gotowych konsultantów
-    rt_realtime_call_center_monitoring=Monitoring-OnLine
-    rt_reload_now=Przeładuj
+    # 🔴 rt_queue_nbsp -> Queue
+    ➡️ rt_queue_nbsp=
+    # 🔴 rt_queues -> Queue(s):
+    ➡️ rt_queues=
+    # 🔴 rt_ready_agents -> Ready agents
+    ➡️ rt_ready_agents=
+    # 🔴 rt_realtime_call_center_monitoring -> Realtime call center monitoring
+    ➡️ rt_realtime_call_center_monitoring=
+    # 🔴 rt_reload_now -> Reload
+    ➡️ rt_reload_now=
     # 🔴 rt_removemember -> Remove Member
     ➡️ rt_removemember=
     # 🔴 rt_removemember_tt -> Remove Member
@@ -7281,81 +8229,130 @@ Other items
     ➡️ rt_short_agentoutcome_view=
     # 🔴 rt_short_agg_by_queue_view -> By Queue View
     ➡️ rt_short_agg_by_queue_view=
-    rt_short_filter_agents=Konsultanci
-    rt_short_filter_groups=Grupa
-    rt_short_filter_locat=Lokalizacja
-    rt_short_filter_superv=Nadzorca
+    # 🔴 rt_short_filter_agents -> Agents
+    ➡️ rt_short_filter_agents=
+    # 🔴 rt_short_filter_groups -> Group
+    ➡️ rt_short_filter_groups=
+    # 🔴 rt_short_filter_locat -> Location
+    ➡️ rt_short_filter_locat=
+    # 🔴 rt_short_filter_superv -> Superv.
+    ➡️ rt_short_filter_superv=
     # 🔴 rt_short_queue_and_tags_view -> Queues and Tags
     ➡️ rt_short_queue_and_tags_view=
     # 🔴 rt_short_queue_and_times_view -> Queues and Times
     ➡️ rt_short_queue_and_times_view=
-    rt_short_reload=Przeładuj
+    # 🔴 rt_short_reload -> Reload
+    ➡️ rt_short_reload=
     # 🔴 rt_short_rt_agg_by_tag_view -> By Tag View
     ➡️ rt_short_rt_agg_by_tag_view=
-    rt_short_table_agents=Konsultanci
-    rt_short_table_calls=Połączenia
-    rt_short_table_queues=Kolejki
-    rt_short_table_recap=Kontynuuj
-    rt_short_update=Aktualizuj
-    rt_show_agents=Pokaż konsultantów
-    rt_show_any_agent=Pokaż każdego kons.
-    rt_show_calls=Pokaż połączenia
-    rt_show_members_only=Pokaż tylko członków
+    # 🔴 rt_short_table_agents -> Agents
+    ➡️ rt_short_table_agents=
+    # 🔴 rt_short_table_calls -> Calls
+    ➡️ rt_short_table_calls=
+    # 🔴 rt_short_table_queues -> Queues
+    ➡️ rt_short_table_queues=
+    # 🔴 rt_short_table_recap -> Recap
+    ➡️ rt_short_table_recap=
+    # 🔴 rt_short_update -> Update
+    ➡️ rt_short_update=
+    # 🔴 rt_show_agents -> Show agents
+    ➡️ rt_show_agents=
+    # 🔴 rt_show_any_agent -> Show any agent
+    ➡️ rt_show_any_agent=
+    # 🔴 rt_show_calls -> Show calls
+    ➡️ rt_show_calls=
+    # 🔴 rt_show_members_only -> Show members only
+    ➡️ rt_show_members_only=
     # 🔴 rt_since -> Since
     ➡️ rt_since=
     # 🔴 rt_transfercall -> Transfer
     ➡️ rt_transfercall=
     # 🔴 rt_transfercall_tt -> Transfer
     ➡️ rt_transfercall_tt=
-    rt_unk=Nieznany
-    rt_unknown=nieznany
+    # 🔴 rt_unk -> Unk
+    ➡️ rt_unk=
+    # 🔴 rt_unknown -> unknown
+    ➡️ rt_unknown=
     # 🔴 rt_unpauseagent -> Unpause Agent
     ➡️ rt_unpauseagent=
     # 🔴 rt_unpauseagent_tt -> Unpause Agent
     ➡️ rt_unpauseagent_tt=
-    rt_visitor_agent_nbsp=Konsultant
-    rt_visitor_avg_talk=Średnia rozmowa
-    rt_visitor_avg_wait=Średnie oczekiwanie
-    rt_visitor_caller_id_nbsp=Caller Id
-    rt_visitor_calls_being_processed=Połączenia:
-    rt_visitor_duration_nbsp=Długość
-    rt_visitor_ext_nbsp=Nr
-    rt_visitor_in_order_to_mantain_session_information=W celu odświeżenia informacji, strona zostanie automatycznie przeładowana
-    rt_visitor_n_calls=Ilość połączeń
+    # 🔴 rt_visitor_agent_nbsp -> Agent
+    ➡️ rt_visitor_agent_nbsp=
+    # 🔴 rt_visitor_avg_talk -> Avg talk
+    ➡️ rt_visitor_avg_talk=
+    # 🔴 rt_visitor_avg_wait -> Avg wait
+    ➡️ rt_visitor_avg_wait=
+    # 🔴 rt_visitor_caller_id_nbsp -> Caller Id
+    ➡️ rt_visitor_caller_id_nbsp=
+    # 🔴 rt_visitor_calls_being_processed -> Calls being processed:
+    ➡️ rt_visitor_calls_being_processed=
+    # 🔴 rt_visitor_duration_nbsp -> Duration
+    ➡️ rt_visitor_duration_nbsp=
+    # 🔴 rt_visitor_ext_nbsp -> Ext.
+    ➡️ rt_visitor_ext_nbsp=
+    # 🔴 rt_visitor_in_order_to_mantain_session_information -> In order to mantain session information, this page will reload automatically
+    ➡️ rt_visitor_in_order_to_mantain_session_information=
+    # 🔴 rt_visitor_n_calls -> N. calls
+    ➡️ rt_visitor_n_calls=
     rt_visitor_nbsp= 
-    rt_visitor_queue=Kolejka
-    rt_visitor_queue_nbsp=Kolejka
-    rt_visitor_queues=Kolejka(i):
-    rt_visitor_reload_now=Przeładuj
-    rt_visitor_today_at_a_glance=Rzuć okiem na dzisiaj:
-    rt_visitor_tot_calls=Wszystkie połączenia
-    rt_visitor_tot_lost_calls=Wszystkie utracone połączenia
-    rt_visitor_visitor_realtime_call_center_monitoring=Monitoring On-Line dla Gościa
-    rt_visitor_waiting_nbsp=Oczekiwanie
+    # 🔴 rt_visitor_queue -> Queue
+    ➡️ rt_visitor_queue=
+    # 🔴 rt_visitor_queue_nbsp -> Queue
+    ➡️ rt_visitor_queue_nbsp=
+    # 🔴 rt_visitor_queues -> Queue(s):
+    ➡️ rt_visitor_queues=
+    # 🔴 rt_visitor_reload_now -> Reload now
+    ➡️ rt_visitor_reload_now=
+    # 🔴 rt_visitor_today_at_a_glance -> Today at a glance:
+    ➡️ rt_visitor_today_at_a_glance=
+    # 🔴 rt_visitor_tot_calls -> Total calls
+    ➡️ rt_visitor_tot_calls=
+    # 🔴 rt_visitor_tot_lost_calls -> Total lost calls
+    ➡️ rt_visitor_tot_lost_calls=
+    # 🔴 rt_visitor_visitor_realtime_call_center_monitoring -> Visitor Realtime call center monitoring
+    ➡️ rt_visitor_visitor_realtime_call_center_monitoring=
+    # 🔴 rt_visitor_waiting_nbsp -> Waiting
+    ➡️ rt_visitor_waiting_nbsp=
     # 🔴 rt_vnc -> VNC
     ➡️ rt_vnc=
     # 🔴 rt_vnc_tt -> VNC
     ➡️ rt_vnc_tt=
-    rt_waiting_nbsp=Oczekuje
-    rt_wall_agent_nbsp=Konsultant
-    rt_wall_bsy=Zaj.
-    rt_wall_caller_nbsp=CLID
-    rt_wall_duration_nbsp=Rozmowa
-    rt_wall_entered_nbsp=Wejście
+    # 🔴 rt_waiting_nbsp -> Wait
+    ➡️ rt_waiting_nbsp=
+    # 🔴 rt_wall_agent_nbsp -> Agent
+    ➡️ rt_wall_agent_nbsp=
+    # 🔴 rt_wall_bsy -> Bsy
+    ➡️ rt_wall_bsy=
+    # 🔴 rt_wall_caller_nbsp -> CLID
+    ➡️ rt_wall_caller_nbsp=
+    # 🔴 rt_wall_duration_nbsp -> Talk
+    ➡️ rt_wall_duration_nbsp=
+    # 🔴 rt_wall_entered_nbsp -> Enter
+    ➡️ rt_wall_entered_nbsp=
     # 🔴 rt_wall_ivr -> IVR
     ➡️ rt_wall_ivr=
     # 🔴 rt_wall_moh -> MOH
     ➡️ rt_wall_moh=
-    rt_wall_n_agents=Wszyscy
-    rt_wall_n_calls_waiting=Oczekuje
+    # 🔴 rt_wall_n_agents -> Age
+    ➡️ rt_wall_n_agents=
+    # 🔴 rt_wall_n_calls_waiting -> Waiting
+    ➡️ rt_wall_n_calls_waiting=
     rt_wall_nbsp= 
-    rt_wall_on_pause=Pau.
-    rt_wall_on_phone_inbound=In
-    rt_wall_on_phone_outbound=Out
-    rt_wall_queue_nbsp=Kolejka
-    rt_wall_ready_agents=Gotowi
-    rt_wall_unk=Niezn.
-    rt_wall_waiting_nbsp=Oczekiwanie
+    # 🔴 rt_wall_on_pause -> Pau
+    ➡️ rt_wall_on_pause=
+    # 🔴 rt_wall_on_phone_inbound -> In
+    ➡️ rt_wall_on_phone_inbound=
+    # 🔴 rt_wall_on_phone_outbound -> Out
+    ➡️ rt_wall_on_phone_outbound=
+    # 🔴 rt_wall_queue_nbsp -> Queue
+    ➡️ rt_wall_queue_nbsp=
+    # 🔴 rt_wall_ready_agents -> Rdy
+    ➡️ rt_wall_ready_agents=
+    # 🔴 rt_wall_unk -> Unk
+    ➡️ rt_wall_unk=
+    # 🔴 rt_wall_waiting_nbsp -> Wait
+    ➡️ rt_wall_waiting_nbsp=
     # 🔴 savedq_bntclear -> Reset
     ➡️ savedq_bntclear=
     # 🔴 savedq_bntedit -> Update
@@ -7636,24 +8633,38 @@ Other items
     ➡️ timeline_tab_recordings=
     # 🔴 timeline_totdur -> Tot. Dur.
     ➡️ timeline_totdur=
-    ts_agawrep_invalidlocation=Proszę podać poprawną lokalizację
-    userpage_change_button=Zmień
-    userpage_change_password=Zmiana hasła
+    # 🔴 ts_agawrep_invalidlocation -> Please specify a valid location
+    ➡️ ts_agawrep_invalidlocation=
+    # 🔴 userpage_change_button -> Change it
+    ➡️ userpage_change_button=
+    # 🔴 userpage_change_password -> Change password
+    ➡️ userpage_change_password=
     # 🔴 userpage_change_theme -> Select Theme
     ➡️ userpage_change_theme=
-    userpage_class=Obecna klasa
-    userpage_err_password=Wprowadzone nowe hasła są różne lub stare hasło jest nieprawidłowe.
-    userpage_last_changed=Ostatnio aktualizowany
-    userpage_login=Login
-    userpage_msg_password=Hasło zostało pomyślnie zmienione
-    userpage_name=Pełna nazwa użytkownika
-    userpage_new_password=Nowe hasło
-    userpage_number_logons=Liczba logowań
-    userpage_old_password=Stare hasło
-    userpage_retype=Powtórz hasło
+    # 🔴 userpage_class -> Current class
+    ➡️ userpage_class=
+    # 🔴 userpage_err_password -> The new passwords you entered are different, or the old password is wrong.
+    ➡️ userpage_err_password=
+    # 🔴 userpage_last_changed -> Last updated on
+    ➡️ userpage_last_changed=
+    # 🔴 userpage_login -> User's login
+    ➡️ userpage_login=
+    # 🔴 userpage_msg_password -> The password was changed successfully
+    ➡️ userpage_msg_password=
+    # 🔴 userpage_name -> User's full name
+    ➡️ userpage_name=
+    # 🔴 userpage_new_password -> New password
+    ➡️ userpage_new_password=
+    # 🔴 userpage_number_logons -> Number of logons
+    ➡️ userpage_number_logons=
+    # 🔴 userpage_old_password -> Old password
+    ➡️ userpage_old_password=
+    # 🔴 userpage_retype -> Retype new password
+    ➡️ userpage_retype=
     # 🔴 userpage_theme -> Theme
     ➡️ userpage_theme=
-    userpage_title=Informacja o użytkowniku
+    # 🔴 userpage_title -> Current user information
+    ➡️ userpage_title=
     # 🔴 xtsrc_err -> Error accessing an external data source. Please see the server error log.
     ➡️ xtsrc_err=
     # 🔴 xtsrc_html -> External data source providing HTML
