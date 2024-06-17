@@ -3,12 +3,12 @@
 |  | Language | Alternatives | Missing | Human checked | AI based | Completion |   |
 |--|----------|--------------|---------|---------------|----------|------------|---|
 | 1 | *English (en_US)* |  | 0 | 100.0% | 0.0% | 100.0% | 😎 |
-| 2 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
-| 3 | *Brazil Portuguese (pt_BR)* | pt_PT | 40 | 98.9% | 0.1% | 99.1% | 🟢 |
-| 4 | *Portuguese (pt_PT)* | pt_BR | 40 | 73.6% | 25.5% | 99.1% | 🟢 |
-| 5 | *Spanish (es_ES)* | es_LA | 45 | 20.2% | 78.8% | 98.9% | 🟢 |
-| 6 | *Latam Spanish (es_LA)* | es_ES | 45 | 98.7% | 0.2% | 98.9% | 🟢 |
-| 7 | *French (fr_FR)* |  | 215 | 95.0% | 0.0% | 95.0% | 🔵 |
+| 2 | *French (fr_FR)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
+| 3 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
+| 4 | *Brazil Portuguese (pt_BR)* | pt_PT | 40 | 98.9% | 0.1% | 99.1% | 🟢 |
+| 5 | *Portuguese (pt_PT)* | pt_BR | 40 | 73.6% | 25.5% | 99.1% | 🟢 |
+| 6 | *Spanish (es_ES)* | es_LA | 45 | 20.2% | 78.8% | 98.9% | 🟢 |
+| 7 | *Latam Spanish (es_LA)* | es_ES | 45 | 98.7% | 0.2% | 98.9% | 🟢 |
 | 8 | *German (de_DE)* |  | 494 | 88.4% | 0.0% | 88.5% | 🔵 |
 | 9 | *Russian (ru_RU)* |  | 547 | 87.2% | 0.0% | 87.2% | 🔵 |
 | 10 | *Arabic (ar_SA)* |  | 778 | 81.8% | 0.0% | 81.8% | 🟡 |
@@ -37,5 +37,5 @@
 - 🔴 Incomplete
 
 
-Generated at Thu, June 13 2024 @ 16:47.
+Generated at Mon, June 17 2024 @ 11:28.
 

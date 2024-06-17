@@ -419,11 +419,9 @@ Do not change the items below:
 
 
 
-    # 🔴 clage_%_of_pause_time -> % of pause time
-    ➡️ clage_%_of_pause_time=%age de temps de pause
+    clage_%_of_pause_time=%age de temps de pause
     clage_%_of_queue=% dans la File
-    # 🔴 clage_%_of_session_time -> % of session time
-    ➡️ clage_%_of_session_time=%age du temps de session
+    clage_%_of_session_time=%age du temps de session
     clage_acd_available=Dispon.
     clage_acd_avg_dur=Moy. dur.
     clage_acd_avg_in=Moyen E.
@@ -442,15 +440,13 @@ Do not change the items below:
     clage_agent_availability_for_all_the_queues_they_are_member_of=Disponibilité des Opérateurs (pour toutes les Files dont ils sont membres)
     clage_agent_btimebyhour=Temps facturable par agent et par heure
     clage_agent_numbyhour=Agents par Heure
-    # 🔴 clage_agent_occupancy -> Agent Occupancy Report
-    ➡️ clage_agent_occupancy=Rapport occupation d’Agent
+    clage_agent_occupancy=Rapport occupation d’Agent
     clage_agent_outbound_productivity=Productivité Appels Sortants
     clage_agent_perf_prg=Performance programmée pour l'agent
     clage_agent_performance_acd_group=Performance de l'agent pour un groupe de Files
     clage_agent_ptimebyhour=Temps facturable par agent et par heure
     clage_agent_session_detail=Détails des sessions des agents
-    # 🔴 clage_agent_session_overview -> Agent Session Overview
-    ➡️ clage_agent_session_overview= Résume de Session d’Agent
+    clage_agent_session_overview= Résume de Session d’Agent
     clage_agent_sessionreport=Vue par Session d'Agent
     clage_agent_sessions=Sessions de l'agent
     clage_agent_stimebyhour=Temps de session par agent et par heure
@@ -512,8 +508,7 @@ Do not change the items below:
     clage_overlaps=Chevauchements
     clage_pause=Pause
     clage_pause_%=Pause %
-    # 🔴 clage_pause_type_stats -> Details of pause types
-    ➡️ clage_pause_type_stats=Détail des types de pauses
+    clage_pause_type_stats=Détail des types de pauses
     clage_pauses=Pauses
     clage_pauses_per_session=Pauses par session
     clage_pausetype=Type de Pause
@@ -529,25 +524,16 @@ Do not change the items below:
     clage_session_and_pause_durations=Durée de sessions et de pauses
     clage_session_byquetagftrreport=Nombre cumulé des sessions par File, marqueur & fonction
     clage_session_byquetagreport=Nombre cumulé des sessions par File & marqueur
-    # 🔴 clage_session_calls -> N. calls
-    ➡️ clage_session_calls=N. d’appels
+    clage_session_calls=N. d’appels
     clage_session_details=Détails de session
-    # 🔴 clage_session_end -> Segment end
-    ➡️ clage_session_end=Fin du segment
-    # 🔴 clage_session_idle -> Idle time
-    ➡️ clage_session_idle=Temps d'inactivité
-    # 🔴 clage_session_lostatt -> Lost attempts
-    ➡️ clage_session_lostatt=Tentatives perdues
-    # 🔴 clage_session_pause -> Pause
-    ➡️ clage_session_pause=Pause
-    # 🔴 clage_session_queues -> Queues
-    ➡️ clage_session_queues=Files
-    # 🔴 clage_session_start -> Segment start
-    ➡️ clage_session_start=Début de Segment
-    # 🔴 clage_session_talk -> Talk time
-    ➡️ clage_session_talk=Temps de parole
-    # 🔴 clage_session_type -> Session type
-    ➡️ clage_session_type=Type de Session
+    clage_session_end=Fin du segment
+    clage_session_idle=Temps d'inactivité
+    clage_session_lostatt=Tentatives perdues
+    clage_session_pause=Pause
+    clage_session_queues=Files
+    clage_session_start=Début de Segment
+    clage_session_talk=Temps de parole
+    clage_session_type=Type de Session
     clage_sessions=Sessions
     clage_tag_sessionreport=Vue par session de marqueur
     clage_takenshort=P
@@ -637,10 +623,8 @@ Do not change the items below:
     cld_detail_of_agent_sessions_raw=Détails des sessions des agents (vrac)
     cld_detail_of_answered_calls=Détails des appels répondus
     cld_detail_of_unanswered_calls=Détails des appels non répondus
-    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_afp=Détails des appels non répondus
-    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_raw=Détails bruts des appels sans réponse
+    cld_detail_of_unanswered_calls_afp=Détails des appels non répondus
+    cld_detail_of_unanswered_calls_raw=Détails bruts des appels sans réponse
     cld_detail_summary=Détail du Résumé Par Heure
     cld_detail_summary_dom=Détail du Résumé Par Jour
     cld_detail_summary_dow=Détail du Résumé Par Jour de la Semaine
@@ -719,10 +703,8 @@ Do not change the items below:
     cld_queue=File
     cld_queue_batch_export=Ajouter des appels au programme d'export
     cld_queue_detail=Détails sur la File
-    # 🔴 cld_queue_detail_afp -> Queue detail
-    ➡️ cld_queue_detail_afp=Détail de la File
-    # 🔴 cld_queue_detail_raw -> Raw queue detail
-    ➡️ cld_queue_detail_raw=Détails bruts de la File
+    cld_queue_detail_afp=Détail de la File
+    cld_queue_detail_raw=Détails bruts de la File
     cld_return=Retour
     cld_server=Srv
     cld_session_agent_detail=Détail sur la session de l'agent
@@ -1092,8 +1074,7 @@ Do not change the items below:
     evt_phone_end_session=Fin  de session téléphonique
     evt_phone_fail_session=Échec de la session d'appel
     evt_phone_start_session=Début session téléphonique
-    # 🔴 evt_ringcancel -> Ring Cancel
-    ➡️ evt_ringcancel=Annulation de la sonnerie
+    evt_ringcancel=Annulation de la sonnerie
     evt_ringing=Sonnerie
     evt_ringnoanswer=Appel sans réponse
     evt_setvar=Variable définie
@@ -1106,8 +1087,7 @@ Do not change the items below:
     evt_teams_end_session=Fin de session MS Teams
     evt_teams_fail_session=Échec de la session Teams
     evt_teams_start_session=Début de session MS Teams
-    # 🔴 evt_transfer -> Transfer
-    ➡️ evt_transfer=Transfert
+    evt_transfer=Transfert
     evt_unanswered_yet=Pas encore répondu
     evt_web_end_session=Fin de session Web
     evt_web_fail_session=Échec de la session Web
@@ -1123,8 +1103,7 @@ Do not change the items below:
     hdr_agents_det_title=Détails des sessions et des pauses par agent
     hdr_agents_title=Agents et sessions
     hdr_all=Tout
-    # 🔴 hdr_amo -> AMO
-    ➡️ hdr_amo=AMO
+    hdr_amo=AMO
     hdr_answered=Répondus
     hdr_answered_details=Répondus (Détails)
     hdr_answered_details_title=Détails des appels répondus
@@ -1218,85 +1197,47 @@ Do not change the items below:
     edit_ac_supervisor=Superviseur
     edit_ac_term=Term.
     edit_ac_title=Configuration des agents connus
-    # 🔴 edit_amo_attribute -> Attribute
-    ➡️ edit_amo_attribute=Attribut
+    edit_amo_attribute=Attribut
 
 ### AMO
 
-    # 🔴 edit_amo_attributes -> Attributes
-    ➡️ edit_amo_attributes=Attributs
-    # 🔴 edit_amo_campaign -> Campaign
-    ➡️ edit_amo_campaign=Campagne
-    # 🔴 edit_amo_last_pull -> Last Pull
-    ➡️ edit_amo_last_pull=Dernier tirage
-    # 🔴 edit_amo_list_dialer_state -> Dialer State
-    ➡️ edit_amo_list_dialer_state=Etat du composer
-    # 🔴 edit_amo_list_id -> List ID
-    ➡️ edit_amo_list_id=ID de la Liste
-    # 🔴 edit_amo_list_last_pull -> Last Pull
-    ➡️ edit_amo_list_last_pull=Dernier tirage
-    # 🔴 edit_amo_list_n_added -> N. added
-    ➡️ edit_amo_list_n_added=N° ajouté
-    # 🔴 edit_amo_list_n_completed -> N. completed
-    ➡️ edit_amo_list_n_completed=N° complété
-    # 🔴 edit_amo_list_n_pulled -> N. pulled
-    ➡️ edit_amo_list_n_pulled=N° tiré
-    # 🔴 edit_amo_list_name -> Name
-    ➡️ edit_amo_list_name=Nom
-    # 🔴 edit_amo_list_numbers -> Edit Numbers
-    ➡️ edit_amo_list_numbers=Edit le N°
-    # 🔴 edit_amo_list_pull_by -> Pulled by
-    ➡️ edit_amo_list_pull_by=Tiré par
-    # 🔴 edit_amo_list_state -> List State
-    ➡️ edit_amo_list_state=List d’état
-    # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
-    ➡️ edit_amo_list_upload_numbers=Charger les N°
-    # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
-    ➡️ edit_amo_list_upload_text=Déposez des fichiers CSV ou parcourez
-    # 🔴 edit_amo_list_weight -> Weight
-    ➡️ edit_amo_list_weight=Poids
-    # 🔴 edit_amo_lists_list -> AMO Lists
-    ➡️ edit_amo_lists_list=Liste AMO
-    # 🔴 edit_amo_lists_name_present -> The selected list name already exists
-    ➡️ edit_amo_lists_name_present=Le nom de la liste sélectionnée existe déjà
-    # 🔴 edit_amo_lists_title -> Edit AMO List
-    ➡️ edit_amo_lists_title=Edite la liste AMO
-    # 🔴 edit_amo_n_added -> N. added
-    ➡️ edit_amo_n_added=N° ajouté
-    # 🔴 edit_amo_n_completed -> N. completed
-    ➡️ edit_amo_n_completed=N° complété
-    # 🔴 edit_amo_n_lists -> N. of Lists
-    ➡️ edit_amo_n_lists=N° de liste
-    # 🔴 edit_amo_name -> Name
-    ➡️ edit_amo_name=Nom
-    # 🔴 edit_amo_notes -> Notes
-    ➡️ edit_amo_notes=Notes
-    # 🔴 edit_amo_number -> Number
-    ➡️ edit_amo_number=Numéro
-    # 🔴 edit_amo_number_id -> Number ID
-    ➡️ edit_amo_number_id=ID du Numéro
-    # 🔴 edit_amo_numbers_current_uid -> Current UID
-    ➡️ edit_amo_numbers_current_uid=UID Courant@
-    # 🔴 edit_amo_numbers_edit -> Edit AMO Number
-    ➡️ edit_amo_numbers_edit=Edite N° AMO
-    # 🔴 edit_amo_numbers_list -> AMO Numbers
-    ➡️ edit_amo_numbers_list=Nombre d’AMO
-    # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
-    ➡️ edit_amo_numbers_previous_retries=Tentatives précédentes
-    # 🔴 edit_amo_numbers_retry_no -> Retry Number
-    ➡️ edit_amo_numbers_retry_no=N° de tentative
-    # 🔴 edit_amo_queue_id -> Queue ID
-    ➡️ edit_amo_queue_id=IF de la File
-    # 🔴 edit_amo_retry_no -> N. of retries
-    ➡️ edit_amo_retry_no=Nombre de tentatives
-    # 🔴 edit_amo_state -> State
-    ➡️ edit_amo_state=Etat
-    # 🔴 edit_amo_valid_attribute -> Attribute
-    ➡️ edit_amo_valid_attribute=Attribut
-    # 🔴 edit_amo_valid_from -> Valid from
-    ➡️ edit_amo_valid_from=Valide de
-    # 🔴 edit_amo_valid_value -> Value
-    ➡️ edit_amo_valid_value=Valeur
+    edit_amo_attributes=Attributs
+    edit_amo_campaign=Campagne
+    edit_amo_last_pull=Dernier tirage
+    edit_amo_list_dialer_state=Etat du composer
+    edit_amo_list_id=ID de la Liste
+    edit_amo_list_last_pull=Dernier tirage
+    edit_amo_list_n_added=N° ajouté
+    edit_amo_list_n_completed=N° complété
+    edit_amo_list_n_pulled=N° tiré
+    edit_amo_list_name=Nom
+    edit_amo_list_numbers=Edit le N°
+    edit_amo_list_pull_by=Tiré par
+    edit_amo_list_state=List d’état
+    edit_amo_list_upload_numbers=Charger les N°
+    edit_amo_list_upload_text=Déposez des fichiers CSV ou parcourez
+    edit_amo_list_weight=Poids
+    edit_amo_lists_list=Liste AMO
+    edit_amo_lists_name_present=Le nom de la liste sélectionnée existe déjà
+    edit_amo_lists_title=Edite la liste AMO
+    edit_amo_n_added=N° ajouté
+    edit_amo_n_completed=N° complété
+    edit_amo_n_lists=N° de liste
+    edit_amo_name=Nom
+    edit_amo_notes=Notes
+    edit_amo_number=Numéro
+    edit_amo_number_id=ID du Numéro
+    edit_amo_numbers_current_uid=UID Courant@
+    edit_amo_numbers_edit=Edite N° AMO
+    edit_amo_numbers_list=Nombre d’AMO
+    edit_amo_numbers_previous_retries=Tentatives précédentes
+    edit_amo_numbers_retry_no=N° de tentative
+    edit_amo_queue_id=IF de la File
+    edit_amo_retry_no=Nombre de tentatives
+    edit_amo_state=Etat
+    edit_amo_valid_attribute=Attribut
+    edit_amo_valid_from=Valide de
+    edit_amo_valid_value=Valeur
 
 ### Cases
 
@@ -1671,26 +1612,16 @@ Do not change the items below:
     edit_record_queue_agentspaused=Nombre d'Agents en Pause:
     edit_record_queue_agentswaiting=Nombre d'Agents en attente:
     edit_record_queue_alias=Alias de File:
-    # 🔴 edit_record_queue_amo -> AMO Settings
-    ➡️ edit_record_queue_amo=Paramètre AMO
-    # 🔴 edit_record_queue_amo_enabled -> Enabled
-    ➡️ edit_record_queue_amo_enabled=Activé
-    # 🔴 edit_record_queue_amo_exponential -> Exponential
-    ➡️ edit_record_queue_amo_exponential=Exponentiel
-    # 🔴 edit_record_queue_amo_fixed -> Fixed
-    ➡️ edit_record_queue_amo_fixed=Fixe
-    # 🔴 edit_record_queue_amo_linear -> Linear
-    ➡️ edit_record_queue_amo_linear=Linéaire
-    # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
-    ➡️ edit_record_queue_amo_recall_attributes=Attributs de rappel
-    # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
-    ➡️ edit_record_queue_amo_recall_max_attempts=Max. tentatives
-    # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
-    ➡️ edit_record_queue_amo_recall_sec=Secondes avant rappel
-    # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
-    ➡️ edit_record_queue_amo_recall_stepping=Rappel du pas
-    # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
-    ➡️ edit_record_queue_amo_recall_valid_outcomes=Résultat valide
+    edit_record_queue_amo=Paramètre AMO
+    edit_record_queue_amo_enabled=Activé
+    edit_record_queue_amo_exponential=Exponentiel
+    edit_record_queue_amo_fixed=Fixe
+    edit_record_queue_amo_linear=Linéaire
+    edit_record_queue_amo_recall_attributes=Attributs de rappel
+    edit_record_queue_amo_recall_max_attempts=Max. tentatives
+    edit_record_queue_amo_recall_sec=Secondes avant rappel
+    edit_record_queue_amo_recall_stepping=Rappel du pas
+    edit_record_queue_amo_recall_valid_outcomes=Résultat valide
     edit_record_queue_attention=Niveau d'Attention
     edit_record_queue_callsinqueue=Nombre d'appels en File
     edit_record_queue_chat=Groupe de Discussion:
@@ -2075,8 +2006,7 @@ Do not change the items below:
     filter_idAgentGroup=Groupe d'Agents
     filter_idLocation=Emplacement
     filter_ivr=SVI
-    # 🔴 filter_lostAttemptFor -> Lost Attempt For
-    ➡️ filter_lostAttemptFor=Tentative perdue pour
+    filter_lostAttemptFor=Tentative perdue pour
     filter_noncont_days=Jours
     filter_noncont_r1_from=Temps depuis
     filter_noncont_r1_to=Temps jusqu'à
@@ -2219,8 +2149,7 @@ Do not change the items below:
     rt3_comment=Commentaire
     rt3_configure_phone=Configuration Softphone
     rt3_connection_error=Erreur de connexion au Serveur
-    # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
-    ➡️ rt3_connection_valid=La connexion au serveur fonctionne correctement.
+    rt3_connection_valid=La connexion au serveur fonctionne correctement.
     rt3_cont=Suite
     rt3_contph=CPH
     rt3_conversation=Conversation
@@ -2582,8 +2511,7 @@ Description of configuration properties
     propedit_category_synchronizer=Synchroniser
     propedit_edit_label=Editer
     propedit_explore_label=Explorer
-    # 🔴 propedit_feature_agent_amo -> AMO
-    ➡️ propedit_feature_agent_amo=AMO
+    propedit_feature_agent_amo=AMO
     propedit_feature_ap_backg=Arrière-plans optionnels
     propedit_feature_ap_login_out=Login & Logout
     propedit_feature_ap_other=Non-catégorisé
@@ -2612,10 +2540,8 @@ Description of configuration properties
     propedit_key_agent_outcome_size=Nombre maximum d'éléments dans la liste de sélection
     propedit_key_agent_pause_dialout=Désactiver les Agents quand ils sont en Pause
     propedit_key_agent_qap_cached_for_ms_desc=Temps de cache maximum autorisé pour la page de l'agent
-    # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
-    ➡️ propedit_key_amo_placed_call_timeout=Délai d'expiration du recyclage AMO
-    # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
-    ➡️ propedit_key_answer_src=La tonalité de réponse du Softphone (URL)
+    propedit_key_amo_placed_call_timeout=Délai d'expiration du recyclage AMO
+    propedit_key_answer_src=La tonalité de réponse du Softphone (URL)
     propedit_key_atxfer=Code Fonction du Transfert négocié
     propedit_key_atxferabort=Code Fonction de l'annulation d'un Transfert négocié
     propedit_key_atxfercomplete=Code Fonction de la réalisation d'un Transfert négocié
@@ -2627,8 +2553,7 @@ Description of configuration properties
     propedit_key_audit_max_rows_fetched=Nombre maximal de lignes analysées ne nécessitant pas d'audit
     propedit_key_blindxfer=Code Fonction du Transfert Aveugle
     propedit_key_cronjobs_localwebapp=URL pour exécuter une tâche planifiée
-    # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
-    ➡️ propedit_key_decodeknownnumbers=Décoder les numéros connus
+    propedit_key_decodeknownnumbers=Décoder les numéros connus
     propedit_key_default_agentcanamendpause_desc=Si cette propriété est réglée sur Oui, les agents peuvent modifier le code de pause actuel, en le modifiant rétroactivement (cela fera en sorte que le nouveau code de pause apparaîtra dans les rapports au lieu de l'ancien, pour la pause actuelle). S'il est défini sur Non, lorsque les agents changent le code de pause, il met automatiquement fin à la pause en cours et en lance une nouvelle avec le nouveau code.
     propedit_key_default_alwaysLogonUnpaused_desc=Quand l'Agent se logue, il ne sera pas pausé
     propedit_key_default_areacode_digits_desc=Combien de chiffres faut il considérer comme valeur par défaut du code de zone
@@ -2675,8 +2600,7 @@ Description of configuration properties
     propedit_key_default_viewTechInfo_desc=Information technique et test de visibilité de la BDD
     propedit_key_default_webloaderpbx_desc=Activation de WebLoaderPBX (UniLoader)
     propedit_key_default_wombatagentrecall_desc=Activer le service de rappel pour les Agents Wombat
-    # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
-    ➡️ propedit_key_dialtone_src=La tonalité du Softphone (URL)
+    propedit_key_dialtone_src=La tonalité du Softphone (URL)
     propedit_key_directami_agent_desc=Format du canal Agent
     propedit_key_directami_cmdseparator_desc=Le séparateur ',' doit être changé pour "|" pour les systèmes Asterisk antérieur à 1.8
     propedit_key_directami_extension_desc=Format de l'extension d'un Agent
@@ -2701,12 +2625,9 @@ Description of configuration properties
     propedit_key_enswitch_qpwrap_desc=Priorité d'un Agent correspondant à la priorité WRAP(Par défaut: 6)
     propedit_key_enswitch_spyprefix_desc=Code fonction par défaut pour initier une écoute (Défaut *91)
     propedit_key_enswitch_verbose_desc=Dans le cas ou toutes les interactions doivent être enregistrés (LOG) (Défaut : non)
-    # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
-    ➡️ propedit_key_extrabody=Texte supplémentaire dans le corps des e-mails.
-    # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
-    ➡️ propedit_key_hangup_src=La tonalité de raccrochage du Softphone (URL)
-    # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
-    ➡️ propedit_key_hiddennumberpolicy=Politique de masquage des numéros
+    propedit_key_extrabody=Texte supplémentaire dans le corps des e-mails.
+    propedit_key_hangup_src=La tonalité de raccrochage du Softphone (URL)
+    propedit_key_hiddennumberpolicy=Politique de masquage des numéros
     propedit_key_layout_logo_desc=Le logo de votre entreprise (chemin complet ou relatif) doit être redimensionné à 200 x 72.
     propedit_key_noans_timeout=Temps (sec) pour rejeter un appel non répondus - Défaut : 60 sec.
     propedit_key_phone_iceservers=Liste des serveurs ICE.
@@ -2762,14 +2683,12 @@ Description of configuration properties
     propedit_key_realtime_waitAlarmOnLiveCalls_desc=Appliquer une alarme pour le temps d'attente des appels en cours
     propedit_key_recovery_max=Intervalle de temps maximal entre deux tentatives de re-connexion web cocker - Defaut : 30 sec.
     propedit_key_recovery_min=Intervalle de temps minimal entre deux tentatives de re-connexion web cocker - Defaut : 2 sec.
-    # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
-    ➡️ propedit_key_ringtone_src=La sonnerie du Softphone (URL)
+    propedit_key_ringtone_src=La sonnerie du Softphone (URL)
     propedit_key_sla_initial_interval_desc=Intervalle pour la partie initiale du SLA (QdS)
     propedit_key_sla_interval_desc=Quelle taille ont les intervalles pour le graphique du SLA (QdS)
     propedit_key_sla_max_initial_delay_desc=Plage horaire initiale pour le calcul du SLQ (QdS)
     propedit_key_sla_max_monitored_delay_desc=Délai maximal affiché dans le graphe du SLA (QdS)
-    # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
-    ➡️ propedit_key_smtpsubjectprefix=Préfixe du sujet de l’Email
+    propedit_key_smtpsubjectprefix=Préfixe du sujet de l’Email
     propedit_key_synchronizer_agents_file=Fichier agents.conf par Défaut
     propedit_key_synchronizer_queuelog_file=Fichier QueueLog par Défaut
     propedit_key_synchronizer_queues_file=Fichier queues.conf par Défaut
@@ -2789,8 +2708,7 @@ Description of configuration properties
     propedit_key_wb_recovery_max=Intervalle maximum entre deux tentatives de re-connexion web socket (défaut : 30 sec.)
     propedit_key_wb_recovery_min=Intervalle minimum entre deux tentatives de re-connexion web socket (défaut : 30 sec.)Intervalle maximum entre deux tentative de re-connexion web socket (défaut : 2 sec.)
     propedit_key_wombat_password_desc=Mot de Passe WombatDialer
-    # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
-    ➡️ propedit_key_wombat_prevdial_desc=URL de la page de numérotation d'aperçu de WombatDialer.
+    propedit_key_wombat_prevdial_desc=URL de la page de numérotation d'aperçu de WombatDialer.
     propedit_key_wombat_url_desc=Principale URL WombatDialer
     propedit_key_wombat_username_desc=Nom d'utilisateur WombatDialer
     propedit_option_barge=Interrompre(Barge)
@@ -2804,14 +2722,10 @@ Description of configuration properties
     propedit_option_false=Faux
     propedit_option_freeswitch=FreeSwitch
     propedit_option_freeswitch_live=FreeSwitch "Live"
-    # 🔴 propedit_option_hash -> hash
-    ➡️ propedit_option_hash=hacher
-    # 🔴 propedit_option_hide -> hide
-    ➡️ propedit_option_hide=cacher
-    # 🔴 propedit_option_hide3 -> hide3
-    ➡️ propedit_option_hide3=cacher3
-    # 🔴 propedit_option_hide5 -> hide5
-    ➡️ propedit_option_hide5=cacher5
+    propedit_option_hash=hacher
+    propedit_option_hide=cacher
+    propedit_option_hide3=cacher3
+    propedit_option_hide5=cacher5
     propedit_option_jsonapi=API JSON
     propedit_option_mirtapbx=MirtaPBX
     propedit_option_no=Non
@@ -2824,8 +2738,7 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Uniquement les Files affectées avec sélection (cherry pick)
     propedit_option_realtime_dynamicLoginQueues_registered_label=Enregistré
     propedit_option_spy=Espion
-    # 🔴 propedit_option_stars -> stars
-    ➡️ propedit_option_stars=étoiles
+    propedit_option_stars=étoiles
     propedit_option_sync_mode_c=Créer Seulement
     propedit_option_sync_mode_c_d=Créer, Détruire
     propedit_option_sync_mode_c_d_usr=Créer, Détruire, Créer les Utilisateurs
@@ -2885,8 +2798,7 @@ Description of security keys:
     keydesc_closecalls=L'utilisateur peut terminer un appel depuis la console Temps-Réel
     keydesc_config=L'utilisateur peut démarrer l'aide d'auto-configuration
     keydesc_edit_cfg=L'utilisateur peut éditer le fichier local de propriétés de configuration
-    # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
-    ➡️ keydesc_hidenumbers=Tous les numéros de téléphone/identités des appelants sont masqués
+    keydesc_hidenumbers=Tous les numéros de téléphone/identités des appelants sont masqués
     keydesc_keyupdate=L'utilisateur peut installer une nouvelle clef d'activation de QueueMetrics
     keydesc_mon_audio=L'utilisateur peut superviser un appel en Temps-Réel
     keydesc_mon_barge=L'utilisateur peut s'immiscer sur un appel en cours
@@ -2927,8 +2839,7 @@ Description of security keys:
     keydesc_user=Cette clef DOIT être gérée par un utilisateur autorisé
     keydesc_usr_agent=L'utilisateur peut modifier les Agents
     keydesc_usr_agroups=L'utilisateur peut personnaliser des groupes d'Agents
-    # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
-    ➡️ keydesc_usr_amo_edit=L'utilisateur peut modifier les campagnes AMO (Assisted Manual Outbound)
+    keydesc_usr_amo_edit=L'utilisateur peut modifier les campagnes AMO (Assisted Manual Outbound)
     keydesc_usr_calltag=L'utilisateur peut  modifier les marquage d'appel
     keydesc_usr_cases_edit=L'utilisateur peut modifier les cas
     keydesc_usr_cbts=L'utilisateur peut  modifier la liste des formations en ligne connues
@@ -2971,8 +2882,7 @@ Description of security keys:
     tsk_detail_history=Historique de la tâche
     tsk_detail_info=Info sur le tâche
     tsk_detail_lastUpdated=Derniere mise à jour
-    # 🔴 tsk_detail_message -> Message
-    ➡️ tsk_detail_message=Message
+    tsk_detail_message=Message
     tsk_detail_notes=Note
     tsk_detail_pfield=Process
     tsk_detail_process=Accept
@@ -3072,17 +2982,14 @@ Description of security keys:
     phone_agent=Agent
     phone_anonymous=Anonyme
     phone_answer=Réponse
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=Transfert assisté
+    phone_attended=Transfert assisté
     phone_attended_transfer=Transfert négocié
     phone_auto_answer_toggle_off=Réponse Automatique est désactivé
     phone_auto_answer_toggle_on=Réponse Automatique est activé
     phone_basic_settings=Réglages de base
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=Transfert aveugle
+    phone_blind=Transfert aveugle
     phone_blind_transfer=Transfert
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=Appel
+    phone_call=Appel
     phone_calling=Appel....
     phone_cancel=Annuler
     phone_close=Fermer
@@ -3118,8 +3025,7 @@ Description of security keys:
     phone_swap=Echanger
     phone_toggle_hold=Pauser/Reprendre
     phone_toggle_transfer=Transfert
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=Transfert
+    phone_transfer=Transfert
     phone_unmute=Rétablir le son
     phone_unregistered=Dés-enregistré
     phone_update_settings=Mise à jour de la configuration
@@ -3134,50 +3040,28 @@ Other items
     agt_history_cbt=CBT envoyé:
     agt_history_groupchange=Membre du groupe
     agt_history_mtn=Envoyé au coach
-    # 🔴 amo_close_info -> Close AMO Information
-    ➡️ amo_close_info=Fermer les informations AMO
-    # 🔴 amo_dialer_state_completed -> Completed
-    ➡️ amo_dialer_state_completed=Terminé
-    # 🔴 amo_dialer_state_open -> Open
-    ➡️ amo_dialer_state_open=Ouvert
-    # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
-    ➡️ amo_import_error_nonumber=Le champ 'numéro' est obligatoire pour chaque enregistrement.
-    # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
-    ➡️ amo_import_error_norecords=Veuillez inclure au moins un enregistrement dans le fichier CSV.
-    # 🔴 amo_last_info -> AMO Call Information
-    ➡️ amo_last_info=Dernières informations d'appel AMO
-    # 🔴 amo_list_state_open -> Open
-    ➡️ amo_list_state_open=Ouvert
-    # 🔴 amo_list_state_paused -> Paused
-    ➡️ amo_list_state_paused=En pause
-    # 🔴 amo_number_state_blklist -> Blacklisted
-    ➡️ amo_number_state_blklist=Liste noire
-    # 🔴 amo_number_state_dialed -> Dialed
-    ➡️ amo_number_state_dialed=Compose
-    # 🔴 amo_number_state_ko -> KO
-    ➡️ amo_number_state_ko=KO
-    # 🔴 amo_number_state_ok -> OK
-    ➡️ amo_number_state_ok=OK
-    # 🔴 amo_number_state_placed -> Placed
-    ➡️ amo_number_state_placed=Placé
-    # 🔴 amo_number_state_reserved -> Reserved
-    ➡️ amo_number_state_reserved=Réservé
-    # 🔴 amo_number_state_todo -> To do
-    ➡️ amo_number_state_todo=À faire
-    # 🔴 amo_numbers_asteriskid -> Asterisk ID
-    ➡️ amo_numbers_asteriskid=ID Asterisk
-    # 🔴 amo_numbers_callstatus -> Status Code
-    ➡️ amo_numbers_callstatus=Code de statut
-    # 🔴 amo_numbers_date -> Date
-    ➡️ amo_numbers_date=Date
-    # 🔴 amo_numbers_reason -> Reason
-    ➡️ amo_numbers_reason=Raison
-    # 🔴 amo_numbers_user -> User
-    ➡️ amo_numbers_user=Utilisateur
-    # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
-    ➡️ amo_upload_numbers_error=Erreur lors du téléchargement des numéros AMO
-    # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
-    ➡️ amo_upload_numbers_success=Numéros AMO téléchargés avec succès.
+    amo_close_info=Fermer les informations AMO
+    amo_dialer_state_completed=Terminé
+    amo_dialer_state_open=Ouvert
+    amo_import_error_nonumber=Le champ 'numéro' est obligatoire pour chaque enregistrement.
+    amo_import_error_norecords=Veuillez inclure au moins un enregistrement dans le fichier CSV.
+    amo_last_info=Dernières informations d'appel AMO
+    amo_list_state_open=Ouvert
+    amo_list_state_paused=En pause
+    amo_number_state_blklist=Liste noire
+    amo_number_state_dialed=Compose
+    amo_number_state_ko=KO
+    amo_number_state_ok=OK
+    amo_number_state_placed=Placé
+    amo_number_state_reserved=Réservé
+    amo_number_state_todo=À faire
+    amo_numbers_asteriskid=ID Asterisk
+    amo_numbers_callstatus=Code de statut
+    amo_numbers_date=Date
+    amo_numbers_reason=Raison
+    amo_numbers_user=Utilisateur
+    amo_upload_numbers_error=Erreur lors du téléchargement des numéros AMO
+    amo_upload_numbers_success=Numéros AMO téléchargés avec succès.
     at_invalid_agent=Agent Invalide
     avg_time_decor_days=d
     bdcmsg_ForAgent=Opérateur
@@ -3215,20 +3099,13 @@ Other items
     decorator_agentpaused=Pausé
     decorator_queue_sla=SLA
     default.show_agent_priority_reports=Afficher le niveau de priorité de l'agent dans les rapports.
-    # 🔴 dlr_last_pull -> Last Pull
-    ➡️ dlr_last_pull=Dernier tirage
-    # 🔴 dlr_last_pull_user -> Pull User
-    ➡️ dlr_last_pull_user=Utilisateur du tirage
-    # 🔴 dlr_list_state -> List State
-    ➡️ dlr_list_state=État de la liste
-    # 🔴 dlr_numbers_added -> Numbers Added
-    ➡️ dlr_numbers_added=Numéros ajoutés
-    # 🔴 dlr_numbers_completed -> Numbers Completed
-    ➡️ dlr_numbers_completed=Numéros complétés
-    # 🔴 dlr_numbers_pulled -> Numbers Pulled
-    ➡️ dlr_numbers_pulled=Numéros tirés
-    # 🔴 dlr_state -> Number State
-    ➡️ dlr_state=État du numéro
+    dlr_last_pull=Dernier tirage
+    dlr_last_pull_user=Utilisateur du tirage
+    dlr_list_state=État de la liste
+    dlr_numbers_added=Numéros ajoutés
+    dlr_numbers_completed=Numéros complétés
+    dlr_numbers_pulled=Numéros tirés
+    dlr_state=État du numéro
     editor_all_reports=Tous les Rapports
     editor_back=Retour
     editor_clone=Clone
@@ -3264,29 +3141,20 @@ Other items
     export_to_pdf=PDF
     export_xml=Exporter comme XLS
     grp_ivr=Evènements SVI
-    # 🔴 grp_ivr_calls -> IVR calls
-    ➡️ grp_ivr_calls=Appels SVI
+    grp_ivr_calls=Appels SVI
     grp_ivr_short=SVI
     grp_lost_calls=Appels perdus
     grp_lost_short=Perdu
     grp_taken_calls=Appels répondus
     grp_taken_short=Répondu
-    # 🔴 gui_fileuploader_msg -> Drop file or Browse
-    ➡️ gui_fileuploader_msg=Déposer le fichier ou Parcourir
-    # 🔴 gui_fileuploader_types -> Supported file formats
-    ➡️ gui_fileuploader_types=Formats de fichiers supportés
-    # 🔴 gui_fileuploader_upload -> Upload files
-    ➡️ gui_fileuploader_upload=Télécharger les fichiers
-    # 🔴 gui_fileuploader_uploaded -> Uploaded files
-    ➡️ gui_fileuploader_uploaded=Fichiers téléchargés
-    # 🔴 gui_form_back -> Back
-    ➡️ gui_form_back=Retour
-    # 🔴 gui_form_cancel -> Cancel
-    ➡️ gui_form_cancel=Annuler
-    # 🔴 gui_form_next -> Next
-    ➡️ gui_form_next=Suivant
-    # 🔴 gui_form_ok -> OK
-    ➡️ gui_form_ok=OK
+    gui_fileuploader_msg=Déposer le fichier ou Parcourir
+    gui_fileuploader_types=Formats de fichiers supportés
+    gui_fileuploader_upload=Télécharger les fichiers
+    gui_fileuploader_uploaded=Fichiers téléchargés
+    gui_form_back=Retour
+    gui_form_cancel=Annuler
+    gui_form_next=Suivant
+    gui_form_ok=OK
     home_add_infobox=Ajout InfoBox
     home_configuration_agents=Agents
     home_configuration_cases=Cas
@@ -3326,8 +3194,7 @@ Other items
     home_icon_title=Icône
     home_infobox_close=Fermer
     home_infobox_preview=Aperçu
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=Privé
+    home_infobox_private=Privé
     home_infobox_quicklinks=Raccourcis
     home_news_subtitle=Dernières Nouvelles QueueMetrics
     home_news_title=Nouvelles
@@ -3335,10 +3202,8 @@ Other items
     home_payroll_title=Rapport de Paye
     home_qa_subtitle=Démarrer un Rapport de QA
     home_qa_title=Rapport de QA
-    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle=Interface Agent Queuemetrics
-    # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title=Page de l'Agent
+    home_qap_subtitle=Interface Agent Queuemetrics
+    home_qap_title=Page de l'Agent
     home_realtime_subtitle=View Complète des Appels en Cours
     home_realtime_title=Temps-Réel
     home_reports_subtitle=Rapport historique
@@ -3405,8 +3270,7 @@ Other items
     licence_show_eula=Afficher l'accord de licence du client final
     licence_software_release=Numéro de version:
     licence_website=Le site officiel de QueueMetrics
-    # 🔴 list_amo_title -> AMO Campaigns
-    ➡️ list_amo_title=Campagnes AMO
+    list_amo_title=Campagnes AMO
     logon_ErrAlreadyPresent=Cette connexion est déjà présente dans la base de données
     logon_ErrClassNotFound=Classe introuvable
     logon_ErrHidden=Erreur de Connexion
@@ -3430,88 +3294,47 @@ Other items
     lstcall_calllen=Durée
     lstcall_ivr=SVI
     lstcall_waitlen=Attente
-    # 🔴 memo_add_new -> Create Memo
-    ➡️ memo_add_new=Créer un mémo
-    # 🔴 memo_category -> Filter by category
-    ➡️ memo_category=Filtrer par catégorie
-    # 🔴 memo_details_caller -> Caller
-    ➡️ memo_details_caller=Appelant
-    # 🔴 memo_details_create -> Create Memo
-    ➡️ memo_details_create=Créer un mémo
-    # 🔴 memo_details_expireson -> Expires on
-    ➡️ memo_details_expireson=Expiration le
-    # 🔴 memo_details_form -> Form
-    ➡️ memo_details_form=Formulaire
-    # 🔴 memo_details_from -> FROM
-    ➡️ memo_details_from=DE
-    # 🔴 memo_details_goback -> Back
-    ➡️ memo_details_goback=Retour
-    # 🔴 memo_details_info -> Memo Info
-    ➡️ memo_details_info=Infos sur le mémo
-    # 🔴 memo_details_queue -> Queue
-    ➡️ memo_details_queue=File d'attente
-    # 🔴 memo_details_save -> Save
-    ➡️ memo_details_save=Enregistrer
-    # 🔴 memo_details_title -> Title
-    ➡️ memo_details_title=Titre
-    # 🔴 memo_details_to -> TO
-    ➡️ memo_details_to=À
-    # 🔴 memo_details_type -> type
-    ➡️ memo_details_type=type
-    # 🔴 memo_details_user_from -> From
-    ➡️ memo_details_user_from=De
-    # 🔴 memo_details_user_to -> To
-    ➡️ memo_details_user_to=À
-    # 🔴 memo_details_validfrom -> Valid from
-    ➡️ memo_details_validfrom=Valide à partir de
-    # 🔴 memo_due -> Due Date
-    ➡️ memo_due=Date d'échéance
-    # 🔴 memo_filter_all -> All Memos
-    ➡️ memo_filter_all=Tous les mémos
-    # 🔴 memo_filter_alldone -> All Memos done
-    ➡️ memo_filter_alldone=Tous les mémos terminés
-    # 🔴 memo_filter_alltbd -> All Memos to be done
-    ➡️ memo_filter_alltbd=Tous les mémos à faire
-    # 🔴 memo_filter_completed -> Memos I completed
-    ➡️ memo_filter_completed=Mémos que j'ai complétés
-    # 🔴 memo_filter_error -> Error filtering Memos
-    ➡️ memo_filter_error=Erreur lors du filtrage des mémos
-    # 🔴 memo_filter_mygroup -> My group
-    ➡️ memo_filter_mygroup=Mon groupe
-    # 🔴 memo_filter_sent -> Memos I sent
-    ➡️ memo_filter_sent=Mémos que j'ai envoyés
-    # 🔴 memo_filter_status -> Status
-    ➡️ memo_filter_status=Statut
-    # 🔴 memo_filter_tbd -> Memos to be done
-    ➡️ memo_filter_tbd=Mémos à faire
-    # 🔴 memo_from -> From
-    ➡️ memo_from=De
-    # 🔴 memo_group -> Group
-    ➡️ memo_group=Groupe
-    # 🔴 memo_id -> Id
-    ➡️ memo_id=ID
-    # 🔴 memo_items_found -> items found
-    ➡️ memo_items_found=éléments trouvés
-    # 🔴 memo_list -> Memo List
-    ➡️ memo_list=Liste des mémos
-    # 🔴 memo_list_norecords -> No Records
-    ➡️ memo_list_norecords=Aucun enregistrement
-    # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
-    ➡️ memo_loadbyid_error=Une erreur est survenue lors du chargement du mémo par ID
-    # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
-    ➡️ memo_loadbyid_missing=Il semble qu'il n'y ait pas de mémo avec cet ID
-    # 🔴 memo_manager -> Manager
-    ➡️ memo_manager=Responsable
-    # 🔴 memo_message -> Message
-    ➡️ memo_message=Message
-    # 🔴 memo_related_to -> Related to
-    ➡️ memo_related_to=Lié à
-    # 🔴 memo_status -> Status
-    ➡️ memo_status=Statut
-    # 🔴 memo_tree_empty -> Empty
-    ➡️ memo_tree_empty=Vide
-    # 🔴 memo_type -> Type
-    ➡️ memo_type=Type
+    memo_add_new=Créer un mémo
+    memo_category=Filtrer par catégorie
+    memo_details_caller=Appelant
+    memo_details_create=Créer un mémo
+    memo_details_expireson=Expiration le
+    memo_details_form=Formulaire
+    memo_details_from=DE
+    memo_details_goback=Retour
+    memo_details_info=Infos sur le mémo
+    memo_details_queue=File d'attente
+    memo_details_save=Enregistrer
+    memo_details_title=Titre
+    memo_details_to=À
+    memo_details_type=type
+    memo_details_user_from=De
+    memo_details_user_to=À
+    memo_details_validfrom=Valide à partir de
+    memo_due=Date d'échéance
+    memo_filter_all=Tous les mémos
+    memo_filter_alldone=Tous les mémos terminés
+    memo_filter_alltbd=Tous les mémos à faire
+    memo_filter_completed=Mémos que j'ai complétés
+    memo_filter_error=Erreur lors du filtrage des mémos
+    memo_filter_mygroup=Mon groupe
+    memo_filter_sent=Mémos que j'ai envoyés
+    memo_filter_status=Statut
+    memo_filter_tbd=Mémos à faire
+    memo_from=De
+    memo_group=Groupe
+    memo_id=ID
+    memo_items_found=éléments trouvés
+    memo_list=Liste des mémos
+    memo_list_norecords=Aucun enregistrement
+    memo_loadbyid_error=Une erreur est survenue lors du chargement du mémo par ID
+    memo_loadbyid_missing=Il semble qu'il n'y ait pas de mémo avec cet ID
+    memo_manager=Responsable
+    memo_message=Message
+    memo_related_to=Lié à
+    memo_status=Statut
+    memo_tree_empty=Vide
+    memo_type=Type
     menu_licence_page=Page de licence
     menu_user_page=Information utilisateur
     notification_error=Erreur
@@ -3654,8 +3477,7 @@ Other items
     qap_action_qa=Formulaire de QA
     qap_action_recall=Nouvelle note de rappel
     qap_action_transfer=Transfert d'appel
-    # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
-    ➡️ qap_action_wbtrecall=Rappel avec WombatDialer
+    qap_action_wbtrecall=Rappel avec WombatDialer
     qap_addmember_selected=Rejoindre les files d'attente sélectionnées.
     qap_agent_code=Code Agent
     qap_agent_dialout_error=Erreur lors de l'exécution de la numérotation de l'agent.
@@ -3663,28 +3485,17 @@ Other items
     qap_agent_notifications_error=Erreur lors de la récupération des notifications de l'agent.
     qap_agent_settings_error=Erreur lors de la récupération des paramètres de l'agent.
     qap_agent_status_error=Erreur lors de la récupération du status de l'agent.
-    # 🔴 qap_amo -> AMO
-    ➡️ qap_amo=AMO
-    # 🔴 qap_amo_attributes -> Attributes
-    ➡️ qap_amo_attributes=Attributs
-    # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
-    ➡️ qap_amo_cannot=Impossible de réserver un appel pour le moment.
-    # 🔴 qap_amo_error -> Error reserving AMO call:
-    ➡️ qap_amo_error=Erreur lors de la réservation d'un appel AMO :
-    # 🔴 qap_amo_list -> List Name
-    ➡️ qap_amo_list=Nom de la liste
-    # 🔴 qap_amo_number -> Number
-    ➡️ qap_amo_number=Numéro
-    # 🔴 qap_amo_queue -> Queue Name
-    ➡️ qap_amo_queue=Nom de la file d'attente
-    # 🔴 qap_amo_recall -> Recall
-    ➡️ qap_amo_recall=Rappel
-    # 🔴 qap_amo_request -> Request AMO Call
-    ➡️ qap_amo_request=Demande d'appel AMO
-    # 🔴 qap_amo_reserved -> Call successfully Reserved.
-    ➡️ qap_amo_reserved=Appel réservé avec succès.
-    # 🔴 qap_amo_terminated -> There are no more available AMO calls.
-    ➡️ qap_amo_terminated=Aucun autre appel AMO disponible.
+    qap_amo=AMO
+    qap_amo_attributes=Attributs
+    qap_amo_cannot=Impossible de réserver un appel pour le moment.
+    qap_amo_error=Erreur lors de la réservation d'un appel AMO :
+    qap_amo_list=Nom de la liste
+    qap_amo_number=Numéro
+    qap_amo_queue=Nom de la file d'attente
+    qap_amo_recall=Rappel
+    qap_amo_request=Demande d'appel AMO
+    qap_amo_reserved=Appel réservé avec succès.
+    qap_amo_terminated=Aucun autre appel AMO disponible.
     qap_assign_case=Attribuer une interaction à une requête
     qap_assign_client=Attribuer une interaction à un client
     qap_assign_interaction_error=Erreur lors de l'attribution d'une relation à cette interaction.
@@ -3692,17 +3503,13 @@ Other items
     qap_call_associated_to_case=L'appel était associé au cas
     qap_case=Cas(Requête)
     qap_case_add=Nouveau cas
-    # 🔴 qap_case_calls -> ALL CALLS
-    ➡️ qap_case_calls=Tous les appels
+    qap_case_calls=Tous les appels
     qap_case_closed=Fermé
-    # 🔴 qap_case_comments -> Comments
-    ➡️ qap_case_comments=Commentaires
+    qap_case_comments=Commentaires
     qap_case_contact=Contact
-    # 🔴 qap_case_details -> Case Details
-    ➡️ qap_case_details=Détails du cas
+    qap_case_details=Détails du cas
     qap_case_email=Email
-    # 🔴 qap_case_merged -> Merged
-    ➡️ qap_case_merged=Fusionné
+    qap_case_merged=Fusionné
     qap_case_notes=Notes
     qap_case_open=Ouvert
     qap_case_title=Titre
@@ -3721,10 +3528,8 @@ Other items
     qap_clients_add=Nouveau client
     qap_clients_placeholder_search=Recherchez n'importe quel client ici
     qap_control_addall=Tout fusionner
-    # 🔴 qap_control_add -> Join
-    ➡️ qap_control_add=Rejoindre
-    # 🔴 qap_control_remove -> Leave
-    ➡️ qap_control_remove=Quitter
+    qap_control_add=Rejoindre
+    qap_control_remove=Quitter
     qap_control_all=Tout
     qap_control_amend=Modifier
     qap_control_assigned=Assigné
@@ -3738,8 +3543,7 @@ Other items
     qap_control_timer=Minuteur
     qap_control_unpause=Reprendre
     qap_create_note_error=Erreur lors de la création d'une nouvelle note
-    # 🔴 qap_crm_links -> CRM Popup Links
-    ➡️ qap_crm_links=Liens pop-up CRM
+    qap_crm_links=Liens pop-up CRM
     qap_daily_idle=Temps disponible
     qap_daily_lost=Appels perdus
     qap_daily_lostatt=Tentatives perdues
@@ -3792,8 +3596,7 @@ Other items
     qap_find_clients=Trouver votre client
     qap_form_features=Codes fonction
     qap_form_outcome=Résultat
-    # 🔴 qap_idle_time -> Idle Time
-    ➡️ qap_idle_time=Temps d'inactivité
+    qap_idle_time=Temps d'inactivité
     qap_interaction_caller=Appelant
     qap_interaction_case=Cas
     qap_interaction_client=Client
@@ -3826,19 +3629,15 @@ Other items
     qap_nav_interactions=Interactions
     qap_nav_overview=Résumé
     qap_nav_qa=QA
-    # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
-    ➡️ qap_nav_wombat=Aperçu du composant WombatDialer
-    # 🔴 qap_new_memo -> Create linked Memo
-    ➡️ qap_new_memo=Créer un mémo lié
+    qap_nav_wombat=Aperçu du composant WombatDialer
+    qap_new_memo=Créer un mémo lié
     qap_no_cases=Aucun cas ouvert
     qap_no_clients=Aucun client trouvé.
-    # 🔴 qap_none -> None
-    ➡️ qap_none=Aucun
+    qap_none=Aucun
     qap_note_actions=Actions
     qap_note_complete=Complet
     qap_note_dispute=Contestation
-    # 🔴 qap_note_empty -> Empty
-    ➡️ qap_note_empty=Vide
+    qap_note_empty=Vide
     qap_note_expires=Expire le
     qap_note_expires_on=Expire le
     qap_note_flag=Signal
@@ -3857,8 +3656,7 @@ Other items
     qap_note_status=Status
     qap_note_tbd=A Définir
     qap_note_todo=A faire
-    # 🔴 qap_note_togroup -> To Group
-    ➡️ qap_note_togroup=Vers le groupe
+    qap_note_togroup=Vers le groupe
     qap_note_touser=A l'utilisateur
     qap_note_training=Formation
     qap_note_type=Type
@@ -3878,10 +3676,8 @@ Other items
     qap_search_cases_error=Erreur de recherche de cas.
     qap_search_clients_error=Erreur de recherche de client.
     qap_server=Serveur
-    # 🔴 qap_session_time -> Session Time
-    ➡️ qap_session_time=Temps de session
-    # 🔴 qap_signout -> Sign out
-    ➡️ qap_signout=Déconnexion
+    qap_session_time=Temps de session
+    qap_signout=Déconnexion
     qap_softphone=Téléphone
     qap_softphone_debug=Active le débogage du téléphone
     qap_start_work=Démarre le travail
@@ -3898,24 +3694,16 @@ Other items
     qap_title_outcomes=Résultats et caractéristiques
     qap_title_overview=Résumé
     qap_today=Aujourd'hui
-    # 🔴 qap_transaction_body -> Comment
-    ➡️ qap_transaction_body=Commentaire
-    # 🔴 qap_transaction_title -> Title
-    ➡️ qap_transaction_title=Titre
+    qap_transaction_body=Commentaire
+    qap_transaction_title=Titre
     qap_unknown_caller=Appelant inconnu
     qap_user_pref_error=Erreur lors du téléchargement des préférences utilisateur.
-    # 🔴 qap_wbt_campaign -> Campaign
-    ➡️ qap_wbt_campaign=Campagne
-    # 🔴 qap_wbt_comments -> Comments
-    ➡️ qap_wbt_comments=Commentaires
-    # 🔴 qap_wbt_date -> Date
-    ➡️ qap_wbt_date=Date
-    # 🔴 qap_wbt_num -> Number
-    ➡️ qap_wbt_num=Numéro
-    # 🔴 qap_wbt_recall -> Recall
-    ➡️ qap_wbt_recall=Rappel
-    # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
-    ➡️ qap_wbt_title=Planifier un rappel WombatDialer
+    qap_wbt_campaign=Campagne
+    qap_wbt_comments=Commentaires
+    qap_wbt_date=Date
+    qap_wbt_num=Numéro
+    qap_wbt_recall=Rappel
+    qap_wbt_title=Planifier un rappel WombatDialer
     qap_welcome=Bienvenue!
     qap_you_have=Vous avez
     qatarget_agentgroup=Groupe de l'agent
@@ -4069,8 +3857,7 @@ Other items
     reports_filter_input_error=Erreur de Saisie
     reports_filter_ivr=SVI
     reports_filter_location=Position
-    # 🔴 reports_filter_none -> None
-    ➡️ reports_filter_none=Aucun
+    reports_filter_none=Aucun
     reports_filter_noncont_time=Entre
     reports_filter_noncontdays=Jours
     reports_filter_noncontr1from=Temps 1 de
@@ -4083,15 +3870,13 @@ Other items
     reports_filter_shortcallattempt=Min. Temps de Tentatives (Appels courts)
     reports_filter_shortcalltalk=Min. Temps de Parole (Appels courts)
     reports_filter_shortcallwait=Min. Temps d'attente (Appels courts)
-    # 🔴 reports_filter_timerange -> Select time range
-    ➡️ reports_filter_timerange=Sélectionner la plage de temps
+    reports_filter_timerange=Sélectionner la plage de temps
     reports_filter_variable_name=Nom de la Variable
     reports_filter_variable_value=Valeur de la Variable
     reports_filter_variables=Variables
     reports_filter_waitmax=Max. Temps d'Attente
     reports_filter_waitmin=Min. Temps d'Attente
-    # 🔴 reports_filters -> Show/Hide Filters
-    ➡️ reports_filters=Afficher/Cacher les filtres
+    reports_filters=Afficher/Cacher les filtres
     reports_goto_page=Aller à la page
     reports_grouping_title=Groupement d'appels
     reports_import_schema=Importer le rapport du schéma
@@ -4625,3 +4410,5 @@ Other items
     xtsrc_html=Source de données externes au format HTML
     xtsrc_json=Source de données externesau format JSON
     xtsrc_xmlrpc=Source de données externes au format XML-RPC
+
+
