@@ -1153,6 +1153,14 @@ Do not change the items below:
     ➡️ evt_web_fail_session=
     # 🔴 evt_web_start_session -> Web Session Start
     ➡️ evt_web_start_session=
+    # 🔴 evt_var_group -> Variables
+    ➡️ evt_var_group=
+    # 🔴 evt_custom_prev_stint -> Previous Stint
+    ➡️ evt_custom_prev_stint=
+    # 🔴 evt_custom_next_stint -> Next Stint
+    ➡️ evt_custom_next_stint=
+    # 🔴 evt_custom_n_stint -> N. Stints
+    ➡️ evt_custom_n_stint=
 
 ## Headers
 
@@ -3288,6 +3296,92 @@ Description of security keys:
     phone_username=Kullanıcı Adı
     phone_websocketurl=Bekliyor
 
+## Homepage
+
+    home_add_infobox=Bilgi Kutusu Ekle
+    home_configuration_agents=Müşteri Temsilcileri
+    # 🔴 home_configuration_cases -> Cases
+    ➡️ home_configuration_cases=
+    home_configuration_cbt=CBTs
+    # 🔴 home_configuration_clients -> Clients
+    ➡️ home_configuration_clients=
+    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
+    ➡️ home_configuration_custom_blocks=
+    home_configuration_dnis=DID /DNIS hatlar
+    home_configuration_export_jobs=Rapor Çıktılarını Düzenle
+    home_configuration_features=Çağrı özellikleri
+    home_configuration_groups=Müşteri Temsilcisi grupları
+    home_configuration_ivr=IVR seçimleri
+    home_configuration_known_numbers=Bilinen Numaralar
+    home_configuration_locations=Konumlar
+    home_configuration_outcomes=Çağrı Sonuçları
+    home_configuration_pause_codes=Mola Kodları
+    home_configuration_perftracker=QA Performans Takibi
+    home_configuration_qaforms=QA Formları
+    home_configuration_queues=Havuzlar
+    home_configuration_scheduled_jobs=Zamanlanmış İşleri Düzenle
+    home_configuration_skills=Müşteri Temsilcisi becerileri
+    home_configuration_subtitle=QueueMetrics Konfig Nesnelerini Düzenle
+    home_configuration_tags=Çağrı etiketleri
+    home_configuration_title=Konfigrasyon
+    home_configuration_users=Kullanıcılar
+    home_dbtest_ami=AMI testi
+    home_dbtest_ami_queue=AMI Komutları
+    home_dbtest_configuration=Konfif Göster
+    home_dbtest_db_inspector=Veritabanı denetçisi
+    home_dbtest_ram_cache=RAM Cache
+    home_dbtest_smtp=SMTP Test
+    home_diagnostics_title=Tanılama
+    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
+    ➡️ home_error_fetch_admin_infoboxes=
+    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
+    ➡️ home_error_fetch_available_infoboxes=
+    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
+    ➡️ home_error_fetch_infoboxes=
+    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
+    ➡️ home_error_save_prefs=
+    home_icon_subtitle=İkon Müşteri Temsilci Sayfası
+    home_icon_title=İkon
+    home_infobox_close=Kapat
+    home_infobox_preview=Önizleme
+    # 🔴 home_infobox_private -> Private
+    ➡️ home_infobox_private=
+    home_infobox_quicklinks=Hızlı bağlantı
+    home_news_subtitle=QueueMetrics En Son Haberler
+    home_news_title=Haberler
+    home_payroll_subtitle=Bordro Raporu Başlat
+    home_payroll_title=Bordro Raporu
+    home_qa_subtitle=QA Raporu Başlat
+    home_qa_title=QA Raporları
+    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
+    ➡️ home_qap_subtitle=
+    # 🔴 home_qap_title -> Agent Page
+    ➡️ home_qap_title=
+    home_realtime_subtitle=Canlı aramaların kapsamlı görünümü
+    home_realtime_title=Gerçek-zaman
+    home_reports_subtitle=Geçmiş raporlar
+    home_reports_title=Raporlar
+    home_search=Ara
+    home_search_placeholder=Ana sayfada arama
+    home_select_infobox=Giriş Sayfasında görmek istediğiniz Bilgi Kutusu'nu denetleme
+    home_ssar_subtitle=Self Servis Aracı Raporları
+    home_ssar_title=SSAR
+    home_synchronizer_subtitle=QueueMetrics Otomatik Kurulumu
+    home_synchronizer_title=Gerçek zamanlı sayfa
+    home_sysadmin_agaw=Müşteri temsilcisi farkındalık müdürü
+    home_sysadmin_audit=Denetim Günlüklerini Görüntüle
+    home_sysadmin_diagnostic_tools=Sistem tanılama araçları
+    home_sysadmin_edit_parameters=Sistem Parametrelerini Düzenle
+    home_sysadmin_explore_parameters=Sistem parametrelerini araştırın
+    home_sysadmin_import_export=İçe Aktar / Dışa Aktar
+    home_sysadmin_mysql_storage=Mysql depolama bilgisi
+    home_sysadmin_subtitle=Sysadmins için kullanışlı araçlar
+    home_sysadmin_title=Sistem Yönetimi
+    home_throwaway_report=Throw Away Raporu Oluştur
+    home_unexpected_server_error=Beklenmeyen bir sunucu hatası oluştu
+    home_wallboards_subtitle=Duvarpanoları için özelleştirilebilir canlı veriler
+    home_wallboards_title=Duvar Panoları
+
 ## Misc
 
 Other items
@@ -3464,89 +3558,6 @@ Other items
     ➡️ gui_form_next=
     # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
-    home_add_infobox=Bilgi Kutusu Ekle
-    home_configuration_agents=Müşteri Temsilcileri
-    # 🔴 home_configuration_cases -> Cases
-    ➡️ home_configuration_cases=
-    home_configuration_cbt=CBTs
-    # 🔴 home_configuration_clients -> Clients
-    ➡️ home_configuration_clients=
-    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
-    ➡️ home_configuration_custom_blocks=
-    home_configuration_dnis=DID /DNIS hatlar
-    home_configuration_export_jobs=Rapor Çıktılarını Düzenle
-    home_configuration_features=Çağrı özellikleri
-    home_configuration_groups=Müşteri Temsilcisi grupları
-    home_configuration_ivr=IVR seçimleri
-    home_configuration_known_numbers=Bilinen Numaralar
-    home_configuration_locations=Konumlar
-    home_configuration_outcomes=Çağrı Sonuçları
-    home_configuration_pause_codes=Mola Kodları
-    home_configuration_perftracker=QA Performans Takibi
-    home_configuration_qaforms=QA Formları
-    home_configuration_queues=Havuzlar
-    home_configuration_scheduled_jobs=Zamanlanmış İşleri Düzenle
-    home_configuration_skills=Müşteri Temsilcisi becerileri
-    home_configuration_subtitle=QueueMetrics Konfig Nesnelerini Düzenle
-    home_configuration_tags=Çağrı etiketleri
-    home_configuration_title=Konfigrasyon
-    home_configuration_users=Kullanıcılar
-    home_dbtest_ami=AMI testi
-    home_dbtest_ami_queue=AMI Komutları
-    home_dbtest_configuration=Konfif Göster
-    home_dbtest_db_inspector=Veritabanı denetçisi
-    home_dbtest_ram_cache=RAM Cache
-    home_dbtest_smtp=SMTP Test
-    home_diagnostics_title=Tanılama
-    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
-    ➡️ home_error_fetch_admin_infoboxes=
-    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
-    ➡️ home_error_fetch_available_infoboxes=
-    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
-    ➡️ home_error_fetch_infoboxes=
-    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
-    ➡️ home_error_save_prefs=
-    home_icon_subtitle=İkon Müşteri Temsilci Sayfası
-    home_icon_title=İkon
-    home_infobox_close=Kapat
-    home_infobox_preview=Önizleme
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=
-    home_infobox_quicklinks=Hızlı bağlantı
-    home_news_subtitle=QueueMetrics En Son Haberler
-    home_news_title=Haberler
-    home_payroll_subtitle=Bordro Raporu Başlat
-    home_payroll_title=Bordro Raporu
-    home_qa_subtitle=QA Raporu Başlat
-    home_qa_title=QA Raporları
-    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle=
-    # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title=
-    home_realtime_subtitle=Canlı aramaların kapsamlı görünümü
-    home_realtime_title=Gerçek-zaman
-    home_reports_subtitle=Geçmiş raporlar
-    home_reports_title=Raporlar
-    home_search=Ara
-    home_search_placeholder=Ana sayfada arama
-    home_select_infobox=Giriş Sayfasında görmek istediğiniz Bilgi Kutusu'nu denetleme
-    home_ssar_subtitle=Self Servis Aracı Raporları
-    home_ssar_title=SSAR
-    home_synchronizer_subtitle=QueueMetrics Otomatik Kurulumu
-    home_synchronizer_title=Gerçek zamanlı sayfa
-    home_sysadmin_agaw=Müşteri temsilcisi farkındalık müdürü
-    home_sysadmin_audit=Denetim Günlüklerini Görüntüle
-    home_sysadmin_diagnostic_tools=Sistem tanılama araçları
-    home_sysadmin_edit_parameters=Sistem Parametrelerini Düzenle
-    home_sysadmin_explore_parameters=Sistem parametrelerini araştırın
-    home_sysadmin_import_export=İçe Aktar / Dışa Aktar
-    home_sysadmin_mysql_storage=Mysql depolama bilgisi
-    home_sysadmin_subtitle=Sysadmins için kullanışlı araçlar
-    home_sysadmin_title=Sistem Yönetimi
-    home_throwaway_report=Throw Away Raporu Oluştur
-    home_unexpected_server_error=Beklenmeyen bir sunucu hatası oluştu
-    home_wallboards_subtitle=Duvarpanoları için özelleştirilebilir canlı veriler
-    home_wallboards_title=Duvar Panoları
     jump_to_main_content=Kullanıcılar
     keyinstall_err_nokey=Kullanıcı KEYUPDATE anahtarını tutuyor olmalı. Devam edilemez.
     keyinstall_err_noscript=Eksik yeniden başlatma komut dosyası.

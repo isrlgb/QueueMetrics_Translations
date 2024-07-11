@@ -1154,6 +1154,14 @@ Do not change the items below:
     ➡️ evt_web_fail_session=
     # 🔴 evt_web_start_session -> Web Session Start
     ➡️ evt_web_start_session=
+    # 🔴 evt_var_group -> Variables
+    ➡️ evt_var_group=
+    # 🔴 evt_custom_prev_stint -> Previous Stint
+    ➡️ evt_custom_prev_stint=
+    # 🔴 evt_custom_next_stint -> Next Stint
+    ➡️ evt_custom_next_stint=
+    # 🔴 evt_custom_n_stint -> N. Stints
+    ➡️ evt_custom_n_stint=
 
 ## Headers
 
@@ -3495,6 +3503,93 @@ Description of security keys:
     # 🔴 phone_websocketurl -> Websocket URL
     ➡️ phone_websocketurl=
 
+## Homepage
+
+    home_add_infobox=Πρόσθεση InfoBox
+    home_configuration_agents=Πράκτορες
+    # 🔴 home_configuration_cases -> Cases
+    ➡️ home_configuration_cases=
+    home_configuration_cbt=CBTs
+    # 🔴 home_configuration_clients -> Clients
+    ➡️ home_configuration_clients=
+    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
+    ➡️ home_configuration_custom_blocks=
+    home_configuration_dnis=DID/DNIS
+    home_configuration_export_jobs=Επεξεργασία Εξαγωγής Αναφορών
+    home_configuration_features=Λειτουργίες Κλήσεων
+    home_configuration_groups=Γκρουπ Πρακτόρων
+    home_configuration_ivr=Επιλογή IVR
+    home_configuration_known_numbers=Γνωστοί Αριθμοί
+    home_configuration_locations=Περιοχές
+    home_configuration_outcomes=Αποτελέσματα Κλήσεων
+    home_configuration_pause_codes=Κωδικοί Παύσης
+    home_configuration_perftracker=Παρακολούθηση απόδοσης QA
+    home_configuration_qaforms=Έντυπα QA
+    home_configuration_queues=Queues
+    home_configuration_scheduled_jobs=Επεξεργασία προγραμματισμένων εργασιών
+    home_configuration_skills=Δεξιότητες πρακτόρων
+    home_configuration_subtitle=Επεξεργασία αντικειμένων διαμόρφωσης QueueMetrics
+    home_configuration_tags=Ετικέτες κλήσης
+    home_configuration_title=Διαμόρφωση
+    home_configuration_users=Χρήστες
+    home_dbtest_ami=Ελεγκτής AMI
+    home_dbtest_ami_queue=Εντολές AMI
+    home_dbtest_configuration=Προβολή διαμόρφωσης
+    home_dbtest_db_inspector=Επιθεωρητής βάσης δεδομένων
+    home_dbtest_ram_cache=Προσωρινή αποθήκευση RAM
+    home_dbtest_smtp=Ελεγκτής SMTP
+    home_diagnostics_title=Διαγνωστικά
+    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
+    ➡️ home_error_fetch_admin_infoboxes=
+    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
+    ➡️ home_error_fetch_available_infoboxes=
+    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
+    ➡️ home_error_fetch_infoboxes=
+    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
+    ➡️ home_error_save_prefs=
+    home_icon_subtitle=Σελίδα εικονιδίων πρακτόρων
+    home_icon_title=Εικονίδιο
+    home_infobox_close=Κλείσιμο
+    home_infobox_preview=Προεπισκόπηση
+    # 🔴 home_infobox_private -> Private
+    ➡️ home_infobox_private=
+    home_infobox_quicklinks=Quicklinks
+    home_news_subtitle=Τελευταία νέα QueueMetrics
+    home_news_title=Νέα
+    home_payroll_subtitle=Εκκίνηση Αναφοράς Μισθοδοσίας
+    home_payroll_title=Αναφορά Μισθοδοσίας
+    home_qa_subtitle=Εκκίνηση Αναφοράς QA
+    home_qa_title=Αναφορές QA
+    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
+    ➡️ home_qap_subtitle=
+    # 🔴 home_qap_title -> Agent Page
+    ➡️ home_qap_title=
+    home_realtime_subtitle=Πλήρης προβολή ζωντανών κλήσεων
+    home_realtime_title=Πραγματικός χρόνος
+    home_reports_subtitle=Ιστορικές αναφορές
+    home_reports_title=Αναφορές
+    home_search=Αναζήτηση
+    home_search_placeholder=Αναζήτηση στην αρχική σελίδα
+    home_select_infobox=Επιλέξτε το InfoBox που θέλετε να δείτε στην Αρχική σελίδα
+    # 🔴 home_ssar_subtitle -> Self Service Agent Reports
+    ➡️ home_ssar_subtitle=
+    home_ssar_title=SSAR
+    home_synchronizer_subtitle=Αυτόματη ρύθμιση QueueMetrics
+    home_synchronizer_title=Συγχρονιστής
+    home_sysadmin_agaw=Agent Awareness Manager
+    home_sysadmin_audit=Προβολή αρχείων καταγραφής ελέγχου
+    home_sysadmin_diagnostic_tools=Διαγνωστικά εργαλεία συστήματος
+    home_sysadmin_edit_parameters=Επεξεργασία Παραμέτρων Συστήματος
+    home_sysadmin_explore_parameters=Εξερεύνηση Παραμέτρων Συστήματος
+    home_sysadmin_import_export=Εισαγωγή/Εξαγωγή Κλήσεων
+    home_sysadmin_mysql_storage=Πληροφορίες αποθηκευτικού χώρου Mysql
+    home_sysadmin_subtitle=Χρήσιμα εργαλεία για Διαχειριστές Συστήματος
+    home_sysadmin_title=Διαχείριση Συστήματος
+    home_throwaway_report=Δημιουργία αναφοράς μιας χρήσης
+    home_unexpected_server_error=Παρουσιάστηκε μη αναμενόμενο σφάλμα διακομιστή
+    home_wallboards_subtitle=Προσαρμόσιμα Wallboards για ζωντανά δεδομένα
+    home_wallboards_title=Wallboards
+
 ## Misc
 
 Other items
@@ -3671,90 +3766,6 @@ Other items
     ➡️ gui_form_next=
     # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
-    home_add_infobox=Πρόσθεση InfoBox
-    home_configuration_agents=Πράκτορες
-    # 🔴 home_configuration_cases -> Cases
-    ➡️ home_configuration_cases=
-    home_configuration_cbt=CBTs
-    # 🔴 home_configuration_clients -> Clients
-    ➡️ home_configuration_clients=
-    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
-    ➡️ home_configuration_custom_blocks=
-    home_configuration_dnis=DID/DNIS
-    home_configuration_export_jobs=Επεξεργασία Εξαγωγής Αναφορών
-    home_configuration_features=Λειτουργίες Κλήσεων
-    home_configuration_groups=Γκρουπ Πρακτόρων
-    home_configuration_ivr=Επιλογή IVR
-    home_configuration_known_numbers=Γνωστοί Αριθμοί
-    home_configuration_locations=Περιοχές
-    home_configuration_outcomes=Αποτελέσματα Κλήσεων
-    home_configuration_pause_codes=Κωδικοί Παύσης
-    home_configuration_perftracker=Παρακολούθηση απόδοσης QA
-    home_configuration_qaforms=Έντυπα QA
-    home_configuration_queues=Queues
-    home_configuration_scheduled_jobs=Επεξεργασία προγραμματισμένων εργασιών
-    home_configuration_skills=Δεξιότητες πρακτόρων
-    home_configuration_subtitle=Επεξεργασία αντικειμένων διαμόρφωσης QueueMetrics
-    home_configuration_tags=Ετικέτες κλήσης
-    home_configuration_title=Διαμόρφωση
-    home_configuration_users=Χρήστες
-    home_dbtest_ami=Ελεγκτής AMI
-    home_dbtest_ami_queue=Εντολές AMI
-    home_dbtest_configuration=Προβολή διαμόρφωσης
-    home_dbtest_db_inspector=Επιθεωρητής βάσης δεδομένων
-    home_dbtest_ram_cache=Προσωρινή αποθήκευση RAM
-    home_dbtest_smtp=Ελεγκτής SMTP
-    home_diagnostics_title=Διαγνωστικά
-    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
-    ➡️ home_error_fetch_admin_infoboxes=
-    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
-    ➡️ home_error_fetch_available_infoboxes=
-    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
-    ➡️ home_error_fetch_infoboxes=
-    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
-    ➡️ home_error_save_prefs=
-    home_icon_subtitle=Σελίδα εικονιδίων πρακτόρων
-    home_icon_title=Εικονίδιο
-    home_infobox_close=Κλείσιμο
-    home_infobox_preview=Προεπισκόπηση
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=
-    home_infobox_quicklinks=Quicklinks
-    home_news_subtitle=Τελευταία νέα QueueMetrics
-    home_news_title=Νέα
-    home_payroll_subtitle=Εκκίνηση Αναφοράς Μισθοδοσίας
-    home_payroll_title=Αναφορά Μισθοδοσίας
-    home_qa_subtitle=Εκκίνηση Αναφοράς QA
-    home_qa_title=Αναφορές QA
-    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle=
-    # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title=
-    home_realtime_subtitle=Πλήρης προβολή ζωντανών κλήσεων
-    home_realtime_title=Πραγματικός χρόνος
-    home_reports_subtitle=Ιστορικές αναφορές
-    home_reports_title=Αναφορές
-    home_search=Αναζήτηση
-    home_search_placeholder=Αναζήτηση στην αρχική σελίδα
-    home_select_infobox=Επιλέξτε το InfoBox που θέλετε να δείτε στην Αρχική σελίδα
-    # 🔴 home_ssar_subtitle -> Self Service Agent Reports
-    ➡️ home_ssar_subtitle=
-    home_ssar_title=SSAR
-    home_synchronizer_subtitle=Αυτόματη ρύθμιση QueueMetrics
-    home_synchronizer_title=Συγχρονιστής
-    home_sysadmin_agaw=Agent Awareness Manager
-    home_sysadmin_audit=Προβολή αρχείων καταγραφής ελέγχου
-    home_sysadmin_diagnostic_tools=Διαγνωστικά εργαλεία συστήματος
-    home_sysadmin_edit_parameters=Επεξεργασία Παραμέτρων Συστήματος
-    home_sysadmin_explore_parameters=Εξερεύνηση Παραμέτρων Συστήματος
-    home_sysadmin_import_export=Εισαγωγή/Εξαγωγή Κλήσεων
-    home_sysadmin_mysql_storage=Πληροφορίες αποθηκευτικού χώρου Mysql
-    home_sysadmin_subtitle=Χρήσιμα εργαλεία για Διαχειριστές Συστήματος
-    home_sysadmin_title=Διαχείριση Συστήματος
-    home_throwaway_report=Δημιουργία αναφοράς μιας χρήσης
-    home_unexpected_server_error=Παρουσιάστηκε μη αναμενόμενο σφάλμα διακομιστή
-    home_wallboards_subtitle=Προσαρμόσιμα Wallboards για ζωντανά δεδομένα
-    home_wallboards_title=Wallboards
     jump_to_main_content=Μετάβαση στο κύριο περιεχόμενο
     keyinstall_err_nokey=Ο χρήστης πρέπει να κρατά πατημένο το κουμπί KEYUPDATE. Δεν είναι δυνατή η συνέχιση.
     keyinstall_err_noscript=Λείπει το script επανεκκίνησης

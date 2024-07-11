@@ -1114,6 +1114,14 @@ Do not change the items below:
     evt_web_end_session=Fin de sesión Web
     evt_web_fail_session=Sesión Web Fallida
     evt_web_start_session=Inicio sesión Web
+    # 🔴 evt_var_group -> Variables
+    ➡️ evt_var_group=
+    # 🔴 evt_custom_prev_stint -> Previous Stint
+    ➡️ evt_custom_prev_stint=
+    # 🔴 evt_custom_next_stint -> Next Stint
+    ➡️ evt_custom_next_stint=
+    # 🔴 evt_custom_n_stint -> N. Stints
+    ➡️ evt_custom_n_stint=
 
 ## Headers
 
@@ -3069,6 +3077,82 @@ Description of security keys:
     phone_username=Nombre de Usuario
     phone_websocketurl=URL WebSocket
 
+## Homepage
+
+    home_add_infobox=Añadir InfoBox
+    home_configuration_agents=Agentes
+    home_configuration_cases=Casos
+    home_configuration_cbt=CBTs
+    home_configuration_clients=Clientes
+    home_configuration_custom_blocks=Bloque de Datos Personalizados
+    home_configuration_dnis=DID/DNIS
+    home_configuration_export_jobs=Editar Exportación de Informes
+    home_configuration_features=Características 
+    home_configuration_groups=Grupos de Agentes
+    home_configuration_ivr=Selecciones IVR
+    home_configuration_known_numbers=Números Conocidos
+    home_configuration_locations=Ubicaciones
+    home_configuration_outcomes=Resultados llamadas
+    home_configuration_pause_codes=Códigos de Pausa
+    home_configuration_perftracker=Tracker de Performance QA
+    home_configuration_qaforms=Formularios QA
+    home_configuration_queues=Colas
+    home_configuration_scheduled_jobs=Tareas Programadas
+    home_configuration_skills=Competencia Agentes
+    home_configuration_subtitle=Editar objetos de configuración de Queuemetrics
+    home_configuration_tags=Etiqueta de llamada
+    home_configuration_title=Configuración
+    home_configuration_users=Usuarios
+    home_dbtest_ami=Test AMI
+    home_dbtest_ami_queue=Comandos AMI
+    home_dbtest_configuration=Ver configuración
+    home_dbtest_db_inspector=Inspeccionar Base de Datos
+    home_dbtest_ram_cache=Inspeccionar Caché RAM
+    home_dbtest_smtp=Test envío SMTP
+    home_diagnostics_title=Diagnóstico
+    home_error_fetch_admin_infoboxes=Error en la carga de InfoBox administración
+    home_error_fetch_available_infoboxes=Error en carga InfoBox disponibles
+    home_error_fetch_infoboxes=Errore carga InfoBox
+    home_error_save_prefs=Error de grabación de Infobox
+    home_icon_subtitle=Página Agente Icon
+    home_icon_title=Icon
+    home_infobox_close=Cerrar
+    home_infobox_preview=Vista Previa
+    home_infobox_private=Privado
+    home_infobox_quicklinks=Enlaces Rápidos
+    home_news_subtitle=Últimas noticias sobre Queuemetrics
+    home_news_title=Noticias
+    home_payroll_subtitle=Ejecutar un Informe Payroll
+    home_payroll_title=Informe Payroll
+    home_qa_subtitle=Ejecutar un Informe QA
+    home_qa_title=Informes QA
+    home_qap_subtitle=Interfaz Agente Queuemetrics
+    home_qap_title=Página Agente
+    home_realtime_subtitle=Información en Tiempo Real sobre las llamadas activas
+    home_realtime_title=Tiempo Real
+    home_reports_subtitle=Informes Históricos
+    home_reports_title=Informes 
+    home_search=Buscar
+    home_search_placeholder=Buscar en la Página de Inicio
+    home_select_infobox=Verifique el InfoBox que desea ver en la página de inicio 
+    home_ssar_subtitle=Informes de Agente de Auto Servicio
+    home_ssar_title=SSAR
+    home_synchronizer_subtitle=Configuración Automática de Queuemetrics
+    home_synchronizer_title=Sincronizador
+    home_sysadmin_agaw=Agent Awareness Manager
+    home_sysadmin_audit=Visualizar registros de auditoría
+    home_sysadmin_diagnostic_tools=Herramientas de diagnóstico del sistema
+    home_sysadmin_edit_parameters=Editar Parámetros de Sistema
+    home_sysadmin_explore_parameters=Ver los parámetros del sistema
+    home_sysadmin_import_export=Importar/Exportar Llamadas
+    home_sysadmin_mysql_storage=Información de almacenamiento MySQL
+    home_sysadmin_subtitle=Herramientas útiles para administradores de sistemas
+    home_sysadmin_title=Administración de Sistema
+    home_throwaway_report=Crear informe desechable
+    home_unexpected_server_error=Se ha verificado un error inesperado
+    home_wallboards_subtitle=Tableros personalizable para datos Live
+    home_wallboards_title=Tableros
+
 ## Misc
 
 Other items
@@ -3195,79 +3279,6 @@ Other items
     gui_form_cancel=Cancelar
     gui_form_next=Próximo
     gui_form_ok=OK
-    home_add_infobox=Añadir InfoBox
-    home_configuration_agents=Agentes
-    home_configuration_cases=Casos
-    home_configuration_cbt=CBTs
-    home_configuration_clients=Clientes
-    home_configuration_custom_blocks=Bloque de Datos Personalizados
-    home_configuration_dnis=DID/DNIS
-    home_configuration_export_jobs=Editar Exportación de Informes
-    home_configuration_features=Características 
-    home_configuration_groups=Grupos de Agentes
-    home_configuration_ivr=Selecciones IVR
-    home_configuration_known_numbers=Números Conocidos
-    home_configuration_locations=Ubicaciones
-    home_configuration_outcomes=Resultados llamadas
-    home_configuration_pause_codes=Códigos de Pausa
-    home_configuration_perftracker=Tracker de Performance QA
-    home_configuration_qaforms=Formularios QA
-    home_configuration_queues=Colas
-    home_configuration_scheduled_jobs=Tareas Programadas
-    home_configuration_skills=Competencia Agentes
-    home_configuration_subtitle=Editar objetos de configuración de Queuemetrics
-    home_configuration_tags=Etiqueta de llamada
-    home_configuration_title=Configuración
-    home_configuration_users=Usuarios
-    home_dbtest_ami=Test AMI
-    home_dbtest_ami_queue=Comandos AMI
-    home_dbtest_configuration=Ver configuración
-    home_dbtest_db_inspector=Inspeccionar Base de Datos
-    home_dbtest_ram_cache=Inspeccionar Caché RAM
-    home_dbtest_smtp=Test envío SMTP
-    home_diagnostics_title=Diagnóstico
-    home_error_fetch_admin_infoboxes=Error en la carga de InfoBox administración
-    home_error_fetch_available_infoboxes=Error en carga InfoBox disponibles
-    home_error_fetch_infoboxes=Errore carga InfoBox
-    home_error_save_prefs=Error de grabación de Infobox
-    home_icon_subtitle=Página Agente Icon
-    home_icon_title=Icon
-    home_infobox_close=Cerrar
-    home_infobox_preview=Vista Previa
-    home_infobox_private=Privado
-    home_infobox_quicklinks=Enlaces Rápidos
-    home_news_subtitle=Últimas noticias sobre Queuemetrics
-    home_news_title=Noticias
-    home_payroll_subtitle=Ejecutar un Informe Payroll
-    home_payroll_title=Informe Payroll
-    home_qa_subtitle=Ejecutar un Informe QA
-    home_qa_title=Informes QA
-    home_qap_subtitle=Interfaz Agente Queuemetrics
-    home_qap_title=Página Agente
-    home_realtime_subtitle=Información en Tiempo Real sobre las llamadas activas
-    home_realtime_title=Tiempo Real
-    home_reports_subtitle=Informes Históricos
-    home_reports_title=Informes 
-    home_search=Buscar
-    home_search_placeholder=Buscar en la Página de Inicio
-    home_select_infobox=Verifique el InfoBox que desea ver en la página de inicio 
-    home_ssar_subtitle=Informes de Agente de Auto Servicio
-    home_ssar_title=SSAR
-    home_synchronizer_subtitle=Configuración Automática de Queuemetrics
-    home_synchronizer_title=Sincronizador
-    home_sysadmin_agaw=Agent Awareness Manager
-    home_sysadmin_audit=Visualizar registros de auditoría
-    home_sysadmin_diagnostic_tools=Herramientas de diagnóstico del sistema
-    home_sysadmin_edit_parameters=Editar Parámetros de Sistema
-    home_sysadmin_explore_parameters=Ver los parámetros del sistema
-    home_sysadmin_import_export=Importar/Exportar Llamadas
-    home_sysadmin_mysql_storage=Información de almacenamiento MySQL
-    home_sysadmin_subtitle=Herramientas útiles para administradores de sistemas
-    home_sysadmin_title=Administración de Sistema
-    home_throwaway_report=Crear informe desechable
-    home_unexpected_server_error=Se ha verificado un error inesperado
-    home_wallboards_subtitle=Tableros personalizable para datos Live
-    home_wallboards_title=Tableros
     jump_to_main_content=Ir al contenido principal
     keyinstall_err_nokey=El usuario debe poseer una clave KEYUPDATE. No se puede continuar.
     keyinstall_err_noscript=Script de reinicio faltante.

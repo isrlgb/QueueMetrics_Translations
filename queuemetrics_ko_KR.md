@@ -1113,6 +1113,14 @@ Do not change the items below:
     evt_web_end_session=웹 세션 종료
     evt_web_fail_session=웹 세션 실패
     evt_web_start_session=웹 세션 시작
+    # 🔴 evt_var_group -> Variables
+    ➡️ evt_var_group=
+    # 🔴 evt_custom_prev_stint -> Previous Stint
+    ➡️ evt_custom_prev_stint=
+    # 🔴 evt_custom_next_stint -> Next Stint
+    ➡️ evt_custom_next_stint=
+    # 🔴 evt_custom_n_stint -> N. Stints
+    ➡️ evt_custom_n_stint=
 
 ## Headers
 
@@ -3292,6 +3300,83 @@ Description of security keys:
     # 🔴 phone_websocketurl -> Websocket URL
     ➡️ phone_websocketurl=
 
+## Homepage
+
+    home_add_infobox=InfoBox 추가
+    home_configuration_agents=상담원
+    home_configuration_cases=Cases
+    home_configuration_cbt=CBTs
+    home_configuration_clients=Clients
+    home_configuration_custom_blocks=Custom Data Blocks
+    home_configuration_dnis=DID/DNIS Lines
+    home_configuration_export_jobs=Report Exports 설정
+    home_configuration_features=Call Features
+    home_configuration_groups=상담원그룹
+    home_configuration_ivr=IVR Selections
+    home_configuration_known_numbers=Known Numbers
+    home_configuration_locations=Locations
+    home_configuration_outcomes=Call Outcomes
+    home_configuration_pause_codes=Pause Codes
+    home_configuration_perftracker=Performance Tracker
+    home_configuration_qaforms=QA Forms
+    home_configuration_queues=Queues
+    home_configuration_scheduled_jobs=Edit Scheduled Jobs
+    home_configuration_skills=상담원 Skills
+    home_configuration_subtitle=QueueMetrics Configuration Objects 편집
+    home_configuration_tags=Call Tags
+    home_configuration_title=Configuration
+    home_configuration_users=Users
+    home_dbtest_ami=AMI 테스터
+    home_dbtest_ami_queue=AMI Commands
+    home_dbtest_configuration=View configuration
+    home_dbtest_db_inspector=Database inspector
+    home_dbtest_ram_cache=RAM caching
+    home_dbtest_smtp=SMTP 테스터
+    home_diagnostics_title=Diagnostics
+    home_error_fetch_admin_infoboxes=Error Fetching Administration InfoBoxes
+    home_error_fetch_available_infoboxes=Error Fetching Available Infoboxes
+    home_error_fetch_infoboxes=Error Fetching InfoBoxes
+    home_error_save_prefs=InfoBox Data 저장 오류
+    home_icon_subtitle=Icon Agent Page
+    home_icon_title=Icon
+    home_infobox_close=닫기
+    home_infobox_preview=미리보기
+    # 🔴 home_infobox_private -> Private
+    ➡️ home_infobox_private=
+    home_infobox_quicklinks=Quicklinks
+    home_news_subtitle=QueueMetrics 최신뉴스
+    home_news_title=뉴스
+    home_payroll_subtitle=Payroll Report 생성
+    home_payroll_title=Payroll Report
+    home_qa_subtitle=QA Report 생성
+    home_qa_title=QA Reports
+    home_qap_subtitle=Queuemetrics Agent Interface
+    home_qap_title=상담원용 페이지
+    home_realtime_subtitle=Comprehensive view of Live calls
+    home_realtime_title=Realtime
+    home_reports_subtitle=Historical reports
+    home_reports_title=Reports
+    home_search=검색
+    home_search_placeholder=Search...
+    home_select_infobox=홈 화면에서 보고 싶은 InfoBox를 체크하세요.
+    home_ssar_subtitle=Self Service Agent Reports
+    home_ssar_title=SSAR
+    home_synchronizer_subtitle=QueueMetrics 자동 설정
+    home_synchronizer_title=Synchronizer
+    home_sysadmin_agaw=Agent Awareness Manager
+    home_sysadmin_audit=Audit Logs 보기
+    home_sysadmin_diagnostic_tools=System 점검 툴
+    home_sysadmin_edit_parameters=System Parameters 편집
+    home_sysadmin_explore_parameters=Explore System Parameters
+    home_sysadmin_import_export=Import/Export Calls
+    home_sysadmin_mysql_storage=Mysql storage 정보
+    home_sysadmin_subtitle=시스템관리자용 유용한 툴
+    home_sysadmin_title=시스템 관리
+    home_throwaway_report=Throw Away Report 생성
+    home_unexpected_server_error=예상치 못한 서버 오류가 발생하였습니다.
+    home_wallboards_subtitle=Customizable wallboards for live data
+    home_wallboards_title=Wallboards
+
 ## Misc
 
 Other items
@@ -3452,80 +3537,6 @@ Other items
     ➡️ gui_form_next=
     # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
-    home_add_infobox=InfoBox 추가
-    home_configuration_agents=상담원
-    home_configuration_cases=Cases
-    home_configuration_cbt=CBTs
-    home_configuration_clients=Clients
-    home_configuration_custom_blocks=Custom Data Blocks
-    home_configuration_dnis=DID/DNIS Lines
-    home_configuration_export_jobs=Report Exports 설정
-    home_configuration_features=Call Features
-    home_configuration_groups=상담원그룹
-    home_configuration_ivr=IVR Selections
-    home_configuration_known_numbers=Known Numbers
-    home_configuration_locations=Locations
-    home_configuration_outcomes=Call Outcomes
-    home_configuration_pause_codes=Pause Codes
-    home_configuration_perftracker=Performance Tracker
-    home_configuration_qaforms=QA Forms
-    home_configuration_queues=Queues
-    home_configuration_scheduled_jobs=Edit Scheduled Jobs
-    home_configuration_skills=상담원 Skills
-    home_configuration_subtitle=QueueMetrics Configuration Objects 편집
-    home_configuration_tags=Call Tags
-    home_configuration_title=Configuration
-    home_configuration_users=Users
-    home_dbtest_ami=AMI 테스터
-    home_dbtest_ami_queue=AMI Commands
-    home_dbtest_configuration=View configuration
-    home_dbtest_db_inspector=Database inspector
-    home_dbtest_ram_cache=RAM caching
-    home_dbtest_smtp=SMTP 테스터
-    home_diagnostics_title=Diagnostics
-    home_error_fetch_admin_infoboxes=Error Fetching Administration InfoBoxes
-    home_error_fetch_available_infoboxes=Error Fetching Available Infoboxes
-    home_error_fetch_infoboxes=Error Fetching InfoBoxes
-    home_error_save_prefs=InfoBox Data 저장 오류
-    home_icon_subtitle=Icon Agent Page
-    home_icon_title=Icon
-    home_infobox_close=닫기
-    home_infobox_preview=미리보기
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=
-    home_infobox_quicklinks=Quicklinks
-    home_news_subtitle=QueueMetrics 최신뉴스
-    home_news_title=뉴스
-    home_payroll_subtitle=Payroll Report 생성
-    home_payroll_title=Payroll Report
-    home_qa_subtitle=QA Report 생성
-    home_qa_title=QA Reports
-    home_qap_subtitle=Queuemetrics Agent Interface
-    home_qap_title=상담원용 페이지
-    home_realtime_subtitle=Comprehensive view of Live calls
-    home_realtime_title=Realtime
-    home_reports_subtitle=Historical reports
-    home_reports_title=Reports
-    home_search=검색
-    home_search_placeholder=Search...
-    home_select_infobox=홈 화면에서 보고 싶은 InfoBox를 체크하세요.
-    home_ssar_subtitle=Self Service Agent Reports
-    home_ssar_title=SSAR
-    home_synchronizer_subtitle=QueueMetrics 자동 설정
-    home_synchronizer_title=Synchronizer
-    home_sysadmin_agaw=Agent Awareness Manager
-    home_sysadmin_audit=Audit Logs 보기
-    home_sysadmin_diagnostic_tools=System 점검 툴
-    home_sysadmin_edit_parameters=System Parameters 편집
-    home_sysadmin_explore_parameters=Explore System Parameters
-    home_sysadmin_import_export=Import/Export Calls
-    home_sysadmin_mysql_storage=Mysql storage 정보
-    home_sysadmin_subtitle=시스템관리자용 유용한 툴
-    home_sysadmin_title=시스템 관리
-    home_throwaway_report=Throw Away Report 생성
-    home_unexpected_server_error=예상치 못한 서버 오류가 발생하였습니다.
-    home_wallboards_subtitle=Customizable wallboards for live data
-    home_wallboards_title=Wallboards
     jump_to_main_content=Jump to the main content
     keyinstall_err_nokey=사용자는 권한키 'KEYUPDATE'를 가지고 있지않아 계속 진행할 수 없습니다.
     keyinstall_err_noscript=재시작 스크립트(restart script)가 없음.

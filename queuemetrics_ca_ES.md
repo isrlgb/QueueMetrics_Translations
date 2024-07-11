@@ -1118,6 +1118,14 @@ Do not change the items below:
     # 🔴 evt_web_fail_session -> Web Session Fail
     ➡️ evt_web_fail_session=
     evt_web_start_session=Inici de sessió Web
+    # 🔴 evt_var_group -> Variables
+    ➡️ evt_var_group=
+    # 🔴 evt_custom_prev_stint -> Previous Stint
+    ➡️ evt_custom_prev_stint=
+    # 🔴 evt_custom_next_stint -> Next Stint
+    ➡️ evt_custom_next_stint=
+    # 🔴 evt_custom_n_stint -> N. Stints
+    ➡️ evt_custom_n_stint=
 
 ## Headers
 
@@ -3392,6 +3400,91 @@ Description of security keys:
     phone_username=Nom d'usuari
     phone_websocketurl=URL de WebSocket
 
+## Homepage
+
+    home_add_infobox=Afegir InfoBox
+    home_configuration_agents=Agents
+    # 🔴 home_configuration_cases -> Cases
+    ➡️ home_configuration_cases=
+    home_configuration_cbt=CBTs
+    # 🔴 home_configuration_clients -> Clients
+    ➡️ home_configuration_clients=
+    home_configuration_custom_blocks=Bloc de Dades Personalitzades
+    home_configuration_dnis=DID/DNIS
+    home_configuration_export_jobs=Editar Exportació d'Informes
+    home_configuration_features=Característiques de trucada
+    home_configuration_groups=Grups d'Agents
+    home_configuration_ivr=Seleccions IVR
+    home_configuration_known_numbers=Nombres Coneguts
+    home_configuration_locations=Ubicacions
+    home_configuration_outcomes=Resultats de trucades
+    home_configuration_pause_codes=Codis de Pausa
+    home_configuration_perftracker=Tracker de Performance QA
+    home_configuration_qaforms=Formularis QA
+    home_configuration_queues=Cues
+    home_configuration_scheduled_jobs=Edita les feines programades
+    home_configuration_skills=Habilitats dels agents
+    home_configuration_subtitle=Editar objectes de configuració de QueueMetrics
+    home_configuration_tags=Etiquetes de trucada
+    home_configuration_title=Configuració
+    home_configuration_users=Usuaris
+    home_dbtest_ami=Test AMI
+    home_dbtest_ami_queue=Comandes AMI
+    home_dbtest_configuration=Veure configuració
+    home_dbtest_db_inspector=Inspeccionar la Base de Dades
+    home_dbtest_ram_cache=Caché de RAM
+    home_dbtest_smtp=Tester SNMTP
+    home_diagnostics_title=Diagnòstics
+    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
+    ➡️ home_error_fetch_admin_infoboxes=
+    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
+    ➡️ home_error_fetch_available_infoboxes=
+    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
+    ➡️ home_error_fetch_infoboxes=
+    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
+    ➡️ home_error_save_prefs=
+    home_icon_subtitle=Icona de la pàgina de l'agent
+    home_icon_title=Icona
+    home_infobox_close=Tancar
+    home_infobox_preview=Vista Prèvia
+    # 🔴 home_infobox_private -> Private
+    ➡️ home_infobox_private=
+    home_infobox_quicklinks=Enllaços Ràpids
+    home_news_subtitle=Últimes notícies de QueueMetrics
+    home_news_title=Notícies
+    home_payroll_subtitle=Iniciar un informe de nòmina
+    home_payroll_title=Informe de nòmina
+    home_qa_subtitle=Iniciar un Informe QA
+    home_qa_title=Informes QA
+    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
+    ➡️ home_qap_subtitle=
+    # 🔴 home_qap_title -> Agent Page
+    ➡️ home_qap_title=
+    home_realtime_subtitle=Informació en temps real de les trucades actives
+    home_realtime_title=Temps Real
+    home_reports_subtitle=Informes Històrics
+    home_reports_title=Informes
+    home_search=Cercar
+    home_search_placeholder=Cercar
+    home_select_infobox=Verificar l'InfoBox que desitja veure a la pàgina d'inici
+    home_ssar_subtitle=Informes d'Agent d'auto servei
+    home_ssar_title=SSAR
+    home_synchronizer_subtitle=Configuració Automàtica de Queuemetrics
+    home_synchronizer_title=Sincronitzador
+    home_sysadmin_agaw=Agent Awareness Manager
+    home_sysadmin_audit=Visualitzar els registres d'auditoria
+    home_sysadmin_diagnostic_tools=Eines de diagnòstic del sistema
+    home_sysadmin_edit_parameters=Editar Paràmetres del Sistema
+    home_sysadmin_explore_parameters=Veure els Paràmetres del Sistema
+    home_sysadmin_import_export=Importar/Exportar Trucades
+    home_sysadmin_mysql_storage=Informació d'emmagatzematge de MySQL
+    home_sysadmin_subtitle=Eines útils pels Administradors de Sistemes
+    home_sysadmin_title=Administració del Sistema
+    home_throwaway_report=Crear un informe temporal
+    home_unexpected_server_error=S'ha produït un error inesperat del servidor
+    home_wallboards_subtitle=Taulers personalitzats per dades en temps real
+    home_wallboards_title=Taulers
+
 ## Misc
 
 Other items
@@ -3557,88 +3650,6 @@ Other items
     ➡️ gui_form_next=
     # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
-    home_add_infobox=Afegir InfoBox
-    home_configuration_agents=Agents
-    # 🔴 home_configuration_cases -> Cases
-    ➡️ home_configuration_cases=
-    home_configuration_cbt=CBTs
-    # 🔴 home_configuration_clients -> Clients
-    ➡️ home_configuration_clients=
-    home_configuration_custom_blocks=Bloc de Dades Personalitzades
-    home_configuration_dnis=DID/DNIS
-    home_configuration_export_jobs=Editar Exportació d'Informes
-    home_configuration_features=Característiques de trucada
-    home_configuration_groups=Grups d'Agents
-    home_configuration_ivr=Seleccions IVR
-    home_configuration_known_numbers=Nombres Coneguts
-    home_configuration_locations=Ubicacions
-    home_configuration_outcomes=Resultats de trucades
-    home_configuration_pause_codes=Codis de Pausa
-    home_configuration_perftracker=Tracker de Performance QA
-    home_configuration_qaforms=Formularis QA
-    home_configuration_queues=Cues
-    home_configuration_scheduled_jobs=Edita les feines programades
-    home_configuration_skills=Habilitats dels agents
-    home_configuration_subtitle=Editar objectes de configuració de QueueMetrics
-    home_configuration_tags=Etiquetes de trucada
-    home_configuration_title=Configuració
-    home_configuration_users=Usuaris
-    home_dbtest_ami=Test AMI
-    home_dbtest_ami_queue=Comandes AMI
-    home_dbtest_configuration=Veure configuració
-    home_dbtest_db_inspector=Inspeccionar la Base de Dades
-    home_dbtest_ram_cache=Caché de RAM
-    home_dbtest_smtp=Tester SNMTP
-    home_diagnostics_title=Diagnòstics
-    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
-    ➡️ home_error_fetch_admin_infoboxes=
-    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
-    ➡️ home_error_fetch_available_infoboxes=
-    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
-    ➡️ home_error_fetch_infoboxes=
-    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
-    ➡️ home_error_save_prefs=
-    home_icon_subtitle=Icona de la pàgina de l'agent
-    home_icon_title=Icona
-    home_infobox_close=Tancar
-    home_infobox_preview=Vista Prèvia
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=
-    home_infobox_quicklinks=Enllaços Ràpids
-    home_news_subtitle=Últimes notícies de QueueMetrics
-    home_news_title=Notícies
-    home_payroll_subtitle=Iniciar un informe de nòmina
-    home_payroll_title=Informe de nòmina
-    home_qa_subtitle=Iniciar un Informe QA
-    home_qa_title=Informes QA
-    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle=
-    # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title=
-    home_realtime_subtitle=Informació en temps real de les trucades actives
-    home_realtime_title=Temps Real
-    home_reports_subtitle=Informes Històrics
-    home_reports_title=Informes
-    home_search=Cercar
-    home_search_placeholder=Cercar
-    home_select_infobox=Verificar l'InfoBox que desitja veure a la pàgina d'inici
-    home_ssar_subtitle=Informes d'Agent d'auto servei
-    home_ssar_title=SSAR
-    home_synchronizer_subtitle=Configuració Automàtica de Queuemetrics
-    home_synchronizer_title=Sincronitzador
-    home_sysadmin_agaw=Agent Awareness Manager
-    home_sysadmin_audit=Visualitzar els registres d'auditoria
-    home_sysadmin_diagnostic_tools=Eines de diagnòstic del sistema
-    home_sysadmin_edit_parameters=Editar Paràmetres del Sistema
-    home_sysadmin_explore_parameters=Veure els Paràmetres del Sistema
-    home_sysadmin_import_export=Importar/Exportar Trucades
-    home_sysadmin_mysql_storage=Informació d'emmagatzematge de MySQL
-    home_sysadmin_subtitle=Eines útils pels Administradors de Sistemes
-    home_sysadmin_title=Administració del Sistema
-    home_throwaway_report=Crear un informe temporal
-    home_unexpected_server_error=S'ha produït un error inesperat del servidor
-    home_wallboards_subtitle=Taulers personalitzats per dades en temps real
-    home_wallboards_title=Taulers
     jump_to_main_content=Anar al contingut principal
     keyinstall_err_nokey=L'usuari ha de tenir una clau KEYUPDATE. No es pot continuar.
     keyinstall_err_noscript=Falta script de reinici

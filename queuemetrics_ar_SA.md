@@ -1152,6 +1152,14 @@ Do not change the items below:
     ➡️ evt_web_fail_session=
     # 🔴 evt_web_start_session -> Web Session Start
     ➡️ evt_web_start_session=
+    # 🔴 evt_var_group -> Variables
+    ➡️ evt_var_group=
+    # 🔴 evt_custom_prev_stint -> Previous Stint
+    ➡️ evt_custom_prev_stint=
+    # 🔴 evt_custom_next_stint -> Next Stint
+    ➡️ evt_custom_next_stint=
+    # 🔴 evt_custom_n_stint -> N. Stints
+    ➡️ evt_custom_n_stint=
 
 ## Headers
 
@@ -3286,6 +3294,92 @@ Description of security keys:
     phone_username=اسم المستخدم
     phone_websocketurl=WebSocket URL
 
+## Homepage
+
+    home_add_infobox=اضف صندوق المعلومات
+    home_configuration_agents=وكلاء
+    # 🔴 home_configuration_cases -> Cases
+    ➡️ home_configuration_cases=
+    home_configuration_cbt=CBTs
+    # 🔴 home_configuration_clients -> Clients
+    ➡️ home_configuration_clients=
+    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
+    ➡️ home_configuration_custom_blocks=
+    home_configuration_dnis=DID/DNIS
+    home_configuration_export_jobs=تعديل تصدير التقارير
+    home_configuration_features=ميزات المكالمات
+    home_configuration_groups=مجموعات الوكيل
+    home_configuration_ivr=اختيارات IVR
+    home_configuration_known_numbers=أرقام معروفة
+    home_configuration_locations=مواقع
+    home_configuration_outcomes=مخرجات المكالمة
+    home_configuration_pause_codes=رمز التوقف المؤقت
+    home_configuration_perftracker=متتبع مؤشر جودة الأداء
+    home_configuration_qaforms=نماذج جودة الأداء
+    home_configuration_queues=صفوف
+    home_configuration_scheduled_jobs=تعديل وظائف مجدولة
+    home_configuration_skills=مهارات الوكيل
+    home_configuration_subtitle=تعديل مواضيع اعدادات كيوميتركس
+    home_configuration_tags=اشارات المكالمة
+    home_configuration_title=الاعدادات
+    home_configuration_users=مستخدمين
+    home_dbtest_ami=AMI Tester
+    home_dbtest_ami_queue=AMI Commands
+    home_dbtest_configuration=اظهار الاعدادات
+    home_dbtest_db_inspector=مفتش قاعدة البيانات
+    home_dbtest_ram_cache=تخزين مؤقت في ذاكرة التخزين العشوائية
+    home_dbtest_smtp=SMTP فاحص
+    home_diagnostics_title=التشخيص
+    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
+    ➡️ home_error_fetch_admin_infoboxes=
+    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
+    ➡️ home_error_fetch_available_infoboxes=
+    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
+    ➡️ home_error_fetch_infoboxes=
+    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
+    ➡️ home_error_save_prefs=
+    home_icon_subtitle=ايقونة صفحة الوكيل
+    home_icon_title=ايقونة
+    home_infobox_close=مغلق
+    home_infobox_preview=عرض
+    # 🔴 home_infobox_private -> Private
+    ➡️ home_infobox_private=
+    home_infobox_quicklinks=روابط سريعة
+    home_news_subtitle=آخر أخبار كيوميتركس
+    home_news_title=أخبار
+    home_payroll_subtitle=ابدء تقرير نظام الدفع
+    home_payroll_title=تقارير نظام الدفع
+    home_qa_subtitle=ابدء تقرير جودة الأداء
+    home_qa_title=تقارير جودة الاداء
+    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
+    ➡️ home_qap_subtitle=
+    # 🔴 home_qap_title -> Agent Page
+    ➡️ home_qap_title=
+    home_realtime_subtitle=نظرة شاملة على المكالمة الحالية
+    home_realtime_title=الزمن الحقيقي
+    home_reports_subtitle=تقارير عامة
+    home_reports_title=تقارير
+    home_search=بحث
+    home_search_placeholder=بحث في الصفحة الرئيسية
+    home_select_infobox=يرجى مراجعة صندوق المعلومات لمشاهدة الصفحة الرئيسية
+    home_ssar_subtitle=تقارير خدمات الوكيل لنفسه
+    home_ssar_title=SSAR
+    home_synchronizer_subtitle=اعدادات تلقائية لكيوميتركس
+    home_synchronizer_title=مزامن
+    home_sysadmin_agaw=مدير ادراك الوكيل
+    home_sysadmin_audit=عرض تقارير التدقيق
+    home_sysadmin_diagnostic_tools=أدوات تشخيص النظام
+    home_sysadmin_edit_parameters=تعديل اعدادات النظام
+    home_sysadmin_explore_parameters=عرض اعدادات النظام
+    home_sysadmin_import_export=اصدار\تصدير المكالمات
+    home_sysadmin_mysql_storage=معلومات سعة تخزين قاعدة البيانات
+    home_sysadmin_subtitle=أدوات مفيدة لمدير النظام
+    home_sysadmin_title=إدارة النظام
+    home_throwaway_report=اصدار تقرير سريع
+    home_unexpected_server_error=ظهر خطأ غير متوقع
+    home_wallboards_subtitle=شاشة قابلة للتعديل لعرض المعلومات المباشرة
+    home_wallboards_title=شاشة معلومات
+
 ## Misc
 
 Other items
@@ -3462,89 +3556,6 @@ Other items
     ➡️ gui_form_next=
     # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
-    home_add_infobox=اضف صندوق المعلومات
-    home_configuration_agents=وكلاء
-    # 🔴 home_configuration_cases -> Cases
-    ➡️ home_configuration_cases=
-    home_configuration_cbt=CBTs
-    # 🔴 home_configuration_clients -> Clients
-    ➡️ home_configuration_clients=
-    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
-    ➡️ home_configuration_custom_blocks=
-    home_configuration_dnis=DID/DNIS
-    home_configuration_export_jobs=تعديل تصدير التقارير
-    home_configuration_features=ميزات المكالمات
-    home_configuration_groups=مجموعات الوكيل
-    home_configuration_ivr=اختيارات IVR
-    home_configuration_known_numbers=أرقام معروفة
-    home_configuration_locations=مواقع
-    home_configuration_outcomes=مخرجات المكالمة
-    home_configuration_pause_codes=رمز التوقف المؤقت
-    home_configuration_perftracker=متتبع مؤشر جودة الأداء
-    home_configuration_qaforms=نماذج جودة الأداء
-    home_configuration_queues=صفوف
-    home_configuration_scheduled_jobs=تعديل وظائف مجدولة
-    home_configuration_skills=مهارات الوكيل
-    home_configuration_subtitle=تعديل مواضيع اعدادات كيوميتركس
-    home_configuration_tags=اشارات المكالمة
-    home_configuration_title=الاعدادات
-    home_configuration_users=مستخدمين
-    home_dbtest_ami=AMI Tester
-    home_dbtest_ami_queue=AMI Commands
-    home_dbtest_configuration=اظهار الاعدادات
-    home_dbtest_db_inspector=مفتش قاعدة البيانات
-    home_dbtest_ram_cache=تخزين مؤقت في ذاكرة التخزين العشوائية
-    home_dbtest_smtp=SMTP فاحص
-    home_diagnostics_title=التشخيص
-    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
-    ➡️ home_error_fetch_admin_infoboxes=
-    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
-    ➡️ home_error_fetch_available_infoboxes=
-    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
-    ➡️ home_error_fetch_infoboxes=
-    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
-    ➡️ home_error_save_prefs=
-    home_icon_subtitle=ايقونة صفحة الوكيل
-    home_icon_title=ايقونة
-    home_infobox_close=مغلق
-    home_infobox_preview=عرض
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=
-    home_infobox_quicklinks=روابط سريعة
-    home_news_subtitle=آخر أخبار كيوميتركس
-    home_news_title=أخبار
-    home_payroll_subtitle=ابدء تقرير نظام الدفع
-    home_payroll_title=تقارير نظام الدفع
-    home_qa_subtitle=ابدء تقرير جودة الأداء
-    home_qa_title=تقارير جودة الاداء
-    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle=
-    # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title=
-    home_realtime_subtitle=نظرة شاملة على المكالمة الحالية
-    home_realtime_title=الزمن الحقيقي
-    home_reports_subtitle=تقارير عامة
-    home_reports_title=تقارير
-    home_search=بحث
-    home_search_placeholder=بحث في الصفحة الرئيسية
-    home_select_infobox=يرجى مراجعة صندوق المعلومات لمشاهدة الصفحة الرئيسية
-    home_ssar_subtitle=تقارير خدمات الوكيل لنفسه
-    home_ssar_title=SSAR
-    home_synchronizer_subtitle=اعدادات تلقائية لكيوميتركس
-    home_synchronizer_title=مزامن
-    home_sysadmin_agaw=مدير ادراك الوكيل
-    home_sysadmin_audit=عرض تقارير التدقيق
-    home_sysadmin_diagnostic_tools=أدوات تشخيص النظام
-    home_sysadmin_edit_parameters=تعديل اعدادات النظام
-    home_sysadmin_explore_parameters=عرض اعدادات النظام
-    home_sysadmin_import_export=اصدار\تصدير المكالمات
-    home_sysadmin_mysql_storage=معلومات سعة تخزين قاعدة البيانات
-    home_sysadmin_subtitle=أدوات مفيدة لمدير النظام
-    home_sysadmin_title=إدارة النظام
-    home_throwaway_report=اصدار تقرير سريع
-    home_unexpected_server_error=ظهر خطأ غير متوقع
-    home_wallboards_subtitle=شاشة قابلة للتعديل لعرض المعلومات المباشرة
-    home_wallboards_title=شاشة معلومات
     jump_to_main_content=التوجه للمحتوى الرئيسي
     keyinstall_err_nokey=يجب أن يستمر المستخدم بالضغط على مفتاح KEYUPDATE. لا يمكن أن يستمر
     keyinstall_err_noscript=الملف النصي لاعادة التشغيل مفقود

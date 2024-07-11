@@ -1450,6 +1450,14 @@ Do not change the items below:
     ➡️ evt_web_fail_session=
     # 🔴 evt_web_start_session -> Web Session Start
     ➡️ evt_web_start_session=
+    # 🔴 evt_var_group -> Variables
+    ➡️ evt_var_group=
+    # 🔴 evt_custom_prev_stint -> Previous Stint
+    ➡️ evt_custom_prev_stint=
+    # 🔴 evt_custom_next_stint -> Next Stint
+    ➡️ evt_custom_next_stint=
+    # 🔴 evt_custom_n_stint -> N. Stints
+    ➡️ evt_custom_n_stint=
 
 ## Headers
 
@@ -4863,6 +4871,155 @@ Description of security keys:
     # 🔴 phone_websocketurl -> Websocket URL
     ➡️ phone_websocketurl=
 
+## Homepage
+
+    # 🔴 home_add_infobox -> Add InfoBox
+    ➡️ home_add_infobox=
+    # 🔴 home_configuration_agents -> Agents
+    ➡️ home_configuration_agents=
+    # 🔴 home_configuration_cases -> Cases
+    ➡️ home_configuration_cases=
+    # 🔴 home_configuration_cbt -> CBTs
+    ➡️ home_configuration_cbt=
+    # 🔴 home_configuration_clients -> Clients
+    ➡️ home_configuration_clients=
+    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
+    ➡️ home_configuration_custom_blocks=
+    # 🔴 home_configuration_dnis -> DID/DNIS Lines
+    ➡️ home_configuration_dnis=
+    # 🔴 home_configuration_export_jobs -> Edit Report Exports
+    ➡️ home_configuration_export_jobs=
+    # 🔴 home_configuration_features -> Call Features
+    ➡️ home_configuration_features=
+    # 🔴 home_configuration_groups -> Agent Groups
+    ➡️ home_configuration_groups=
+    # 🔴 home_configuration_ivr -> IVR Selections
+    ➡️ home_configuration_ivr=
+    # 🔴 home_configuration_known_numbers -> Known Numbers
+    ➡️ home_configuration_known_numbers=
+    # 🔴 home_configuration_locations -> Locations
+    ➡️ home_configuration_locations=
+    # 🔴 home_configuration_outcomes -> Call Outcomes
+    ➡️ home_configuration_outcomes=
+    # 🔴 home_configuration_pause_codes -> Pause Codes
+    ➡️ home_configuration_pause_codes=
+    # 🔴 home_configuration_perftracker -> QA Performance Tracker
+    ➡️ home_configuration_perftracker=
+    # 🔴 home_configuration_qaforms -> QA Forms
+    ➡️ home_configuration_qaforms=
+    # 🔴 home_configuration_queues -> Queues
+    ➡️ home_configuration_queues=
+    # 🔴 home_configuration_scheduled_jobs -> Edit Scheduled Jobs
+    ➡️ home_configuration_scheduled_jobs=
+    # 🔴 home_configuration_skills -> Agent Skills
+    ➡️ home_configuration_skills=
+    # 🔴 home_configuration_subtitle -> Edit QueueMetrics Configuration Objects
+    ➡️ home_configuration_subtitle=
+    # 🔴 home_configuration_tags -> Call Tags
+    ➡️ home_configuration_tags=
+    # 🔴 home_configuration_title -> Configuration
+    ➡️ home_configuration_title=
+    # 🔴 home_configuration_users -> Users
+    ➡️ home_configuration_users=
+    # 🔴 home_dbtest_ami -> AMI tester
+    ➡️ home_dbtest_ami=
+    # 🔴 home_dbtest_ami_queue -> AMI Commands
+    ➡️ home_dbtest_ami_queue=
+    # 🔴 home_dbtest_configuration -> View configuration
+    ➡️ home_dbtest_configuration=
+    # 🔴 home_dbtest_db_inspector -> Database inspector
+    ➡️ home_dbtest_db_inspector=
+    # 🔴 home_dbtest_ram_cache -> RAM caching
+    ➡️ home_dbtest_ram_cache=
+    # 🔴 home_dbtest_smtp -> SMTP tester
+    ➡️ home_dbtest_smtp=
+    # 🔴 home_diagnostics_title -> Diagnostics
+    ➡️ home_diagnostics_title=
+    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
+    ➡️ home_error_fetch_admin_infoboxes=
+    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
+    ➡️ home_error_fetch_available_infoboxes=
+    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
+    ➡️ home_error_fetch_infoboxes=
+    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
+    ➡️ home_error_save_prefs=
+    # 🔴 home_icon_subtitle -> Icon Agent Page
+    ➡️ home_icon_subtitle=
+    # 🔴 home_icon_title -> Icon
+    ➡️ home_icon_title=
+    # 🔴 home_infobox_close -> Close
+    ➡️ home_infobox_close=
+    # 🔴 home_infobox_preview -> Preview
+    ➡️ home_infobox_preview=
+    # 🔴 home_infobox_private -> Private
+    ➡️ home_infobox_private=
+    # 🔴 home_infobox_quicklinks -> Quicklinks
+    ➡️ home_infobox_quicklinks=
+    # 🔴 home_news_subtitle -> QueueMetrics Latest News
+    ➡️ home_news_subtitle=
+    # 🔴 home_news_title -> News
+    ➡️ home_news_title=
+    # 🔴 home_payroll_subtitle -> Start a Payroll Report
+    ➡️ home_payroll_subtitle=
+    # 🔴 home_payroll_title -> Payroll Report
+    ➡️ home_payroll_title=
+    # 🔴 home_qa_subtitle -> Start a QA Report
+    ➡️ home_qa_subtitle=
+    # 🔴 home_qa_title -> QA Reports
+    ➡️ home_qa_title=
+    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
+    ➡️ home_qap_subtitle=
+    # 🔴 home_qap_title -> Agent Page
+    ➡️ home_qap_title=
+    # 🔴 home_realtime_subtitle -> Comprehensive view of Live calls
+    ➡️ home_realtime_subtitle=
+    # 🔴 home_realtime_title -> Realtime
+    ➡️ home_realtime_title=
+    # 🔴 home_reports_subtitle -> Historical reports
+    ➡️ home_reports_subtitle=
+    # 🔴 home_reports_title -> Reports
+    ➡️ home_reports_title=
+    # 🔴 home_search -> Search
+    ➡️ home_search=
+    # 🔴 home_search_placeholder -> Search...
+    ➡️ home_search_placeholder=
+    # 🔴 home_select_infobox -> Check the InfoBox you want to see in the Home Page
+    ➡️ home_select_infobox=
+    # 🔴 home_ssar_subtitle -> Self Service Agent Reports
+    ➡️ home_ssar_subtitle=
+    # 🔴 home_ssar_title -> SSAR
+    ➡️ home_ssar_title=
+    # 🔴 home_synchronizer_subtitle -> QueueMetrics Automatic Setup
+    ➡️ home_synchronizer_subtitle=
+    # 🔴 home_synchronizer_title -> Synchronizer
+    ➡️ home_synchronizer_title=
+    # 🔴 home_sysadmin_agaw -> Agent Awareness Manager
+    ➡️ home_sysadmin_agaw=
+    # 🔴 home_sysadmin_audit -> View Audit Logs
+    ➡️ home_sysadmin_audit=
+    # 🔴 home_sysadmin_diagnostic_tools -> System diagnostic tools
+    ➡️ home_sysadmin_diagnostic_tools=
+    # 🔴 home_sysadmin_edit_parameters -> Edit System Parameters
+    ➡️ home_sysadmin_edit_parameters=
+    # 🔴 home_sysadmin_explore_parameters -> Explore System Parameters
+    ➡️ home_sysadmin_explore_parameters=
+    # 🔴 home_sysadmin_import_export -> Import/Export Calls
+    ➡️ home_sysadmin_import_export=
+    # 🔴 home_sysadmin_mysql_storage -> Storage Information
+    ➡️ home_sysadmin_mysql_storage=
+    # 🔴 home_sysadmin_subtitle -> Useful tools for Sysadmins
+    ➡️ home_sysadmin_subtitle=
+    # 🔴 home_sysadmin_title -> System Administration
+    ➡️ home_sysadmin_title=
+    # 🔴 home_throwaway_report -> Create Throw Away Report
+    ➡️ home_throwaway_report=
+    # 🔴 home_unexpected_server_error -> An unexpected server error has occured
+    ➡️ home_unexpected_server_error=
+    # 🔴 home_wallboards_subtitle -> Customizable wallboards for live data
+    ➡️ home_wallboards_subtitle=
+    # 🔴 home_wallboards_title -> Wallboards
+    ➡️ home_wallboards_title=
+
 ## Misc
 
 Other items
@@ -5075,152 +5232,6 @@ Other items
     ➡️ gui_form_next=
     # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
-    # 🔴 home_add_infobox -> Add InfoBox
-    ➡️ home_add_infobox=
-    # 🔴 home_configuration_agents -> Agents
-    ➡️ home_configuration_agents=
-    # 🔴 home_configuration_cases -> Cases
-    ➡️ home_configuration_cases=
-    # 🔴 home_configuration_cbt -> CBTs
-    ➡️ home_configuration_cbt=
-    # 🔴 home_configuration_clients -> Clients
-    ➡️ home_configuration_clients=
-    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
-    ➡️ home_configuration_custom_blocks=
-    # 🔴 home_configuration_dnis -> DID/DNIS Lines
-    ➡️ home_configuration_dnis=
-    # 🔴 home_configuration_export_jobs -> Edit Report Exports
-    ➡️ home_configuration_export_jobs=
-    # 🔴 home_configuration_features -> Call Features
-    ➡️ home_configuration_features=
-    # 🔴 home_configuration_groups -> Agent Groups
-    ➡️ home_configuration_groups=
-    # 🔴 home_configuration_ivr -> IVR Selections
-    ➡️ home_configuration_ivr=
-    # 🔴 home_configuration_known_numbers -> Known Numbers
-    ➡️ home_configuration_known_numbers=
-    # 🔴 home_configuration_locations -> Locations
-    ➡️ home_configuration_locations=
-    # 🔴 home_configuration_outcomes -> Call Outcomes
-    ➡️ home_configuration_outcomes=
-    # 🔴 home_configuration_pause_codes -> Pause Codes
-    ➡️ home_configuration_pause_codes=
-    # 🔴 home_configuration_perftracker -> QA Performance Tracker
-    ➡️ home_configuration_perftracker=
-    # 🔴 home_configuration_qaforms -> QA Forms
-    ➡️ home_configuration_qaforms=
-    # 🔴 home_configuration_queues -> Queues
-    ➡️ home_configuration_queues=
-    # 🔴 home_configuration_scheduled_jobs -> Edit Scheduled Jobs
-    ➡️ home_configuration_scheduled_jobs=
-    # 🔴 home_configuration_skills -> Agent Skills
-    ➡️ home_configuration_skills=
-    # 🔴 home_configuration_subtitle -> Edit QueueMetrics Configuration Objects
-    ➡️ home_configuration_subtitle=
-    # 🔴 home_configuration_tags -> Call Tags
-    ➡️ home_configuration_tags=
-    # 🔴 home_configuration_title -> Configuration
-    ➡️ home_configuration_title=
-    # 🔴 home_configuration_users -> Users
-    ➡️ home_configuration_users=
-    # 🔴 home_dbtest_ami -> AMI tester
-    ➡️ home_dbtest_ami=
-    # 🔴 home_dbtest_ami_queue -> AMI Commands
-    ➡️ home_dbtest_ami_queue=
-    # 🔴 home_dbtest_configuration -> View configuration
-    ➡️ home_dbtest_configuration=
-    # 🔴 home_dbtest_db_inspector -> Database inspector
-    ➡️ home_dbtest_db_inspector=
-    # 🔴 home_dbtest_ram_cache -> RAM caching
-    ➡️ home_dbtest_ram_cache=
-    # 🔴 home_dbtest_smtp -> SMTP tester
-    ➡️ home_dbtest_smtp=
-    # 🔴 home_diagnostics_title -> Diagnostics
-    ➡️ home_diagnostics_title=
-    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
-    ➡️ home_error_fetch_admin_infoboxes=
-    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
-    ➡️ home_error_fetch_available_infoboxes=
-    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
-    ➡️ home_error_fetch_infoboxes=
-    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
-    ➡️ home_error_save_prefs=
-    # 🔴 home_icon_subtitle -> Icon Agent Page
-    ➡️ home_icon_subtitle=
-    # 🔴 home_icon_title -> Icon
-    ➡️ home_icon_title=
-    # 🔴 home_infobox_close -> Close
-    ➡️ home_infobox_close=
-    # 🔴 home_infobox_preview -> Preview
-    ➡️ home_infobox_preview=
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=
-    # 🔴 home_infobox_quicklinks -> Quicklinks
-    ➡️ home_infobox_quicklinks=
-    # 🔴 home_news_subtitle -> QueueMetrics Latest News
-    ➡️ home_news_subtitle=
-    # 🔴 home_news_title -> News
-    ➡️ home_news_title=
-    # 🔴 home_payroll_subtitle -> Start a Payroll Report
-    ➡️ home_payroll_subtitle=
-    # 🔴 home_payroll_title -> Payroll Report
-    ➡️ home_payroll_title=
-    # 🔴 home_qa_subtitle -> Start a QA Report
-    ➡️ home_qa_subtitle=
-    # 🔴 home_qa_title -> QA Reports
-    ➡️ home_qa_title=
-    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle=
-    # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title=
-    # 🔴 home_realtime_subtitle -> Comprehensive view of Live calls
-    ➡️ home_realtime_subtitle=
-    # 🔴 home_realtime_title -> Realtime
-    ➡️ home_realtime_title=
-    # 🔴 home_reports_subtitle -> Historical reports
-    ➡️ home_reports_subtitle=
-    # 🔴 home_reports_title -> Reports
-    ➡️ home_reports_title=
-    # 🔴 home_search -> Search
-    ➡️ home_search=
-    # 🔴 home_search_placeholder -> Search...
-    ➡️ home_search_placeholder=
-    # 🔴 home_select_infobox -> Check the InfoBox you want to see in the Home Page
-    ➡️ home_select_infobox=
-    # 🔴 home_ssar_subtitle -> Self Service Agent Reports
-    ➡️ home_ssar_subtitle=
-    # 🔴 home_ssar_title -> SSAR
-    ➡️ home_ssar_title=
-    # 🔴 home_synchronizer_subtitle -> QueueMetrics Automatic Setup
-    ➡️ home_synchronizer_subtitle=
-    # 🔴 home_synchronizer_title -> Synchronizer
-    ➡️ home_synchronizer_title=
-    # 🔴 home_sysadmin_agaw -> Agent Awareness Manager
-    ➡️ home_sysadmin_agaw=
-    # 🔴 home_sysadmin_audit -> View Audit Logs
-    ➡️ home_sysadmin_audit=
-    # 🔴 home_sysadmin_diagnostic_tools -> System diagnostic tools
-    ➡️ home_sysadmin_diagnostic_tools=
-    # 🔴 home_sysadmin_edit_parameters -> Edit System Parameters
-    ➡️ home_sysadmin_edit_parameters=
-    # 🔴 home_sysadmin_explore_parameters -> Explore System Parameters
-    ➡️ home_sysadmin_explore_parameters=
-    # 🔴 home_sysadmin_import_export -> Import/Export Calls
-    ➡️ home_sysadmin_import_export=
-    # 🔴 home_sysadmin_mysql_storage -> Storage Information
-    ➡️ home_sysadmin_mysql_storage=
-    # 🔴 home_sysadmin_subtitle -> Useful tools for Sysadmins
-    ➡️ home_sysadmin_subtitle=
-    # 🔴 home_sysadmin_title -> System Administration
-    ➡️ home_sysadmin_title=
-    # 🔴 home_throwaway_report -> Create Throw Away Report
-    ➡️ home_throwaway_report=
-    # 🔴 home_unexpected_server_error -> An unexpected server error has occured
-    ➡️ home_unexpected_server_error=
-    # 🔴 home_wallboards_subtitle -> Customizable wallboards for live data
-    ➡️ home_wallboards_subtitle=
-    # 🔴 home_wallboards_title -> Wallboards
-    ➡️ home_wallboards_title=
     # 🔴 jump_to_main_content -> Jump to the main content
     ➡️ jump_to_main_content=
     keyinstall_err_nokey=Užívateľ musí podržať tlačidlo KEYUDATE. Nie je možné pokračovať

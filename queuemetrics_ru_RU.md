@@ -1116,6 +1116,14 @@ Do not change the items below:
     # 🔴 evt_web_fail_session -> Web Session Fail
     ➡️ evt_web_fail_session=
     evt_web_start_session=Старт Web-сессии
+    # 🔴 evt_var_group -> Variables
+    ➡️ evt_var_group=
+    # 🔴 evt_custom_prev_stint -> Previous Stint
+    ➡️ evt_custom_prev_stint=
+    # 🔴 evt_custom_next_stint -> Next Stint
+    ➡️ evt_custom_next_stint=
+    # 🔴 evt_custom_n_stint -> N. Stints
+    ➡️ evt_custom_n_stint=
 
 ## Headers
 
@@ -3185,6 +3193,91 @@ Description of security keys:
     phone_username=Имя пользователя
     phone_websocketurl=WebSocket URL
 
+## Homepage
+
+    home_add_infobox=Добавить InfoBox
+    home_configuration_agents=Агенты
+    # 🔴 home_configuration_cases -> Cases
+    ➡️ home_configuration_cases=
+    home_configuration_cbt=Тренинг
+    # 🔴 home_configuration_clients -> Clients
+    ➡️ home_configuration_clients=
+    home_configuration_custom_blocks=Пользовательские блоки данных
+    home_configuration_dnis=DID/DNIS
+    home_configuration_export_jobs=Редактировать экспорт отчетов
+    home_configuration_features=Характеристики вызова
+    home_configuration_groups=Группы агентов
+    home_configuration_ivr=Выбор IVR
+    home_configuration_known_numbers=Известные номера
+    home_configuration_locations=Расположения
+    home_configuration_outcomes=Результаты вызова
+    home_configuration_pause_codes=Коды пауз
+    home_configuration_perftracker=QA отслеживание производительности
+    home_configuration_qaforms=QA формы
+    home_configuration_queues=Очереди
+    home_configuration_scheduled_jobs=Редактировать запланированные задания
+    home_configuration_skills=Навыки агента
+    home_configuration_subtitle=Редактировать объекты конфигурации QueueMetrics
+    home_configuration_tags=Тэги вызова
+    home_configuration_title=Конфигурация
+    home_configuration_users=Пользователи
+    home_dbtest_ami=AMI тестер
+    home_dbtest_ami_queue=Команды AMI
+    home_dbtest_configuration=Просмотреть конфигурацию
+    home_dbtest_db_inspector=Проверить базу данных
+    home_dbtest_ram_cache=Кэширование RAM
+    home_dbtest_smtp=SMTP тестер
+    home_diagnostics_title=Диагностика
+    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
+    ➡️ home_error_fetch_admin_infoboxes=
+    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
+    ➡️ home_error_fetch_available_infoboxes=
+    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
+    ➡️ home_error_fetch_infoboxes=
+    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
+    ➡️ home_error_save_prefs=
+    home_icon_subtitle=Страница агента Icon
+    home_icon_title=Значок
+    home_infobox_close=Закрыть
+    home_infobox_preview=Предпросмотр
+    # 🔴 home_infobox_private -> Private
+    ➡️ home_infobox_private=
+    home_infobox_quicklinks=Быстрые ссылки
+    home_news_subtitle=Последние новости QueueMetrics
+    home_news_title=Новости
+    home_payroll_subtitle=Запуск отчета по платежной ведомости
+    home_payroll_title=Отчет по платежной ведомости
+    home_qa_subtitle=Запуск QA отчета
+    home_qa_title=QA отчеты
+    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
+    ➡️ home_qap_subtitle=
+    # 🔴 home_qap_title -> Agent Page
+    ➡️ home_qap_title=
+    home_realtime_subtitle=Полный просмотр звонков в реальном времени
+    home_realtime_title=Реальное время
+    home_reports_subtitle=Исторические отчеты
+    home_reports_title=Отчеты
+    home_search=Поиск
+    home_search_placeholder=Поиск на главной странице
+    home_select_infobox=Отметьте информационные окна, которые хотите видеть на главной странице
+    home_ssar_subtitle=Отчеты самообслуживания агента
+    home_ssar_title=SSAR
+    home_synchronizer_subtitle=Автоматическая установка QueueMetrics
+    home_synchronizer_title=Синхронизатор
+    home_sysadmin_agaw=Менеджер AGAW
+    home_sysadmin_audit=Просмотр журналов аудита
+    home_sysadmin_diagnostic_tools=Утилиты диагностики системы
+    home_sysadmin_edit_parameters=Редактировать параметры системы
+    home_sysadmin_explore_parameters=Просмотреть параметры системы
+    home_sysadmin_import_export=Импорт/экспорт вызовов
+    home_sysadmin_mysql_storage=Информация о хранилище MySQL
+    home_sysadmin_subtitle=Полезные инструменты для системных администраторов
+    home_sysadmin_title=Администрирование системы
+    home_throwaway_report=Создать одноразовый отчет
+    home_unexpected_server_error=Непредвиденная ошибка сервера
+    home_wallboards_subtitle=Настраиваемые табло для данных в реальном времени
+    home_wallboards_title=Табло
+
 ## Misc
 
 Other items
@@ -3346,88 +3439,6 @@ Other items
     ➡️ gui_form_next=
     # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
-    home_add_infobox=Добавить InfoBox
-    home_configuration_agents=Агенты
-    # 🔴 home_configuration_cases -> Cases
-    ➡️ home_configuration_cases=
-    home_configuration_cbt=Тренинг
-    # 🔴 home_configuration_clients -> Clients
-    ➡️ home_configuration_clients=
-    home_configuration_custom_blocks=Пользовательские блоки данных
-    home_configuration_dnis=DID/DNIS
-    home_configuration_export_jobs=Редактировать экспорт отчетов
-    home_configuration_features=Характеристики вызова
-    home_configuration_groups=Группы агентов
-    home_configuration_ivr=Выбор IVR
-    home_configuration_known_numbers=Известные номера
-    home_configuration_locations=Расположения
-    home_configuration_outcomes=Результаты вызова
-    home_configuration_pause_codes=Коды пауз
-    home_configuration_perftracker=QA отслеживание производительности
-    home_configuration_qaforms=QA формы
-    home_configuration_queues=Очереди
-    home_configuration_scheduled_jobs=Редактировать запланированные задания
-    home_configuration_skills=Навыки агента
-    home_configuration_subtitle=Редактировать объекты конфигурации QueueMetrics
-    home_configuration_tags=Тэги вызова
-    home_configuration_title=Конфигурация
-    home_configuration_users=Пользователи
-    home_dbtest_ami=AMI тестер
-    home_dbtest_ami_queue=Команды AMI
-    home_dbtest_configuration=Просмотреть конфигурацию
-    home_dbtest_db_inspector=Проверить базу данных
-    home_dbtest_ram_cache=Кэширование RAM
-    home_dbtest_smtp=SMTP тестер
-    home_diagnostics_title=Диагностика
-    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
-    ➡️ home_error_fetch_admin_infoboxes=
-    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
-    ➡️ home_error_fetch_available_infoboxes=
-    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
-    ➡️ home_error_fetch_infoboxes=
-    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
-    ➡️ home_error_save_prefs=
-    home_icon_subtitle=Страница агента Icon
-    home_icon_title=Значок
-    home_infobox_close=Закрыть
-    home_infobox_preview=Предпросмотр
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=
-    home_infobox_quicklinks=Быстрые ссылки
-    home_news_subtitle=Последние новости QueueMetrics
-    home_news_title=Новости
-    home_payroll_subtitle=Запуск отчета по платежной ведомости
-    home_payroll_title=Отчет по платежной ведомости
-    home_qa_subtitle=Запуск QA отчета
-    home_qa_title=QA отчеты
-    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle=
-    # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title=
-    home_realtime_subtitle=Полный просмотр звонков в реальном времени
-    home_realtime_title=Реальное время
-    home_reports_subtitle=Исторические отчеты
-    home_reports_title=Отчеты
-    home_search=Поиск
-    home_search_placeholder=Поиск на главной странице
-    home_select_infobox=Отметьте информационные окна, которые хотите видеть на главной странице
-    home_ssar_subtitle=Отчеты самообслуживания агента
-    home_ssar_title=SSAR
-    home_synchronizer_subtitle=Автоматическая установка QueueMetrics
-    home_synchronizer_title=Синхронизатор
-    home_sysadmin_agaw=Менеджер AGAW
-    home_sysadmin_audit=Просмотр журналов аудита
-    home_sysadmin_diagnostic_tools=Утилиты диагностики системы
-    home_sysadmin_edit_parameters=Редактировать параметры системы
-    home_sysadmin_explore_parameters=Просмотреть параметры системы
-    home_sysadmin_import_export=Импорт/экспорт вызовов
-    home_sysadmin_mysql_storage=Информация о хранилище MySQL
-    home_sysadmin_subtitle=Полезные инструменты для системных администраторов
-    home_sysadmin_title=Администрирование системы
-    home_throwaway_report=Создать одноразовый отчет
-    home_unexpected_server_error=Непредвиденная ошибка сервера
-    home_wallboards_subtitle=Настраиваемые табло для данных в реальном времени
-    home_wallboards_title=Табло
     jump_to_main_content=Перейти к основному контенту
     keyinstall_err_nokey=Пользователь должен удерживать клавишу KEYUPDATE. Продолжение невозможно.
     keyinstall_err_noscript=Пропущенный сценарий перезапуска
