@@ -3,8 +3,8 @@
 |  | Language | Alternatives | Missing | Human checked | AI based | Completion |   |
 |--|----------|--------------|---------|---------------|----------|------------|---|
 | 1 | *English (en_US)* |  | 0 | 100.0% | 0.0% | 100.0% | 😎 |
-| 2 | *French (fr_FR)* |  | 4 | 99.9% | 0.0% | 99.9% | 🟢 |
-| 3 | *Italian (it_IT)* |  | 4 | 99.9% | 0.0% | 99.9% | 🟢 |
+| 2 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
+| 3 | *French (fr_FR)* |  | 4 | 99.9% | 0.0% | 99.9% | 🟢 |
 | 4 | *Brazil Portuguese (pt_BR)* | pt_PT | 44 | 98.9% | 0.1% | 99.0% | 🟢 |
 | 5 | *Portuguese (pt_PT)* | pt_BR | 44 | 73.5% | 25.5% | 99.0% | 🟢 |
 | 6 | *Spanish (es_ES)* | es_LA | 49 | 20.2% | 78.7% | 98.9% | 🟢 |
@@ -37,5 +37,5 @@
 - 🔴 Incomplete
 
 
-Generated at Thu, July 11 2024 @ 09:09.
+Generated at Thu, July 11 2024 @ 09:14.
 

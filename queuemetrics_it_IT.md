@@ -1091,14 +1091,10 @@ Do not change the items below:
     evt_web_end_session=Fine sessione web
     evt_web_fail_session=Fallimento sessione web
     evt_web_start_session=Inizio sessione web
-    # 🔴 evt_var_group -> Variables
-    ➡️ evt_var_group=Variabili
-    # 🔴 evt_custom_prev_stint -> Previous Stint
-    ➡️ evt_custom_prev_stint=Stint precedente
-    # 🔴 evt_custom_next_stint -> Next Stint
-    ➡️ evt_custom_next_stint=Stint successivo
-    # 🔴 evt_custom_n_stint -> N. Stints
-    ➡️ evt_custom_n_stint=N. di Stint
+    evt_var_group=Variabili
+    evt_custom_prev_stint=Stint precedente
+    evt_custom_next_stint=Stint successivo
+    evt_custom_n_stint=N. di Stint
 
 ## Headers
 
