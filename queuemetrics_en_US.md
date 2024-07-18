@@ -1095,6 +1095,8 @@ Do not change the items below:
     evt_custom_prev_stint=Previous Stint
     evt_custom_next_stint=Next Stint
     evt_custom_n_stint=N. Stints
+    evt_custom_direct_to=Direct call to
+    evt_custom_quality=Call quality
 
 ## Headers
 
