@@ -3958,6 +3958,7 @@ Other items
     reports_qa_status=Status
     reports_qa_uid=Unique Id
     reports_qa_value=Value
+    reports_qa_print=Print
     reports_query_loading=Loading
     reports_ratio=Ratio
     reports_recap_no_filters=Click to add additional filters
