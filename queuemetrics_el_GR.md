@@ -1162,6 +1162,10 @@ Do not change the items below:
     ➡️ evt_custom_next_stint=
     # 🔴 evt_custom_n_stint -> N. Stints
     ➡️ evt_custom_n_stint=
+    # 🔴 evt_custom_direct_to -> Direct call to
+    ➡️ evt_custom_direct_to=
+    # 🔴 evt_custom_quality -> Call quality
+    ➡️ evt_custom_quality=
 
 ## Headers
 
