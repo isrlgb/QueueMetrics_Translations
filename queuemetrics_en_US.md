@@ -818,7 +818,7 @@ Do not change the items below:
 
 
     custrep_agent=Agent:
-    custrep_agentgroup=Agent Group:
+    custrep_agentgroup=Agent Group
     custrep_asterisk_id=Call Unique ID
     custrep_call_dur=Call duration
     custrep_caller=Caller
@@ -826,15 +826,15 @@ Do not change the items below:
     custrep_criteria=Call filtering criteria
     custrep_custom_report_analysis=Custom report analysis
     custrep_date_call=Call
-    custrep_date_callorform=Date applied to:
+    custrep_date_callorform=Date applied to
     custrep_date_form=Form Filling
     custrep_disconnection=Disconnection cause
     custrep_dnis=DNIS
-    custrep_end_date=Call end date:
+    custrep_end_date=Call end date
     custrep_enterpos=Enter position
     custrep_features=Call features
     custrep_file=File:
-    custrep_grader=Grader:
+    custrep_grader=Grader
     custrep_hourly_slot_minutes=Hourly slot (minutes)
     custrep_ivr_choice=IVR choice
     custrep_list_calls=List Calls
@@ -845,7 +845,7 @@ Do not change the items below:
     custrep_n_attempts=Number of attempts
     custrep_non_contig=Non-contiguous time:
     custrep_outcome=Outcome
-    custrep_queue=Queue:
+    custrep_queue=Queue
     custrep_run_custom_report=Run custom report
     custrep_server=Server
     custrep_shortcall_attempts=Short Attempt Wait Limit
@@ -860,9 +860,9 @@ Do not change the items below:
     custrep_sla_interval=SLA: interval
     custrep_sla_max_initial_delay=SLA: initial period
     custrep_sla_max_monitored_delay=SLA: max period
-    custrep_start_date=Call start date:
+    custrep_start_date=Call start date
     custrep_start_realtime_monitoring=Start realtime monitoring
-    custrep_supervision=Supervision:
+    custrep_supervision=Supervision
     custrep_time_period=Time period
     custrep_time_zone_offset=Time zone offset:
     custrep_variables=Variables
@@ -938,7 +938,7 @@ Do not change the items below:
     clhdr_disconnection=Filtered by disconnection:
     clhdr_dnis=Filtered by DNIS:
     clhdr_enterpos=Filtered by enter position:
-    clhdr_export_as=Export as...
+    clhdr_export_as=Export as
     clhdr_filter=Filter
     clhdr_filtered_for_agent=Filtered for agent:
     clhdr_ivr=Filtered by IVR selection:
@@ -950,7 +950,7 @@ Do not change the items below:
     clhdr_period_end_date=Period end date:
     clhdr_period_start_date=Period start date:
     clhdr_preferences=Preferences
-    clhdr_report_details=Report Details:
+    clhdr_report_details=Report Details
     clhdr_report_generated=Report generated on:
     clhdr_search=Search
     clhdr_server=Filtered by  server:
@@ -1759,7 +1759,7 @@ Do not change the items below:
     qa_caller=Caller
     qa_comment=Comment
     qa_date=Date
-    qa_form=Form:
+    qa_form=Form
     qa_frm_about=About
     qa_frm_addbtn=Add
     qa_frm_addtojob=Add to job
