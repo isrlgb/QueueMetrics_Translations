@@ -3317,7 +3317,7 @@ Other items
     memo_details_save=Salva
     memo_details_title=Titolo
     memo_details_to=A
-    memo_details_type=tipo
+    memo_details_type=Tipo
     memo_details_user_from=Da
     memo_details_user_to=A
     memo_details_validfrom=Valido da

@@ -3315,7 +3315,7 @@ Other items
     memo_details_save=Save
     memo_details_title=Title
     memo_details_to=TO
-    memo_details_type=type
+    memo_details_type=Type
     memo_details_user_from=From
     memo_details_user_to=To
     memo_details_validfrom=Valid from
