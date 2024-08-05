@@ -1248,7 +1248,7 @@ Do not change the items below:
 
 ### Cases
 
-    edit_cases_client=ddddddddddd
+    edit_cases_client=Cliente
     edit_cases_contact=Contatto
     edit_cases_email=Email
     edit_cases_header=Casi
