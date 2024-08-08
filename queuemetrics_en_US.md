@@ -2039,6 +2039,7 @@ Do not change the items below:
     rt3_actions_whisper=Whisper
     rt3_add=Add New Widget
     rt3_add_box=Add new widget on page
+    rt3_add_queue=Select Queue
     rt3_add_view=Add new view
     rt3_advanced=Advanced
     rt3_ag_calls_alm_red=Agents Busy Red Alarm
