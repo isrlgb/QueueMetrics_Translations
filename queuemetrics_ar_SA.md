@@ -2114,6 +2114,8 @@ Do not change the items below:
     qa_pop_print=طبع
     qa_prc_act=%
     qa_prc_min=٪ اللازمة
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=فقط بالامكان تفعيل فلتر اختيار واحد للوكيل كل مرة
     qa_queue=صف
     qa_range=نطاق
@@ -2231,6 +2233,8 @@ Do not change the items below:
     rt3_actions_whisper=همس
     rt3_add=اضافة Widget جديد
     rt3_add_box=اضافة صندوق جديد في الصفحة
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=اضافة عرض جديد
     rt3_advanced=متقدم
     rt3_ag_calls_alm_red=تنبيه أحمر للوكلاء المشغولين
@@ -3676,7 +3680,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -4692,6 +4696,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=تحميل
     # 🔴 reports_ratio -> Ratio
     ➡️ reports_ratio=

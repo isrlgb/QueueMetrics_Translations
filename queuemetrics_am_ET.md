@@ -1576,7 +1576,7 @@ Do not change the items below:
 
     # 🔴 custrep_agent -> Agent:
     ➡️ custrep_agent=
-    # 🔴 custrep_agentgroup -> Agent Group:
+    # 🔴 custrep_agentgroup -> Agent Group
     ➡️ custrep_agentgroup=
     # 🔴 custrep_asterisk_id -> Call Unique ID
     ➡️ custrep_asterisk_id=
@@ -1592,7 +1592,7 @@ Do not change the items below:
     ➡️ custrep_custom_report_analysis=
     # 🔴 custrep_date_call -> Call
     ➡️ custrep_date_call=
-    # 🔴 custrep_date_callorform -> Date applied to:
+    # 🔴 custrep_date_callorform -> Date applied to
     ➡️ custrep_date_callorform=
     # 🔴 custrep_date_form -> Form Filling
     ➡️ custrep_date_form=
@@ -1600,7 +1600,7 @@ Do not change the items below:
     ➡️ custrep_disconnection=
     # 🔴 custrep_dnis -> DNIS
     ➡️ custrep_dnis=
-    # 🔴 custrep_end_date -> Call end date:
+    # 🔴 custrep_end_date -> Call end date
     ➡️ custrep_end_date=
     # 🔴 custrep_enterpos -> Enter position
     ➡️ custrep_enterpos=
@@ -1608,7 +1608,7 @@ Do not change the items below:
     ➡️ custrep_features=
     # 🔴 custrep_file -> File:
     ➡️ custrep_file=
-    # 🔴 custrep_grader -> Grader:
+    # 🔴 custrep_grader -> Grader
     ➡️ custrep_grader=
     # 🔴 custrep_hourly_slot_minutes -> Hourly slot (minutes)
     ➡️ custrep_hourly_slot_minutes=
@@ -1630,7 +1630,7 @@ Do not change the items below:
     ➡️ custrep_non_contig=
     # 🔴 custrep_outcome -> Outcome
     ➡️ custrep_outcome=
-    # 🔴 custrep_queue -> Queue:
+    # 🔴 custrep_queue -> Queue
     ➡️ custrep_queue=
     # 🔴 custrep_run_custom_report -> Run custom report
     ➡️ custrep_run_custom_report=
@@ -1660,11 +1660,11 @@ Do not change the items below:
     ➡️ custrep_sla_max_initial_delay=
     # 🔴 custrep_sla_max_monitored_delay -> SLA: max period
     ➡️ custrep_sla_max_monitored_delay=
-    # 🔴 custrep_start_date -> Call start date:
+    # 🔴 custrep_start_date -> Call start date
     ➡️ custrep_start_date=
     # 🔴 custrep_start_realtime_monitoring -> Start realtime monitoring
     ➡️ custrep_start_realtime_monitoring=
-    # 🔴 custrep_supervision -> Supervision:
+    # 🔴 custrep_supervision -> Supervision
     ➡️ custrep_supervision=
     # 🔴 custrep_time_period -> Time period
     ➡️ custrep_time_period=
@@ -1805,7 +1805,7 @@ Do not change the items below:
     ➡️ clhdr_dnis=
     # 🔴 clhdr_enterpos -> Filtered by enter position:
     ➡️ clhdr_enterpos=
-    # 🔴 clhdr_export_as -> Export as...
+    # 🔴 clhdr_export_as -> Export as
     ➡️ clhdr_export_as=
     # 🔴 clhdr_filter -> Filter
     ➡️ clhdr_filter=
@@ -1829,7 +1829,7 @@ Do not change the items below:
     ➡️ clhdr_period_start_date=
     # 🔴 clhdr_preferences -> Preferences
     ➡️ clhdr_preferences=
-    # 🔴 clhdr_report_details -> Report Details:
+    # 🔴 clhdr_report_details -> Report Details
     ➡️ clhdr_report_details=
     # 🔴 clhdr_report_generated -> Report generated on:
     ➡️ clhdr_report_generated=
@@ -3418,7 +3418,7 @@ Do not change the items below:
     ➡️ qa_comment=
     # 🔴 qa_date -> Date
     ➡️ qa_date=
-    # 🔴 qa_form -> Form:
+    # 🔴 qa_form -> Form
     ➡️ qa_form=
     # 🔴 qa_frm_about -> About
     ➡️ qa_frm_about=
@@ -3746,6 +3746,8 @@ Do not change the items below:
     ➡️ qa_prc_act=
     # 🔴 qa_prc_min -> % needed
     ➡️ qa_prc_min=
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     # 🔴 qa_queryfilterwarn -> Only one agent filter selection at time is supported.
     ➡️ qa_queryfilterwarn=
     # 🔴 qa_queue -> Queue
@@ -3970,6 +3972,8 @@ Do not change the items below:
     ➡️ rt3_add=
     # 🔴 rt3_add_box -> Add new widget on page
     ➡️ rt3_add_box=
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     # 🔴 rt3_add_view -> Add new view
     ➡️ rt3_add_view=
     # 🔴 rt3_advanced -> Advanced
@@ -6485,7 +6489,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -7771,6 +7775,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     # 🔴 reports_query_loading -> Loading
     ➡️ reports_query_loading=
     # 🔴 reports_ratio -> Ratio

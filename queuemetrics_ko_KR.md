@@ -2006,6 +2006,8 @@ Do not change the items below:
     qa_pop_print=출력
     qa_prc_act=%
     qa_prc_min=% needed
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Only one agent filter selection at time is supported
     qa_queue=대기큐(Queue)
     qa_range=범위
@@ -2123,6 +2125,8 @@ Do not change the items below:
     rt3_actions_whisper=Whisper
     rt3_add=새 위젯 추가
     rt3_add_box=페이지네 새로운 박스 추가
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=새로운 뷰 추가
     rt3_advanced=Advanced
     rt3_ag_calls_alm_red=Agents Busy Red Alarm
@@ -3634,7 +3638,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -4760,6 +4764,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     # 🔴 reports_query_loading -> Loading
     ➡️ reports_query_loading=
     # 🔴 reports_ratio -> Ratio

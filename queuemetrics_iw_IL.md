@@ -2498,7 +2498,7 @@ Do not change the items below:
     ➡️ qa_comment=
     # 🔴 qa_date -> Date
     ➡️ qa_date=
-    # 🔴 qa_form -> Form:
+    # 🔴 qa_form -> Form
     ➡️ qa_form=
     # 🔴 qa_frm_about -> About
     ➡️ qa_frm_about=
@@ -2826,6 +2826,8 @@ Do not change the items below:
     ➡️ qa_prc_act=
     # 🔴 qa_prc_min -> % needed
     ➡️ qa_prc_min=
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     # 🔴 qa_queryfilterwarn -> Only one agent filter selection at time is supported.
     ➡️ qa_queryfilterwarn=
     # 🔴 qa_queue -> Queue
@@ -3050,6 +3052,8 @@ Do not change the items below:
     ➡️ rt3_add=
     # 🔴 rt3_add_box -> Add new widget on page
     ➡️ rt3_add_box=
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     # 🔴 rt3_add_view -> Add new view
     ➡️ rt3_add_view=
     # 🔴 rt3_advanced -> Advanced
@@ -5451,7 +5455,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -6730,6 +6734,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     # 🔴 reports_query_loading -> Loading
     ➡️ reports_query_loading=
     # 🔴 reports_ratio -> Ratio

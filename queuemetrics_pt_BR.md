@@ -1950,6 +1950,8 @@ Do not change the items below:
     qa_pop_print=Imprimir
     qa_prc_act=%
     qa_prc_min=% exigida
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Somente um filtro de agente simultâneo é suportado.
     qa_queue=Fila
     qa_range=Faixa
@@ -2066,6 +2068,8 @@ Do not change the items below:
     rt3_actions_whisper=Sussurrar
     rt3_add=Adicionar Novo Widget
     rt3_add_box=Adicionar nova janela na página
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Adicionar nova view
     rt3_advanced=Avançado
     rt3_ag_calls_alm_red=Alarme Vermelho de Agentes Ocupados
@@ -4008,6 +4012,8 @@ Other items
     reports_qa_status=Estado
     reports_qa_uid=ID Único
     reports_qa_value=Valor
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=Carregando
     reports_ratio=Relação
     reports_recap_no_filters=Clique para adicionar filtros adicionais

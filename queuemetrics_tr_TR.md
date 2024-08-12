@@ -2116,6 +2116,8 @@ Do not change the items below:
     qa_pop_print=Print
     qa_prc_act=%
     qa_prc_min=% gerekli
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Zamanında sadece bir müşteri temsilcisi filtre seçimi desteklenir.
     qa_queue=Havuz
     qa_range=Range
@@ -2233,6 +2235,8 @@ Do not change the items below:
     rt3_actions_whisper=Fısıltı
     rt3_add=Yeni Widget ekle
     rt3_add_box=Sayfada yeni kutu ekle
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Yeni görünüm ekle
     rt3_advanced=Yeni görünüm ekle
     rt3_ag_calls_alm_red=Müşteri Temsilcileri Meşgul Kırmızı Alarm
@@ -3678,7 +3682,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -4694,6 +4698,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=Yükleniyor
     # 🔴 reports_ratio -> Ratio
     ➡️ reports_ratio=

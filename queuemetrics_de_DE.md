@@ -241,11 +241,9 @@ Do not change the items below:
     aout_call_res_by_outcome=Gesprächsresultat, nach Ergebnis
     aout_call_res_by_tag=Anrufergebnisse, nach Tag
     aout_calltag=Tag
-    # 🔴 aout_case_distribution -> Case Distribution
-    ➡️ aout_case_distribution=ZUteilung der Anfrage
+    aout_case_distribution=ZUteilung der Anfrage
     aout_chart=~
-    # 🔴 aout_client_distribution -> Client Distribution
-    ➡️ aout_client_distribution=Zuteilung des Kunden
+    aout_client_distribution=Zuteilung des Kunden
     aout_contacts_n=Kontakte
     aout_convratio=Konversionsquote
     aout_cph=KPS
@@ -421,11 +419,9 @@ Do not change the items below:
 
 
 
-    # 🔴 clage_%_of_pause_time -> % of pause time
-    ➡️ clage_%_of_pause_time=Pausendauer
+    clage_%_of_pause_time=Pausendauer
     clage_%_of_queue=% der Warteschlange
-    # 🔴 clage_%_of_session_time -> % of session time
-    ➡️ clage_%_of_session_time=Sitzungsdauer
+    clage_%_of_session_time=Sitzungsdauer
     clage_acd_available=Verf.
     clage_acd_avg_dur=Durchschn. Dauer
     clage_acd_avg_in=Durschnitt. eing.
@@ -450,8 +446,7 @@ Do not change the items below:
     clage_agent_performance_acd_group=Agentenleistung nach ACD-Gruppe
     clage_agent_ptimebyhour=Zahlbare Zeit des Agenten nach Stunden
     clage_agent_session_detail=Sitzungsdetails
-    # 🔴 clage_agent_session_overview -> Agent Session Overview
-    ➡️ clage_agent_session_overview= Übersicht Agentensitzung
+    clage_agent_session_overview= Übersicht Agentensitzung
     clage_agent_sessionreport=Ansicht Agentensitzungen
     clage_agent_sessions=Agentensitzungen
     clage_agent_stimebyhour=Agentensitzungszeit nach Stunde
@@ -513,8 +508,7 @@ Do not change the items below:
     clage_overlaps=Überschneidungen
     clage_pause=Pause
     clage_pause_%=Pause in %
-    # 🔴 clage_pause_type_stats -> Details of pause types
-    ➡️ clage_pause_type_stats= Details zum Pausentyp
+    clage_pause_type_stats= Details zum Pausentyp
     clage_pauses=Pausen
     clage_pauses_per_session=Pausen pro Sitzung
     clage_pausetype=Pausentyp
@@ -530,25 +524,16 @@ Do not change the items below:
     clage_session_and_pause_durations=Sitzungs- und Pausenlängen
     clage_session_byquetagftrreport=Kumulierte Sitzungen nach Warteschlange, Tag und Merkmal
     clage_session_byquetagreport=Kumulierte Sitzungen nach Warteschlange, Tag
-    # 🔴 clage_session_calls -> N. calls
-    ➡️ clage_session_calls= N. Anruf
+    clage_session_calls= N. Anruf
     clage_session_details=Sitzungsdetails
-    # 🔴 clage_session_end -> Segment end
-    ➡️ clage_session_end= Abschnittsende
-    # 🔴 clage_session_idle -> Idle time
-    ➡️ clage_session_idle= Wartezeit
-    # 🔴 clage_session_lostatt -> Lost attempts
-    ➡️ clage_session_lostatt= Verlorene Versuche
-    # 🔴 clage_session_pause -> Pause
-    ➡️ clage_session_pause= Pause
-    # 🔴 clage_session_queues -> Queues
-    ➡️ clage_session_queues= Warteschlange
-    # 🔴 clage_session_start -> Segment start
-    ➡️ clage_session_start= Abschnittsbeginn
-    # 🔴 clage_session_talk -> Talk time
-    ➡️ clage_session_talk= Gesprächsdauer
-    # 🔴 clage_session_type -> Session type
-    ➡️ clage_session_type= Art der Sitzung
+    clage_session_end= Abschnittsende
+    clage_session_idle= Wartezeit
+    clage_session_lostatt= Verlorene Versuche
+    clage_session_pause= Pause
+    clage_session_queues= Warteschlange
+    clage_session_start= Abschnittsbeginn
+    clage_session_talk= Gesprächsdauer
+    clage_session_type= Art der Sitzung
     clage_sessions=Sitzungen
     clage_tag_sessionreport=Tag Sessions Ansicht
     clage_takenshort=T
@@ -638,10 +623,8 @@ Do not change the items below:
     cld_detail_of_agent_sessions_raw=Details der Agentensitzung (RAW)
     cld_detail_of_answered_calls=Details angenommener Anrufe
     cld_detail_of_unanswered_calls=Details nicht angenommener Anrufe
-    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_afp= Details zu unbeantworteten Anrufe
-    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_raw= Rohdetails zu unbeantworteten Anrufe
+    cld_detail_of_unanswered_calls_afp= Details zu unbeantworteten Anrufe
+    cld_detail_of_unanswered_calls_raw= Rohdetails zu unbeantworteten Anrufe
     cld_detail_summary=Detail Zusammenfassung nach Stunde
     cld_detail_summary_dom=Detail Zusammenfassung nach Tag
     cld_detail_summary_dow=Detail Zusammenfassung nach Wochentag
@@ -720,10 +703,8 @@ Do not change the items below:
     cld_queue=Warteschlange
     cld_queue_batch_export=Markings
     cld_queue_detail=Warteschlangendetails
-    # 🔴 cld_queue_detail_afp -> Queue detail
-    ➡️ cld_queue_detail_afp=Details zur Warteschlange
-    # 🔴 cld_queue_detail_raw -> Raw queue detail
-    ➡️ cld_queue_detail_raw=Rohdetails zur Warteschlange
+    cld_queue_detail_afp=Details zur Warteschlange
+    cld_queue_detail_raw=Rohdetails zur Warteschlange
     cld_return=Zurück
     cld_server=Server
     cld_session_agent_detail=Agentensitzungsdetails
@@ -1093,8 +1074,7 @@ Do not change the items below:
     evt_phone_end_session=Telefon-Sitzung Ende
     evt_phone_fail_session=Telefonsitzung fehlgeschlagen
     evt_phone_start_session=Beginn der Telefonsitzung
-    # 🔴 evt_ringcancel -> Ring Cancel
-    ➡️ evt_ringcancel= Klingeln beenden
+    evt_ringcancel= Klingeln beenden
     evt_ringing=Klingeln
     evt_ringnoanswer=Klingeln keine Antwort
     evt_setvar=Variables Set
@@ -1107,24 +1087,17 @@ Do not change the items below:
     evt_teams_end_session=MS Teams Sitzung Ende
     evt_teams_fail_session=Teams Session Fail
     evt_teams_start_session=MS Teams Session Start
-    # 🔴 evt_transfer -> Transfer
-    ➡️ evt_transfer= weiterleiten
+    evt_transfer= weiterleiten
     evt_unanswered_yet=Noch unbeantwortet
     evt_web_end_session=Ende der Web-Sitzung
     evt_web_fail_session=Web-Sitzung fehlgeschlagen
     evt_web_start_session=Websession Start
-    # 🔴 evt_var_group -> Variables
-    ➡️ evt_var_group= Variablen
-    # 🔴 evt_custom_prev_stint -> Previous Stint
-    ➡️ evt_custom_prev_stint= vorangegangene Tätigkeit
-    # 🔴 evt_custom_next_stint -> Next Stint
-    ➡️ evt_custom_next_stint= nächste Tätigkeit
-    # 🔴 evt_custom_n_stint -> N. Stints
-    ➡️ evt_custom_n_stint= N. Tätigkeit
-    # 🔴 evt_custom_direct_to -> Direct call to
-    ➡️ evt_custom_direct_to= Direktanruf zu
-    # 🔴 evt_custom_quality -> Call quality
-    ➡️ evt_custom_quality= Gesprächsqualität
+    evt_var_group= Variablen
+    evt_custom_prev_stint= vorangegangene Tätigkeit
+    evt_custom_next_stint= nächste Tätigkeit
+    evt_custom_n_stint= N. Tätigkeit
+    evt_custom_direct_to= Direktanruf zu
+    evt_custom_quality= Gesprächsqualität
 
 ## Headers
 
@@ -1136,8 +1109,7 @@ Do not change the items below:
     hdr_agents_det_title=Details zu Agentensitzungen und Pausen
     hdr_agents_title=Agenten und Sitzungen
     hdr_all=Alles
-    # 🔴 hdr_amo -> AMO
-    ➡️ hdr_amo= AMO
+    hdr_amo= AMO
     hdr_answered=Angenommen
     hdr_answered_details=Beantwortete Details
     hdr_answered_details_title=Details zu beantworteten Anrufen
@@ -1145,19 +1117,13 @@ Do not change the items below:
     hdr_area_title=Analyse der Vorwahlen
     hdr_attempts=Versuche
     hdr_broadcast=Sendung
-    # 🔴 hdr_calls -> Calls
-    ➡️ hdr_calls= Anrufe
-    # 🔴 hdr_calls_title -> Call Details
-    ➡️ hdr_calls_title= Anrufdetails
-    # 🔴 hdr_casedo -> Cases
-    ➡️ hdr_casedo= Cases
-    # 🔴 hdr_casedo_title -> Cases and Clients
-    ➡️ hdr_casedo_title= Cases und Kunden
-    # 🔴 hdr_cases -> Cases
-    ➡️ hdr_cases= Cases
+    hdr_calls= Anrufe
+    hdr_calls_title= Anrufdetails
+    hdr_casedo= Cases
+    hdr_casedo_title= Cases und Kunden
+    hdr_cases= Cases
     hdr_cbt=CBTs
-    # 🔴 hdr_clients -> Clients
-    ➡️ hdr_clients= Kunden
+    hdr_clients= Kunden
     hdr_cronjobs=Geplante Jobs
     hdr_customblocks=Benutzerdefinierte Blöcke
     hdr_customreports=Benutzerdef. Bericht
@@ -1193,8 +1159,7 @@ Do not change the items below:
     hdr_outcomes=Ergebnisse
     hdr_outcomes_title=Ergebnisse aufrufen
     hdr_pauses=Pausen
-    # 🔴 hdr_performance -> Performance
-    ➡️ hdr_performance= Performance
+    hdr_performance= Performance
     hdr_performancetrack=PrfTrk
     hdr_print=Drucken
     hdr_qa=QA
@@ -1207,15 +1172,11 @@ Do not change the items below:
     hdr_realtime=In Echtzeit
     hdr_reports=Berichte
     hdr_resetquery=Zurücksetzen der Anfrageparameter
-    # 🔴 hdr_rt -> RT
-    ➡️ hdr_rt= RT
-    # 🔴 hdr_rt_title -> Real-Time Metrics
-    ➡️ hdr_rt_title= Realzeit-Metriks
+    hdr_rt= RT
+    hdr_rt_title= Realzeit-Metriks
     hdr_skills=Fähigkeiten
-    # 🔴 hdr_stats -> Stats
-    ➡️ hdr_stats= Stats
-    # 🔴 hdr_stats_title -> Statistics
-    ➡️ hdr_stats_title= Statistiken
+    hdr_stats= Stats
+    hdr_stats_title= Statistiken
     hdr_tags=Tags
     hdr_tags_title=Tags aufrufen
     hdr_tasks=Aufgaben
@@ -1242,106 +1203,60 @@ Do not change the items below:
     edit_ac_supervisor=Supervisor
     edit_ac_term=Endet
     edit_ac_title=Konfiguration bekannter Agenten
-    # 🔴 edit_amo_attribute -> Attribute
-    ➡️ edit_amo_attribute= Attribute
+    edit_amo_attribute= Attribute
 
 ### AMO
 
-    # 🔴 edit_amo_attributes -> Attributes
-    ➡️ edit_amo_attributes= Attribute
-    # 🔴 edit_amo_campaign -> Campaign
-    ➡️ edit_amo_campaign= Kampagne
-    # 🔴 edit_amo_last_pull -> Last Pull
-    ➡️ edit_amo_last_pull= letzter Zugriff
-    # 🔴 edit_amo_list_dialer_state -> Dialer State
-    ➡️ edit_amo_list_dialer_state=Status des Wählers
-    # 🔴 edit_amo_list_id -> List ID
-    ➡️ edit_amo_list_id= Listen ID
+    edit_amo_attributes= Attribute
+    edit_amo_campaign= Kampagne
+    edit_amo_last_pull= letzter Zugriff
+    edit_amo_list_dialer_state=Status des Wählers
+    edit_amo_list_id= Listen ID
     # 🔴 edit_amo_list_last_pull -> Last Pull
-    ➡️ edit_amo_list_last_pull letzter Zugriff
-    # 🔴 edit_amo_list_n_added -> N. added
-    ➡️ edit_amo_list_n_added= N. hinzugefügt
-    # 🔴 edit_amo_list_n_completed -> N. completed
-    ➡️ edit_amo_list_n_completed= N. beendet
-    # 🔴 edit_amo_list_n_pulled -> N. pulled
-    ➡️ edit_amo_list_n_pulled= N. gezogen
-    # 🔴 edit_amo_list_name -> Name
-    ➡️ edit_amo_list_name= Name
-    # 🔴 edit_amo_list_numbers -> Edit Numbers
-    ➡️ edit_amo_list_numbers= Eingabe Nummer
-    # 🔴 edit_amo_list_pull_by -> Pulled by
-    ➡️ edit_amo_list_pull_by= gezogen durch
-    # 🔴 edit_amo_list_state -> List State
-    ➡️ edit_amo_list_state=Auflisten der Statuse
-    # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
-    ➡️ edit_amo_list_upload_numbers= Hochladen der Nummern
-    # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
-    ➡️ edit_amo_list_upload_text= Ablegen des csv files oder durchsuchen 
-    # 🔴 edit_amo_list_weight -> Weight
-    ➡️ edit_amo_list_weight= Größe
-    # 🔴 edit_amo_lists_list -> AMO Lists
-    ➡️ edit_amo_lists_list= AMO Liste
-    # 🔴 edit_amo_lists_name_present -> The selected list name already exists
-    ➡️ edit_amo_lists_name_present= Der ausgewählte Listenname existiert bereits.
-    # 🔴 edit_amo_lists_title -> Edit AMO List
-    ➡️ edit_amo_lists_title= Eingabe AMO Liste
-    # 🔴 edit_amo_n_added -> N. added
-    ➡️ edit_amo_n_added= N. hinzugefügt
-    # 🔴 edit_amo_n_completed -> N. completed
-    ➡️ edit_amo_n_completed= N. beendet
-    # 🔴 edit_amo_n_lists -> N. of Lists
-    ➡️ edit_amo_n_lists=N. der Listen
-    # 🔴 edit_amo_name -> Name
-    ➡️ edit_amo_name= Name
-    # 🔴 edit_amo_notes -> Notes
-    ➡️ edit_amo_notes= Hinweise
-    # 🔴 edit_amo_number -> Number
-    ➡️ edit_amo_number= Nummer
-    # 🔴 edit_amo_number_id -> Number ID
-    ➡️ edit_amo_number_id= Nummer ID
-    # 🔴 edit_amo_numbers_current_uid -> Current UID
-    ➡️ edit_amo_numbers_current_uid= laufende UID
-    # 🔴 edit_amo_numbers_edit -> Edit AMO Number
-    ➡️ edit_amo_numbers_edit= Eingabe AMO Nummer
-    # 🔴 edit_amo_numbers_list -> AMO Numbers
-    ➡️ edit_amo_numbers_list= AMO Nummern
-    # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
-    ➡️ edit_amo_numbers_previous_retries= verherige Wiederholung
-    # 🔴 edit_amo_numbers_retry_no -> Retry Number
-    ➡️ edit_amo_numbers_retry_no= Wiederholungs-Nummer
-    # 🔴 edit_amo_queue_id -> Queue ID
-    ➡️ edit_amo_queue_id= Warteschalngen ID
-    # 🔴 edit_amo_retry_no -> N. of retries
-    ➡️ edit_amo_retry_no= N. Wiederholungen
-    # 🔴 edit_amo_state -> State
-    ➡️ edit_amo_state= Statuse    
-    # 🔴 edit_amo_valid_attribute -> Attribute
-    ➡️ edit_amo_valid_attribute= Attribute
-    # 🔴 edit_amo_valid_from -> Valid from
-    ➡️ edit_amo_valid_from= Gültig von
-    # 🔴 edit_amo_valid_value -> Value
-    ➡️ edit_amo_valid_value= Wert
+    ➡️ edit_amo_list_last_pull=
+    edit_amo_list_n_added= N. hinzugefügt
+    edit_amo_list_n_completed= N. beendet
+    edit_amo_list_n_pulled= N. gezogen
+    edit_amo_list_name= Name
+    edit_amo_list_numbers= Eingabe Nummer
+    edit_amo_list_pull_by= gezogen durch
+    edit_amo_list_state=Auflisten der Statuse
+    edit_amo_list_upload_numbers= Hochladen der Nummern
+    edit_amo_list_upload_text= Ablegen des csv files oder durchsuchen 
+    edit_amo_list_weight= Größe
+    edit_amo_lists_list= AMO Liste
+    edit_amo_lists_name_present= Der ausgewählte Listenname existiert bereits.
+    edit_amo_lists_title= Eingabe AMO Liste
+    edit_amo_n_added= N. hinzugefügt
+    edit_amo_n_completed= N. beendet
+    edit_amo_n_lists=N. der Listen
+    edit_amo_name= Name
+    edit_amo_notes= Hinweise
+    edit_amo_number= Nummer
+    edit_amo_number_id= Nummer ID
+    edit_amo_numbers_current_uid= laufende UID
+    edit_amo_numbers_edit= Eingabe AMO Nummer
+    edit_amo_numbers_list= AMO Nummern
+    edit_amo_numbers_previous_retries= verherige Wiederholung
+    edit_amo_numbers_retry_no= Wiederholungs-Nummer
+    edit_amo_queue_id= Warteschalngen ID
+    edit_amo_retry_no= N. Wiederholungen
+    edit_amo_state= Statuse    
+    edit_amo_valid_attribute= Attribute
+    edit_amo_valid_from= Gültig von
+    edit_amo_valid_value= Wert
 
 ### Cases
 
-    # 🔴 edit_cases_client -> Client
-    ➡️ edit_cases_client= Kunde
-    # 🔴 edit_cases_contact -> Contact
-    ➡️ edit_cases_contact= Kontakt
-    # 🔴 edit_cases_email -> Email
-    ➡️ edit_cases_email= Email
-    # 🔴 edit_cases_header -> Cases
-    ➡️ edit_cases_header= Cases
-    # 🔴 edit_cases_id -> Case Id
-    ➡️ edit_cases_id= Case Id
-    # 🔴 edit_cases_key -> Key
-    ➡️ edit_cases_key= Key
-    # 🔴 edit_cases_status -> Status
-    ➡️ edit_cases_status= Status
-    # 🔴 edit_cases_title -> Title
-    ➡️ edit_cases_title= Titel
-    # 🔴 edit_cases_xref -> Reference
-    ➡️ edit_cases_xref= Referenz
+    edit_cases_client= Kunde
+    edit_cases_contact= Kontakt
+    edit_cases_email= Email
+    edit_cases_header= Cases
+    edit_cases_id= Case Id
+    edit_cases_key= Key
+    edit_cases_status= Status
+    edit_cases_title= Titel
+    edit_cases_xref= Referenz
     edit_cbt_deleted=Gelöscht
     edit_cbt_description=Beschreibung
     edit_cbt_key=Schlüssel
@@ -1352,30 +1267,18 @@ Do not change the items below:
     edit_classes_keys=Schlüssel
     edit_classes_title=Nutzerklassen
     edit_classes_user_num=Nutzer № 
-    # 🔴 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
-    ➡️ edit_clients_client_in_use= Dieser Kunde kann nicht gelöscht werden - Er ist in Verwendung.
-    # 🔴 edit_clients_contact -> Contact
-    ➡️ edit_clients_contact= Kontakt
-    # 🔴 edit_clients_email -> Email
-    ➡️ edit_clients_email= Email
-    # 🔴 edit_clients_header -> Clients
-    ➡️ edit_clients_header= Kunden
-    # 🔴 edit_clients_key -> Key
-    ➡️ edit_clients_key= Key
-    # 🔴 edit_clients_name -> Name
-    ➡️ edit_clients_name= Name
-    # 🔴 edit_clients_name_present -> Name already present
-    ➡️ edit_clients_name_present= Name ist bereits vorhanden.
-    # 🔴 edit_clients_status -> Status
-    ➡️ edit_clients_status= Status
-    # 🔴 edit_clients_xref -> Reference
-    ➡️ edit_clients_xref= Referenz
-    # 🔴 edit_clients_xref_already_present -> This reference is already present
-    ➡️ edit_clients_xref_already_present= Diese Referenz ist bereits vorhanden.
-    # 🔴 edit_clients_xref_missing -> You must set a reference
-    ➡️ edit_clients_xref_missing= Sie müssen eine Referenz angeben.
-    # 🔴 edit_clients_xref_not_allowed -> This reference has an invalid format
-    ➡️ edit_clients_xref_not_allowed= Diese Referenz hat ein ungültiges Format.
+    edit_clients_client_in_use= Dieser Kunde kann nicht gelöscht werden - Er ist in Verwendung.
+    edit_clients_contact= Kontakt
+    edit_clients_email= Email
+    edit_clients_header= Kunden
+    edit_clients_key= Key
+    edit_clients_name= Name
+    edit_clients_name_present= Name ist bereits vorhanden.
+    edit_clients_status= Status
+    edit_clients_xref= Referenz
+    edit_clients_xref_already_present= Diese Referenz ist bereits vorhanden.
+    edit_clients_xref_missing= Sie müssen eine Referenz angeben.
+    edit_clients_xref_not_allowed= Diese Referenz hat ein ungültiges Format.
     edit_cronjobs_asuser=Als Nutzer durchführen
     edit_cronjobs_cyclic=Zyklisch
     edit_cronjobs_description=Beschreibung
@@ -1556,36 +1459,21 @@ Do not change the items below:
     edit_record_backtolist=Zurück zur Liste
     edit_record_backtoqueue=Zurück zur Warteschlange
     edit_record_backtoreports=Zurück zu Berichten
-    # 🔴 edit_record_case_transactions -> Activity for this case
-    ➡️ edit_record_case_transactions= Aktivität für diesen Case
-    # 🔴 edit_record_cases_contact -> Contact
-    ➡️ edit_record_cases_contact= Kontakt
-    # 🔴 edit_record_cases_email -> Email
-    ➡️ edit_record_cases_email= Email
-    # 🔴 edit_record_cases_for_client -> Recent cases for this client
-    ➡️ edit_record_cases_for_client= Jüngste Cases von diesem Kunden
-    # 🔴 edit_record_cases_handled_by -> Handled by
-    ➡️ edit_record_cases_handled_by= bearbeitet durch
-    # 🔴 edit_record_cases_header -> Edit Case
-    ➡️ edit_record_cases_header= Eingabe Case
-    # 🔴 edit_record_cases_id -> Case Id
-    ➡️ edit_record_cases_id= Case Id
-    # 🔴 edit_record_cases_none_found -> None found
-    ➡️ edit_record_cases_none_found= nicht gefunden
-    # 🔴 edit_record_cases_notes -> Notes
-    ➡️ edit_record_cases_notes= Hinweise
-    # 🔴 edit_record_cases_queue -> Queue
-    ➡️ edit_record_cases_queue= Warteschlange
-    # 🔴 edit_record_cases_securitykey -> Security Key
-    ➡️ edit_record_cases_securitykey= Security Key
-    # 🔴 edit_record_cases_status -> Status
-    ➡️ edit_record_cases_status= Status
-    # 🔴 edit_record_cases_text -> Note text
-    ➡️ edit_record_cases_text= Hinweistext
-    # 🔴 edit_record_cases_title -> Title
-    ➡️ edit_record_cases_title= Titel
-    # 🔴 edit_record_cases_xref -> Reference
-    ➡️ edit_record_cases_xref= Referenz
+    edit_record_case_transactions= Aktivität für diesen Case
+    edit_record_cases_contact= Kontakt
+    edit_record_cases_email= Email
+    edit_record_cases_for_client= Jüngste Cases von diesem Kunden
+    edit_record_cases_handled_by= bearbeitet durch
+    edit_record_cases_header= Eingabe Case
+    edit_record_cases_id= Case Id
+    edit_record_cases_none_found= nicht gefunden
+    edit_record_cases_notes= Hinweise
+    edit_record_cases_queue= Warteschlange
+    edit_record_cases_securitykey= Security Key
+    edit_record_cases_status= Status
+    edit_record_cases_text= Hinweistext
+    edit_record_cases_title= Titel
+    edit_record_cases_xref= Referenz
     edit_record_cbt_code=CBT-Code:
     edit_record_cbt_counter=Gesendeter Zähler:
     edit_record_cbt_offline=Offline:
@@ -1597,22 +1485,14 @@ Do not change the items below:
     edit_record_classes_name=Klassenname:
     edit_record_classes_title=Klassendetails:
     edit_record_classes_usersinclass=Anzahl zu dieser Klasse gehörenden Nutzer:
-    # 🔴 edit_record_client_id -> Client
-    ➡️ edit_record_client_id= Kunde
-    # 🔴 edit_record_clients_contact -> Contact
-    ➡️ edit_record_clients_contact= Kontakt
-    # 🔴 edit_record_clients_email -> Email
-    ➡️ edit_record_clients_email= Email
-    # 🔴 edit_record_clients_header -> Edit Client
-    ➡️ edit_record_clients_header= Eingabe Kunde
-    # 🔴 edit_record_clients_name -> Name
-    ➡️ edit_record_clients_name= Name
-    # 🔴 edit_record_clients_notes -> Notes
-    ➡️ edit_record_clients_notes= Hinweise
-    # 🔴 edit_record_clients_securitykey -> Security Key
-    ➡️ edit_record_clients_securitykey= Security Key
-    # 🔴 edit_record_clients_status -> Client status
-    ➡️ edit_record_clients_status= Kundenstatus
+    edit_record_client_id= Kunde
+    edit_record_clients_contact= Kontakt
+    edit_record_clients_email= Email
+    edit_record_clients_header= Eingabe Kunde
+    edit_record_clients_name= Name
+    edit_record_clients_notes= Hinweise
+    edit_record_clients_securitykey= Security Key
+    edit_record_clients_status= Kundenstatus
     edit_record_clone=Klonen
     edit_record_createdby=Erstellt von
     edit_record_cronjob_dom=Tag des Monats
@@ -1660,8 +1540,7 @@ Do not change the items below:
     edit_record_export_title=Berichte Detail exportieren
     edit_record_export_titlefield=Titel:
     edit_record_export_visibility=Schlüssel zur Sichtbarkeit:
-    # 🔴 edit_record_ext_ref -> Reference
-    ➡️ edit_record_ext_ref= Referenz
+    edit_record_ext_ref= Referenz
     edit_record_external_reference=Externe Referenz-ID:
     edit_record_features_code=Funktionscode
     edit_record_features_goal=Das Ziel:
@@ -1740,26 +1619,16 @@ Do not change the items below:
     edit_record_queue_agentspaused=Anzahl der pausierenden Agenten:
     edit_record_queue_agentswaiting=Anzahl der wartenden Agenten:
     edit_record_queue_alias=Queue alias:
-    # 🔴 edit_record_queue_amo -> AMO Settings
-    ➡️ edit_record_queue_amo= AMO Einstellungen
-    # 🔴 edit_record_queue_amo_enabled -> Enabled
-    ➡️ edit_record_queue_amo_enabled= aktiviert
-    # 🔴 edit_record_queue_amo_exponential -> Exponential
-    ➡️ edit_record_queue_amo_exponential= Exponential
-    # 🔴 edit_record_queue_amo_fixed -> Fixed
-    ➡️ edit_record_queue_amo_fixed= Fix
-    # 🔴 edit_record_queue_amo_linear -> Linear
-    ➡️ edit_record_queue_amo_linear= Linear
-    # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
-    ➡️ edit_record_queue_amo_recall_attributes= Rückruf Attribute
-    # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
-    ➡️ edit_record_queue_amo_recall_max_attempts= Max. Versuche
-    # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
-    ➡️ edit_record_queue_amo_recall_sec= Sekunden bis zum Rückruf
-    # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
-    ➡️ edit_record_queue_amo_recall_stepping= Rückruf schrittweise
-    # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
-    ➡️ edit_record_queue_amo_recall_valid_outcomes= gültige Ergebnisse
+    edit_record_queue_amo= AMO Einstellungen
+    edit_record_queue_amo_enabled= aktiviert
+    edit_record_queue_amo_exponential= Exponential
+    edit_record_queue_amo_fixed= Fix
+    edit_record_queue_amo_linear= Linear
+    edit_record_queue_amo_recall_attributes= Rückruf Attribute
+    edit_record_queue_amo_recall_max_attempts= Max. Versuche
+    edit_record_queue_amo_recall_sec= Sekunden bis zum Rückruf
+    edit_record_queue_amo_recall_stepping= Rückruf schrittweise
+    edit_record_queue_amo_recall_valid_outcomes= gültige Ergebnisse
     edit_record_queue_attention=Aufmerksamkeitsstufen
     edit_record_queue_callsinqueue=Anzahl der Anrufe in der Warteschlange:
     edit_record_queue_chat=Gruppenchat
@@ -1832,8 +1701,7 @@ Do not change the items below:
     edit_record_users_realname=Echter Name:
     edit_record_users_title=Benutzer Detail
     edit_record_users_token=Token:
-    # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
-    ➡️ edit_record_xref_blank= Leer lassen, um eine Referenz automatisch zu erzeugen.
+    edit_record_xref_blank= Leer lassen, um eine Referenz automatisch zu erzeugen.
     edit_reports_automatic=Automatische Berichtkonfiguration
     edit_reports_desc=Beschr.
     edit_reports_key=Schlüssel
@@ -2057,6 +1925,8 @@ Do not change the items below:
     qa_pop_print=Drucken
     qa_prc_act=%
     qa_prc_min=% erforderlich
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Es wird jeweils nur eine Agentenfilterauswahl unterstützt.
     qa_queue=Warteschlange
     qa_range=Reichweite
@@ -2145,8 +2015,7 @@ Do not change the items below:
     filter_idAgentGroup=Agentengruppe
     filter_idLocation=Standort
     filter_ivr=IVR
-    # 🔴 filter_lostAttemptFor -> Lost Attempt For
-    ➡️ filter_lostAttemptFor= verlorene Versuche für
+    filter_lostAttemptFor= verlorene Versuche für
     filter_noncont_days=Tagen
     filter_noncont_r1_from=Zeit von
     filter_noncont_r1_to=Zeit zum
@@ -2174,6 +2043,8 @@ Do not change the items below:
     rt3_actions_whisper=Flüstern
     rt3_add=Neues Widget hinzufügen
     rt3_add_box=Neues Widget auf der Seite hinzufügen
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Neue Ansicht hinzufügen
     rt3_advanced=Fortgeschrittene
     rt3_ag_calls_alm_red=Agenten Besetzt Rot Alarm
@@ -2289,8 +2160,7 @@ Do not change the items below:
     rt3_comment=Kommentar
     rt3_configure_phone=Softphone Konfiguration
     rt3_connection_error=Server-Verbindungsfehler
-    # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
-    ➡️ rt3_connection_valid= Die Verbindung zum Server arbeitet korrekt.
+    rt3_connection_valid= Die Verbindung zum Server arbeitet korrekt.
     rt3_cont=Cont.
     rt3_contph=CPH
     rt3_conversation=Gespräch
@@ -2640,8 +2510,7 @@ Do not change the items below:
 
 Description of configuration properties
 
-    # 🔴 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
-    ➡️ propedit_agent_max_qap_calls_desc= Maximale Anzahl der täglichen Anrufe, die den Agenten angezeigt werden
+    propedit_agent_max_qap_calls_desc= Maximale Anzahl der täglichen Anrufe, die den Agenten angezeigt werden
     propedit_category_agentpage=Seite des Agenten
     propedit_category_engine=Berechnungsmaschine
     propedit_category_misc=Nicht kategorisiert
@@ -2653,8 +2522,7 @@ Description of configuration properties
     propedit_category_synchronizer=Synchronisiergerät
     propedit_edit_label=Bearbeiten
     propedit_explore_label=Erkunden
-    # 🔴 propedit_feature_agent_amo -> AMO
-    ➡️ propedit_feature_agent_amo= AMO
+    propedit_feature_agent_amo= AMO
     propedit_feature_ap_backg=Optionale Hintergründe
     propedit_feature_ap_login_out=Login und Logout
     propedit_feature_ap_other=Nicht kategorisiert
@@ -2682,12 +2550,9 @@ Description of configuration properties
     propedit_key_agent_background_desc=URL des Hintergrunds der Agentenseite.
     propedit_key_agent_outcome_size=Maximale Höhe der Ergebnisauswahlliste
     propedit_key_agent_pause_dialout=Deaktivieren Sie die Anwahl von Agenten, wenn diese eine Pause machen
-    # 🔴 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
-    ➡️ propedit_key_agent_qap_cached_for_ms_desc= Maximal erlaubte Cachezeit für die Agenten Seite.
-    # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
-    ➡️ propedit_key_amo_placed_call_timeout= AMO Recycling Time-Out
-    # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
-    ➡️ propedit_key_answer_src= Softphone Antwortston (URL)
+    propedit_key_agent_qap_cached_for_ms_desc= Maximal erlaubte Cachezeit für die Agenten Seite.
+    propedit_key_amo_placed_call_timeout= AMO Recycling Time-Out
+    propedit_key_answer_src= Softphone Antwortston (URL)
     propedit_key_atxfer=Funktionscode für die besuchte Übertragung
     propedit_key_atxferabort=Funktionscode für den Abbruch einer besuchten Übertragung
     propedit_key_atxfercomplete=Funktionscode für die vollständige Übertragung
@@ -2699,8 +2564,7 @@ Description of configuration properties
     propedit_key_audit_max_rows_fetched=Maximale Anzahl der gescannten Zeilen, die nicht geprüft werden müssen
     propedit_key_blindxfer=Funktionscode für die Blindübertragung
     propedit_key_cronjobs_localwebapp=Haupt-URL für Ausführung geplanter Jobs
-    # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
-    ➡️ propedit_key_decodeknownnumbers= Decodiere bekannte Nummern
+    propedit_key_decodeknownnumbers= Decodiere bekannte Nummern
     propedit_key_default_agentcanamendpause_desc=Wenn diese Eigenschaft auf Ja gesetzt ist, können Agenten den aktuellen Pausencode rückwirkend ändern (dadurch wird der neue Pausencode anstelle des alten in den Berichten für die aktuelle Pause angezeigt). Wenn diese Eigenschaft auf Nein gesetzt ist, wird die aktuelle Pause automatisch beendet und eine neue Pause mit dem neuen Code eingeleitet, wenn Agenten den Pausencode ändern.
     propedit_key_default_alwaysLogonUnpaused_desc=Wenn sich ein Agent anmeldet, wird er immer freigeschaltet
     propedit_key_default_areacode_digits_desc=Wie viele Ziffern als Standard-Vorwahl berücksichtigt werden sollen
@@ -2747,8 +2611,7 @@ Description of configuration properties
     propedit_key_default_viewTechInfo_desc=Technische Informationen und DBTest-Sichtbarkeit
     propedit_key_default_webloaderpbx_desc=Aktivieren Sie WebLoaderPBX (UniLoader)
     propedit_key_default_wombatagentrecall_desc=Aktivieren Sie den Agenten-Rückrufservice von wombat
-    # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
-    ➡️ propedit_key_dialtone_src= Softphone Wählton
+    propedit_key_dialtone_src= Softphone Wählton
     propedit_key_directami_agent_desc=Die Art und Weise, wie ein Agentenkanal sein sollte
     propedit_key_directami_cmdseparator_desc=Das Trennzeichen, das in Ihrer Asterisk-Version für Parameter verwendet wird. Standardmäßig ist dies ein Komma (',') und sollte für sehr alte Asterisk-Systeme (vor 1.8) in eine Pipe ('|') geändert werden.
     propedit_key_directami_extension_desc=Die Art und Weise, wie ein Agentenerweiterungskanal sein sollte
@@ -2773,12 +2636,9 @@ Description of configuration properties
     propedit_key_enswitch_qpwrap_desc=Die Warteschlangenpriorität für einen Agenten, der mit der Priorität WRAP angemeldet ist (Standard: 6)
     propedit_key_enswitch_spyprefix_desc=Das Standard-Präfix, das zum Starten eines Chanspy verwendet wird (Standard: *91)
     propedit_key_enswitch_verbose_desc=Ob alle Enswitch-Interaktionen vollständig im Standardprotokoll protokolliert werden sollen (Standard: false)
-    # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
-    ➡️ propedit_key_extrabody= Extra Text in der E-Mail
-    # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
-    ➡️ propedit_key_hangup_src=Softphone Auflegeton (URL)
-    # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
-    ➡️ propedit_key_hiddennumberpolicy= Konzept für versteckte Nummern
+    propedit_key_extrabody= Extra Text in der E-Mail
+    propedit_key_hangup_src=Softphone Auflegeton (URL)
+    propedit_key_hiddennumberpolicy= Konzept für versteckte Nummern
     propedit_key_layout_logo_desc=Ihr Firmenlogo (vollständiger oder relativer Pfad). Sollte auf 200 x 72 verkleinert werden.
     propedit_key_noans_timeout=Zeit (in Sekunden), nach der ein eingehender Anruf abgewiesen wird, wenn er nicht beantwortet wird. Der Standardwert ist 60.
     propedit_key_phone_iceservers=Liste der zu verwendenden ICE Server.
@@ -2834,14 +2694,12 @@ Description of configuration properties
     propedit_key_realtime_waitAlarmOnLiveCalls_desc=Prüfen Sie auf Alarme für die Wartezeit laufender Gespräche
     propedit_key_recovery_max=Maximales Intervall in Sekunden zwischen WebSocket-Wiederverbindungsversuchen. Der Standardwert ist 30.
     propedit_key_recovery_min=Mindestintervall in Sekunden zwischen WebSocket-Wiederverbindungsversuchen. Der Standardwert ist 2.
-    # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
-    ➡️ propedit_key_ringtone_src=Softphone Klingelton (URL)
+    propedit_key_ringtone_src=Softphone Klingelton (URL)
     propedit_key_sla_initial_interval_desc=Intervall für den ersten Teil des SLA
     propedit_key_sla_interval_desc=Wie gross sind die Zeitintervalle für das SLA-Diagramm?
     propedit_key_sla_max_initial_delay_desc=Ursprüngliches Zeitband für die SLA-Berechnung
     propedit_key_sla_max_monitored_delay_desc=Maximale Verzögerung, die im SLA-Diagramm angezeigt wird
-    # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
-    ➡️ propedit_key_smtpsubjectprefix= Präfix im E-Mail Betreff
+    propedit_key_smtpsubjectprefix= Präfix im E-Mail Betreff
     propedit_key_synchronizer_agents_file=Standard agents.conf Datei
     propedit_key_synchronizer_queuelog_file=Standard-Warteschlangen-Protokolldatei
     propedit_key_synchronizer_queues_file=Standard queues.conf Datei
@@ -2957,8 +2815,7 @@ Description of security keys:
     keydesc_closecalls=Sie können laufende Anrufe über die Seite Echtzeit oder Historische Statistiken schliessen.
     keydesc_config=Der Benutzer kann den automatischen Konfigurationsassistenten (Synchronizer) starten.
     keydesc_edit_cfg=Der Benutzer kann die lokale Datei configuration. Properties bearbeiten
-    # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
-    ➡️ keydesc_hidenumbers= Alle Telefonnummern/Anrufer Identität sind versteckt.
+    keydesc_hidenumbers= Alle Telefonnummern/Anrufer Identität sind versteckt.
     keydesc_keyupdate=Der Benutzer kann einen neuen QueueMetrics-Aktivierungsschlüssel installieren
     keydesc_mon_audio=Der Benutzer kann einen Anruf in Echtzeit überwachen
     keydesc_mon_barge=Der Benutzer kann sich in ein Echtzeitgespräch einklinken
@@ -2999,14 +2856,11 @@ Description of security keys:
     keydesc_user=Dieser Schlüssel muss sich im Besitz eines beliebigen gültigen Benutzers befinden
     keydesc_usr_agent=Benutzer kann Agenten bearbeiten
     keydesc_usr_agroups=Benutzer können benutzerdefinierte Agentengruppen bearbeiten
-    # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
-    ➡️ keydesc_usr_amo_edit=Benutzer kann Assisted Manual Outbound (AMO) Kampagne eingeben.
+    keydesc_usr_amo_edit=Benutzer kann Assisted Manual Outbound (AMO) Kampagne eingeben.
     keydesc_usr_calltag=Benutzer kann Anruf-Tags bearbeiten
-    # 🔴 keydesc_usr_cases_edit -> User can edit Cases
-    ➡️ keydesc_usr_cases_edit= Benutzer aknn Cases eingeben
+    keydesc_usr_cases_edit= Benutzer aknn Cases eingeben
     keydesc_usr_cbts=Der Benutzer kann die Liste der bekannten CBTs bearbeiten
-    # 🔴 keydesc_usr_clients_edit -> User can edit Clients
-    ➡️ keydesc_usr_clients_edit=Benutzer kann Kunden eingeben
+    keydesc_usr_clients_edit=Benutzer kann Kunden eingeben
     keydesc_usr_cronjobs_edit=Nutzer kann geplante Jobs editieren
     keydesc_usr_customblocks_edit=Benutzer können benutzerdefinierte Datenblöcke bearbeiten
     keydesc_usr_diagnostics=Der Benutzer kann Diagnosen durchführen
@@ -3045,8 +2899,7 @@ Description of security keys:
     tsk_detail_history=Aufgabe Geschichte
     tsk_detail_info=Aufgabe Info
     tsk_detail_lastUpdated=Zuletzt aktualisiert
-    # 🔴 tsk_detail_message -> Message
-    ➡️ tsk_detail_message= Nachricht
+    tsk_detail_message= Nachricht
     tsk_detail_notes=Anmerkungen
     tsk_detail_pfield=Prozess Feld
     tsk_detail_process=Prozess
@@ -3146,8 +2999,7 @@ Description of security keys:
     phone_agent=Agent
     phone_anonymous=Anonym
     phone_answer=Antwort
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended= 
+    phone_attended= 
     phone_attended_transfer=Besuchte Übertragung
     phone_auto_answer_toggle_off=Automatische Antwort ist deaktiviert
     phone_auto_answer_toggle_on=Automatische Antwort ist aktiviert
@@ -3193,8 +3045,7 @@ Description of security keys:
     phone_swap=Tauschen
     phone_toggle_hold=Halten/Entsperren
     phone_toggle_transfer=Übertragung
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer= Übergabe
+    phone_transfer= Übergabe
     phone_unmute=Stummschaltung aufheben
     phone_unregistered=Unregistriert
     phone_update_settings=Einstellungen aktualisieren
@@ -3208,8 +3059,7 @@ Description of security keys:
     # 🔴 home_configuration_cases -> Cases
     ➡️ home_configuration_cases=
     home_configuration_cbt=CBTs
-    # 🔴 home_configuration_clients -> Clients
-    ➡️ home_configuration_clients= Kunden
+    home_configuration_clients= Kunden
     home_configuration_custom_blocks=Benutzerdefinierte Datenblöcke
     home_configuration_dnis=DID/DNIS-Leitungen
     home_configuration_export_jobs=Berichtsexporte bearbeiten
@@ -3244,8 +3094,7 @@ Description of security keys:
     home_icon_title=Ikone
     home_infobox_close=Schliessen
     home_infobox_preview=Vorschau
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private= Private
+    home_infobox_private= Private
     home_infobox_quicklinks=Quicklinks
     home_news_subtitle=QueueMetrics Neueste Nachrichten
     home_news_title=Nachrichten
@@ -3253,10 +3102,8 @@ Description of security keys:
     home_payroll_title=Bericht zur Gehaltsabrechnung
     home_qa_subtitle=Starten Sie einen QA-Bericht
     home_qa_title=QA Berichte
-    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle= Queuemetrics Agent Interface
-    # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title= Agenten Seite
+    home_qap_subtitle= Queuemetrics Agent Interface
+    home_qap_title= Agenten Seite
     home_realtime_subtitle=Umfassende Ansicht der Live-Anrufe
     home_realtime_title=Echtzeit
     home_reports_subtitle=Historische Berichte
@@ -3290,50 +3137,34 @@ Other items
     agt_history_cbt=Senden CBT
     agt_history_groupchange=Gruppe beitreten
     agt_history_mtn=Einladung zum Training senden:
-    # 🔴 amo_close_info -> Close AMO Information
-    ➡️ amo_close_info= Schliesse AMO Information
-    # 🔴 amo_dialer_state_completed -> Completed
-    ➡️ amo_dialer_state_completed= beendet
-    # 🔴 amo_dialer_state_open -> Open
-    ➡️ amo_dialer_state_open= offen
-    # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
-    ➡️ amo_import_error_nonumber= Das Nummernfeld ist obligatorisch für jede Aufzeichnung
-    # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
-    ➡️ amo_import_error_norecords= Bitte mindestens eine Aufzeichnung in das CSV File einfügen
-    # 🔴 amo_last_info -> AMO Call Information
-    ➡️ amo_last_info= AMO Anruf Information
-    # 🔴 amo_list_state_open -> Open
-    ➡️ amo_list_state_open= offen
-    # 🔴 amo_list_state_paused -> Paused
-    ➡️ amo_list_state_paused= pausiert
-    # 🔴 amo_number_state_blklist -> Blacklisted
-    ➡️ amo_number_state_blklist= 
+    amo_close_info= Schliesse AMO Information
+    amo_dialer_state_completed= beendet
+    amo_dialer_state_open= offen
+    amo_import_error_nonumber= Das Nummernfeld ist obligatorisch für jede Aufzeichnung
+    amo_import_error_norecords= Bitte mindestens eine Aufzeichnung in das CSV File einfügen
+    amo_last_info= AMO Anruf Information
+    amo_list_state_open= offen
+    amo_list_state_paused= pausiert
+    amo_number_state_blklist= 
     # 🔴 amo_number_state_dialed -> Dialed
     ➡️ amo_number_state_dialed=
     # 🔴 amo_number_state_ko -> KO
     ➡️ amo_number_state_ko=
     # 🔴 amo_number_state_ok -> OK
     ➡️ amo_number_state_ok=
-    # 🔴 amo_number_state_placed -> Placed
-    ➡️ amo_number_state_placed= 
-    # 🔴 amo_number_state_reserved -> Reserved
-    ➡️ amo_number_state_reserved= reserviert
+    amo_number_state_placed= 
+    amo_number_state_reserved= reserviert
     # 🔴 amo_number_state_todo -> To do
     ➡️ amo_number_state_todo=
     # 🔴 amo_numbers_asteriskid -> Asterisk ID
     ➡️ amo_numbers_asteriskid=
     # 🔴 amo_numbers_callstatus -> Status Code
     ➡️ amo_numbers_callstatus=
-    # 🔴 amo_numbers_date -> Date
-    ➡️ amo_numbers_date= Datum
-    # 🔴 amo_numbers_reason -> Reason
-    ➡️ amo_numbers_reason= Grund
-    # 🔴 amo_numbers_user -> User
-    ➡️ amo_numbers_user= Benutzer
-    # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
-    ➡️ amo_upload_numbers_error= Fehler beim Hochladen des AMO Nummern!
-    # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
-    ➡️ amo_upload_numbers_success= AMO Nummer erfolgreich hochgeladen!
+    amo_numbers_date= Datum
+    amo_numbers_reason= Grund
+    amo_numbers_user= Benutzer
+    amo_upload_numbers_error= Fehler beim Hochladen des AMO Nummern!
+    amo_upload_numbers_success= AMO Nummer erfolgreich hochgeladen!
     at_invalid_agent=Invalid Agent
     avg_time_decor_days=d
     bdcmsg_ForAgent=Agent
@@ -3348,8 +3179,7 @@ Other items
     ➡️ ccase_case_name=
     # 🔴 ccase_case_xref -> Ref. #
     ➡️ ccase_case_xref=
-    # 🔴 ccase_client_name -> Client
-    ➡️ ccase_client_name= Kunde
+    ccase_client_name= Kunde
     # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=Regeln für die Entsorgung von Klonen
@@ -3375,20 +3205,13 @@ Other items
     decorator_agentpaused=In der Pause
     decorator_queue_sla=SLA
     default.show_agent_priority_reports=Zeige die Agentenprioritätsstufe in Berichten an.
-    # 🔴 dlr_last_pull -> Last Pull
-    ➡️ dlr_last_pull= Letztes Ziehen
-    # 🔴 dlr_last_pull_user -> Pull User
-    ➡️ dlr_last_pull_user=  ziehender Benutzer
-    # 🔴 dlr_list_state -> List State
-    ➡️ dlr_list_state= Auflistung Statuse
-    # 🔴 dlr_numbers_added -> Numbers Added
-    ➡️ dlr_numbers_added= Nummer hinzugefügt
-    # 🔴 dlr_numbers_completed -> Numbers Completed
-    ➡️ dlr_numbers_completed= Nummer vollständig
-    # 🔴 dlr_numbers_pulled -> Numbers Pulled
-    ➡️ dlr_numbers_pulled= Nummern gezogen
-    # 🔴 dlr_state -> Number State
-    ➡️ dlr_state= Nummern Status
+    dlr_last_pull= Letztes Ziehen
+    dlr_last_pull_user=  ziehender Benutzer
+    dlr_list_state= Auflistung Statuse
+    dlr_numbers_added= Nummer hinzugefügt
+    dlr_numbers_completed= Nummer vollständig
+    dlr_numbers_pulled= Nummern gezogen
+    dlr_state= Nummern Status
     editor_all_reports=Alle Berichte
     editor_back=Zurück
     editor_clone=Klonen
@@ -3424,27 +3247,19 @@ Other items
     export_to_pdf=PDF
     export_xml=Als XML exportieren
     grp_ivr=IVR Ereignisse
-    # 🔴 grp_ivr_calls -> IVR calls
-    ➡️ grp_ivr_calls= IVR Anrufe
+    grp_ivr_calls= IVR Anrufe
     grp_ivr_short=IVR
     grp_lost_calls=Verlorene Anrufe
     grp_lost_short=Verloren
     grp_taken_calls=Angenommene Anrufe
     grp_taken_short=Genommen
-    # 🔴 gui_fileuploader_msg -> Drop file or Browse
-    ➡️ gui_fileuploader_msg= Ablegen der Datei oder Durchsuchen
-    # 🔴 gui_fileuploader_types -> Supported file formats
-    ➡️ gui_fileuploader_types= unterstüzte Datei Formate
-    # 🔴 gui_fileuploader_upload -> Upload files
-    ➡️ gui_fileuploader_upload= Hochladen der Datei
-    # 🔴 gui_fileuploader_uploaded -> Uploaded files
-    ➡️ gui_fileuploader_uploaded= hochgeladene Datei
-    # 🔴 gui_form_back -> Back
-    ➡️ gui_form_back= zurück
-    # 🔴 gui_form_cancel -> Cancel
-    ➡️ gui_form_cancel= abbrechen
-    # 🔴 gui_form_next -> Next
-    ➡️ gui_form_next= nächste
+    gui_fileuploader_msg= Ablegen der Datei oder Durchsuchen
+    gui_fileuploader_types= unterstüzte Datei Formate
+    gui_fileuploader_upload= Hochladen der Datei
+    gui_fileuploader_uploaded= hochgeladene Datei
+    gui_form_back= zurück
+    gui_form_cancel= abbrechen
+    gui_form_next= nächste
     # 🔴 gui_form_ok -> OK
     ➡️ gui_form_ok=
     jump_to_main_content=Zum Hauptinhalt springen
@@ -3489,8 +3304,7 @@ Other items
     licence_show_eula=Endbenutzer-Lizenzvertrag anzeigen
     licence_software_release=Softwareversion:
     licence_website=Die offizielle QueueMetrics Webseite findet sich unter
-    # 🔴 list_amo_title -> AMO Campaigns
-    ➡️ list_amo_title= AMO Kampagnen
+    list_amo_title= AMO Kampagnen
     logon_ErrAlreadyPresent=Dieses Login ist bereits in der Datenbank vorhanden
     logon_ErrClassNotFound=Klasse nicht gefunden
     logon_ErrHidden=Anmeldung fehlgeschlagen.
@@ -3514,88 +3328,51 @@ Other items
     lstcall_calllen=Dauer
     lstcall_ivr=Sprachdialog
     lstcall_waitlen=Warten
-    # 🔴 memo_add_new -> Create Memo
-    ➡️ memo_add_new= Erstelle Memo
-    # 🔴 memo_category -> Filter by category
-    ➡️ memo_category= nach Kategorien filten
-    # 🔴 memo_details_caller -> Caller
-    ➡️ memo_details_caller= Anrufer
-    # 🔴 memo_details_create -> Create Memo
-    ➡️ memo_details_create= Erstelle Memo
-    # 🔴 memo_details_expireson -> Expires on
-    ➡️ memo_details_expireson= läuft ab am
-    # 🔴 memo_details_form -> Form
-    ➡️ memo_details_form= Formular
-    # 🔴 memo_details_from -> FROM
-    ➡️ memo_details_from= von
-    # 🔴 memo_details_goback -> Back
-    ➡️ memo_details_goback= zurück
+    memo_add_new= Erstelle Memo
+    memo_category= nach Kategorien filten
+    memo_details_caller= Anrufer
+    memo_details_create= Erstelle Memo
+    memo_details_expireson= läuft ab am
+    memo_details_form= Formular
+    memo_details_from= von
+    memo_details_goback= zurück
     # 🔴 memo_details_info -> Memo Info
     ➡️ memo_details_info=
-    # 🔴 memo_details_queue -> Queue
-    ➡️ memo_details_queue= Warteschlange
-    # 🔴 memo_details_save -> Save
-    ➡️ memo_details_save= sichern
-    # 🔴 memo_details_title -> Title
-    ➡️ memo_details_title= Titel
-    # 🔴 memo_details_to -> TO
-    ➡️ memo_details_to= zu
-    # 🔴 memo_details_type -> type
-    ➡️ memo_details_type= Typ
-    # 🔴 memo_details_user_from -> From
-    ➡️ memo_details_user_from= von
-    # 🔴 memo_details_user_to -> To
-    ➡️ memo_details_user_to= zu
-    # 🔴 memo_details_validfrom -> Valid from
-    ➡️ memo_details_validfrom= gültig ab
-    # 🔴 memo_due -> Due Date
-    ➡️ memo_due= Fälligkeitsdatum
-    # 🔴 memo_filter_all -> All Memos
-    ➡️ memo_filter_all= Alle Memos
-    # 🔴 memo_filter_alldone -> All Memos done
-    ➡️ memo_filter_alldone= Alle erledigten Memos
-    # 🔴 memo_filter_alltbd -> All Memos to be done
-    ➡️ memo_filter_alltbd=Alle Memos zum Erledigen
-    # 🔴 memo_filter_completed -> Memos I completed
-    ➡️ memo_filter_completed= Meine fertigen Memos 
-    # 🔴 memo_filter_error -> Error filtering Memos
-    ➡️ memo_filter_error= Fehler beim Filtern der Memos
-    # 🔴 memo_filter_mygroup -> My group
-    ➡️ memo_filter_mygroup= Meine Gruppe
-    # 🔴 memo_filter_sent -> Memos I sent
-    ➡️ memo_filter_sent= Meine versendeten Memos
-    # 🔴 memo_filter_status -> Status
-    ➡️ memo_filter_status= Status
-    # 🔴 memo_filter_tbd -> Memos to be done
-    ➡️ memo_filter_tbd= Memos zu erledigen
-    # 🔴 memo_from -> From
-    ➡️ memo_from= von
-    # 🔴 memo_group -> Group
-    ➡️ memo_group= Gruppe
+    memo_details_queue= Warteschlange
+    memo_details_save= sichern
+    memo_details_title= Titel
+    memo_details_to= zu
+    memo_details_type= Typ
+    memo_details_user_from= von
+    memo_details_user_to= zu
+    memo_details_validfrom= gültig ab
+    memo_due= Fälligkeitsdatum
+    memo_filter_all= Alle Memos
+    memo_filter_alldone= Alle erledigten Memos
+    memo_filter_alltbd=Alle Memos zum Erledigen
+    memo_filter_completed= Meine fertigen Memos 
+    memo_filter_error= Fehler beim Filtern der Memos
+    memo_filter_mygroup= Meine Gruppe
+    memo_filter_sent= Meine versendeten Memos
+    memo_filter_status= Status
+    memo_filter_tbd= Memos zu erledigen
+    memo_from= von
+    memo_group= Gruppe
     # 🔴 memo_id -> Id
     ➡️ memo_id=
-    # 🔴 memo_items_found -> items found
-    ➡️ memo_items_found= gefundene Items
-    # 🔴 memo_list -> Memo List
-    ➡️ memo_list=Memo Liste
-    # 🔴 memo_list_norecords -> No Records
-    ➡️ memo_list_norecords= Keine Aufzeichnungen
-    # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
-    ➡️ memo_loadbyid_error= Es gab einen Fehler beim Laden der Memos nach ID
-    # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
-    ➡️ memo_loadbyid_missing= Es scheint keine Memos mit ID zu geben.
+    memo_items_found= gefundene Items
+    memo_list=Memo Liste
+    memo_list_norecords= Keine Aufzeichnungen
+    memo_loadbyid_error= Es gab einen Fehler beim Laden der Memos nach ID
+    memo_loadbyid_missing= Es scheint keine Memos mit ID zu geben.
     # 🔴 memo_manager -> Manager
     ➡️ memo_manager=
-    # 🔴 memo_message -> Message
-    ➡️ memo_message= Nachricht
-    # 🔴 memo_related_to -> Related to
-    ➡️ memo_related_to= Bezogen auf
+    memo_message= Nachricht
+    memo_related_to= Bezogen auf
     # 🔴 memo_status -> Status
     ➡️ memo_status=
-    # 🔴 memo_tree_empty -> Empty
-    ➡️ memo_tree_empty= leer
-    # 🔴 memo_type -> Type
-    ➡️ memo_type= Typ
+    memo_tree_empty= leer
+    memo_type= Typ
     menu_licence_page=Lizenz Seite
     menu_user_page=Benutzer-Infos
     notification_error=Fehler
@@ -3727,485 +3504,247 @@ Other items
     qagrader_time=Zeit
     qagrader_wait=Warten
     qagrader_wrongurl=Die angegebene URL ist nicht gültig. Bitte überprüfen Sie sie und versuchen Sie es erneut.
-    # 🔴 qap_action_case -> Assign to Case
-    ➡️ qap_action_case= Case zuweisen
-    # 🔴 qap_action_clicktodial -> Click to dial
-    ➡️ qap_action_clicktodial= zum wählen Klicken
-    # 🔴 qap_action_client -> Assign to Client
-    ➡️ qap_action_client= Kunden zuweisen 
-    # 🔴 qap_action_crm -> Open CRM
-    ➡️ qap_action_crm= öffnen CRM
-    # 🔴 qap_action_flag -> Flag Interaction
-    ➡️ qap_action_flag= Interaktion kennzeichnen
-    # 🔴 qap_action_hangup -> Hangup Call
-    ➡️ qap_action_hangup= uflegen des Anrufes
-    # 🔴 qap_action_label -> Label Interaction
-    ➡️ qap_action_label= Interaktion bezeichnen
-    # 🔴 qap_action_monitor -> Monitor Call
-    ➡️ qap_action_monitor= Anruf überwachen
-    # 🔴 qap_action_qa -> QA Forms
-    ➡️ qap_action_qa= QA Formular
-    # 🔴 qap_action_recall -> New Recall Note
-    ➡️ qap_action_recall= Neue Rückruf Hinweis
-    # 🔴 qap_action_transfer -> Transfer Call
-    ➡️ qap_action_transfer= Anruf Übergeben
-    # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
-    ➡️ qap_action_wbtrecall= Rückruf mit WombatDialer
-    # 🔴 qap_addmember_selected -> Join selected queues.
-    ➡️ qap_addmember_selected= selektierte Warteschlange beitreten
-    # 🔴 qap_agent_code -> Agent Code
-    ➡️ qap_agent_code= Agenten Code
-    # 🔴 qap_agent_dialout_error -> Error while performing Agent Dialout.
-    ➡️ qap_agent_dialout_error= Fehler während Ausführen bei der Rauswahl durch den Agenten
-    # 🔴 qap_agent_extension -> Agent Extension
-    ➡️ qap_agent_extension= Agenten Nebenstelle
-    # 🔴 qap_agent_notifications_error -> Error while fetching agent notifications.
-    ➡️ qap_agent_notifications_error= Fehler beim Abrufen von Agent-Benachrichtigungen.
-    # 🔴 qap_agent_settings_error -> Error while fetching agent settings.
-    ➡️ qap_agent_settings_error= Fehler während des Abrufen des Agenten Einstellungen.
-    # 🔴 qap_agent_status_error -> Error while fetching agent status.
-    ➡️ qap_agent_status_error=Fehler bei Abrufen des Agenten Status.
-    # 🔴 qap_amo -> AMO
-    ➡️ qap_amo= AMO
-    # 🔴 qap_amo_attributes -> Attributes
-    ➡️ qap_amo_attributes= Attribute
-    # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
-    ➡️ qap_amo_cannot= Zurzeit kann kein Anruf reserviert werden.
-    # 🔴 qap_amo_error -> Error reserving AMO call:
-    ➡️ qap_amo_error= Fehler bei der Reservierung eines AMO-Anrufs:
-    # 🔴 qap_amo_list -> List Name
-    ➡️ qap_amo_list= Auflistung Name
-    # 🔴 qap_amo_number -> Number
-    ➡️ qap_amo_number= Nummer
-    # 🔴 qap_amo_queue -> Queue Name
-    ➡️ qap_amo_queue= Warteschlange-Name
-    # 🔴 qap_amo_recall -> Recall
-    ➡️ qap_amo_recall= Rückruf
-    # 🔴 qap_amo_request -> Request AMO Call
-    ➡️ qap_amo_request= Anfrage AMO Anruf
-    # 🔴 qap_amo_reserved -> Call successfully Reserved.
-    ➡️ qap_amo_reserved= Anruf erfolgreich reserviert
-    # 🔴 qap_amo_terminated -> There are no more available AMO calls.
-    ➡️ qap_amo_terminated= Keine verfügbaren AMO Anrufe
-    # 🔴 qap_assign_case -> Assign Interaction to Case
-    ➡️ qap_assign_case= Zuordnen einer Interaktion zu einem Case
-    # 🔴 qap_assign_client -> Assign Interaction to Client
-    ➡️ qap_assign_client= zuordnen einer Interaktion zu einem Kunden
-    # 🔴 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
-    ➡️ qap_assign_interaction_error=Fehler während der Zurodnung einer Relation zu dieser Interaktion.
-    # 🔴 qap_calendar_add -> Add New
-    ➡️ qap_calendar_add= neu hinzufügen
-    # 🔴 qap_call_associated_to_case -> Call was associated to case
-    ➡️ qap_call_associated_to_case= Anruf war verbunden mit Case
-    # 🔴 qap_case -> Case
-    ➡️ qap_case= Case
-    # 🔴 qap_case_add -> Add New Case
-    ➡️ qap_case_add= hinzufügen neuen Case
-    # 🔴 qap_case_calls -> ALL CALLS
-    ➡️ qap_case_calls= Alle Anrufe
-    # 🔴 qap_case_closed -> Closed
-    ➡️ qap_case_closed= beendet
-    # 🔴 qap_case_comments -> Comments
-    ➡️ qap_case_comments= Kommentar
-    # 🔴 qap_case_contact -> Contact
-    ➡️ qap_case_contact= Kontakt
-    # 🔴 qap_case_details -> Case Details
-    ➡️ qap_case_details= Case Details
-    # 🔴 qap_case_email -> Email
-    ➡️ qap_case_email= Email
-    # 🔴 qap_case_merged -> Merged
-    ➡️ qap_case_merged= zusammengefasst
-    # 🔴 qap_case_notes -> Notes
-    ➡️ qap_case_notes= Hinweise
-    # 🔴 qap_case_open -> Open
-    ➡️ qap_case_open= offen
-    # 🔴 qap_case_title -> Title
-    ➡️ qap_case_title= Titel
-    # 🔴 qap_case_unconfirmed -> Unconfirmed
-    ➡️ qap_case_unconfirmed= unbestätigt
-    # 🔴 qap_case_xref -> XREF
-    ➡️ qap_case_xref= XREF
-    # 🔴 qap_cases_placeholder_search -> Search for any Case here
-    ➡️ qap_cases_placeholder_search= Suche nach beliebigen Case hier
-    # 🔴 qap_choose_server_title -> Choose a Server
-    ➡️ qap_choose_server_title= Wähle einen Server
-    # 🔴 qap_client -> Client
-    ➡️ qap_client= Kunde
-    # 🔴 qap_client_contact -> Contact
-    ➡️ qap_client_contact= Kontakt
-    # 🔴 qap_client_email -> Email
-    ➡️ qap_client_email= Email
-    # 🔴 qap_client_externalRef -> External Reference
-    ➡️ qap_client_externalRef= Externe Referenz
-    # 🔴 qap_client_key -> Visibility Key
-    ➡️ qap_client_key= Sichtbarer Key
-    # 🔴 qap_client_name -> Name
-    ➡️ qap_client_name= Name
-    # 🔴 qap_client_notes -> Notes
-    ➡️ qap_client_notes= Hinweis
-    # 🔴 qap_client_xref -> XREF
-    ➡️ qap_client_xref= XREF
-    # 🔴 qap_clients_add -> Add New Client
-    ➡️ qap_clients_add= hinzufügen neuer Kunde
-    # 🔴 qap_clients_placeholder_search -> Search for any Client here
-    ➡️ qap_clients_placeholder_search= Suche nach beliebigen Kunde hier
-    # 🔴 qap_control_addall -> Join selected
-    ➡️ qap_control_addall= Verbindung ausgewählt
-    # 🔴 qap_control_add -> Join
-    ➡️ qap_control_add= eintreten
-    # 🔴 qap_control_remove -> Leave
-    ➡️ qap_control_remove= verlassen
-    # 🔴 qap_control_all -> All
-    ➡️ qap_control_all= alle
-    # 🔴 qap_control_amend -> Amend
-    ➡️ qap_control_amend= abändern
-    # 🔴 qap_control_assigned -> Assigned
-    ➡️ qap_control_assigned= verbunden
-    # 🔴 qap_control_change -> Change
-    ➡️ qap_control_change= ändern
-    # 🔴 qap_control_composition -> Composition
-    ➡️ qap_control_composition= Zusammensetzung
-    # 🔴 qap_control_name -> Name
-    ➡️ qap_control_name= Name
-    # 🔴 qap_control_pause -> Pause
-    ➡️ qap_control_pause= Pause
-    # 🔴 qap_control_priority -> Priority
-    ➡️ qap_control_priority= Priorität
-    # 🔴 qap_control_removeall -> Leave selected
-    ➡️ qap_control_removeall= verlassen ausgewählt
-    # 🔴 qap_control_selectall -> Select all
-    ➡️ qap_control_selectall= alle ausgewählt
+    qap_action_case= Case zuweisen
+    qap_action_clicktodial= zum wählen Klicken
+    qap_action_client= Kunden zuweisen 
+    qap_action_crm= öffnen CRM
+    qap_action_flag= Interaktion kennzeichnen
+    qap_action_hangup= uflegen des Anrufes
+    qap_action_label= Interaktion bezeichnen
+    qap_action_monitor= Anruf überwachen
+    qap_action_qa= QA Formular
+    qap_action_recall= Neue Rückruf Hinweis
+    qap_action_transfer= Anruf Übergeben
+    qap_action_wbtrecall= Rückruf mit WombatDialer
+    qap_addmember_selected= selektierte Warteschlange beitreten
+    qap_agent_code= Agenten Code
+    qap_agent_dialout_error= Fehler während Ausführen bei der Rauswahl durch den Agenten
+    qap_agent_extension= Agenten Nebenstelle
+    qap_agent_notifications_error= Fehler beim Abrufen von Agent-Benachrichtigungen.
+    qap_agent_settings_error= Fehler während des Abrufen des Agenten Einstellungen.
+    qap_agent_status_error=Fehler bei Abrufen des Agenten Status.
+    qap_amo= AMO
+    qap_amo_attributes= Attribute
+    qap_amo_cannot= Zurzeit kann kein Anruf reserviert werden.
+    qap_amo_error= Fehler bei der Reservierung eines AMO-Anrufs:
+    qap_amo_list= Auflistung Name
+    qap_amo_number= Nummer
+    qap_amo_queue= Warteschlange-Name
+    qap_amo_recall= Rückruf
+    qap_amo_request= Anfrage AMO Anruf
+    qap_amo_reserved= Anruf erfolgreich reserviert
+    qap_amo_terminated= Keine verfügbaren AMO Anrufe
+    qap_assign_case= Zuordnen einer Interaktion zu einem Case
+    qap_assign_client= zuordnen einer Interaktion zu einem Kunden
+    qap_assign_interaction_error=Fehler während der Zurodnung einer Relation zu dieser Interaktion.
+    qap_calendar_add= neu hinzufügen
+    qap_call_associated_to_case= Anruf war verbunden mit Case
+    qap_case= Case
+    qap_case_add= hinzufügen neuen Case
+    qap_case_calls= Alle Anrufe
+    qap_case_closed= beendet
+    qap_case_comments= Kommentar
+    qap_case_contact= Kontakt
+    qap_case_details= Case Details
+    qap_case_email= Email
+    qap_case_merged= zusammengefasst
+    qap_case_notes= Hinweise
+    qap_case_open= offen
+    qap_case_title= Titel
+    qap_case_unconfirmed= unbestätigt
+    qap_case_xref= XREF
+    qap_cases_placeholder_search= Suche nach beliebigen Case hier
+    qap_choose_server_title= Wähle einen Server
+    qap_client= Kunde
+    qap_client_contact= Kontakt
+    qap_client_email= Email
+    qap_client_externalRef= Externe Referenz
+    qap_client_key= Sichtbarer Key
+    qap_client_name= Name
+    qap_client_notes= Hinweis
+    qap_client_xref= XREF
+    qap_clients_add= hinzufügen neuer Kunde
+    qap_clients_placeholder_search= Suche nach beliebigen Kunde hier
+    qap_control_addall= Verbindung ausgewählt
+    qap_control_add= eintreten
+    qap_control_remove= verlassen
+    qap_control_all= alle
+    qap_control_amend= abändern
+    qap_control_assigned= verbunden
+    qap_control_change= ändern
+    qap_control_composition= Zusammensetzung
+    qap_control_name= Name
+    qap_control_pause= Pause
+    qap_control_priority= Priorität
+    qap_control_removeall= verlassen ausgewählt
+    qap_control_selectall= alle ausgewählt
     # 🔴 qap_control_timer -> Timer
     ➡️ qap_control_timer=
-    # 🔴 qap_control_unpause -> Unpause
-    ➡️ qap_control_unpause= Pause beenden
-    # 🔴 qap_create_note_error -> Error while creating a new Note.
-    ➡️ qap_create_note_error=Fehler während des ERstellen einen neuen Hinweises
-    # 🔴 qap_crm_links -> CRM Popup Links
-    ➡️ qap_crm_links= CRM Popup Links
-    # 🔴 qap_daily_idle -> Idle time
-    ➡️ qap_daily_idle= Leerlaufzeit
-    # 🔴 qap_daily_lost -> Lost Calls
-    ➡️ qap_daily_lost= entgangene Anrufe
-    # 🔴 qap_daily_lostatt -> Lost Attempts
-    ➡️ qap_daily_lostatt= verlorene Versuche
-    # 🔴 qap_daily_pause -> Pause time
-    ➡️ qap_daily_pause= Pausendauer
-    # 🔴 qap_daily_stats -> Daily Stats
-    ➡️ qap_daily_stats= Tagesstatistik
-    # 🔴 qap_daily_taken -> Taken Calls
-    ➡️ qap_daily_taken= angenommene Anrufe
-    # 🔴 qap_daily_talk -> Talk time
-    ➡️ qap_daily_talk= Gesprächsdauer
-    # 🔴 qap_debug_api -> API
-    ➡️ qap_debug_api= API
-    # 🔴 qap_debug_context -> Context
-    ➡️ qap_debug_context= Zusammenhang
-    # 🔴 qap_debug_title -> Debug
-    ➡️ qap_debug_title= Fehlersuche
-    # 🔴 qap_details_attempts -> Attempts
-    ➡️ qap_details_attempts= Versuche
-    # 🔴 qap_details_caller -> Caller
-    ➡️ qap_details_caller= Anrufer
-    # 🔴 qap_details_direction -> Direction
-    ➡️ qap_details_direction= Richtung
-    # 🔴 qap_details_dnis -> Dnis
-    ➡️ qap_details_dnis= Dnis
-    # 🔴 qap_details_entered -> Entered
-    ➡️ qap_details_entered= Eingetragen
-    # 🔴 qap_details_features -> Features
-    ➡️ qap_details_features= Merkmale
-    # 🔴 qap_details_ivrpath -> IVR Path
-    ➡️ qap_details_ivrpath= IVR-Pfad
-    # 🔴 qap_details_outcome -> Outcome
-    ➡️ qap_details_outcome= Ergebnis
-    # 🔴 qap_details_position -> Position
-    ➡️ qap_details_position= Position
-    # 🔴 qap_details_queue -> Queue
-    ➡️ qap_details_queue= Warteschlange
-    # 🔴 qap_details_started -> Started
-    ➡️ qap_details_started= Begonnen
-    # 🔴 qap_details_tag -> Tag
-    ➡️ qap_details_tag= kenzeichnen
-    # 🔴 qap_details_talk -> Talk Time
-    ➡️ qap_details_talk= Gesprächsdauer
-    # 🔴 qap_details_terminated -> Terminated
-    ➡️ qap_details_terminated= Beendet
-    # 🔴 qap_details_transferto -> Transfer To
-    ➡️ qap_details_transferto= Übergabe an
-    # 🔴 qap_details_uniqueid -> Unique ID
-    ➡️ qap_details_uniqueid= eindeutige ID
-    # 🔴 qap_details_url -> URL
-    ➡️ qap_details_url= URL
-    # 🔴 qap_details_variables -> Variables
-    ➡️ qap_details_variables= Variablen
-    # 🔴 qap_details_wait -> Wait Time
-    ➡️ qap_details_wait= Wartezeit
-    # 🔴 qap_dial -> Dial
-    ➡️ qap_dial= wählen
-    # 🔴 qap_diff_join -> Queues joined
-    ➡️ qap_diff_join= Warteschlange eintreten
-    # 🔴 qap_diff_leave -> Queues left
-    ➡️ qap_diff_leave= Warteschlange verlassen
-    # 🔴 qap_diff_paused -> Agent Paused
-    ➡️ qap_diff_paused= Agent pausiert
-    # 🔴 qap_edit_cases -> Edit Case
-    ➡️ qap_edit_cases= Eingabe Case
-    # 🔴 qap_edit_client -> Edit Client
-    ➡️ qap_edit_client=Eingabe Kunde
-    # 🔴 qap_edit_note -> Edit Note
-    ➡️ qap_edit_note= Eingabe Hinweis
-    # 🔴 qap_empty_note -> This note is empty.
-    ➡️ qap_empty_note= Dieser Hinweis ist leer.
-    # 🔴 qap_end_work -> End Work
-    ➡️ qap_end_work= Arbeitsende
-    # 🔴 qap_entity_placeholder -> Type to search...
-    ➡️ qap_entity_placeholder= Typ zu suchen ...
-    # 🔴 qap_fetch_notifications_error -> Error while fetching User's notifications.
-    ➡️ qap_fetch_notifications_error= Fehler beim Aufruf der Benutzer Mitteilung 
-    # 🔴 qap_filters_main -> Main
-    ➡️ qap_filters_main= Hauptseite
-    # 🔴 qap_filters_priority -> Priority
-    ➡️ qap_filters_priority= Priotität
-    # 🔴 qap_filters_queue -> Queue
-    ➡️ qap_filters_queue= Warteschlange
-    # 🔴 qap_filters_spill -> Spill
-    ➡️ qap_filters_spill= Überlauf
-    # 🔴 qap_filters_status -> Status
-    ➡️ qap_filters_status= Status
-    # 🔴 qap_filters_type -> Type
-    ➡️ qap_filters_type= Typ
-    # 🔴 qap_filters_unk -> Unknown
-    ➡️ qap_filters_unk= unbekannt
+    qap_control_unpause= Pause beenden
+    qap_create_note_error=Fehler während des ERstellen einen neuen Hinweises
+    qap_crm_links= CRM Popup Links
+    qap_daily_idle= Leerlaufzeit
+    qap_daily_lost= entgangene Anrufe
+    qap_daily_lostatt= verlorene Versuche
+    qap_daily_pause= Pausendauer
+    qap_daily_stats= Tagesstatistik
+    qap_daily_taken= angenommene Anrufe
+    qap_daily_talk= Gesprächsdauer
+    qap_debug_api= API
+    qap_debug_context= Zusammenhang
+    qap_debug_title= Fehlersuche
+    qap_details_attempts= Versuche
+    qap_details_caller= Anrufer
+    qap_details_direction= Richtung
+    qap_details_dnis= Dnis
+    qap_details_entered= Eingetragen
+    qap_details_features= Merkmale
+    qap_details_ivrpath= IVR-Pfad
+    qap_details_outcome= Ergebnis
+    qap_details_position= Position
+    qap_details_queue= Warteschlange
+    qap_details_started= Begonnen
+    qap_details_tag= kenzeichnen
+    qap_details_talk= Gesprächsdauer
+    qap_details_terminated= Beendet
+    qap_details_transferto= Übergabe an
+    qap_details_uniqueid= eindeutige ID
+    qap_details_url= URL
+    qap_details_variables= Variablen
+    qap_details_wait= Wartezeit
+    qap_dial= wählen
+    qap_diff_join= Warteschlange eintreten
+    qap_diff_leave= Warteschlange verlassen
+    qap_diff_paused= Agent pausiert
+    qap_edit_cases= Eingabe Case
+    qap_edit_client=Eingabe Kunde
+    qap_edit_note= Eingabe Hinweis
+    qap_empty_note= Dieser Hinweis ist leer.
+    qap_end_work= Arbeitsende
+    qap_entity_placeholder= Typ zu suchen ...
+    qap_fetch_notifications_error= Fehler beim Aufruf der Benutzer Mitteilung 
+    qap_filters_main= Hauptseite
+    qap_filters_priority= Priotität
+    qap_filters_queue= Warteschlange
+    qap_filters_spill= Überlauf
+    qap_filters_status= Status
+    qap_filters_type= Typ
+    qap_filters_unk= unbekannt
     qap_filters_wrap=Nachbearbeitung
-    # 🔴 qap_find_cases -> Find your Cases
-    ➡️ qap_find_cases= Finde Deinen Case
-    # 🔴 qap_find_clients -> Find your Clients
-    ➡️ qap_find_clients= Finde deinen Kunden
-    # 🔴 qap_form_features -> Feature Codes
-    ➡️ qap_form_features= Merkmal-Cade
-    # 🔴 qap_form_outcome -> Outcome
-    ➡️ qap_form_outcome= Ergebnis
-    # 🔴 qap_idle_time -> Idle Time
-    ➡️ qap_idle_time= Wartezeit
-    # 🔴 qap_interaction_caller -> Caller
-    ➡️ qap_interaction_caller= Anrufer
-    # 🔴 qap_interaction_case -> Case
-    ➡️ qap_interaction_case= Case
-    # 🔴 qap_interaction_client -> Client
-    ➡️ qap_interaction_client= Kunden
-    # 🔴 qap_interaction_details -> Details
-    ➡️ qap_interaction_details= Details
-    # 🔴 qap_interaction_details_title -> Call Details
-    ➡️ qap_interaction_details_title= Anruf Details
-    # 🔴 qap_interaction_duration -> Duration
-    ➡️ qap_interaction_duration= Dauer
-    # 🔴 qap_interaction_outcome -> Outcome
-    ➡️ qap_interaction_outcome= Ergebnis
-    # 🔴 qap_interaction_queue -> Queue
-    ➡️ qap_interaction_queue= Warteschlange
-    # 🔴 qap_interaction_start -> Start
-    ➡️ qap_interaction_start= Start
-    # 🔴 qap_interaction_tag -> Tag
-    ➡️ qap_interaction_tag= kennzeichnen
-    # 🔴 qap_interaction_transfer -> Transfer
-    ➡️ qap_interaction_transfer= Übergeben
-    # 🔴 qap_interaction_url -> URL
-    ➡️ qap_interaction_url= URL
-    # 🔴 qap_interaction_variables -> Variables
-    ➡️ qap_interaction_variables= Variablen
-    # 🔴 qap_interaction_waiting -> Waiting
-    ➡️ qap_interaction_waiting= warten
-    # 🔴 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
-    ➡️ qap_invalid_outcome= Das ausgewählte Ergebnis ist nicht gültig für ein oder mehr Interaktions Merkmal Codes.
-    # 🔴 qap_join -> Join
-    ➡️ qap_join= einteten
-    # 🔴 qap_label_freetext -> Free Text
-    ➡️ qap_label_freetext= Freitext
-    # 🔴 qap_leave -> Leave
-    ➡️ qap_leave= verlassen
-    # 🔴 qap_loading -> Loading...
-    ➡️ qap_loading= laden...
-    # 🔴 qap_memos -> Memos
-    ➡️ qap_memos= Memos
-    # 🔴 qap_missing_cases_key -> You don't have permission to create new Cases.
-    ➡️ qap_missing_cases_key= Sie haben nicht die Berechtigung neue Cases zu erstellen.
-    # 🔴 qap_missing_clients_key -> You don't have permission to create new Clients.
-    ➡️ qap_missing_clients_key= Sie haben nicht die Berechtigung neue Kunden zu erstellen.
-    # 🔴 qap_nav_calendar -> Calendar
-    ➡️ qap_nav_calendar= Kalender
-    # 🔴 qap_nav_cases -> Cases
-    ➡️ qap_nav_cases= Cases
-    # 🔴 qap_nav_clients -> Clients
-    ➡️ qap_nav_clients= Kunden
-    # 🔴 qap_nav_control -> Control
-    ➡️ qap_nav_control= prüfen
-    # 🔴 qap_nav_debug -> Debug
-    ➡️ qap_nav_debug= Fehlersuche
-    # 🔴 qap_nav_dialout -> Dialout
-    ➡️ qap_nav_dialout= rauswählen
-    # 🔴 qap_nav_home -> Home
-    ➡️ qap_nav_home=startseite
-    # 🔴 qap_nav_interactions -> Interactions
-    ➡️ qap_nav_interactions=Interaktionen
-    # 🔴 qap_nav_overview -> Overview
-    ➡️ qap_nav_overview= Übersicht
-    # 🔴 qap_nav_qa -> QA
-    ➡️ qap_nav_qa= QA
-    # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
-    ➡️ qap_nav_wombat= WombatDialer Wahlvorschau
-    # 🔴 qap_new_memo -> Create linked Memo
-    ➡️ qap_new_memo= erknüpftes Memo erstellen
-    # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
-    ➡️ qap_no_cases= Bei der aktuellen Suche wurden keine Anfragen gefunden, bitte versuchen Sie es erneut.
-    # 🔴 qap_no_clients -> No Clients found for the current search, please try again.
-    ➡️ qap_no_clients= Bei der aktuellen Suche wurden keine Kunden, bitte versuchen Sie es erneut.
-    # 🔴 qap_none -> None
-    ➡️ qap_none= kein
-    # 🔴 qap_note_actions -> Actions
-    ➡️ qap_note_actions= Aktionen
-    # 🔴 qap_note_complete -> Complete
-    ➡️ qap_note_complete= beendet
-    # 🔴 qap_note_dispute -> Dispute
-    ➡️ qap_note_dispute= Disput
-    # 🔴 qap_note_empty -> Empty
-    ➡️ qap_note_empty= leer
-    # 🔴 qap_note_expires -> Expires on
-    ➡️ qap_note_expires= läuft ab am
-    # 🔴 qap_note_expires_on -> Expires On
-    ➡️ qap_note_expires_on= läuft ab am
-    # 🔴 qap_note_flag -> Flag
-    ➡️ qap_note_flag= kennzeichnen
-    # 🔴 qap_note_ko_disputed -> Disputed
-    ➡️ qap_note_ko_disputed= strittig
-    # 🔴 qap_note_ko_refused -> Refused
-    ➡️ qap_note_ko_refused= abgelehnt
-    # 🔴 qap_note_ko_rejected -> Rejected
-    ➡️ qap_note_ko_rejected= zurückgewiesen
-    # 🔴 qap_note_meeting -> Meeting
-    ➡️ qap_note_meeting= Besprechung
-    # 🔴 qap_note_message -> Message
-    ➡️ qap_note_message= Nachricht
-    # 🔴 qap_note_note -> Note
-    ➡️ qap_note_note= Hinweis
-    # 🔴 qap_note_notes -> Notes
-    ➡️ qap_note_notes= Hinweise
-    # 🔴 qap_note_ok -> OK
-    ➡️ qap_note_ok= OK
-    # 🔴 qap_note_qa -> QA
-    ➡️ qap_note_qa= QA
-    # 🔴 qap_note_recall -> Recall
-    ➡️ qap_note_recall= Rückruf
-    # 🔴 qap_note_refuse -> Refuse
-    ➡️ qap_note_refuse= ablehnen
-    # 🔴 qap_note_reject -> Reject
-    ➡️ qap_note_reject= zurückweisen
-    # 🔴 qap_note_status -> Status
-    ➡️ qap_note_status= Status
-    # 🔴 qap_note_tbd -> TBD
-    ➡️ qap_note_tbd= TBD
-    # 🔴 qap_note_todo -> Todo
-    ➡️ qap_note_todo= Todo
-    # 🔴 qap_note_togroup -> To Group
-    ➡️ qap_note_togroup= an die Gruppe
-    # 🔴 qap_note_touser -> To User
-    ➡️ qap_note_touser= an den Benutzer
-    # 🔴 qap_note_training -> Training
-    ➡️ qap_note_training= Schulung
-    # 🔴 qap_note_type -> Type
-    ➡️ qap_note_type= Typ
-    # 🔴 qap_note_valid_from -> Valid From
-    ➡️ qap_note_valid_from= gültig von
-    # 🔴 qap_notes_type_note -> Note
-    ➡️ qap_notes_type_note= Hinweis
-    # 🔴 qap_notifications -> Notifications
-    ➡️ qap_notifications= Benachrichtungen
-    # 🔴 qap_notifications_empty -> You currently have no notifications
-    ➡️ qap_notifications_empty= Sie haben derzeit keine Benachrichtigungen.
-    # 🔴 qap_overview_daily -> Daily
-    ➡️ qap_overview_daily= täglich
-    # 🔴 qap_overview_stats -> Stats
-    ➡️ qap_overview_stats= Statistik
-    # 🔴 qap_overview_weekly -> Weekly
-    ➡️ qap_overview_weekly= wöchentlich
-    # 🔴 qap_pause_time -> Pause Time
-    ➡️ qap_pause_time= Pausendauer
-    # 🔴 qap_platform_action_error -> Error while performing platform action.
-    ➡️ qap_platform_action_error= Fehler bei der Durchführung einer Platfrom-Aktion
-    # 🔴 qap_process_note_error -> Error while processing a Note.
-    ➡️ qap_process_note_error= Fehler bei der Durchführung eines Hinweises
-    # 🔴 qap_run -> Run
-    ➡️ qap_run= laufen
-    # 🔴 qap_save_case_error -> Error while saving Case.
-    ➡️ qap_save_case_error= Fehler beim Sichern einer Anfrage.
-    # 🔴 qap_save_client_error -> Error while saving Client.
-    ➡️ qap_save_client_error= Fehler beim Sichern eines Kundens.
-    # 🔴 qap_search_cases_error -> Error searching for the requested Cases.
-    ➡️ qap_search_cases_error= Fehler beim Suchen einerangefragten Anfrage.
-    # 🔴 qap_search_clients_error -> Error searching for the requested Clients.
-    ➡️ qap_search_clients_error= Fehler beim Suchen eines angefragten Kundens
-    # 🔴 qap_server -> Server
-    ➡️ qap_server= Server
-    # 🔴 qap_session_time -> Session Time
-    ➡️ qap_session_time= Sitzungsdauer
-    # 🔴 qap_signout -> Sign out
-    ➡️ qap_signout= abmelden
-    # 🔴 qap_softphone -> Phone
-    ➡️ qap_softphone= Telefon
-    # 🔴 qap_softphone_debug -> Softphone
-    ➡️ qap_softphone_debug= Softphone
-    # 🔴 qap_start_work -> Start Work
-    ➡️ qap_start_work= Arbeitsbeginn
-    # 🔴 qap_status_paused -> Paused
-    ➡️ qap_status_paused= pausiert
-    # 🔴 qap_status_unpaused -> Unpaused
-    ➡️ qap_status_unpaused= Pause beendet
-    # 🔴 qap_title_calendar -> Calendar
-    ➡️ qap_title_calendar= Kalender
-    # 🔴 qap_title_cases -> Cases
-    ➡️ qap_title_cases= Cases
-    # 🔴 qap_title_clients -> Clients
-    ➡️ qap_title_clients= Kunden
-    # 🔴 qap_title_control -> Queue Control
-    ➡️ qap_title_control= Warteschlange prüfen
-    # 🔴 qap_title_interactions -> Interactions
-    ➡️ qap_title_interactions= Interaktionen
-    # 🔴 qap_title_note -> New Note
-    ➡️ qap_title_note= Neuer Hinweis
-    # 🔴 qap_title_notes_done -> Done
-    ➡️ qap_title_notes_done= erledigt
-    # 🔴 qap_title_notes_pending -> Pending
-    ➡️ qap_title_notes_pending= abhängig
-    # 🔴 qap_title_outcomes -> Outcome and Feature Codes
-    ➡️ qap_title_outcomes= Ergebnis- und Merkmalscodes
-    # 🔴 qap_title_overview -> Overview
-    ➡️ qap_title_overview= Übersicht
-    # 🔴 qap_today -> Today
-    ➡️ qap_today= heute
-    # 🔴 qap_transaction_body -> Comment
-    ➡️ qap_transaction_body= Kommentar
-    # 🔴 qap_transaction_title -> Title
-    ➡️ qap_transaction_title= Titel
-    # 🔴 qap_unknown_caller -> Unknown Caller
-    ➡️ qap_unknown_caller= unbekannter Anrufer
-    # 🔴 qap_user_pref_error -> Error while fetching user preferences.
-    ➡️ qap_user_pref_error= Fehler beim Abrufen von Benutzereinstellungen
-    # 🔴 qap_wbt_campaign -> Campaign
-    ➡️ qap_wbt_campaign= Kampagne
-    # 🔴 qap_wbt_comments -> Comments
-    ➡️ qap_wbt_comments= Kommentar
-    # 🔴 qap_wbt_date -> Date
-    ➡️ qap_wbt_date= Datum
-    # 🔴 qap_wbt_num -> Number
-    ➡️ qap_wbt_num= Nummer
-    # 🔴 qap_wbt_recall -> Recall
-    ➡️ qap_wbt_recall= Rückruf
-    # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
-    ➡️ qap_wbt_title= Zeitplan WombatDialer Rückruf
-    # 🔴 qap_welcome -> Welcome Back!
-    ➡️ qap_welcome= Willkommen zurück!
-    # 🔴 qap_you_have -> You have
-    ➡️ qap_you_have= Sie haben
+    qap_find_cases= Finde Deinen Case
+    qap_find_clients= Finde deinen Kunden
+    qap_form_features= Merkmal-Cade
+    qap_form_outcome= Ergebnis
+    qap_idle_time= Wartezeit
+    qap_interaction_caller= Anrufer
+    qap_interaction_case= Case
+    qap_interaction_client= Kunden
+    qap_interaction_details= Details
+    qap_interaction_details_title= Anruf Details
+    qap_interaction_duration= Dauer
+    qap_interaction_outcome= Ergebnis
+    qap_interaction_queue= Warteschlange
+    qap_interaction_start= Start
+    qap_interaction_tag= kennzeichnen
+    qap_interaction_transfer= Übergeben
+    qap_interaction_url= URL
+    qap_interaction_variables= Variablen
+    qap_interaction_waiting= warten
+    qap_invalid_outcome= Das ausgewählte Ergebnis ist nicht gültig für ein oder mehr Interaktions Merkmal Codes.
+    qap_join= einteten
+    qap_label_freetext= Freitext
+    qap_leave= verlassen
+    qap_loading= laden...
+    qap_memos= Memos
+    qap_missing_cases_key= Sie haben nicht die Berechtigung neue Cases zu erstellen.
+    qap_missing_clients_key= Sie haben nicht die Berechtigung neue Kunden zu erstellen.
+    qap_nav_calendar= Kalender
+    qap_nav_cases= Cases
+    qap_nav_clients= Kunden
+    qap_nav_control= prüfen
+    qap_nav_debug= Fehlersuche
+    qap_nav_dialout= rauswählen
+    qap_nav_home=startseite
+    qap_nav_interactions=Interaktionen
+    qap_nav_overview= Übersicht
+    qap_nav_qa= QA
+    qap_nav_wombat= WombatDialer Wahlvorschau
+    qap_new_memo= erknüpftes Memo erstellen
+    qap_no_cases= Bei der aktuellen Suche wurden keine Anfragen gefunden, bitte versuchen Sie es erneut.
+    qap_no_clients= Bei der aktuellen Suche wurden keine Kunden, bitte versuchen Sie es erneut.
+    qap_none= kein
+    qap_note_actions= Aktionen
+    qap_note_complete= beendet
+    qap_note_dispute= Disput
+    qap_note_empty= leer
+    qap_note_expires= läuft ab am
+    qap_note_expires_on= läuft ab am
+    qap_note_flag= kennzeichnen
+    qap_note_ko_disputed= strittig
+    qap_note_ko_refused= abgelehnt
+    qap_note_ko_rejected= zurückgewiesen
+    qap_note_meeting= Besprechung
+    qap_note_message= Nachricht
+    qap_note_note= Hinweis
+    qap_note_notes= Hinweise
+    qap_note_ok= OK
+    qap_note_qa= QA
+    qap_note_recall= Rückruf
+    qap_note_refuse= ablehnen
+    qap_note_reject= zurückweisen
+    qap_note_status= Status
+    qap_note_tbd= TBD
+    qap_note_todo= Todo
+    qap_note_togroup= an die Gruppe
+    qap_note_touser= an den Benutzer
+    qap_note_training= Schulung
+    qap_note_type= Typ
+    qap_note_valid_from= gültig von
+    qap_notes_type_note= Hinweis
+    qap_notifications= Benachrichtungen
+    qap_notifications_empty= Sie haben derzeit keine Benachrichtigungen.
+    qap_overview_daily= täglich
+    qap_overview_stats= Statistik
+    qap_overview_weekly= wöchentlich
+    qap_pause_time= Pausendauer
+    qap_platform_action_error= Fehler bei der Durchführung einer Platfrom-Aktion
+    qap_process_note_error= Fehler bei der Durchführung eines Hinweises
+    qap_run= laufen
+    qap_save_case_error= Fehler beim Sichern einer Anfrage.
+    qap_save_client_error= Fehler beim Sichern eines Kundens.
+    qap_search_cases_error= Fehler beim Suchen einerangefragten Anfrage.
+    qap_search_clients_error= Fehler beim Suchen eines angefragten Kundens
+    qap_server= Server
+    qap_session_time= Sitzungsdauer
+    qap_signout= abmelden
+    qap_softphone= Telefon
+    qap_softphone_debug= Softphone
+    qap_start_work= Arbeitsbeginn
+    qap_status_paused= pausiert
+    qap_status_unpaused= Pause beendet
+    qap_title_calendar= Kalender
+    qap_title_cases= Cases
+    qap_title_clients= Kunden
+    qap_title_control= Warteschlange prüfen
+    qap_title_interactions= Interaktionen
+    qap_title_note= Neuer Hinweis
+    qap_title_notes_done= erledigt
+    qap_title_notes_pending= abhängig
+    qap_title_outcomes= Ergebnis- und Merkmalscodes
+    qap_title_overview= Übersicht
+    qap_today= heute
+    qap_transaction_body= Kommentar
+    qap_transaction_title= Titel
+    qap_unknown_caller= unbekannter Anrufer
+    qap_user_pref_error= Fehler beim Abrufen von Benutzereinstellungen
+    qap_wbt_campaign= Kampagne
+    qap_wbt_comments= Kommentar
+    qap_wbt_date= Datum
+    qap_wbt_num= Nummer
+    qap_wbt_recall= Rückruf
+    qap_wbt_title= Zeitplan WombatDialer Rückruf
+    qap_welcome= Willkommen zurück!
+    qap_you_have= Sie haben
     qatarget_agentgroup=Agent Gruppe
     qatarget_allcalls=Alle Anrufe
     qatarget_individual_agents=Agent
@@ -4240,12 +3779,9 @@ Other items
     record_tags_wrongduration=Bitte geben Sie ein gültiges Dauerformat ein
     record_tags_wrongnote=Bitte geben Sie eine Notiz ein
     record_tags_wrongtime=Bitte geben Sie ein gültiges Zeitformat ein
-    # 🔴 recstat_closed -> Closed
-    ➡️ recstat_closed= geschlossen
-    # 🔴 recstat_merged -> Merged
-    ➡️ recstat_merged= zusammengefasst
-    # 🔴 recstat_open -> Open
-    ➡️ recstat_open= offen
+    recstat_closed= geschlossen
+    recstat_merged= zusammengefasst
+    recstat_open= offen
     report_filter_noncont_time=Zwischen
     report_input_error=Dieser Wert ist unzulässig
     reports_add_datablocks=DataBlocks hinzufügen
@@ -4347,10 +3883,8 @@ Other items
     reports_filter_caller=Anrufer
     reports_filter_callskills=Call Skill
     reports_filter_calltags=Tag aufrufen
-    # 🔴 reports_filter_case -> Case
-    ➡️ reports_filter_case= Case
-    # 🔴 reports_filter_client -> Client
-    ➡️ reports_filter_client= Kunden
+    reports_filter_case= Case
+    reports_filter_client= Kunden
     reports_filter_date_from=Von
     reports_filter_date_to=An
     reports_filter_disconnection=Unterbrechung Ursache
@@ -4362,8 +3896,7 @@ Other items
     reports_filter_input_error=Eingabefehler
     reports_filter_ivr=IVR
     reports_filter_location=Standort
-    # 🔴 reports_filter_none -> None
-    ➡️ reports_filter_none= kein
+    reports_filter_none= kein
     reports_filter_noncont_time=Zwischen
     reports_filter_noncontdays=Tage
     reports_filter_noncontr1from=Zeit 1 von
@@ -4376,15 +3909,13 @@ Other items
     reports_filter_shortcallattempt=Min. Versuchszeit (kurze Anrufe)
     reports_filter_shortcalltalk=Min. Sprechzeit (kurze Anrufe)
     reports_filter_shortcallwait=Min. Wartezeit (kurze Anrufe)
-    # 🔴 reports_filter_timerange -> Select time range
-    ➡️ reports_filter_timerange= Zeitspannen auswählen
+    reports_filter_timerange= Zeitspannen auswählen
     reports_filter_variable_name=Variable Name
     reports_filter_variable_value=Variabler Wert
     reports_filter_variables=Variablen
     reports_filter_waitmax=Max. Wartezeit
     reports_filter_waitmin=Min. Wartezeit
-    # 🔴 reports_filters -> Show/Hide Filters
-    ➡️ reports_filters= Filter ein-/ausblenden
+    reports_filters= Filter ein-/ausblenden
     reports_goto_page=Gehe zu
     reports_grouping_title=Anrufe gruppieren
     reports_import_schema=Berichtschema importieren
@@ -4423,8 +3954,7 @@ Other items
     reports_pagination_prev=Vorherige Seite
     reports_pagination_show=anzeigen
     reports_pagination_showing=anzeigen
-    # 🔴 reports_period_too_long -> This report covers a longer period than you are allowed to run.
-    ➡️ reports_period_too_long= Dieser Bericht deckt einen längeren Zeitraum als erlaubt ab.
+    reports_period_too_long= Dieser Bericht deckt einen längeren Zeitraum als erlaubt ab.
     reports_prev_datablock=Vorher
     reports_preview_switch=Vorschau
     reports_print_notification=Beenden des Druckmodus. Bitte warten Sie, bis der Bericht neu geladen wird. Dies kann eine Weile dauern, insbesondere wenn Sie grosse Tabellen drucken.
@@ -4459,6 +3989,8 @@ Other items
     reports_qa_status=Status
     reports_qa_uid=Eindeutige Kennung
     reports_qa_value=Wert
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=Laden
     reports_ratio=Ratio
     reports_recap_no_filters=Klicken Sie, um zusätzliche Filter hinzuzufügen

@@ -2036,6 +2036,8 @@ Do not change the items below:
     qa_pop_print=Печать
     qa_prc_act=%
     qa_prc_min=% требуемого
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Возможен выбор только одного фильтра по агенту 
     qa_queue=Очередь
     qa_range=Диапазон
@@ -2153,6 +2155,8 @@ Do not change the items below:
     rt3_actions_whisper=Шепот
     rt3_add=Добавить
     rt3_add_box=Добавить новый виджет на страницу
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Добавить новое представление
     rt3_advanced=Расширенный
     rt3_ag_calls_alm_red=Агенты заняты. Красное предупреждение
@@ -3555,7 +3559,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -4500,6 +4504,8 @@ Other items
     reports_qa_status=Состояние
     reports_qa_uid=Уникальный ID
     reports_qa_value=Значение
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=Загрузка
     reports_ratio=Соотношение
     reports_recap_no_filters=Нажмите для добавления дополнительных фильтров

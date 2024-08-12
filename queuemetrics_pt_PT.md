@@ -2141,6 +2141,8 @@ Do not change the items below:
     qa_pop_print=Imprimir
     qa_prc_act=%
     qa_prc_min=% necessária
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Apenas um filtro de agente selecionado é suportado
     qa_queue=Queue
     qa_range=Intervalo
@@ -2258,6 +2260,8 @@ Do not change the items below:
     rt3_actions_whisper=Whisper
     rt3_add=Adicionar Novo Widget
     rt3_add_box=Adicionar nova caixa na página
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Adicionar nova vista
     rt3_advanced=Avançado
     rt3_ag_calls_alm_red=Alarme Vermelho De Agentes Ocupados
@@ -3825,7 +3829,7 @@ Other items
     memo_details_title=?Título
     # 👽 memo_details_to -> TO
     memo_details_to=?PARA
-    # 👽 memo_details_type -> type
+    # 👽 memo_details_type -> Type
     memo_details_type=?tipo
     # 👽 memo_details_user_from -> From
     memo_details_user_from=?De
@@ -4960,6 +4964,8 @@ Other items
     reports_qa_uid=?ID Único
     # 👽 reports_qa_value -> Value
     reports_qa_value=?Valor
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     # 👽 reports_query_loading -> Loading
     reports_query_loading=?Carregando
     # 👽 reports_ratio -> Ratio

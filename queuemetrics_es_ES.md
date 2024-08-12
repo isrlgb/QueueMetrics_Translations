@@ -1182,7 +1182,7 @@ Do not change the items below:
     custrep_custom_report_analysis=Análisis informe flexible
     # 👽 custrep_date_call -> Call
     custrep_date_call=?Llamada
-    # 👽 custrep_date_callorform -> Date applied to:
+    # 👽 custrep_date_callorform -> Date applied to
     custrep_date_callorform=?Fecha aplicada a:
     # 👽 custrep_date_form -> Form Filling
     custrep_date_form=?Completar Formulario
@@ -1193,7 +1193,7 @@ Do not change the items below:
     # 👽 custrep_features -> Call features
     custrep_features=?Característica
     custrep_file=Archivo:
-    # 👽 custrep_grader -> Grader:
+    # 👽 custrep_grader -> Grader
     custrep_grader=?Clasificación
     # 👽 custrep_hourly_slot_minutes -> Hourly slot (minutes)
     custrep_hourly_slot_minutes=?Franja Horaria (minutos)
@@ -3161,6 +3161,8 @@ Do not change the items below:
     qa_prc_act=?%
     # 👽 qa_prc_min -> % needed
     qa_prc_min=?% Exigido
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     # 👽 qa_queryfilterwarn -> Only one agent filter selection at time is supported.
     qa_queryfilterwarn=?Solo una selección de filtrado por agente es soportada.
     qa_queue=Cola
@@ -3370,6 +3372,8 @@ Do not change the items below:
     rt3_add=?Añadir
     # 👽 rt3_add_box -> Add new widget on page
     rt3_add_box=?Añadir un nuevo box en la página
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     # 👽 rt3_add_view -> Add new view
     rt3_add_view=?Añadir nueva vista
     # 👽 rt3_advanced -> Advanced
@@ -5770,7 +5774,7 @@ Other items
     memo_details_title=?Titúlo
     # 👽 memo_details_to -> TO
     memo_details_to=?HASTA
-    # 👽 memo_details_type -> type
+    # 👽 memo_details_type -> Type
     memo_details_type=?Tipo
     # 👽 memo_details_user_from -> From
     memo_details_user_from=?Desde
@@ -7042,6 +7046,8 @@ Other items
     reports_qa_uid=?Único
     # 👽 reports_qa_value -> Value
     reports_qa_value=?Valor
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     # 👽 reports_query_loading -> Loading
     reports_query_loading=?Cargando
     # 👽 reports_ratio -> Ratio

@@ -1925,6 +1925,8 @@ Do not change the items below:
     qa_pop_print=Stampa
     qa_prc_act=%
     qa_prc_min=% necessaria
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Si può selezionare solo un filtro agente per volta.
     qa_queue=Coda
     qa_range=Range
@@ -2041,6 +2043,8 @@ Do not change the items below:
     rt3_actions_whisper=Whisper
     rt3_add=Aggiungi Nuovo Widget
     rt3_add_box=Aggiungi un nuovo widget alla pagina
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Aggiungi nuova vista
     rt3_advanced=Avanzate
     rt3_ag_calls_alm_red=Agenti Occupati Allarme Rosso
@@ -3960,6 +3964,8 @@ Other items
     reports_qa_status=Stato
     reports_qa_uid=ID Univoco
     reports_qa_value=Valore
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=Caricamento
     reports_ratio=Ratio
     reports_recap_no_filters=Clicca per aggiungere altri filtri

@@ -1930,6 +1930,8 @@ Do not change the items below:
     qa_pop_print=Imprimer
     qa_prc_act=%
     qa_prc_min=% exigè
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=On ne peut pas choisir plusieur critères de filtrage
     qa_queue=File
     qa_range=Intervalle
@@ -2046,6 +2048,8 @@ Do not change the items below:
     rt3_actions_whisper=Susurre
     rt3_add=Ajout un nouveau Gadget(Widget)
     rt3_add_box=Ajouter une nouvelle boite sur la page
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Ajouter une nouvelle vue
     rt3_advanced=Evolué
     rt3_ag_calls_alm_red=Alarme Rouge d'Agent occupé
@@ -3965,6 +3969,8 @@ Other items
     reports_qa_status=Status
     reports_qa_uid=ID unique
     reports_qa_value=Valeur
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=Chargement
     reports_ratio=Ratio
     reports_recap_no_filters=Cliquer pour Ajouter des Filtres
