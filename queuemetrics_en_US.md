@@ -1923,6 +1923,7 @@ Do not change the items below:
     qa_pop_print=Print
     qa_prc_act=%
     qa_prc_min=% needed
+    qa_print_report=Print QA Report
     qa_queryfilterwarn=Only one agent filter selection at time is supported.
     qa_queue=Queue
     qa_range=Range
