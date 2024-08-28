@@ -4151,6 +4151,44 @@ Description of security keys:
     # 🔴 home_wallboards_title -> Wallboards
     ➡️ home_wallboards_title=
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=编辑系统参数
+    cfgprops_title_wizard=浏览系统参数
+    cfgprops_notice=保存后，你需要重新登陆已加载新的参数
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=configuration.properties文件保存在
+    cfgprops_ioerror=configuration.properties I/O错误，检查服务器日志
+    cfgprops_nocontent=文件未保存：为了您的安全起见，文件不能为空或包含HTML标记。
+    cfgprops_not_editable=configuration.properties无法编辑
+    cfgprops_wrong_line=文件未保存-行格式错误
+    
+
 ## Misc
 
 Other items
@@ -4223,14 +4261,6 @@ Other items
     # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=克隆配置规则
-    cfgprops_file_saved=configuration.properties文件保存在
-    cfgprops_ioerror=configuration.properties I/O错误，检查服务器日志
-    cfgprops_nocontent=文件未保存：为了您的安全起见，文件不能为空或包含HTML标记。
-    cfgprops_not_editable=configuration.properties无法编辑
-    cfgprops_notice=保存后，你需要重新登陆已加载新的参数
-    cfgprops_title=编辑系统参数
-    cfgprops_title_wizard=浏览系统参数
-    cfgprops_wrong_line=文件未保存-行格式错误
     comboex_findlabel=搜索
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     ➡️ common_jdecode_error=

@@ -3286,6 +3286,44 @@ Description of security keys:
     home_wallboards_subtitle=Настраиваемые табло для данных в реальном времени
     home_wallboards_title=Табло
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Редактировать системные параметры QueueMetrics
+    cfgprops_title_wizard=Просмотреть параметры системы QueueMetrics
+    cfgprops_notice=После сохранения, Вам необходимо выйти из системы и снова войти, чтобы загрузить новые параметры
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Файл 'configuration.properties' сохранен в
+    cfgprops_ioerror=Ошибка ввода/вывода в файле 'configuration.properties'configuration.properties' - проверьте логи сервера 
+    cfgprops_nocontent=Файл не сохранен: для вашей безопасности, файл не может быть пустым или содержать тэги HTML.
+    cfgprops_not_editable=Файл 'configuration.properties' не может быть отредактирован
+    cfgprops_wrong_line=Файл не сохранен - неверный формат строки
+    
+
 ## Misc
 
 Other items
@@ -3353,14 +3391,6 @@ Other items
     ccase_client_name=Клиент
     ccase_client_xref=№ ссылки
     cdp_clonedispositions=Клонировать правила размещения
-    cfgprops_file_saved=Файл 'configuration.properties' сохранен в
-    cfgprops_ioerror=Ошибка ввода/вывода в файле 'configuration.properties'configuration.properties' - проверьте логи сервера 
-    cfgprops_nocontent=Файл не сохранен: для вашей безопасности, файл не может быть пустым или содержать тэги HTML.
-    cfgprops_not_editable=Файл 'configuration.properties' не может быть отредактирован
-    cfgprops_notice=После сохранения, Вам необходимо выйти из системы и снова войти, чтобы загрузить новые параметры
-    cfgprops_title=Редактировать системные параметры QueueMetrics
-    cfgprops_title_wizard=Просмотреть параметры системы QueueMetrics
-    cfgprops_wrong_line=Файл не сохранен - неверный формат строки
     comboex_findlabel=Найти
     common_jdecode_error=Ошибка при декодировании значения JSON. Проверьте консоль браузера для получения дополнительной информации.
     common_jencode_error=Ошибка при декодировании значения JSON. Проверьте консоль браузера для получения дополнительной информации.

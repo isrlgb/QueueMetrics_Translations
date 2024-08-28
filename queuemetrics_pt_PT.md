@@ -3535,6 +3535,44 @@ Description of security keys:
     # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?Wallboards
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Editar os parâmetros de sistema do QueueMetrics
+    cfgprops_title_wizard=Explorar os parâmetros de sistema do QueueMetrics
+    cfgprops_notice=Após salvar, precisa sair e entrar novamente para recarregar os parâmetros.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Ficheiro configuration.properties salvo em
+    cfgprops_ioerror=I/O erro no ficheiro configuration.properties - verificar logs do servidor.
+    cfgprops_nocontent=Ficheiro não foi salvo: para sua segurança, o ficheiro não pode estar vazio ou conter tags HTML.
+    cfgprops_not_editable=O ficheiro configuration.properties não pode ser editado.
+    cfgprops_wrong_line=Ficheiro não salvo - Formato de linha incorrecto
+    
+
 ## Misc
 
 Other items
@@ -3607,14 +3645,6 @@ Other items
     # 👽 ccase_client_xref -> Ref. #
     ccase_client_xref=?No. ref.
     cdp_clonedispositions=Clonar Disposição de Regras
-    cfgprops_file_saved=Ficheiro configuration.properties salvo em
-    cfgprops_ioerror=I/O erro no ficheiro configuration.properties - verificar logs do servidor.
-    cfgprops_nocontent=Ficheiro não foi salvo: para sua segurança, o ficheiro não pode estar vazio ou conter tags HTML.
-    cfgprops_not_editable=O ficheiro configuration.properties não pode ser editado.
-    cfgprops_notice=Após salvar, precisa sair e entrar novamente para recarregar os parâmetros.
-    cfgprops_title=Editar os parâmetros de sistema do QueueMetrics
-    cfgprops_title_wizard=Explorar os parâmetros de sistema do QueueMetrics
-    cfgprops_wrong_line=Ficheiro não salvo - Formato de linha incorrecto
     comboex_findlabel=Encontrar
     # 👽 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     common_jdecode_error=?Erro enquanto decodificava valor JSON. Verifique no console do navegador para mais informações.

@@ -3385,6 +3385,44 @@ Description of security keys:
     home_wallboards_subtitle=Customizable wallboards for live data
     home_wallboards_title=Wallboards
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=QueueMetrics 시스템 파라미터값 편집
+    cfgprops_title_wizard=QueueMetrics 시스템 파라미터값 조회 및 편집
+    cfgprops_notice=파라미터 값을 적용하기 위해서는 파일 저장 후에 로그오프 하고 다시 로그인 바랍니다.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=파일 configuration.properties 가 저장되었습니다.
+    cfgprops_ioerror=configuration.properties 파일에 I/O에러. 발생-서버 로그 확인 바랍니다.
+    cfgprops_nocontent=파일이 저장되지 않음
+    cfgprops_not_editable=configuration.properties에서 지정한 파일을 편집할 수 없습니다.
+    cfgprops_wrong_line=파일 저장 오류 - 잘못된 형식 라인
+    
+
 ## Misc
 
 Other items
@@ -3452,14 +3490,6 @@ Other items
     ccase_client_name=고객명
     ccase_client_xref=Ref. NO
     cdp_clonedispositions=Clone Disposition 규칙
-    cfgprops_file_saved=파일 configuration.properties 가 저장되었습니다.
-    cfgprops_ioerror=configuration.properties 파일에 I/O에러. 발생-서버 로그 확인 바랍니다.
-    cfgprops_nocontent=파일이 저장되지 않음
-    cfgprops_not_editable=configuration.properties에서 지정한 파일을 편집할 수 없습니다.
-    cfgprops_notice=파라미터 값을 적용하기 위해서는 파일 저장 후에 로그오프 하고 다시 로그인 바랍니다.
-    cfgprops_title=QueueMetrics 시스템 파라미터값 편집
-    cfgprops_title_wizard=QueueMetrics 시스템 파라미터값 조회 및 편집
-    cfgprops_wrong_line=파일 저장 오류 - 잘못된 형식 라인
     comboex_findlabel=찾기
     common_jdecode_error=JSON 값 디코딩 오류! 브라우저의 콘솔창을 통해 자세한 정보를 확인바랍니다.
     common_jencode_error=JSON 값 인코딩 오류! 브라우저의 콘솔창을 통해 자세한 정보를 확인바랍니다.

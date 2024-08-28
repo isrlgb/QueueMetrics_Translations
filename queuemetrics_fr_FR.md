@@ -3124,6 +3124,44 @@ Description of security keys:
     home_wallboards_subtitle=Tableau de Bord Personnalisable pour Données "Live"
     home_wallboards_title=Tableaux de Bord
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Editer les paramètres système QueueMetrics
+    cfgprops_title_wizard=Explorer les Paramètres de Configuration QueueMetrics
+    cfgprops_notice=Après sauvegarde, vous devez vous déconnecter puis vous reconnecter pour charger les paramètres
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Fichier de configuration sauvegardé sous
+    cfgprops_ioerror=Erreur d'écriture du fichier de configuration - vérifier le server log
+    cfgprops_nocontent=Fichier non sauvegardé. Pour votre sécurité, le fichier ne peut être vide 
+    cfgprops_not_editable=Le fichier de configuration ne peut être édité
+    cfgprops_wrong_line=Fichier non sauvegardé - Mauvais format de Ligne
+    
+
 ## Misc
 
 Other items
@@ -3169,14 +3207,6 @@ Other items
     ccase_client_name=Client
     ccase_client_xref=Ref. N°
     cdp_clonedispositions=Duplique les règles de disposition
-    cfgprops_file_saved=Fichier de configuration sauvegardé sous
-    cfgprops_ioerror=Erreur d'écriture du fichier de configuration - vérifier le server log
-    cfgprops_nocontent=Fichier non sauvegardé. Pour votre sécurité, le fichier ne peut être vide 
-    cfgprops_not_editable=Le fichier de configuration ne peut être édité
-    cfgprops_notice=Après sauvegarde, vous devez vous déconnecter puis vous reconnecter pour charger les paramètres
-    cfgprops_title=Editer les paramètres système QueueMetrics
-    cfgprops_title_wizard=Explorer les Paramètres de Configuration QueueMetrics
-    cfgprops_wrong_line=Fichier non sauvegardé - Mauvais format de Ligne
     comboex_findlabel=Trouver
     common_jdecode_error=Erreur lors du décodage de la valeur JSON. Consultez la console du navigateur pour plus d'informations.
     common_jencode_error=Erreur lors de l'encodage de la valeur JSON. Consultez la console du navigateur pour plus d'informations.

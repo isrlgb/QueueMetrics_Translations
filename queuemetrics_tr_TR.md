@@ -3390,6 +3390,44 @@ Description of security keys:
     home_wallboards_subtitle=Duvarpanoları için özelleştirilebilir canlı veriler
     home_wallboards_title=Duvar Panoları
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=QueueMetrics sistem parametrelerini düzenle
+    cfgprops_title_wizard=QueueMetrics sistem parametrelerini araştırın
+    cfgprops_notice=Kaydettikten sonra, parametrelerin yüklenmesi için oturumu kapatıp yeniden açmanız gerekir.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=configuration.properties sayfası kaydedildi
+    cfgprops_ioerror=Configuration.properties dosyasında I/O hatası - sunucu günlüklerini denetleyin.
+    cfgprops_nocontent=Dosya kaydedilmedi: güvenliğiniz için dosya boş olamaz veya HTML etiketleri içeremez.
+    cfgprops_not_editable=Configuration.properties düzenlenemiyor.
+    cfgprops_wrong_line=Sayfa kaydedilemedi - Satırda hatalı format
+    
+
 ## Misc
 
 Other items
@@ -3462,14 +3500,6 @@ Other items
     # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=Yerleşim Kurallarını çoğalt
-    cfgprops_file_saved=configuration.properties sayfası kaydedildi
-    cfgprops_ioerror=Configuration.properties dosyasında I/O hatası - sunucu günlüklerini denetleyin.
-    cfgprops_nocontent=Dosya kaydedilmedi: güvenliğiniz için dosya boş olamaz veya HTML etiketleri içeremez.
-    cfgprops_not_editable=Configuration.properties düzenlenemiyor.
-    cfgprops_notice=Kaydettikten sonra, parametrelerin yüklenmesi için oturumu kapatıp yeniden açmanız gerekir.
-    cfgprops_title=QueueMetrics sistem parametrelerini düzenle
-    cfgprops_title_wizard=QueueMetrics sistem parametrelerini araştırın
-    cfgprops_wrong_line=Sayfa kaydedilemedi - Satırda hatalı format
     comboex_findlabel=Bul
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     ➡️ common_jdecode_error=

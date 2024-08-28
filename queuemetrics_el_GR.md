@@ -3598,6 +3598,44 @@ Description of security keys:
     home_wallboards_subtitle=Προσαρμόσιμα Wallboards για ζωντανά δεδομένα
     home_wallboards_title=Wallboards
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Επεξεργασία παραμέτρων συστήματος Queuemetrics
+    cfgprops_title_wizard=Εξερεύνηση παραμέτρων του συστήματος QueueMetrics
+    cfgprops_notice=Μετά την αποθήκευση, θα πρέπει να αποσυνδεθείτε και να συνδεθείτε πάλι ώστε να φορτωθούν οι παραμέτροι.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Το αρχείο με τις ιδιότητες παραμετροποίησης σώθηκε σε
+    cfgprops_ioerror=Σφάλμα I / O στο αρχείο configuration.properties  - Ελέγξτε τα αρχεία καταγραφής του διακομιστή
+    cfgprops_nocontent=Το αρχείο δεν αποθηκεύτηκε: για την ασφάλειά σας, το αρχείο δεν μπορεί να είναι άδειο ή να περιέχει ετικέτες HTML
+    cfgprops_not_editable= Το αρχείο configuration.properties δεν μπορεί να τροποποιηθεί
+    cfgprops_wrong_line=Το αρχείο δεν αποθηκεύεται - Λάθος μορφοποίηση γραμμής
+    
+
 ## Misc
 
 Other items
@@ -3670,14 +3708,6 @@ Other items
     # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=Κανόνες διάθεσης κλώνων
-    cfgprops_file_saved=Το αρχείο με τις ιδιότητες παραμετροποίησης σώθηκε σε
-    cfgprops_ioerror=Σφάλμα I / O στο αρχείο configuration.properties  - Ελέγξτε τα αρχεία καταγραφής του διακομιστή
-    cfgprops_nocontent=Το αρχείο δεν αποθηκεύτηκε: για την ασφάλειά σας, το αρχείο δεν μπορεί να είναι άδειο ή να περιέχει ετικέτες HTML
-    cfgprops_not_editable= Το αρχείο configuration.properties δεν μπορεί να τροποποιηθεί
-    cfgprops_notice=Μετά την αποθήκευση, θα πρέπει να αποσυνδεθείτε και να συνδεθείτε πάλι ώστε να φορτωθούν οι παραμέτροι.
-    cfgprops_title=Επεξεργασία παραμέτρων συστήματος Queuemetrics
-    cfgprops_title_wizard=Εξερεύνηση παραμέτρων του συστήματος QueueMetrics
-    cfgprops_wrong_line=Το αρχείο δεν αποθηκεύεται - Λάθος μορφοποίηση γραμμής
     comboex_findlabel=Εύρεση
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     ➡️ common_jdecode_error=

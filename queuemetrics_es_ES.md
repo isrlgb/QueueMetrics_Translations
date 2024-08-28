@@ -5409,6 +5409,52 @@ Description of security keys:
     # 👽 home_wallboards_title -> Wallboards
     home_wallboards_title=?Tableros
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    # 👽 cfgprops_title -> Edit QueueMetrics system parameters
+    cfgprops_title=?Editar parámetros de sistema de QueueMetrics
+    # 👽 cfgprops_title_wizard -> Explore QueueMetrics system parameters
+    cfgprops_title_wizard=?Consultar los parámetros de QueueMetrics
+    # 👽 cfgprops_notice -> After saving, you need to log off and on again for the parameters to be loaded.
+    cfgprops_notice=?Despues de salvados los cambios, debe desloguearse y loguearse nuevamente para que los mismos surtan efecto.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    # 👽 cfgprops_file_saved -> File configuration.properties saved at
+    cfgprops_file_saved=?Archivo configuration.properties guardado en
+    # 👽 cfgprops_ioerror -> I/O error on file configuration.properties - check server logs.
+    cfgprops_ioerror=?Error de E/S en el archivo configuration.properties - chequee los logs del servidor.
+    # 👽 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
+    cfgprops_nocontent=?El archivo no fue guardado. Por su seguridad, el archivo no puede ser vacío ni contener tags HTML.
+    # 👽 cfgprops_not_editable -> The configuration.properties cannot be edited.
+    cfgprops_not_editable=?El archivo configuration.properties no puede ser editado.
+    # 👽 cfgprops_wrong_line -> File not saved - Wrong format for line
+    cfgprops_wrong_line=?Archivo no guardado - Formato erróneo en la línea
+    
+
 ## Misc
 
 Other items
@@ -5486,22 +5532,6 @@ Other items
     ccase_client_xref=?Ref. N°
     # 👽 cdp_clonedispositions -> Clone Disposition Rules
     cdp_clonedispositions=?Duplicar Reglas de Disposición
-    # 👽 cfgprops_file_saved -> File configuration.properties saved at
-    cfgprops_file_saved=?Archivo configuration.properties guardado en
-    # 👽 cfgprops_ioerror -> I/O error on file configuration.properties - check server logs.
-    cfgprops_ioerror=?Error de E/S en el archivo configuration.properties - chequee los logs del servidor.
-    # 👽 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
-    cfgprops_nocontent=?El archivo no fue guardado. Por su seguridad, el archivo no puede ser vacío ni contener tags HTML.
-    # 👽 cfgprops_not_editable -> The configuration.properties cannot be edited.
-    cfgprops_not_editable=?El archivo configuration.properties no puede ser editado.
-    # 👽 cfgprops_notice -> After saving, you need to log off and on again for the parameters to be loaded.
-    cfgprops_notice=?Despues de salvados los cambios, debe desloguearse y loguearse nuevamente para que los mismos surtan efecto.
-    # 👽 cfgprops_title -> Edit QueueMetrics system parameters
-    cfgprops_title=?Editar parámetros de sistema de QueueMetrics
-    # 👽 cfgprops_title_wizard -> Explore QueueMetrics system parameters
-    cfgprops_title_wizard=?Consultar los parámetros de QueueMetrics
-    # 👽 cfgprops_wrong_line -> File not saved - Wrong format for line
-    cfgprops_wrong_line=?Archivo no guardado - Formato erróneo en la línea
     # 👽 comboex_findlabel -> Find
     comboex_findlabel=?Buscar
     # 👽 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.

@@ -4824,6 +4824,46 @@ Description of security keys:
     # 🔴 home_wallboards_title -> Wallboards
     ➡️ home_wallboards_title=
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Editarea parametrilor QueueMetrics
+    # 🔴 cfgprops_title_wizard -> Explore QueueMetrics system parameters
+    ➡️ cfgprops_title_wizard=
+    cfgprops_notice=Dupa salvarea modificarilor este necesar sa iesiti si sa intrati din nou in aplicatie.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Fisierul 'configuration.properties' a fost salvat in
+    cfgprops_ioerror=Eroare I/O pentru fisierul 'configuration.properties' - verificati logurile serverului.
+    # 🔴 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
+    ➡️ cfgprops_nocontent=
+    cfgprops_not_editable=Fisierul 'configuration.properties' nu poate fi editat.
+    cfgprops_wrong_line=Fisierul nu a fost salvat - Format eronat la linia
+    
+
 ## Misc
 
 Other items
@@ -4898,16 +4938,6 @@ Other items
     ➡️ ccase_client_xref=
     # 🔴 cdp_clonedispositions -> Clone Disposition Rules
     ➡️ cdp_clonedispositions=
-    cfgprops_file_saved=Fisierul 'configuration.properties' a fost salvat in
-    cfgprops_ioerror=Eroare I/O pentru fisierul 'configuration.properties' - verificati logurile serverului.
-    # 🔴 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
-    ➡️ cfgprops_nocontent=
-    cfgprops_not_editable=Fisierul 'configuration.properties' nu poate fi editat.
-    cfgprops_notice=Dupa salvarea modificarilor este necesar sa iesiti si sa intrati din nou in aplicatie.
-    cfgprops_title=Editarea parametrilor QueueMetrics
-    # 🔴 cfgprops_title_wizard -> Explore QueueMetrics system parameters
-    ➡️ cfgprops_title_wizard=
-    cfgprops_wrong_line=Fisierul nu a fost salvat - Format eronat la linia
     comboex_findlabel=Gaseste
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     ➡️ common_jdecode_error=

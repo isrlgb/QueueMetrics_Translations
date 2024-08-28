@@ -3119,6 +3119,44 @@ Description of security keys:
     home_wallboards_subtitle=Wallboard modificabili per dati in tempo reale
     home_wallboards_title=Wallboard
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Modifica i parametri di sistema di QueueMetrics
+    cfgprops_title_wizard=Parametri di configurazione QueueMetrics
+    cfgprops_notice=Dopo aver salvato, é necessario uscire e rientrare perchè i parametri siano aggiornati.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=File configuration.properties salvato - ultima modifica 
+    cfgprops_ioerror=Errore I/O sul file configuration.properties - controlla i log del server.
+    cfgprops_nocontent=File non salvato. Per la vostra sicurezza, il file non può essere vuoto o contenere tags HTML.
+    cfgprops_not_editable=Il file configuration.properties non può essere modificato.
+    cfgprops_wrong_line=File non salvato - Formato errato alla riga 
+    
+
 ## Misc
 
 Other items
@@ -3164,14 +3202,6 @@ Other items
     ccase_client_name=Cliente
     ccase_client_xref=RIf. #
     cdp_clonedispositions=Clona Disposition RUles
-    cfgprops_file_saved=File configuration.properties salvato - ultima modifica 
-    cfgprops_ioerror=Errore I/O sul file configuration.properties - controlla i log del server.
-    cfgprops_nocontent=File non salvato. Per la vostra sicurezza, il file non può essere vuoto o contenere tags HTML.
-    cfgprops_not_editable=Il file configuration.properties non può essere modificato.
-    cfgprops_notice=Dopo aver salvato, é necessario uscire e rientrare perchè i parametri siano aggiornati.
-    cfgprops_title=Modifica i parametri di sistema di QueueMetrics
-    cfgprops_title_wizard=Parametri di configurazione QueueMetrics
-    cfgprops_wrong_line=File non salvato - Formato errato alla riga 
     comboex_findlabel=Trova
     common_jdecode_error=Si è verificato un errore durante la decodifica di un valore JSON. Controlla la console del browser per maggiori informazioni..
     common_jencode_error=Si è verificato un errore durante la codifica di un valore JSON. Controlla la console del browser per maggiori informazioni..

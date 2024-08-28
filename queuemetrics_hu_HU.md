@@ -5534,6 +5534,52 @@ Description of security keys:
     # 🔴 home_wallboards_title -> Wallboards
     ➡️ home_wallboards_title=
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    # 🔴 cfgprops_title -> Edit QueueMetrics system parameters
+    ➡️ cfgprops_title=
+    # 🔴 cfgprops_title_wizard -> Explore QueueMetrics system parameters
+    ➡️ cfgprops_title_wizard=
+    # 🔴 cfgprops_notice -> After saving, you need to log off and on again for the parameters to be loaded.
+    ➡️ cfgprops_notice=
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    # 🔴 cfgprops_file_saved -> File configuration.properties saved at
+    ➡️ cfgprops_file_saved=
+    # 🔴 cfgprops_ioerror -> I/O error on file configuration.properties - check server logs.
+    ➡️ cfgprops_ioerror=
+    # 🔴 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
+    ➡️ cfgprops_nocontent=
+    # 🔴 cfgprops_not_editable -> The configuration.properties cannot be edited.
+    ➡️ cfgprops_not_editable=
+    # 🔴 cfgprops_wrong_line -> File not saved - Wrong format for line
+    ➡️ cfgprops_wrong_line=
+    
+
 ## Misc
 
 Other items
@@ -5620,22 +5666,6 @@ Other items
     ➡️ ccase_client_xref=
     # 🔴 cdp_clonedispositions -> Clone Disposition Rules
     ➡️ cdp_clonedispositions=
-    # 🔴 cfgprops_file_saved -> File configuration.properties saved at
-    ➡️ cfgprops_file_saved=
-    # 🔴 cfgprops_ioerror -> I/O error on file configuration.properties - check server logs.
-    ➡️ cfgprops_ioerror=
-    # 🔴 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
-    ➡️ cfgprops_nocontent=
-    # 🔴 cfgprops_not_editable -> The configuration.properties cannot be edited.
-    ➡️ cfgprops_not_editable=
-    # 🔴 cfgprops_notice -> After saving, you need to log off and on again for the parameters to be loaded.
-    ➡️ cfgprops_notice=
-    # 🔴 cfgprops_title -> Edit QueueMetrics system parameters
-    ➡️ cfgprops_title=
-    # 🔴 cfgprops_title_wizard -> Explore QueueMetrics system parameters
-    ➡️ cfgprops_title_wizard=
-    # 🔴 cfgprops_wrong_line -> File not saved - Wrong format for line
-    ➡️ cfgprops_wrong_line=
     # 🔴 comboex_findlabel -> Find
     ➡️ comboex_findlabel=
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.

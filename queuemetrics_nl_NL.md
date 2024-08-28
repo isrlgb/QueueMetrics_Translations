@@ -4717,6 +4717,44 @@ Description of security keys:
     # 🔴 home_wallboards_title -> Wallboards
     ➡️ home_wallboards_title=
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Bewerkt Queuemetrics systeem instellingen
+    cfgprops_title_wizard=Configuratieparameters QueueMetric
+    cfgprops_notice=Na het opslaan, moet u zich opnieuw aanmelden om de instellingen opnieuw in te laden.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Bestand configuration.properties opgeslagen in
+    cfgprops_ioerror=I/O fout met configuration.properties - controleer server logs
+    cfgprops_nocontent=Bestand niet opgeslagen: Voor uw veiligheid, het bestand mag niet leeg zijn of HTML tags bevatten.
+    cfgprops_not_editable=Het bestand configuration.properties kan niet bewerkt worden.
+    cfgprops_wrong_line=Bestand niet opgeslagen - Fout format op regel
+    
+
 ## Misc
 
 Other items
@@ -4790,14 +4828,6 @@ Other items
     # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=Kloon disposition regels
-    cfgprops_file_saved=Bestand configuration.properties opgeslagen in
-    cfgprops_ioerror=I/O fout met configuration.properties - controleer server logs
-    cfgprops_nocontent=Bestand niet opgeslagen: Voor uw veiligheid, het bestand mag niet leeg zijn of HTML tags bevatten.
-    cfgprops_not_editable=Het bestand configuration.properties kan niet bewerkt worden.
-    cfgprops_notice=Na het opslaan, moet u zich opnieuw aanmelden om de instellingen opnieuw in te laden.
-    cfgprops_title=Bewerkt Queuemetrics systeem instellingen
-    cfgprops_title_wizard=Configuratieparameters QueueMetric
-    cfgprops_wrong_line=Bestand niet opgeslagen - Fout format op regel
     comboex_findlabel=Zoek
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     ➡️ common_jdecode_error=
