@@ -3828,8 +3828,8 @@ Other items
     reports_at_pause=Código de pausa:
     reports_at_queue=Cola:
     reports_at_queues=Colas:
-    reports_at_taken=Llamadas perdidas:
-    reports_at_talk=Tiempo de Conversación:
+    reports_at_taken=Llamadas atendidas:
+    reports_at_talk=Tiempo de Conv.:
     reports_at_wait=Espera:
     reports_atomic_filters=Filtros de expresión
     reports_autosave_toggle=Guardar automáticamente
