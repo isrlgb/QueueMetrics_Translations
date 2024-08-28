@@ -1095,9 +1095,7 @@ Do not change the items below:
     evt_custom_prev_stint=Stint precedente
     evt_custom_next_stint=Stint successivo
     evt_custom_n_stint=N. di Stint
-    #  evt_custom_direct_to -> Direct call to
     evt_custom_direct_to=Chiamata diretta a
-    #  evt_custom_quality -> Call quality
     evt_custom_quality=Qualità della chiamata
 
 ## Headers
@@ -1925,7 +1923,6 @@ Do not change the items below:
     qa_pop_print=Stampa
     qa_prc_act=%
     qa_prc_min=% necessaria
-    #  qa_print_report -> Print QA Report
     qa_print_report=Stampa report QA
     qa_queryfilterwarn=Si può selezionare solo un filtro agente per volta.
     qa_queue=Coda
@@ -2043,7 +2040,6 @@ Do not change the items below:
     rt3_actions_whisper=Whisper
     rt3_add=Aggiungi Nuovo Widget
     rt3_add_box=Aggiungi un nuovo widget alla pagina
-    #  rt3_add_queue -> Select Queue
     rt3_add_queue=Scegli coda
     rt3_add_view=Aggiungi nuova vista
     rt3_advanced=Avanzate
@@ -3129,23 +3125,14 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_title=Modifica i parametri di sistema di QueueMetrics
     cfgprops_title_wizard=Parametri di configurazione QueueMetrics
     cfgprops_notice=Dopo aver salvato, é necessario uscire e rientrare perchè i parametri siano aggiornati.
-    #  cfgprops_n_items -> N. Properties found
     cfgprops_n_items=N. Proprietà trovate
-    #  cfgprops_input -> Enter one or more properties to set, one per line
     cfgprops_input=Inserisci una o più proprietà da salvare, una per riga
-    #  cfgprops_comment -> Reason for this change
     cfgprops_comment=Ragione per la modifica
-    #  cfgprops_col_name -> Property name
     cfgprops_col_name=Nome della proprietà
-    #  cfgprops_col_value -> Current value
     cfgprops_col_value=Valore attuale
-    #  cfgprops_col_comment -> Reason
     cfgprops_col_comment=Ragione
-    #  cfgprops_history_date -> Date
     cfgprops_history_date=Data
-    #  cfgprops_history_user -> User
     cfgprops_history_user=Utente
-    #  cfgprops_history_value -> Value
     cfgprops_history_value=Valore
 
 These are obsolete:
@@ -3994,7 +3981,6 @@ Other items
     reports_qa_status=Stato
     reports_qa_uid=ID Univoco
     reports_qa_value=Valore
-    # reports_qa_print -> Print
     reports_qa_print=Stampa
     reports_query_loading=Caricamento
     reports_ratio=Ratio
