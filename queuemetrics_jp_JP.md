@@ -1160,7 +1160,7 @@ Do not change the items below:
     custrep_custom_report_analysis=カスタムレポート分析
     # 🔴 custrep_date_call -> Call
     ➡️ custrep_date_call=
-    # 🔴 custrep_date_callorform -> Date applied to:
+    # 🔴 custrep_date_callorform -> Date applied to
     ➡️ custrep_date_callorform=
     # 🔴 custrep_date_form -> Form Filling
     ➡️ custrep_date_form=
@@ -3088,6 +3088,8 @@ Do not change the items below:
     qa_pop_print=印刷
     qa_prc_act=%
     qa_prc_min=# 必要
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=一回につき1つのエージェントフィルタ選択のみサポートされます。
     qa_queue=キュー
     # 🔴 qa_range -> Range
@@ -3268,6 +3270,8 @@ Do not change the items below:
     ➡️ rt3_add=
     # 🔴 rt3_add_box -> Add new widget on page
     ➡️ rt3_add_box=
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     # 🔴 rt3_add_view -> Add new view
     ➡️ rt3_add_view=
     # 🔴 rt3_advanced -> Advanced
@@ -5313,6 +5317,52 @@ Description of security keys:
     # 🔴 home_wallboards_title -> Wallboards
     ➡️ home_wallboards_title=
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    # 🔴 cfgprops_title -> Edit QueueMetrics system parameters
+    ➡️ cfgprops_title=
+    # 🔴 cfgprops_title_wizard -> Explore QueueMetrics system parameters
+    ➡️ cfgprops_title_wizard=
+    # 🔴 cfgprops_notice -> After saving, you need to log off and on again for the parameters to be loaded.
+    ➡️ cfgprops_notice=
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    # 🔴 cfgprops_file_saved -> File configuration.properties saved at
+    ➡️ cfgprops_file_saved=
+    # 🔴 cfgprops_ioerror -> I/O error on file configuration.properties - check server logs.
+    ➡️ cfgprops_ioerror=
+    # 🔴 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
+    ➡️ cfgprops_nocontent=
+    # 🔴 cfgprops_not_editable -> The configuration.properties cannot be edited.
+    ➡️ cfgprops_not_editable=
+    # 🔴 cfgprops_wrong_line -> File not saved - Wrong format for line
+    ➡️ cfgprops_wrong_line=
+    
+
 ## Misc
 
 Other items
@@ -5392,22 +5442,6 @@ Other items
     ➡️ ccase_client_xref=
     # 🔴 cdp_clonedispositions -> Clone Disposition Rules
     ➡️ cdp_clonedispositions=
-    # 🔴 cfgprops_file_saved -> File configuration.properties saved at
-    ➡️ cfgprops_file_saved=
-    # 🔴 cfgprops_ioerror -> I/O error on file configuration.properties - check server logs.
-    ➡️ cfgprops_ioerror=
-    # 🔴 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
-    ➡️ cfgprops_nocontent=
-    # 🔴 cfgprops_not_editable -> The configuration.properties cannot be edited.
-    ➡️ cfgprops_not_editable=
-    # 🔴 cfgprops_notice -> After saving, you need to log off and on again for the parameters to be loaded.
-    ➡️ cfgprops_notice=
-    # 🔴 cfgprops_title -> Edit QueueMetrics system parameters
-    ➡️ cfgprops_title=
-    # 🔴 cfgprops_title_wizard -> Explore QueueMetrics system parameters
-    ➡️ cfgprops_title_wizard=
-    # 🔴 cfgprops_wrong_line -> File not saved - Wrong format for line
-    ➡️ cfgprops_wrong_line=
     # 🔴 comboex_findlabel -> Find
     ➡️ comboex_findlabel=
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
@@ -5678,7 +5712,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -6893,6 +6927,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     # 🔴 reports_query_loading -> Loading
     ➡️ reports_query_loading=
     # 🔴 reports_ratio -> Ratio

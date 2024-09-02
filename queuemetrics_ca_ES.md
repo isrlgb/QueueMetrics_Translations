@@ -2063,6 +2063,8 @@ Do not change the items below:
     qa_pop_print=Imprimir
     qa_prc_act=%
     qa_prc_min=% necessari
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Només es suporta una selecció de filtrat per agent
     qa_queue=Cua
     qa_range=Interval
@@ -2186,6 +2188,8 @@ Do not change the items below:
     ➡️ rt3_actions_whisper=
     rt3_add=Afegir
     rt3_add_box=Afegir un nou box a la pàgina
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Afegir una nova vista
     # 🔴 rt3_advanced -> Advanced
     ➡️ rt3_advanced=
@@ -3489,6 +3493,44 @@ Description of security keys:
     home_wallboards_subtitle=Taulers personalitzats per dades en temps real
     home_wallboards_title=Taulers
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Editar els paràmetres de sistema de Queuemetrics
+    cfgprops_title_wizard=Consultar els paràmetres de Queuemetrics
+    cfgprops_notice=Després de gravar, ha de sortir i tornar a iniciar sessió perquè els canvis siguin efectius
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Arxiu configuration.properties guardat en
+    cfgprops_ioerror=Error E/S a l'arxiu configuration.properties - verifiqui els logs del servidor
+    cfgprops_nocontent=Fitxer no desat: per la vostra seguretat, el fitxer no pot estar buit ni contenir etiquetes HTML.
+    cfgprops_not_editable=L'arxiu configuration.properties no pot ser editat
+    cfgprops_wrong_line=Arxiu no guardat - Format incorrecte de la línia
+    
+
 ## Misc
 
 Other items
@@ -3560,14 +3602,6 @@ Other items
     # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=Duplicar les regles de disposició
-    cfgprops_file_saved=Arxiu configuration.properties guardat en
-    cfgprops_ioerror=Error E/S a l'arxiu configuration.properties - verifiqui els logs del servidor
-    cfgprops_nocontent=Fitxer no desat: per la vostra seguretat, el fitxer no pot estar buit ni contenir etiquetes HTML.
-    cfgprops_not_editable=L'arxiu configuration.properties no pot ser editat
-    cfgprops_notice=Després de gravar, ha de sortir i tornar a iniciar sessió perquè els canvis siguin efectius
-    cfgprops_title=Editar els paràmetres de sistema de Queuemetrics
-    cfgprops_title_wizard=Consultar els paràmetres de Queuemetrics
-    cfgprops_wrong_line=Arxiu no guardat - Format incorrecte de la línia
     comboex_findlabel=Troba
     common_jdecode_error=S'ha generat un error durant la decodificació d'un valor JSON. Verificar la consola del navegador per mes informació.
     common_jencode_error=S'ha generat un error durant la codificació d'un valor JSON. Verificar la consola del navegador per mes informació.
@@ -3755,7 +3789,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -4885,6 +4919,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     # 🔴 reports_query_loading -> Loading
     ➡️ reports_query_loading=
     # 🔴 reports_ratio -> Ratio

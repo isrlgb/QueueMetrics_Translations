@@ -3115,6 +3115,35 @@ Description of security keys:
     home_wallboards_subtitle=Customizable wallboards for live data
     home_wallboards_title=Wallboards
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Edit QueueMetrics system parameters
+    cfgprops_title_wizard=Explore QueueMetrics system parameters
+    cfgprops_notice=After saving, you need to log off and on again for the parameters to be loaded.
+    cfgprops_n_items=N. Properties found
+    cfgprops_input=Enter one or more properties to set, one per line
+    cfgprops_comment=Reason for this change
+    cfgprops_col_name=Property name
+    cfgprops_col_value=Current value
+    cfgprops_col_comment=Reason
+    cfgprops_history_date=Date
+    cfgprops_history_user=User
+    cfgprops_history_value=Value
+
+These are obsolete:
+
+    cfgprops_file_saved=File configuration.properties saved at
+    cfgprops_ioerror=I/O error on file configuration.properties - check server logs.
+    cfgprops_nocontent=File not saved: for your safety, the file cannot be empty or contain HTML tags.
+    cfgprops_not_editable=The configuration.properties cannot be edited.
+    cfgprops_wrong_line=File not saved - Wrong format for line
+    
+
 ## Misc
 
 Other items
@@ -3160,14 +3189,6 @@ Other items
     ccase_client_name=Client
     ccase_client_xref=Ref. #
     cdp_clonedispositions=Clone Disposition Rules
-    cfgprops_file_saved=File configuration.properties saved at
-    cfgprops_ioerror=I/O error on file configuration.properties - check server logs.
-    cfgprops_nocontent=File not saved: for your safety, the file cannot be empty or contain HTML tags.
-    cfgprops_not_editable=The configuration.properties cannot be edited.
-    cfgprops_notice=After saving, you need to log off and on again for the parameters to be loaded.
-    cfgprops_title=Edit QueueMetrics system parameters
-    cfgprops_title_wizard=Explore QueueMetrics system parameters
-    cfgprops_wrong_line=File not saved - Wrong format for line
     comboex_findlabel=Find
     common_jdecode_error=Error while decoding JSON value. Check the browser's console for more information.
     common_jencode_error=Error while encoding JSON value. Check the browser's console for more information.

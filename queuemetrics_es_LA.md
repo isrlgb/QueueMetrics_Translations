@@ -1953,6 +1953,8 @@ Do not change the items below:
     qa_pop_print=Imprimir
     qa_prc_act=%
     qa_prc_min=% Exigido
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Solo una selección de filtrado por agente es soportada.
     qa_queue=Cola
     qa_range=Rango
@@ -2069,6 +2071,8 @@ Do not change the items below:
     rt3_actions_whisper=Whisper
     rt3_add=Añadir
     rt3_add_box=Añadir un nuevo box en la página
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Añadir nueva vista
     rt3_advanced=Avanzado
     rt3_ag_calls_alm_red=Alarma Roja de Agentes Ocupados
@@ -3157,6 +3161,44 @@ Description of security keys:
     home_wallboards_subtitle=Tableros personalizable para datos Live
     home_wallboards_title=Tableros
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Editar parámetros de sistema de QueueMetrics
+    cfgprops_title_wizard=Consultar los parámetros de QueueMetrics
+    cfgprops_notice=Despues de salvados los cambios, debe desloguearse y loguearse nuevamente para que los mismos surtan efecto.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Archivo configuration.properties guardado en
+    cfgprops_ioerror=Error de E/S en el archivo configuration.properties - chequee los logs del servidor.
+    cfgprops_nocontent=El archivo no fue guardado. Por su seguridad, el archivo no puede ser vacío ni contener tags HTML.
+    cfgprops_not_editable=El archivo configuration.properties no puede ser editado.
+    cfgprops_wrong_line=Archivo no guardado - Formato erróneo en la línea
+    
+
 ## Misc
 
 Other items
@@ -3204,14 +3246,6 @@ Other items
     ccase_client_name=Cliente
     ccase_client_xref=Ref. N°
     cdp_clonedispositions=Duplicar Reglas de Disposición
-    cfgprops_file_saved=Archivo configuration.properties guardado en
-    cfgprops_ioerror=Error de E/S en el archivo configuration.properties - chequee los logs del servidor.
-    cfgprops_nocontent=El archivo no fue guardado. Por su seguridad, el archivo no puede ser vacío ni contener tags HTML.
-    cfgprops_not_editable=El archivo configuration.properties no puede ser editado.
-    cfgprops_notice=Despues de salvados los cambios, debe desloguearse y loguearse nuevamente para que los mismos surtan efecto.
-    cfgprops_title=Editar parámetros de sistema de QueueMetrics
-    cfgprops_title_wizard=Consultar los parámetros de QueueMetrics
-    cfgprops_wrong_line=Archivo no guardado - Formato erróneo en la línea
     comboex_findlabel=Buscar
     common_jdecode_error=Se ha generado un error durante la decodificación de un valor JSON; verificar la consola del navegador para mayores informaciones.
     common_jencode_error=Se ha generado un error durante la codificación de un valor JSON; verificar la consola del navegador para mayores informaciones.
@@ -3824,8 +3858,8 @@ Other items
     reports_at_pause=Código de pausa:
     reports_at_queue=Cola:
     reports_at_queues=Colas:
-    reports_at_taken=Llamadas perdidas:
-    reports_at_talk=Tiempo de Conversación:
+    reports_at_taken=Llamadas atendidas:
+    reports_at_talk=Tiempo de Conv.:
     reports_at_wait=Espera:
     reports_atomic_filters=Filtros de expresión
     reports_autosave_toggle=Guardar automáticamente
@@ -4015,6 +4049,8 @@ Other items
     reports_qa_status=Estado
     reports_qa_uid=Único
     reports_qa_value=Valor
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=Cargando
     reports_ratio=Relación
     reports_recap_no_filters=Haga clic para agregar filtros adicionales

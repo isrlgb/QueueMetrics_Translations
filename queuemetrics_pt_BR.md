@@ -1950,6 +1950,8 @@ Do not change the items below:
     qa_pop_print=Imprimir
     qa_prc_act=%
     qa_prc_min=% exigida
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Somente um filtro de agente simultâneo é suportado.
     qa_queue=Fila
     qa_range=Faixa
@@ -2066,6 +2068,8 @@ Do not change the items below:
     rt3_actions_whisper=Sussurrar
     rt3_add=Adicionar Novo Widget
     rt3_add_box=Adicionar nova janela na página
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Adicionar nova view
     rt3_advanced=Avançado
     rt3_ag_calls_alm_red=Alarme Vermelho de Agentes Ocupados
@@ -3154,6 +3158,44 @@ Description of security keys:
     home_wallboards_subtitle=Painéis de parede personalizáveis para dados ao vivo
     home_wallboards_title=Wallboards
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Editar os parâmetros de sistema do QueueMetrics
+    cfgprops_title_wizard=Explorar os parâmetros de sistema do QueueMetrics
+    cfgprops_notice=Após salvar as alterações, você precisa logar-se novamente para que os novos parâmetros sejam recarregados.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Arquivo configuration.properties salvo em
+    cfgprops_ioerror=Erro de E/S no arquivo configuration.properties - verifique os logs do servidor.
+    cfgprops_nocontent=Arquivo não salvo: para sua segurança, o arquivo não pode estar vazio ou conter tags HTML
+    cfgprops_not_editable=O arquivo configuration.properties não pôde ser editado.
+    cfgprops_wrong_line=Arquivo não salvo - Formato incorreto na linha
+    
+
 ## Misc
 
 Other items
@@ -3199,14 +3241,6 @@ Other items
     ccase_client_name=Cliente
     ccase_client_xref=No. ref.
     cdp_clonedispositions=Duplica as Regras de Disposição
-    cfgprops_file_saved=Arquivo configuration.properties salvo em
-    cfgprops_ioerror=Erro de E/S no arquivo configuration.properties - verifique os logs do servidor.
-    cfgprops_nocontent=Arquivo não salvo: para sua segurança, o arquivo não pode estar vazio ou conter tags HTML
-    cfgprops_not_editable=O arquivo configuration.properties não pôde ser editado.
-    cfgprops_notice=Após salvar as alterações, você precisa logar-se novamente para que os novos parâmetros sejam recarregados.
-    cfgprops_title=Editar os parâmetros de sistema do QueueMetrics
-    cfgprops_title_wizard=Explorar os parâmetros de sistema do QueueMetrics
-    cfgprops_wrong_line=Arquivo não salvo - Formato incorreto na linha
     comboex_findlabel=Buscar
     common_jdecode_error=Erro enquanto decodificava valor JSON. Verifique no console do navegador para mais informações.
     common_jencode_error=Erro enquanto codificava valor JSON. Verifique no console do navegador para mais informações.
@@ -4008,6 +4042,8 @@ Other items
     reports_qa_status=Estado
     reports_qa_uid=ID Único
     reports_qa_value=Valor
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=Carregando
     reports_ratio=Relação
     reports_recap_no_filters=Clique para adicionar filtros adicionais

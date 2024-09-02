@@ -2159,6 +2159,8 @@ Do not change the items below:
     qa_pop_print=ბეჭდვა
     qa_prc_act=%
     qa_prc_min=მოთხოვნილის %
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=აგენტის მიხედვით შესაძლებელია მხოლოდ ერთი ფილტრის არჩევა 
     qa_queue=რიგი
     qa_range=დიაპაზონი
@@ -2315,6 +2317,8 @@ Do not change the items below:
     ➡️ rt3_actions_whisper=
     rt3_add=დამატება
     rt3_add_box=გვერდზე ახალი განყოფილების დამატება
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=ახალი პანორამის დამატება
     # 🔴 rt3_advanced -> Advanced
     ➡️ rt3_advanced=
@@ -3748,6 +3752,45 @@ Description of security keys:
     # 🔴 home_wallboards_title -> Wallboards
     ➡️ home_wallboards_title=
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=QueueMetrics სისტემის პარამეტრების რედაქტირება
+    cfgprops_title_wizard=QueueMetrics სისტემის პარამეტრების ნახვა
+    cfgprops_notice=შენახვის შემდეგ, აუცილებელია გამოხვიდეთ და ახლიდან შეხვიდეთ სისტემაში, რათა ჩაიტვირთოს ახალი პარამეტრები.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=ფაილი 'configuration.properties' შენახულია
+    cfgprops_ioerror=ფაილში 'configuration.properties' შეტანა/გამოტანის დროს შეცდომაა, შეამოწმეთ სერვერზე მოქმედებები
+    # 🔴 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
+    ➡️ cfgprops_nocontent=
+    cfgprops_not_editable=ფაილი 'configuration.properties' არ რედაქტირდება
+    cfgprops_wrong_line=ფაილი არ არის შენახული —  ხაზის ფორმატი არასწორია.
+    
+
 ## Misc
 
 Other items
@@ -3820,15 +3863,6 @@ Other items
     # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=განთავსების წესის კლონირება
-    cfgprops_file_saved=ფაილი 'configuration.properties' შენახულია
-    cfgprops_ioerror=ფაილში 'configuration.properties' შეტანა/გამოტანის დროს შეცდომაა, შეამოწმეთ სერვერზე მოქმედებები
-    # 🔴 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
-    ➡️ cfgprops_nocontent=
-    cfgprops_not_editable=ფაილი 'configuration.properties' არ რედაქტირდება
-    cfgprops_notice=შენახვის შემდეგ, აუცილებელია გამოხვიდეთ და ახლიდან შეხვიდეთ სისტემაში, რათა ჩაიტვირთოს ახალი პარამეტრები.
-    cfgprops_title=QueueMetrics სისტემის პარამეტრების რედაქტირება
-    cfgprops_title_wizard=QueueMetrics სისტემის პარამეტრების ნახვა
-    cfgprops_wrong_line=ფაილი არ არის შენახული —  ხაზის ფორმატი არასწორია.
     comboex_findlabel=ძებნა
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     ➡️ common_jdecode_error=
@@ -4044,7 +4078,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -5179,6 +5213,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     # 🔴 reports_query_loading -> Loading
     ➡️ reports_query_loading=
     # 🔴 reports_ratio -> Ratio

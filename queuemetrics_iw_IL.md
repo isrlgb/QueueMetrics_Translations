@@ -2498,7 +2498,7 @@ Do not change the items below:
     ➡️ qa_comment=
     # 🔴 qa_date -> Date
     ➡️ qa_date=
-    # 🔴 qa_form -> Form:
+    # 🔴 qa_form -> Form
     ➡️ qa_form=
     # 🔴 qa_frm_about -> About
     ➡️ qa_frm_about=
@@ -2826,6 +2826,8 @@ Do not change the items below:
     ➡️ qa_prc_act=
     # 🔴 qa_prc_min -> % needed
     ➡️ qa_prc_min=
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     # 🔴 qa_queryfilterwarn -> Only one agent filter selection at time is supported.
     ➡️ qa_queryfilterwarn=
     # 🔴 qa_queue -> Queue
@@ -3050,6 +3052,8 @@ Do not change the items below:
     ➡️ rt3_add=
     # 🔴 rt3_add_box -> Add new widget on page
     ➡️ rt3_add_box=
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     # 🔴 rt3_add_view -> Add new view
     ➡️ rt3_add_view=
     # 🔴 rt3_advanced -> Advanced
@@ -5093,6 +5097,44 @@ Description of security keys:
     # 🔴 home_wallboards_title -> Wallboards
     ➡️ home_wallboards_title=
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=ערוך הגדרות מערכת
+    cfgprops_title_wizard=הגדרות מערכת
+    cfgprops_notice=לאחר השמירה עליך לצאת ולהיכנס מחדש למערכת
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=קובץ ההגדרות נשמר ב
+    cfgprops_ioerror=שגיאת כתיבה לדיסק בדוק לוגים
+    cfgprops_nocontent=קובץ לא נשמר - נא הזן שם ללא סימנים או תגיות
+    cfgprops_not_editable=קובץ ההגדרות אינו ניתן לעריכה
+    cfgprops_wrong_line=קובץ לא נשמר, כתיב לא תקין לשורה
+    
+
 ## Misc
 
 Other items
@@ -5165,14 +5207,6 @@ Other items
     # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=שכפל תוצאת שיחה
-    cfgprops_file_saved=קובץ ההגדרות נשמר ב
-    cfgprops_ioerror=שגיאת כתיבה לדיסק בדוק לוגים
-    cfgprops_nocontent=קובץ לא נשמר - נא הזן שם ללא סימנים או תגיות
-    cfgprops_not_editable=קובץ ההגדרות אינו ניתן לעריכה
-    cfgprops_notice=לאחר השמירה עליך לצאת ולהיכנס מחדש למערכת
-    cfgprops_title=ערוך הגדרות מערכת
-    cfgprops_title_wizard=הגדרות מערכת
-    cfgprops_wrong_line=קובץ לא נשמר, כתיב לא תקין לשורה
     comboex_findlabel=מצא
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     ➡️ common_jdecode_error=
@@ -5451,7 +5485,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -6730,6 +6764,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     # 🔴 reports_query_loading -> Loading
     ➡️ reports_query_loading=
     # 🔴 reports_ratio -> Ratio

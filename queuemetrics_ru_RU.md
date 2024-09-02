@@ -2036,6 +2036,8 @@ Do not change the items below:
     qa_pop_print=Печать
     qa_prc_act=%
     qa_prc_min=% требуемого
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Возможен выбор только одного фильтра по агенту 
     qa_queue=Очередь
     qa_range=Диапазон
@@ -2153,6 +2155,8 @@ Do not change the items below:
     rt3_actions_whisper=Шепот
     rt3_add=Добавить
     rt3_add_box=Добавить новый виджет на страницу
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=Добавить новое представление
     rt3_advanced=Расширенный
     rt3_ag_calls_alm_red=Агенты заняты. Красное предупреждение
@@ -3282,6 +3286,44 @@ Description of security keys:
     home_wallboards_subtitle=Настраиваемые табло для данных в реальном времени
     home_wallboards_title=Табло
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Редактировать системные параметры QueueMetrics
+    cfgprops_title_wizard=Просмотреть параметры системы QueueMetrics
+    cfgprops_notice=После сохранения, Вам необходимо выйти из системы и снова войти, чтобы загрузить новые параметры
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Файл 'configuration.properties' сохранен в
+    cfgprops_ioerror=Ошибка ввода/вывода в файле 'configuration.properties'configuration.properties' - проверьте логи сервера 
+    cfgprops_nocontent=Файл не сохранен: для вашей безопасности, файл не может быть пустым или содержать тэги HTML.
+    cfgprops_not_editable=Файл 'configuration.properties' не может быть отредактирован
+    cfgprops_wrong_line=Файл не сохранен - неверный формат строки
+    
+
 ## Misc
 
 Other items
@@ -3349,14 +3391,6 @@ Other items
     ccase_client_name=Клиент
     ccase_client_xref=№ ссылки
     cdp_clonedispositions=Клонировать правила размещения
-    cfgprops_file_saved=Файл 'configuration.properties' сохранен в
-    cfgprops_ioerror=Ошибка ввода/вывода в файле 'configuration.properties'configuration.properties' - проверьте логи сервера 
-    cfgprops_nocontent=Файл не сохранен: для вашей безопасности, файл не может быть пустым или содержать тэги HTML.
-    cfgprops_not_editable=Файл 'configuration.properties' не может быть отредактирован
-    cfgprops_notice=После сохранения, Вам необходимо выйти из системы и снова войти, чтобы загрузить новые параметры
-    cfgprops_title=Редактировать системные параметры QueueMetrics
-    cfgprops_title_wizard=Просмотреть параметры системы QueueMetrics
-    cfgprops_wrong_line=Файл не сохранен - неверный формат строки
     comboex_findlabel=Найти
     common_jdecode_error=Ошибка при декодировании значения JSON. Проверьте консоль браузера для получения дополнительной информации.
     common_jencode_error=Ошибка при декодировании значения JSON. Проверьте консоль браузера для получения дополнительной информации.
@@ -3555,7 +3589,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -4500,6 +4534,8 @@ Other items
     reports_qa_status=Состояние
     reports_qa_uid=Уникальный ID
     reports_qa_value=Значение
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=Загрузка
     reports_ratio=Соотношение
     reports_recap_no_filters=Нажмите для добавления дополнительных фильтров

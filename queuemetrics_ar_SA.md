@@ -2114,6 +2114,8 @@ Do not change the items below:
     qa_pop_print=طبع
     qa_prc_act=%
     qa_prc_min=٪ اللازمة
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=فقط بالامكان تفعيل فلتر اختيار واحد للوكيل كل مرة
     qa_queue=صف
     qa_range=نطاق
@@ -2231,6 +2233,8 @@ Do not change the items below:
     rt3_actions_whisper=همس
     rt3_add=اضافة Widget جديد
     rt3_add_box=اضافة صندوق جديد في الصفحة
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     rt3_add_view=اضافة عرض جديد
     rt3_advanced=متقدم
     rt3_ag_calls_alm_red=تنبيه أحمر للوكلاء المشغولين
@@ -3384,6 +3388,44 @@ Description of security keys:
     home_wallboards_subtitle=شاشة قابلة للتعديل لعرض المعلومات المباشرة
     home_wallboards_title=شاشة معلومات
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=QueueMetrics تعديل  معاملات نظام
+    cfgprops_title_wizard=استكشاف محددات نظام كيوميتركس
+    cfgprops_notice=بعد الحفظ، تحتاج إلى تسجيل الخروج والدخول مرة أخرى ليتم اعادة تحميل التعديلات
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=تم حفظ ملف خصائص الاعدادات في
+    cfgprops_ioerror=خطأ فى الدخل-الخرج لملف خصائص الاعدادات يرجى التحقق من سجلات الخادم 
+    cfgprops_nocontent=لم يتم حفظ الملف، لا يفضل أن يكون الملف فارغًا او يحتوي على  HTML tags
+    cfgprops_not_editable=لا يمكن تعديل الاعدادات
+    cfgprops_wrong_line=الملف لم يحفظ - تنسيق خاطئ للسطر
+    
+
 ## Misc
 
 Other items
@@ -3456,14 +3498,6 @@ Other items
     # 🔴 ccase_client_xref -> Ref. #
     ➡️ ccase_client_xref=
     cdp_clonedispositions=نسخ القواعد النهائية للمكالمة
-    cfgprops_file_saved=تم حفظ ملف خصائص الاعدادات في
-    cfgprops_ioerror=خطأ فى الدخل-الخرج لملف خصائص الاعدادات يرجى التحقق من سجلات الخادم 
-    cfgprops_nocontent=لم يتم حفظ الملف، لا يفضل أن يكون الملف فارغًا او يحتوي على  HTML tags
-    cfgprops_not_editable=لا يمكن تعديل الاعدادات
-    cfgprops_notice=بعد الحفظ، تحتاج إلى تسجيل الخروج والدخول مرة أخرى ليتم اعادة تحميل التعديلات
-    cfgprops_title=QueueMetrics تعديل  معاملات نظام
-    cfgprops_title_wizard=استكشاف محددات نظام كيوميتركس
-    cfgprops_wrong_line=الملف لم يحفظ - تنسيق خاطئ للسطر
     comboex_findlabel=إيجاد
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
     ➡️ common_jdecode_error=
@@ -3676,7 +3710,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -4692,6 +4726,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     reports_query_loading=تحميل
     # 🔴 reports_ratio -> Ratio
     ➡️ reports_ratio=

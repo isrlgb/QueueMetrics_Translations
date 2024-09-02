@@ -2907,6 +2907,8 @@ Do not change the items below:
     qa_pop_print=Tlačiť
     qa_prc_act=%
     qa_prc_min=% je potrebných
+    # 🔴 qa_print_report -> Print QA Report
+    ➡️ qa_print_report=
     qa_queryfilterwarn=Len jeden agent vo vyhľadávacom filtri je podporovaný
     qa_queue=Fronta
     qa_range=Rozsah
@@ -3068,6 +3070,8 @@ Do not change the items below:
     ➡️ rt3_add=
     # 🔴 rt3_add_box -> Add new widget on page
     ➡️ rt3_add_box=
+    # 🔴 rt3_add_queue -> Select Queue
+    ➡️ rt3_add_queue=
     # 🔴 rt3_add_view -> Add new view
     ➡️ rt3_add_view=
     # 🔴 rt3_advanced -> Advanced
@@ -5024,6 +5028,46 @@ Description of security keys:
     # 🔴 home_wallboards_title -> Wallboards
     ➡️ home_wallboards_title=
 
+
+## System configuration
+
+### Editors of System properties
+
+These apply to both "Edit configuration properties" and "Explore parameters":
+
+    cfgprops_title=Upraviť Queuemetrics systémové parametre
+    # 🔴 cfgprops_title_wizard -> Explore QueueMetrics system parameters
+    ➡️ cfgprops_title_wizard=
+    cfgprops_notice=Po uložení, budete musieť odhlásiť a znovu prihlásiť pre znovu načítanie parametrov.
+    # 🔴 cfgprops_n_items -> N. Properties found
+    ➡️ cfgprops_n_items=
+    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
+    ➡️ cfgprops_input=
+    # 🔴 cfgprops_comment -> Reason for this change
+    ➡️ cfgprops_comment=
+    # 🔴 cfgprops_col_name -> Property name
+    ➡️ cfgprops_col_name=
+    # 🔴 cfgprops_col_value -> Current value
+    ➡️ cfgprops_col_value=
+    # 🔴 cfgprops_col_comment -> Reason
+    ➡️ cfgprops_col_comment=
+    # 🔴 cfgprops_history_date -> Date
+    ➡️ cfgprops_history_date=
+    # 🔴 cfgprops_history_user -> User
+    ➡️ cfgprops_history_user=
+    # 🔴 cfgprops_history_value -> Value
+    ➡️ cfgprops_history_value=
+
+These are obsolete:
+
+    cfgprops_file_saved=Konfigurčný súbor bol uložený ako
+    cfgprops_ioerror=I/O chyba v konfiguračnom súbore vlastností - overte logy na servery
+    # 🔴 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
+    ➡️ cfgprops_nocontent=
+    cfgprops_not_editable=Konfiguračný súbor vlastností nemôže byť upravený
+    cfgprops_wrong_line=Súbor nebol uložený - zlý formát na riadku
+    
+
 ## Misc
 
 Other items
@@ -5099,16 +5143,6 @@ Other items
     ➡️ ccase_client_xref=
     # 🔴 cdp_clonedispositions -> Clone Disposition Rules
     ➡️ cdp_clonedispositions=
-    cfgprops_file_saved=Konfigurčný súbor bol uložený ako
-    cfgprops_ioerror=I/O chyba v konfiguračnom súbore vlastností - overte logy na servery
-    # 🔴 cfgprops_nocontent -> File not saved: for your safety, the file cannot be empty or contain HTML tags.
-    ➡️ cfgprops_nocontent=
-    cfgprops_not_editable=Konfiguračný súbor vlastností nemôže byť upravený
-    cfgprops_notice=Po uložení, budete musieť odhlásiť a znovu prihlásiť pre znovu načítanie parametrov.
-    cfgprops_title=Upraviť Queuemetrics systémové parametre
-    # 🔴 cfgprops_title_wizard -> Explore QueueMetrics system parameters
-    ➡️ cfgprops_title_wizard=
-    cfgprops_wrong_line=Súbor nebol uložený - zlý formát na riadku
     # 🔴 comboex_findlabel -> Find
     ➡️ comboex_findlabel=
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
@@ -5357,7 +5391,7 @@ Other items
     ➡️ memo_details_title=
     # 🔴 memo_details_to -> TO
     ➡️ memo_details_to=
-    # 🔴 memo_details_type -> type
+    # 🔴 memo_details_type -> Type
     ➡️ memo_details_type=
     # 🔴 memo_details_user_from -> From
     ➡️ memo_details_user_from=
@@ -6500,6 +6534,8 @@ Other items
     ➡️ reports_qa_uid=
     # 🔴 reports_qa_value -> Value
     ➡️ reports_qa_value=
+    # 🔴 reports_qa_print -> Print
+    ➡️ reports_qa_print=
     # 🔴 reports_query_loading -> Loading
     ➡️ reports_query_loading=
     # 🔴 reports_ratio -> Ratio
