@@ -3980,6 +3980,7 @@ Other items
     reports_settings=Settings
     reports_settings_areacode=Area Code
     reports_settings_datablock=DataBlock
+    reports_settings_default=Reset to System Default
     reports_settings_hourlyslot=Hourly Slot
     reports_settings_report=Report
     reports_settings_shortcallattemptwaitlimit=Short Call Attempt Wait Limit

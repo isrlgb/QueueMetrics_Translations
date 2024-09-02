@@ -3979,6 +3979,7 @@ Other items
     reports_settings=Impostazioni
     reports_settings_areacode=Prefisso
     reports_settings_datablock=DataBlock
+    reports_settings_default=Usa Default di sistema
     reports_settings_hourlyslot=Slot orario
     reports_settings_report=Report
     reports_settings_shortcallattemptwaitlimit=Limite minimo di attesa tentativo di chiamata
