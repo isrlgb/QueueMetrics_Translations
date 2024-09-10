@@ -4329,6 +4329,7 @@ Other items
     sync2_chunker_actions=actions left.
     sync2_chunker_chunks=Uploading configuration
     sync2_chunker_sending=Applying actions
+    sync2_chunker_waiting=Waiting...
     sync2_cluster=Cluster Settings
     sync2_cluster_info=Cluster Information
     sync2_collapse=Collapse
