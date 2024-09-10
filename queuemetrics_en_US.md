@@ -4324,9 +4324,11 @@ Other items
     sync2_apply=Apply
     sync2_choose_pbx=PBX
     sync2_choose_source=Select Source
-    sync2_chunker_uploading=Uploading new configuration
+    sync2_chunker_uploading=Data Upload
     sync2_chunker_progress=chunks left.
     sync2_chunker_actions=actions left.
+    sync2_chunker_chunks=Uploading configuration
+    sync2_chunker_sending=Applying actions
     sync2_cluster=Cluster Settings
     sync2_cluster_info=Cluster Information
     sync2_collapse=Collapse
