@@ -3614,6 +3614,12 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     ➡️ cfgprops_input=
     # 🔴 cfgprops_comment -> Reason for this change
     ➡️ cfgprops_comment=
+    # 🔴 cfgprops_sort_by -> Sort by:
+    ➡️ cfgprops_sort_by=
+    # 🔴 cfgprops_sort_bydate -> Date
+    ➡️ cfgprops_sort_bydate=
+    # 🔴 cfgprops_sort_byname -> Name
+    ➡️ cfgprops_sort_byname=
     # 🔴 cfgprops_col_name -> Property name
     ➡️ cfgprops_col_name=
     # 🔴 cfgprops_col_value -> Current value
@@ -5093,6 +5099,8 @@ Other items
     ➡️ reports_settings_areacode=
     # 🔴 reports_settings_datablock -> DataBlock
     ➡️ reports_settings_datablock=
+    # 🔴 reports_settings_default -> Reset to System Default
+    ➡️ reports_settings_default=
     # 🔴 reports_settings_hourlyslot -> Hourly Slot
     ➡️ reports_settings_hourlyslot=
     # 🔴 reports_settings_report -> Report
@@ -5495,6 +5503,18 @@ Other items
     sync2_apply=Εφαρμογή ρυθμίσεων
     sync2_choose_pbx=PBX
     sync2_choose_source=Επιλογή πηγής
+    # 🔴 sync2_chunker_uploading -> Data Upload
+    ➡️ sync2_chunker_uploading=
+    # 🔴 sync2_chunker_progress -> Uploaded chunks
+    ➡️ sync2_chunker_progress=
+    # 🔴 sync2_chunker_actions -> Actions left
+    ➡️ sync2_chunker_actions=
+    # 🔴 sync2_chunker_chunks -> Uploading configuration
+    ➡️ sync2_chunker_chunks=
+    # 🔴 sync2_chunker_sending -> Applying actions
+    ➡️ sync2_chunker_sending=
+    # 🔴 sync2_chunker_waiting -> Waiting...
+    ➡️ sync2_chunker_waiting=
     sync2_cluster=Ρυθμίσεις συμπλέγματος
     sync2_cluster_info=Πληροφορίες συμπλέγματος
     # 🔴 sync2_collapse -> Collapse

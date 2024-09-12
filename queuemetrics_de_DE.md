@@ -3145,6 +3145,12 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     ➡️ cfgprops_input=
     # 🔴 cfgprops_comment -> Reason for this change
     ➡️ cfgprops_comment=
+    # 🔴 cfgprops_sort_by -> Sort by:
+    ➡️ cfgprops_sort_by=
+    # 🔴 cfgprops_sort_bydate -> Date
+    ➡️ cfgprops_sort_bydate=
+    # 🔴 cfgprops_sort_byname -> Name
+    ➡️ cfgprops_sort_byname=
     # 🔴 cfgprops_col_name -> Property name
     ➡️ cfgprops_col_name=
     # 🔴 cfgprops_col_value -> Current value
@@ -4040,6 +4046,8 @@ Other items
     reports_settings=Einstellungen
     reports_settings_areacode=Vorwahl
     reports_settings_datablock=DataBlock
+    # 🔴 reports_settings_default -> Reset to System Default
+    ➡️ reports_settings_default=
     reports_settings_hourlyslot=Stündlicher Slot
     reports_settings_report=Bericht
     reports_settings_shortcallattemptwaitlimit=Wartelimit für kurze Anrufversuche
@@ -4362,6 +4370,18 @@ Other items
     sync2_apply=Anwenden
     sync2_choose_pbx=PBX
     sync2_choose_source=Quelle auswählen
+    # 🔴 sync2_chunker_uploading -> Data Upload
+    ➡️ sync2_chunker_uploading=
+    # 🔴 sync2_chunker_progress -> Uploaded chunks
+    ➡️ sync2_chunker_progress=
+    # 🔴 sync2_chunker_actions -> Actions left
+    ➡️ sync2_chunker_actions=
+    # 🔴 sync2_chunker_chunks -> Uploading configuration
+    ➡️ sync2_chunker_chunks=
+    # 🔴 sync2_chunker_sending -> Applying actions
+    ➡️ sync2_chunker_sending=
+    # 🔴 sync2_chunker_waiting -> Waiting...
+    ➡️ sync2_chunker_waiting=
     sync2_cluster=Cluster-Einstellungen
     sync2_cluster_info=Cluster-Informationen
     sync2_collapse=Kollabieren

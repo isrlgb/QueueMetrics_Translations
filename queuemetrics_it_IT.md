@@ -3128,6 +3128,12 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_n_items=N. Proprietà trovate
     cfgprops_input=Inserisci una o più proprietà da salvare, una per riga
     cfgprops_comment=Ragione per la modifica
+    # 🔴 cfgprops_sort_by -> Sort by:
+    ➡️ cfgprops_sort_by=
+    # 🔴 cfgprops_sort_bydate -> Date
+    ➡️ cfgprops_sort_bydate=
+    # 🔴 cfgprops_sort_byname -> Name
+    ➡️ cfgprops_sort_byname=
     cfgprops_col_name=Nome della proprietà
     cfgprops_col_value=Valore attuale
     cfgprops_col_comment=Ragione
@@ -4325,6 +4331,18 @@ Other items
     sync2_apply=Applica configurazione
     sync2_choose_pbx=PBX
     sync2_choose_source=Seleziona sorgente
+    # 🔴 sync2_chunker_uploading -> Data Upload
+    ➡️ sync2_chunker_uploading=
+    # 🔴 sync2_chunker_progress -> Uploaded chunks
+    ➡️ sync2_chunker_progress=
+    # 🔴 sync2_chunker_actions -> Actions left
+    ➡️ sync2_chunker_actions=
+    # 🔴 sync2_chunker_chunks -> Uploading configuration
+    ➡️ sync2_chunker_chunks=
+    # 🔴 sync2_chunker_sending -> Applying actions
+    ➡️ sync2_chunker_sending=
+    # 🔴 sync2_chunker_waiting -> Waiting...
+    ➡️ sync2_chunker_waiting=
     sync2_cluster=Impostazioni Cluster
     sync2_cluster_info=Informazioni Cluster
     sync2_collapse=Nascondi
