@@ -3177,7 +3177,7 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     ➡️ cfgprops_input=
     # 🔴 cfgprops_comment -> Reason for this change
     ➡️ cfgprops_comment=
-    # 🔴 cfgprops_sort_by -> Sort by:
+    # 🔴 cfgprops_sort_by -> Sort by
     ➡️ cfgprops_sort_by=
     # 🔴 cfgprops_sort_bydate -> Date
     ➡️ cfgprops_sort_bydate=

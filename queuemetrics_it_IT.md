@@ -3128,7 +3128,7 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_n_items=N. Proprietà trovate
     cfgprops_input=Inserisci una o più proprietà da salvare, una per riga
     cfgprops_comment=Ragione per la modifica
-    # 🔴 cfgprops_sort_by -> Sort by:
+    # 🔴 cfgprops_sort_by -> Sort by
     ➡️ cfgprops_sort_by=
     # 🔴 cfgprops_sort_bydate -> Date
     ➡️ cfgprops_sort_bydate=
