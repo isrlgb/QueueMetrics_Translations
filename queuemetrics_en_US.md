@@ -3128,7 +3128,7 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_n_items=N. Properties found
     cfgprops_input=Enter one or more properties to set, one per line
     cfgprops_comment=Reason for this change
-    cfgprops_sort_by=Sort by:
+    cfgprops_sort_by=Sort by
     cfgprops_sort_bydate=Date
     cfgprops_sort_byname=Name
     cfgprops_col_name=Property name
