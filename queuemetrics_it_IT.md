@@ -3130,7 +3130,7 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_comment=Ragione per la modifica
     # 🔴 cfgprops_sort_by -> Sort by
     ➡️ cfgprops_sort_by=
-    # 🔴 cfgprops_sort_bydate -> Date
+    # 🔴 cfgprops_sort_bydate -> Last update
     ➡️ cfgprops_sort_bydate=
     # 🔴 cfgprops_sort_byname -> Name
     ➡️ cfgprops_sort_byname=
@@ -3140,6 +3140,9 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_history_date=Data
     cfgprops_history_user=Utente
     cfgprops_history_value=Valore
+    # 🔴 cfgprops_history_previous -> Previous entries
+    ➡️ cfgprops_history_previous=
+    
 
 These are obsolete:
 

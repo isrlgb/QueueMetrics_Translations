@@ -3553,7 +3553,7 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     ➡️ cfgprops_comment=
     # 🔴 cfgprops_sort_by -> Sort by
     ➡️ cfgprops_sort_by=
-    # 🔴 cfgprops_sort_bydate -> Date
+    # 🔴 cfgprops_sort_bydate -> Last update
     ➡️ cfgprops_sort_bydate=
     # 🔴 cfgprops_sort_byname -> Name
     ➡️ cfgprops_sort_byname=
@@ -3569,6 +3569,9 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     ➡️ cfgprops_history_user=
     # 🔴 cfgprops_history_value -> Value
     ➡️ cfgprops_history_value=
+    # 🔴 cfgprops_history_previous -> Previous entries
+    ➡️ cfgprops_history_previous=
+    
 
 These are obsolete:
 
