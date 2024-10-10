@@ -3368,6 +3368,7 @@ Other items
     memo_related_to=Related to
     memo_status=Status
     memo_tree_empty=Empty
+    memo_tree_title=Linked memos
     memo_type=Type
     menu_licence_page=Licence Page
     menu_user_page=User Info
