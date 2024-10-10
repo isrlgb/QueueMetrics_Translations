@@ -23,400 +23,205 @@ Do not change the items below:
 
 ## Data decoders
 
-    # 🔴 td_agawlogon_logged_off -> Logged off
-    ➡️ td_agawlogon_logged_off=
-    # 🔴 td_agawlogon_logged_on -> Logged on
-    ➡️ td_agawlogon_logged_on=
-    # 🔴 td_agawlogon_paused -> Paused
-    ➡️ td_agawlogon_paused=
-    # 🔴 td_agawlogon_unknown -> Unknown
-    ➡️ td_agawlogon_unknown=
-    # 🔴 td_agawstat_current -> Current
-    ➡️ td_agawstat_current=
-    # 🔴 td_agawstat_inserting -> Inserting
-    ➡️ td_agawstat_inserting=
-    # 🔴 td_agawstat_obsolete -> Obsolete
-    ➡️ td_agawstat_obsolete=
-    # 🔴 td_agawstat_querying -> Querying
-    ➡️ td_agawstat_querying=
-    # 🔴 td_aglev_main -> Main
-    ➡️ td_aglev_main=
-    # 🔴 td_aglev_spill -> Spill
-    ➡️ td_aglev_spill=
-    # 🔴 td_aglev_undefined -> <font color='red'>Undefined</font>
-    ➡️ td_aglev_undefined=
-    # 🔴 td_aglev_wrap -> Wrap
-    ➡️ td_aglev_wrap=
-    # 🔴 td_agstatus_agent_is_currently_logged_off -> Agent is currently logged off
-    ➡️ td_agstatus_agent_is_currently_logged_off=
-    # 🔴 td_agstatus_agent_is_currently_logged_on -> Agent is currently logged on
-    ➡️ td_agstatus_agent_is_currently_logged_on=
-    # 🔴 td_agstatus_agent_is_currently_logged_on_some_queues -> Agent is currently logged on queues
-    ➡️ td_agstatus_agent_is_currently_logged_on_some_queues=
-    # 🔴 td_agstatus_agent_is_currently_paused -> Agent is currently paused
-    ➡️ td_agstatus_agent_is_currently_paused=
-    # 🔴 td_agstatus_agent_status_cannot_be_determined -> Agent status cannot be determined
-    ➡️ td_agstatus_agent_status_cannot_be_determined=
-    # 🔴 td_ancod_agent_availability_for_all_the_queues -> Agent availability (for all the queues)
-    ➡️ td_ancod_agent_availability_for_all_the_queues=
-    # 🔴 td_ancod_agent_sessions_detail -> Agent sessions: Detail
-    ➡️ td_ancod_agent_sessions_detail=
-    # 🔴 td_ancod_answered_calls_agents_on_queue -> Answered calls: Agents on queue
-    ➡️ td_ancod_answered_calls_agents_on_queue=
-    # 🔴 td_ancod_answered_calls_details -> Answered calls: Details
-    ➡️ td_ancod_answered_calls_details=
-    # 🔴 td_ancod_answered_calls_disconnection_causes -> Answered calls: Disconnection causes
-    ➡️ td_ancod_answered_calls_disconnection_causes=
-    # 🔴 td_ancod_answered_calls_for_selected_queues -> Answered calls (for selected queues)
-    ➡️ td_ancod_answered_calls_for_selected_queues=
-    # 🔴 td_ancod_answered_calls_sla -> Answered calls: SLA
-    ➡️ td_ancod_answered_calls_sla=
-    # 🔴 td_ancod_call_distribuition_by_day_of_week -> Call distribuition by day of week
-    ➡️ td_ancod_call_distribuition_by_day_of_week=
-    # 🔴 td_ancod_call_distribuition_by_hour -> Call distribuition by hour
-    ➡️ td_ancod_call_distribuition_by_hour=
-    # 🔴 td_ancod_call_distribuition_per_day -> Call distribuition per day
-    ➡️ td_ancod_call_distribuition_per_day=
-    # 🔴 td_ancod_unanswered_calls_details -> Unanswered calls: Details
-    ➡️ td_ancod_unanswered_calls_details=
-    # 🔴 td_ancod_unanswered_calls_disconnection_causes -> Unanswered calls: Disconnection causes
-    ➡️ td_ancod_unanswered_calls_disconnection_causes=
-    # 🔴 td_autoconf_wz_agentcode -> Agent code
-    ➡️ td_autoconf_wz_agentcode=
-    # 🔴 td_autoconf_wz_agentname -> Full name
-    ➡️ td_autoconf_wz_agentname=
-    # 🔴 td_autoconf_wz_agentpwd -> Password
-    ➡️ td_autoconf_wz_agentpwd=
-    # 🔴 td_autoconf_wz_agents -> Agents
-    ➡️ td_autoconf_wz_agents=
-    # 🔴 td_autoconf_wz_queuename -> Queue name
-    ➡️ td_autoconf_wz_queuename=
-    # 🔴 td_autoconf_wz_queues -> Queues
-    ➡️ td_autoconf_wz_queues=
-    # 🔴 td_autoconf_wz_queuewrapup -> Wrap-up time
-    ➡️ td_autoconf_wz_queuewrapup=
-    # 🔴 td_autoconf_wz_servername -> Server
-    ➡️ td_autoconf_wz_servername=
-    # 🔴 td_autoconf_wz_start -> Source
-    ➡️ td_autoconf_wz_start=
-    # 🔴 td_autoconf_wz_summary -> Summary
-    ➡️ td_autoconf_wz_summary=
-    # 🔴 td_autoconf_wz_summary_id -> Id
-    ➡️ td_autoconf_wz_summary_id=
-    # 🔴 td_autoconf_wz_summary_name -> Full name
-    ➡️ td_autoconf_wz_summary_name=
-    # 🔴 td_autoconf_wz_summary_operation -> Operation type
-    ➡️ td_autoconf_wz_summary_operation=
-    # 🔴 td_autoconf_wz_summary_opresult -> Operation result
-    ➡️ td_autoconf_wz_summary_opresult=
-    # 🔴 td_autoconf_wz_summary_type -> Type
-    ➡️ td_autoconf_wz_summary_type=
-    # 🔴 td_autoconf_wz_users -> Users
-    ➡️ td_autoconf_wz_users=
-    # 🔴 td_calloutc_? -> 
-    ➡️ td_calloutc_?=
-    # 🔴 td_calloutc_contact -> Contact
-    ➡️ td_calloutc_contact=
-    # 🔴 td_calloutc_known -> Known
-    ➡️ td_calloutc_known=
-    # 🔴 td_calloutc_none -> None
-    ➡️ td_calloutc_none=
-    # 🔴 td_calloutc_qualif -> Qualif.
-    ➡️ td_calloutc_qualif=
-    # 🔴 td_calloutc_sale -> Sale
-    ➡️ td_calloutc_sale=
-    # 🔴 td_calloutc_unknown -> Unknown
-    ➡️ td_calloutc_unknown=
-    # 🔴 td_callstatus_html_in_conversation -> <font color='green'>In conversation</font>
-    ➡️ td_callstatus_html_in_conversation=
-    # 🔴 td_callstatus_html_terminated -> Terminated
-    ➡️ td_callstatus_html_terminated=
-    # 🔴 td_callstatus_html_transferred -> <font color='red'>Transferred</font>
-    ➡️ td_callstatus_html_transferred=
-    # 🔴 td_callstatus_in_conversation -> In conversation
-    ➡️ td_callstatus_in_conversation=
-    # 🔴 td_callstatus_terminated -> Terminated
-    ➡️ td_callstatus_terminated=
-    # 🔴 td_callstatus_transferred -> Transferred
-    ➡️ td_callstatus_transferred=
-    # 🔴 td_cko_abandon -> Abandon
-    ➡️ td_cko_abandon=
-    # 🔴 td_cko_agent_dump -> Agent dump
-    ➡️ td_cko_agent_dump=
-    # 🔴 td_cko_caller_abandon -> Caller abandon
-    ➡️ td_cko_caller_abandon=
-    # 🔴 td_cko_channel -> Channel
-    ➡️ td_cko_channel=
-    # 🔴 td_cko_dumped -> Dumped
-    ➡️ td_cko_dumped=
-    # 🔴 td_cko_empty -> Empty
-    ➡️ td_cko_empty=
-    # 🔴 td_cko_exit_empty -> Exit empty
-    ➡️ td_cko_exit_empty=
-    # 🔴 td_cko_exit_with_key_press -> Exit with key press
-    ➡️ td_cko_exit_with_key_press=
-    # 🔴 td_cko_incomp_channel -> Incomp. channel
-    ➡️ td_cko_incomp_channel=
-    # 🔴 td_cko_key_press -> Key press
-    ➡️ td_cko_key_press=
-    # 🔴 td_cko_timeout -> Timeout
-    ➡️ td_cko_timeout=
-    # 🔴 td_cko_timeout_voicemail -> Timeout (voicemail)
-    ➡️ td_cko_timeout_voicemail=
-    # 🔴 td_cko_unanswered_yet -> Unanswered yet
-    ➡️ td_cko_unanswered_yet=
-    # 🔴 td_cok_agent -> Agent
-    ➡️ td_cok_agent=
-    # 🔴 td_cok_agent_disconnected -> Agent Disconnected
-    ➡️ td_cok_agent_disconnected=
-    # 🔴 td_cok_att_transferred -> Attended transfer
-    ➡️ td_cok_att_transferred=
-    # 🔴 td_cok_atxfr -> Attended transfer
-    ➡️ td_cok_atxfr=
-    # 🔴 td_cok_bln_transferred -> Blind transfer
-    ➡️ td_cok_bln_transferred=
-    # 🔴 td_cok_blxfr -> Blind transfer
-    ➡️ td_cok_blxfr=
-    # 🔴 td_cok_caller -> Caller
-    ➡️ td_cok_caller=
-    # 🔴 td_cok_caller_disconnected -> Caller disconnected
-    ➡️ td_cok_caller_disconnected=
-    # 🔴 td_cok_ongoing -> Ongoing
-    ➡️ td_cok_ongoing=
-    # 🔴 td_cok_ongoing_call -> Ongoing call
-    ➡️ td_cok_ongoing_call=
-    # 🔴 td_cok_transfer -> Transfer
-    ➡️ td_cok_transfer=
-    # 🔴 td_cok_transferred -> Transferred
-    ➡️ td_cok_transferred=
-    # 🔴 td_dbtest_wz_agawcleanup -> Cleanup AGAW
-    ➡️ td_dbtest_wz_agawcleanup=
-    # 🔴 td_dbtest_wz_backup -> Backup
-    ➡️ td_dbtest_wz_backup=
-    # 🔴 td_dbtest_wz_end -> Ready
-    ➡️ td_dbtest_wz_end=
-    # 🔴 td_dbtest_wz_operationname -> Operation Performed
-    ➡️ td_dbtest_wz_operationname=
-    # 🔴 td_dbtest_wz_operationtime -> Time (ms)
-    ➡️ td_dbtest_wz_operationtime=
-    # 🔴 td_dbtest_wz_optimize -> Optimize
-    ➡️ td_dbtest_wz_optimize=
-    # 🔴 td_dbtest_wz_start -> Start
-    ➡️ td_dbtest_wz_start=
-    # 🔴 td_dbtest_wz_testerror -> Test error
-    ➡️ td_dbtest_wz_testerror=
-    # 🔴 td_dbtest_wz_testname -> Test performed
-    ➡️ td_dbtest_wz_testname=
-    # 🔴 td_dbtest_wz_testresult -> Test result
-    ➡️ td_dbtest_wz_testresult=
-    # 🔴 td_dbtest_wz_updatedb -> Update and Recover
-    ➡️ td_dbtest_wz_updatedb=
-    # 🔴 td_dm_all -> All
-    ➡️ td_dm_all=
-    # 🔴 td_dm_april -> April
-    ➡️ td_dm_april=
-    # 🔴 td_dm_august -> August
-    ➡️ td_dm_august=
-    # 🔴 td_dm_december -> December
-    ➡️ td_dm_december=
-    # 🔴 td_dm_february -> February
-    ➡️ td_dm_february=
-    # 🔴 td_dm_friday -> Friday
-    ➡️ td_dm_friday=
-    # 🔴 td_dm_friday_short -> Fri
-    ➡️ td_dm_friday_short=
-    # 🔴 td_dm_january -> January
-    ➡️ td_dm_january=
-    # 🔴 td_dm_july -> July
-    ➡️ td_dm_july=
-    # 🔴 td_dm_june -> June
-    ➡️ td_dm_june=
-    # 🔴 td_dm_march -> March
-    ➡️ td_dm_march=
-    # 🔴 td_dm_may -> May
-    ➡️ td_dm_may=
-    # 🔴 td_dm_monday -> Monday
-    ➡️ td_dm_monday=
-    # 🔴 td_dm_monday_short -> Mon
-    ➡️ td_dm_monday_short=
-    # 🔴 td_dm_november -> November
-    ➡️ td_dm_november=
-    # 🔴 td_dm_october -> October
-    ➡️ td_dm_october=
-    # 🔴 td_dm_saturday -> Saturday
-    ➡️ td_dm_saturday=
-    # 🔴 td_dm_saturday_short -> Sat
-    ➡️ td_dm_saturday_short=
-    # 🔴 td_dm_september -> September
-    ➡️ td_dm_september=
-    # 🔴 td_dm_sunday -> Sunday
-    ➡️ td_dm_sunday=
-    # 🔴 td_dm_sunday_short -> Sun
-    ➡️ td_dm_sunday_short=
-    # 🔴 td_dm_thursday -> Thursday
-    ➡️ td_dm_thursday=
-    # 🔴 td_dm_thursday_short -> Thu
-    ➡️ td_dm_thursday_short=
-    # 🔴 td_dm_tuesday -> Tuesday
-    ➡️ td_dm_tuesday=
-    # 🔴 td_dm_tuesday_short -> Tue
-    ➡️ td_dm_tuesday_short=
-    # 🔴 td_dm_wednesday -> Wednesday
-    ➡️ td_dm_wednesday=
-    # 🔴 td_dm_wednesday_short -> Wed
-    ➡️ td_dm_wednesday_short=
-    # 🔴 td_imwiz_added_agent -> Added agent
-    ➡️ td_imwiz_added_agent=
-    # 🔴 td_imwiz_added_queue -> Added queue
-    ➡️ td_imwiz_added_queue=
-    # 🔴 td_imwiz_added_user -> Added user
-    ➡️ td_imwiz_added_user=
-    # 🔴 td_imwiz_updated_agent -> Updated agent
-    ➡️ td_imwiz_updated_agent=
-    # 🔴 td_imwiz_updated_queue -> Updated queue
-    ➡️ td_imwiz_updated_queue=
-    # 🔴 td_knumbers_blacklist -> Blacklist
-    ➡️ td_knumbers_blacklist=
-    # 🔴 td_knumbers_none -> None
-    ➡️ td_knumbers_none=
-    # 🔴 td_knumbers_vip -> VIP caller
-    ➡️ td_knumbers_vip=
-    # 🔴 td_nodupnum_allow_duplicate_numbers -> Allow duplicate numbers
-    ➡️ td_nodupnum_allow_duplicate_numbers=
-    # 🔴 td_nodupnum_no_duplicate_numbers -> No duplicate numbers
-    ➡️ td_nodupnum_no_duplicate_numbers=
-    # 🔴 td_oh_+10_hours -> +10 hours
-    ➡️ td_oh_+10_hours=
-    # 🔴 td_oh_+11_hours -> +11 hours
-    ➡️ td_oh_+11_hours=
-    # 🔴 td_oh_+12_hours -> +12 hours
-    ➡️ td_oh_+12_hours=
-    # 🔴 td_oh_+13_hours -> +13 hours
-    ➡️ td_oh_+13_hours=
-    # 🔴 td_oh_+14_hours -> +14 hours
-    ➡️ td_oh_+14_hours=
-    # 🔴 td_oh_+15_hours -> +15 hours
-    ➡️ td_oh_+15_hours=
-    # 🔴 td_oh_+16_hours -> +16 hours
-    ➡️ td_oh_+16_hours=
-    # 🔴 td_oh_+17_hours -> +17 hours
-    ➡️ td_oh_+17_hours=
-    # 🔴 td_oh_+18_hours -> +18 hours
-    ➡️ td_oh_+18_hours=
-    # 🔴 td_oh_+19_hours -> +19 hours
-    ➡️ td_oh_+19_hours=
-    # 🔴 td_oh_+1_hour -> +1 hour
-    ➡️ td_oh_+1_hour=
-    # 🔴 td_oh_+20_hours -> +20 hours
-    ➡️ td_oh_+20_hours=
-    # 🔴 td_oh_+21_hours -> +21 hours
-    ➡️ td_oh_+21_hours=
-    # 🔴 td_oh_+22_hours -> +22 hours
-    ➡️ td_oh_+22_hours=
-    # 🔴 td_oh_+23_hours -> +23 hours
-    ➡️ td_oh_+23_hours=
-    # 🔴 td_oh_+24_hours -> +24 hours
-    ➡️ td_oh_+24_hours=
-    # 🔴 td_oh_+2_hours -> +2 hours
-    ➡️ td_oh_+2_hours=
-    # 🔴 td_oh_+3_hours -> +3 hours
-    ➡️ td_oh_+3_hours=
-    # 🔴 td_oh_+4_hours -> +4 hours
-    ➡️ td_oh_+4_hours=
-    # 🔴 td_oh_+5_hours -> +5 hours
-    ➡️ td_oh_+5_hours=
-    # 🔴 td_oh_+6_hours -> +6 hours
-    ➡️ td_oh_+6_hours=
-    # 🔴 td_oh_+7_hours -> +7 hours
-    ➡️ td_oh_+7_hours=
-    # 🔴 td_oh_+8_hours -> +8 hours
-    ➡️ td_oh_+8_hours=
-    # 🔴 td_oh_+9_hours -> +9 hours
-    ➡️ td_oh_+9_hours=
-    # 🔴 td_oh_-10_hours -> -10 hours
-    ➡️ td_oh_-10_hours=
-    # 🔴 td_oh_-11_hours -> -11 hours
-    ➡️ td_oh_-11_hours=
-    # 🔴 td_oh_-12_hours -> -12 hours
-    ➡️ td_oh_-12_hours=
-    # 🔴 td_oh_-13_hours -> -13 hours
-    ➡️ td_oh_-13_hours=
-    # 🔴 td_oh_-14_hours -> -14 hours
-    ➡️ td_oh_-14_hours=
-    # 🔴 td_oh_-15_hours -> -15 hours
-    ➡️ td_oh_-15_hours=
-    # 🔴 td_oh_-16_hours -> -16 hours
-    ➡️ td_oh_-16_hours=
-    # 🔴 td_oh_-17_hours -> -17 hours
-    ➡️ td_oh_-17_hours=
-    # 🔴 td_oh_-18_hours -> -18 hours
-    ➡️ td_oh_-18_hours=
-    # 🔴 td_oh_-19_hours -> -19 hours
-    ➡️ td_oh_-19_hours=
-    # 🔴 td_oh_-1_hour -> -1 hour
-    ➡️ td_oh_-1_hour=
-    # 🔴 td_oh_-20_hours -> -20 hours
-    ➡️ td_oh_-20_hours=
-    # 🔴 td_oh_-21_hours -> -21 hours
-    ➡️ td_oh_-21_hours=
+    td_agawlogon_logged_off=ውጣ
+    td_agawlogon_logged_on=ግባ
+    td_agawlogon_paused=ማቆም
+    td_agawlogon_unknown=አይታውቅም
+    td_agawstat_current=አሁን
+    td_agawstat_inserting=ማስገባት
+    td_agawstat_obsolete= ጊዜው ያለፈበት
+    td_agawstat_querying= መጠይቅ
+    td_aglev_main=ዋና
+    td_aglev_spill= መፍሰስ
+    td_aglev_undefined= ያልተገለጸ
+    td_aglev_wrap= መጠቅለል
+    td_agstatus_agent_is_currently_logged_off=ወኪልበአሁኑ ጊዜ ዘግቷል
+    td_agstatus_agent_is_currently_logged_on=ወኪል በአሁኑ ጊዜ ገብቷል
+    td_agstatus_agent_is_currently_logged_on_some_queues=ወኪል በአሁኑ ጊዜ ወረፋ ውስጥ ገብቷል
+    td_agstatus_agent_is_currently_paused= ወኪል በአሁኑ ጊዜ አቁሟል
+    td_agstatus_agent_status_cannot_be_determined==የወኪል ሁኔታ አይታውቅም
+    td_ancod_agent_availability_for_all_the_queues==የጥሪ ማዕከል ሰራተኛ መገኘት
+    td_ancod_agent_sessions_detail=ዝርዝር
+    td_ancod_answered_calls_agents_on_queue=የተነሱ ጥሪዎች፡ ወኪል በ ወረፋ ወስጥ
+    td_ancod_answered_calls_details==የተነሱ ጥሪዎች ዝርዝር፡
+    td_ancod_answered_calls_disconnection_causes=የተነሱ ጥሪዎች፡ የግንኙነት መቋረጥ መንስኤዎች
+    td_ancod_answered_calls_for_selected_queues==የተነሱ ጥሪዎች(በተመረጡ ወረፋዎች)
+    td_ancod_answered_calls_sla=ኤሳኤልኤ
+    td_ancod_call_distribuition_by_day_of_week= የሳምንት የተደወሉ ስልኮች  ስርጭት
+    td_ancod_call_distribuition_by_hour=የሰአት የተደወሉ ስልኮች  ስርጭት
+    td_ancod_call_distribuition_per_day=የቀን የተደወሉ ስልኮች  ስርጭት
+    td_ancod_unanswered_calls_details=ያልተነሱ ስልኮች፡ ዝርዝር
+    td_ancod_unanswered_calls_disconnection_causes=ያልተነሱ ስልኮች፡ የግንኙነት መቋረጥ መንስኤዎች
+    td_autoconf_wz_agentcode= ወኪል ኮድ
+    td_autoconf_wz_agentname=ሙሉ ስም
+    td_autoconf_wz_agentpwd=የይለፍ ቃል
+    td_autoconf_wz_agents=ወኪሎች
+    td_autoconf_wz_queuename=የወረፋ ስም
+    td_autoconf_wz_queues=ወረፋ
+    td_autoconf_wz_queuewrapup= የማጠቃለያ ጊዜ
+    td_autoconf_wz_servername=ሰርቭር
+    td_autoconf_wz_start=ምንጭ
+    td_autoconf_wz_summary=ማጠቃለያ
+    td_autoconf_wz_summary_id=መለያ
+    td_autoconf_wz_summary_name=ሙሉ ስም
+    td_autoconf_wz_summary_operation= የአሠራር አይነት
+    td_autoconf_wz_summary_opresult= የአሠራር ውጤት
+    td_autoconf_wz_summary_type=አይነት
+    td_autoconf_wz_users= ተጠቃሚዎች
+    # 👽 td_calloutc_? -> 
+    td_calloutc_?=?
+    td_calloutc_contact=ኮንታክት
+    td_calloutc_known=የታወቅ
+    td_calloutc_none= ምንም
+    td_calloutc_qualif= ኳሊፍ
+    td_calloutc_sale=ሽያጭ
+    td_calloutc_unknown=አይታወቅም
+    td_callstatus_html_in_conversation= በንግግር ውስጥ
+    td_callstatus_html_terminated=ተቋርጧል
+    td_callstatus_html_transferred=ተላልፏል
+    td_callstatus_in_conversation= በንግግር ውስጥ
+    td_callstatus_terminated=ተቋርጧል
+    td_callstatus_transferred=ተላልፏል
+    td_cko_abandon= መተው
+    td_cko_agent_dump= ወኪል መጣያ
+    td_cko_caller_abandon= ደዋይ መተው
+    td_cko_channel= ቻናል
+    td_cko_dumped= የተጣለ
+    td_cko_empty=ባዶ
+    td_cko_exit_empty= ባዶ ውጣ
+    td_cko_exit_with_key_press= በቁልፍ ተጫን ውጣ
+    td_cko_incomp_channel= ያልተሟላ ቻናል
+    td_cko_key_press= ቁልፍ ተጫን
+    td_cko_timeout= ጊዜው አልቋል
+    td_cko_timeout_voicemail= ጊዜው ያለፈበት (የድምጽ መልእክት)
+    td_cko_unanswered_yet=እስካሁን ያልተነሱ
+    td_cok_agent=ወኪል
+    td_cok_agent_disconnected=ወኪል ተቋርጧል
+    td_cok_att_transferred=ተገኝተህ አስተላልፍ
+    td_cok_atxfr==ተገኝተህ አስተላልፍ
+    td_cok_bln_transferred= ዕውር ማስተላለፍ
+    td_cok_blxfr= ዕውር ማስተላለፍ
+    td_cok_caller=ደዋይ
+    td_cok_caller_disconnected= የደዋይ ግንኙነቱ ተቋርጧል
+    td_cok_ongoing= በመስመር ላይ
+    td_cok_ongoing_call= በመስመር ላይ ያሉ ጥሪዎች
+    td_cok_transfer=ማስተላለፍ
+    td_cok_transferred= ተላልፏል
+    td_dbtest_wz_agawcleanup= AGAWን ማፅዳት
+    td_dbtest_wz_backup= ምትኬ
+    td_dbtest_wz_end=ዝግጁ
+    td_dbtest_wz_operationname= ክዋኔ ተከናውኗል
+    td_dbtest_wz_operationtime=ጊዜ
+    td_dbtest_wz_optimize= አመቻች
+    td_dbtest_wz_start=ጅምር
+    td_dbtest_wz_testerror=ሙከራውን ተሳስተዋል
+    td_dbtest_wz_testname= ተሞክሯል
+    td_dbtest_wz_testresult= የሙከራ ውጤት
+    td_dbtest_wz_updatedb= አዘምን እና መልሶ ማግኘት
+    td_dm_all=ሁሉም
+    td_dm_april=ሚያዚያ
+    td_dm_august=ነሃሴ
+    td_dm_december=ታህሳስ
+    td_dm_february=የካቲት
+    td_dm_friday=አርብ
+    td_dm_friday_short=አርብ
+    td_dm_january=ጥር
+    td_dm_july=ሃምሌ
+    td_dm_june=ሰኔ
+    td_dm_march=መጋቢት
+    td_dm_may=ግንቦት
+    td_dm_monday=ሰኞ
+    td_dm_monday_short=ሰኞ
+    td_dm_november=ህዳር
+    td_dm_october=ጥቅምት
+    td_dm_saturday=ቅዳሜ
+    td_dm_saturday_short=ቅዳሜ
+    td_dm_september=መስከረም
+    td_dm_sunday=እሁድ
+    td_dm_sunday_short=እሁድ
+    td_dm_thursday= ሐሙስ
+    td_dm_thursday_short= ቱ
+    td_dm_tuesday= ማክሰኞ
+    td_dm_tuesday_short= ማክሰኞ
+    td_dm_wednesday= እሮብ
+    td_dm_wednesday_short= ረቡዕ
+    td_imwiz_added_agent= ወኪል ታክሏል።
+    td_imwiz_added_queue= ወረፋ ታክሏል።
+    td_imwiz_added_user= ተጠቃሚ ታክሏል።
+    td_imwiz_updated_agent= የዘመነ ወኪል
+    td_imwiz_updated_queue= የዘመነ ወረፋ
+    td_knumbers_blacklist= ጥቁር መዝገብ
+    td_knumbers_none= ምንም
+    td_knumbers_vip= ቪአይፒ ደዋይ
+    td_nodupnum_allow_duplicate_numbers= የተባዙ ቁጥሮችን ፍቀድ
+    td_nodupnum_no_duplicate_numbers= ምንም የተባዙ ቁጥሮች የሉም
+    td_oh_+10_hours=+10 ሰዓታት
+    td_oh_+11_hours=+11 ሰዓታት
+    td_oh_+12_hours=+12 ሰዓታት
+    td_oh_+13_hours=+13 ሰዓታት
+    td_oh_+14_hours=+14 ሰዓታት
+    td_oh_+15_hours=+15 ሰዓታት
+    td_oh_+16_hours=+ 16 ሰዓታት
+    td_oh_+17_hours=+17 ሰዓታት
+    td_oh_+18_hours=+18 ሰዓታት
+    td_oh_+19_hours=+19 ሰዓታት
+    td_oh_+1_hour=+1 ሰዓት
+    td_oh_+20_hours=+20 ሰዓታት
+    td_oh_+21_hours=+21 ሰዓታት
+    td_oh_+22_hours=+22 ሰዓታት
+    td_oh_+23_hours= +23ሰዓታት
+    td_oh_+24_hours=+24 ሰዓታት
+    td_oh_+2_hours=+2 ሰዓታት
+    td_oh_+3_hours=+3 ሰዓታት
+    td_oh_+4_hours=+4 ሰዓታት
+    td_oh_+5_hours=+5 ሰዓታት
+    td_oh_+6_hours=+6 ሰዓታት
+    td_oh_+7_hours=+7 ሰዓታት
+    td_oh_+8_hours=+8 ሰዓታት
+    td_oh_+9_hours=+9 ሰዓታት
+    td_oh_-10_hours=10 ሰዓታት
+    td_oh_-11_hours=11 ሰዓታት
+    td_oh_-12_hours=12 ሰዓታት
+    td_oh_-13_hours=13 ሰዓታት
+    td_oh_-14_hours=14 ሰዓታት
+    td_oh_-15_hours=15 ሰዓታት
+    td_oh_-16_hours=16 ሰዓታት
+    td_oh_-17_hours=17 ሰዓታት
+    td_oh_-18_hours=18 ሰዓታት
+    td_oh_-19_hours=19 ሰዓታት
+    td_oh_-1_hour=1 ሰዓት
+    td_oh_-20_hours= 20 ሰዓታት
+    td_oh_-21_hours=22 ሰዓታት
     # 🔴 td_oh_-22_hours -> -22 hours
     ➡️ td_oh_-22_hours=
-    # 🔴 td_oh_-23_hours -> -23 hours
-    ➡️ td_oh_-23_hours=
-    # 🔴 td_oh_-24_hours -> -24 hours
-    ➡️ td_oh_-24_hours=
-    # 🔴 td_oh_-2_hours -> -2 hours
-    ➡️ td_oh_-2_hours=
-    # 🔴 td_oh_-3_hours -> -3 hours
-    ➡️ td_oh_-3_hours=
-    # 🔴 td_oh_-4_hours -> -4 hours
-    ➡️ td_oh_-4_hours=
-    # 🔴 td_oh_-5_hours -> -5 hours
-    ➡️ td_oh_-5_hours=
-    # 🔴 td_oh_-6_hours -> -6 hours
-    ➡️ td_oh_-6_hours=
-    # 🔴 td_oh_-7_hours -> -7 hours
-    ➡️ td_oh_-7_hours=
-    # 🔴 td_oh_-8_hours -> -8 hours
-    ➡️ td_oh_-8_hours=
-    # 🔴 td_oh_-9_hours -> -9 hours
-    ➡️ td_oh_-9_hours=
-    # 🔴 td_oh_no_offset -> No offset
-    ➡️ td_oh_no_offset=
-    # 🔴 td_pautype_- -> -
-    ➡️ td_pautype_-=
-    # 🔴 td_pautype_admin -> Admin
-    ➡️ td_pautype_admin=
-    # 🔴 td_pautype_outb -> Outb.
-    ➡️ td_pautype_outb=
-    # 🔴 td_pautype_outbound -> Outbound
-    ➡️ td_pautype_outbound=
-    # 🔴 td_pautype_pause -> Pause
-    ➡️ td_pautype_pause=
-    # 🔴 td_pautype_wrap -> Wrap
-    ➡️ td_pautype_wrap=
-    # 🔴 td_pautype_wrap-up_time -> Wrap-up time
-    ➡️ td_pautype_wrap-up_time=
-    # 🔴 td_qdir_any -> Any call
-    ➡️ td_qdir_any=
-    # 🔴 td_qdir_inbound_calls -> Inbound calls
-    ➡️ td_qdir_inbound_calls=
-    # 🔴 td_qdir_outbound_calls -> Outbound calls
-    ➡️ td_qdir_outbound_calls=
-    # 🔴 td_qdir_undefined -> <font color='red'>Undefined</font>
-    ➡️ td_qdir_undefined=
-    # 🔴 td_sychronizer_start -> Source
-    ➡️ td_sychronizer_start=
-    # 🔴 td_synchronier_configuration -> Configuration
-    ➡️ td_synchronier_configuration=
-    # 🔴 td_synchronizer_actions -> Actions
-    ➡️ td_synchronizer_actions=
-    # 🔴 td_synchronizer_result -> Result
-    ➡️ td_synchronizer_result=
-    # 🔴 td_yesno_no -> No
-    ➡️ td_yesno_no=
-    # 🔴 td_yesno_yes -> Yes
-    ➡️ td_yesno_yes=
+    td_oh_-23_hours=23 ሰዓታት
+    td_oh_-24_hours= 24 ሰዓታት
+    td_oh_-2_hours= 2ሰዓታት
+    td_oh_-3_hours= 3 ሰዓታት
+    td_oh_-4_hours=4 ሰዓታት
+    td_oh_-5_hours=5 ሰዓታት
+    td_oh_-6_hours= 6 ሰዓታት
+    td_oh_-7_hours=7 ሰዓታት
+    td_oh_-8_hours=8 ሰዓታት
+    td_oh_-9_hours=9 ሰዓታት
+    td_oh_no_offset= ማካካሻ የለም
+    td_pautype_-=-
+    td_pautype_admin= አስተዳዳሪ
+    td_pautype_outb=ውጭ
+    td_pautype_outbound= ወደ ውጭ
+    td_pautype_pause= ለአፍታ አቁም
+    td_pautype_wrap= መጠቅለል
+    td_pautype_wrap-up_time= የማጠቃለያ ጊዜ
+    td_qdir_any= ማንኛውም ጥሪ
+    td_qdir_inbound_calls= ወደ ውስጥ የሚገቡ ጥሪዎች
+    td_qdir_outbound_calls= ወደ ውጪ የሚደረጉ ጥሪዎች
+    td_qdir_undefined= ያልተገለጸ
+    td_sychronizer_start= ምንጭ
+    td_synchronier_configuration= ማዋቀር
+    td_synchronizer_actions= ድርጊቶች
+    td_synchronizer_result=ወጤት
+    td_yesno_no=አይ
+    td_yesno_yes=አዎ
 
 ## AOUT
 
@@ -6108,9 +5913,9 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     ➡️ cfgprops_input=
     # 🔴 cfgprops_comment -> Reason for this change
     ➡️ cfgprops_comment=
-    # 🔴 cfgprops_sort_by -> Sort by:
+    # 🔴 cfgprops_sort_by -> Sort by
     ➡️ cfgprops_sort_by=
-    # 🔴 cfgprops_sort_bydate -> Date
+    # 🔴 cfgprops_sort_bydate -> Last update
     ➡️ cfgprops_sort_bydate=
     # 🔴 cfgprops_sort_byname -> Name
     ➡️ cfgprops_sort_byname=
@@ -6126,6 +5931,9 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     ➡️ cfgprops_history_user=
     # 🔴 cfgprops_history_value -> Value
     ➡️ cfgprops_history_value=
+    # 🔴 cfgprops_history_previous -> Previous entries
+    ➡️ cfgprops_history_previous=
+    
 
 These are obsolete:
 

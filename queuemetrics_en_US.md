@@ -3129,7 +3129,7 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_input=Enter one or more properties to set, one per line
     cfgprops_comment=Reason for this change
     cfgprops_sort_by=Sort by
-    cfgprops_sort_bydate=Date
+    cfgprops_sort_bydate=Last update
     cfgprops_sort_byname=Name
     cfgprops_col_name=Property name
     cfgprops_col_value=Current value
@@ -3137,6 +3137,8 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_history_date=Date
     cfgprops_history_user=User
     cfgprops_history_value=Value
+    cfgprops_history_previous=Previous entries
+    
 
 These are obsolete:
 
