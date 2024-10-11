@@ -3656,19 +3656,19 @@ Other items
     # 🔴 amo_close_info -> Close AMO Information
     ➡️ amo_close_info=
     # 🔴 amo_dialer_state_completed -> Completed
-    ➡️ amo_dialer_state_completed=
+    ➡️ amo_dialer_state_completed=Ολοκληρωμένο
     # 🔴 amo_dialer_state_open -> Open
-    ➡️ amo_dialer_state_open=
+    ➡️ amo_dialer_state_open=Ανοιχτό
     # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
-    ➡️ amo_import_error_nonumber=
+    ➡️ amo_import_error_nonumber=Το πεδίο 'αριθμός' είναι υποχρεωτικό για κάθε εγγραφή.
     # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
-    ➡️ amo_import_error_norecords=
+    ➡️ amo_import_error_norecords=Παρακαλώ συμπεριλάβετε τουλάχιστον μία εγγραφή στο αρχείο CSV.
     # 🔴 amo_last_info -> AMO Call Information
-    ➡️ amo_last_info=
+    ➡️ amo_last_info=Πληροφορίες Κλήσης AMO
     # 🔴 amo_list_state_open -> Open
-    ➡️ amo_list_state_open=
+    ➡️ amo_list_state_open=Ανοιχτή
     # 🔴 amo_list_state_paused -> Paused
-    ➡️ amo_list_state_paused=
+    ➡️ amo_list_state_paused=Σε Πάυση
     # 🔴 amo_number_state_blklist -> Blacklisted
     ➡️ amo_number_state_blklist=
     # 🔴 amo_number_state_dialed -> Dialed
