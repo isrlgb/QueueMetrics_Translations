@@ -1039,6 +1039,20 @@ Do not change the items below:
     clok_untracked=Untracked
     clok_within_xx_seconds=Within ## seconds:
 
+Used for data blocks Overview by Agent/Queue
+
+    clok_overview_by_agent=Overview by Agent
+    clok_offered_n=Offered
+    clok_answered_calls_prc=Ans %
+    clok_lost_attempts=Lost att.
+    clok_lost_attempts_prc=Lst att %
+    clok_outbound=Outbound
+    clok_outbound_prc=Outb.%
+    clok_asa=ASA
+    clok_answered_sla_prc=Ans in SLA %
+    clok_effective_prc=Effective %
+        
+    
 ## Call events
 
 
