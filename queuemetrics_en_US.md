@@ -919,6 +919,10 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Unanswered calls - distribution by length
     clko_unanswered_outbound=Unanswered outbound calls, by agent
     clko_within_x_seconds=Within ## seconds:
+    clko_unanswered_calls_prc=Unans. %
+    clko_unanswered_with_atts=Unans. with att.
+    clko_unanswered_no_atts=Unans no att.
+
 
 ## Report headers
 
@@ -1051,6 +1055,8 @@ Used for data blocks Overview by Agent/Queue
     clok_asa=ASA
     clok_answered_sla_prc=Ans in SLA %
     clok_effective_prc=Effective %
+    clok_avg_wait=Avg wait
+    clok_max_wait=Max wait
         
     
 ## Call events
