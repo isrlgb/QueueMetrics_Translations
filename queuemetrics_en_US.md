@@ -1046,6 +1046,7 @@ Do not change the items below:
 Used for data blocks Overview by Agent/Queue
 
     clok_overview_by_agent=Overview by Agent
+    clok_overview_by_queue=Overview by Queue
     clok_offered_n=Offered
     clok_answered_calls_prc=Ans %
     clok_lost_attempts=Lost att.
