@@ -1305,6 +1305,13 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Llamadas no contestadas - distribución por espera
     clko_unanswered_outbound=Llamadas salientes sin contestar, por agente
     clko_within_x_seconds=Con ## segundos:
+    # 🔴 clko_unanswered_calls_prc -> Unans. %
+    ➡️ clko_unanswered_calls_prc=
+    # 🔴 clko_unanswered_with_atts -> Unans. with att.
+    ➡️ clko_unanswered_with_atts=
+    # 🔴 clko_unanswered_no_atts -> Unans no att.
+    ➡️ clko_unanswered_no_atts=
+
 
 ## Report headers
 
@@ -1463,6 +1470,36 @@ Do not change the items below:
     clok_untracked=Sin seguimiento
     clok_within_xx_seconds=Con ## segundos:
 
+Used for data blocks Overview by Agent/Queue
+
+    # 🔴 clok_overview_by_agent -> Overview by Agent
+    ➡️ clok_overview_by_agent=
+    # 🔴 clok_overview_by_queue -> Overview by Queue
+    ➡️ clok_overview_by_queue=
+    # 🔴 clok_offered_n -> Offered
+    ➡️ clok_offered_n=
+    # 🔴 clok_answered_calls_prc -> Ans %
+    ➡️ clok_answered_calls_prc=
+    # 🔴 clok_lost_attempts -> Lost att.
+    ➡️ clok_lost_attempts=
+    # 🔴 clok_lost_attempts_prc -> Lst att %
+    ➡️ clok_lost_attempts_prc=
+    # 🔴 clok_outbound -> Outbound
+    ➡️ clok_outbound=
+    # 🔴 clok_outbound_prc -> Outb.%
+    ➡️ clok_outbound_prc=
+    # 🔴 clok_asa -> ASA
+    ➡️ clok_asa=
+    # 🔴 clok_answered_sla_prc -> Ans in SLA %
+    ➡️ clok_answered_sla_prc=
+    # 🔴 clok_effective_prc -> Effective %
+    ➡️ clok_effective_prc=
+    # 🔴 clok_avg_wait -> Avg wait
+    ➡️ clok_avg_wait=
+    # 🔴 clok_max_wait -> Max wait
+    ➡️ clok_max_wait=
+        
+    
 ## Call events
 
 
@@ -5867,6 +5904,8 @@ Other items
     memo_status=?Estado
     # 👽 memo_tree_empty -> Empty
     memo_tree_empty=?Vacío
+    # 🔴 memo_tree_title -> Linked memos
+    ➡️ memo_tree_title=
     # 👽 memo_type -> Type
     memo_type=?Filtro por Tipo
     # 👽 menu_licence_page -> Licence Page
