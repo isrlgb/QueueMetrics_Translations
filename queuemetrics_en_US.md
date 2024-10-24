@@ -3666,6 +3666,7 @@ Other items
     qap_nav_interactions=Interactions
     qap_nav_overview=Overview
     qap_nav_qa=QA
+    qap_nav_wallboard=Wallboard
     qap_nav_wombat=WombatDialer Preview Dialing
     qap_new_memo=Create linked Memo
     qap_no_cases=No Cases found for the current search, please try again.
