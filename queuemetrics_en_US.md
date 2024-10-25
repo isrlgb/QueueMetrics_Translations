@@ -587,6 +587,7 @@ Do not change the items below:
     clacd_lost_calls=Lost calls
     clacd_max_attempts=Max attempts:
     clacd_min_attempts=Min attempts:
+    clacd_last_acd_attempts=Last ACD attempts
     clacd_n_lost=N. lost
     clacd_n_taken=N. Taken
     clacd_queue=Queue
