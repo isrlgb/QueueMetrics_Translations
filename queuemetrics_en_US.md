@@ -2343,6 +2343,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Agent And Outcome
     rt3_table_aggrbyqueue=Aggregated By Queue
     rt3_table_aggrbytag=Aggregated By Tag
+    rt3_table_lastattempts=Last attempts by Agent
     rt3_table_live_agents=Live Agents
     rt3_table_live_calls=Live Calls
     rt3_table_live_queues=Live Queues
