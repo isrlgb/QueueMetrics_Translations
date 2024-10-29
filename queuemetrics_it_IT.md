@@ -3898,7 +3898,7 @@ Other items
     reports_edit_page_complete=Conferma modifiche
     reports_edit_report=Modifica report
     reports_editingkey=Chiave di modifica
-    reports_enter_title=Inserici il titolo del nuovo report
+    reports_enter_title=Inserisci il titolo del nuovo report
     reports_export_email_body=Risultati export per il report chiamato
     reports_export_email_subject=[QueueMetrics] Report
     reports_export_footerline_text=Report prodotto da QueueMetrics.
