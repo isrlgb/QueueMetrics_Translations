@@ -3397,6 +3397,8 @@ Other items
     memo_type=Type
     menu_licence_page=Licence Page
     menu_user_page=User Info
+    modal_cancel=Cancel
+    modal_ok=Ok
     notification_error=Error
     notification_info=Info
     notification_success=Success
