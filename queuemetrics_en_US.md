@@ -3691,6 +3691,8 @@ Other items
     qap_nav_qa=QA
     qap_nav_wallboard=Wallboard
     qap_nav_wombat=WombatDialer Preview Dialing
+    qap_new_case=New Case
+    qap_new_client=New Client
     qap_new_memo=Create linked Memo
     qap_no_cases=No Cases found for the current search, please try again.
     qap_no_clients=No Clients found for the current search, please try again.
