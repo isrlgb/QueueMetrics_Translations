@@ -2086,6 +2086,10 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=Change Pause
     rt3_agent_code=Agent Code
     rt3_agent_extension=Agent Extension
+    rt3_agent_extension_regex_error=The Agent extension does not respect the correct format.
+    rt3_agent_code_regex_error=The Agent code does not respect the correct format.
+    rt3_agent_extension_min_1_char_error=The Agent extension should be at least 1 character long.
+    rt3_agent_code_min_1_char_error=The Agent code should be at least 1 character long.
     rt3_agent_info=Agent Info
     rt3_agent_login=Login (All Queues)
     rt3_agent_logon=Agent log-on
