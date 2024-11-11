@@ -3541,7 +3541,7 @@ Other items
     qap_action_label=Label Interaction
     qap_action_monitor=Monitor Call
     qap_action_qa=QA Forms
-    qap_action_recall=New Recall Note
+    qap_action_recall=New Recall Memo
     qap_action_transfer=Transfer Call
     qap_action_wbtrecall=Recall with WombatDialer
     qap_addmember_selected=Join selected queues.
