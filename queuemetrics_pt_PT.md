@@ -614,6 +614,8 @@ Do not change the items below:
     clacd_lost_calls=Chamadas perdidas
     clacd_max_attempts=Máx. Tentativas:
     clacd_min_attempts=Min. Tentativas:
+    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
+    ➡️ clacd_last_acd_attempts=
     clacd_n_lost=N. Perdidas
     clacd_n_taken=N. Atendidas
     clacd_queue=Queue
@@ -2323,6 +2325,14 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=?Modificar Pausa
     rt3_agent_code=Código de Agente
     rt3_agent_extension=Extensão do agente
+    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    ➡️ rt3_agent_extension_regex_error=
+    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    ➡️ rt3_agent_code_regex_error=
+    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    ➡️ rt3_agent_extension_min_1_char_error=
+    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    ➡️ rt3_agent_code_min_1_char_error=
     rt3_agent_info=Informação de Agente
     rt3_agent_login=Login (Todas as Queues)
     rt3_agent_logon=Log-on de Agente
@@ -2603,6 +2613,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Agente e Categorização
     rt3_table_aggrbyqueue=Agregado por Queue
     rt3_table_aggrbytag=Agregado por Tag
+    # 🔴 rt3_table_lastattempts -> Last attempts
+    ➡️ rt3_table_lastattempts=
     rt3_table_live_agents=Agentes em Directo(Live)
     rt3_table_live_calls=Chamadas em Directo(Live)
     rt3_table_live_queues=Queues em Directo(Live)
@@ -3965,6 +3977,10 @@ Other items
     memo_type=?Tipo
     menu_licence_page=Página da licença
     menu_user_page=Informação de utilizador
+    # 🔴 modal_cancel -> Cancel
+    ➡️ modal_cancel=
+    # 🔴 modal_ok -> Ok
+    ➡️ modal_ok=
     # 👽 notification_error -> Error
     notification_error=?Erro
     # 👽 notification_info -> Info
@@ -4128,7 +4144,7 @@ Other items
     qap_action_monitor=?Monitorar chamada
     # 👽 qap_action_qa -> QA Forms
     qap_action_qa=?Formulário QA
-    # 👽 qap_action_recall -> New Recall Note
+    # 👽 qap_action_recall -> New Recall Memo
     qap_action_recall=?Nova nota de rechamada
     # 👽 qap_action_transfer -> Transfer Call
     qap_action_transfer=?Transferir chamada
@@ -4436,8 +4452,14 @@ Other items
     qap_nav_overview=?Visão geral
     # 👽 qap_nav_qa -> QA
     qap_nav_qa=?QA
+    # 🔴 qap_nav_wallboard -> Wallboard
+    ➡️ qap_nav_wallboard=
     # 👽 qap_nav_wombat -> WombatDialer Preview Dialing
     qap_nav_wombat=?Prévia de discagem do WombatDialer
+    # 🔴 qap_new_case -> New Case
+    ➡️ qap_new_case=
+    # 🔴 qap_new_client -> New Client
+    ➡️ qap_new_client=
     # 👽 qap_new_memo -> Create linked Memo
     qap_new_memo=?Criar link de Memo
     # 👽 qap_no_cases -> No Cases found for the current search, please try again.

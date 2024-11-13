@@ -601,6 +601,8 @@ Do not change the items below:
     clacd_lost_calls=Потерянные вызовы
     clacd_max_attempts=Макс. кол-во попыток:
     clacd_min_attempts=Мин. кол-во попыток:
+    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
+    ➡️ clacd_last_acd_attempts=
     clacd_n_lost=Кол-во потерянных
     clacd_n_taken=Кол-во принятых
     clacd_queue=Очередь
@@ -2217,6 +2219,14 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=Изменить паузу
     rt3_agent_code=Код агента
     rt3_agent_extension=Добавочный агента
+    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    ➡️ rt3_agent_extension_regex_error=
+    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    ➡️ rt3_agent_code_regex_error=
+    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    ➡️ rt3_agent_extension_min_1_char_error=
+    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    ➡️ rt3_agent_code_min_1_char_error=
     rt3_agent_info=Информация об агенте
     rt3_agent_login=Вход (все очереди)
     rt3_agent_logon=Агент вошел
@@ -2482,6 +2492,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Агент и результаты
     rt3_table_aggrbyqueue=Агрегировано по очереди
     rt3_table_aggrbytag=Агрегировано по тэгам
+    # 🔴 rt3_table_lastattempts -> Last attempts
+    ➡️ rt3_table_lastattempts=
     rt3_table_live_agents=Таблица - Агенты в реальном времени
     rt3_table_live_calls=Актуальные вызовы
     rt3_table_live_queues=Актуальные очереди
@@ -3695,6 +3707,10 @@ Other items
     ➡️ memo_type=
     menu_licence_page=Лицензия
     menu_user_page=Информация о пользователе
+    # 🔴 modal_cancel -> Cancel
+    ➡️ modal_cancel=
+    # 🔴 modal_ok -> Ok
+    ➡️ modal_ok=
     notification_error=Ошибка
     notification_info=Информация
     # 🔴 notification_success -> Success
@@ -3843,7 +3859,7 @@ Other items
     ➡️ qap_action_monitor=
     # 🔴 qap_action_qa -> QA Forms
     ➡️ qap_action_qa=
-    # 🔴 qap_action_recall -> New Recall Note
+    # 🔴 qap_action_recall -> New Recall Memo
     ➡️ qap_action_recall=
     # 🔴 qap_action_transfer -> Transfer Call
     ➡️ qap_action_transfer=
@@ -4151,8 +4167,14 @@ Other items
     ➡️ qap_nav_overview=
     # 🔴 qap_nav_qa -> QA
     ➡️ qap_nav_qa=
+    # 🔴 qap_nav_wallboard -> Wallboard
+    ➡️ qap_nav_wallboard=
     # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
     ➡️ qap_nav_wombat=
+    # 🔴 qap_new_case -> New Case
+    ➡️ qap_new_case=
+    # 🔴 qap_new_client -> New Client
+    ➡️ qap_new_client=
     # 🔴 qap_new_memo -> Create linked Memo
     ➡️ qap_new_memo=
     # 🔴 qap_no_cases -> No Cases found for the current search, please try again.

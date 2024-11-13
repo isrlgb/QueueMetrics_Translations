@@ -587,6 +587,8 @@ Do not change the items below:
     clacd_lost_calls=Chiamate perse
     clacd_max_attempts=Squilli massimi:
     clacd_min_attempts=Squilli minimi:
+    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
+    ➡️ clacd_last_acd_attempts=
     clacd_n_lost=N. perse
     clacd_n_taken=N. Prese
     clacd_queue=Coda
@@ -2101,6 +2103,14 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=Cambia Pausa
     rt3_agent_code=Codice Agente
     rt3_agent_extension=Estensione Agente
+    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    ➡️ rt3_agent_extension_regex_error=
+    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    ➡️ rt3_agent_code_regex_error=
+    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    ➡️ rt3_agent_extension_min_1_char_error=
+    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    ➡️ rt3_agent_code_min_1_char_error=
     rt3_agent_info=Agent Info
     rt3_agent_login=Login
     rt3_agent_logon=Login agente
@@ -2359,6 +2369,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Agenti e Risultati
     rt3_table_aggrbyqueue=Aggregato per Coda
     rt3_table_aggrbytag=Aggregato per Tag
+    # 🔴 rt3_table_lastattempts -> Last attempts
+    ➡️ rt3_table_lastattempts=
     rt3_table_live_agents=Agenti Live
     rt3_table_live_calls=Chiamate Live
     rt3_table_live_queues=Code Live
@@ -3416,6 +3428,10 @@ Other items
     memo_type=Tipo
     menu_licence_page=Licenza
     menu_user_page=Info utente
+    # 🔴 modal_cancel -> Cancel
+    ➡️ modal_cancel=
+    # 🔴 modal_ok -> Ok
+    ➡️ modal_ok=
     notification_error=Errore
     notification_info=Informazione
     notification_success=Successo
@@ -3708,7 +3724,13 @@ Other items
     qap_nav_interactions=Interazioni
     qap_nav_overview=Riassunto
     qap_nav_qa=QA
+    # 🔴 qap_nav_wallboard -> Wallboard
+    ➡️ qap_nav_wallboard=
     qap_nav_wombat=Anteprima dialing di WombatDialer
+    # 🔴 qap_new_case -> New Case
+    ➡️ qap_new_case=
+    # 🔴 qap_new_client -> New Client
+    ➡️ qap_new_client=
     qap_new_memo=Crea Memo collegato
     qap_no_cases=Non ci sono casi aperti.
     qap_no_clients=Non ci sono clienti.
