@@ -587,7 +587,6 @@ Do not change the items below:
     clacd_lost_calls=Chiamate perse
     clacd_max_attempts=Squilli massimi:
     clacd_min_attempts=Squilli minimi:
-    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
     clacd_last_acd_attempts=Ultimi attempts
     clacd_n_lost=N. perse
     clacd_n_taken=N. Prese
@@ -921,11 +920,8 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Distribuzione tempo di attesa per le chiamate perse
     clko_unanswered_outbound=Chiamate uscenti non riposte, per agente
     clko_within_x_seconds=Entro ## secondi:
-    # 🔴 clko_unanswered_calls_prc -> Unans. %
-     clko_unanswered_calls_prc=Non Rsp. %
-    # 🔴 clko_unanswered_with_atts -> Unans. with att.
+    clko_unanswered_calls_prc=Non Rsp. %
     clko_unanswered_with_atts=N/Rsp con att.
-    # 🔴 clko_unanswered_no_atts -> Unans no att.
     clko_unanswered_no_atts=N/Rsp no att.
 
 
@@ -1050,31 +1046,18 @@ Do not change the items below:
 
 Used for data blocks Overview by Agent/Queue
 
-    # 🔴 clok_overview_by_agent -> Overview by Agent
     clok_overview_by_agent=Visione d'insieme per agente
-    # 🔴 clok_overview_by_queue -> Overview by Queue
     clok_overview_by_queue=Visione d'insiem per coda
-    # 🔴 clok_offered_n -> Offered
     clok_offered_n=Offerte
-    # 🔴 clok_answered_calls_prc -> Ans %
     clok_answered_calls_prc=Risp %
-    # 🔴 clok_lost_attempts -> Lost att.
     clok_lost_attempts=Att. Persi
-    # 🔴 clok_lost_attempts_prc -> Lst att %
     clok_lost_attempts_prc=Att.Prs.%
-    # 🔴 clok_outbound -> Outbound
     clok_outbound=Uscenti
-    # 🔴 clok_outbound_prc -> Outb.%
     clok_outbound_prc=Usc.%
-    # 🔴 clok_asa -> ASA
     clok_asa=ASA
-    # 🔴 clok_answered_sla_prc -> Ans in SLA %
     clok_answered_sla_prc=Prc rsp in SLA
-    # 🔴 clok_effective_prc -> Effective %
     clok_effective_prc=Prc valide
-    # 🔴 clok_avg_wait -> Avg wait
     clok_avg_wait=Attesa media
-    # 🔴 clok_max_wait -> Max wait
     clok_max_wait=Attesa max.
         
     
@@ -2103,13 +2086,9 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=Cambia Pausa
     rt3_agent_code=Codice Agente
     rt3_agent_extension=Estensione Agente
-    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
     rt3_agent_extension_regex_error=L'estensione inserita non ha il formato richiesto.
-    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
     rt3_agent_code_regex_error=Il codice agente non ha il formato richiesto
-    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
     rt3_agent_extension_min_1_char_error=L'estensione agente non può essere vuota
-    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
     rt3_agent_code_min_1_char_error=Il codice agente non può essere vuoto
     rt3_agent_info=Agent Info
     rt3_agent_login=Login
@@ -2369,7 +2348,6 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Agenti e Risultati
     rt3_table_aggrbyqueue=Aggregato per Coda
     rt3_table_aggrbytag=Aggregato per Tag
-    # 🔴 rt3_table_lastattempts -> Last attempts
     rt3_table_lastattempts=Ultimi attempts
     rt3_table_live_agents=Agenti Live
     rt3_table_live_calls=Chiamate Live
@@ -3177,11 +3155,8 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_n_items=N. Proprietà trovate
     cfgprops_input=Inserisci una o più proprietà da salvare, una per riga
     cfgprops_comment=Ragione per la modifica
-    # 🔴 cfgprops_sort_by -> Sort by
     cfgprops_sort_by=Ordina per
-    # 🔴 cfgprops_sort_bydate -> Last update
     cfgprops_sort_bydate=Ultimo agg.
-    # 🔴 cfgprops_sort_byname -> Name
     cfgprops_sort_byname=Nome
     cfgprops_col_name=Nome della proprietà
     cfgprops_col_value=Valore attuale
@@ -3189,7 +3164,6 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_history_date=Data
     cfgprops_history_user=Utente
     cfgprops_history_value=Valore
-    # 🔴 cfgprops_history_previous -> Previous entries
     cfgprops_history_previous=Valori precedenti
     
 
@@ -3423,14 +3397,11 @@ Other items
     memo_related_to=Correlato a
     memo_status=Stato
     memo_tree_empty=Vuoto
-    # 🔴 memo_tree_title -> Linked memos
     memo_tree_title=Memo collegati
     memo_type=Tipo
     menu_licence_page=Licenza
     menu_user_page=Info utente
-    # 🔴 modal_cancel -> Cancel
     modal_cancel=Annulla
-    # 🔴 modal_ok -> Ok
     modal_ok=OK
     notification_error=Errore
     notification_info=Informazione
@@ -3724,12 +3695,9 @@ Other items
     qap_nav_interactions=Interazioni
     qap_nav_overview=Riassunto
     qap_nav_qa=QA
-    # 🔴 qap_nav_wallboard -> Wallboard
     qap_nav_wallboard=Wallboard
     qap_nav_wombat=Anteprima dialing di WombatDialer
-    # 🔴 qap_new_case -> New Case
     qap_new_case=Nuovo Caso
-    # 🔴 qap_new_client -> New Client
     qap_new_client=Nuovo Cliente
     qap_new_memo=Crea Memo collegato
     qap_no_cases=Non ci sono casi aperti.
@@ -4395,18 +4363,12 @@ Other items
     sync2_apply=Applica configurazione
     sync2_choose_pbx=PBX
     sync2_choose_source=Seleziona sorgente
-    # 🔴 sync2_chunker_uploading -> Data Upload
-    ➡️ sync2_chunker_uploading=Caricamento dati
-    # 🔴 sync2_chunker_progress -> Uploaded chunks
-    ➡️ sync2_chunker_progress=Blocchi caricati
-    # 🔴 sync2_chunker_actions -> Actions left
-    ➡️ sync2_chunker_actions=Azini rimaste
-    # 🔴 sync2_chunker_chunks -> Uploading configuration
-    ➡️ sync2_chunker_chunks=Sto caricando la configurazione
-    # 🔴 sync2_chunker_sending -> Applying actions
-    ➡️ sync2_chunker_sending=Sto applicando le azioni
-    # 🔴 sync2_chunker_waiting -> Waiting...
-    ➡️ sync2_chunker_waiting=In attesa...
+    sync2_chunker_uploading=Caricamento dati
+    sync2_chunker_progress=Blocchi caricati
+    sync2_chunker_actions=Azini rimaste
+    sync2_chunker_chunks=Sto caricando la configurazione
+    sync2_chunker_sending=Sto applicando le azioni
+    sync2_chunker_waiting=In attesa...
     sync2_cluster=Impostazioni Cluster
     sync2_cluster_info=Informazioni Cluster
     sync2_collapse=Nascondi
