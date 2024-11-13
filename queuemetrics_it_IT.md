@@ -1056,7 +1056,7 @@ Used for data blocks Overview by Agent/Queue
     clok_outbound_prc=Usc.%
     clok_asa=ASA
     clok_answered_sla_prc=Prc rsp in SLA
-    clok_effective_prc=Prc valide
+    clok_effective_prc=Prc efficaci
     clok_avg_wait=Attesa media
     clok_max_wait=Attesa max.
         
