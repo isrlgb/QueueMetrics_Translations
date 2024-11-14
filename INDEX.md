@@ -1,15 +1,15 @@
-# Supported languages for QueueMetrics
+# Supported languages for queuemetrics
 
 |  | Language | Alternatives | Missing | Human checked | AI based | Completion |   |
 |--|----------|--------------|---------|---------------|----------|------------|---|
 | 1 | *English (en_US)* |  | 0 | 100.0% | 0.0% | 100.0% | 😎 |
-| 2 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
-| 3 | *French (fr_FR)* |  | 57 | 98.7% | 0.0% | 98.7% | 🟢 |
-| 4 | *German (de_DE)* |  | 77 | 98.2% | 0.0% | 98.2% | 🟢 |
-| 5 | *Brazil Portuguese (pt_BR)* | pt_PT | 97 | 97.6% | 0.1% | 97.8% | 🟢 |
-| 6 | *Portuguese (pt_PT)* | pt_BR | 97 | 72.6% | 25.2% | 97.8% | 🟢 |
-| 7 | *Spanish (es_ES)* | es_LA | 102 | 19.9% | 77.7% | 97.6% | 🟢 |
-| 8 | *Latam Spanish (es_LA)* | es_ES | 102 | 97.4% | 0.2% | 97.6% | 🟢 |
+| 2 | *Spanish (es_ES)* | es_LA | 0 | 19.9% | 80.1% | 100.0% | 🟢 |
+| 3 | *Latam Spanish (es_LA)* | es_ES | 0 | 99.8% | 0.2% | 100.0% | 🟢 |
+| 4 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
+| 5 | *French (fr_FR)* |  | 57 | 98.7% | 0.0% | 98.7% | 🟢 |
+| 6 | *German (de_DE)* |  | 77 | 98.2% | 0.0% | 98.2% | 🟢 |
+| 7 | *Brazil Portuguese (pt_BR)* | pt_PT | 97 | 97.6% | 0.1% | 97.8% | 🟢 |
+| 8 | *Portuguese (pt_PT)* | pt_BR | 97 | 72.6% | 25.2% | 97.8% | 🟢 |
 | 9 | *Russian (ru_RU)* |  | 604 | 86.1% | 0.0% | 86.1% | 🔵 |
 | 10 | *Arabic (ar_SA)* |  | 835 | 80.7% | 0.0% | 80.7% | 🟡 |
 | 11 | *Turkish (tr_TR)* |  | 836 | 80.7% | 0.0% | 80.7% | 🟡 |
@@ -37,5 +37,5 @@
 - 🔴 Incomplete
 
 
-Generated at Wed, November 13 2024 @ 15:47.
+Generated at Thu, November 14 2024 @ 13:08.
 
