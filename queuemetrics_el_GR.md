@@ -604,6 +604,8 @@ Do not change the items below:
     clacd_lost_calls=Χαμένες κλήσεις
     clacd_max_attempts=Μέγιστος αριθμός προσπαθειών
     clacd_min_attempts=Ελάχιστος αριθμός προσπαθειών
+    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
+    ➡️ clacd_last_acd_attempts=
     clacd_n_lost=Αρ. χαμένων κλ.
     clacd_n_taken=Αρ. δεχθέντων κλ.
     clacd_queue=Ουρά αναμονής
@@ -2312,6 +2314,14 @@ Used for data blocks Overview by Agent/Queue
     ➡️ rt3_agent_code=
     # 🔴 rt3_agent_extension -> Agent Extension
     ➡️ rt3_agent_extension=
+    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    ➡️ rt3_agent_extension_regex_error=
+    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    ➡️ rt3_agent_code_regex_error=
+    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    ➡️ rt3_agent_extension_min_1_char_error=
+    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    ➡️ rt3_agent_code_min_1_char_error=
     rt3_agent_info=Πληροφορίες χρηστών
     # 🔴 rt3_agent_login -> Login (All Queues)
     ➡️ rt3_agent_login=
@@ -2693,6 +2703,8 @@ Used for data blocks Overview by Agent/Queue
     ➡️ rt3_table_aggrbyqueue=
     # 🔴 rt3_table_aggrbytag -> Aggregated By Tag
     ➡️ rt3_table_aggrbytag=
+    # 🔴 rt3_table_lastattempts -> Last attempts
+    ➡️ rt3_table_lastattempts=
     rt3_table_live_agents=Ενεργοί Χρήστες (Live)
     rt3_table_live_calls=Ενεργές Κλήσεις (Live)
     rt3_table_live_queues=Ενεργές Ουρές αναμονής (Live)
@@ -4026,6 +4038,10 @@ Other items
     ➡️ memo_type=
     menu_licence_page=Σελίδα άδειας
     menu_user_page=Πληροφορίες χρήστη
+    # 🔴 modal_cancel -> Cancel
+    ➡️ modal_cancel=
+    # 🔴 modal_ok -> Ok
+    ➡️ modal_ok=
     # 🔴 notification_error -> Error
     ➡️ notification_error=
     # 🔴 notification_info -> Info
@@ -4187,7 +4203,7 @@ Other items
     ➡️ qap_action_monitor=
     # 🔴 qap_action_qa -> QA Forms
     ➡️ qap_action_qa=
-    # 🔴 qap_action_recall -> New Recall Note
+    # 🔴 qap_action_recall -> New Recall Memo
     ➡️ qap_action_recall=
     # 🔴 qap_action_transfer -> Transfer Call
     ➡️ qap_action_transfer=
@@ -4495,8 +4511,14 @@ Other items
     ➡️ qap_nav_overview=
     # 🔴 qap_nav_qa -> QA
     ➡️ qap_nav_qa=
+    # 🔴 qap_nav_wallboard -> Wallboard
+    ➡️ qap_nav_wallboard=
     # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
     ➡️ qap_nav_wombat=
+    # 🔴 qap_new_case -> New Case
+    ➡️ qap_new_case=
+    # 🔴 qap_new_client -> New Client
+    ➡️ qap_new_client=
     # 🔴 qap_new_memo -> Create linked Memo
     ➡️ qap_new_memo=
     # 🔴 qap_no_cases -> No Cases found for the current search, please try again.

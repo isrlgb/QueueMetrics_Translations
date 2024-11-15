@@ -588,6 +588,8 @@ Do not change the items below:
     clacd_lost_calls=Appels non-répondus
     clacd_max_attempts=Nb. maximal de tentatives:
     clacd_min_attempts=Nb. minimal de tentatives:
+    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
+    ➡️ clacd_last_acd_attempts=
     clacd_n_lost=Nb. non-répondus
     clacd_n_taken=Nb. répondus
     clacd_queue=File
@@ -2110,6 +2112,14 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=Change la pause
     rt3_agent_code=Code de l'Agent
     rt3_agent_extension=Extension de l'Agent
+    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    ➡️ rt3_agent_extension_regex_error=
+    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    ➡️ rt3_agent_code_regex_error=
+    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    ➡️ rt3_agent_extension_min_1_char_error=
+    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    ➡️ rt3_agent_code_min_1_char_error=
     rt3_agent_info=Information Agent
     rt3_agent_login=Connexion(à toutes les files)
     rt3_agent_logon=Agent connecté
@@ -2368,6 +2378,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Agent et Résultat
     rt3_table_aggrbyqueue=Agrégé par file
     rt3_table_aggrbytag=Agrégé par Tag
+    # 🔴 rt3_table_lastattempts -> Last attempts
+    ➡️ rt3_table_lastattempts=
     rt3_table_live_agents=Agents actifs
     rt3_table_live_calls=Appels actifs
     rt3_table_live_queues=Files actives
@@ -3434,6 +3446,10 @@ Other items
     memo_type=Type
     menu_licence_page=Page de licence
     menu_user_page=Information utilisateur
+    # 🔴 modal_cancel -> Cancel
+    ➡️ modal_cancel=
+    # 🔴 modal_ok -> Ok
+    ➡️ modal_ok=
     notification_error=Erreur
     notification_info=Info
     notification_success=Réussite
@@ -3726,7 +3742,13 @@ Other items
     qap_nav_interactions=Interactions
     qap_nav_overview=Résumé
     qap_nav_qa=QA
+    # 🔴 qap_nav_wallboard -> Wallboard
+    ➡️ qap_nav_wallboard=
     qap_nav_wombat=Aperçu du composant WombatDialer
+    # 🔴 qap_new_case -> New Case
+    ➡️ qap_new_case=
+    # 🔴 qap_new_client -> New Client
+    ➡️ qap_new_client=
     qap_new_memo=Créer un mémo lié
     qap_no_cases=Aucun cas ouvert
     qap_no_clients=Aucun client trouvé.

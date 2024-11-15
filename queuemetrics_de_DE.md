@@ -588,6 +588,8 @@ Do not change the items below:
     clacd_lost_calls=Verlorene Gesrpäche
     clacd_max_attempts=Max. Anz. Versuche:
     clacd_min_attempts=Min. Anz. Versuche:
+    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
+    ➡️ clacd_last_acd_attempts=
     clacd_n_lost=Anz. verloren
     clacd_n_taken=Anz. angenommen
     clacd_queue=Warteschlange
@@ -2105,6 +2107,14 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=Ändern Pause
     rt3_agent_code=Agent Code
     rt3_agent_extension=Agent Erweiterung
+    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    ➡️ rt3_agent_extension_regex_error=
+    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    ➡️ rt3_agent_code_regex_error=
+    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    ➡️ rt3_agent_extension_min_1_char_error=
+    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    ➡️ rt3_agent_code_min_1_char_error=
     rt3_agent_info=Agent-Infos
     rt3_agent_login=Anmeldung (Alle Warteschlangen)
     rt3_agent_logon=Agent-Anmeldung
@@ -2363,6 +2373,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Agent und Ergebnis
     rt3_table_aggrbyqueue=Aggregiert nach Warteschlange
     rt3_table_aggrbytag=Aggregiert nach Tag
+    # 🔴 rt3_table_lastattempts -> Last attempts
+    ➡️ rt3_table_lastattempts=
     rt3_table_live_agents=Live-Agenten
     rt3_table_live_calls=Live-Anrufe
     rt3_table_live_queues=Aktuelle Warteschlangen
@@ -3453,6 +3465,10 @@ Other items
     memo_type= Typ
     menu_licence_page=Lizenz Seite
     menu_user_page=Benutzer-Infos
+    # 🔴 modal_cancel -> Cancel
+    ➡️ modal_cancel=
+    # 🔴 modal_ok -> Ok
+    ➡️ modal_ok=
     notification_error=Fehler
     notification_info=Info
     notification_success=Erfolg
@@ -3746,7 +3762,13 @@ Other items
     qap_nav_interactions=Interaktionen
     qap_nav_overview= Übersicht
     qap_nav_qa= QA
+    # 🔴 qap_nav_wallboard -> Wallboard
+    ➡️ qap_nav_wallboard=
     qap_nav_wombat= WombatDialer Wahlvorschau
+    # 🔴 qap_new_case -> New Case
+    ➡️ qap_new_case=
+    # 🔴 qap_new_client -> New Client
+    ➡️ qap_new_client=
     qap_new_memo= erknüpftes Memo erstellen
     qap_no_cases= Bei der aktuellen Suche wurden keine Anfragen gefunden, bitte versuchen Sie es erneut.
     qap_no_clients= Bei der aktuellen Suche wurden keine Kunden, bitte versuchen Sie es erneut.
