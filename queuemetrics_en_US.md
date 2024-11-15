@@ -2007,7 +2007,7 @@ Used for data blocks Overview by Agent/Queue
     qa_summary_shtcut=Shortcuts
     qa_supervisor=Analyst
     qa_supervisors_tracking_calls=Analysts tracking calls
-    qa_time_period=Time period:
+    qa_time_period=Time period
     qa_total_score=Total score:
     qa_tracked_calls=Tracked calls per agent
     qa_tracked_calls_agentgroup=Tracked calls per agent group
@@ -2269,7 +2269,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_nofcalls_answered=Answered Calls
     rt3_nofcalls_lost=Lost Calls
     rt3_nofcalls_offered=Offered Calls
-    rt3_nofcolumns=N Columns
+    rt3_nofcolumns=Columns
     rt3_ntodial=Dial Number
     rt3_number_calling=Calling:
     rt3_offered=Offered
@@ -2322,7 +2322,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_security_key=Visibility key
     rt3_select_chart=Select a Chart...
     rt3_select_db=Select a DataBlock...
-    rt3_select_wallboard=Please select a wallboard
+    rt3_select_wallboard=Select Wallboard
     rt3_send_command=Ok
     rt3_session_invalid_reconnecting=Connection issue with Queuemetrics, reconnecting
     rt3_size_is=Size is
@@ -4013,6 +4013,7 @@ Other items
     reports_qa_performance_title=Performance
     reports_qa_performance_total=Total score
     reports_qa_queue=Queue
+    reports_qa_range=Range
     reports_qa_recap_heading=Call Details
     reports_qa_select_form=Select Form
     reports_qa_start=Start Time
