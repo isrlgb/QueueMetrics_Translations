@@ -240,10 +240,10 @@ Do not change the items below:
     aout_call_res_by_feature=Anrufergebnisse, nach Funktionscode
     aout_call_res_by_outcome=Gesprächsresultat, nach Ergebnis
     aout_call_res_by_tag=Anrufergebnisse, nach Tag
-    aout_calltag=Tag
-    aout_case_distribution=ZUteilung der Anfrage
+    aout_calltag=markiert
+    aout_case_distribution=Zuteilen der Anfrage
     aout_chart=~
-    aout_client_distribution=Zuteilung des Kunden
+    aout_client_distribution=Zuteilen des Kunden
     aout_contacts_n=Kontakte
     aout_convratio=Konversionsquote
     aout_cph=KPS
@@ -339,7 +339,7 @@ Do not change the items below:
     art_callOutcome=Ergebnis
     art_callQueue=Warteschlange
     art_callStart=Start des Anrufs
-    art_callTag=Tag
+    art_callTag=markiert
     art_callTalking=Gesprächszeit
     art_callTransfer=Übertragen auf
     art_callURL=URL
@@ -440,7 +440,7 @@ Do not change the items below:
     clage_agent_availability_for_all_the_queues_they_are_member_of=Verfügbarkeit der Agenten (für alle Warteschlangen, denen sie angehören)
     clage_agent_btimebyhour=Abrechenbare Zeit des Agenten nach Stunden
     clage_agent_numbyhour=Agenten nach Stunden
-    clage_agent_occupancy=Agent Belegungsbericht
+    clage_agent_occupancy=Agent Auslastungsbericht
     clage_agent_outbound_productivity=Ausgehende Produktivität
     clage_agent_perf_prg=Programmierbare Agentenleistung
     clage_agent_performance_acd_group=Agentenleistung nach ACD-Gruppe
@@ -465,7 +465,7 @@ Do not change the items below:
     clage_billable=abrechnungsfähig
     clage_billpause=Abrechenbar
     clage_callfeatures=Merkmal
-    clage_calltag=Tag
+    clage_calltag=markiert
     clage_chart=Grafik
     clage_cont=Cont.
     clage_contph=CPH
@@ -522,8 +522,8 @@ Do not change the items below:
     clage_sales=Verkauf
     clage_salesph=S PH
     clage_session_and_pause_durations=Sitzungs- und Pausenlängen
-    clage_session_byquetagftrreport=Kumulierte Sitzungen nach Warteschlange, Tag und Merkmal
-    clage_session_byquetagreport=Kumulierte Sitzungen nach Warteschlange, Tag
+    clage_session_byquetagftrreport=Kumulierte Sitzungen nach Warteschlange, Markierung und Merkmal
+    clage_session_byquetagreport=Kumulierte Sitzungen nach Warteschlange, Markierung
     clage_session_calls= N. Anruf
     clage_session_details=Sitzungsdetails
     clage_session_end= Abschnittsende
