@@ -6,8 +6,8 @@
 | 2 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
 | 3 | *Spanish (es_ES)* | es_LA | 1 | 19.9% | 80.1% | 100.0% | 🟢 |
 | 4 | *Latam Spanish (es_LA)* | es_ES | 1 | 99.8% | 0.2% | 100.0% | 🟢 |
-| 5 | *French (fr_FR)* |  | 58 | 98.6% | 0.0% | 98.7% | 🟢 |
-| 6 | *German (de_DE)* |  | 78 | 98.2% | 0.0% | 98.2% | 🟢 |
+| 5 | *French (fr_FR)* |  | 1 | 100.0% | 0.0% | 100.0% | 🟢 |
+| 6 | *German (de_DE)* |  | 44 | 99.0% | 0.0% | 99.0% | 🟢 |
 | 7 | *Brazil Portuguese (pt_BR)* | pt_PT | 98 | 97.6% | 0.1% | 97.7% | 🟢 |
 | 8 | *Portuguese (pt_PT)* | pt_BR | 98 | 72.6% | 25.2% | 97.7% | 🟢 |
 | 9 | *Russian (ru_RU)* |  | 605 | 86.0% | 0.0% | 86.1% | 🔵 |
@@ -37,5 +37,5 @@
 - 🔴 Incomplete
 
 
-Generated at Wed, November 20 2024 @ 10:58.
+Generated at Wed, November 20 2024 @ 14:24.
 

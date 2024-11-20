@@ -588,8 +588,7 @@ Do not change the items below:
     clacd_lost_calls=Verlorene Gesrpäche
     clacd_max_attempts=Max. Anz. Versuche:
     clacd_min_attempts=Min. Anz. Versuche:
-    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
-    ➡️ clacd_last_acd_attempts=letzte ACD Versuche
+    clacd_last_acd_attempts=letzte ACD Versuche
     clacd_n_lost=Anz. verloren
     clacd_n_taken=Anz. angenommen
     clacd_queue=Warteschlange
@@ -1051,26 +1050,17 @@ Do not change the items below:
 
 Used for data blocks Overview by Agent/Queue
 
-    # 🔴 clok_overview_by_agent -> Overview by Agent
-    ➡️ clok_overview_by_agent=Übersicht nach Agent
-    # 🔴 clok_overview_by_queue -> Overview by Queue
-    ➡️ clok_overview_by_queue=Übersicht nach Warteschlange
-    # 🔴 clok_offered_n -> Offered
-    ➡️ clok_offered_n=angeboten
-    # 🔴 clok_answered_calls_prc -> Ans %
-    ➡️ clok_answered_calls_prc=angenommen %
-    # 🔴 clok_lost_attempts -> Lost att.
-    ➡️ clok_lost_attempts=verloren
-    # 🔴 clok_lost_attempts_prc -> Lst att %
-    ➡️ clok_lost_attempts_prc= verloren %
-    # 🔴 clok_outbound -> Outbound
-    ➡️ clok_outbound=Ausgehend
-    # 🔴 clok_outbound_prc -> Outb.%
-    ➡️ clok_outbound_prc= ausgehend %
+    clok_overview_by_agent=Übersicht nach Agent
+    clok_overview_by_queue=Übersicht nach Warteschlange
+    clok_offered_n=angeboten
+    clok_answered_calls_prc=angenommen %
+    clok_lost_attempts=verloren
+    clok_lost_attempts_prc= verloren %
+    clok_outbound=Ausgehend
+    clok_outbound_prc= ausgehend %
     # 🔴 clok_asa -> ASA
     ➡️ clok_asa=
-    # 🔴 clok_answered_sla_prc -> Ans in SLA %
-    ➡️ clok_answered_sla_prc=angen. in SLA %
+    clok_answered_sla_prc=angen. in SLA %
     # 🔴 clok_effective_prc -> Effective %
     ➡️ clok_effective_prc=
     # 🔴 clok_avg_wait -> Avg wait
@@ -1251,8 +1241,7 @@ Used for data blocks Overview by Agent/Queue
     edit_amo_last_pull= letzter Zugriff
     edit_amo_list_dialer_state=Status des Wählers
     edit_amo_list_id= Listen ID
-    # 🔴 edit_amo_list_last_pull -> Last Pull
-    ➡️ edit_amo_list_last_pull=letzter Zugriff
+    edit_amo_list_last_pull=letzter Zugriff
     edit_amo_list_n_added= N. hinzugefügt
     edit_amo_list_n_completed= N. beendet
     edit_amo_list_n_pulled= N. gezogen
@@ -2082,8 +2071,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_actions_whisper=Flüstern
     rt3_add=Neues Widget hinzufügen
     rt3_add_box=Neues Widget auf der Seite hinzufügen
-    # 🔴 rt3_add_queue -> Select Queue
-    ➡️ rt3_add_queue=Warteschlange wählen
+    rt3_add_queue=Warteschlange wählen
     rt3_add_view=Neue Ansicht hinzufügen
     rt3_advanced=Fortgeschrittene
     rt3_ag_calls_alm_red=Agenten Besetzt Rot Alarm
@@ -2107,14 +2095,10 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=Ändern Pause
     rt3_agent_code=Agent Code
     rt3_agent_extension=Agent Erweiterung
-    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
-    ➡️ rt3_agent_extension_regex_error=Nbst. entspricht nicht dem korrekten Format.
-    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
-    ➡️ rt3_agent_code_regex_error=Agentencode entspricht nicht dem korrekten Format.
-    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
-    ➡️ rt3_agent_extension_min_1_char_error=Nbst. sollte mind. 1 Zeichen lang sein.
-    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
-    ➡️ rt3_agent_code_min_1_char_error=Agentencode sollte mind. 1 Zeichen lang sein.
+    rt3_agent_extension_regex_error=Nbst. entspricht nicht dem korrekten Format.
+    rt3_agent_code_regex_error=Agentencode entspricht nicht dem korrekten Format.
+    rt3_agent_extension_min_1_char_error=Nbst. sollte mind. 1 Zeichen lang sein.
+    rt3_agent_code_min_1_char_error=Agentencode sollte mind. 1 Zeichen lang sein.
     rt3_agent_info=Agent-Infos
     rt3_agent_login=Anmeldung (Alle Warteschlangen)
     rt3_agent_logon=Agent-Anmeldung
@@ -2373,8 +2357,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Agent und Ergebnis
     rt3_table_aggrbyqueue=Aggregiert nach Warteschlange
     rt3_table_aggrbytag=Aggregiert nach Tag
-    # 🔴 rt3_table_lastattempts -> Last attempts
-    ➡️ rt3_table_lastattempts=letzte Versuche
+    rt3_table_lastattempts=letzte Versuche
     rt3_table_live_agents=Live-Agenten
     rt3_table_live_calls=Live-Anrufe
     rt3_table_live_queues=Aktuelle Warteschlangen
@@ -3053,11 +3036,9 @@ Description of security keys:
     phone_auto_answer_toggle_off=Automatische Antwort ist deaktiviert
     phone_auto_answer_toggle_on=Automatische Antwort ist aktiviert
     phone_basic_settings=Allgemeine Einstellungen
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=Weiterleiten ohne Rückfrage
+    phone_blind=Weiterleiten ohne Rückfrage
     phone_blind_transfer=Weiterleiten ohne Rückfrage
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=Gespräch
+    phone_call=Gespräch
     phone_calling=Anrufe...
     phone_cancel=Abbrechen
     phone_close=Schliessen
@@ -3079,8 +3060,7 @@ Description of security keys:
     phone_maxsessions=Max. Sitzungen
     phone_mute=Stummschalten
     phone_no_https=QueueMetrics muss über HTTPS bereitgestellt werden, damit das SoftPhone korrekt funktioniert.
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=keine Warteschlange
+    phone_no_queue=keine Warteschlange
     phone_noanswertimeout=Zeitlimit für keine Antwort
     phone_not_avaialable=Softphone nicht verfügbar.
     phone_not_available=Softphone nicht verfügbar.
@@ -3190,30 +3170,19 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_notice=Nach dem Speichern müssen Sie sich ab- und wieder anmelden, damit die Parameter geladen werden.
     # 🔴 cfgprops_n_items -> N. Properties found
     ➡️ cfgprops_n_items=
-    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
-    ➡️ cfgprops_input=Geben Sie eine oder mehrere einzustellende Eigenschaften ein, eine pro Zeile 
-    # 🔴 cfgprops_comment -> Reason for this change
-    ➡️ cfgprops_comment=Grund der Änderung
-    # 🔴 cfgprops_sort_by -> Sort by
-    ➡️ cfgprops_sort_by=sortiert nach
-    # 🔴 cfgprops_sort_bydate -> Last update
-    ➡️ cfgprops_sort_bydate=letztes Update
+    cfgprops_input=Geben Sie eine oder mehrere einzustellende Eigenschaften ein, eine pro Zeile 
+    cfgprops_comment=Grund der Änderung
+    cfgprops_sort_by=sortiert nach
+    cfgprops_sort_bydate=letztes Update
     # 🔴 cfgprops_sort_byname -> Name
     ➡️ cfgprops_sort_byname=
-    # 🔴 cfgprops_col_name -> Property name
-    ➡️ cfgprops_col_name=Eigenschaftsname
-    # 🔴 cfgprops_col_value -> Current value
-    ➡️ cfgprops_col_value=aktueller wert
-    # 🔴 cfgprops_col_comment -> Reason
-    ➡️ cfgprops_col_comment=Grund
-    # 🔴 cfgprops_history_date -> Date
-    ➡️ cfgprops_history_date=Datum
-    # 🔴 cfgprops_history_user -> User
-    ➡️ cfgprops_history_user=Benutzer
-    # 🔴 cfgprops_history_value -> Value
-    ➡️ cfgprops_history_value=Wert
-    # 🔴 cfgprops_history_previous -> Previous entries
-    ➡️ cfgprops_history_previous=vorherige Einträge
+    cfgprops_col_name=Eigenschaftsname
+    cfgprops_col_value=aktueller wert
+    cfgprops_col_comment=Grund
+    cfgprops_history_date=Datum
+    cfgprops_history_user=Benutzer
+    cfgprops_history_value=Wert
+    cfgprops_history_previous=vorherige Einträge
     
 
 These are obsolete:
@@ -3242,8 +3211,7 @@ Other items
     amo_list_state_open= offen
     amo_list_state_paused= pausiert
     amo_number_state_blklist= 
-    # 🔴 amo_number_state_dialed -> Dialed
-    ➡️ amo_number_state_dialed=gewählt
+    amo_number_state_dialed=gewählt
     # 🔴 amo_number_state_ko -> KO
     ➡️ amo_number_state_ko=
     # 🔴 amo_number_state_ok -> OK
@@ -3765,10 +3733,8 @@ Other items
     # 🔴 qap_nav_wallboard -> Wallboard
     ➡️ qap_nav_wallboard=
     qap_nav_wombat= WombatDialer Wahlvorschau
-    # 🔴 qap_new_case -> New Case
-    ➡️ qap_new_case=Neuer Case
-    # 🔴 qap_new_client -> New Client
-    ➡️ qap_new_client=Neuer Kunde
+    qap_new_case=Neuer Case
+    qap_new_client=Neuer Kunde
     qap_new_memo= erknüpftes Memo erstellen
     qap_no_cases= Bei der aktuellen Suche wurden keine Anfragen gefunden, bitte versuchen Sie es erneut.
     qap_no_clients= Bei der aktuellen Suche wurden keine Kunden, bitte versuchen Sie es erneut.

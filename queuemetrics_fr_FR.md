@@ -1,6 +1,6 @@
 # Translation file for QueueMetrics - en_US
 
-- The name WombatDialer is a product and should be left unaltered.
+- The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
 - The acronym "AMO" stands for Assisted Manual Outbound
 
@@ -11,7 +11,7 @@ General information about this language pack. The language name should be writte
 language itself, and will appear in the drop-down language selector.
 
     00-LanguageName=Fran&ccedil;ais
-
+    
 Do not change the items below:
 
     dateformat_complete=dd MMMM yyyy, HH:mm
@@ -68,7 +68,7 @@ Do not change the items below:
     td_autoconf_wz_summary_opresult=Résultat de l'opération
     td_autoconf_wz_summary_type=Typologie
     td_autoconf_wz_users=Utilisateurs
-    # 👽 td_calloutc_? ->
+    # 👽 td_calloutc_? -> 
     td_calloutc_?=?
     td_calloutc_contact=Contact
     td_calloutc_known=Connu
@@ -496,7 +496,7 @@ Do not change the items below:
     clage_n_calls=Nb. d'appels
     clage_n_of_agents_available=Nb. d'agents disponibles:
     clage_nanswcalls=Répondu
-    clage_nbsp=
+    clage_nbsp= 
     clage_nftrs=Caractéristiques
     clage_ngoalftrs=Caract. de l'Objectif
     clage_nobillpause=Non facturable
@@ -588,8 +588,7 @@ Do not change the items below:
     clacd_lost_calls=Appels non-répondus
     clacd_max_attempts=Nb. maximal de tentatives:
     clacd_min_attempts=Nb. minimal de tentatives:
-    # 🔴 clacd_last_acd_attempts -> Dernières tentatives ACD
-    ➡️ clacd_last_acd_attempts=Dernières tentatives ACD
+    clacd_last_acd_attempts=Dernières tentatives ACD
     clacd_n_lost=Nb. non-répondus
     clacd_n_taken=Nb. répondus
     clacd_queue=File
@@ -660,7 +659,7 @@ Do not change the items below:
     cld_n_calls=Nb d'Appels
     cld_n_lost=Appels non-répondus
     cld_n_taken=Appels Répondus
-    cld_nbsp=
+    cld_nbsp= 
     cld_nopayable=Non facturable
     cld_opos=Pos.
     cld_pause=Pause
@@ -767,7 +766,7 @@ Do not change the items below:
     cldst_inclusive_sla_per_hour=Accord de Qualité de Service par heure
     cldst_max=Max
     cldst_min=Min
-    cldst_nbsp=
+    cldst_nbsp= 
     cldst_noskills=Sans compétence
     cldst_num=Numéro
     cldst_percent=%
@@ -899,7 +898,7 @@ Do not change the items below:
     clko_min_queue_position_at_disconnection=Position mininale dans la File lors de la déconnexion:
     clko_min_wait_time_before_disconnection=Temps minimal d'attente avant déconnexion:
     clko_n_calls=Nb.
-    clko_nbsp=
+    clko_nbsp= 
     clko_nof_unanswered_calls=Nb d'appels non répondus:
     clko_offered=%age offert
     clko_percent=Pourcentage
@@ -922,14 +921,14 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Appels non répondus, par durée
     clko_unanswered_outbound=Détails pour les appels non répondus, par agent
     clko_within_x_seconds=Dans les ## secondes:
-    # 🔴 clko_unanswered_calls_prc -> Pourcentage non répondu
-    ➡️ clko_unanswered_calls_prc=Pourcentage non répondu
-    # 🔴 clko_unanswered_with_atts -> Non répondu avec tentatives
-    ➡️ clko_unanswered_with_atts=Non répondu avec tentatives
-    # 🔴 clko_unanswered_no_atts -> Non répondu sans tentatives
-    ➡️ clko_unanswered_no_atts=Non répondu sans tentatives
+    clko_unanswered_calls_prc=Pourcentage non répondu
+    clko_unanswered_with_atts=Non répondu avec tentatives
+    clko_unanswered_no_atts=Non répondu sans tentatives
+
 
 ## Report headers
+
+
 
     clhdr_agentgroup=Filtrés pour le groupe de l'agent:
     clhdr_ans=Répondus
@@ -970,6 +969,8 @@ Do not change the items below:
     clhdr_wait=Filtrés pour temps d'attente:
 
 ## Taken calls
+
+
 
     clok_%=%
     clok_agent=Agent
@@ -1018,7 +1019,7 @@ Do not change the items below:
     clok_n_calls=Nb. Appels
     clok_n_calls_answered_by_operators=Nb. d'appels répondus:
     clok_n_stints=Nombre des morceaux
-    clok_nbsp=
+    clok_nbsp= 
     clok_offered=% offert
     clok_percent=Pourcentage
     clok_position_enter=Position à l'entrée
@@ -1046,34 +1047,24 @@ Do not change the items below:
 
 Used for data blocks Overview by Agent/Queue
 
-    # 🔴 clok_overview_by_agent -> Aperçu par Agent
-    ➡️ clok_overview_by_agent=Aperçu par Agent
-    # 🔴 clok_overview_by_queue -> Aperçu par File
-    ➡️ clok_overview_by_queue=Aperçu par File
-    # 🔴 clok_offered_n -> Offerts
-    ➡️ clok_offered_n=Offerts
-    # 🔴 clok_answered_calls_prc -> Rép. %
-    ➡️ clok_answered_calls_prc=Rép. %
-    # 🔴 clok_lost_attempts -> Tentatives perdues
-    ➡️ clok_lost_attempts=Tentatives perdues
-    # 🔴 clok_lost_attempts_prc -> Perdues %
-    ➡️ clok_lost_attempts_prc=Perdues %
-    # 🔴 clok_outbound -> Sortants
-    ➡️ clok_outbound=Sortants
-    # 🔴 clok_outbound_prc -> Sortants %
-    ➡️ clok_outbound_prc=Sortants %
-    # 🔴 clok_asa -> ASA
-    ➡️ clok_asa=ASA
-    # 🔴 clok_answered_sla_prc -> Rép. dans SLA %
-    ➡️ clok_answered_sla_prc=Rép. dans SLA %
-    # 🔴 clok_effective_prc -> Effectif %
-    ➡️ clok_effective_prc=Effectif %
-    # 🔴 clok_avg_wait -> Attente Moy.
-    ➡️ clok_avg_wait=Attente Moy.
-    # 🔴 clok_max_wait -> Attente Max.
-    ➡️ clok_max_wait=Attente Max.
-
+    clok_overview_by_agent=Aperçu par Agent
+    clok_overview_by_queue=Aperçu par File
+    clok_offered_n=Offerts
+    clok_answered_calls_prc=Rép. %
+    clok_lost_attempts=Tentatives perdues
+    clok_lost_attempts_prc=Perdues %
+    clok_outbound=Sortants
+    clok_outbound_prc=Sortants %
+    clok_asa=ASA
+    clok_answered_sla_prc=Rép. dans SLA %
+    clok_effective_prc=Effectif %
+    clok_avg_wait=Attente Moy.
+    clok_max_wait=Attente Max.
+        
+    
 ## Call events
+
+
 
     evt_abandon=L'appelant a abandonné
     evt_agentattempt=Tentative d'appel
@@ -1123,18 +1114,12 @@ Used for data blocks Overview by Agent/Queue
     evt_web_end_session=Fin de session Web
     evt_web_fail_session=Échec de la session Web
     evt_web_start_session=Début session Web
-    # 🔴 evt_var_group -> Variables
-    ➡️ evt_var_group=Variables
-    # 🔴 evt_custom_prev_stint -> Previous Stint
-    ➡️ evt_custom_prev_stint=Morceau précédent
-    # 🔴 evt_custom_next_stint -> Next Stint
-    ➡️ evt_custom_next_stint=Morceau suivant
-    # 🔴 evt_custom_n_stint -> N. Stints
-    ➡️ evt_custom_n_stint=N. Morceaux
-    # 🔴 evt_custom_direct_to -> Direct call to
-    ➡️ evt_custom_direct_to=Appel direct à
-    # 🔴 evt_custom_quality -> Call quality
-    ➡️ evt_custom_quality=Qualité d'appel
+    evt_var_group=Variables
+    evt_custom_prev_stint=Morceau précédent
+    evt_custom_next_stint=Morceau suivant
+    evt_custom_n_stint=N. Morceaux
+    evt_custom_direct_to=Appel direct à
+    evt_custom_quality=Qualité d'appel
 
 ## Headers
 
@@ -1961,8 +1946,7 @@ Used for data blocks Overview by Agent/Queue
     qa_pop_print=Imprimer
     qa_prc_act=%
     qa_prc_min=% exigè
-    # 🔴 qa_print_report -> Print QA Report
-    ➡️ qa_print_report=Imprimer le rapport QA
+    qa_print_report=Imprimer le rapport QA
     qa_queryfilterwarn=On ne peut pas choisir plusieur critères de filtrage
     qa_queue=File
     qa_range=Intervalle
@@ -2079,8 +2063,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_actions_whisper=Susurre
     rt3_add=Ajout un nouveau Gadget(Widget)
     rt3_add_box=Ajouter une nouvelle boite sur la page
-    # 🔴 rt3_add_queue -> Select Queue
-    ➡️ rt3_add_queue=Sélectionner une file
+    rt3_add_queue=Sélectionner une file
     rt3_add_view=Ajouter une nouvelle vue
     rt3_advanced=Évolué
     rt3_ag_calls_alm_red=Alarme Rouge d'Agent occupé
@@ -2104,14 +2087,10 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=Change la pause
     rt3_agent_code=Code de l'Agent
     rt3_agent_extension=Extension de l'Agent
-    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
-    ➡️ rt3_agent_extension_regex_error=L'extension de l'agent ne respecte pas le format correct.
-    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
-    ➡️ rt3_agent_code_regex_error=Le code de l'agent ne respecte pas le format correct.
-    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
-    ➡️ rt3_agent_extension_min_1_char_error=L'extension de l'agent doit comporter au moins 1 caractère.
-    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
-    ➡️ rt3_agent_code_min_1_char_error=Le code de l'agent doit comporter au moins 1 caractère.
+    rt3_agent_extension_regex_error=L'extension de l'agent ne respecte pas le format correct.
+    rt3_agent_code_regex_error=Le code de l'agent ne respecte pas le format correct.
+    rt3_agent_extension_min_1_char_error=L'extension de l'agent doit comporter au moins 1 caractère.
+    rt3_agent_code_min_1_char_error=Le code de l'agent doit comporter au moins 1 caractère.
     rt3_agent_info=Information Agent
     rt3_agent_login=Connexion(à toutes les files)
     rt3_agent_logon=Agent connecté
@@ -2370,8 +2349,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Agent et Résultat
     rt3_table_aggrbyqueue=Agrégé par file
     rt3_table_aggrbytag=Agrégé par Tag
-    # 🔴 rt3_table_lastattempts -> Last attempts
-    ➡️ rt3_table_lastattempts=Derniers essais
+    rt3_table_lastattempts=Derniers essais
     rt3_table_live_agents=Agents actifs
     rt3_table_live_calls=Appels actifs
     rt3_table_live_queues=Files actives
@@ -3175,33 +3153,20 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_title=Editer les paramètres système QueueMetrics
     cfgprops_title_wizard=Explorer les Paramètres de Configuration QueueMetrics
     cfgprops_notice=Après sauvegarde, vous devez vous déconnecter puis vous reconnecter pour charger les paramètres
-    # 🔴 cfgprops_n_items -> N. Properties found
-    ➡️ cfgprops_n_items=Nb de propriétés trouvées
-    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
-    ➡️ cfgprops_input=Entrez une ou plusieurs propriétés à définir, une par ligne.
-    # 🔴 cfgprops_comment -> Reason for this change
-    ➡️ cfgprops_comment=Raison de ce changement
-    # 🔴 cfgprops_sort_by -> Sort by
-    ➡️ cfgprops_sort_by=Trié par
-    # 🔴 cfgprops_sort_bydate -> Last update
-    ➡️ cfgprops_sort_bydate=Dernière Mise à jour
-    # 🔴 cfgprops_sort_byname -> Name
-    ➡️ cfgprops_sort_byname=Nom
-    # 🔴 cfgprops_col_name -> Property name
-    ➡️ cfgprops_col_name=Nom de la propriété
-    # 🔴 cfgprops_col_value -> Current value
-    ➡️ cfgprops_col_value=Valeur actuelle
-    # 🔴 cfgprops_col_comment -> Reason
-    ➡️ cfgprops_col_comment=Raison
-    # 🔴 cfgprops_history_date -> Date
-    ➡️ cfgprops_history_date=Date
-    # 🔴 cfgprops_history_user -> User
-    ➡️ cfgprops_history_user=Utilisateur
-    # 🔴 cfgprops_history_value -> Value
-    ➡️ cfgprops_history_value=Valeur
-    # 🔴 cfgprops_history_previous -> Previous entries
-    ➡️ cfgprops_history_previous=Entrées précédentes
-
+    cfgprops_n_items=Nb de propriétés trouvées
+    cfgprops_input=Entrez une ou plusieurs propriétés à définir, une par ligne.
+    cfgprops_comment=Raison de ce changement
+    cfgprops_sort_by=Trié par
+    cfgprops_sort_bydate=Dernière Mise à jour
+    cfgprops_sort_byname=Nom
+    cfgprops_col_name=Nom de la propriété
+    cfgprops_col_value=Valeur actuelle
+    cfgprops_col_comment=Raison
+    cfgprops_history_date=Date
+    cfgprops_history_user=Utilisateur
+    cfgprops_history_value=Valeur
+    cfgprops_history_previous=Entrées précédentes
+    
 
 These are obsolete:
 
@@ -3210,7 +3175,7 @@ These are obsolete:
     cfgprops_nocontent=Fichier non sauvegardé. Pour votre sécurité, le fichier ne peut être vide
     cfgprops_not_editable=Le fichier de configuration ne peut être édité
     cfgprops_wrong_line=Fichier non sauvegardé - Mauvais format de Ligne
-
+    
 
 ## Misc
 
@@ -3433,15 +3398,12 @@ Other items
     memo_related_to=Lié à
     memo_status=Statut
     memo_tree_empty=Vide
-    # 🔴 memo_tree_title -> Linked memos
-    ➡️ memo_tree_title=Mémos liés
+    memo_tree_title=Mémos liés
     memo_type=Type
     menu_licence_page=Page de licence
     menu_user_page=Information utilisateur
-    # 🔴 modal_cancel -> Cancel
-    ➡️ modal_cancel=Annuler
-    # 🔴 modal_ok -> Ok
-    ➡️ modal_ok=Ok
+    modal_cancel=Annuler
+    modal_ok=Ok
     notification_error=Erreur
     notification_info=Info
     notification_success=Réussite
@@ -3734,13 +3696,10 @@ Other items
     qap_nav_interactions=Interactions
     qap_nav_overview=Résumé
     qap_nav_qa=QA
-    # 🔴 qap_nav_wallboard -> Wallboard
-    ➡️ qap_nav_wallboard=Tableau de bord
+    qap_nav_wallboard=Tableau de bord
     qap_nav_wombat=Aperçu du composant WombatDialer
-    # 🔴 qap_new_case -> New Case
-    ➡️ qap_new_case=Nouveau Cas
-    # 🔴 qap_new_client -> New Client
-    ➡️ qap_new_client=Nouveau Client
+    qap_new_case=Nouveau Cas
+    qap_new_client=Nouveau Client
     qap_new_memo=Créer un mémo lié
     qap_no_cases=Aucun cas ouvert
     qap_no_clients=Aucun client trouvé.
@@ -4063,8 +4022,7 @@ Other items
     reports_qa_status=Status
     reports_qa_uid=ID unique
     reports_qa_value=Valeur
-    # 🔴 reports_qa_print -> Print
-    ➡️ reports_qa_print=Imprimer
+    reports_qa_print=Imprimer
     reports_query_loading=Chargement
     reports_ratio=Ratio
     reports_recap_no_filters=Cliquer pour Ajouter des Filtres
@@ -4084,8 +4042,7 @@ Other items
     reports_settings=Paramétrages
     reports_settings_areacode=Code de Zone
     reports_settings_datablock=Bloc de Données
-    # 🔴 reports_settings_default -> Reset to System Default
-    ➡️ reports_settings_default=Réinitialiser aux paramètres par défaut du système
+    reports_settings_default=Réinitialiser aux paramètres par défaut du système
     reports_settings_hourlyslot=Intervalle d'Heures
     reports_settings_report=Rapport
     reports_settings_shortcallattemptwaitlimit=Limite d'attente de tentative d'appel court
@@ -4232,7 +4189,7 @@ Other items
     rt_monitor_tt=Enregistrer maintenant
     rt_n_agents=Nb. Opérateurs
     rt_n_calls_waiting=Nb. Appels en attente
-    rt_nbsp=
+    rt_nbsp= 
     rt_on_pause=En pause
     rt_on_pause_nbsp=En pause
     rt_on_phone_inbound=Au téléphone (app. entrant)
@@ -4337,7 +4294,7 @@ Other items
     rt_visitor_ext_nbsp=Ext.
     rt_visitor_in_order_to_mantain_session_information=Pour rafraichir les informations cette page se rechargera automatiquement
     rt_visitor_n_calls=Nb. Appels
-    rt_visitor_nbsp=
+    rt_visitor_nbsp= 
     rt_visitor_queue=File
     rt_visitor_queue_nbsp=File
     rt_visitor_queues=File(s):
@@ -4359,7 +4316,7 @@ Other items
     rt_wall_moh=Mus.Patience
     rt_wall_n_agents=Agents
     rt_wall_n_calls_waiting=Attente
-    rt_wall_nbsp=
+    rt_wall_nbsp= 
     rt_wall_on_pause=Pause
     rt_wall_on_phone_inbound=Entrant
     rt_wall_on_phone_outbound=Sortant
@@ -4408,18 +4365,12 @@ Other items
     sync2_apply=Appliquer la configuration
     sync2_choose_pbx=iPBX
     sync2_choose_source=Sélectionner la Source
-    # 🔴 sync2_chunker_uploading -> Data Upload
-    ➡️ sync2_chunker_uploading=Chargement de données
-    # 🔴 sync2_chunker_progress -> Uploaded chunks
-    ➡️ sync2_chunker_progress=Morceaux chargés
-    # 🔴 sync2_chunker_actions -> Actions left
-    ➡️ sync2_chunker_actions=Actions restantes
-    # 🔴 sync2_chunker_chunks -> Uploading configuration
-    ➡️ sync2_chunker_chunks=Chargement de la Configuration
-    # 🔴 sync2_chunker_sending -> Applying actions
-    ➡️ sync2_chunker_sending=Application des actions
-    # 🔴 sync2_chunker_waiting -> Waiting...
-    ➡️ sync2_chunker_waiting=En attente….
+    sync2_chunker_uploading=Chargement de données
+    sync2_chunker_progress=Morceaux chargés
+    sync2_chunker_actions=Actions restantes
+    sync2_chunker_chunks=Chargement de la Configuration
+    sync2_chunker_sending=Application des actions
+    sync2_chunker_waiting=En attente….
     sync2_cluster=Configuration du Cluster
     sync2_cluster_info=Information Cluster
     sync2_collapse=Masquer
@@ -4539,3 +4490,5 @@ Other items
     xtsrc_html=Source de données externes au format HTML
     xtsrc_json=Source de données externesau format JSON
     xtsrc_xmlrpc=Source de données externes au format XML-RPC
+
+
