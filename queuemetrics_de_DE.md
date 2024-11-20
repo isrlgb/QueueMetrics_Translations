@@ -97,10 +97,10 @@ Do not change the items below:
     td_cko_unanswered_yet=<font color='red'>Noch nicht angenommen</font>
     td_cok_agent=Agent
     td_cok_agent_disconnected=Beendet durch Agenten
-    td_cok_att_transferred=Besuchte Übertragung
-    td_cok_atxfr=Besuchte Übertragung
-    td_cok_bln_transferred=Blinde Übertragung
-    td_cok_blxfr=Blinde Übertragung
+    td_cok_att_transferred=Weiterleiten mit Rückfrage
+    td_cok_atxfr=Weiterleiten mit Rückfrage
+    td_cok_bln_transferred=Weiterleiten ohne Rückfrage
+    td_cok_blxfr=Weiterleiten ohne Rückfrage
     td_cok_caller=Anrufer
     td_cok_caller_disconnected=Beendet durch Anrufer
     td_cok_ongoing=<font color='red'>Laufendes Gespräch</font>
@@ -240,10 +240,10 @@ Do not change the items below:
     aout_call_res_by_feature=Anrufergebnisse, nach Funktionscode
     aout_call_res_by_outcome=Gesprächsresultat, nach Ergebnis
     aout_call_res_by_tag=Anrufergebnisse, nach Tag
-    aout_calltag=Tag
-    aout_case_distribution=ZUteilung der Anfrage
+    aout_calltag=markiert
+    aout_case_distribution=Zuteilen der Anfrage
     aout_chart=~
-    aout_client_distribution=Zuteilung des Kunden
+    aout_client_distribution=Zuteilen des Kunden
     aout_contacts_n=Kontakte
     aout_convratio=Konversionsquote
     aout_cph=KPS
@@ -339,7 +339,7 @@ Do not change the items below:
     art_callOutcome=Ergebnis
     art_callQueue=Warteschlange
     art_callStart=Start des Anrufs
-    art_callTag=Tag
+    art_callTag=markiert
     art_callTalking=Gesprächszeit
     art_callTransfer=Übertragen auf
     art_callURL=URL
@@ -440,7 +440,7 @@ Do not change the items below:
     clage_agent_availability_for_all_the_queues_they_are_member_of=Verfügbarkeit der Agenten (für alle Warteschlangen, denen sie angehören)
     clage_agent_btimebyhour=Abrechenbare Zeit des Agenten nach Stunden
     clage_agent_numbyhour=Agenten nach Stunden
-    clage_agent_occupancy=Agent Belegungsbericht
+    clage_agent_occupancy=Agent Auslastungsbericht
     clage_agent_outbound_productivity=Ausgehende Produktivität
     clage_agent_perf_prg=Programmierbare Agentenleistung
     clage_agent_performance_acd_group=Agentenleistung nach ACD-Gruppe
@@ -465,7 +465,7 @@ Do not change the items below:
     clage_billable=abrechnungsfähig
     clage_billpause=Abrechenbar
     clage_callfeatures=Merkmal
-    clage_calltag=Tag
+    clage_calltag=markiert
     clage_chart=Grafik
     clage_cont=Cont.
     clage_contph=CPH
@@ -522,8 +522,8 @@ Do not change the items below:
     clage_sales=Verkauf
     clage_salesph=S PH
     clage_session_and_pause_durations=Sitzungs- und Pausenlängen
-    clage_session_byquetagftrreport=Kumulierte Sitzungen nach Warteschlange, Tag und Merkmal
-    clage_session_byquetagreport=Kumulierte Sitzungen nach Warteschlange, Tag
+    clage_session_byquetagftrreport=Kumulierte Sitzungen nach Warteschlange, Markierung und Merkmal
+    clage_session_byquetagreport=Kumulierte Sitzungen nach Warteschlange, Markierung
     clage_session_calls= N. Anruf
     clage_session_details=Sitzungsdetails
     clage_session_end= Abschnittsende
@@ -589,7 +589,7 @@ Do not change the items below:
     clacd_max_attempts=Max. Anz. Versuche:
     clacd_min_attempts=Min. Anz. Versuche:
     # 🔴 clacd_last_acd_attempts -> Last ACD attempts
-    ➡️ clacd_last_acd_attempts=
+    ➡️ clacd_last_acd_attempts=letzte ACD Versuche
     clacd_n_lost=Anz. verloren
     clacd_n_taken=Anz. angenommen
     clacd_queue=Warteschlange
@@ -673,7 +673,7 @@ Do not change the items below:
     cld_pop_call_detail=Anrufdetails
     cld_pop_call_events=Ereignisse aufrufen
     cld_pop_caller_id=Anruferkennung:
-    cld_pop_calltag=Tag:
+    cld_pop_calltag=markiert:
     cld_pop_close=Schliessen
     cld_pop_date_and_time=Datum und Uhrzeit:
     cld_pop_disconnection_cause=Grund für Verbindungsende:
@@ -825,10 +825,10 @@ Do not change the items below:
     custrep_asterisk_id=Gesprächskennung
     custrep_call_dur=Anrufdauer
     custrep_caller=Anrufer
-    custrep_calltags=Tags aufrufen
+    custrep_calltags=Markierte aufrufen
     custrep_criteria=Filterkriterien
     custrep_custom_report_analysis=Benutzerdefinierter Bericht
-    custrep_date_call=Call
+    custrep_date_call=Gespräch
     custrep_date_callorform=Datum des Antrags:
     custrep_date_form=Formular ausfüllen
     custrep_disconnection=Grund für Anrufende
@@ -892,7 +892,7 @@ Do not change the items below:
     clko_inclusive_sla_computed=Qualitätsindex (berechnet aus angenommenen und nicht ang. Anrufen)
     clko_ivr_all=Sprachdialog-Auswahl, für alle Anrufe
     clko_ivr_ko=Sprachdialog-Auswahl
-    clko_key=Key
+    clko_key=Taste
     clko_keypress=Unbeantwortete Anrufe durch Tastendruck
     clko_max_queue_position_at_disconnection=Max. Position in der Warteschlange bei Verbindungsende:
     clko_max_wait_time_before_disconnection=Max. Wartezeit vor Verbindungsende:
@@ -966,7 +966,7 @@ Do not change the items below:
     clhdr_server=Gefiltert nach Server:
     clhdr_short_calls=Kurzanrufe
     clhdr_skill=Gefiltert nach Fähigkeiten:
-    clhdr_supervised_by=Beaufsichtigt von
+    clhdr_supervised_by=Supervised durch
     clhdr_timerange=Zeitspanne:
     clhdr_total_calls_processed=Insgesamt verarbeitete Gespräche:
     clhdr_unans=nicht ang.
@@ -1052,25 +1052,25 @@ Do not change the items below:
 Used for data blocks Overview by Agent/Queue
 
     # 🔴 clok_overview_by_agent -> Overview by Agent
-    ➡️ clok_overview_by_agent=
+    ➡️ clok_overview_by_agent=Übersicht nach Agent
     # 🔴 clok_overview_by_queue -> Overview by Queue
-    ➡️ clok_overview_by_queue=
+    ➡️ clok_overview_by_queue=Übersicht nach Warteschlange
     # 🔴 clok_offered_n -> Offered
-    ➡️ clok_offered_n=
+    ➡️ clok_offered_n=angeboten
     # 🔴 clok_answered_calls_prc -> Ans %
-    ➡️ clok_answered_calls_prc=
+    ➡️ clok_answered_calls_prc=angenommen %
     # 🔴 clok_lost_attempts -> Lost att.
-    ➡️ clok_lost_attempts=
+    ➡️ clok_lost_attempts=verloren
     # 🔴 clok_lost_attempts_prc -> Lst att %
-    ➡️ clok_lost_attempts_prc=
+    ➡️ clok_lost_attempts_prc= verloren %
     # 🔴 clok_outbound -> Outbound
-    ➡️ clok_outbound=
+    ➡️ clok_outbound=Ausgehend
     # 🔴 clok_outbound_prc -> Outb.%
-    ➡️ clok_outbound_prc=
+    ➡️ clok_outbound_prc= ausgehend %
     # 🔴 clok_asa -> ASA
     ➡️ clok_asa=
     # 🔴 clok_answered_sla_prc -> Ans in SLA %
-    ➡️ clok_answered_sla_prc=
+    ➡️ clok_answered_sla_prc=angen. in SLA %
     # 🔴 clok_effective_prc -> Effective %
     ➡️ clok_effective_prc=
     # 🔴 clok_avg_wait -> Avg wait
@@ -1086,16 +1086,16 @@ Used for data blocks Overview by Agent/Queue
     evt_abandon=Anrufer aufgegeben
     evt_agentattempt=Ringversuch
     evt_agentdump=Agentendump
-    evt_attended_transfer=Besuchte Übertragung
-    evt_blind_transfer=Blinde Übertragung
+    evt_attended_transfer=Weiterleiten mit Rückfrage
+    evt_blind_transfer=Weiterleiten ohne Rückfrage
     evt_call_outbound=Ausgehender Anruf
-    evt_call_tag=Tag
+    evt_call_tag=markiert
     evt_complete_agent=Vollständiger Agent
     evt_complete_caller=Vollständiger Anrufer
     evt_connect=Verbinden
     evt_enter_queue=Warteschlange betreten
     evt_exit_empty=Leeren Ausgang
-    evt_exit_with_key=Beenden mit Schlüssel
+    evt_exit_with_key=Beenden mit Taste
     evt_exit_with_timeout=Beenden mit Zeitüberschreitung
     evt_feature_added=Funktion hinzugefügt
     evt_feature_deleted=Merkmal Gelöscht
@@ -1216,8 +1216,8 @@ Used for data blocks Overview by Agent/Queue
     hdr_skills=Fähigkeiten
     hdr_stats= Stats
     hdr_stats_title= Statistiken
-    hdr_tags=Tags
-    hdr_tags_title=Tags aufrufen
+    hdr_tags=markiert
+    hdr_tags_title=Markierte aufrufen
     hdr_tasks=Aufgaben
     hdr_tasks_rss=RSS Feed
     hdr_tc=T&C
@@ -1235,7 +1235,7 @@ Used for data blocks Overview by Agent/Queue
     edit_ac_gr=Gr.
     edit_ac_group=Gruppe
     edit_ac_im=IM
-    edit_ac_key=Schlüssel
+    edit_ac_key=Key
     edit_ac_location=Standort
     edit_ac_mon=Montag
     edit_ac_payroll_code=Lohnnummer
@@ -1252,7 +1252,7 @@ Used for data blocks Overview by Agent/Queue
     edit_amo_list_dialer_state=Status des Wählers
     edit_amo_list_id= Listen ID
     # 🔴 edit_amo_list_last_pull -> Last Pull
-    ➡️ edit_amo_list_last_pull=
+    ➡️ edit_amo_list_last_pull=letzter Zugriff
     edit_amo_list_n_added= N. hinzugefügt
     edit_amo_list_n_completed= N. beendet
     edit_amo_list_n_pulled= N. gezogen
@@ -1298,12 +1298,12 @@ Used for data blocks Overview by Agent/Queue
     edit_cases_xref= Referenz
     edit_cbt_deleted=Gelöscht
     edit_cbt_description=Beschreibung
-    edit_cbt_key=Schlüssel
+    edit_cbt_key=Key
     edit_cbt_name=Name
     edit_cbt_sent=Versandt
     edit_classes_class_name=Klassenname
     edit_classes_description=Beschreibung
-    edit_classes_keys=Schlüssel
+    edit_classes_keys=Key
     edit_classes_title=Nutzerklassen
     edit_classes_user_num=Nutzer № 
     edit_clients_client_in_use= Dieser Kunde kann nicht gelöscht werden - Er ist in Verwendung.
@@ -1333,8 +1333,8 @@ Used for data blocks Overview by Agent/Queue
     edit_cronjobs_onceaday=Einmal am Tag
     edit_cronjobs_title=Geplante Jobs
     edit_ct_description=Beschreibung
-    edit_ct_key=Schlüssel
-    edit_ct_tag=Tag
+    edit_ct_key=Key
+    edit_ct_tag=markiert
     edit_ct_title=Anruftags
     edit_customblocks_description= Beschreibung
     edit_customblocks_header=Benutzerdefinierte Datenblöcke
@@ -1354,18 +1354,18 @@ Used for data blocks Overview by Agent/Queue
     edit_feat_description=Beschreibung
     edit_feat_feature=Funktion
     edit_feat_goal=Ziel
-    edit_feat_key=Schlüssel
+    edit_feat_key=Key
     edit_feat_rel_outcomes=Verwandte Kategorien
     edit_feat_title=Anruffeatures
     edit_gr_description=Beschreibung
     edit_gr_group=Gruppe
     edit_gr_icon=Symbol
-    edit_gr_key=Schlüssel
+    edit_gr_key=Key
     edit_gr_nagents=Anzahl der Agenten
     edit_gr_title=Gruppen von Agenten
     edit_items_data_blocks=Datenblocks
     edit_items_in_all=In allen
-    edit_items_key=Schlüssel
+    edit_items_key=Key
     edit_items_order=Auftrag
     edit_items_subtit=Untertitel
     edit_items_title_field=Titel
@@ -1390,33 +1390,33 @@ Used for data blocks Overview by Agent/Queue
     edit_kn_number=Nummer
     edit_kn_title=Bekannte Nummern
     edit_locations_description=Beschreibung
-    edit_locations_key=Schlüssel
+    edit_locations_key=Key
     edit_locations_location=Standort
     edit_locations_num_agents=Anzahl der Agenten
     edit_locations_title=Standorte
     edit_outcomes_contact=Kontakt?
     edit_outcomes_description=Beschreibung
-    edit_outcomes_key=Schlüssel
+    edit_outcomes_key=Key
     edit_outcomes_outcome=Ergebnis
     edit_outcomes_qc=QC?
     edit_outcomes_sale=Vertrieb?
     edit_outcomes_title=Ergebnisse der Aufforderung
     edit_pause_billable=Abrechenbar?
     edit_pause_description=Beschreibung
-    edit_pause_key=Schlüssel
+    edit_pause_key=Key
     edit_pause_pause_code=Pausencode
     edit_pause_payable=Zahlbar?
     edit_pause_title=Pause Codes
     edit_pause_type=Typ
     edit_prftrk_description=Beschreibung
     edit_prftrk_id=ID
-    edit_prftrk_key=Schlüssel
+    edit_prftrk_key=Key
     edit_prftrk_name=Name
     edit_prftrk_num_targets=Anzahl der Ziele
     edit_prftrk_title=QA: Performance Tracker-Bewertungsregeln
     edit_qa_items=Elemente
-    edit_qa_key_in=Schlüssel In
-    edit_qa_key_rep=Schlüsselrepräsentant
+    edit_qa_key_in=Key In
+    edit_qa_key_rep=Key repräsentant
     edit_qa_name=Name
     edit_qa_sec_1=Abschnitt 1
     edit_qa_sec_10=Abschnitt 10
@@ -1444,7 +1444,7 @@ Used for data blocks Overview by Agent/Queue
     edit_queues_agents=Agenten
     edit_queues_alias=Alias
     edit_queues_fp=F.P.
-    edit_queues_key=Schlüssel
+    edit_queues_key=Key
     edit_queues_queues=Warteschlange(n)
     edit_queues_title=Warteschlangenkonfiguration
     edit_record_agawqueue_abscalls=Absolute Anzahl von Anrufen
@@ -1520,7 +1520,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_cbt_title=CBTs bearbeiten
     edit_record_cbt_url=CBT URL:
     edit_record_classes_id=KlassenID:
-    edit_record_classes_keys=Schlüssel:
+    edit_record_classes_keys=Key:
     edit_record_classes_name=Klassenname:
     edit_record_classes_title=Klassendetails:
     edit_record_classes_usersinclass=Anzahl zu dieser Klasse gehörenden Nutzer:
@@ -1578,7 +1578,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_export_separate=Trennen Sie mit '|'
     edit_record_export_title=Berichte Detail exportieren
     edit_record_export_titlefield=Titel:
-    edit_record_export_visibility=Schlüssel zur Sichtbarkeit:
+    edit_record_export_visibility=Key zur Sichtbarkeit:
     edit_record_ext_ref= Referenz
     edit_record_external_reference=Externe Referenz-ID:
     edit_record_features_code=Funktionscode
@@ -1620,12 +1620,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_prftrk_yellow=Gelb
     edit_record_qa_editsections=Abschnitte bearbeiten
     edit_record_qa_grading=Einstufung aufrufen
-    edit_record_qa_inputkey=Sicherheitsschlüssel für die Eingabe:
+    edit_record_qa_inputkey=Sicherheitskey für die Eingabe:
     edit_record_qa_locked=Formular gesperrt?
     edit_record_qa_maxvalue=Maximaler Wert für
     edit_record_qa_name=Formularname:
     edit_record_qa_nofgradedcalls=N. ruft abgestuft:
-    edit_record_qa_reportkey=Sicherheitsschlüssel für Berichte:
+    edit_record_qa_reportkey=Sicherheitskey für Berichte:
     edit_record_qa_secnames=Namen der Sektionen
     edit_record_qa_section=Abschnitt
     edit_record_qa_title=QA: Formulare Editor
@@ -1688,7 +1688,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_queue_title=Warteschlangendetails
     edit_record_queue_update_protection=Schutz aktualisieren
     edit_record_queue_url=Standard-URL der Warteschlange:
-    edit_record_queue_visibility=Der Schlüssel zur Sichtbarkeit:
+    edit_record_queue_visibility=Key zur Sichtbarkeit:
     edit_record_queue_waitduration=Wartezeit für den Anruf:
     edit_record_queue_wdsettings=WombatDialer Einstellungen
     edit_record_queue_wrapag=Nachbearbeitung
@@ -1698,12 +1698,12 @@ Used for data blocks Overview by Agent/Queue
     edit_record_report1_title=Bericht Details
     edit_record_report1_titlefield=Titel:
     edit_record_report1_type=Typ:
-    edit_record_report1_visibility=Der Schlüssel zur Sichtbarkeit:
+    edit_record_report1_visibility=Key zur Sichtbarkeit:
     edit_record_report2_nofitems=Anzahl der Artikel:
     edit_record_report2_short=Kurzer Name:
     edit_record_report2_sort=Sortierreihenfolge:
     edit_record_report2_titlefield=Titel:
-    edit_record_report2_visibility=Der Schlüssel zur Sichtbarkeit:
+    edit_record_report2_visibility=Key zur Sichtbarkeit:
     edit_record_report2_visible=Sichtbar in "Alle Berichte"?
     edit_record_report3_data=Datenblöcke:
     edit_record_report3_hint_complete_list=Eine vollständige Liste der verfügbaren Berichte, ihre Bedeutung und die Art und Weise, wie sie berechnet werden, findest du im Benutzerhandbuch.
@@ -1711,16 +1711,16 @@ Used for data blocks Overview by Agent/Queue
     edit_record_report3_sort=Sortierreihenfolge:
     edit_record_report3_subtitle=Untertitel:
     edit_record_report3_titlefield=Titel:
-    edit_record_report3_visibility=Der Schlüssel zur Sichtbarkeit:
+    edit_record_report3_visibility=Key zur Sichtbarkeit:
     edit_record_report3_visible=Sichtbar in "Alle Berichte"?
     edit_record_run=Lauf
     edit_record_save=Speichern
-    edit_record_securitykey=Sicherheitsschlüssel
+    edit_record_securitykey=Sicherheitskey
     edit_record_show=Zeigen?
     edit_record_skills_code=Skill-Code:
     edit_record_skills_sort_weight=Gewicht sortieren
     edit_record_skills_title=Details zu den Agentenfähigkeiten bearbeiten
-    edit_record_skills_visibility=Der Schlüssel zur Sichtbarkeit:
+    edit_record_skills_visibility=Key zur Sichtbarkeit:
     edit_record_tags_code=Aufruf des Tag-Codes:
     edit_record_tags_title=Call Tags bearbeiten
     edit_record_tags_visibility=Sichtbarkeit in der Warteschlange:
@@ -1730,7 +1730,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_email=E-mail:
     edit_record_users_enabled=Aktiviert:
     edit_record_users_id=User Id:
-    edit_record_users_keys=Benutzerschlüssel:
+    edit_record_users_keys=Benutzerkey:
     edit_record_users_lastlogon=Letzte Anmeldung:
     edit_record_users_login=Anmeldung:
     edit_record_users_master=Masterkey:
@@ -1828,7 +1828,7 @@ Used for data blocks Overview by Agent/Queue
     qa_frm_value=Wert
     qa_gradeedit_comment=Dieses Formular wurde bearbeitet. Die vorherige Punktzahl war
     qa_grading_change_criteria=Suchkriterien ändern
-    qa_grading_page=Seite Benotung
+    qa_grading_page=Seite Bewerten
     qa_grading_run_again=Wieder laufen
     qa_grading_search_form=Formular für die Suche nach Noten
     qa_grading_suggested_calls=Vorgeschlagene Anrufe
@@ -1867,7 +1867,7 @@ Used for data blocks Overview by Agent/Queue
     qa_on_date=Datum
     qa_overall_performance=Gesamtleistung
     qa_perftrack_ag_actions=Aktionen
-    qa_perftrack_ag_history=Agent Geschichte
+    qa_perftrack_ag_history=Agent Historie
     qa_perftrack_agent=Agent
     qa_perftrack_agentdetails=Agentendetail für
     qa_perftrack_agentgroup=Agentengruppe
@@ -1881,7 +1881,7 @@ Used for data blocks Overview by Agent/Queue
     qa_perftrack_cbt=CBT URL
     qa_perftrack_cbt_comment=Hinweis für Agenten
     qa_perftrack_cbt_id=CBT
-    qa_perftrack_crs_calculate=Rechnen gehen
+    qa_perftrack_crs_calculate=berechnen
     qa_perftrack_crs_external=Extern
     qa_perftrack_crs_extrincl=Extrem enthalten
     qa_perftrack_crs_internal=Intern
@@ -2045,7 +2045,7 @@ Used for data blocks Overview by Agent/Queue
     filter_calldur_min=Maximale Wartezeit
     filter_caller=Anrufer-ID
     filter_callskills=Fähigkeiten
-    filter_calltags=Tags
+    filter_calltags=markiert
     filter_disconnection=Unterbrechung der Verbindung
     filter_dnis=DNIS
     filter_enterpos_max=Maximale Eingabeposition
@@ -2062,7 +2062,7 @@ Used for data blocks Overview by Agent/Queue
     filter_noncont_r2_to=Zeit zum
     filter_nrm_caller=Anrufer normalisiert
     filter_outcome=Ergebnis
-    filter_server=Serve
+    filter_server=Server
     filter_shortcall_attempt=Kurzer Anrufversuch
     filter_shortcall_talk=Kurzes Telefongespräch
     filter_shortcall_wait=Kurzes Anklopfen
@@ -2077,13 +2077,13 @@ Used for data blocks Overview by Agent/Queue
     rt3_Talk=Gespräch
     rt3_action_error=Es ist ein Fehler aufgetreten, der Befehl wurde nicht gesendet.
     rt3_action_success=Der Befehl wurde erfolgreich gesendet.
-    rt3_actions_barge=Lastkahn
+    rt3_actions_barge=barge
     rt3_actions_chanspy=Spionieren
     rt3_actions_whisper=Flüstern
     rt3_add=Neues Widget hinzufügen
     rt3_add_box=Neues Widget auf der Seite hinzufügen
     # 🔴 rt3_add_queue -> Select Queue
-    ➡️ rt3_add_queue=
+    ➡️ rt3_add_queue=Warteschlange wählen
     rt3_add_view=Neue Ansicht hinzufügen
     rt3_advanced=Fortgeschrittene
     rt3_ag_calls_alm_red=Agenten Besetzt Rot Alarm
@@ -2108,13 +2108,13 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_code=Agent Code
     rt3_agent_extension=Agent Erweiterung
     # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
-    ➡️ rt3_agent_extension_regex_error=
+    ➡️ rt3_agent_extension_regex_error=Nbst. entspricht nicht dem korrekten Format.
     # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
-    ➡️ rt3_agent_code_regex_error=
+    ➡️ rt3_agent_code_regex_error=Agentencode entspricht nicht dem korrekten Format.
     # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
-    ➡️ rt3_agent_extension_min_1_char_error=
+    ➡️ rt3_agent_extension_min_1_char_error=Nbst. sollte mind. 1 Zeichen lang sein.
     # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
-    ➡️ rt3_agent_code_min_1_char_error=
+    ➡️ rt3_agent_code_min_1_char_error=Agentencode sollte mind. 1 Zeichen lang sein.
     rt3_agent_info=Agent-Infos
     rt3_agent_login=Anmeldung (Alle Warteschlangen)
     rt3_agent_logon=Agent-Anmeldung
@@ -2166,14 +2166,14 @@ Used for data blocks Overview by Agent/Queue
     rt3_call_started=Das Gespräch hat begonnen.
     rt3_call_status=Status
     rt3_call_terminated=Der Anruf wurde beendet.
-    rt3_call_transfer=Anruf übertragen
-    rt3_call_transferextension=Überweisung an (ext.)
+    rt3_call_transfer=Anruf weiterleiten.
+    rt3_call_transferextension=Weiterleiten an (ext.)
     rt3_caller=Anrufer
     rt3_callfeatures=Funktionen aufrufen
     rt3_callgoalfeatures=Merkmale des Ziels
     rt3_calls_alm_red=Wartende Anrufe Roter Alarm
     rt3_calls_alm_yel=Wartende Anrufe Gelber Alarm
-    rt3_calltag=Tag
+    rt3_calltag=markiert
     rt3_cancel=Abbrechen
     rt3_cannot_edit_wb_warning=Die Bearbeitung ist deaktiviert, da der Benutzer nicht über die erforderlichen Tasten verfügt.
     rt3_category_chart=Diagramme
@@ -2181,7 +2181,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_debug=Nur Debuggen
     rt3_category_item=Artikel
     rt3_category_multiitem=Zusammengesetzte Artikel
-    rt3_category_table=Tische
+    rt3_category_table=Tabelle
     rt3_category_various=Verschiedene
     rt3_change_queue_confirm=Sie haben nicht gespeicherte Änderungen, die verloren gehen, wenn Sie die Warteschlange wechseln. Bestätigen Sie?
     rt3_choose_action=Aktion wählen
@@ -2228,17 +2228,17 @@ Used for data blocks Overview by Agent/Queue
     rt3_delete_wallboard=Löschen
     rt3_direction=Richtung
     rt3_display_size=Display Grösse
-    rt3_dummy_wlbd=Dummy Wandtafel
+    rt3_dummy_wlbd=Dummy Wallboard
     rt3_duration=Dauer
     rt3_dwn=Nach unten gehen
     rt3_edit=Widget bearbeiten
     rt3_edit_required=Bearbeiten erforderlich
-    rt3_edit_wallboard_cfg=Aktuelle Wandtafel editieren und einsehen
+    rt3_edit_wallboard_cfg=Aktuelle Wallboard editieren und einsehen
     rt3_editwdg_title=Widget bearbeiten
-    rt3_empty_wlbd=Leere Wandtafel
+    rt3_empty_wlbd=Leere Wallboard
     rt3_enter_title=Titel eingeben
     rt3_error_prefs_fetch=Die Benutzereinstellungen konnten nicht abgerufen werden
-    rt3_error_saving=Fehler beim Speichern der Wandtafel
+    rt3_error_saving=Fehler beim Speichern der Wallboard
     rt3_error_saving_prefs=Die Benutzereinstellungen konnten nicht gespeichert werden
     rt3_error_saving_public_wb=Benutzer kann ein öffentliches Wallboard nicht speichern
     rt3_error_saving_wb_missing_key=Der Benutzer kann kein Wallboard speichern, da die Benutzertaste WALLBOARD_ADD fehlt
@@ -2263,7 +2263,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_ispublic=Öffentlich?
     rt3_ivr_time=Sprachdialog
     rt3_kill=Dieses Widget aus der Ansicht entfernen
-    rt3_kiosk_mode_warning=Sie befinden sich derzeit im Kioskmodus, die Bearbeitung der Wandtafel ist deaktiviert.
+    rt3_kiosk_mode_warning=Sie befinden sich derzeit im Kioskmodus, die Bearbeitung der Wallboard ist deaktiviert.
     rt3_last_completed_call=Frei seit
     rt3_live_agent=Agent
     rt3_live_agent_counters=Live Agentenzähler
@@ -2287,7 +2287,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_n_calls_offered=Angebotene Anrufe
     rt3_n_calls_waiting=Anklopfende Anrufe
     rt3_name=Name
-    rt3_new_wlbd=Neue Wandtafel
+    rt3_new_wlbd=Neue Wallboard
     rt3_no_data=Keine Daten verfügbar
     rt3_no_url_to_be_copied=Dieses Wallboard hat keine freigebbare URL
     rt3_nobillpause=Pause non Bill.
@@ -2299,8 +2299,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_number_calling=Anrufe:
     rt3_offered=Angeboten
     rt3_ok=Ok
-    rt3_on_pause=Auf Pause
-    rt3_oncall=Auf Abruf
+    rt3_on_pause=in Pause
+    rt3_oncall=auf Abruf
     rt3_onhold=In der Warteschleife
     rt3_pause_alarm_red=Roten Alarm anhalten
     rt3_pause_alarm_yel=Pause Gelber Alarm
@@ -2313,8 +2313,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_play=Spielen
     rt3_position=Position
     rt3_preset=Voreingestellt:
-    rt3_private=Private Wandtafel
-    rt3_public=Öffentliche Wandtafel
+    rt3_private=Private Wallboard
+    rt3_public=Öffentliche Wallboard
     rt3_purple=lila
     rt3_qcont=QC
     rt3_qcontph=QCPH
@@ -2344,10 +2344,10 @@ Used for data blocks Overview by Agent/Queue
     rt3_save=Speichern
     rt3_secondary_color=Sekundärfarbe
     rt3_seconds=Sekunden
-    rt3_security_key=Schlüssel zur Sichtbarkeit
+    rt3_security_key=Key zur Sichtbarkeit
     rt3_select_chart=Wählen Sie ein Chart...
     rt3_select_db=Wählen Sie einen DataBlock...
-    rt3_select_wallboard=Wählen Sie eine Wandtafel
+    rt3_select_wallboard=Wählen Sie eine Wallboard
     rt3_send_command=Ok
     rt3_session_invalid_reconnecting=Verbindungsproblem mit Queuemetrics, Wiederherstellung der Verbindung
     rt3_size_is=Grösse ist
@@ -2374,7 +2374,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_aggrbyqueue=Aggregiert nach Warteschlange
     rt3_table_aggrbytag=Aggregiert nach Tag
     # 🔴 rt3_table_lastattempts -> Last attempts
-    ➡️ rt3_table_lastattempts=
+    ➡️ rt3_table_lastattempts=letzte Versuche
     rt3_table_live_agents=Live-Agenten
     rt3_table_live_calls=Live-Anrufe
     rt3_table_live_queues=Aktuelle Warteschlangen
@@ -2395,7 +2395,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_tottalk_alarm_yel=Total Talk Gelber Alarm
     rt3_unhold=Unhold
     rt3_unknown=Unbekannt
-    rt3_unpin=Entpinnen
+    rt3_unpin=aufheben
     rt3_unregister=Aufheben der Registrierung
     rt3_unregister_txt=Unregistering
     rt3_unregistered=Unregistriert
@@ -2413,8 +2413,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_wait_time=Warten
     rt3_wait_yellow_alarm=Warten Gelber Alarm
     rt3_waiting=Warten
-    rt3_wallboard_num=Konfiguration der Wandtafel
-    rt3_wallboard_saved=Wandtafel gespeichert
+    rt3_wallboard_num=Konfiguration der Wallboard
+    rt3_wallboard_saved=Wallboard gespeichert
     rt3_widget=Widget
     rt3_widget_added=Widget hinzugefügt
     rt3_widget_cloned=Widget geklont
@@ -2545,14 +2545,14 @@ Used for data blocks Overview by Agent/Queue
     fp_skills_edit=Agenten-Fähigkeiten
     fp_squery_report=Gespeicherte Berichtsabfragen
     fp_squery_rt=Gespeicherte Echtzeit-Abfragen
-    fp_squery_wallboards=Wandtafeln
+    fp_squery_wallboards=Wallboards
     fp_supervision=Aufsicht
     fp_title=Startseite
     fp_today=Heute
     fp_view_auditlog=Auditlog einsehen
     fp_visitorcmd=Zeige gegenwärtige Systemaktivität
     fp_visitortitle=Fernüberwachung
-    fp_wallboard=Wandtafel starten
+    fp_wallboard=Wallboard starten
     fp_yesterday=Gestern
 
 ## Editor of configuration properties
@@ -2568,7 +2568,7 @@ Description of configuration properties
     propedit_category_qa=Bewertung der Qualität
     propedit_category_realtime=Echtzeit-Seite
     propedit_category_softphone=WebRTC-Softphone
-    propedit_category_synchronizer=Synchronisiergerät
+    propedit_category_synchronizer=Synchronisier
     propedit_edit_label=Bearbeiten
     propedit_explore_label=Erkunden
     propedit_feature_agent_amo= AMO
@@ -2594,7 +2594,7 @@ Description of configuration properties
     propedit_feature_softphone_defaults=SoftPhone Globale Standardeinstellungen
     propedit_feature_softphone_settings=Agentenseite Softphone-Einstellungen
     propedit_feature_synchronizer_settings=Synchronisationseinstellungen
-    propedit_feature_wallboard=Wandtafel
+    propedit_feature_wallboard=Wallboard
     propedit_feature_wbsoftphone_settings=Wallboard Softphone Einstellungen
     propedit_key_agent_background_desc=URL des Hintergrunds der Agentenseite.
     propedit_key_agent_outcome_size=Maximale Höhe der Ergebnisauswahlliste
@@ -3049,15 +3049,15 @@ Description of security keys:
     phone_anonymous=Anonym
     phone_answer=Antwort
     phone_attended= 
-    phone_attended_transfer=Besuchte Übertragung
+    phone_attended_transfer=Weiterleiten mit Rückfrage
     phone_auto_answer_toggle_off=Automatische Antwort ist deaktiviert
     phone_auto_answer_toggle_on=Automatische Antwort ist aktiviert
     phone_basic_settings=Allgemeine Einstellungen
     # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
-    phone_blind_transfer=Blinde Übertragung
+    ➡️ phone_blind=Weiterleiten ohne Rückfrage
+    phone_blind_transfer=Weiterleiten ohne Rückfrage
     # 🔴 phone_call -> Call
-    ➡️ phone_call=
+    ➡️ phone_call=Gespräch
     phone_calling=Anrufe...
     phone_cancel=Abbrechen
     phone_close=Schliessen
@@ -3080,7 +3080,7 @@ Description of security keys:
     phone_mute=Stummschalten
     phone_no_https=QueueMetrics muss über HTTPS bereitgestellt werden, damit das SoftPhone korrekt funktioniert.
     # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
+    ➡️ phone_no_queue=keine Warteschlange
     phone_noanswertimeout=Zeitlimit für keine Antwort
     phone_not_avaialable=Softphone nicht verfügbar.
     phone_not_available=Softphone nicht verfügbar.
@@ -3093,8 +3093,8 @@ Description of security keys:
     phone_settings=Einstellungen
     phone_swap=Tauschen
     phone_toggle_hold=Halten/Entsperren
-    phone_toggle_transfer=Übertragung
-    phone_transfer= Übergabe
+    phone_toggle_transfer=Weiterleiten
+    phone_transfer= Weiterleiten
     phone_unmute=Stummschaltung aufheben
     phone_unregistered=Unregistriert
     phone_update_settings=Einstellungen aktualisieren
@@ -3176,7 +3176,7 @@ Description of security keys:
     home_throwaway_report=Wegwerfbericht erstellen
     home_unexpected_server_error=Es ist ein unerwarteter Serverfehler aufgetreten
     home_wallboards_subtitle=Anpassbare Wallboards für Live-Daten
-    home_wallboards_title=Wandtafeln
+    home_wallboards_title=Wallboards
 
 
 ## System configuration
@@ -3191,29 +3191,29 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     # 🔴 cfgprops_n_items -> N. Properties found
     ➡️ cfgprops_n_items=
     # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
-    ➡️ cfgprops_input=
+    ➡️ cfgprops_input=Geben Sie eine oder mehrere einzustellende Eigenschaften ein, eine pro Zeile 
     # 🔴 cfgprops_comment -> Reason for this change
-    ➡️ cfgprops_comment=
+    ➡️ cfgprops_comment=Grund der Änderung
     # 🔴 cfgprops_sort_by -> Sort by
-    ➡️ cfgprops_sort_by=
+    ➡️ cfgprops_sort_by=sortiert nach
     # 🔴 cfgprops_sort_bydate -> Last update
-    ➡️ cfgprops_sort_bydate=
+    ➡️ cfgprops_sort_bydate=letztes Update
     # 🔴 cfgprops_sort_byname -> Name
     ➡️ cfgprops_sort_byname=
     # 🔴 cfgprops_col_name -> Property name
-    ➡️ cfgprops_col_name=
+    ➡️ cfgprops_col_name=Eigenschaftsname
     # 🔴 cfgprops_col_value -> Current value
-    ➡️ cfgprops_col_value=
+    ➡️ cfgprops_col_value=aktueller wert
     # 🔴 cfgprops_col_comment -> Reason
-    ➡️ cfgprops_col_comment=
+    ➡️ cfgprops_col_comment=Grund
     # 🔴 cfgprops_history_date -> Date
-    ➡️ cfgprops_history_date=
+    ➡️ cfgprops_history_date=Datum
     # 🔴 cfgprops_history_user -> User
-    ➡️ cfgprops_history_user=
+    ➡️ cfgprops_history_user=Benutzer
     # 🔴 cfgprops_history_value -> Value
-    ➡️ cfgprops_history_value=
+    ➡️ cfgprops_history_value=Wert
     # 🔴 cfgprops_history_previous -> Previous entries
-    ➡️ cfgprops_history_previous=
+    ➡️ cfgprops_history_previous=vorherige Einträge
     
 
 These are obsolete:
@@ -3243,7 +3243,7 @@ Other items
     amo_list_state_paused= pausiert
     amo_number_state_blklist= 
     # 🔴 amo_number_state_dialed -> Dialed
-    ➡️ amo_number_state_dialed=
+    ➡️ amo_number_state_dialed=gewählt
     # 🔴 amo_number_state_ko -> KO
     ➡️ amo_number_state_ko=
     # 🔴 amo_number_state_ok -> OK
@@ -3357,8 +3357,8 @@ Other items
     keyinstall_err_restarting=Fehler beim Ausführen des Neustart-Skripts
     keyinstall_err_updatefile=Fehler beim Aktualisieren der Datei tpf.properties
     keyinstall_err_wrongcode=Ungültiger Aktivierungscode.
-    keyinstall_install_new=Neuen Lizenzschlüssel installieren
-    keyinstall_installed_ok=Der Lizenzschlüssel wurde erfolgreich installiert. Bitte melden Sie sich ab und wieder an.
+    keyinstall_install_new=Neuen Lizenzkey installieren
+    keyinstall_installed_ok=Der Lizenzkey wurde erfolgreich installiert. Bitte melden Sie sich ab und wieder an.
     keyinstall_installed_ok_agaw=Operation erfolgreich
     keyinstall_popup_descr=Kopieren Sie Ihren neuen Aktivierungscode und fügen Sie ihn hier ein
     keyinstall_popup_title=Installieren Sie einen neuen QueueMetrics-Schlüssel
@@ -3496,7 +3496,7 @@ Other items
     prl_agentgroup=Agentengruppe
     prl_change=Ändern
     prl_delcomment=Notiz löschen
-    prl_delcommentsalert=Drücken Sie den Löschen Knopf erneut um den Eintrag dauerhaften zu löschen
+    prl_delcommentsalert=Drücken Sie die Löschen-Taste erneut um den Eintrag dauerhaften zu löschen
     prl_disabled_hotdesking=Das Bearbeiten von Sitzungen und Pausen ist im Hot-Desking-Modus nicht erlaubt
     prl_edit_timesuggestion=Neue Uhrzeit im Kurzformat einfügen
     prl_edit_timesuggestion_or=oder vollständiges Format
@@ -3537,18 +3537,18 @@ Other items
     prl_note_feedback=Notizen
     prl_note_user=Benutzer
     prl_notes=Ausgewählter Zeitraum Anmerkungen
-    prl_notes_old_icontitle=Historische Notizen verfügbar
-    prl_notes_other=Historische Anmerkungen
+    prl_notes_old_icontitle=Historie-Notizen verfügbar
+    prl_notes_other=Historie-Anmerkungen
     prl_opt_earlier=früher
     prl_opt_later=später
     prl_opt_sessionend=Sitzungsende
     prl_opt_sessionstart=Beginn der Sitzung
     prl_pause_code=Pausennummer
     prl_pausecode_change=Ändern
-    prl_pauseeditorpage_pausecode_title=PAusennummer ändern
-    prl_pauseeditorpage_title=Agent pause editor
+    prl_pauseeditorpage_pausecode_title=Pausennummer ändern
+    prl_pauseeditorpage_title=Agent Pause Editor
     prl_pauseend=Aktuelles Pausenende
-    prl_pausestart=Start der Strompause
+    prl_pausestart=Start der Pause
     prl_payroll_notes=Anmerkungen zur Gehaltsabrechnung
     prl_report_calc=Bericht ausführen
     prl_searchpage=Lohnabrechnungsberichte ausführen
@@ -3599,16 +3599,16 @@ Other items
     qagrader_wait=Warten
     qagrader_wrongurl=Die angegebene URL ist nicht gültig. Bitte überprüfen Sie sie und versuchen Sie es erneut.
     qap_action_case= Case zuweisen
-    qap_action_clicktodial= zum wählen Klicken
+    qap_action_clicktodial= zum wählen klicken
     qap_action_client= Kunden zuweisen 
     qap_action_crm= öffnen CRM
     qap_action_flag= Interaktion kennzeichnen
-    qap_action_hangup= uflegen des Anrufes
+    qap_action_hangup= beenden des Anrufes
     qap_action_label= Interaktion bezeichnen
     qap_action_monitor= Anruf überwachen
     qap_action_qa= QA Formular
     qap_action_recall= Neue Rückruf Hinweis
-    qap_action_transfer= Anruf Übergeben
+    qap_action_transfer= Anruf weiterleiten
     qap_action_wbtrecall= Rückruf mit WombatDialer
     qap_addmember_selected= selektierte Warteschlange beitreten
     qap_agent_code= Agenten Code
@@ -3630,7 +3630,7 @@ Other items
     qap_amo_terminated= Keine verfügbaren AMO Anrufe
     qap_assign_case= Zuordnen einer Interaktion zu einem Case
     qap_assign_client= zuordnen einer Interaktion zu einem Kunden
-    qap_assign_interaction_error=Fehler während der Zurodnung einer Relation zu dieser Interaktion.
+    qap_assign_interaction_error=Fehler während der Zuordnung einer Relation zu dieser Interaktion.
     qap_calendar_add= neu hinzufügen
     qap_call_associated_to_case= Anruf war verbunden mit Case
     qap_case= Case
@@ -3675,7 +3675,7 @@ Other items
     # 🔴 qap_control_timer -> Timer
     ➡️ qap_control_timer=
     qap_control_unpause= Pause beenden
-    qap_create_note_error=Fehler während des ERstellen einen neuen Hinweises
+    qap_create_note_error=Fehler während des Erstellen einen neuen Hinweises
     qap_crm_links= CRM Popup Links
     qap_daily_idle= Leerlaufzeit
     qap_daily_lost= entgangene Anrufe
@@ -3698,7 +3698,7 @@ Other items
     qap_details_position= Position
     qap_details_queue= Warteschlange
     qap_details_started= Begonnen
-    qap_details_tag= kenzeichnen
+    qap_details_tag= markiert
     qap_details_talk= Gesprächsdauer
     qap_details_terminated= Beendet
     qap_details_transferto= Übergabe an
@@ -3707,7 +3707,7 @@ Other items
     qap_details_variables= Variablen
     qap_details_wait= Wartezeit
     qap_dial= wählen
-    qap_diff_join= Warteschlange eintreten
+    qap_diff_join= Warteschlange beitreten
     qap_diff_leave= Warteschlange verlassen
     qap_diff_paused= Agent pausiert
     qap_edit_cases= Eingabe Case
@@ -3726,8 +3726,8 @@ Other items
     qap_filters_unk= unbekannt
     qap_filters_wrap=Nachbearbeitung
     qap_find_cases= Finde Deinen Case
-    qap_find_clients= Finde deinen Kunden
-    qap_form_features= Merkmal-Cade
+    qap_find_clients= Finde Deinen Kunden
+    qap_form_features= Merkmal-Code
     qap_form_outcome= Ergebnis
     qap_idle_time= Wartezeit
     qap_interaction_caller= Anrufer
@@ -3739,13 +3739,13 @@ Other items
     qap_interaction_outcome= Ergebnis
     qap_interaction_queue= Warteschlange
     qap_interaction_start= Start
-    qap_interaction_tag= kennzeichnen
+    qap_interaction_tag= markiert
     qap_interaction_transfer= Übergeben
     qap_interaction_url= URL
     qap_interaction_variables= Variablen
     qap_interaction_waiting= warten
     qap_invalid_outcome= Das ausgewählte Ergebnis ist nicht gültig für ein oder mehr Interaktions Merkmal Codes.
-    qap_join= einteten
+    qap_join= beitreten
     qap_label_freetext= Freitext
     qap_leave= verlassen
     qap_loading= laden...
@@ -3758,7 +3758,7 @@ Other items
     qap_nav_control= prüfen
     qap_nav_debug= Fehlersuche
     qap_nav_dialout= rauswählen
-    qap_nav_home=startseite
+    qap_nav_home=Startseite
     qap_nav_interactions=Interaktionen
     qap_nav_overview= Übersicht
     qap_nav_qa= QA
@@ -3766,9 +3766,9 @@ Other items
     ➡️ qap_nav_wallboard=
     qap_nav_wombat= WombatDialer Wahlvorschau
     # 🔴 qap_new_case -> New Case
-    ➡️ qap_new_case=
+    ➡️ qap_new_case=Neuer Case
     # 🔴 qap_new_client -> New Client
-    ➡️ qap_new_client=
+    ➡️ qap_new_client=Neuer Kunde
     qap_new_memo= erknüpftes Memo erstellen
     qap_no_cases= Bei der aktuellen Suche wurden keine Anfragen gefunden, bitte versuchen Sie es erneut.
     qap_no_clients= Bei der aktuellen Suche wurden keine Kunden, bitte versuchen Sie es erneut.
@@ -3812,7 +3812,7 @@ Other items
     qap_run= laufen
     qap_save_case_error= Fehler beim Sichern einer Anfrage.
     qap_save_client_error= Fehler beim Sichern eines Kundens.
-    qap_search_cases_error= Fehler beim Suchen einerangefragten Anfrage.
+    qap_search_cases_error= Fehler beim Suchen einer angefragten Abfrage.
     qap_search_clients_error= Fehler beim Suchen eines angefragten Kundens
     qap_server= Server
     qap_session_time= Sitzungsdauer
@@ -3849,10 +3849,10 @@ Other items
     qatarget_allcalls=Alle Anrufe
     qatarget_individual_agents=Agent
     qatarget_outcomes=Ergebnis aufrufen
-    react_report_table_sort_asc=In aufsteigender Reihenfolge sortieren
+    react_report_table_sort_asc=Sortieren in aufsteigender Reihenfolge 
     react_report_table_sort_desc=Sortieren in absteigender Reihenfolge
-    realtime_missing_queues=In den erwarteten Warteschlangen nicht vorhanden
-    realtime_tooltip_calltags=Tag
+    realtime_missing_queues=Nicht vorhanden in den erwarteten Warteschlangen
+    realtime_tooltip_calltags=markiert
     realtime_tooltip_features=Funktionen
     realtime_tooltip_ivrs=Sprachdialog
     realtime_tooltip_variables=Var
@@ -3934,7 +3934,7 @@ Other items
     reports_datablockview_parameters=Parameter
     reports_datablockview_search=Suchen
     reports_datablockview_search_placeholder=Suche nach einer DataBlock-Ansicht
-    reports_datablockview_visibilitykey=Sichtbarkeitsschlüssel
+    reports_datablockview_visibilitykey=Sichtbarkeitskey
     reports_datasource=Datenquelle
     reports_delete=Bericht löschen
     reports_delete_current_page_confirm=Die aktuelle Seite löschen?
@@ -3957,7 +3957,7 @@ Other items
     reports_edit_page=Seite bearbeiten
     reports_edit_page_complete=Änderungen bestätigen
     reports_edit_report=Bericht bearbeiten
-    reports_editingkey=Bearbeitungsschlüssel
+    reports_editingkey=Bearbeitungskey
     reports_enter_title=Geben Sie den neuen Berichtstitel ein
     reports_export_email_body=QueueMetrics-Ergebnisse für den Exportbericht namens
     reports_export_email_subject=[QueueMetrics] Bericht
@@ -3982,7 +3982,7 @@ Other items
     reports_filter_calldurmin=Min. Dauer des Anrufs
     reports_filter_caller=Anrufer
     reports_filter_callskills=Call Skill
-    reports_filter_calltags=Tag aufrufen
+    reports_filter_calltags=markierte aufrufen
     reports_filter_case= Case
     reports_filter_client= Kunden
     reports_filter_date_from=Von
@@ -4045,7 +4045,7 @@ Other items
     reports_page_delete=Seite löschen
     reports_page_delete_successful=Seite erfolgreich gelöscht
     reports_page_shorttitle=Kurzer Titel
-    reports_page_visibilitykey=Sichtbarkeitsschlüssel
+    reports_page_visibilitykey=Sichtbarkeitskey
     reports_pagination_gotopage=Zur Seite gehen
     reports_pagination_loading=Laden...
     reports_pagination_next=Nächste Seite
@@ -4119,13 +4119,13 @@ Other items
     reports_settings_shortcallattemptwaitlimit=Wartelimit für kurze Anrufversuche
     reports_settings_shortcalls=Kurze Anrufe
     reports_settings_shortcalltalklimit=Gesprächslimit für Kurzgespräche
-    reports_settings_shortcallwaitlimit=Kurzer Anruf Wartegrenze
+    reports_settings_shortcallwaitlimit=Kurzer Anruf Wartelimit
     reports_settings_slainitialinterval=SLA Anfangsintervall
     reports_settings_slainterval=SLA-Intervall
     reports_settings_slamaxinitialdelay=SLA Max. Anfängliche Verzögerung
     reports_settings_slamaxmonitoreddelay=SLA Max. Überwachte Verzögerung
     reports_shortcalls_no=Nein
-    reports_skill_level=Geschicklichkeitsstufe
+    reports_skill_level=Kompetenz Level
     reports_ssaragents=Selbstbedienungsbericht-Agenten
     reports_supervised=Beaufsichtigt
     reports_tab_editor=Reihenfolge der Registerkarten bearbeiten
@@ -4180,7 +4180,7 @@ Other items
     reports_total_calls=Total Anrufe
     reports_trash=Zum Löschen hierher ziehen
     reports_unsaved=Nicht gespeichert
-    reports_visibilitykey=Sichtbarkeitsschlüssel
+    reports_visibilitykey=Sichtbarkeitskey
     rt_active_queues=Zeige Aktivitäten der Warteschlangen
     rt_addmember=Mitglied hinzufügen
     rt_agent_nbsp=Agent
@@ -4285,8 +4285,8 @@ Other items
     rt_pop_monitor_now=Jetzt überwachen
     rt_pop_please_enter_your_local_or_remote_extension=Bitte hiesige oder ferne Nebenstellennummer, um Anrufüberwachung zu starten.
     rt_pop_spy_mode=Überwachungsmodus
-    rt_pop_transfer_extension=Transfer zur Nebenstelle:
-    rt_pop_transfer_runbtn=Übertragung
+    rt_pop_transfer_extension=Weiterleiten zur Nebenstelle:
+    rt_pop_transfer_runbtn=Weiterleiten
     rt_pop_transfer_title=Einen Anruf weiterleiten
     rt_pop_unique_id=Eindeutige ID:
     rt_pop_whisper=Flüstern Sie dem Agenten zu
@@ -4350,8 +4350,8 @@ Other items
     rt_show_calls=Anrufe anzeigen
     rt_show_members_only=Nur Mitglieder anzeigen
     rt_since=Seit
-    rt_transfercall=Übertragung
-    rt_transfercall_tt=Übertragung
+    rt_transfercall=weiterleiten
+    rt_transfercall_tt=weiterleiten
     rt_unk=Unbekannt
     rt_unknown=unbekannt
     rt_unpauseagent=Pause Agent aufheben
@@ -4406,7 +4406,7 @@ Other items
     savedq_realtime=In Echtzeit
     savedq_report=Bericht
     savedq_save=Abfrage speichern:
-    savedq_seqKey=Sichtbarkeitsschlüssel:
+    savedq_seqKey=Sichtbarkeitskey:
     savedq_type=Typ
     sync2_add_agent=Agent hinzufügen
     sync2_add_queue=Warteschlange hinzufügen
