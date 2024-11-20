@@ -4106,6 +4106,8 @@ Other items
     reports_qa_performance_title=Performance
     reports_qa_performance_total=Total
     reports_qa_queue=Fila
+    # 🔴 reports_qa_range -> Range
+    ➡️ reports_qa_range=
     reports_qa_recap_heading=Detalhes da chamada
     reports_qa_select_form=Selecionar formulário
     reports_qa_start=Hora de início

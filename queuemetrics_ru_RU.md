@@ -4598,6 +4598,8 @@ Other items
     reports_qa_performance_title=Производительность
     reports_qa_performance_total=Общий счет:
     reports_qa_queue=Очередь
+    # 🔴 reports_qa_range -> Range
+    ➡️ reports_qa_range=
     reports_qa_recap_heading=Детали вызова
     reports_qa_select_form=Выбор формы
     reports_qa_start=Время начала

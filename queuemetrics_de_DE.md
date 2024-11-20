@@ -4083,6 +4083,8 @@ Other items
     reports_qa_performance_title=Leistung
     reports_qa_performance_total=Gesamtpunktzahl
     reports_qa_queue=Warteschlange
+    # 🔴 reports_qa_range -> Range
+    ➡️ reports_qa_range=
     reports_qa_recap_heading=Details aufrufen
     reports_qa_select_form=Formular auswählen
     reports_qa_start=Startzeit

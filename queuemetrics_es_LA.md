@@ -4019,6 +4019,8 @@ Other items
     reports_qa_performance_title=Resultados
     reports_qa_performance_total=Total
     reports_qa_queue=Cola
+    # 🔴 reports_qa_range -> Range
+    ➡️ reports_qa_range=
     reports_qa_recap_heading=Detalle Llamada
     reports_qa_select_form=Seleccionar un Formulario
     reports_qa_start=Inicio

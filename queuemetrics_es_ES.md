@@ -3313,7 +3313,7 @@ Used for data blocks Overview by Agent/Queue
     qa_summary_shtcut=?Atajos
     qa_supervisor=Supervisor
     qa_supervisors_tracking_calls=Supervisores monitorizando llamadas
-    # 👽 qa_time_period -> Time period:
+    # 👽 qa_time_period -> Time period
     qa_time_period=?Período:
     qa_total_score=Puntuación total:
     qa_tracked_calls=Llamadas monitorizadas por agente
@@ -3824,7 +3824,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_nofcalls_lost=?Llamadas Perdidas
     # 👽 rt3_nofcalls_offered -> Offered Calls
     rt3_nofcalls_offered=?Nro Llamadas Ofrecidas
-    # 👽 rt3_nofcolumns -> N Columns
+    # 👽 rt3_nofcolumns -> Columns
     rt3_nofcolumns=?Nro Columnas
     # 👽 rt3_ntodial -> Dial Number
     rt3_ntodial=?Marcar Número
@@ -3930,7 +3930,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_select_chart=?Seleccionar un gráfico...
     # 👽 rt3_select_db -> Select a DataBlock...
     rt3_select_db=?Seleccionar un Bloque de Datos...
-    # 👽 rt3_select_wallboard -> Please select a wallboard
+    # 👽 rt3_select_wallboard -> Select Wallboard
     rt3_select_wallboard=?Por favor, seleccionar un tablero
     # 👽 rt3_send_command -> Ok
     rt3_send_command=?Ok
@@ -7134,6 +7134,8 @@ Other items
     reports_qa_performance_total=?Total
     # 👽 reports_qa_queue -> Queue
     reports_qa_queue=?Cola
+    # 🔴 reports_qa_range -> Range
+    ➡️ reports_qa_range=
     # 👽 reports_qa_recap_heading -> Call Details
     reports_qa_recap_heading=?Detalle Llamada
     # 👽 reports_qa_select_form -> Select Form

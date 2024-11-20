@@ -2757,7 +2757,7 @@ Used for data blocks Overview by Agent/Queue
     ➡️ rt3_nofcalls_lost=
     # 🔴 rt3_nofcalls_offered -> Offered Calls
     ➡️ rt3_nofcalls_offered=
-    # 🔴 rt3_nofcolumns -> N Columns
+    # 🔴 rt3_nofcolumns -> Columns
     ➡️ rt3_nofcolumns=
     # 🔴 rt3_ntodial -> Dial Number
     ➡️ rt3_ntodial=
@@ -2863,7 +2863,7 @@ Used for data blocks Overview by Agent/Queue
     ➡️ rt3_select_chart=
     # 🔴 rt3_select_db -> Select a DataBlock...
     ➡️ rt3_select_db=
-    # 🔴 rt3_select_wallboard -> Please select a wallboard
+    # 🔴 rt3_select_wallboard -> Select Wallboard
     ➡️ rt3_select_wallboard=
     # 🔴 rt3_send_command -> Ok
     ➡️ rt3_send_command=
@@ -5686,6 +5686,8 @@ Other items
     ➡️ reports_qa_performance_total=
     # 🔴 reports_qa_queue -> Queue
     ➡️ reports_qa_queue=
+    # 🔴 reports_qa_range -> Range
+    ➡️ reports_qa_range=
     # 🔴 reports_qa_recap_heading -> Call Details
     ➡️ reports_qa_recap_heading=
     # 🔴 reports_qa_select_form -> Select Form
