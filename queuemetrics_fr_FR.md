@@ -1,4 +1,3 @@
-
 # Translation file for QueueMetrics - en_US
 
 - The name WombatDialer is a product and should be left unaltered.
@@ -4540,5 +4539,3 @@ Other items
     xtsrc_html=Source de données externes au format HTML
     xtsrc_json=Source de données externesau format JSON
     xtsrc_xmlrpc=Source de données externes au format XML-RPC
-
-
