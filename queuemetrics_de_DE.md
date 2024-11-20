@@ -892,7 +892,7 @@ Do not change the items below:
     clko_inclusive_sla_computed=Qualitätsindex (berechnet aus angenommenen und nicht ang. Anrufen)
     clko_ivr_all=Sprachdialog-Auswahl, für alle Anrufe
     clko_ivr_ko=Sprachdialog-Auswahl
-    clko_key=Key
+    clko_key=Taste
     clko_keypress=Unbeantwortete Anrufe durch Tastendruck
     clko_max_queue_position_at_disconnection=Max. Position in der Warteschlange bei Verbindungsende:
     clko_max_wait_time_before_disconnection=Max. Wartezeit vor Verbindungsende:
@@ -966,7 +966,7 @@ Do not change the items below:
     clhdr_server=Gefiltert nach Server:
     clhdr_short_calls=Kurzanrufe
     clhdr_skill=Gefiltert nach Fähigkeiten:
-    clhdr_supervised_by=Beaufsichtigt von
+    clhdr_supervised_by=Supervised durch
     clhdr_timerange=Zeitspanne:
     clhdr_total_calls_processed=Insgesamt verarbeitete Gespräche:
     clhdr_unans=nicht ang.
@@ -1052,25 +1052,25 @@ Do not change the items below:
 Used for data blocks Overview by Agent/Queue
 
     # 🔴 clok_overview_by_agent -> Overview by Agent
-    ➡️ clok_overview_by_agent=
+    ➡️ clok_overview_by_agent=Übersicht nach Agent
     # 🔴 clok_overview_by_queue -> Overview by Queue
-    ➡️ clok_overview_by_queue=
+    ➡️ clok_overview_by_queue=Übersicht nach Warteschlange
     # 🔴 clok_offered_n -> Offered
-    ➡️ clok_offered_n=
+    ➡️ clok_offered_n=angeboten
     # 🔴 clok_answered_calls_prc -> Ans %
-    ➡️ clok_answered_calls_prc=
+    ➡️ clok_answered_calls_prc=angenommen %
     # 🔴 clok_lost_attempts -> Lost att.
-    ➡️ clok_lost_attempts=
+    ➡️ clok_lost_attempts=verloren
     # 🔴 clok_lost_attempts_prc -> Lst att %
-    ➡️ clok_lost_attempts_prc=
+    ➡️ clok_lost_attempts_prc= verloren %
     # 🔴 clok_outbound -> Outbound
-    ➡️ clok_outbound=
+    ➡️ clok_outbound=Ausgehend
     # 🔴 clok_outbound_prc -> Outb.%
-    ➡️ clok_outbound_prc=
+    ➡️ clok_outbound_prc= ausgehend %
     # 🔴 clok_asa -> ASA
     ➡️ clok_asa=
     # 🔴 clok_answered_sla_prc -> Ans in SLA %
-    ➡️ clok_answered_sla_prc=
+    ➡️ clok_answered_sla_prc=angen. in SLA %
     # 🔴 clok_effective_prc -> Effective %
     ➡️ clok_effective_prc=
     # 🔴 clok_avg_wait -> Avg wait
