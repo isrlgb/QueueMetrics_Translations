@@ -3537,8 +3537,8 @@ Other items
     prl_note_feedback=Notizen
     prl_note_user=Benutzer
     prl_notes=Ausgewählter Zeitraum Anmerkungen
-    prl_notes_old_icontitle=Historische Notizen verfügbar
-    prl_notes_other=Historische Anmerkungen
+    prl_notes_old_icontitle=Historie-Notizen verfügbar
+    prl_notes_other=Historie-Anmerkungen
     prl_opt_earlier=früher
     prl_opt_later=später
     prl_opt_sessionend=Sitzungsende
@@ -3599,7 +3599,7 @@ Other items
     qagrader_wait=Warten
     qagrader_wrongurl=Die angegebene URL ist nicht gültig. Bitte überprüfen Sie sie und versuchen Sie es erneut.
     qap_action_case= Case zuweisen
-    qap_action_clicktodial= zum wählen Klicken
+    qap_action_clicktodial= zum wählen klicken
     qap_action_client= Kunden zuweisen 
     qap_action_crm= öffnen CRM
     qap_action_flag= Interaktion kennzeichnen
@@ -3812,7 +3812,7 @@ Other items
     qap_run= laufen
     qap_save_case_error= Fehler beim Sichern einer Anfrage.
     qap_save_client_error= Fehler beim Sichern eines Kundens.
-    qap_search_cases_error= Fehler beim Suchen einerangefragten Anfrage.
+    qap_search_cases_error= Fehler beim Suchen einer angefragten Abfrage.
     qap_search_clients_error= Fehler beim Suchen eines angefragten Kundens
     qap_server= Server
     qap_session_time= Sitzungsdauer
@@ -3934,7 +3934,7 @@ Other items
     reports_datablockview_parameters=Parameter
     reports_datablockview_search=Suchen
     reports_datablockview_search_placeholder=Suche nach einer DataBlock-Ansicht
-    reports_datablockview_visibilitykey=Sichtbarkeitsschlüssel
+    reports_datablockview_visibilitykey=Sichtbarkeitskey
     reports_datasource=Datenquelle
     reports_delete=Bericht löschen
     reports_delete_current_page_confirm=Die aktuelle Seite löschen?
