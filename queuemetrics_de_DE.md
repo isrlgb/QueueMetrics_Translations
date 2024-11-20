@@ -3049,15 +3049,15 @@ Description of security keys:
     phone_anonymous=Anonym
     phone_answer=Antwort
     phone_attended= 
-    phone_attended_transfer=Besuchte Übertragung
+    phone_attended_transfer=Weiterleiten mit Rückfrage
     phone_auto_answer_toggle_off=Automatische Antwort ist deaktiviert
     phone_auto_answer_toggle_on=Automatische Antwort ist aktiviert
     phone_basic_settings=Allgemeine Einstellungen
     # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
-    phone_blind_transfer=Blinde Übertragung
+    ➡️ phone_blind=Weiterleiten ohne Rückfrage
+    phone_blind_transfer=Weiterleiten ohne Rückfrage
     # 🔴 phone_call -> Call
-    ➡️ phone_call=
+    ➡️ phone_call=Gespräch
     phone_calling=Anrufe...
     phone_cancel=Abbrechen
     phone_close=Schliessen
@@ -3080,7 +3080,7 @@ Description of security keys:
     phone_mute=Stummschalten
     phone_no_https=QueueMetrics muss über HTTPS bereitgestellt werden, damit das SoftPhone korrekt funktioniert.
     # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
+    ➡️ phone_no_queue=keine Warteschlange
     phone_noanswertimeout=Zeitlimit für keine Antwort
     phone_not_avaialable=Softphone nicht verfügbar.
     phone_not_available=Softphone nicht verfügbar.
@@ -3093,8 +3093,8 @@ Description of security keys:
     phone_settings=Einstellungen
     phone_swap=Tauschen
     phone_toggle_hold=Halten/Entsperren
-    phone_toggle_transfer=Übertragung
-    phone_transfer= Übergabe
+    phone_toggle_transfer=Weiterleiten
+    phone_transfer= Weiterleiten
     phone_unmute=Stummschaltung aufheben
     phone_unregistered=Unregistriert
     phone_update_settings=Einstellungen aktualisieren
@@ -3176,7 +3176,7 @@ Description of security keys:
     home_throwaway_report=Wegwerfbericht erstellen
     home_unexpected_server_error=Es ist ein unerwarteter Serverfehler aufgetreten
     home_wallboards_subtitle=Anpassbare Wallboards für Live-Daten
-    home_wallboards_title=Wandtafeln
+    home_wallboards_title=Wallboards
 
 
 ## System configuration
@@ -3191,29 +3191,29 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     # 🔴 cfgprops_n_items -> N. Properties found
     ➡️ cfgprops_n_items=
     # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
-    ➡️ cfgprops_input=
+    ➡️ cfgprops_input=Geben Sie eine oder mehrere einzustellende Eigenschaften ein, eine pro Zeile 
     # 🔴 cfgprops_comment -> Reason for this change
-    ➡️ cfgprops_comment=
+    ➡️ cfgprops_comment=Grund der Änderung
     # 🔴 cfgprops_sort_by -> Sort by
-    ➡️ cfgprops_sort_by=
+    ➡️ cfgprops_sort_by=sortiert nach
     # 🔴 cfgprops_sort_bydate -> Last update
-    ➡️ cfgprops_sort_bydate=
+    ➡️ cfgprops_sort_bydate=letztes Update
     # 🔴 cfgprops_sort_byname -> Name
     ➡️ cfgprops_sort_byname=
     # 🔴 cfgprops_col_name -> Property name
-    ➡️ cfgprops_col_name=
+    ➡️ cfgprops_col_name=Eigenschaftsname
     # 🔴 cfgprops_col_value -> Current value
-    ➡️ cfgprops_col_value=
+    ➡️ cfgprops_col_value=aktueller wert
     # 🔴 cfgprops_col_comment -> Reason
-    ➡️ cfgprops_col_comment=
+    ➡️ cfgprops_col_comment=Grund
     # 🔴 cfgprops_history_date -> Date
-    ➡️ cfgprops_history_date=
+    ➡️ cfgprops_history_date=Datum
     # 🔴 cfgprops_history_user -> User
-    ➡️ cfgprops_history_user=
+    ➡️ cfgprops_history_user=Benutzer
     # 🔴 cfgprops_history_value -> Value
-    ➡️ cfgprops_history_value=
+    ➡️ cfgprops_history_value=Wert
     # 🔴 cfgprops_history_previous -> Previous entries
-    ➡️ cfgprops_history_previous=
+    ➡️ cfgprops_history_previous=vorherige Einträge
     
 
 These are obsolete:
