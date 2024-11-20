@@ -97,10 +97,10 @@ Do not change the items below:
     td_cko_unanswered_yet=<font color='red'>Noch nicht angenommen</font>
     td_cok_agent=Agent
     td_cok_agent_disconnected=Beendet durch Agenten
-    td_cok_att_transferred=Weiterleitung mit Rückfrage
-    td_cok_atxfr=Weiterleitung mit Rückfrage
-    td_cok_bln_transferred=Weiterleitung ohne Rückfrage
-    td_cok_blxfr=Weiterleitung ohne Rückfrage
+    td_cok_att_transferred=Weiterleiten mit Rückfrage
+    td_cok_atxfr=Weiterleiten mit Rückfrage
+    td_cok_bln_transferred=Weiterleiten ohne Rückfrage
+    td_cok_blxfr=Weiterleiten ohne Rückfrage
     td_cok_caller=Anrufer
     td_cok_caller_disconnected=Beendet durch Anrufer
     td_cok_ongoing=<font color='red'>Laufendes Gespräch</font>
