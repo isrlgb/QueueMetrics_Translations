@@ -1828,7 +1828,7 @@ Used for data blocks Overview by Agent/Queue
     qa_frm_value=Wert
     qa_gradeedit_comment=Dieses Formular wurde bearbeitet. Die vorherige Punktzahl war
     qa_grading_change_criteria=Suchkriterien ändern
-    qa_grading_page=Seite Benotung
+    qa_grading_page=Seite Bewerten
     qa_grading_run_again=Wieder laufen
     qa_grading_search_form=Formular für die Suche nach Noten
     qa_grading_suggested_calls=Vorgeschlagene Anrufe
@@ -1867,7 +1867,7 @@ Used for data blocks Overview by Agent/Queue
     qa_on_date=Datum
     qa_overall_performance=Gesamtleistung
     qa_perftrack_ag_actions=Aktionen
-    qa_perftrack_ag_history=Agent Geschichte
+    qa_perftrack_ag_history=Agent Historie
     qa_perftrack_agent=Agent
     qa_perftrack_agentdetails=Agentendetail für
     qa_perftrack_agentgroup=Agentengruppe
@@ -1881,7 +1881,7 @@ Used for data blocks Overview by Agent/Queue
     qa_perftrack_cbt=CBT URL
     qa_perftrack_cbt_comment=Hinweis für Agenten
     qa_perftrack_cbt_id=CBT
-    qa_perftrack_crs_calculate=Rechnen gehen
+    qa_perftrack_crs_calculate=berechnen
     qa_perftrack_crs_external=Extern
     qa_perftrack_crs_extrincl=Extrem enthalten
     qa_perftrack_crs_internal=Intern
