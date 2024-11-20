@@ -589,7 +589,7 @@ Do not change the items below:
     clacd_max_attempts=Max. Anz. Versuche:
     clacd_min_attempts=Min. Anz. Versuche:
     # 🔴 clacd_last_acd_attempts -> Last ACD attempts
-    ➡️ clacd_last_acd_attempts=
+    ➡️ clacd_last_acd_attempts=letzte ACD Versuche
     clacd_n_lost=Anz. verloren
     clacd_n_taken=Anz. angenommen
     clacd_queue=Warteschlange
@@ -673,7 +673,7 @@ Do not change the items below:
     cld_pop_call_detail=Anrufdetails
     cld_pop_call_events=Ereignisse aufrufen
     cld_pop_caller_id=Anruferkennung:
-    cld_pop_calltag=Tag:
+    cld_pop_calltag=markiert:
     cld_pop_close=Schliessen
     cld_pop_date_and_time=Datum und Uhrzeit:
     cld_pop_disconnection_cause=Grund für Verbindungsende:
@@ -825,10 +825,10 @@ Do not change the items below:
     custrep_asterisk_id=Gesprächskennung
     custrep_call_dur=Anrufdauer
     custrep_caller=Anrufer
-    custrep_calltags=Tags aufrufen
+    custrep_calltags=Markierte aufrufen
     custrep_criteria=Filterkriterien
     custrep_custom_report_analysis=Benutzerdefinierter Bericht
-    custrep_date_call=Call
+    custrep_date_call=Gespräch
     custrep_date_callorform=Datum des Antrags:
     custrep_date_form=Formular ausfüllen
     custrep_disconnection=Grund für Anrufende
