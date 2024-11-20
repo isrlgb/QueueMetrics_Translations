@@ -3357,8 +3357,8 @@ Other items
     keyinstall_err_restarting=Fehler beim Ausführen des Neustart-Skripts
     keyinstall_err_updatefile=Fehler beim Aktualisieren der Datei tpf.properties
     keyinstall_err_wrongcode=Ungültiger Aktivierungscode.
-    keyinstall_install_new=Neuen Lizenzschlüssel installieren
-    keyinstall_installed_ok=Der Lizenzschlüssel wurde erfolgreich installiert. Bitte melden Sie sich ab und wieder an.
+    keyinstall_install_new=Neuen Lizenzkey installieren
+    keyinstall_installed_ok=Der Lizenzkey wurde erfolgreich installiert. Bitte melden Sie sich ab und wieder an.
     keyinstall_installed_ok_agaw=Operation erfolgreich
     keyinstall_popup_descr=Kopieren Sie Ihren neuen Aktivierungscode und fügen Sie ihn hier ein
     keyinstall_popup_title=Installieren Sie einen neuen QueueMetrics-Schlüssel
@@ -3496,7 +3496,7 @@ Other items
     prl_agentgroup=Agentengruppe
     prl_change=Ändern
     prl_delcomment=Notiz löschen
-    prl_delcommentsalert=Drücken Sie den Löschen Knopf erneut um den Eintrag dauerhaften zu löschen
+    prl_delcommentsalert=Drücken Sie die Löschen-Taste erneut um den Eintrag dauerhaften zu löschen
     prl_disabled_hotdesking=Das Bearbeiten von Sitzungen und Pausen ist im Hot-Desking-Modus nicht erlaubt
     prl_edit_timesuggestion=Neue Uhrzeit im Kurzformat einfügen
     prl_edit_timesuggestion_or=oder vollständiges Format
@@ -3545,10 +3545,10 @@ Other items
     prl_opt_sessionstart=Beginn der Sitzung
     prl_pause_code=Pausennummer
     prl_pausecode_change=Ändern
-    prl_pauseeditorpage_pausecode_title=PAusennummer ändern
-    prl_pauseeditorpage_title=Agent pause editor
+    prl_pauseeditorpage_pausecode_title=Pausennummer ändern
+    prl_pauseeditorpage_title=Agent Pause Editor
     prl_pauseend=Aktuelles Pausenende
-    prl_pausestart=Start der Strompause
+    prl_pausestart=Start der Pause
     prl_payroll_notes=Anmerkungen zur Gehaltsabrechnung
     prl_report_calc=Bericht ausführen
     prl_searchpage=Lohnabrechnungsberichte ausführen
@@ -3630,7 +3630,7 @@ Other items
     qap_amo_terminated= Keine verfügbaren AMO Anrufe
     qap_assign_case= Zuordnen einer Interaktion zu einem Case
     qap_assign_client= zuordnen einer Interaktion zu einem Kunden
-    qap_assign_interaction_error=Fehler während der Zurodnung einer Relation zu dieser Interaktion.
+    qap_assign_interaction_error=Fehler während der Zuordnung einer Relation zu dieser Interaktion.
     qap_calendar_add= neu hinzufügen
     qap_call_associated_to_case= Anruf war verbunden mit Case
     qap_case= Case
@@ -3675,7 +3675,7 @@ Other items
     # 🔴 qap_control_timer -> Timer
     ➡️ qap_control_timer=
     qap_control_unpause= Pause beenden
-    qap_create_note_error=Fehler während des ERstellen einen neuen Hinweises
+    qap_create_note_error=Fehler während des Erstellen einen neuen Hinweises
     qap_crm_links= CRM Popup Links
     qap_daily_idle= Leerlaufzeit
     qap_daily_lost= entgangene Anrufe
@@ -3707,7 +3707,7 @@ Other items
     qap_details_variables= Variablen
     qap_details_wait= Wartezeit
     qap_dial= wählen
-    qap_diff_join= Warteschlange eintreten
+    qap_diff_join= Warteschlange beitreten
     qap_diff_leave= Warteschlange verlassen
     qap_diff_paused= Agent pausiert
     qap_edit_cases= Eingabe Case
@@ -3726,8 +3726,8 @@ Other items
     qap_filters_unk= unbekannt
     qap_filters_wrap=Nachbearbeitung
     qap_find_cases= Finde Deinen Case
-    qap_find_clients= Finde deinen Kunden
-    qap_form_features= Merkmal-Cade
+    qap_find_clients= Finde Deinen Kunden
+    qap_form_features= Merkmal-Code
     qap_form_outcome= Ergebnis
     qap_idle_time= Wartezeit
     qap_interaction_caller= Anrufer
@@ -4119,13 +4119,13 @@ Other items
     reports_settings_shortcallattemptwaitlimit=Wartelimit für kurze Anrufversuche
     reports_settings_shortcalls=Kurze Anrufe
     reports_settings_shortcalltalklimit=Gesprächslimit für Kurzgespräche
-    reports_settings_shortcallwaitlimit=Kurzer Anruf Wartegrenze
+    reports_settings_shortcallwaitlimit=Kurzer Anruf Wartelimit
     reports_settings_slainitialinterval=SLA Anfangsintervall
     reports_settings_slainterval=SLA-Intervall
     reports_settings_slamaxinitialdelay=SLA Max. Anfängliche Verzögerung
     reports_settings_slamaxmonitoreddelay=SLA Max. Überwachte Verzögerung
     reports_shortcalls_no=Nein
-    reports_skill_level=Geschicklichkeitsstufe
+    reports_skill_level=Kompetenz Level
     reports_ssaragents=Selbstbedienungsbericht-Agenten
     reports_supervised=Beaufsichtigt
     reports_tab_editor=Reihenfolge der Registerkarten bearbeiten
@@ -4350,8 +4350,8 @@ Other items
     rt_show_calls=Anrufe anzeigen
     rt_show_members_only=Nur Mitglieder anzeigen
     rt_since=Seit
-    rt_transfercall=Übertragung
-    rt_transfercall_tt=Übertragung
+    rt_transfercall=weiterleiten
+    rt_transfercall_tt=weiterleiten
     rt_unk=Unbekannt
     rt_unknown=unbekannt
     rt_unpauseagent=Pause Agent aufheben
@@ -4406,7 +4406,7 @@ Other items
     savedq_realtime=In Echtzeit
     savedq_report=Bericht
     savedq_save=Abfrage speichern:
-    savedq_seqKey=Sichtbarkeitsschlüssel:
+    savedq_seqKey=Sichtbarkeitskey:
     savedq_type=Typ
     sync2_add_agent=Agent hinzufügen
     sync2_add_queue=Warteschlange hinzufügen
