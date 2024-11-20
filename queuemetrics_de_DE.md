@@ -1235,7 +1235,7 @@ Used for data blocks Overview by Agent/Queue
     edit_ac_gr=Gr.
     edit_ac_group=Gruppe
     edit_ac_im=IM
-    edit_ac_key=Schlüssel
+    edit_ac_key=Key
     edit_ac_location=Standort
     edit_ac_mon=Montag
     edit_ac_payroll_code=Lohnnummer
@@ -2045,7 +2045,7 @@ Used for data blocks Overview by Agent/Queue
     filter_calldur_min=Maximale Wartezeit
     filter_caller=Anrufer-ID
     filter_callskills=Fähigkeiten
-    filter_calltags=Tags
+    filter_calltags=markiert
     filter_disconnection=Unterbrechung der Verbindung
     filter_dnis=DNIS
     filter_enterpos_max=Maximale Eingabeposition
@@ -2062,7 +2062,7 @@ Used for data blocks Overview by Agent/Queue
     filter_noncont_r2_to=Zeit zum
     filter_nrm_caller=Anrufer normalisiert
     filter_outcome=Ergebnis
-    filter_server=Serve
+    filter_server=Server
     filter_shortcall_attempt=Kurzer Anrufversuch
     filter_shortcall_talk=Kurzes Telefongespräch
     filter_shortcall_wait=Kurzes Anklopfen
@@ -2077,13 +2077,13 @@ Used for data blocks Overview by Agent/Queue
     rt3_Talk=Gespräch
     rt3_action_error=Es ist ein Fehler aufgetreten, der Befehl wurde nicht gesendet.
     rt3_action_success=Der Befehl wurde erfolgreich gesendet.
-    rt3_actions_barge=Lastkahn
+    rt3_actions_barge=barge
     rt3_actions_chanspy=Spionieren
     rt3_actions_whisper=Flüstern
     rt3_add=Neues Widget hinzufügen
     rt3_add_box=Neues Widget auf der Seite hinzufügen
     # 🔴 rt3_add_queue -> Select Queue
-    ➡️ rt3_add_queue=
+    ➡️ rt3_add_queue=Warteschlange wählen
     rt3_add_view=Neue Ansicht hinzufügen
     rt3_advanced=Fortgeschrittene
     rt3_ag_calls_alm_red=Agenten Besetzt Rot Alarm
@@ -2108,13 +2108,13 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_code=Agent Code
     rt3_agent_extension=Agent Erweiterung
     # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
-    ➡️ rt3_agent_extension_regex_error=
+    ➡️ rt3_agent_extension_regex_error=Nbst. entspricht nicht dem korrekten Format.
     # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
-    ➡️ rt3_agent_code_regex_error=
+    ➡️ rt3_agent_code_regex_error=Agentencode entspricht nicht dem korrekten Format.
     # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
-    ➡️ rt3_agent_extension_min_1_char_error=
+    ➡️ rt3_agent_extension_min_1_char_error=Nbst. sollte mind. 1 Zeichen lang sein.
     # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
-    ➡️ rt3_agent_code_min_1_char_error=
+    ➡️ rt3_agent_code_min_1_char_error=Agentencode sollte mind. 1 Zeichen lang sein.
     rt3_agent_info=Agent-Infos
     rt3_agent_login=Anmeldung (Alle Warteschlangen)
     rt3_agent_logon=Agent-Anmeldung
@@ -2166,14 +2166,14 @@ Used for data blocks Overview by Agent/Queue
     rt3_call_started=Das Gespräch hat begonnen.
     rt3_call_status=Status
     rt3_call_terminated=Der Anruf wurde beendet.
-    rt3_call_transfer=Anruf übertragen
-    rt3_call_transferextension=Überweisung an (ext.)
+    rt3_call_transfer=Anruf weiterleiten.
+    rt3_call_transferextension=Weiterleiten an (ext.)
     rt3_caller=Anrufer
     rt3_callfeatures=Funktionen aufrufen
     rt3_callgoalfeatures=Merkmale des Ziels
     rt3_calls_alm_red=Wartende Anrufe Roter Alarm
     rt3_calls_alm_yel=Wartende Anrufe Gelber Alarm
-    rt3_calltag=Tag
+    rt3_calltag=markiert
     rt3_cancel=Abbrechen
     rt3_cannot_edit_wb_warning=Die Bearbeitung ist deaktiviert, da der Benutzer nicht über die erforderlichen Tasten verfügt.
     rt3_category_chart=Diagramme
@@ -2181,7 +2181,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_debug=Nur Debuggen
     rt3_category_item=Artikel
     rt3_category_multiitem=Zusammengesetzte Artikel
-    rt3_category_table=Tische
+    rt3_category_table=Tabelle
     rt3_category_various=Verschiedene
     rt3_change_queue_confirm=Sie haben nicht gespeicherte Änderungen, die verloren gehen, wenn Sie die Warteschlange wechseln. Bestätigen Sie?
     rt3_choose_action=Aktion wählen
@@ -2228,17 +2228,17 @@ Used for data blocks Overview by Agent/Queue
     rt3_delete_wallboard=Löschen
     rt3_direction=Richtung
     rt3_display_size=Display Grösse
-    rt3_dummy_wlbd=Dummy Wandtafel
+    rt3_dummy_wlbd=Dummy Wallboard
     rt3_duration=Dauer
     rt3_dwn=Nach unten gehen
     rt3_edit=Widget bearbeiten
     rt3_edit_required=Bearbeiten erforderlich
-    rt3_edit_wallboard_cfg=Aktuelle Wandtafel editieren und einsehen
+    rt3_edit_wallboard_cfg=Aktuelle Wallboard editieren und einsehen
     rt3_editwdg_title=Widget bearbeiten
-    rt3_empty_wlbd=Leere Wandtafel
+    rt3_empty_wlbd=Leere Wallboard
     rt3_enter_title=Titel eingeben
     rt3_error_prefs_fetch=Die Benutzereinstellungen konnten nicht abgerufen werden
-    rt3_error_saving=Fehler beim Speichern der Wandtafel
+    rt3_error_saving=Fehler beim Speichern der Wallboard
     rt3_error_saving_prefs=Die Benutzereinstellungen konnten nicht gespeichert werden
     rt3_error_saving_public_wb=Benutzer kann ein öffentliches Wallboard nicht speichern
     rt3_error_saving_wb_missing_key=Der Benutzer kann kein Wallboard speichern, da die Benutzertaste WALLBOARD_ADD fehlt
@@ -2263,7 +2263,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_ispublic=Öffentlich?
     rt3_ivr_time=Sprachdialog
     rt3_kill=Dieses Widget aus der Ansicht entfernen
-    rt3_kiosk_mode_warning=Sie befinden sich derzeit im Kioskmodus, die Bearbeitung der Wandtafel ist deaktiviert.
+    rt3_kiosk_mode_warning=Sie befinden sich derzeit im Kioskmodus, die Bearbeitung der Wallboard ist deaktiviert.
     rt3_last_completed_call=Frei seit
     rt3_live_agent=Agent
     rt3_live_agent_counters=Live Agentenzähler
@@ -2287,7 +2287,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_n_calls_offered=Angebotene Anrufe
     rt3_n_calls_waiting=Anklopfende Anrufe
     rt3_name=Name
-    rt3_new_wlbd=Neue Wandtafel
+    rt3_new_wlbd=Neue Wallboard
     rt3_no_data=Keine Daten verfügbar
     rt3_no_url_to_be_copied=Dieses Wallboard hat keine freigebbare URL
     rt3_nobillpause=Pause non Bill.
@@ -2299,8 +2299,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_number_calling=Anrufe:
     rt3_offered=Angeboten
     rt3_ok=Ok
-    rt3_on_pause=Auf Pause
-    rt3_oncall=Auf Abruf
+    rt3_on_pause=in Pause
+    rt3_oncall=auf Abruf
     rt3_onhold=In der Warteschleife
     rt3_pause_alarm_red=Roten Alarm anhalten
     rt3_pause_alarm_yel=Pause Gelber Alarm
@@ -2313,8 +2313,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_play=Spielen
     rt3_position=Position
     rt3_preset=Voreingestellt:
-    rt3_private=Private Wandtafel
-    rt3_public=Öffentliche Wandtafel
+    rt3_private=Private Wallboard
+    rt3_public=Öffentliche Wallboard
     rt3_purple=lila
     rt3_qcont=QC
     rt3_qcontph=QCPH
@@ -2344,10 +2344,10 @@ Used for data blocks Overview by Agent/Queue
     rt3_save=Speichern
     rt3_secondary_color=Sekundärfarbe
     rt3_seconds=Sekunden
-    rt3_security_key=Schlüssel zur Sichtbarkeit
+    rt3_security_key=Key zur Sichtbarkeit
     rt3_select_chart=Wählen Sie ein Chart...
     rt3_select_db=Wählen Sie einen DataBlock...
-    rt3_select_wallboard=Wählen Sie eine Wandtafel
+    rt3_select_wallboard=Wählen Sie eine Wallboard
     rt3_send_command=Ok
     rt3_session_invalid_reconnecting=Verbindungsproblem mit Queuemetrics, Wiederherstellung der Verbindung
     rt3_size_is=Grösse ist
@@ -2374,7 +2374,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_aggrbyqueue=Aggregiert nach Warteschlange
     rt3_table_aggrbytag=Aggregiert nach Tag
     # 🔴 rt3_table_lastattempts -> Last attempts
-    ➡️ rt3_table_lastattempts=
+    ➡️ rt3_table_lastattempts=letzte Versuche
     rt3_table_live_agents=Live-Agenten
     rt3_table_live_calls=Live-Anrufe
     rt3_table_live_queues=Aktuelle Warteschlangen
@@ -2395,7 +2395,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_tottalk_alarm_yel=Total Talk Gelber Alarm
     rt3_unhold=Unhold
     rt3_unknown=Unbekannt
-    rt3_unpin=Entpinnen
+    rt3_unpin=aufheben
     rt3_unregister=Aufheben der Registrierung
     rt3_unregister_txt=Unregistering
     rt3_unregistered=Unregistriert
@@ -2413,8 +2413,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_wait_time=Warten
     rt3_wait_yellow_alarm=Warten Gelber Alarm
     rt3_waiting=Warten
-    rt3_wallboard_num=Konfiguration der Wandtafel
-    rt3_wallboard_saved=Wandtafel gespeichert
+    rt3_wallboard_num=Konfiguration der Wallboard
+    rt3_wallboard_saved=Wallboard gespeichert
     rt3_widget=Widget
     rt3_widget_added=Widget hinzugefügt
     rt3_widget_cloned=Widget geklont
