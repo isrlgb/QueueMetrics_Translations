@@ -3243,7 +3243,7 @@ Other items
     amo_list_state_paused= pausiert
     amo_number_state_blklist= 
     # 🔴 amo_number_state_dialed -> Dialed
-    ➡️ amo_number_state_dialed=
+    ➡️ amo_number_state_dialed=gewählt
     # 🔴 amo_number_state_ko -> KO
     ➡️ amo_number_state_ko=
     # 🔴 amo_number_state_ok -> OK
@@ -3603,12 +3603,12 @@ Other items
     qap_action_client= Kunden zuweisen 
     qap_action_crm= öffnen CRM
     qap_action_flag= Interaktion kennzeichnen
-    qap_action_hangup= uflegen des Anrufes
+    qap_action_hangup= beenden des Anrufes
     qap_action_label= Interaktion bezeichnen
     qap_action_monitor= Anruf überwachen
     qap_action_qa= QA Formular
     qap_action_recall= Neue Rückruf Hinweis
-    qap_action_transfer= Anruf Übergeben
+    qap_action_transfer= Anruf weiterleiten
     qap_action_wbtrecall= Rückruf mit WombatDialer
     qap_addmember_selected= selektierte Warteschlange beitreten
     qap_agent_code= Agenten Code
@@ -3698,7 +3698,7 @@ Other items
     qap_details_position= Position
     qap_details_queue= Warteschlange
     qap_details_started= Begonnen
-    qap_details_tag= kenzeichnen
+    qap_details_tag= markiert
     qap_details_talk= Gesprächsdauer
     qap_details_terminated= Beendet
     qap_details_transferto= Übergabe an
@@ -3739,13 +3739,13 @@ Other items
     qap_interaction_outcome= Ergebnis
     qap_interaction_queue= Warteschlange
     qap_interaction_start= Start
-    qap_interaction_tag= kennzeichnen
+    qap_interaction_tag= markiert
     qap_interaction_transfer= Übergeben
     qap_interaction_url= URL
     qap_interaction_variables= Variablen
     qap_interaction_waiting= warten
     qap_invalid_outcome= Das ausgewählte Ergebnis ist nicht gültig für ein oder mehr Interaktions Merkmal Codes.
-    qap_join= einteten
+    qap_join= beitreten
     qap_label_freetext= Freitext
     qap_leave= verlassen
     qap_loading= laden...
@@ -3758,7 +3758,7 @@ Other items
     qap_nav_control= prüfen
     qap_nav_debug= Fehlersuche
     qap_nav_dialout= rauswählen
-    qap_nav_home=startseite
+    qap_nav_home=Startseite
     qap_nav_interactions=Interaktionen
     qap_nav_overview= Übersicht
     qap_nav_qa= QA
@@ -3766,9 +3766,9 @@ Other items
     ➡️ qap_nav_wallboard=
     qap_nav_wombat= WombatDialer Wahlvorschau
     # 🔴 qap_new_case -> New Case
-    ➡️ qap_new_case=
+    ➡️ qap_new_case=Neuer Case
     # 🔴 qap_new_client -> New Client
-    ➡️ qap_new_client=
+    ➡️ qap_new_client=Neuer Kunde
     qap_new_memo= erknüpftes Memo erstellen
     qap_no_cases= Bei der aktuellen Suche wurden keine Anfragen gefunden, bitte versuchen Sie es erneut.
     qap_no_clients= Bei der aktuellen Suche wurden keine Kunden, bitte versuchen Sie es erneut.
@@ -3849,10 +3849,10 @@ Other items
     qatarget_allcalls=Alle Anrufe
     qatarget_individual_agents=Agent
     qatarget_outcomes=Ergebnis aufrufen
-    react_report_table_sort_asc=In aufsteigender Reihenfolge sortieren
+    react_report_table_sort_asc=Sortieren in aufsteigender Reihenfolge 
     react_report_table_sort_desc=Sortieren in absteigender Reihenfolge
-    realtime_missing_queues=In den erwarteten Warteschlangen nicht vorhanden
-    realtime_tooltip_calltags=Tag
+    realtime_missing_queues=Nicht vorhanden in den erwarteten Warteschlangen
+    realtime_tooltip_calltags=markiert
     realtime_tooltip_features=Funktionen
     realtime_tooltip_ivrs=Sprachdialog
     realtime_tooltip_variables=Var
@@ -3957,7 +3957,7 @@ Other items
     reports_edit_page=Seite bearbeiten
     reports_edit_page_complete=Änderungen bestätigen
     reports_edit_report=Bericht bearbeiten
-    reports_editingkey=Bearbeitungsschlüssel
+    reports_editingkey=Bearbeitungskey
     reports_enter_title=Geben Sie den neuen Berichtstitel ein
     reports_export_email_body=QueueMetrics-Ergebnisse für den Exportbericht namens
     reports_export_email_subject=[QueueMetrics] Bericht
@@ -3982,7 +3982,7 @@ Other items
     reports_filter_calldurmin=Min. Dauer des Anrufs
     reports_filter_caller=Anrufer
     reports_filter_callskills=Call Skill
-    reports_filter_calltags=Tag aufrufen
+    reports_filter_calltags=markierte aufrufen
     reports_filter_case= Case
     reports_filter_client= Kunden
     reports_filter_date_from=Von
@@ -4045,7 +4045,7 @@ Other items
     reports_page_delete=Seite löschen
     reports_page_delete_successful=Seite erfolgreich gelöscht
     reports_page_shorttitle=Kurzer Titel
-    reports_page_visibilitykey=Sichtbarkeitsschlüssel
+    reports_page_visibilitykey=Sichtbarkeitskey
     reports_pagination_gotopage=Zur Seite gehen
     reports_pagination_loading=Laden...
     reports_pagination_next=Nächste Seite
@@ -4180,7 +4180,7 @@ Other items
     reports_total_calls=Total Anrufe
     reports_trash=Zum Löschen hierher ziehen
     reports_unsaved=Nicht gespeichert
-    reports_visibilitykey=Sichtbarkeitsschlüssel
+    reports_visibilitykey=Sichtbarkeitskey
     rt_active_queues=Zeige Aktivitäten der Warteschlangen
     rt_addmember=Mitglied hinzufügen
     rt_agent_nbsp=Agent
@@ -4285,8 +4285,8 @@ Other items
     rt_pop_monitor_now=Jetzt überwachen
     rt_pop_please_enter_your_local_or_remote_extension=Bitte hiesige oder ferne Nebenstellennummer, um Anrufüberwachung zu starten.
     rt_pop_spy_mode=Überwachungsmodus
-    rt_pop_transfer_extension=Transfer zur Nebenstelle:
-    rt_pop_transfer_runbtn=Übertragung
+    rt_pop_transfer_extension=Weiterleiten zur Nebenstelle:
+    rt_pop_transfer_runbtn=Weiterleiten
     rt_pop_transfer_title=Einen Anruf weiterleiten
     rt_pop_unique_id=Eindeutige ID:
     rt_pop_whisper=Flüstern Sie dem Agenten zu
