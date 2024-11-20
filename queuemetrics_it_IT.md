@@ -4013,7 +4013,6 @@ Other items
     reports_qa_performance_title=Risultati
     reports_qa_performance_total=Totale
     reports_qa_queue=Coda
-    # 🔴 reports_qa_range -> Range
     reports_qa_range=Periodo
     reports_qa_recap_heading=Dettagli Chiamata
     reports_qa_select_form=Seleziona Form
