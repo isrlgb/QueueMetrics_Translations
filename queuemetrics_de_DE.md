@@ -2545,14 +2545,14 @@ Used for data blocks Overview by Agent/Queue
     fp_skills_edit=Agenten-Fähigkeiten
     fp_squery_report=Gespeicherte Berichtsabfragen
     fp_squery_rt=Gespeicherte Echtzeit-Abfragen
-    fp_squery_wallboards=Wandtafeln
+    fp_squery_wallboards=Wallboards
     fp_supervision=Aufsicht
     fp_title=Startseite
     fp_today=Heute
     fp_view_auditlog=Auditlog einsehen
     fp_visitorcmd=Zeige gegenwärtige Systemaktivität
     fp_visitortitle=Fernüberwachung
-    fp_wallboard=Wandtafel starten
+    fp_wallboard=Wallboard starten
     fp_yesterday=Gestern
 
 ## Editor of configuration properties
@@ -2568,7 +2568,7 @@ Description of configuration properties
     propedit_category_qa=Bewertung der Qualität
     propedit_category_realtime=Echtzeit-Seite
     propedit_category_softphone=WebRTC-Softphone
-    propedit_category_synchronizer=Synchronisiergerät
+    propedit_category_synchronizer=Synchronisier
     propedit_edit_label=Bearbeiten
     propedit_explore_label=Erkunden
     propedit_feature_agent_amo= AMO
@@ -2594,7 +2594,7 @@ Description of configuration properties
     propedit_feature_softphone_defaults=SoftPhone Globale Standardeinstellungen
     propedit_feature_softphone_settings=Agentenseite Softphone-Einstellungen
     propedit_feature_synchronizer_settings=Synchronisationseinstellungen
-    propedit_feature_wallboard=Wandtafel
+    propedit_feature_wallboard=Wallboard
     propedit_feature_wbsoftphone_settings=Wallboard Softphone Einstellungen
     propedit_key_agent_background_desc=URL des Hintergrunds der Agentenseite.
     propedit_key_agent_outcome_size=Maximale Höhe der Ergebnisauswahlliste
