@@ -1,4 +1,4 @@
-# Translation file for QueueMetrics - en_US
+![image](https://github.com/user-attachments/assets/d27a2013-e3db-46e6-aa10-35ae3412d3df)![image](https://github.com/user-attachments/assets/c7ff641b-e2e6-4d1c-868d-726b57b0d0bd)# Translation file for QueueMetrics - en_US
 
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
@@ -210,7 +210,7 @@ Do not change the items below:
     td_pautype_outbound=Εξερχόμενες
     td_pautype_pause=Παύση
     # 🔴 td_pautype_wrap -> Wrap
-    ➡️ td_pautype_wrap=
+    ➡️ td_pautype_wrap=Ολοκλήρωση
     td_pautype_wrap-up_time=Χρόνος wrap-up
     td_qdir_any=Οποιαδήποτε κλήση
     td_qdir_inbound_calls=Εισερχόμενες κλήσεις
@@ -243,10 +243,10 @@ Do not change the items below:
     aout_call_res_by_tag=Αποτελέσματα κλήσεων ανά tag
     aout_calltag=Tag
     # 🔴 aout_case_distribution -> Case Distribution
-    ➡️ aout_case_distribution=
+    ➡️ aout_case_distribution=Κατανομή Υποθέσεων
     aout_chart=~
     # 🔴 aout_client_distribution -> Client Distribution
-    ➡️ aout_client_distribution=
+    ➡️ aout_client_distribution=Κατανομή Πελατών
     aout_contacts_n=Επαφ.
     aout_convratio=Μετατρ.
     aout_cph=CPH
@@ -423,10 +423,10 @@ Do not change the items below:
 
 
     # 🔴 clage_%_of_pause_time -> % of pause time
-    ➡️ clage_%_of_pause_time=
+    ➡️ clage_%_of_pause_time=% διάρκεια παύσης
     clage_%_of_queue=% της ουράς αναμονής
     # 🔴 clage_%_of_session_time -> % of session time
-    ➡️ clage_%_of_session_time=
+    ➡️ clage_%_of_session_time=% του χρόνου συνεδρίας
     clage_acd_available=Διαθεσ.
     clage_acd_avg_dur=Μέσ. Διάρκ.
     clage_acd_avg_in=Μέσ. Όρος Εισ.
@@ -452,7 +452,7 @@ Do not change the items below:
     clage_agent_ptimebyhour=Πληρωτέος χρόνος χρήστη ανα ώρα
     clage_agent_session_detail=Λεπτομέριες συνεδρίας χρήστη
     # 🔴 clage_agent_session_overview -> Agent Session Overview
-    ➡️ clage_agent_session_overview=
+    ➡️ clage_agent_session_overview=Επισκόπηση Συνεδρίας Χρήστη
     clage_agent_sessionreport=Συνεδρία χρήστη ανά ουρά αναμονής, ετικέτα και χαρακτηριστικό
     clage_agent_sessions=Συνεδρίες χρήστη
     clage_agent_stimebyhour=Συνεδρία χρήστη ανά ώρα
@@ -515,7 +515,7 @@ Do not change the items below:
     clage_pause=Παύση
     clage_pause_%=% Παύσης 
     # 🔴 clage_pause_type_stats -> Details of pause types
-    ➡️ clage_pause_type_stats=
+    ➡️ clage_pause_type_stats=Λεπτομέρειες τύπων παύσης
     clage_pauses=Παύσεις
     clage_pauses_per_session=Παύσεις ανά συνεδρία
     clage_pausetype=Τύπος Παύσης
@@ -535,21 +535,21 @@ Do not change the items below:
     ➡️ clage_session_calls=
     clage_session_details=Λεπτομέρειες συνεδρίας
     # 🔴 clage_session_end -> Segment end
-    ➡️ clage_session_end=
+    ➡️ clage_session_end=Τέλος τμήματος
     # 🔴 clage_session_idle -> Idle time
-    ➡️ clage_session_idle=
+    ➡️ clage_session_idle=Χρόνος αδράνειας
     # 🔴 clage_session_lostatt -> Lost attempts
-    ➡️ clage_session_lostatt=
+    ➡️ clage_session_lostatt=Χαμένες προσπάθειες
     # 🔴 clage_session_pause -> Pause
-    ➡️ clage_session_pause=
+    ➡️ clage_session_pause=Παύση
     # 🔴 clage_session_queues -> Queues
-    ➡️ clage_session_queues=
+    ➡️ clage_session_queues=Ουρές
     # 🔴 clage_session_start -> Segment start
-    ➡️ clage_session_start=
+    ➡️ clage_session_start=Αρχή τμήματος
     # 🔴 clage_session_talk -> Talk time
-    ➡️ clage_session_talk=
+    ➡️ clage_session_talk=Διάρκεια συνομιλίας
     # 🔴 clage_session_type -> Session type
-    ➡️ clage_session_type=
+    ➡️ clage_session_type=Τύπος συνεδρίας
     clage_sessions=Συνεδρίες
     clage_tag_sessionreport=Προβολή συνεδριών ανά Tag
     clage_takenshort=Δ
