@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d27a2013-e3db-46e6-aa10-35ae3412d3df)![image](https://github.com/user-attachments/assets/c7ff641b-e2e6-4d1c-868d-726b57b0d0bd)# Translation file for QueueMetrics - en_US
+# Translation file for QueueMetrics - en_US
 
 - The name WombatDialer is a product and should be left unaltered. 
 - The acronym "CSV" should be unaltered.
@@ -532,7 +532,7 @@ Do not change the items below:
     clage_session_byquetagftrreport=Σύνολο συνεδριών ανά ουρά ανμονής, ετικέτας και χαρακτηριστικού
     clage_session_byquetagreport=Σύνολο συνεδριών ανά Ουρά αναμονής και Tag
     # 🔴 clage_session_calls -> N. calls
-    ➡️ clage_session_calls=
+    ➡️ clage_session_calls=Αρ. Κλήσεων
     clage_session_details=Λεπτομέρειες συνεδρίας
     # 🔴 clage_session_end -> Segment end
     ➡️ clage_session_end=Τέλος τμήματος
@@ -633,7 +633,7 @@ Do not change the items below:
     cld_calltag=Tag
     cld_complete_calls=Απαντημένες κλήσεις
     # 🔴 cld_connect -> Connect
-    ➡️ cld_connect=
+    ➡️ cld_connect=Σύνδεση
     cld_date=Ημερομηνία
     cld_detail_of_agent_pauses=Λεπτομέριες παύσεων χρηστών
     cld_detail_of_agent_sessions=Λεπτομέριες συνεδριών χρηστών
@@ -641,9 +641,9 @@ Do not change the items below:
     cld_detail_of_answered_calls=Λεπτομέρειες απαντημένων κλήσεων
     cld_detail_of_unanswered_calls=Λεπτομέρειες αναπάντητων κλήσεων
     # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_afp=
+    ➡️ cld_detail_of_unanswered_calls_afp=Λεπτομέρειες αναπάντητων κλήσεων
     # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_raw=
+    ➡️ cld_detail_of_unanswered_calls_raw=Ακατέργαστες λεπτομέρειες των κλήσεων που δεν απαντήθηκαν
     cld_detail_summary=Λεπτομερής Σύνοψη ανά ώρα
     cld_detail_summary_dom=Λεπτομερής Σύνοψη ανά ημέρα
     cld_detail_summary_dow=Λεπτομερής Σύνοψη ανά ημέρα της εβδομάδας
@@ -653,10 +653,10 @@ Do not change the items below:
     cld_dow=Ημέρα της εβδομάδας
     cld_duration=Διάρκεια
     # 🔴 cld_end -> End
-    ➡️ cld_end=
+    ➡️ cld_end=Είσοδος
     cld_end_hour=Τελική ώρα
     # 🔴 cld_enter -> Enter
-    ➡️ cld_enter=
+    ➡️ cld_enter=Αδράνεια
     cld_executive_summary=Σύνοψη των κυριότερων σημείων
     cld_ext=Εξώτ.
     cld_features=Κωδικοί Λειτουργιών
@@ -666,13 +666,13 @@ Do not change the items below:
     cld_handled_by=Έγινε χειρισμός από
     cld_hour=Ώρα
     # 🔴 cld_idle -> Idle
-    ➡️ cld_idle=
+    ➡️ cld_idle=Αδράνεια
     cld_info=Πληροφ.
     cld_ivr=Επιλογή IVR
     cld_ivr_detail=Λεπτομέρειες IVR
     cld_ivr_detail_full=Λεπτομέρειες IVR (πλήρης εκτυπώσιμη λίστα)
     # 🔴 cld_ivr_dur -> IVR Dur.
-    ➡️ cld_ivr_dur=
+    ➡️ cld_ivr_dur=Διαρκ. IVR
     cld_ivr_time=IVR
     cld_ivr_time_long=Χρόνος στο IVR πριν την ουρά αναμονής
     cld_key=Κλειδί
@@ -709,7 +709,7 @@ Do not change the items below:
     cld_pop_qa=QA
     cld_pop_queue=Ουρά αναμονής:
     # 🔴 cld_pop_server -> Server
-    ➡️ cld_pop_server=
+    ➡️ cld_pop_server=Διακομιστής
     cld_pop_sound_files=Αρχεία ήχου:
     cld_pop_status_code=Κωδικός κατάστασης
     cld_pop_stint_cause=Αποσύνδεση
@@ -728,9 +728,9 @@ Do not change the items below:
     cld_queue_batch_export=Προσθήκη κλήσεων σε λίστα εξαγωγής
     cld_queue_detail=Λεπτομέρειες ουράς αναμονής
     # 🔴 cld_queue_detail_afp -> Queue detail
-    ➡️ cld_queue_detail_afp=
+    ➡️ cld_queue_detail_afp=Λεπτομέρεια ουράς αναμονής
     # 🔴 cld_queue_detail_raw -> Raw queue detail
-    ➡️ cld_queue_detail_raw=
+    ➡️ cld_queue_detail_raw=Ακατέργαστη λεπτομέρεια ούρας αναμονής
     cld_return=Επιστροφή
     cld_server=Εξυπηρετητής
     cld_session_agent_detail=Λεπτομέρειες συνεδρίας χρήστη
@@ -747,17 +747,17 @@ Do not change the items below:
     cld_status_code=Κωδικός 
     cld_stints=Χρονικά όρια
     # 🔴 cld_talk -> Talk
-    ➡️ cld_talk=
+    ➡️ cld_talk=Συνομιλία
     # 🔴 cld_talk_and_idle_times -> Talk and Idle Times
-    ➡️ cld_talk_and_idle_times=
+    ➡️ cld_talk_and_idle_times=Χρόνοι Συνομιλίας και Αδράνειας
     cld_termination=Τερματισμός
     # 🔴 cld_tot_dur -> Tot. Dur.
-    ➡️ cld_tot_dur=
+    ➡️ cld_tot_dur=Συν.Διάρκ.
     cld_total_calls=Συνολικές κλήσεις
     cld_total_elapsed_time=Συνολικός χρόνος
     cld_transfer_to=Μεταφέρθηκε σε
     # 🔴 cld_uid -> Unique ID
-    ➡️ cld_uid=
+    ➡️ cld_uid=Μοναδικό ID (Ταυτότητα)
     cld_unique_callers=Μοναδικοί καλούντες
     cld_unique_final_lost=Μοναδικές χαμένες κλήσεις κατά την τελευταία προσπάθεια
     cld_unique_first_lost=Μοναδικές χαμένές κλήσεις κατά την πρώτη προσπάθεια
@@ -930,7 +930,7 @@ Do not change the items below:
     clko_nbsp= 
     clko_nof_unanswered_calls=Αρ. αναπάντητων κλήσεων:
     # 🔴 clko_offered -> Of offered
-    ➡️ clko_offered=
+    ➡️ clko_offered=Από τα προσφερόμενα
     clko_percent=Ποσοστό
     clko_qpos_all=Θέση εισαγωγής στην ουρά αναμονής για όλες τις κλήσεις
     clko_qpos_ko=Θέση εισαγωγής στην ουρά αναμονής 
@@ -944,11 +944,11 @@ Do not change the items below:
     clko_total_rows_processed=Σύνολο επεξεργασμένω σειρών:
     clko_total_wait_time_before_disconnection=Συνολικός χρόνος αναμονής πρίν την αποσύνδεση
     # 🔴 clko_unans_nums_recalled -> Numbers recalled
-    ➡️ clko_unans_nums_recalled=
+    ➡️ clko_unans_nums_recalled=Αριθμοί που επανακαλέστηκαν
     # 🔴 clko_unans_nums_recap -> Recap of all recalls
-    ➡️ clko_unans_nums_recap=
+    ➡️ clko_unans_nums_recap=Σύνοψη όλων των επανακλήσεων
     # 🔴 clko_unans_nums_to_recall -> Numbers to be recalled
-    ➡️ clko_unans_nums_to_recall=
+    ➡️ clko_unans_nums_to_recall=Αριθμοί προς επανάκληση
     clko_unanswered_calls=Αναπάντητες κλήσεις
     clko_unanswered_calls_by_queue=Αναπάντητες κλήσεις ανά ουρά αναμονής
     clko_unanswered_calls_distribution_by_length=Αναπάντητες κλήσεις - διανομή ανά χρόνο αναμονής 
@@ -968,7 +968,7 @@ Do not change the items below:
     clhdr_call=Φιλτραρισμένο ανά χρόνο συνομιλίας:
     clhdr_caller=Φιλτραρισμένη ανά Αριθμό Καλούντος:
     # 🔴 clhdr_callfeaturecode -> Filtered by feature code:
-    ➡️ clhdr_callfeaturecode=
+    ➡️ clhdr_callfeaturecode=Φιλτραρισμένο ανά κωδικό χαρακτηριστικού:
     clhdr_calltag=Φιλτραρισμένη ανά ετικέτα κλήσης:
     clhdr_dayofweek=Ημέρες της εβδομάδας:
     clhdr_disconnection=Φιλτραρισμένη ανά αποσυνδέσεις
@@ -1028,7 +1028,7 @@ Do not change the items below:
     clok_dnis=DNIS που χρησιμοποιήθηκε
     clok_dnis_choice=DNIS
     # 🔴 clok_grouping -> Open Group
-    ➡️ clok_grouping=
+    ➡️ clok_grouping=Ανοιχτή Ομάδα
     clok_hdr=Επικεφαλίδα αναφοράς
     clok_ivr=Επιλογή IVR
     clok_ivrMaxTime=Μεγιστη διάρκεια
@@ -1081,30 +1081,30 @@ Do not change the items below:
 
 
     # 🔴 evt_abandon -> Caller Abandoned
-    ➡️ evt_abandon=
+    ➡️ evt_abandon=Εγκατάλειψη κλήση από καλών
     evt_agentattempt=Απόπειρες κουδουνισμού
     evt_agentdump=Αποσύνδεση του χρήστη
     # 🔴 evt_attended_transfer -> Attended Transfer
-    ➡️ evt_attended_transfer=
+    ➡️ evt_attended_transfer=Επιτηρούμενη μεταφορά
     # 🔴 evt_blind_transfer -> Blind Transfer
-    ➡️ evt_blind_transfer=
+    ➡️ evt_blind_transfer=Μη επιτηρούμενη μεταφορά
     # 🔴 evt_call_outbound -> Outbound Call
-    ➡️ evt_call_outbound=
+    ➡️ evt_call_outbound=Εξερχόμενη Κλήση
     evt_call_tag=Ετικέτα κλήσεων
     # 🔴 evt_complete_agent -> Complete Agent
-    ➡️ evt_complete_agent=
+    ➡️ evt_complete_agent=Ολοκληρωμένος Χρήστης
     # 🔴 evt_complete_caller -> Complete Caller
-    ➡️ evt_complete_caller=
+    ➡️ evt_complete_caller=Ολοκληρωμένος Καλών
     # 🔴 evt_connect -> Connect
-    ➡️ evt_connect=
+    ➡️ evt_connect=Σύνδεση
     # 🔴 evt_enter_queue -> Enter Queue
-    ➡️ evt_enter_queue=
+    ➡️ evt_enter_queue=Είσοδος στην Ουρά Αναμονής
     # 🔴 evt_exit_empty -> Exit Empty
-    ➡️ evt_exit_empty=
+    ➡️ evt_exit_empty=Κένη Έξοδος
     # 🔴 evt_exit_with_key -> Exit With Key
-    ➡️ evt_exit_with_key=
+    ➡️ evt_exit_with_key=Έξοδος με κλειδί
     # 🔴 evt_exit_with_timeout -> Exit With Timeout
-    ➡️ evt_exit_with_timeout=
+    ➡️ evt_exit_with_timeout=Έξοδος με Χρονικό Όριο
     evt_feature_added=Προσθήκη χαρακτηριστικού
     evt_feature_deleted=Διαγραφή χαρακτηριστικού
     evt_ivr_alldigits=Όλες οι επιλογές IVR
@@ -1116,19 +1116,19 @@ Do not change the items below:
     evt_ivr_waitonly=Αναμονή IVR
     evt_moh=Μουσική αναμονής
     # 🔴 evt_other_end_session -> Other Session End
-    ➡️ evt_other_end_session=
+    ➡️ evt_other_end_session=Τέλος Άλλης Συνεδρίας
     # 🔴 evt_other_fail_session -> Other Session Fail
-    ➡️ evt_other_fail_session=
+    ➡️ evt_other_fail_session=Αποτυχία Άλλης Συνεδρίας
     # 🔴 evt_other_start_session -> Other Session Start
-    ➡️ evt_other_start_session=
+    ➡️ evt_other_start_session=Αρχή Άλλης Συνεδρίας
     # 🔴 evt_phone_end_session -> Phone Session End
-    ➡️ evt_phone_end_session=
+    ➡️ evt_phone_end_session=Τέλος Συνεδρίας Τηλεφώνου
     # 🔴 evt_phone_fail_session -> Phone Session Fail
-    ➡️ evt_phone_fail_session=
+    ➡️ evt_phone_fail_session=Αποτυχία Συνεδρίας Τηλεφώνου
     # 🔴 evt_phone_start_session -> Phone Session Start
-    ➡️ evt_phone_start_session=
+    ➡️ evt_phone_start_session=Αρχή Συνεδρίας Τηλεφώνου
     # 🔴 evt_ringcancel -> Ring Cancel
-    ➡️ evt_ringcancel=
+    ➡️ evt_ringcancel=Ακύρωση Κουδουνισμού
     evt_ringing=Κουδουνισμός
     evt_ringnoanswer=Αναπάντητος κουδουνισμός
     evt_setvar=Καθορισμός μεταβλητής
@@ -1139,33 +1139,33 @@ Do not change the items below:
     evt_short_ringnoanswer=Κουδουνισμός χωρίς απάντηση (Σύντομος)
     evt_skillreq=Απαιτούμενη δεξιότητα
     # 🔴 evt_teams_end_session -> MS Teams Session End
-    ➡️ evt_teams_end_session=
+    ➡️ evt_teams_end_session=Τέλος Συνεδρίας MS Teams
     # 🔴 evt_teams_fail_session -> Teams Session Fail
-    ➡️ evt_teams_fail_session=
+    ➡️ evt_teams_fail_session=Αποτυχία Συνεδρίας MS Teams
     # 🔴 evt_teams_start_session -> MS Teams Session Start
-    ➡️ evt_teams_start_session=
+    ➡️ evt_teams_start_session=Αρχή Συνεδρίας MS Teams
     # 🔴 evt_transfer -> Transfer
-    ➡️ evt_transfer=
+    ➡️ evt_transfer=Μεταφορά
     # 🔴 evt_unanswered_yet -> Unanswered Yet
-    ➡️ evt_unanswered_yet=
+    ➡️ evt_unanswered_yet=Δεν Απαντήθηκε Ακόμα
     # 🔴 evt_web_end_session -> Web Session End
-    ➡️ evt_web_end_session=
+    ➡️ evt_web_end_session=Τέλος Συνεδρίας Ιστού
     # 🔴 evt_web_fail_session -> Web Session Fail
-    ➡️ evt_web_fail_session=
+    ➡️ evt_web_fail_session=Αποτυχία Συνεδρίας Ιστού
     # 🔴 evt_web_start_session -> Web Session Start
-    ➡️ evt_web_start_session=
+    ➡️ evt_web_start_session=Αρχή Συνεδρίας Ιστού
     # 🔴 evt_var_group -> Variables
-    ➡️ evt_var_group=
+    ➡️ evt_var_group=Μεταβλητές
     # 🔴 evt_custom_prev_stint -> Previous Stint
-    ➡️ evt_custom_prev_stint=
+    ➡️ evt_custom_prev_stint=Προηγούμενη Περίοδος
     # 🔴 evt_custom_next_stint -> Next Stint
-    ➡️ evt_custom_next_stint=
+    ➡️ evt_custom_next_stint=Επόμενη Περίοδος
     # 🔴 evt_custom_n_stint -> N. Stints
-    ➡️ evt_custom_n_stint=
+    ➡️ evt_custom_n_stint=Αριθμός Stints
     # 🔴 evt_custom_direct_to -> Direct call to
-    ➡️ evt_custom_direct_to=
+    ➡️ evt_custom_direct_to=Άμεση κλήση προς
     # 🔴 evt_custom_quality -> Call quality
-    ➡️ evt_custom_quality=
+    ➡️ evt_custom_quality=Ποιότητα Κλήσης
 
 ## Headers
 
@@ -1178,7 +1178,7 @@ Do not change the items below:
     hdr_agents_title=Χρήστες και συνεδρίες
     hdr_all=Όλα
     # 🔴 hdr_amo -> AMO
-    ➡️ hdr_amo=
+    ➡️ hdr_amo=AMO
     hdr_answered=Απαντημένες
     hdr_answered_details=Λεπτομ. Απαντ.
     hdr_answered_details_title=Λεπτομέρειες απαντημένων κλήσεων
@@ -1187,21 +1187,21 @@ Do not change the items below:
     hdr_attempts=Απόπειρ.
     hdr_broadcast=Μετάδοση
     # 🔴 hdr_calls -> Calls
-    ➡️ hdr_calls=
+    ➡️ hdr_calls=Κλήσεις
     # 🔴 hdr_calls_title -> Call Details
-    ➡️ hdr_calls_title=
+    ➡️ hdr_calls_title=Λεπτομέρειες Κλήσεων
     # 🔴 hdr_casedo -> Cases
-    ➡️ hdr_casedo=
+    ➡️ hdr_casedo=Υποθέσεις 
     # 🔴 hdr_casedo_title -> Cases and Clients
-    ➡️ hdr_casedo_title=
+    ➡️ hdr_casedo_title=Υποθέσεις και Πελάτες
     # 🔴 hdr_cases -> Cases
-    ➡️ hdr_cases=
+    ➡️ hdr_cases=Υποθέσεις
     hdr_cbt=CBTs
     # 🔴 hdr_clients -> Clients
-    ➡️ hdr_clients=
+    ➡️ hdr_clients=Πελάτες
     hdr_cronjobs=Προγραμματισμένες εργασίες
     # 🔴 hdr_customblocks -> Custom Blocks
-    ➡️ hdr_customblocks=
+    ➡️ hdr_customblocks=Προσαρμοσμένα Μπλοκ
     hdr_customreports=CR
     hdr_dbtest_ami=Τεστ AMI
     hdr_dbtest_ami_queue=Παρουσίαση Εντολών
@@ -1236,7 +1236,7 @@ Do not change the items below:
     hdr_outcomes_title=Αποτελέσματα κλήσεων
     hdr_pauses=Παύσεις
     # 🔴 hdr_performance -> Performance
-    ➡️ hdr_performance=
+    ➡️ hdr_performance=Απόδοση
     hdr_performancetrack=Παρακολούθηση επιδόσεων (PrfTrk)
     hdr_print=Εκτύπωση
     hdr_qa=Αξιολόγηση ποιότητας (QA)
@@ -1250,14 +1250,14 @@ Do not change the items below:
     hdr_reports=Αναφορές
     hdr_resetquery=Επαναφορά παραμέτρων αναζήτησης
     # 🔴 hdr_rt -> RT
-    ➡️ hdr_rt=
+    ➡️ hdr_rt=Πρ.Χρόνος
     # 🔴 hdr_rt_title -> Real-Time Metrics
-    ➡️ hdr_rt_title=
+    ➡️ hdr_rt_title=Μετρήσεις σε Πραγματικό Χρόνο
     hdr_skills=Δεξιότητες
     # 🔴 hdr_stats -> Stats
-    ➡️ hdr_stats=
+    ➡️ hdr_stats=Στατιστικά
     # 🔴 hdr_stats_title -> Statistics
-    ➡️ hdr_stats_title=
+    ➡️ hdr_stats_title=Στατιστικά
     hdr_tags=Ετικέτες
     hdr_tags_title=Ετικέτες κλήσεων
     hdr_tasks=Εργασίες
@@ -1285,105 +1285,105 @@ Do not change the items below:
     edit_ac_term=Τερμ.
     edit_ac_title=Διαμορφωση Γνωστών Χρηστών
     # 🔴 edit_amo_attribute -> Attribute
-    ➡️ edit_amo_attribute=
+    ➡️ edit_amo_attribute=Χαρακτηριστικό
 
 ### AMO
 
     # 🔴 edit_amo_attributes -> Attributes
-    ➡️ edit_amo_attributes=
+    ➡️ edit_amo_attributes=Χαρακτηριστικό
     # 🔴 edit_amo_campaign -> Campaign
-    ➡️ edit_amo_campaign=
+    ➡️ edit_amo_campaign=Καμπάνια
     # 🔴 edit_amo_last_pull -> Last Pull
-    ➡️ edit_amo_last_pull=
+    ➡️ edit_amo_last_pull=Τελευταία Ανάληψη
     # 🔴 edit_amo_list_dialer_state -> Dialer State
-    ➡️ edit_amo_list_dialer_state=
+    ➡️ edit_amo_list_dialer_state=Κατάσταση Διεκπεραιωτή Κλήσεων
     # 🔴 edit_amo_list_id -> List ID
-    ➡️ edit_amo_list_id=
+    ➡️ edit_amo_list_id=Λίστα ID
     # 🔴 edit_amo_list_last_pull -> Last Pull
-    ➡️ edit_amo_list_last_pull=
+    ➡️ edit_amo_list_last_pull=Τελευταία Ανάληψη
     # 🔴 edit_amo_list_n_added -> N. added
-    ➡️ edit_amo_list_n_added=
+    ➡️ edit_amo_list_n_added=Αρ. προσθηκών
     # 🔴 edit_amo_list_n_completed -> N. completed
-    ➡️ edit_amo_list_n_completed=
+    ➡️ edit_amo_list_n_completed=Aρ. ολοκληρωμένων
     # 🔴 edit_amo_list_n_pulled -> N. pulled
-    ➡️ edit_amo_list_n_pulled=
+    ➡️ edit_amo_list_n_pulled=Αρ. αντλήσεων
     # 🔴 edit_amo_list_name -> Name
-    ➡️ edit_amo_list_name=
+    ➡️ edit_amo_list_name=Όνομα
     # 🔴 edit_amo_list_numbers -> Edit Numbers
-    ➡️ edit_amo_list_numbers=
+    ➡️ edit_amo_list_numbers=Επεξεργασία Αριθμών
     # 🔴 edit_amo_list_pull_by -> Pulled by
-    ➡️ edit_amo_list_pull_by=
+    ➡️ edit_amo_list_pull_by=Αντλήθηκε από
     # 🔴 edit_amo_list_state -> List State
-    ➡️ edit_amo_list_state=
+    ➡️ edit_amo_list_state=Κατάσταση Λίστας
     # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
-    ➡️ edit_amo_list_upload_numbers=
+    ➡️ edit_amo_list_upload_numbers=Μεταφόρτωση Αριθμών
     # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
-    ➡️ edit_amo_list_upload_text=
+    ➡️ edit_amo_list_upload_text=Σύρετε τα αρχεια cvs ή περιηγηθείτε
     # 🔴 edit_amo_list_weight -> Weight
-    ➡️ edit_amo_list_weight=
+    ➡️ edit_amo_list_weight=Βάρος
     # 🔴 edit_amo_lists_list -> AMO Lists
-    ➡️ edit_amo_lists_list=
+    ➡️ edit_amo_lists_list=ΑΜΟ Λίστες
     # 🔴 edit_amo_lists_name_present -> The selected list name already exists
-    ➡️ edit_amo_lists_name_present=
+    ➡️ edit_amo_lists_name_present=Το επιλεγμένο όνομα υπάρχει ήδη
     # 🔴 edit_amo_lists_title -> Edit AMO List
-    ➡️ edit_amo_lists_title=
+    ➡️ edit_amo_lists_title=Επεξεργασία Λίστας AMO
     # 🔴 edit_amo_n_added -> N. added
-    ➡️ edit_amo_n_added=
+    ➡️ edit_amo_n_added=Αρ. προσθηκών
     # 🔴 edit_amo_n_completed -> N. completed
-    ➡️ edit_amo_n_completed=
+    ➡️ edit_amo_n_completed=Aρ. συμπληρωμένων
     # 🔴 edit_amo_n_lists -> N. of Lists
-    ➡️ edit_amo_n_lists=
+    ➡️ edit_amo_n_lists=Αρ. Λίστεων 
     # 🔴 edit_amo_name -> Name
-    ➡️ edit_amo_name=
+    ➡️ edit_amo_name=Όνομα
     # 🔴 edit_amo_notes -> Notes
-    ➡️ edit_amo_notes=
+    ➡️ edit_amo_notes=Σημειώσεις
     # 🔴 edit_amo_number -> Number
-    ➡️ edit_amo_number=
+    ➡️ edit_amo_number=Αριθμός
     # 🔴 edit_amo_number_id -> Number ID
-    ➡️ edit_amo_number_id=
+    ➡️ edit_amo_number_id=Αριθμός ID (Ταυτότητας)
     # 🔴 edit_amo_numbers_current_uid -> Current UID
-    ➡️ edit_amo_numbers_current_uid=
+    ➡️ edit_amo_numbers_current_uid=Τρέχων UID
     # 🔴 edit_amo_numbers_edit -> Edit AMO Number
-    ➡️ edit_amo_numbers_edit=
+    ➡️ edit_amo_numbers_edit=Επεξεργασία ΑΜΟ Αριθμών
     # 🔴 edit_amo_numbers_list -> AMO Numbers
-    ➡️ edit_amo_numbers_list=
+    ➡️ edit_amo_numbers_list=ΑΜΟ Αριθμοί
     # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
-    ➡️ edit_amo_numbers_previous_retries=
+    ➡️ edit_amo_numbers_previous_retries=Προηγούμενες Απόπειρες
     # 🔴 edit_amo_numbers_retry_no -> Retry Number
-    ➡️ edit_amo_numbers_retry_no=
+    ➡️ edit_amo_numbers_retry_no=Επανάκληση αριθμού
     # 🔴 edit_amo_queue_id -> Queue ID
-    ➡️ edit_amo_queue_id=
+    ➡️ edit_amo_queue_id=ID Ουράς αναμονής
     # 🔴 edit_amo_retry_no -> N. of retries
-    ➡️ edit_amo_retry_no=
+    ➡️ edit_amo_retry_no=Αρ. Επαναπροσπαθειών
     # 🔴 edit_amo_state -> State
-    ➡️ edit_amo_state=
+    ➡️ edit_amo_state=Κατάσταση
     # 🔴 edit_amo_valid_attribute -> Attribute
-    ➡️ edit_amo_valid_attribute=
+    ➡️ edit_amo_valid_attribute=Χαρακτηριστικό
     # 🔴 edit_amo_valid_from -> Valid from
-    ➡️ edit_amo_valid_from=
+    ➡️ edit_amo_valid_from=Ισχύει από
     # 🔴 edit_amo_valid_value -> Value
-    ➡️ edit_amo_valid_value=
+    ➡️ edit_amo_valid_value=Αξία
 
 ### Cases
 
     # 🔴 edit_cases_client -> Client
-    ➡️ edit_cases_client=
+    ➡️ edit_cases_client=Πελάτης
     # 🔴 edit_cases_contact -> Contact
-    ➡️ edit_cases_contact=
+    ➡️ edit_cases_contact=Επαφή
     # 🔴 edit_cases_email -> Email
-    ➡️ edit_cases_email=
+    ➡️ edit_cases_email=Ηλεκτρονικό ταχυδρομείο
     # 🔴 edit_cases_header -> Cases
-    ➡️ edit_cases_header=
+    ➡️ edit_cases_header=Υποθέσεις
     # 🔴 edit_cases_id -> Case Id
-    ➡️ edit_cases_id=
+    ➡️ edit_cases_id=Υποθέσεις ID
     # 🔴 edit_cases_key -> Key
-    ➡️ edit_cases_key=
+    ➡️ edit_cases_key=Κλειδί
     # 🔴 edit_cases_status -> Status
-    ➡️ edit_cases_status=
+    ➡️ edit_cases_status=Κατάσταση
     # 🔴 edit_cases_title -> Title
-    ➡️ edit_cases_title=
+    ➡️ edit_cases_title=Τίτλος
     # 🔴 edit_cases_xref -> Reference
-    ➡️ edit_cases_xref=
+    ➡️ edit_cases_xref=Αναφορά
     edit_cbt_deleted=Διεγράφη
     edit_cbt_description=Περιγραφή
     edit_cbt_key=Κλειδί
@@ -1395,29 +1395,29 @@ Do not change the items below:
     edit_classes_title=Κατηγορίες χρηστών
     edit_classes_user_num=Χρήστης αρ.
     # 🔴 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
-    ➡️ edit_clients_client_in_use=
+    ➡️ edit_clients_client_in_use=Αυτός ο πελάτης δεν μπορεί να διαγραφεί διότι είναι σε χρήση.
     # 🔴 edit_clients_contact -> Contact
-    ➡️ edit_clients_contact=
+    ➡️ edit_clients_contact=Επαφή
     # 🔴 edit_clients_email -> Email
-    ➡️ edit_clients_email=
+    ➡️ edit_clients_email=Ηλεκτρονικό ταχυδρομείο
     # 🔴 edit_clients_header -> Clients
-    ➡️ edit_clients_header=
+    ➡️ edit_clients_header=Πελάτες
     # 🔴 edit_clients_key -> Key
-    ➡️ edit_clients_key=
+    ➡️ edit_clients_key=Κλειδί
     # 🔴 edit_clients_name -> Name
-    ➡️ edit_clients_name=
+    ➡️ edit_clients_name=Όνομα
     # 🔴 edit_clients_name_present -> Name already present
-    ➡️ edit_clients_name_present=
+    ➡️ edit_clients_name_present=Το όνομα υπάρχει ήδη
     # 🔴 edit_clients_status -> Status
-    ➡️ edit_clients_status=
+    ➡️ edit_clients_status=Κατάσταση
     # 🔴 edit_clients_xref -> Reference
-    ➡️ edit_clients_xref=
+    ➡️ edit_clients_xref=Αναφορά
     # 🔴 edit_clients_xref_already_present -> This reference is already present
-    ➡️ edit_clients_xref_already_present=
+    ➡️ edit_clients_xref_already_present=Αυτή η αναφορά υπάρχει ήδη
     # 🔴 edit_clients_xref_missing -> You must set a reference
-    ➡️ edit_clients_xref_missing=
+    ➡️ edit_clients_xref_missing=Πρέπει να ορίσετε μια παραπομπή/αναφορά
     # 🔴 edit_clients_xref_not_allowed -> This reference has an invalid format
-    ➡️ edit_clients_xref_not_allowed=
+    ➡️ edit_clients_xref_not_allowed=Αυτή η παραπομπή/αναφορά έχει μη έγκυρη μορφή
     edit_cronjobs_asuser=Εκτέλεση ως Χρήστης
     edit_cronjobs_cyclic=Κυκλικό
     edit_cronjobs_description=Περιγραφή
@@ -1437,15 +1437,15 @@ Do not change the items below:
     edit_ct_tag=Ταμπέλα
     edit_ct_title=Ταμπέλες κλήσεων
     # 🔴 edit_customblocks_description -> Description
-    ➡️ edit_customblocks_description=
+    ➡️ edit_customblocks_description=Περιγραφή
     # 🔴 edit_customblocks_header -> Custom DataBlocks
-    ➡️ edit_customblocks_header=
+    ➡️ edit_customblocks_header=Προσαρμοσμένες Μονάδες Δεδομένων
     # 🔴 edit_customblocks_key -> Security Key
-    ➡️ edit_customblocks_key=
+    ➡️ edit_customblocks_key=Κλειδί Ασφαλείας
     # 🔴 edit_customblocks_provider -> Provider
-    ➡️ edit_customblocks_provider=
+    ➡️ edit_customblocks_provider=Πάροχος
     # 🔴 edit_customblocks_title -> Title
-    ➡️ edit_customblocks_title=
+    ➡️ edit_customblocks_title=Τίτλος
     edit_dnis_description=Περιγραφή
     edit_dnis_dnis=Κωδικός DNIS
     edit_dnis_title=DNIS
@@ -1546,7 +1546,7 @@ Do not change the items below:
     edit_queueagents_spill=Επιπλέον
     edit_queueagents_title=Χρήστες για την ουρά αναμονής:
     # 🔴 edit_queueagents_wrap -> Wrap
-    ➡️ edit_queueagents_wrap=
+    ➡️ edit_queueagents_wrap=Ολοκλήρωση
     edit_queues_agents=Χρήστες
     edit_queues_alias=Ψευδώνυμο
     edit_queues_fp=F.P.
@@ -1605,35 +1605,35 @@ Do not change the items below:
     edit_record_backtoqueue=Πίσω στην ουρά αναμονής
     edit_record_backtoreports=Πίσω στις αναφορές
     # 🔴 edit_record_case_transactions -> Activity for this case
-    ➡️ edit_record_case_transactions=
+    ➡️ edit_record_case_transactions=Δραστηριότητα για αυτήν την περίπτωση
     # 🔴 edit_record_cases_contact -> Contact
-    ➡️ edit_record_cases_contact=
+    ➡️ edit_record_cases_contact=Επαφή
     # 🔴 edit_record_cases_email -> Email
-    ➡️ edit_record_cases_email=
+    ➡️ edit_record_cases_email=Ηλεκτρονικό Ταχυδρομείο 
     # 🔴 edit_record_cases_for_client -> Recent cases for this client
-    ➡️ edit_record_cases_for_client=
+    ➡️ edit_record_cases_for_client=Πρόσφατες περιπτώσεις για αυτόν τον πελάτη
     # 🔴 edit_record_cases_handled_by -> Handled by
-    ➡️ edit_record_cases_handled_by=
+    ➡️ edit_record_cases_handled_by=Διαχειρίζεται από
     # 🔴 edit_record_cases_header -> Edit Case
-    ➡️ edit_record_cases_header=
+    ➡️ edit_record_cases_header=Επεξεργασία υπόθεσης
     # 🔴 edit_record_cases_id -> Case Id
-    ➡️ edit_record_cases_id=
+    ➡️ edit_record_cases_id=ΙD Υπόθεσης
     # 🔴 edit_record_cases_none_found -> None found
-    ➡️ edit_record_cases_none_found=
+    ➡️ edit_record_cases_none_found=Δεν βρέθηκε κανένα
     # 🔴 edit_record_cases_notes -> Notes
-    ➡️ edit_record_cases_notes=
+    ➡️ edit_record_cases_notes=Παρατηρήσεις
     # 🔴 edit_record_cases_queue -> Queue
-    ➡️ edit_record_cases_queue=
+    ➡️ edit_record_cases_queue=Ουρά Αναμονής
     # 🔴 edit_record_cases_securitykey -> Security Key
-    ➡️ edit_record_cases_securitykey=
+    ➡️ edit_record_cases_securitykey=Κλειδί Ασφαλείας
     # 🔴 edit_record_cases_status -> Status
-    ➡️ edit_record_cases_status=
+    ➡️ edit_record_cases_status=Κατάσταση
     # 🔴 edit_record_cases_text -> Note text
-    ➡️ edit_record_cases_text=
+    ➡️ edit_record_cases_text=Παρατήρηση κειμένου
     # 🔴 edit_record_cases_title -> Title
-    ➡️ edit_record_cases_title=
+    ➡️ edit_record_cases_title=Τίτλος
     # 🔴 edit_record_cases_xref -> Reference
-    ➡️ edit_record_cases_xref=
+    ➡️ edit_record_cases_xref=Αναφορά
     edit_record_cbt_code=Κωδικός CBT
     edit_record_cbt_counter=Απεσταλμένοι μετρητές:
     edit_record_cbt_offline=Εκτός συνδεσης:
@@ -1646,21 +1646,21 @@ Do not change the items below:
     edit_record_classes_title=Λεπτομέρειες Κατηγορίας
     edit_record_classes_usersinclass=Αριθμός χρηστών που ανήκουν σε αυτήν την κατηγορία:
     # 🔴 edit_record_client_id -> Client
-    ➡️ edit_record_client_id=
+    ➡️ edit_record_client_id=Πελάτης
     # 🔴 edit_record_clients_contact -> Contact
-    ➡️ edit_record_clients_contact=
+    ➡️ edit_record_clients_contact=Επαφή
     # 🔴 edit_record_clients_email -> Email
-    ➡️ edit_record_clients_email=
+    ➡️ edit_record_clients_email=Ηλεκτονικό ταχυδρομείο
     # 🔴 edit_record_clients_header -> Edit Client
-    ➡️ edit_record_clients_header=
+    ➡️ edit_record_clients_header=Επεξεργασία Πελάτη
     # 🔴 edit_record_clients_name -> Name
-    ➡️ edit_record_clients_name=
+    ➡️ edit_record_clients_name=Όνομα 
     # 🔴 edit_record_clients_notes -> Notes
-    ➡️ edit_record_clients_notes=
+    ➡️ edit_record_clients_notes=Παρατηρήσεις
     # 🔴 edit_record_clients_securitykey -> Security Key
-    ➡️ edit_record_clients_securitykey=
+    ➡️ edit_record_clients_securitykey=Κλειδί Ασφαλείας
     # 🔴 edit_record_clients_status -> Client status
-    ➡️ edit_record_clients_status=
+    ➡️ edit_record_clients_status=Κατάσταση Πελάτη
     edit_record_clone=Κλώνος
     edit_record_createdby=Δημιουργήθηκε την
     edit_record_cronjob_dom=Ημέρα του Μήνα
@@ -1682,29 +1682,29 @@ Do not change the items below:
     edit_record_cronjobs_nolastruns=Δεν υπάρχουν πρόσφατες εκτελέσεις για επισκόπιση
     edit_record_cronjobs_title=Λεπτομέρειες Προγραμματισμένων Εργασιών
     # 🔴 edit_record_customblocks_block -> Dispatch Name
-    ➡️ edit_record_customblocks_block=
+    ➡️ edit_record_customblocks_block=Όνομα Αποστολέα
     # 🔴 edit_record_customblocks_description -> Description
-    ➡️ edit_record_customblocks_description=
+    ➡️ edit_record_customblocks_description=Περιγραφή
     # 🔴 edit_record_customblocks_graph_params -> Chart Parameters
-    ➡️ edit_record_customblocks_graph_params=
+    ➡️ edit_record_customblocks_graph_params=Παράμετροι Διαγράμματος
     # 🔴 edit_record_customblocks_graph_provider -> Chart Provider
-    ➡️ edit_record_customblocks_graph_provider=
+    ➡️ edit_record_customblocks_graph_provider=Πάροχος Διαγραμματος 
     # 🔴 edit_record_customblocks_graphnone -> None
-    ➡️ edit_record_customblocks_graphnone=
+    ➡️ edit_record_customblocks_graphnone=Κανένα
     # 🔴 edit_record_customblocks_graphreact -> React
-    ➡️ edit_record_customblocks_graphreact=
+    ➡️ edit_record_customblocks_graphreact=Αντίδραση
     # 🔴 edit_record_customblocks_header -> Edit Custom DataBlock
-    ➡️ edit_record_customblocks_header=
+    ➡️ edit_record_customblocks_header=Επεξεργασία Προσαρμοσμένης Μονάδας Δεδομένων
     # 🔴 edit_record_customblocks_provider -> Provider
-    ➡️ edit_record_customblocks_provider=
+    ➡️ edit_record_customblocks_provider=Πάροχος
     # 🔴 edit_record_customblocks_securitykey -> Security Key
-    ➡️ edit_record_customblocks_securitykey=
+    ➡️ edit_record_customblocks_securitykey=Κλειδί Ασφαλείας
     # 🔴 edit_record_customblocks_source_body -> Source
-    ➡️ edit_record_customblocks_source_body=
+    ➡️ edit_record_customblocks_source_body=Πηγή
     # 🔴 edit_record_customblocks_title -> Title
-    ➡️ edit_record_customblocks_title=
+    ➡️ edit_record_customblocks_title=Τίτλος
     # 🔴 edit_record_customblocks_view -> View
-    ➡️ edit_record_customblocks_view=
+    ➡️ edit_record_customblocks_view=Προβολή
     edit_record_delete=Διαγραφή
     edit_record_description=Περιγραφή
     edit_record_dnis_code=Κωδικός DNIS:
@@ -1721,7 +1721,7 @@ Do not change the items below:
     edit_record_export_titlefield=Τίτλος:
     edit_record_export_visibility=Κλειδί ορατότητας
     # 🔴 edit_record_ext_ref -> Reference
-    ➡️ edit_record_ext_ref=
+    ➡️ edit_record_ext_ref=Αναφορά
     edit_record_external_reference=Αναγνωριστικό εξωτερικής σύνδεσης:
     edit_record_features_code=Κωδικός υπηρεσίας
     edit_record_features_goal=Στόχος:
@@ -1801,25 +1801,25 @@ Do not change the items below:
     edit_record_queue_agentswaiting=Αριθμός χρηστών σε αναμονή:
     edit_record_queue_alias=Ψευδώνυμο Ουράς αναμονής:
     # 🔴 edit_record_queue_amo -> AMO Settings
-    ➡️ edit_record_queue_amo=
+    ➡️ edit_record_queue_amo=Ρυθμίσεις ΑΜΟ
     # 🔴 edit_record_queue_amo_enabled -> Enabled
-    ➡️ edit_record_queue_amo_enabled=
+    ➡️ edit_record_queue_amo_enabled=Ενεργοποιημένο
     # 🔴 edit_record_queue_amo_exponential -> Exponential
-    ➡️ edit_record_queue_amo_exponential=
+    ➡️ edit_record_queue_amo_exponential=Εκθετικός
     # 🔴 edit_record_queue_amo_fixed -> Fixed
-    ➡️ edit_record_queue_amo_fixed=
+    ➡️ edit_record_queue_amo_fixed=Σταθερός
     # 🔴 edit_record_queue_amo_linear -> Linear
-    ➡️ edit_record_queue_amo_linear=
+    ➡️ edit_record_queue_amo_linear=Γραμμικός
     # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
-    ➡️ edit_record_queue_amo_recall_attributes=
+    ➡️ edit_record_queue_amo_recall_attributes=Επαναφορά χαρακτηριστικών
     # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
-    ➡️ edit_record_queue_amo_recall_max_attempts=
+    ➡️ edit_record_queue_amo_recall_max_attempts=Μέγιστες απόπειρες
     # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
-    ➡️ edit_record_queue_amo_recall_sec=
+    ➡️ edit_record_queue_amo_recall_sec=Δευτερόλεπτα πριν την επανάκληση
     # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
-    ➡️ edit_record_queue_amo_recall_stepping=
+    ➡️ edit_record_queue_amo_recall_stepping=Βήματα ανάκλησης
     # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
-    ➡️ edit_record_queue_amo_recall_valid_outcomes=
+    ➡️ edit_record_queue_amo_recall_valid_outcomes=Έγκυρα αποτελέσματα
     edit_record_queue_attention=Επίπεδα προσοχής
     edit_record_queue_callsinqueue=Αριθμός κλήσεων σε ουρά αναμονής:
     edit_record_queue_chat=Ομάδα chat:
@@ -1893,7 +1893,7 @@ Do not change the items below:
     edit_record_users_title=Λεπτομέριες χρήστη
     edit_record_users_token=Token:
     # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
-    ➡️ edit_record_xref_blank=
+    ➡️ edit_record_xref_blank=Αφήστε κενό για να δημιουργηθεί μια παραπομπή αυτόματα
     edit_reports_automatic=Αυτόματη ρύθμιση παραμέτρων αναφοράς
     edit_reports_desc=Περιγρ.
     edit_reports_key=Κλειδί
