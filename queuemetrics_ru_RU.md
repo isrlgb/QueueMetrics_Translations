@@ -601,6 +601,8 @@ Do not change the items below:
     clacd_lost_calls=Потерянные вызовы
     clacd_max_attempts=Макс. кол-во попыток:
     clacd_min_attempts=Мин. кол-во попыток:
+    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
+    ➡️ clacd_last_acd_attempts=
     clacd_n_lost=Кол-во потерянных
     clacd_n_taken=Кол-во принятых
     clacd_queue=Очередь
@@ -937,6 +939,13 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Неотвеченные вызовы - распределение по длительности
     clko_unanswered_outbound=Неотвеченные внешние вызовы, по агентам
     clko_within_x_seconds=В течение ## секунд:
+    # 🔴 clko_unanswered_calls_prc -> Unans. %
+    ➡️ clko_unanswered_calls_prc=
+    # 🔴 clko_unanswered_with_atts -> Unans. with att.
+    ➡️ clko_unanswered_with_atts=
+    # 🔴 clko_unanswered_no_atts -> Unans no att.
+    ➡️ clko_unanswered_no_atts=
+
 
 ## Report headers
 
@@ -1057,6 +1066,36 @@ Do not change the items below:
     clok_untracked=Неотслеженный
     clok_within_xx_seconds=В течение ## секунд:
 
+Used for data blocks Overview by Agent/Queue
+
+    # 🔴 clok_overview_by_agent -> Overview by Agent
+    ➡️ clok_overview_by_agent=
+    # 🔴 clok_overview_by_queue -> Overview by Queue
+    ➡️ clok_overview_by_queue=
+    # 🔴 clok_offered_n -> Offered
+    ➡️ clok_offered_n=
+    # 🔴 clok_answered_calls_prc -> Ans %
+    ➡️ clok_answered_calls_prc=
+    # 🔴 clok_lost_attempts -> Lost att.
+    ➡️ clok_lost_attempts=
+    # 🔴 clok_lost_attempts_prc -> Lst att %
+    ➡️ clok_lost_attempts_prc=
+    # 🔴 clok_outbound -> Outbound
+    ➡️ clok_outbound=
+    # 🔴 clok_outbound_prc -> Outb.%
+    ➡️ clok_outbound_prc=
+    # 🔴 clok_asa -> ASA
+    ➡️ clok_asa=
+    # 🔴 clok_answered_sla_prc -> Ans in SLA %
+    ➡️ clok_answered_sla_prc=
+    # 🔴 clok_effective_prc -> Effective %
+    ➡️ clok_effective_prc=
+    # 🔴 clok_avg_wait -> Avg wait
+    ➡️ clok_avg_wait=
+    # 🔴 clok_max_wait -> Max wait
+    ➡️ clok_max_wait=
+        
+    
 ## Call events
 
 
@@ -2180,6 +2219,14 @@ Do not change the items below:
     rt3_agent_changepause=Изменить паузу
     rt3_agent_code=Код агента
     rt3_agent_extension=Добавочный агента
+    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    ➡️ rt3_agent_extension_regex_error=
+    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    ➡️ rt3_agent_code_regex_error=
+    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    ➡️ rt3_agent_extension_min_1_char_error=
+    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    ➡️ rt3_agent_code_min_1_char_error=
     rt3_agent_info=Информация об агенте
     rt3_agent_login=Вход (все очереди)
     rt3_agent_logon=Агент вошел
@@ -2445,6 +2492,8 @@ Do not change the items below:
     rt3_table_agentandoutcome=Агент и результаты
     rt3_table_aggrbyqueue=Агрегировано по очереди
     rt3_table_aggrbytag=Агрегировано по тэгам
+    # 🔴 rt3_table_lastattempts -> Last attempts
+    ➡️ rt3_table_lastattempts=
     rt3_table_live_agents=Таблица - Агенты в реальном времени
     rt3_table_live_calls=Актуальные вызовы
     rt3_table_live_queues=Актуальные очереди
@@ -3652,10 +3701,16 @@ Other items
     ➡️ memo_status=
     # 🔴 memo_tree_empty -> Empty
     ➡️ memo_tree_empty=
+    # 🔴 memo_tree_title -> Linked memos
+    ➡️ memo_tree_title=
     # 🔴 memo_type -> Type
     ➡️ memo_type=
     menu_licence_page=Лицензия
     menu_user_page=Информация о пользователе
+    # 🔴 modal_cancel -> Cancel
+    ➡️ modal_cancel=
+    # 🔴 modal_ok -> Ok
+    ➡️ modal_ok=
     notification_error=Ошибка
     notification_info=Информация
     # 🔴 notification_success -> Success
@@ -3804,7 +3859,7 @@ Other items
     ➡️ qap_action_monitor=
     # 🔴 qap_action_qa -> QA Forms
     ➡️ qap_action_qa=
-    # 🔴 qap_action_recall -> New Recall Note
+    # 🔴 qap_action_recall -> New Recall Memo
     ➡️ qap_action_recall=
     # 🔴 qap_action_transfer -> Transfer Call
     ➡️ qap_action_transfer=
@@ -4112,8 +4167,14 @@ Other items
     ➡️ qap_nav_overview=
     # 🔴 qap_nav_qa -> QA
     ➡️ qap_nav_qa=
+    # 🔴 qap_nav_wallboard -> Wallboard
+    ➡️ qap_nav_wallboard=
     # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
     ➡️ qap_nav_wombat=
+    # 🔴 qap_new_case -> New Case
+    ➡️ qap_new_case=
+    # 🔴 qap_new_client -> New Client
+    ➡️ qap_new_client=
     # 🔴 qap_new_memo -> Create linked Memo
     ➡️ qap_new_memo=
     # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
@@ -4537,6 +4598,8 @@ Other items
     reports_qa_performance_title=Производительность
     reports_qa_performance_total=Общий счет:
     reports_qa_queue=Очередь
+    # 🔴 reports_qa_range -> Range
+    ➡️ reports_qa_range=
     reports_qa_recap_heading=Детали вызова
     reports_qa_select_form=Выбор формы
     reports_qa_start=Время начала

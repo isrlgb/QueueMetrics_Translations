@@ -233,7 +233,7 @@ Do not change the items below:
     aout_available_s=Disponible
     aout_available_time=Temps total ou l'agent est disponible
     aout_avg_sec=Moy.
-    aout_avg_talk_time=Temps Moyen de parole 
+    aout_avg_talk_time=Temps Moyen de parole
     aout_avg_wait_time=Temps Moyen d'attente
     aout_billable_s=Facturable
     aout_billable_time=Activités facturables totales de l'agent
@@ -243,7 +243,7 @@ Do not change the items below:
     aout_calltag=Marqueur
     aout_case_distribution=Répartition des cas
     aout_chart=~
-    aout_client_distribution=Répartition 
+    aout_client_distribution=Répartition
     aout_contacts_n=Cont.
     aout_convratio=CONV
     aout_cph=CPH
@@ -561,7 +561,7 @@ Do not change the items below:
     carea_average_position=Position moyenne dans la file
     carea_average_time_per_call=Temps moyen par appel
     carea_average_wait_time_per_call=Temps d'attente moyen par appel
-    carea_average_wait_time_per_call_=Temps d'attente moyen par  appel
+    carea_average_wait_time_per_call_=Temps d'attente moyen par  appel
     carea_avg_duration=Durée Moyenne
     carea_detail_for_answered_calls=Détails pour les appels répondus
     carea_detail_for_unanswered_calls=Détails pour les appels non répondus
@@ -572,7 +572,7 @@ Do not change the items below:
     carea_prefix=Préfixe
     carea_return=Retour
     carea_search=Rechercher
-    carea_select_number_of_clid_digits_to_search=Sélectionnez le nombre de chiffres du numéro d'appelant à considérer
+    carea_select_number_of_clid_digits_to_search=Sélectionnez le nombre de chiffres du numéro d'appelant à considérer
     carea_starting_from_position=En commençant à la position
     carea_taken_calls=Appels répondus
     carea_threedots=...
@@ -588,6 +588,7 @@ Do not change the items below:
     clacd_lost_calls=Appels non-répondus
     clacd_max_attempts=Nb. maximal de tentatives:
     clacd_min_attempts=Nb. minimal de tentatives:
+    clacd_last_acd_attempts=Dernières tentatives ACD
     clacd_n_lost=Nb. non-répondus
     clacd_n_taken=Nb. répondus
     clacd_queue=File
@@ -680,7 +681,7 @@ Do not change the items below:
     cld_pop_evt_dur=Durée
     cld_pop_evt_event=Evènement
     cld_pop_evt_hr=Heure
-    cld_pop_handled_by=Répondus par :
+    cld_pop_handled_by=Répondus par :
     cld_pop_lastattempt=Dernier essai avec échec
     cld_pop_opos=Position originelle
     cld_pop_qa=QA
@@ -789,14 +790,14 @@ Do not change the items below:
     cldst_ta_ag_max=Max Ag.
     cldst_ta_ag_min=Min Ag.
     cldst_ta_avg_ag=Moy. Ag.
-    cldst_ta_avg_ans=Moy. répondus 
+    cldst_ta_avg_ans=Moy. répondus
     cldst_ta_avg_out=Moyen S.
     cldst_ta_avg_talk=Moy. parl.
     cldst_ta_call_ag=App./Ag.
     cldst_ta_max_dur=Max dur.
     cldst_ta_max_dur_out=Ma dur S.
     cldst_ta_max_wait_ans=Max attente par appel
-    cldst_ta_max_wait_lost=Max attente non répondus 
+    cldst_ta_max_wait_lost=Max attente non répondus
     cldst_ta_n_answ=Répondus
     cldst_ta_n_answ_out=Répondus S.
     cldst_ta_n_offered=Off.
@@ -805,14 +806,14 @@ Do not change the items below:
     cldst_ta_traffic_analysis_by_period_day=Analyse du trafic pour le period - par jour
     cldst_ta_traffic_analysis_by_period_dow=Analyse du trafic pour le period - par jour de la semaine
     cldst_ta_traffic_analysis_by_period_hr=Analyse du trafic pour la période, par heure
-    cldst_ta_unans=Non répondus 
+    cldst_ta_unans=Non répondus
     cldst_ta_unans_short=Non répondus courtes
     cldst_unans=Pas répondus
     cldst_unanswered_call_wait_time_per_day=Durée d'attente pour les appels non répondus par jour
     cldst_unanswered_call_wait_time_per_day_of_week=Durée d'attente pour les appels non répondus par jour de la semaine
     cldst_unanswered_call_wait_time_per_dow=Durée d'attente pour les appels non répondus par jour de la semaine
     cldst_unanswered_call_wait_time_per_hour=Durée d'attente pour les appels non répondus par heure
-    cldst_unanswered_calls=Appels non répondus 
+    cldst_unanswered_calls=Appels non répondus
 
 ## Custom reports
 
@@ -886,7 +887,7 @@ Do not change the items below:
     clko_dnis_all=SDA utilisé pour tous les appels
     clko_dnis_ko=SDA utilisée
     clko_hangup=Racrochés
-    clko_inclusive_answ_sla=Accord de Qualité de Service pour appels répondus 
+    clko_inclusive_answ_sla=Accord de Qualité de Service pour appels répondus
     clko_inclusive_sla_computed=Accord de Qualité de Service (Calculé sur les appels répondus et non répondus )
     clko_ivr_all=Sélection SVI, pour tous les appels
     clko_ivr_ko=Sélection SVI
@@ -920,16 +921,20 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Appels non répondus, par durée
     clko_unanswered_outbound=Détails pour les appels non répondus, par agent
     clko_within_x_seconds=Dans les ## secondes:
+    clko_unanswered_calls_prc=Pourcentage non répondu
+    clko_unanswered_with_atts=Non répondu avec tentatives
+    clko_unanswered_no_atts=Non répondu sans tentatives
+
 
 ## Report headers
 
 
 
     clhdr_agentgroup=Filtrés pour le groupe de l'agent:
-    clhdr_ans=Répondus 
+    clhdr_ans=Répondus
     clhdr_asteriskid=Filtrés pour unique ID
     clhdr_atomic_queues_considered=File(s) unique(s) considérée(s):
-    clhdr_attempts=Filtrés pour numero de tentatives:
+    clhdr_attempts=Filtrés pour numéro de tentatives:
     clhdr_available_cols=Colonnes de données disponibles
     clhdr_call=Filtrés pour durée d'appel:
     clhdr_caller=Filtrés pour Num. appelant:
@@ -960,7 +965,7 @@ Do not change the items below:
     clhdr_supervised_by=Supervisionné par:
     clhdr_timerange=Intervalle de temps
     clhdr_total_calls_processed=Nombre d'appels traités:
-    clhdr_unans=Non répondus 
+    clhdr_unans=Non répondus
     clhdr_wait=Filtrés pour temps d'attente:
 
 ## Taken calls
@@ -971,7 +976,7 @@ Do not change the items below:
     clok_agent=Agent
     clok_agents_on_queue=Agent(s) en Opération dans l'intervalle de Temps
     clok_all_calls=Tous les appels
-    clok_answer=Répondus 
+    clok_answer=Répondus
     clok_answered_calls=Appels répondus
     clok_answered_calls_by_direction=Appels répondus, par direction
     clok_answered_calls_by_queue=Appels répondus, par File
@@ -1038,8 +1043,25 @@ Do not change the items below:
     clok_transfer_to=Transfert à
     clok_transfers=Transferts
     clok_untracked=Non suivi
-    clok_within_xx_seconds=En ## seconds:
+    clok_within_xx_seconds=En ## secondes:
 
+Used for data blocks Overview by Agent/Queue
+
+    clok_overview_by_agent=Aperçu par Agent
+    clok_overview_by_queue=Aperçu par File
+    clok_offered_n=Offerts
+    clok_answered_calls_prc=Rép. %
+    clok_lost_attempts=Tentatives perdues
+    clok_lost_attempts_prc=Perdues %
+    clok_outbound=Sortants
+    clok_outbound_prc=Sortants %
+    clok_asa=ASA
+    clok_answered_sla_prc=Rép. dans SLA %
+    clok_effective_prc=Effectif %
+    clok_avg_wait=Attente Moy.
+    clok_max_wait=Attente Max.
+        
+    
 ## Call events
 
 
@@ -1092,18 +1114,12 @@ Do not change the items below:
     evt_web_end_session=Fin de session Web
     evt_web_fail_session=Échec de la session Web
     evt_web_start_session=Début session Web
-    # 🔴 evt_var_group -> Variables
-    ➡️ evt_var_group=
-    # 🔴 evt_custom_prev_stint -> Previous Stint
-    ➡️ evt_custom_prev_stint=
-    # 🔴 evt_custom_next_stint -> Next Stint
-    ➡️ evt_custom_next_stint=
-    # 🔴 evt_custom_n_stint -> N. Stints
-    ➡️ evt_custom_n_stint=
-    # 🔴 evt_custom_direct_to -> Direct call to
-    ➡️ evt_custom_direct_to=
-    # 🔴 evt_custom_quality -> Call quality
-    ➡️ evt_custom_quality=
+    evt_var_group=Variables
+    evt_custom_prev_stint=Morceau précédent
+    evt_custom_next_stint=Morceau suivant
+    evt_custom_n_stint=N. Morceaux
+    evt_custom_direct_to=Appel direct à
+    evt_custom_quality=Qualité d'appel
 
 ## Headers
 
@@ -1190,7 +1206,7 @@ Do not change the items below:
     hdr_tc=T&C
     hdr_unanswered=Non répondus.
     hdr_unanswered_details=Non répondus (Détails)
-    hdr_unanswered_details_title=Détails pour les appels non répondus 
+    hdr_unanswered_details_title=Détails pour les appels non répondus
     hdr_user=Information utilisateur
     hdr_users=Utilisateurs
 
@@ -1930,8 +1946,7 @@ Do not change the items below:
     qa_pop_print=Imprimer
     qa_prc_act=%
     qa_prc_min=% exigè
-    # 🔴 qa_print_report -> Print QA Report
-    ➡️ qa_print_report=
+    qa_print_report=Imprimer le rapport QA
     qa_queryfilterwarn=On ne peut pas choisir plusieur critères de filtrage
     qa_queue=File
     qa_range=Intervalle
@@ -2048,10 +2063,9 @@ Do not change the items below:
     rt3_actions_whisper=Susurre
     rt3_add=Ajout un nouveau Gadget(Widget)
     rt3_add_box=Ajouter une nouvelle boite sur la page
-    # 🔴 rt3_add_queue -> Select Queue
-    ➡️ rt3_add_queue=
+    rt3_add_queue=Sélectionner une file
     rt3_add_view=Ajouter une nouvelle vue
-    rt3_advanced=Evolué
+    rt3_advanced=Évolué
     rt3_ag_calls_alm_red=Alarme Rouge d'Agent occupé
     rt3_ag_calls_alm_yel=Alarme Jaune d'Agent occupé
     rt3_ag_inbound_alm_red=Alarme Rouge d'Agent (appel entrant)
@@ -2073,6 +2087,10 @@ Do not change the items below:
     rt3_agent_changepause=Change la pause
     rt3_agent_code=Code de l'Agent
     rt3_agent_extension=Extension de l'Agent
+    rt3_agent_extension_regex_error=L'extension de l'agent ne respecte pas le format correct.
+    rt3_agent_code_regex_error=Le code de l'agent ne respecte pas le format correct.
+    rt3_agent_extension_min_1_char_error=L'extension de l'agent doit comporter au moins 1 caractère.
+    rt3_agent_code_min_1_char_error=Le code de l'agent doit comporter au moins 1 caractère.
     rt3_agent_info=Information Agent
     rt3_agent_login=Connexion(à toutes les files)
     rt3_agent_logon=Agent connecté
@@ -2088,7 +2106,7 @@ Do not change the items below:
     rt3_alarm_cell_value=Valeur de cellule
     rt3_alarm_column_title=Colonne
     rt3_all_agents=Tous les agents
-    rt3_all_columns=Toutes les colonnes 
+    rt3_all_columns=Toutes les colonnes
     rt3_all_queues=Toutes les Files
     rt3_answer=Répondre
     rt3_avgTalk=Tps de parole moyen
@@ -2199,16 +2217,16 @@ Do not change the items below:
     rt3_error_saving=Erreur durant la Sauvegarde du Tableau de Bord
     rt3_error_saving_prefs=Les préférences utilisateur ne peuvent pas être sauvegardées
     rt3_error_saving_public_wb=L'utilisateur ne peut pas sauvegarder le Tableau de Bord
-    rt3_error_saving_wb_missing_key=L'utilisateur ne peut pas sauvegarder le Tableau de Bord. L'utilisateur n' pas la clef  WALLBOARD_ADD
+    rt3_error_saving_wb_missing_key=L'utilisateur ne peut pas sauvegarder le Tableau de Bord. L'utilisateur n' pas la clef WALLBOARD_ADD
     rt3_export_schema=Exporter
     rt3_extension=Extension
-    rt3_extension_info=Se logguer comme : 
-    rt3_extra_value=Quelques valeurs sélectionnées ne sont pas disponibles 
+    rt3_extension_info=Se logguer comme :
+    rt3_extra_value=Quelques valeurs sélectionnées ne sont pas disponibles
     rt3_go=Entrer
     rt3_gohome=Accueil
     rt3_goto_login=S'authentifier
     rt3_green=Vert
-    rt3_hangup=raccroché 
+    rt3_hangup=raccroché
     rt3_hold=Attente
     rt3_html=Page
     rt3_idle=Libre
@@ -2331,6 +2349,7 @@ Do not change the items below:
     rt3_table_agentandoutcome=Agent et Résultat
     rt3_table_aggrbyqueue=Agrégé par file
     rt3_table_aggrbytag=Agrégé par Tag
+    rt3_table_lastattempts=Derniers essais
     rt3_table_live_agents=Agents actifs
     rt3_table_live_calls=Appels actifs
     rt3_table_live_queues=Files actives
@@ -2341,7 +2360,7 @@ Do not change the items below:
     rt3_talk_red_alarm=Discussion Alarme Rouge
     rt3_talk_time=Discussion
     rt3_talk_yellow_alarm=Discussion Alarme Jaune
-    rt3_talking=Discussion 
+    rt3_talking=Discussion
     rt3_text=Texte
     rt3_text_area_placeholder=Insérer le texte ici :
     rt3_title=Titre
@@ -2574,7 +2593,7 @@ Description of configuration properties
     propedit_key_default_alwaysLogonUnpaused_desc=Quand l'Agent se logue, il ne sera pas pausé
     propedit_key_default_areacode_digits_desc=Combien de chiffres faut il considérer comme valeur par défaut du code de zone
     propedit_key_default_callstatustimeout_desc=Fenêtre de temps(en secondes) pendant laquelle un agent peut effectuer un appel sortant(Défaut : 30 Min.)
-    propedit_key_default_closeDuration_desc=Longueur par défaut des appels manuellement raccrochés 
+    propedit_key_default_closeDuration_desc=Longueur par défaut des appels manuellement raccrochés
     propedit_key_default_considerIncompletetEntities_desc=Compte les sessions et les appels non terminé (pour l'analyse)
     propedit_key_default_crmapp_desc=URL (peut contenir des tag dynamiques)
     propedit_key_default_crmlabel_desc=Libellé affiché dans la page du menu des icônes
@@ -2598,7 +2617,7 @@ Description of configuration properties
     propedit_key_default_queue_desc=ID numérique interne de la File par défaut. Laisser vide pour ne pas définir de File par défaut.
     propedit_key_default_rewriteLocalChannels_desc=Ré-écrit Local/XXX@ext au format Agent/XXX
     propedit_key_default_searchQA_byCallDate_calldate_label=Date de l'appel
-    propedit_key_default_searchQA_byCallDate_desc=Les rapports de QA doivent être calculés par date ou par la date renseignée 
+    propedit_key_default_searchQA_byCallDate_desc=Les rapports de QA doivent être calculés par date ou par la date renseignée
     propedit_key_default_searchQA_byCallDate_filling_label=Date renseignée
     propedit_key_default_shortcalls_attempts=Combien de secondes de sonnerie doit durer un appel pour être inclus dans le rapport (-1 pour tous les appels)
     propedit_key_default_shortcalls_talk=Combien de secondes de sonnerie doit durer un appel pour être inclus dans le rapport (-1 pour tous les appels)
@@ -2651,7 +2670,7 @@ Description of configuration properties
     propedit_key_phone_websocketurl=URL de web socket pour se connecter
     propedit_key_platform_dialer_desc=Choisir le type de Composer à utiliser
     propedit_key_platform_jsonapi_enabled=Liste des actions (séparées par une virgule) offertes
-    propedit_key_platform_jsonapi_method=Quelle méthode HTTP doit être utilisée 
+    propedit_key_platform_jsonapi_method=Quelle méthode HTTP doit être utilisée
     propedit_key_platform_jsonapi_token=Un jeton d'identification pour cette instance QM
     propedit_key_platform_jsonapi_url=L'URL HTTP/S pour soumettre des commandes
     propedit_key_platform_jsonapi_verbose=Traces verbeuses
@@ -2787,15 +2806,15 @@ Description of configuration properties
 Description of security keys:
 
     keydesc_agaw=L'utilisateur peut accéder à AGAW
-    keydesc_agaw_adm=L'utilisateur peut accéder aux écrans d'administration AGAW 
-    keydesc_agaw_rep=L'utilisateur peut accéder aux écrans de supervision AGAW 
+    keydesc_agaw_adm=L'utilisateur peut accéder aux écrans d'administration AGAW
+    keydesc_agaw_rep=L'utilisateur peut accéder aux écrans de supervision AGAW
     keydesc_agent=L'utilisateur est un agent avec accès à la page agent
     keydesc_agrep=L'utilisateur peut trier les rapports par agent
     keydesc_autoanswer_phone=L'utilisateur peut basculer le mode Réponse Automatique sur le softphone
     keydesc_batch_add=Peut ajouter des appels à un lot en cours
     keydesc_batch_adm=Crée et clôture des lots pour accéder à l'audio
     keydesc_batch_del=Peut supprimer des appels à un lot en cours
-    keydesc_batch_view=L'utilisateur peut accéder à de lot d'audio 
+    keydesc_batch_view=L'utilisateur peut accéder à de lot d'audio
     keydesc_bro_msg=L'utilisateur peut diffuser des messages aux agents
     keydesc_callmonitor=L'utilisateur peut écouter un appel enregistré
     keydesc_callmonitor_addtags=L'utilisateur peut marquer un appel enregistré
@@ -2831,8 +2850,8 @@ Description of security keys:
     keydesc_qa_perf_track=L'utilisateur peut exécuter le suivi de Performance de l'Agent
     keydesc_qa_remove=L'utilisateur peut détruire un Rapport de Vérification Qualité
     keydesc_qa_replace=L'utilisateur peut revoir des données Qualité précédentes
-    keydesc_qa_report=L'utilisateur peut exécuter des rapports Qualité 
-    keydesc_qa_track=L'utilisateur peut créer des rapports Qualité 
+    keydesc_qa_report=L'utilisateur peut exécuter des rapports Qualité
+    keydesc_qa_track=L'utilisateur peut créer des rapports Qualité
     keydesc_qlog_edit=L'utilisateur peut consulter le Queue_Log
     keydesc_qlog_lngr=L'utilisateur peut étendre la durée des sessions
     keydesc_queue_lst=Permet un accès direct à la liste des appels
@@ -3106,7 +3125,7 @@ Description of security keys:
     home_search=Chercher
     home_search_placeholder=Cherche dans la Page d'Accueil
     home_select_infobox=Valider le choix pour voir la page d'Accueil
-    home_ssar_subtitle=Rapport Self-Service d'agent 
+    home_ssar_subtitle=Rapport Self-Service d'agent
     home_ssar_title=RSSA
     home_synchronizer_subtitle=Configuration Automatique
     home_synchronizer_title=Synchroniser
@@ -3116,7 +3135,7 @@ Description of security keys:
     home_sysadmin_edit_parameters=Editer les Paramètres Système
     home_sysadmin_explore_parameters=Explorer les Paramètres Système
     home_sysadmin_import_export=Import/Export d'Appels
-    home_sysadmin_mysql_storage=Information Stockage MySQL 
+    home_sysadmin_mysql_storage=Information Stockage MySQL
     home_sysadmin_subtitle=Outils utiles pour Admin
     home_sysadmin_title=System Administration
     home_throwaway_report=Créer un rapport temporaire (jetable)
@@ -3134,39 +3153,26 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_title=Editer les paramètres système QueueMetrics
     cfgprops_title_wizard=Explorer les Paramètres de Configuration QueueMetrics
     cfgprops_notice=Après sauvegarde, vous devez vous déconnecter puis vous reconnecter pour charger les paramètres
-    # 🔴 cfgprops_n_items -> N. Properties found
-    ➡️ cfgprops_n_items=
-    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
-    ➡️ cfgprops_input=
-    # 🔴 cfgprops_comment -> Reason for this change
-    ➡️ cfgprops_comment=
-    # 🔴 cfgprops_sort_by -> Sort by
-    ➡️ cfgprops_sort_by=
-    # 🔴 cfgprops_sort_bydate -> Last update
-    ➡️ cfgprops_sort_bydate=
-    # 🔴 cfgprops_sort_byname -> Name
-    ➡️ cfgprops_sort_byname=
-    # 🔴 cfgprops_col_name -> Property name
-    ➡️ cfgprops_col_name=
-    # 🔴 cfgprops_col_value -> Current value
-    ➡️ cfgprops_col_value=
-    # 🔴 cfgprops_col_comment -> Reason
-    ➡️ cfgprops_col_comment=
-    # 🔴 cfgprops_history_date -> Date
-    ➡️ cfgprops_history_date=
-    # 🔴 cfgprops_history_user -> User
-    ➡️ cfgprops_history_user=
-    # 🔴 cfgprops_history_value -> Value
-    ➡️ cfgprops_history_value=
-    # 🔴 cfgprops_history_previous -> Previous entries
-    ➡️ cfgprops_history_previous=
+    cfgprops_n_items=Nb de propriétés trouvées
+    cfgprops_input=Entrez une ou plusieurs propriétés à définir, une par ligne.
+    cfgprops_comment=Raison de ce changement
+    cfgprops_sort_by=Trié par
+    cfgprops_sort_bydate=Dernière Mise à jour
+    cfgprops_sort_byname=Nom
+    cfgprops_col_name=Nom de la propriété
+    cfgprops_col_value=Valeur actuelle
+    cfgprops_col_comment=Raison
+    cfgprops_history_date=Date
+    cfgprops_history_user=Utilisateur
+    cfgprops_history_value=Valeur
+    cfgprops_history_previous=Entrées précédentes
     
 
 These are obsolete:
 
     cfgprops_file_saved=Fichier de configuration sauvegardé sous
     cfgprops_ioerror=Erreur d'écriture du fichier de configuration - vérifier le server log
-    cfgprops_nocontent=Fichier non sauvegardé. Pour votre sécurité, le fichier ne peut être vide 
+    cfgprops_nocontent=Fichier non sauvegardé. Pour votre sécurité, le fichier ne peut être vide
     cfgprops_not_editable=Le fichier de configuration ne peut être édité
     cfgprops_wrong_line=Fichier non sauvegardé - Mauvais format de Ligne
     
@@ -3392,9 +3398,12 @@ Other items
     memo_related_to=Lié à
     memo_status=Statut
     memo_tree_empty=Vide
+    memo_tree_title=Mémos liés
     memo_type=Type
     menu_licence_page=Page de licence
     menu_user_page=Information utilisateur
+    modal_cancel=Annuler
+    modal_ok=Ok
     notification_error=Erreur
     notification_info=Info
     notification_success=Réussite
@@ -3507,7 +3516,7 @@ Other items
     pwres_pass=Nouveau Mot De passea
     pwres_passwords_dont_match=Les mots de passe que vous avez saisis ne correspondent pas. Veuillez réessayer.
     pwres_repeat_pass=Saisir encore le nouveau Mot De Passe
-    pwres_reset_password=Ré-initialiser le Mot De Passe de 
+    pwres_reset_password=Ré-initialiser le Mot De Passe de
     pwres_unknown_link=Le lien de réinitialisation du mot de passe fourni n'est pas valide.
     qagrader_addedbygrtype=Insérè par
     qagrader_agent=Agent
@@ -3687,7 +3696,10 @@ Other items
     qap_nav_interactions=Interactions
     qap_nav_overview=Résumé
     qap_nav_qa=QA
+    qap_nav_wallboard=Tableau de bord
     qap_nav_wombat=Aperçu du composant WombatDialer
+    qap_new_case=Nouveau Cas
+    qap_new_client=Nouveau Client
     qap_new_memo=Créer un mémo lié
     qap_no_cases=Aucun cas ouvert
     qap_no_clients=Aucun client trouvé.
@@ -3856,7 +3868,7 @@ Other items
     reports_datablockview_visibilitykey=Clef de Visibilité
     reports_datasource=Source de données
     reports_delete=Détruire le Rapport
-    reports_delete_current_page_confirm=Détruire la page courante ? 
+    reports_delete_current_page_confirm=Détruire la page courante ?
     reports_delete_current_report_confirm=Détruire le rapport courant ?
     reports_delete_datablockview=Détruire la Vue du Bloc de Données
     reports_delete_datablockview_short=Détruire
@@ -3895,7 +3907,7 @@ Other items
     reports_filter_agentgroup=Groupe d'Agents
     reports_filter_asteriskid=ID Unique
     reports_filter_atomicqueuefilter=File
-    reports_filter_attemptsmax=Maximum de Tentatives 
+    reports_filter_attemptsmax=Maximum de Tentatives
     reports_filter_attemptsmin=Minimum de Tentatives
     reports_filter_calldurmax=Durée Maximale de l'appel
     reports_filter_calldurmin=Durée Minimum de l'appel
@@ -3910,7 +3922,7 @@ Other items
     reports_filter_dnis=SDA
     reports_filter_enterposmax=Max. de la Position d'Entrée
     reports_filter_enterposmin=Min. de la Position d'Entrée
-    reports_filter_features=Code Fonction 
+    reports_filter_features=Code Fonction
     reports_filter_group_delete=Détruire le Filtre du Groupe
     reports_filter_input_error=Erreur de Saisie
     reports_filter_ivr=SVI
@@ -3951,7 +3963,7 @@ Other items
     reports_next_datablock=Suivant
     reports_no_available_queues=L'utilisateur actuel ne peut accéder à aucune file d'attente.
     reports_no_filters=Ajouter des filtres
-    reports_no_queue_selected=Pas de File sélectionnée 
+    reports_no_queue_selected=Pas de File sélectionnée
     reports_noncont_days_filter=Jour de la Semaine
     reports_noncont_time_filter=Filte d'une Période de Temps
     reports_not_filter=Refuser ce filtre
@@ -4002,14 +4014,14 @@ Other items
     reports_qa_performance_title=Performance
     reports_qa_performance_total=Total
     reports_qa_queue=File
+    reports_qa_range=Intervalle
     reports_qa_recap_heading=Détails de l'appel
     reports_qa_select_form=Sélectionner un formulaire
     reports_qa_start=Heure de début
     reports_qa_status=Status
     reports_qa_uid=ID unique
     reports_qa_value=Valeur
-    # 🔴 reports_qa_print -> Print
-    ➡️ reports_qa_print=
+    reports_qa_print=Imprimer
     reports_query_loading=Chargement
     reports_ratio=Ratio
     reports_recap_no_filters=Cliquer pour Ajouter des Filtres
@@ -4029,8 +4041,7 @@ Other items
     reports_settings=Paramétrages
     reports_settings_areacode=Code de Zone
     reports_settings_datablock=Bloc de Données
-    # 🔴 reports_settings_default -> Reset to System Default
-    ➡️ reports_settings_default=
+    reports_settings_default=Réinitialiser aux paramètres par défaut du système
     reports_settings_hourlyslot=Intervalle d'Heures
     reports_settings_report=Rapport
     reports_settings_shortcallattemptwaitlimit=Limite d'attente de tentative d'appel court
@@ -4142,7 +4153,7 @@ Other items
     rt_in_order_to_mantain_session_information=Pour rafraichir les informations cette page va se recharger automatiquement
     rt_inbound=entrant
     rt_ivr=SVI
-    rt_last_logon_nbsp=Dernière Connexion 
+    rt_last_logon_nbsp=Dernière Connexion
     rt_lastcall=Dernier appel
     rt_live_agent=Agent
     rt_live_astclid=*Clid
@@ -4276,7 +4287,7 @@ Other items
     rt_visitor_agent_nbsp=Agent
     rt_visitor_avg_talk=Temps moyen de conversation
     rt_visitor_avg_wait=Attente moyenne
-    rt_visitor_caller_id_nbsp=Numéro appelant  
+    rt_visitor_caller_id_nbsp=Numéro appelant
     rt_visitor_calls_being_processed=Appels en cours:
     rt_visitor_duration_nbsp=Durée
     rt_visitor_ext_nbsp=Ext.
@@ -4353,18 +4364,12 @@ Other items
     sync2_apply=Appliquer la configuration
     sync2_choose_pbx=iPBX
     sync2_choose_source=Sélectionner la Source
-    # 🔴 sync2_chunker_uploading -> Data Upload
-    ➡️ sync2_chunker_uploading=
-    # 🔴 sync2_chunker_progress -> Uploaded chunks
-    ➡️ sync2_chunker_progress=
-    # 🔴 sync2_chunker_actions -> Actions left
-    ➡️ sync2_chunker_actions=
-    # 🔴 sync2_chunker_chunks -> Uploading configuration
-    ➡️ sync2_chunker_chunks=
-    # 🔴 sync2_chunker_sending -> Applying actions
-    ➡️ sync2_chunker_sending=
-    # 🔴 sync2_chunker_waiting -> Waiting...
-    ➡️ sync2_chunker_waiting=
+    sync2_chunker_uploading=Chargement de données
+    sync2_chunker_progress=Morceaux chargés
+    sync2_chunker_actions=Actions restantes
+    sync2_chunker_chunks=Chargement de la Configuration
+    sync2_chunker_sending=Application des actions
+    sync2_chunker_waiting=En attente….
     sync2_cluster=Configuration du Cluster
     sync2_cluster_info=Information Cluster
     sync2_collapse=Masquer

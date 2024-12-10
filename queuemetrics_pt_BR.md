@@ -601,6 +601,8 @@ Do not change the items below:
     clacd_lost_calls=chamadas perdidas
     clacd_max_attempts=Qtde. max. de tentativas:
     clacd_min_attempts=Qtde. min. de tentativas:
+    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
+    ➡️ clacd_last_acd_attempts=
     clacd_n_lost=Perdidas
     clacd_n_taken=Recebidas
     clacd_queue=Fila
@@ -939,6 +941,13 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Chamadas não atendidas - distribuição por duração
     clko_unanswered_outbound=Chamadas de saída não atendidas, por agente.
     clko_within_x_seconds=Dentro de ## segundos:
+    # 🔴 clko_unanswered_calls_prc -> Unans. %
+    ➡️ clko_unanswered_calls_prc=
+    # 🔴 clko_unanswered_with_atts -> Unans. with att.
+    ➡️ clko_unanswered_with_atts=
+    # 🔴 clko_unanswered_no_atts -> Unans no att.
+    ➡️ clko_unanswered_no_atts=
+
 
 ## Report headers
 
@@ -1060,6 +1069,36 @@ Do not change the items below:
     clok_untracked=Sem acompanhamento
     clok_within_xx_seconds=dentro de ## segundos:
 
+Used for data blocks Overview by Agent/Queue
+
+    # 🔴 clok_overview_by_agent -> Overview by Agent
+    ➡️ clok_overview_by_agent=
+    # 🔴 clok_overview_by_queue -> Overview by Queue
+    ➡️ clok_overview_by_queue=
+    # 🔴 clok_offered_n -> Offered
+    ➡️ clok_offered_n=
+    # 🔴 clok_answered_calls_prc -> Ans %
+    ➡️ clok_answered_calls_prc=
+    # 🔴 clok_lost_attempts -> Lost att.
+    ➡️ clok_lost_attempts=
+    # 🔴 clok_lost_attempts_prc -> Lst att %
+    ➡️ clok_lost_attempts_prc=
+    # 🔴 clok_outbound -> Outbound
+    ➡️ clok_outbound=
+    # 🔴 clok_outbound_prc -> Outb.%
+    ➡️ clok_outbound_prc=
+    # 🔴 clok_asa -> ASA
+    ➡️ clok_asa=
+    # 🔴 clok_answered_sla_prc -> Ans in SLA %
+    ➡️ clok_answered_sla_prc=
+    # 🔴 clok_effective_prc -> Effective %
+    ➡️ clok_effective_prc=
+    # 🔴 clok_avg_wait -> Avg wait
+    ➡️ clok_avg_wait=
+    # 🔴 clok_max_wait -> Max wait
+    ➡️ clok_max_wait=
+        
+    
 ## Call events
 
 
@@ -2093,6 +2132,14 @@ Do not change the items below:
     rt3_agent_changepause=Modificar Pausa
     rt3_agent_code=Código do Agente
     rt3_agent_extension=Extensão do Agente
+    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    ➡️ rt3_agent_extension_regex_error=
+    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    ➡️ rt3_agent_code_regex_error=
+    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    ➡️ rt3_agent_extension_min_1_char_error=
+    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    ➡️ rt3_agent_code_min_1_char_error=
     rt3_agent_info=Informação de Agente
     rt3_agent_login=Login (todas as filas)
     rt3_agent_logon=Logon de Agente
@@ -2351,6 +2398,8 @@ Do not change the items below:
     rt3_table_agentandoutcome=Agente e resultado
     rt3_table_aggrbyqueue=Agregado por fila
     rt3_table_aggrbytag=Agregado por Etiqueta
+    # 🔴 rt3_table_lastattempts -> Last attempts
+    ➡️ rt3_table_lastattempts=
     rt3_table_live_agents=Agentes On Line
     rt3_table_live_calls=Chamadas On line
     rt3_table_live_queues=Filas On line
@@ -3427,9 +3476,15 @@ Other items
     memo_related_to=Relacionado a
     memo_status=Estado
     memo_tree_empty=Vazio
+    # 🔴 memo_tree_title -> Linked memos
+    ➡️ memo_tree_title=
     memo_type=Tipo
     menu_licence_page=Página da Licença
     menu_user_page=Info de Usuário
+    # 🔴 modal_cancel -> Cancel
+    ➡️ modal_cancel=
+    # 🔴 modal_ok -> Ok
+    ➡️ modal_ok=
     notification_error=Erro
     notification_info=Info
     notification_success=Sucesso
@@ -3728,7 +3783,13 @@ Other items
     qap_nav_interactions=Interações
     qap_nav_overview=Visão geral
     qap_nav_qa=QA
+    # 🔴 qap_nav_wallboard -> Wallboard
+    ➡️ qap_nav_wallboard=
     qap_nav_wombat=Prévia de discagem do WombatDialer
+    # 🔴 qap_new_case -> New Case
+    ➡️ qap_new_case=
+    # 🔴 qap_new_client -> New Client
+    ➡️ qap_new_client=
     qap_new_memo=Criar link de Memo
     qap_no_cases=Nenhum caso encontrado para a busca atual, tente novamente.
     qap_no_clients=Nenhum cliente encontrado para a busca atual, tente novamente.
@@ -4045,6 +4106,8 @@ Other items
     reports_qa_performance_title=Performance
     reports_qa_performance_total=Total
     reports_qa_queue=Fila
+    # 🔴 reports_qa_range -> Range
+    ➡️ reports_qa_range=
     reports_qa_recap_heading=Detalhes da chamada
     reports_qa_select_form=Selecionar formulário
     reports_qa_start=Hora de início

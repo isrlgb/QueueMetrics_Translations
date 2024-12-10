@@ -764,6 +764,8 @@ Do not change the items below:
     clacd_lost_calls=שיחות שלא נענו
     clacd_max_attempts=מקסימום נסיונות
     clacd_min_attempts=מינימום נסיונות
+    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
+    ➡️ clacd_last_acd_attempts=
     clacd_n_lost=לא נענו
     clacd_n_taken=נענו
     clacd_queue=תור
@@ -1113,6 +1115,13 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=שיחות שלא נענו - התפלגות לפי אורך
     clko_unanswered_outbound=שיחות שלא נענו, לנציג
     clko_within_x_seconds=בתוך ## שניות
+    # 🔴 clko_unanswered_calls_prc -> Unans. %
+    ➡️ clko_unanswered_calls_prc=
+    # 🔴 clko_unanswered_with_atts -> Unans. with att.
+    ➡️ clko_unanswered_with_atts=
+    # 🔴 clko_unanswered_no_atts -> Unans no att.
+    ➡️ clko_unanswered_no_atts=
+
 
 ## Report headers
 
@@ -1234,6 +1243,36 @@ Do not change the items below:
     clok_untracked=ללא מעקב
     clok_within_xx_seconds=בתוך ## שניות
 
+Used for data blocks Overview by Agent/Queue
+
+    # 🔴 clok_overview_by_agent -> Overview by Agent
+    ➡️ clok_overview_by_agent=
+    # 🔴 clok_overview_by_queue -> Overview by Queue
+    ➡️ clok_overview_by_queue=
+    # 🔴 clok_offered_n -> Offered
+    ➡️ clok_offered_n=
+    # 🔴 clok_answered_calls_prc -> Ans %
+    ➡️ clok_answered_calls_prc=
+    # 🔴 clok_lost_attempts -> Lost att.
+    ➡️ clok_lost_attempts=
+    # 🔴 clok_lost_attempts_prc -> Lst att %
+    ➡️ clok_lost_attempts_prc=
+    # 🔴 clok_outbound -> Outbound
+    ➡️ clok_outbound=
+    # 🔴 clok_outbound_prc -> Outb.%
+    ➡️ clok_outbound_prc=
+    # 🔴 clok_asa -> ASA
+    ➡️ clok_asa=
+    # 🔴 clok_answered_sla_prc -> Ans in SLA %
+    ➡️ clok_answered_sla_prc=
+    # 🔴 clok_effective_prc -> Effective %
+    ➡️ clok_effective_prc=
+    # 🔴 clok_avg_wait -> Avg wait
+    ➡️ clok_avg_wait=
+    # 🔴 clok_max_wait -> Max wait
+    ➡️ clok_max_wait=
+        
+    
 ## Call events
 
 
@@ -2950,7 +2989,7 @@ Do not change the items below:
     ➡️ qa_supervisor=
     # 🔴 qa_supervisors_tracking_calls -> Analysts tracking calls
     ➡️ qa_supervisors_tracking_calls=
-    # 🔴 qa_time_period -> Time period:
+    # 🔴 qa_time_period -> Time period
     ➡️ qa_time_period=
     # 🔴 qa_total_score -> Total score:
     ➡️ qa_total_score=
@@ -3100,6 +3139,14 @@ Do not change the items below:
     ➡️ rt3_agent_code=
     # 🔴 rt3_agent_extension -> Agent Extension
     ➡️ rt3_agent_extension=
+    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    ➡️ rt3_agent_extension_regex_error=
+    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    ➡️ rt3_agent_code_regex_error=
+    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    ➡️ rt3_agent_extension_min_1_char_error=
+    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    ➡️ rt3_agent_code_min_1_char_error=
     # 🔴 rt3_agent_info -> Agent Info
     ➡️ rt3_agent_info=
     # 🔴 rt3_agent_login -> Login (All Queues)
@@ -3458,7 +3505,7 @@ Do not change the items below:
     ➡️ rt3_nofcalls_lost=
     # 🔴 rt3_nofcalls_offered -> Offered Calls
     ➡️ rt3_nofcalls_offered=
-    # 🔴 rt3_nofcolumns -> N Columns
+    # 🔴 rt3_nofcolumns -> Columns
     ➡️ rt3_nofcolumns=
     # 🔴 rt3_ntodial -> Dial Number
     ➡️ rt3_ntodial=
@@ -3564,7 +3611,7 @@ Do not change the items below:
     ➡️ rt3_select_chart=
     # 🔴 rt3_select_db -> Select a DataBlock...
     ➡️ rt3_select_db=
-    # 🔴 rt3_select_wallboard -> Please select a wallboard
+    # 🔴 rt3_select_wallboard -> Select Wallboard
     ➡️ rt3_select_wallboard=
     # 🔴 rt3_send_command -> Ok
     ➡️ rt3_send_command=
@@ -3616,6 +3663,8 @@ Do not change the items below:
     ➡️ rt3_table_aggrbyqueue=
     # 🔴 rt3_table_aggrbytag -> Aggregated By Tag
     ➡️ rt3_table_aggrbytag=
+    # 🔴 rt3_table_lastattempts -> Last attempts
+    ➡️ rt3_table_lastattempts=
     # 🔴 rt3_table_live_agents -> Live Agents
     ➡️ rt3_table_live_agents=
     # 🔴 rt3_table_live_calls -> Live Calls
@@ -5548,11 +5597,17 @@ Other items
     ➡️ memo_status=
     # 🔴 memo_tree_empty -> Empty
     ➡️ memo_tree_empty=
+    # 🔴 memo_tree_title -> Linked memos
+    ➡️ memo_tree_title=
     # 🔴 memo_type -> Type
     ➡️ memo_type=
     # 🔴 menu_licence_page -> Licence Page
     ➡️ menu_licence_page=
     menu_user_page=פרטי משתמש
+    # 🔴 modal_cancel -> Cancel
+    ➡️ modal_cancel=
+    # 🔴 modal_ok -> Ok
+    ➡️ modal_ok=
     # 🔴 notification_error -> Error
     ➡️ notification_error=
     # 🔴 notification_info -> Info
@@ -5823,7 +5878,7 @@ Other items
     ➡️ qap_action_monitor=
     # 🔴 qap_action_qa -> QA Forms
     ➡️ qap_action_qa=
-    # 🔴 qap_action_recall -> New Recall Note
+    # 🔴 qap_action_recall -> New Recall Memo
     ➡️ qap_action_recall=
     # 🔴 qap_action_transfer -> Transfer Call
     ➡️ qap_action_transfer=
@@ -6131,8 +6186,14 @@ Other items
     ➡️ qap_nav_overview=
     # 🔴 qap_nav_qa -> QA
     ➡️ qap_nav_qa=
+    # 🔴 qap_nav_wallboard -> Wallboard
+    ➡️ qap_nav_wallboard=
     # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
     ➡️ qap_nav_wombat=
+    # 🔴 qap_new_case -> New Case
+    ➡️ qap_new_case=
+    # 🔴 qap_new_client -> New Client
+    ➡️ qap_new_client=
     # 🔴 qap_new_memo -> Create linked Memo
     ➡️ qap_new_memo=
     # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
@@ -6761,6 +6822,8 @@ Other items
     ➡️ reports_qa_performance_total=
     # 🔴 reports_qa_queue -> Queue
     ➡️ reports_qa_queue=
+    # 🔴 reports_qa_range -> Range
+    ➡️ reports_qa_range=
     # 🔴 reports_qa_recap_heading -> Call Details
     ➡️ reports_qa_recap_heading=
     # 🔴 reports_qa_select_form -> Select Form

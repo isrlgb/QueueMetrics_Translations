@@ -587,6 +587,7 @@ Do not change the items below:
     clacd_lost_calls=Lost calls
     clacd_max_attempts=Max attempts:
     clacd_min_attempts=Min attempts:
+    clacd_last_acd_attempts=Last ACD attempts
     clacd_n_lost=N. lost
     clacd_n_taken=N. Taken
     clacd_queue=Queue
@@ -919,6 +920,10 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Unanswered calls - distribution by length
     clko_unanswered_outbound=Unanswered outbound calls, by agent
     clko_within_x_seconds=Within ## seconds:
+    clko_unanswered_calls_prc=Unans. %
+    clko_unanswered_with_atts=Unans. with att.
+    clko_unanswered_no_atts=Unans no att.
+
 
 ## Report headers
 
@@ -1039,6 +1044,23 @@ Do not change the items below:
     clok_untracked=Untracked
     clok_within_xx_seconds=Within ## seconds:
 
+Used for data blocks Overview by Agent/Queue
+
+    clok_overview_by_agent=Overview by Agent
+    clok_overview_by_queue=Overview by Queue
+    clok_offered_n=Offered
+    clok_answered_calls_prc=Ans %
+    clok_lost_attempts=Lost att.
+    clok_lost_attempts_prc=Lst att %
+    clok_outbound=Outbound
+    clok_outbound_prc=Outb.%
+    clok_asa=ASA
+    clok_answered_sla_prc=Ans in SLA %
+    clok_effective_prc=Effective %
+    clok_avg_wait=Avg wait
+    clok_max_wait=Max wait
+        
+    
 ## Call events
 
 
@@ -1985,7 +2007,7 @@ Do not change the items below:
     qa_summary_shtcut=Shortcuts
     qa_supervisor=Analyst
     qa_supervisors_tracking_calls=Analysts tracking calls
-    qa_time_period=Time period:
+    qa_time_period=Time period
     qa_total_score=Total score:
     qa_tracked_calls=Tracked calls per agent
     qa_tracked_calls_agentgroup=Tracked calls per agent group
@@ -2064,6 +2086,10 @@ Do not change the items below:
     rt3_agent_changepause=Change Pause
     rt3_agent_code=Agent Code
     rt3_agent_extension=Agent Extension
+    rt3_agent_extension_regex_error=The Agent extension does not respect the correct format.
+    rt3_agent_code_regex_error=The Agent code does not respect the correct format.
+    rt3_agent_extension_min_1_char_error=The Agent extension should be at least 1 character long.
+    rt3_agent_code_min_1_char_error=The Agent code should be at least 1 character long.
     rt3_agent_info=Agent Info
     rt3_agent_login=Login (All Queues)
     rt3_agent_logon=Agent log-on
@@ -2243,7 +2269,7 @@ Do not change the items below:
     rt3_nofcalls_answered=Answered Calls
     rt3_nofcalls_lost=Lost Calls
     rt3_nofcalls_offered=Offered Calls
-    rt3_nofcolumns=N Columns
+    rt3_nofcolumns=Columns
     rt3_ntodial=Dial Number
     rt3_number_calling=Calling:
     rt3_offered=Offered
@@ -2296,7 +2322,7 @@ Do not change the items below:
     rt3_security_key=Visibility key
     rt3_select_chart=Select a Chart...
     rt3_select_db=Select a DataBlock...
-    rt3_select_wallboard=Please select a wallboard
+    rt3_select_wallboard=Select Wallboard
     rt3_send_command=Ok
     rt3_session_invalid_reconnecting=Connection issue with Queuemetrics, reconnecting
     rt3_size_is=Size is
@@ -2322,6 +2348,7 @@ Do not change the items below:
     rt3_table_agentandoutcome=Agent And Outcome
     rt3_table_aggrbyqueue=Aggregated By Queue
     rt3_table_aggrbytag=Aggregated By Tag
+    rt3_table_lastattempts=Last attempts
     rt3_table_live_agents=Live Agents
     rt3_table_live_calls=Live Calls
     rt3_table_live_queues=Live Queues
@@ -3374,6 +3401,8 @@ Other items
     memo_type=Type
     menu_licence_page=Licence Page
     menu_user_page=User Info
+    modal_cancel=Cancel
+    modal_ok=Ok
     notification_error=Error
     notification_info=Info
     notification_success=Success
@@ -3512,7 +3541,7 @@ Other items
     qap_action_label=Label Interaction
     qap_action_monitor=Monitor Call
     qap_action_qa=QA Forms
-    qap_action_recall=New Recall Note
+    qap_action_recall=New Recall Memo
     qap_action_transfer=Transfer Call
     qap_action_wbtrecall=Recall with WombatDialer
     qap_addmember_selected=Join selected queues.
@@ -3666,7 +3695,10 @@ Other items
     qap_nav_interactions=Interactions
     qap_nav_overview=Overview
     qap_nav_qa=QA
+    qap_nav_wallboard=Wallboard
     qap_nav_wombat=WombatDialer Preview Dialing
+    qap_new_case=New Case
+    qap_new_client=New Client
     qap_new_memo=Create linked Memo
     qap_no_cases=No Cases found for the current search, please try again.
     qap_no_clients=No Clients found for the current search, please try again.
@@ -3981,6 +4013,7 @@ Other items
     reports_qa_performance_title=Performance
     reports_qa_performance_total=Total score
     reports_qa_queue=Queue
+    reports_qa_range=Range
     reports_qa_recap_heading=Call Details
     reports_qa_select_form=Select Form
     reports_qa_start=Start Time
