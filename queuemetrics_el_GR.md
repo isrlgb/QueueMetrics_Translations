@@ -209,8 +209,7 @@ Do not change the items below:
     td_pautype_outb=Εξερχ.
     td_pautype_outbound=Εξερχόμενες
     td_pautype_pause=Παύση
-    # 🔴 td_pautype_wrap -> Wrap
-    ➡️ td_pautype_wrap=Ολοκλήρωση
+    td_pautype_wrap=Ολοκλήρωση
     td_pautype_wrap-up_time=Χρόνος wrap-up
     td_qdir_any=Οποιαδήποτε κλήση
     td_qdir_inbound_calls=Εισερχόμενες κλήσεις
@@ -242,11 +241,9 @@ Do not change the items below:
     aout_call_res_by_outcome=Αποτελέσματα κλήσεων ανά τύπο επαφής
     aout_call_res_by_tag=Αποτελέσματα κλήσεων ανά tag
     aout_calltag=Tag
-    # 🔴 aout_case_distribution -> Case Distribution
-    ➡️ aout_case_distribution=Κατανομή Υποθέσεων
+    aout_case_distribution=Κατανομή Υποθέσεων
     aout_chart=~
-    # 🔴 aout_client_distribution -> Client Distribution
-    ➡️ aout_client_distribution=Κατανομή Πελατών
+    aout_client_distribution=Κατανομή Πελατών
     aout_contacts_n=Επαφ.
     aout_convratio=Μετατρ.
     aout_cph=CPH
@@ -422,11 +419,9 @@ Do not change the items below:
 
 
 
-    # 🔴 clage_%_of_pause_time -> % of pause time
-    ➡️ clage_%_of_pause_time=% διάρκεια παύσης
+    clage_%_of_pause_time=% διάρκεια παύσης
     clage_%_of_queue=% της ουράς αναμονής
-    # 🔴 clage_%_of_session_time -> % of session time
-    ➡️ clage_%_of_session_time=% του χρόνου συνεδρίας
+    clage_%_of_session_time=% του χρόνου συνεδρίας
     clage_acd_available=Διαθεσ.
     clage_acd_avg_dur=Μέσ. Διάρκ.
     clage_acd_avg_in=Μέσ. Όρος Εισ.
@@ -451,8 +446,7 @@ Do not change the items below:
     clage_agent_performance_acd_group=Επίδοση χρήστη ανα ομάδα ACD
     clage_agent_ptimebyhour=Πληρωτέος χρόνος χρήστη ανα ώρα
     clage_agent_session_detail=Λεπτομέριες συνεδρίας χρήστη
-    # 🔴 clage_agent_session_overview -> Agent Session Overview
-    ➡️ clage_agent_session_overview=Επισκόπηση Συνεδρίας Χρήστη
+    clage_agent_session_overview=Επισκόπηση Συνεδρίας Χρήστη
     clage_agent_sessionreport=Συνεδρία χρήστη ανά ουρά αναμονής, ετικέτα και χαρακτηριστικό
     clage_agent_sessions=Συνεδρίες χρήστη
     clage_agent_stimebyhour=Συνεδρία χρήστη ανά ώρα
@@ -514,8 +508,7 @@ Do not change the items below:
     clage_overlaps=Επικάλυψη
     clage_pause=Παύση
     clage_pause_%=% Παύσης 
-    # 🔴 clage_pause_type_stats -> Details of pause types
-    ➡️ clage_pause_type_stats=Λεπτομέρειες τύπων παύσης
+    clage_pause_type_stats=Λεπτομέρειες τύπων παύσης
     clage_pauses=Παύσεις
     clage_pauses_per_session=Παύσεις ανά συνεδρία
     clage_pausetype=Τύπος Παύσης
@@ -531,25 +524,16 @@ Do not change the items below:
     clage_session_and_pause_durations=Διάρκεια συνεδριών και παύσεων
     clage_session_byquetagftrreport=Σύνολο συνεδριών ανά ουρά ανμονής, ετικέτας και χαρακτηριστικού
     clage_session_byquetagreport=Σύνολο συνεδριών ανά Ουρά αναμονής και Tag
-    # 🔴 clage_session_calls -> N. calls
-    ➡️ clage_session_calls=Αρ. Κλήσεων
+    clage_session_calls=Αρ. Κλήσεων
     clage_session_details=Λεπτομέρειες συνεδρίας
-    # 🔴 clage_session_end -> Segment end
-    ➡️ clage_session_end=Τέλος τμήματος
-    # 🔴 clage_session_idle -> Idle time
-    ➡️ clage_session_idle=Χρόνος αδράνειας
-    # 🔴 clage_session_lostatt -> Lost attempts
-    ➡️ clage_session_lostatt=Χαμένες προσπάθειες
-    # 🔴 clage_session_pause -> Pause
-    ➡️ clage_session_pause=Παύση
-    # 🔴 clage_session_queues -> Queues
-    ➡️ clage_session_queues=Ουρές
-    # 🔴 clage_session_start -> Segment start
-    ➡️ clage_session_start=Αρχή τμήματος
-    # 🔴 clage_session_talk -> Talk time
-    ➡️ clage_session_talk=Διάρκεια συνομιλίας
-    # 🔴 clage_session_type -> Session type
-    ➡️ clage_session_type=Τύπος συνεδρίας
+    clage_session_end=Τέλος τμήματος
+    clage_session_idle=Χρόνος αδράνειας
+    clage_session_lostatt=Χαμένες προσπάθειες
+    clage_session_pause=Παύση
+    clage_session_queues=Ουρές
+    clage_session_start=Αρχή τμήματος
+    clage_session_talk=Διάρκεια συνομιλίας
+    clage_session_type=Τύπος συνεδρίας
     clage_sessions=Συνεδρίες
     clage_tag_sessionreport=Προβολή συνεδριών ανά Tag
     clage_takenshort=Δ
@@ -634,18 +618,15 @@ Do not change the items below:
     cld_caller_statistics=Στατιστικά Καλούντος
     cld_calltag=Tag
     cld_complete_calls=Απαντημένες κλήσεις
-    # 🔴 cld_connect -> Connect
-    ➡️ cld_connect=Σύνδεση
+    cld_connect=Σύνδεση
     cld_date=Ημερομηνία
     cld_detail_of_agent_pauses=Λεπτομέριες παύσεων χρηστών
     cld_detail_of_agent_sessions=Λεπτομέριες συνεδριών χρηστών
     cld_detail_of_agent_sessions_raw=Λεπτομέριες συνεδριών χρηστών (χωρίς επεξεργασία)
     cld_detail_of_answered_calls=Λεπτομέρειες απαντημένων κλήσεων
     cld_detail_of_unanswered_calls=Λεπτομέρειες αναπάντητων κλήσεων
-    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_afp=Λεπτομέρειες αναπάντητων κλήσεων
-    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_raw=Ακατέργαστες λεπτομέρειες των κλήσεων που δεν απαντήθηκαν
+    cld_detail_of_unanswered_calls_afp=Λεπτομέρειες αναπάντητων κλήσεων
+    cld_detail_of_unanswered_calls_raw=Ακατέργαστες λεπτομέρειες των κλήσεων που δεν απαντήθηκαν
     cld_detail_summary=Λεπτομερής Σύνοψη ανά ώρα
     cld_detail_summary_dom=Λεπτομερής Σύνοψη ανά ημέρα
     cld_detail_summary_dow=Λεπτομερής Σύνοψη ανά ημέρα της εβδομάδας
@@ -654,11 +635,9 @@ Do not change the items below:
     cld_dom=Ημέρα
     cld_dow=Ημέρα της εβδομάδας
     cld_duration=Διάρκεια
-    # 🔴 cld_end -> End
-    ➡️ cld_end=Είσοδος
+    cld_end=Είσοδος
     cld_end_hour=Τελική ώρα
-    # 🔴 cld_enter -> Enter
-    ➡️ cld_enter=Αδράνεια
+    cld_enter=Αδράνεια
     cld_executive_summary=Σύνοψη των κυριότερων σημείων
     cld_ext=Εξώτ.
     cld_features=Κωδικοί Λειτουργιών
@@ -667,14 +646,12 @@ Do not change the items below:
     cld_goal=Στόχος
     cld_handled_by=Έγινε χειρισμός από
     cld_hour=Ώρα
-    # 🔴 cld_idle -> Idle
-    ➡️ cld_idle=Αδράνεια
+    cld_idle=Αδράνεια
     cld_info=Πληροφ.
     cld_ivr=Επιλογή IVR
     cld_ivr_detail=Λεπτομέρειες IVR
     cld_ivr_detail_full=Λεπτομέρειες IVR (πλήρης εκτυπώσιμη λίστα)
-    # 🔴 cld_ivr_dur -> IVR Dur.
-    ➡️ cld_ivr_dur=Διαρκ. IVR
+    cld_ivr_dur=Διαρκ. IVR
     cld_ivr_time=IVR
     cld_ivr_time_long=Χρόνος στο IVR πριν την ουρά αναμονής
     cld_key=Κλειδί
@@ -710,8 +687,7 @@ Do not change the items below:
     cld_pop_opos=Αρχική θέση
     cld_pop_qa=QA
     cld_pop_queue=Ουρά αναμονής:
-    # 🔴 cld_pop_server -> Server
-    ➡️ cld_pop_server=Διακομιστής
+    cld_pop_server=Διακομιστής
     cld_pop_sound_files=Αρχεία ήχου:
     cld_pop_status_code=Κωδικός κατάστασης
     cld_pop_stint_cause=Αποσύνδεση
@@ -729,10 +705,8 @@ Do not change the items below:
     cld_queue=Ουρά αναμονής
     cld_queue_batch_export=Προσθήκη κλήσεων σε λίστα εξαγωγής
     cld_queue_detail=Λεπτομέρειες ουράς αναμονής
-    # 🔴 cld_queue_detail_afp -> Queue detail
-    ➡️ cld_queue_detail_afp=Λεπτομέρεια ουράς αναμονής
-    # 🔴 cld_queue_detail_raw -> Raw queue detail
-    ➡️ cld_queue_detail_raw=Ακατέργαστη λεπτομέρεια ούρας αναμονής
+    cld_queue_detail_afp=Λεπτομέρεια ουράς αναμονής
+    cld_queue_detail_raw=Ακατέργαστη λεπτομέρεια ούρας αναμονής
     cld_return=Επιστροφή
     cld_server=Εξυπηρετητής
     cld_session_agent_detail=Λεπτομέρειες συνεδρίας χρήστη
@@ -748,18 +722,14 @@ Do not change the items below:
     cld_start_hour=Ώρα έναρξης
     cld_status_code=Κωδικός 
     cld_stints=Χρονικά όρια
-    # 🔴 cld_talk -> Talk
-    ➡️ cld_talk=Συνομιλία
-    # 🔴 cld_talk_and_idle_times -> Talk and Idle Times
-    ➡️ cld_talk_and_idle_times=Χρόνοι Συνομιλίας και Αδράνειας
+    cld_talk=Συνομιλία
+    cld_talk_and_idle_times=Χρόνοι Συνομιλίας και Αδράνειας
     cld_termination=Τερματισμός
-    # 🔴 cld_tot_dur -> Tot. Dur.
-    ➡️ cld_tot_dur=Συν.Διάρκ.
+    cld_tot_dur=Συν.Διάρκ.
     cld_total_calls=Συνολικές κλήσεις
     cld_total_elapsed_time=Συνολικός χρόνος
     cld_transfer_to=Μεταφέρθηκε σε
-    # 🔴 cld_uid -> Unique ID
-    ➡️ cld_uid=Μοναδικό ID (Ταυτότητα)
+    cld_uid=Μοναδικό ID (Ταυτότητα)
     cld_unique_callers=Μοναδικοί καλούντες
     cld_unique_final_lost=Μοναδικές χαμένες κλήσεις κατά την τελευταία προσπάθεια
     cld_unique_first_lost=Μοναδικές χαμένές κλήσεις κατά την πρώτη προσπάθεια
@@ -931,8 +901,7 @@ Do not change the items below:
     clko_n_calls=Αρ. κλήσεων
     clko_nbsp= 
     clko_nof_unanswered_calls=Αρ. αναπάντητων κλήσεων:
-    # 🔴 clko_offered -> Of offered
-    ➡️ clko_offered=Από τα προσφερόμενα
+    clko_offered=Από τα προσφερόμενα
     clko_percent=Ποσοστό
     clko_qpos_all=Θέση εισαγωγής στην ουρά αναμονής για όλες τις κλήσεις
     clko_qpos_ko=Θέση εισαγωγής στην ουρά αναμονής 
@@ -945,12 +914,9 @@ Do not change the items below:
     clko_threedots=...
     clko_total_rows_processed=Σύνολο επεξεργασμένω σειρών:
     clko_total_wait_time_before_disconnection=Συνολικός χρόνος αναμονής πρίν την αποσύνδεση
-    # 🔴 clko_unans_nums_recalled -> Numbers recalled
-    ➡️ clko_unans_nums_recalled=Αριθμοί που επανακαλέστηκαν
-    # 🔴 clko_unans_nums_recap -> Recap of all recalls
-    ➡️ clko_unans_nums_recap=Σύνοψη όλων των επανακλήσεων
-    # 🔴 clko_unans_nums_to_recall -> Numbers to be recalled
-    ➡️ clko_unans_nums_to_recall=Αριθμοί προς επανάκληση
+    clko_unans_nums_recalled=Αριθμοί που επανακαλέστηκαν
+    clko_unans_nums_recap=Σύνοψη όλων των επανακλήσεων
+    clko_unans_nums_to_recall=Αριθμοί προς επανάκληση
     clko_unanswered_calls=Αναπάντητες κλήσεις
     clko_unanswered_calls_by_queue=Αναπάντητες κλήσεις ανά ουρά αναμονής
     clko_unanswered_calls_distribution_by_length=Αναπάντητες κλήσεις - διανομή ανά χρόνο αναμονής 
@@ -976,8 +942,7 @@ Do not change the items below:
     clhdr_available_cols=Διαθέσιμες στήλες δεδομένων
     clhdr_call=Φιλτραρισμένο ανά χρόνο συνομιλίας:
     clhdr_caller=Φιλτραρισμένη ανά Αριθμό Καλούντος:
-    # 🔴 clhdr_callfeaturecode -> Filtered by feature code:
-    ➡️ clhdr_callfeaturecode=Φιλτραρισμένο ανά κωδικό χαρακτηριστικού:
+    clhdr_callfeaturecode=Φιλτραρισμένο ανά κωδικό χαρακτηριστικού:
     clhdr_calltag=Φιλτραρισμένη ανά ετικέτα κλήσης:
     clhdr_dayofweek=Ημέρες της εβδομάδας:
     clhdr_disconnection=Φιλτραρισμένη ανά αποσυνδέσεις
@@ -1036,8 +1001,7 @@ Do not change the items below:
     clok_disconnection_causes=Αιτίες αποσύνδεσης
     clok_dnis=DNIS που χρησιμοποιήθηκε
     clok_dnis_choice=DNIS
-    # 🔴 clok_grouping -> Open Group
-    ➡️ clok_grouping=Ανοιχτή Ομάδα
+    clok_grouping=Ανοιχτή Ομάδα
     clok_hdr=Επικεφαλίδα αναφοράς
     clok_ivr=Επιλογή IVR
     clok_ivrMaxTime=Μεγιστη διάρκεια
@@ -1119,31 +1083,20 @@ Used for data blocks Overview by Agent/Queue
 
 
 
-    # 🔴 evt_abandon -> Caller Abandoned
-    ➡️ evt_abandon=Εγκατάλειψη κλήση από καλών
+    evt_abandon=Εγκατάλειψη κλήση από καλών
     evt_agentattempt=Απόπειρες κουδουνισμού
     evt_agentdump=Αποσύνδεση του χρήστη
-    # 🔴 evt_attended_transfer -> Attended Transfer
-    ➡️ evt_attended_transfer=Επιτηρούμενη μεταφορά
-    # 🔴 evt_blind_transfer -> Blind Transfer
-    ➡️ evt_blind_transfer=Μη επιτηρούμενη μεταφορά
-    # 🔴 evt_call_outbound -> Outbound Call
-    ➡️ evt_call_outbound=Εξερχόμενη Κλήση
+    evt_attended_transfer=Επιτηρούμενη μεταφορά
+    evt_blind_transfer=Μη επιτηρούμενη μεταφορά
+    evt_call_outbound=Εξερχόμενη Κλήση
     evt_call_tag=Ετικέτα κλήσεων
-    # 🔴 evt_complete_agent -> Complete Agent
-    ➡️ evt_complete_agent=Ολοκληρωμένος Χρήστης
-    # 🔴 evt_complete_caller -> Complete Caller
-    ➡️ evt_complete_caller=Ολοκληρωμένος Καλών
-    # 🔴 evt_connect -> Connect
-    ➡️ evt_connect=Σύνδεση
-    # 🔴 evt_enter_queue -> Enter Queue
-    ➡️ evt_enter_queue=Είσοδος στην Ουρά Αναμονής
-    # 🔴 evt_exit_empty -> Exit Empty
-    ➡️ evt_exit_empty=Κένη Έξοδος
-    # 🔴 evt_exit_with_key -> Exit With Key
-    ➡️ evt_exit_with_key=Έξοδος με κλειδί
-    # 🔴 evt_exit_with_timeout -> Exit With Timeout
-    ➡️ evt_exit_with_timeout=Έξοδος με Χρονικό Όριο
+    evt_complete_agent=Ολοκληρωμένος Χρήστης
+    evt_complete_caller=Ολοκληρωμένος Καλών
+    evt_connect=Σύνδεση
+    evt_enter_queue=Είσοδος στην Ουρά Αναμονής
+    evt_exit_empty=Κένη Έξοδος
+    evt_exit_with_key=Έξοδος με κλειδί
+    evt_exit_with_timeout=Έξοδος με Χρονικό Όριο
     evt_feature_added=Προσθήκη χαρακτηριστικού
     evt_feature_deleted=Διαγραφή χαρακτηριστικού
     evt_ivr_alldigits=Όλες οι επιλογές IVR
@@ -1154,20 +1107,13 @@ Used for data blocks Overview by Agent/Queue
     evt_ivr_start=Έναρξη κλήσης IVR
     evt_ivr_waitonly=Αναμονή IVR
     evt_moh=Μουσική αναμονής
-    # 🔴 evt_other_end_session -> Other Session End
-    ➡️ evt_other_end_session=Τέλος Άλλης Συνεδρίας
-    # 🔴 evt_other_fail_session -> Other Session Fail
-    ➡️ evt_other_fail_session=Αποτυχία Άλλης Συνεδρίας
-    # 🔴 evt_other_start_session -> Other Session Start
-    ➡️ evt_other_start_session=Αρχή Άλλης Συνεδρίας
-    # 🔴 evt_phone_end_session -> Phone Session End
-    ➡️ evt_phone_end_session=Τέλος Συνεδρίας Τηλεφώνου
-    # 🔴 evt_phone_fail_session -> Phone Session Fail
-    ➡️ evt_phone_fail_session=Αποτυχία Συνεδρίας Τηλεφώνου
-    # 🔴 evt_phone_start_session -> Phone Session Start
-    ➡️ evt_phone_start_session=Αρχή Συνεδρίας Τηλεφώνου
-    # 🔴 evt_ringcancel -> Ring Cancel
-    ➡️ evt_ringcancel=Ακύρωση Κουδουνισμού
+    evt_other_end_session=Τέλος Άλλης Συνεδρίας
+    evt_other_fail_session=Αποτυχία Άλλης Συνεδρίας
+    evt_other_start_session=Αρχή Άλλης Συνεδρίας
+    evt_phone_end_session=Τέλος Συνεδρίας Τηλεφώνου
+    evt_phone_fail_session=Αποτυχία Συνεδρίας Τηλεφώνου
+    evt_phone_start_session=Αρχή Συνεδρίας Τηλεφώνου
+    evt_ringcancel=Ακύρωση Κουδουνισμού
     evt_ringing=Κουδουνισμός
     evt_ringnoanswer=Αναπάντητος κουδουνισμός
     evt_setvar=Καθορισμός μεταβλητής
@@ -1177,34 +1123,20 @@ Used for data blocks Overview by Agent/Queue
     evt_short_ringing=Κουδουνισμός (Σύντομος)
     evt_short_ringnoanswer=Κουδουνισμός χωρίς απάντηση (Σύντομος)
     evt_skillreq=Απαιτούμενη δεξιότητα
-    # 🔴 evt_teams_end_session -> MS Teams Session End
-    ➡️ evt_teams_end_session=Τέλος Συνεδρίας MS Teams
-    # 🔴 evt_teams_fail_session -> Teams Session Fail
-    ➡️ evt_teams_fail_session=Αποτυχία Συνεδρίας MS Teams
-    # 🔴 evt_teams_start_session -> MS Teams Session Start
-    ➡️ evt_teams_start_session=Αρχή Συνεδρίας MS Teams
-    # 🔴 evt_transfer -> Transfer
-    ➡️ evt_transfer=Μεταφορά
-    # 🔴 evt_unanswered_yet -> Unanswered Yet
-    ➡️ evt_unanswered_yet=Δεν Απαντήθηκε Ακόμα
-    # 🔴 evt_web_end_session -> Web Session End
-    ➡️ evt_web_end_session=Τέλος Συνεδρίας Ιστού
-    # 🔴 evt_web_fail_session -> Web Session Fail
-    ➡️ evt_web_fail_session=Αποτυχία Συνεδρίας Ιστού
-    # 🔴 evt_web_start_session -> Web Session Start
-    ➡️ evt_web_start_session=Αρχή Συνεδρίας Ιστού
-    # 🔴 evt_var_group -> Variables
-    ➡️ evt_var_group=Μεταβλητές
-    # 🔴 evt_custom_prev_stint -> Previous Stint
-    ➡️ evt_custom_prev_stint=Προηγούμενη Περίοδος
-    # 🔴 evt_custom_next_stint -> Next Stint
-    ➡️ evt_custom_next_stint=Επόμενη Περίοδος
-    # 🔴 evt_custom_n_stint -> N. Stints
-    ➡️ evt_custom_n_stint=Αριθμός Stints
-    # 🔴 evt_custom_direct_to -> Direct call to
-    ➡️ evt_custom_direct_to=Άμεση κλήση προς
-    # 🔴 evt_custom_quality -> Call quality
-    ➡️ evt_custom_quality=Ποιότητα Κλήσης
+    evt_teams_end_session=Τέλος Συνεδρίας MS Teams
+    evt_teams_fail_session=Αποτυχία Συνεδρίας MS Teams
+    evt_teams_start_session=Αρχή Συνεδρίας MS Teams
+    evt_transfer=Μεταφορά
+    evt_unanswered_yet=Δεν Απαντήθηκε Ακόμα
+    evt_web_end_session=Τέλος Συνεδρίας Ιστού
+    evt_web_fail_session=Αποτυχία Συνεδρίας Ιστού
+    evt_web_start_session=Αρχή Συνεδρίας Ιστού
+    evt_var_group=Μεταβλητές
+    evt_custom_prev_stint=Προηγούμενη Περίοδος
+    evt_custom_next_stint=Επόμενη Περίοδος
+    evt_custom_n_stint=Αριθμός Stints
+    evt_custom_direct_to=Άμεση κλήση προς
+    evt_custom_quality=Ποιότητα Κλήσης
 
 ## Headers
 
@@ -1216,8 +1148,7 @@ Used for data blocks Overview by Agent/Queue
     hdr_agents_det_title=Λεπτομέρειες για τους χρήστες (συνεδρίες και παύσεις)
     hdr_agents_title=Χρήστες και συνεδρίες
     hdr_all=Όλα
-    # 🔴 hdr_amo -> AMO
-    ➡️ hdr_amo=AMO
+    hdr_amo=AMO
     hdr_answered=Απαντημένες
     hdr_answered_details=Λεπτομ. Απαντ.
     hdr_answered_details_title=Λεπτομέρειες απαντημένων κλήσεων
@@ -1225,22 +1156,15 @@ Used for data blocks Overview by Agent/Queue
     hdr_area_title=Ανάλυση κωδικού περιοχής
     hdr_attempts=Απόπειρ.
     hdr_broadcast=Μετάδοση
-    # 🔴 hdr_calls -> Calls
-    ➡️ hdr_calls=Κλήσεις
-    # 🔴 hdr_calls_title -> Call Details
-    ➡️ hdr_calls_title=Λεπτομέρειες Κλήσεων
-    # 🔴 hdr_casedo -> Cases
-    ➡️ hdr_casedo=Υποθέσεις 
-    # 🔴 hdr_casedo_title -> Cases and Clients
-    ➡️ hdr_casedo_title=Υποθέσεις και Πελάτες
-    # 🔴 hdr_cases -> Cases
-    ➡️ hdr_cases=Υποθέσεις
+    hdr_calls=Κλήσεις
+    hdr_calls_title=Λεπτομέρειες Κλήσεων
+    hdr_casedo=Υποθέσεις 
+    hdr_casedo_title=Υποθέσεις και Πελάτες
+    hdr_cases=Υποθέσεις
     hdr_cbt=CBTs
-    # 🔴 hdr_clients -> Clients
-    ➡️ hdr_clients=Πελάτες
+    hdr_clients=Πελάτες
     hdr_cronjobs=Προγραμματισμένες εργασίες
-    # 🔴 hdr_customblocks -> Custom Blocks
-    ➡️ hdr_customblocks=Προσαρμοσμένα Μπλοκ
+    hdr_customblocks=Προσαρμοσμένα Μπλοκ
     hdr_customreports=CR
     hdr_dbtest_ami=Τεστ AMI
     hdr_dbtest_ami_queue=Παρουσίαση Εντολών
@@ -1274,8 +1198,7 @@ Used for data blocks Overview by Agent/Queue
     hdr_outcomes=Αποτελέσματα
     hdr_outcomes_title=Αποτελέσματα κλήσεων
     hdr_pauses=Παύσεις
-    # 🔴 hdr_performance -> Performance
-    ➡️ hdr_performance=Απόδοση
+    hdr_performance=Απόδοση
     hdr_performancetrack=Παρακολούθηση επιδόσεων (PrfTrk)
     hdr_print=Εκτύπωση
     hdr_qa=Αξιολόγηση ποιότητας (QA)
@@ -1288,15 +1211,11 @@ Used for data blocks Overview by Agent/Queue
     hdr_realtime=Πραγματικός χρόνος
     hdr_reports=Αναφορές
     hdr_resetquery=Επαναφορά παραμέτρων αναζήτησης
-    # 🔴 hdr_rt -> RT
-    ➡️ hdr_rt=Πρ.Χρόνος
-    # 🔴 hdr_rt_title -> Real-Time Metrics
-    ➡️ hdr_rt_title=Μετρήσεις σε Πραγματικό Χρόνο
+    hdr_rt=Πρ.Χρόνος
+    hdr_rt_title=Μετρήσεις σε Πραγματικό Χρόνο
     hdr_skills=Δεξιότητες
-    # 🔴 hdr_stats -> Stats
-    ➡️ hdr_stats=Στατιστικά
-    # 🔴 hdr_stats_title -> Statistics
-    ➡️ hdr_stats_title=Στατιστικά
+    hdr_stats=Στατιστικά
+    hdr_stats_title=Στατιστικά
     hdr_tags=Ετικέτες
     hdr_tags_title=Ετικέτες κλήσεων
     hdr_tasks=Εργασίες
@@ -1323,106 +1242,59 @@ Used for data blocks Overview by Agent/Queue
     edit_ac_supervisor=Επιβλέπων
     edit_ac_term=Τερμ.
     edit_ac_title=Διαμορφωση Γνωστών Χρηστών
-    # 🔴 edit_amo_attribute -> Attribute
-    ➡️ edit_amo_attribute=Χαρακτηριστικό
+    edit_amo_attribute=Χαρακτηριστικό
 
 ### AMO
 
-    # 🔴 edit_amo_attributes -> Attributes
-    ➡️ edit_amo_attributes=Χαρακτηριστικό
-    # 🔴 edit_amo_campaign -> Campaign
-    ➡️ edit_amo_campaign=Καμπάνια
-    # 🔴 edit_amo_last_pull -> Last Pull
-    ➡️ edit_amo_last_pull=Τελευταία Ανάληψη
-    # 🔴 edit_amo_list_dialer_state -> Dialer State
-    ➡️ edit_amo_list_dialer_state=Κατάσταση Διεκπεραιωτή Κλήσεων
-    # 🔴 edit_amo_list_id -> List ID
-    ➡️ edit_amo_list_id=Λίστα ID
-    # 🔴 edit_amo_list_last_pull -> Last Pull
-    ➡️ edit_amo_list_last_pull=Τελευταία Ανάληψη
-    # 🔴 edit_amo_list_n_added -> N. added
-    ➡️ edit_amo_list_n_added=Αρ. προσθηκών
-    # 🔴 edit_amo_list_n_completed -> N. completed
-    ➡️ edit_amo_list_n_completed=Aρ. ολοκληρωμένων
-    # 🔴 edit_amo_list_n_pulled -> N. pulled
-    ➡️ edit_amo_list_n_pulled=Αρ. αντλήσεων
-    # 🔴 edit_amo_list_name -> Name
-    ➡️ edit_amo_list_name=Όνομα
-    # 🔴 edit_amo_list_numbers -> Edit Numbers
-    ➡️ edit_amo_list_numbers=Επεξεργασία Αριθμών
-    # 🔴 edit_amo_list_pull_by -> Pulled by
-    ➡️ edit_amo_list_pull_by=Αντλήθηκε από
-    # 🔴 edit_amo_list_state -> List State
-    ➡️ edit_amo_list_state=Κατάσταση Λίστας
-    # 🔴 edit_amo_list_upload_numbers -> Upload Numbers
-    ➡️ edit_amo_list_upload_numbers=Μεταφόρτωση Αριθμών
-    # 🔴 edit_amo_list_upload_text -> Drop csv files or browse
-    ➡️ edit_amo_list_upload_text=Σύρετε τα αρχεια cvs ή περιηγηθείτε
-    # 🔴 edit_amo_list_weight -> Weight
-    ➡️ edit_amo_list_weight=Βάρος
-    # 🔴 edit_amo_lists_list -> AMO Lists
-    ➡️ edit_amo_lists_list=ΑΜΟ Λίστες
-    # 🔴 edit_amo_lists_name_present -> The selected list name already exists
-    ➡️ edit_amo_lists_name_present=Το επιλεγμένο όνομα υπάρχει ήδη
-    # 🔴 edit_amo_lists_title -> Edit AMO List
-    ➡️ edit_amo_lists_title=Επεξεργασία Λίστας AMO
-    # 🔴 edit_amo_n_added -> N. added
-    ➡️ edit_amo_n_added=Αρ. προσθηκών
-    # 🔴 edit_amo_n_completed -> N. completed
-    ➡️ edit_amo_n_completed=Aρ. συμπληρωμένων
-    # 🔴 edit_amo_n_lists -> N. of Lists
-    ➡️ edit_amo_n_lists=Αρ. Λίστεων 
-    # 🔴 edit_amo_name -> Name
-    ➡️ edit_amo_name=Όνομα
-    # 🔴 edit_amo_notes -> Notes
-    ➡️ edit_amo_notes=Σημειώσεις
-    # 🔴 edit_amo_number -> Number
-    ➡️ edit_amo_number=Αριθμός
-    # 🔴 edit_amo_number_id -> Number ID
-    ➡️ edit_amo_number_id=Αριθμός ID (Ταυτότητας)
-    # 🔴 edit_amo_numbers_current_uid -> Current UID
-    ➡️ edit_amo_numbers_current_uid=Τρέχων UID
-    # 🔴 edit_amo_numbers_edit -> Edit AMO Number
-    ➡️ edit_amo_numbers_edit=Επεξεργασία ΑΜΟ Αριθμών
-    # 🔴 edit_amo_numbers_list -> AMO Numbers
-    ➡️ edit_amo_numbers_list=ΑΜΟ Αριθμοί
-    # 🔴 edit_amo_numbers_previous_retries -> Previous Retries
-    ➡️ edit_amo_numbers_previous_retries=Προηγούμενες Απόπειρες
-    # 🔴 edit_amo_numbers_retry_no -> Retry Number
-    ➡️ edit_amo_numbers_retry_no=Επανάκληση αριθμού
-    # 🔴 edit_amo_queue_id -> Queue ID
-    ➡️ edit_amo_queue_id=ID Ουράς αναμονής
-    # 🔴 edit_amo_retry_no -> N. of retries
-    ➡️ edit_amo_retry_no=Αρ. Επαναπροσπαθειών
-    # 🔴 edit_amo_state -> State
-    ➡️ edit_amo_state=Κατάσταση
-    # 🔴 edit_amo_valid_attribute -> Attribute
-    ➡️ edit_amo_valid_attribute=Χαρακτηριστικό
-    # 🔴 edit_amo_valid_from -> Valid from
-    ➡️ edit_amo_valid_from=Ισχύει από
-    # 🔴 edit_amo_valid_value -> Value
-    ➡️ edit_amo_valid_value=Αξία
+    edit_amo_attributes=Χαρακτηριστικό
+    edit_amo_campaign=Καμπάνια
+    edit_amo_last_pull=Τελευταία Ανάληψη
+    edit_amo_list_dialer_state=Κατάσταση Διεκπεραιωτή Κλήσεων
+    edit_amo_list_id=Λίστα ID
+    edit_amo_list_last_pull=Τελευταία Ανάληψη
+    edit_amo_list_n_added=Αρ. προσθηκών
+    edit_amo_list_n_completed=Aρ. ολοκληρωμένων
+    edit_amo_list_n_pulled=Αρ. αντλήσεων
+    edit_amo_list_name=Όνομα
+    edit_amo_list_numbers=Επεξεργασία Αριθμών
+    edit_amo_list_pull_by=Αντλήθηκε από
+    edit_amo_list_state=Κατάσταση Λίστας
+    edit_amo_list_upload_numbers=Μεταφόρτωση Αριθμών
+    edit_amo_list_upload_text=Σύρετε τα αρχεια cvs ή περιηγηθείτε
+    edit_amo_list_weight=Βάρος
+    edit_amo_lists_list=ΑΜΟ Λίστες
+    edit_amo_lists_name_present=Το επιλεγμένο όνομα υπάρχει ήδη
+    edit_amo_lists_title=Επεξεργασία Λίστας AMO
+    edit_amo_n_added=Αρ. προσθηκών
+    edit_amo_n_completed=Aρ. συμπληρωμένων
+    edit_amo_n_lists=Αρ. Λίστεων 
+    edit_amo_name=Όνομα
+    edit_amo_notes=Σημειώσεις
+    edit_amo_number=Αριθμός
+    edit_amo_number_id=Αριθμός ID (Ταυτότητας)
+    edit_amo_numbers_current_uid=Τρέχων UID
+    edit_amo_numbers_edit=Επεξεργασία ΑΜΟ Αριθμών
+    edit_amo_numbers_list=ΑΜΟ Αριθμοί
+    edit_amo_numbers_previous_retries=Προηγούμενες Απόπειρες
+    edit_amo_numbers_retry_no=Επανάκληση αριθμού
+    edit_amo_queue_id=ID Ουράς αναμονής
+    edit_amo_retry_no=Αρ. Επαναπροσπαθειών
+    edit_amo_state=Κατάσταση
+    edit_amo_valid_attribute=Χαρακτηριστικό
+    edit_amo_valid_from=Ισχύει από
+    edit_amo_valid_value=Αξία
 
 ### Cases
 
-    # 🔴 edit_cases_client -> Client
-    ➡️ edit_cases_client=Πελάτης
-    # 🔴 edit_cases_contact -> Contact
-    ➡️ edit_cases_contact=Επαφή
-    # 🔴 edit_cases_email -> Email
-    ➡️ edit_cases_email=Ηλεκτρονικό ταχυδρομείο
-    # 🔴 edit_cases_header -> Cases
-    ➡️ edit_cases_header=Υποθέσεις
-    # 🔴 edit_cases_id -> Case Id
-    ➡️ edit_cases_id=Υποθέσεις ID
-    # 🔴 edit_cases_key -> Key
-    ➡️ edit_cases_key=Κλειδί
-    # 🔴 edit_cases_status -> Status
-    ➡️ edit_cases_status=Κατάσταση
-    # 🔴 edit_cases_title -> Title
-    ➡️ edit_cases_title=Τίτλος
-    # 🔴 edit_cases_xref -> Reference
-    ➡️ edit_cases_xref=Αναφορά
+    edit_cases_client=Πελάτης
+    edit_cases_contact=Επαφή
+    edit_cases_email=Ηλεκτρονικό ταχυδρομείο
+    edit_cases_header=Υποθέσεις
+    edit_cases_id=Υποθέσεις ID
+    edit_cases_key=Κλειδί
+    edit_cases_status=Κατάσταση
+    edit_cases_title=Τίτλος
+    edit_cases_xref=Αναφορά
     edit_cbt_deleted=Διεγράφη
     edit_cbt_description=Περιγραφή
     edit_cbt_key=Κλειδί
@@ -1433,30 +1305,18 @@ Used for data blocks Overview by Agent/Queue
     edit_classes_keys=Κλειδιά
     edit_classes_title=Κατηγορίες χρηστών
     edit_classes_user_num=Χρήστης αρ.
-    # 🔴 edit_clients_client_in_use -> This client cannot be deleted as it is in use.
-    ➡️ edit_clients_client_in_use=Αυτός ο πελάτης δεν μπορεί να διαγραφεί διότι είναι σε χρήση.
-    # 🔴 edit_clients_contact -> Contact
-    ➡️ edit_clients_contact=Επαφή
-    # 🔴 edit_clients_email -> Email
-    ➡️ edit_clients_email=Ηλεκτρονικό ταχυδρομείο
-    # 🔴 edit_clients_header -> Clients
-    ➡️ edit_clients_header=Πελάτες
-    # 🔴 edit_clients_key -> Key
-    ➡️ edit_clients_key=Κλειδί
-    # 🔴 edit_clients_name -> Name
-    ➡️ edit_clients_name=Όνομα
-    # 🔴 edit_clients_name_present -> Name already present
-    ➡️ edit_clients_name_present=Το όνομα υπάρχει ήδη
-    # 🔴 edit_clients_status -> Status
-    ➡️ edit_clients_status=Κατάσταση
-    # 🔴 edit_clients_xref -> Reference
-    ➡️ edit_clients_xref=Αναφορά
-    # 🔴 edit_clients_xref_already_present -> This reference is already present
-    ➡️ edit_clients_xref_already_present=Αυτή η αναφορά υπάρχει ήδη
-    # 🔴 edit_clients_xref_missing -> You must set a reference
-    ➡️ edit_clients_xref_missing=Πρέπει να ορίσετε μια παραπομπή/αναφορά
-    # 🔴 edit_clients_xref_not_allowed -> This reference has an invalid format
-    ➡️ edit_clients_xref_not_allowed=Αυτή η παραπομπή/αναφορά έχει μη έγκυρη μορφή
+    edit_clients_client_in_use=Αυτός ο πελάτης δεν μπορεί να διαγραφεί διότι είναι σε χρήση.
+    edit_clients_contact=Επαφή
+    edit_clients_email=Ηλεκτρονικό ταχυδρομείο
+    edit_clients_header=Πελάτες
+    edit_clients_key=Κλειδί
+    edit_clients_name=Όνομα
+    edit_clients_name_present=Το όνομα υπάρχει ήδη
+    edit_clients_status=Κατάσταση
+    edit_clients_xref=Αναφορά
+    edit_clients_xref_already_present=Αυτή η αναφορά υπάρχει ήδη
+    edit_clients_xref_missing=Πρέπει να ορίσετε μια παραπομπή/αναφορά
+    edit_clients_xref_not_allowed=Αυτή η παραπομπή/αναφορά έχει μη έγκυρη μορφή
     edit_cronjobs_asuser=Εκτέλεση ως Χρήστης
     edit_cronjobs_cyclic=Κυκλικό
     edit_cronjobs_description=Περιγραφή
@@ -1475,16 +1335,11 @@ Used for data blocks Overview by Agent/Queue
     edit_ct_key=Κλειδί
     edit_ct_tag=Ταμπέλα
     edit_ct_title=Ταμπέλες κλήσεων
-    # 🔴 edit_customblocks_description -> Description
-    ➡️ edit_customblocks_description=Περιγραφή
-    # 🔴 edit_customblocks_header -> Custom DataBlocks
-    ➡️ edit_customblocks_header=Προσαρμοσμένες Μονάδες Δεδομένων
-    # 🔴 edit_customblocks_key -> Security Key
-    ➡️ edit_customblocks_key=Κλειδί Ασφαλείας
-    # 🔴 edit_customblocks_provider -> Provider
-    ➡️ edit_customblocks_provider=Πάροχος
-    # 🔴 edit_customblocks_title -> Title
-    ➡️ edit_customblocks_title=Τίτλος
+    edit_customblocks_description=Περιγραφή
+    edit_customblocks_header=Προσαρμοσμένες Μονάδες Δεδομένων
+    edit_customblocks_key=Κλειδί Ασφαλείας
+    edit_customblocks_provider=Πάροχος
+    edit_customblocks_title=Τίτλος
     edit_dnis_description=Περιγραφή
     edit_dnis_dnis=Κωδικός DNIS
     edit_dnis_title=DNIS
@@ -1584,8 +1439,7 @@ Used for data blocks Overview by Agent/Queue
     edit_queueagents_main=Αρχικό
     edit_queueagents_spill=Επιπλέον
     edit_queueagents_title=Χρήστες για την ουρά αναμονής:
-    # 🔴 edit_queueagents_wrap -> Wrap
-    ➡️ edit_queueagents_wrap=Ολοκλήρωση
+    edit_queueagents_wrap=Ολοκλήρωση
     edit_queues_agents=Χρήστες
     edit_queues_alias=Ψευδώνυμο
     edit_queues_fp=F.P.
@@ -1643,36 +1497,21 @@ Used for data blocks Overview by Agent/Queue
     edit_record_backtolist=Πίσω στη λίστα
     edit_record_backtoqueue=Πίσω στην ουρά αναμονής
     edit_record_backtoreports=Πίσω στις αναφορές
-    # 🔴 edit_record_case_transactions -> Activity for this case
-    ➡️ edit_record_case_transactions=Δραστηριότητα για αυτήν την περίπτωση
-    # 🔴 edit_record_cases_contact -> Contact
-    ➡️ edit_record_cases_contact=Επαφή
-    # 🔴 edit_record_cases_email -> Email
-    ➡️ edit_record_cases_email=Ηλεκτρονικό Ταχυδρομείο 
-    # 🔴 edit_record_cases_for_client -> Recent cases for this client
-    ➡️ edit_record_cases_for_client=Πρόσφατες περιπτώσεις για αυτόν τον πελάτη
-    # 🔴 edit_record_cases_handled_by -> Handled by
-    ➡️ edit_record_cases_handled_by=Διαχειρίζεται από
-    # 🔴 edit_record_cases_header -> Edit Case
-    ➡️ edit_record_cases_header=Επεξεργασία υπόθεσης
-    # 🔴 edit_record_cases_id -> Case Id
-    ➡️ edit_record_cases_id=ΙD Υπόθεσης
-    # 🔴 edit_record_cases_none_found -> None found
-    ➡️ edit_record_cases_none_found=Δεν βρέθηκε κανένα
-    # 🔴 edit_record_cases_notes -> Notes
-    ➡️ edit_record_cases_notes=Παρατηρήσεις
-    # 🔴 edit_record_cases_queue -> Queue
-    ➡️ edit_record_cases_queue=Ουρά Αναμονής
-    # 🔴 edit_record_cases_securitykey -> Security Key
-    ➡️ edit_record_cases_securitykey=Κλειδί Ασφαλείας
-    # 🔴 edit_record_cases_status -> Status
-    ➡️ edit_record_cases_status=Κατάσταση
-    # 🔴 edit_record_cases_text -> Note text
-    ➡️ edit_record_cases_text=Παρατήρηση κειμένου
-    # 🔴 edit_record_cases_title -> Title
-    ➡️ edit_record_cases_title=Τίτλος
-    # 🔴 edit_record_cases_xref -> Reference
-    ➡️ edit_record_cases_xref=Αναφορά
+    edit_record_case_transactions=Δραστηριότητα για αυτήν την περίπτωση
+    edit_record_cases_contact=Επαφή
+    edit_record_cases_email=Ηλεκτρονικό Ταχυδρομείο 
+    edit_record_cases_for_client=Πρόσφατες περιπτώσεις για αυτόν τον πελάτη
+    edit_record_cases_handled_by=Διαχειρίζεται από
+    edit_record_cases_header=Επεξεργασία υπόθεσης
+    edit_record_cases_id=ΙD Υπόθεσης
+    edit_record_cases_none_found=Δεν βρέθηκε κανένα
+    edit_record_cases_notes=Παρατηρήσεις
+    edit_record_cases_queue=Ουρά Αναμονής
+    edit_record_cases_securitykey=Κλειδί Ασφαλείας
+    edit_record_cases_status=Κατάσταση
+    edit_record_cases_text=Παρατήρηση κειμένου
+    edit_record_cases_title=Τίτλος
+    edit_record_cases_xref=Αναφορά
     edit_record_cbt_code=Κωδικός CBT
     edit_record_cbt_counter=Απεσταλμένοι μετρητές:
     edit_record_cbt_offline=Εκτός συνδεσης:
@@ -1684,22 +1523,14 @@ Used for data blocks Overview by Agent/Queue
     edit_record_classes_name=Όνομα κατηγορίας:
     edit_record_classes_title=Λεπτομέρειες Κατηγορίας
     edit_record_classes_usersinclass=Αριθμός χρηστών που ανήκουν σε αυτήν την κατηγορία:
-    # 🔴 edit_record_client_id -> Client
-    ➡️ edit_record_client_id=Πελάτης
-    # 🔴 edit_record_clients_contact -> Contact
-    ➡️ edit_record_clients_contact=Επαφή
-    # 🔴 edit_record_clients_email -> Email
-    ➡️ edit_record_clients_email=Ηλεκτονικό ταχυδρομείο
-    # 🔴 edit_record_clients_header -> Edit Client
-    ➡️ edit_record_clients_header=Επεξεργασία Πελάτη
-    # 🔴 edit_record_clients_name -> Name
-    ➡️ edit_record_clients_name=Όνομα 
-    # 🔴 edit_record_clients_notes -> Notes
-    ➡️ edit_record_clients_notes=Παρατηρήσεις
-    # 🔴 edit_record_clients_securitykey -> Security Key
-    ➡️ edit_record_clients_securitykey=Κλειδί Ασφαλείας
-    # 🔴 edit_record_clients_status -> Client status
-    ➡️ edit_record_clients_status=Κατάσταση Πελάτη
+    edit_record_client_id=Πελάτης
+    edit_record_clients_contact=Επαφή
+    edit_record_clients_email=Ηλεκτονικό ταχυδρομείο
+    edit_record_clients_header=Επεξεργασία Πελάτη
+    edit_record_clients_name=Όνομα 
+    edit_record_clients_notes=Παρατηρήσεις
+    edit_record_clients_securitykey=Κλειδί Ασφαλείας
+    edit_record_clients_status=Κατάσταση Πελάτη
     edit_record_clone=Κλώνος
     edit_record_createdby=Δημιουργήθηκε την
     edit_record_cronjob_dom=Ημέρα του Μήνα
@@ -1720,30 +1551,18 @@ Used for data blocks Overview by Agent/Queue
     edit_record_cronjobs_name=Όνομα
     edit_record_cronjobs_nolastruns=Δεν υπάρχουν πρόσφατες εκτελέσεις για επισκόπιση
     edit_record_cronjobs_title=Λεπτομέρειες Προγραμματισμένων Εργασιών
-    # 🔴 edit_record_customblocks_block -> Dispatch Name
-    ➡️ edit_record_customblocks_block=Όνομα Αποστολέα
-    # 🔴 edit_record_customblocks_description -> Description
-    ➡️ edit_record_customblocks_description=Περιγραφή
-    # 🔴 edit_record_customblocks_graph_params -> Chart Parameters
-    ➡️ edit_record_customblocks_graph_params=Παράμετροι Διαγράμματος
-    # 🔴 edit_record_customblocks_graph_provider -> Chart Provider
-    ➡️ edit_record_customblocks_graph_provider=Πάροχος Διαγραμματος 
-    # 🔴 edit_record_customblocks_graphnone -> None
-    ➡️ edit_record_customblocks_graphnone=Κανένα
-    # 🔴 edit_record_customblocks_graphreact -> React
-    ➡️ edit_record_customblocks_graphreact=Αντίδραση
-    # 🔴 edit_record_customblocks_header -> Edit Custom DataBlock
-    ➡️ edit_record_customblocks_header=Επεξεργασία Προσαρμοσμένης Μονάδας Δεδομένων
-    # 🔴 edit_record_customblocks_provider -> Provider
-    ➡️ edit_record_customblocks_provider=Πάροχος
-    # 🔴 edit_record_customblocks_securitykey -> Security Key
-    ➡️ edit_record_customblocks_securitykey=Κλειδί Ασφαλείας
-    # 🔴 edit_record_customblocks_source_body -> Source
-    ➡️ edit_record_customblocks_source_body=Πηγή
-    # 🔴 edit_record_customblocks_title -> Title
-    ➡️ edit_record_customblocks_title=Τίτλος
-    # 🔴 edit_record_customblocks_view -> View
-    ➡️ edit_record_customblocks_view=Προβολή
+    edit_record_customblocks_block=Όνομα Αποστολέα
+    edit_record_customblocks_description=Περιγραφή
+    edit_record_customblocks_graph_params=Παράμετροι Διαγράμματος
+    edit_record_customblocks_graph_provider=Πάροχος Διαγραμματος 
+    edit_record_customblocks_graphnone=Κανένα
+    edit_record_customblocks_graphreact=Αντίδραση
+    edit_record_customblocks_header=Επεξεργασία Προσαρμοσμένης Μονάδας Δεδομένων
+    edit_record_customblocks_provider=Πάροχος
+    edit_record_customblocks_securitykey=Κλειδί Ασφαλείας
+    edit_record_customblocks_source_body=Πηγή
+    edit_record_customblocks_title=Τίτλος
+    edit_record_customblocks_view=Προβολή
     edit_record_delete=Διαγραφή
     edit_record_description=Περιγραφή
     edit_record_dnis_code=Κωδικός DNIS:
@@ -1759,8 +1578,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_export_title=Λεπτομέριες Εξαγωγής Αναφοράς
     edit_record_export_titlefield=Τίτλος:
     edit_record_export_visibility=Κλειδί ορατότητας
-    # 🔴 edit_record_ext_ref -> Reference
-    ➡️ edit_record_ext_ref=Αναφορά
+    edit_record_ext_ref=Αναφορά
     edit_record_external_reference=Αναγνωριστικό εξωτερικής σύνδεσης:
     edit_record_features_code=Κωδικός υπηρεσίας
     edit_record_features_goal=Στόχος:
@@ -1839,26 +1657,16 @@ Used for data blocks Overview by Agent/Queue
     edit_record_queue_agentspaused=Αριθμός χρηστών σε παύση:
     edit_record_queue_agentswaiting=Αριθμός χρηστών σε αναμονή:
     edit_record_queue_alias=Ψευδώνυμο Ουράς αναμονής:
-    # 🔴 edit_record_queue_amo -> AMO Settings
-    ➡️ edit_record_queue_amo=Ρυθμίσεις ΑΜΟ
-    # 🔴 edit_record_queue_amo_enabled -> Enabled
-    ➡️ edit_record_queue_amo_enabled=Ενεργοποιημένο
-    # 🔴 edit_record_queue_amo_exponential -> Exponential
-    ➡️ edit_record_queue_amo_exponential=Εκθετικός
-    # 🔴 edit_record_queue_amo_fixed -> Fixed
-    ➡️ edit_record_queue_amo_fixed=Σταθερός
-    # 🔴 edit_record_queue_amo_linear -> Linear
-    ➡️ edit_record_queue_amo_linear=Γραμμικός
-    # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
-    ➡️ edit_record_queue_amo_recall_attributes=Επαναφορά χαρακτηριστικών
-    # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
-    ➡️ edit_record_queue_amo_recall_max_attempts=Μέγιστες απόπειρες
-    # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
-    ➡️ edit_record_queue_amo_recall_sec=Δευτερόλεπτα πριν την επανάκληση
-    # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
-    ➡️ edit_record_queue_amo_recall_stepping=Βήματα ανάκλησης
-    # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
-    ➡️ edit_record_queue_amo_recall_valid_outcomes=Έγκυρα αποτελέσματα
+    edit_record_queue_amo=Ρυθμίσεις ΑΜΟ
+    edit_record_queue_amo_enabled=Ενεργοποιημένο
+    edit_record_queue_amo_exponential=Εκθετικός
+    edit_record_queue_amo_fixed=Σταθερός
+    edit_record_queue_amo_linear=Γραμμικός
+    edit_record_queue_amo_recall_attributes=Επαναφορά χαρακτηριστικών
+    edit_record_queue_amo_recall_max_attempts=Μέγιστες απόπειρες
+    edit_record_queue_amo_recall_sec=Δευτερόλεπτα πριν την επανάκληση
+    edit_record_queue_amo_recall_stepping=Βήματα ανάκλησης
+    edit_record_queue_amo_recall_valid_outcomes=Έγκυρα αποτελέσματα
     edit_record_queue_attention=Επίπεδα προσοχής
     edit_record_queue_callsinqueue=Αριθμός κλήσεων σε ουρά αναμονής:
     edit_record_queue_chat=Ομάδα chat:
@@ -1931,8 +1739,7 @@ Used for data blocks Overview by Agent/Queue
     edit_record_users_realname=Πραγματικό όνομα:
     edit_record_users_title=Λεπτομέριες χρήστη
     edit_record_users_token=Token:
-    # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
-    ➡️ edit_record_xref_blank=Αφήστε κενό για να δημιουργηθεί μια παραπομπή αυτόματα
+    edit_record_xref_blank=Αφήστε κενό για να δημιουργηθεί μια παραπομπή αυτόματα
     edit_reports_automatic=Αυτόματη ρύθμιση παραμέτρων αναφοράς
     edit_reports_desc=Περιγρ.
     edit_reports_key=Κλειδί
@@ -1974,8 +1781,7 @@ Used for data blocks Overview by Agent/Queue
 
     qa_agent=Χρήστης
     qa_agent_groups=Ομάδες χρηστών
-    # 🔴 qa_agent_groups_icon -> Icon
-    ➡️ qa_agent_groups_icon=Εικονίδιο
+    qa_agent_groups_icon=Εικονίδιο
     qa_all_calls=Όλες οι κλήσεις 
     qa_analyst=Ανάλυση QA
     qa_astclid=AstClid
@@ -2157,8 +1963,7 @@ Used for data blocks Overview by Agent/Queue
     qa_pop_print=Εκτύπωση
     qa_prc_act=%
     qa_prc_min=απαραίτητο %
-    # 🔴 qa_print_report -> Print QA Report
-    ➡️ qa_print_report=Εκτύπωση Αναφοράς Ποιότητας
+    qa_print_report=Εκτύπωση Αναφοράς Ποιότητας
     qa_queryfilterwarn=Μπορείτε να επιλέξετε μόνο ένα φίλτρο για τον χειριστή κάθε φορά
     qa_queue=Ουρά αναμονής
     qa_range=Εύρος
@@ -2247,8 +2052,7 @@ Used for data blocks Overview by Agent/Queue
     filter_idAgentGroup=Ομάδα χρηστών
     filter_idLocation=Τοποθεσία
     filter_ivr= IVR
-    # 🔴 filter_lostAttemptFor -> Lost Attempt For
-    ➡️ filter_lostAttemptFor=Χαμένη απόπειρα για
+    filter_lostAttemptFor=Χαμένη απόπειρα για
     filter_noncont_days=Ημέρες
     filter_noncont_r1_from=Χρόνος από
     filter_noncont_r1_to=Χρόνος έως
@@ -2268,12 +2072,9 @@ Used for data blocks Overview by Agent/Queue
 ## Wallboard
 
 
-    # 🔴 rt3_Talk -> Talk
-    ➡️ rt3_Talk=Συνομιλία
-    # 🔴 rt3_action_error -> An error has occured, the command has not been sent.
-    ➡️ rt3_action_error=Παρουσιάστηκε σφάλμα, η εντολή δεν έχει αποσταλεί.
-    # 🔴 rt3_action_success -> The command was successfully sent.
-    ➡️ rt3_action_success=Η εντολή εστάλη με επιτυχία.
+    rt3_Talk=Συνομιλία
+    rt3_action_error=Παρουσιάστηκε σφάλμα, η εντολή δεν έχει αποσταλεί.
+    rt3_action_success=Η εντολή εστάλη με επιτυχία.
     # 🔴 rt3_actions_barge -> Barge
     ➡️ rt3_actions_barge=
     # 🔴 rt3_actions_chanspy -> Spy
@@ -2282,11 +2083,9 @@ Used for data blocks Overview by Agent/Queue
     ➡️ rt3_actions_whisper=
     rt3_add=Προσθήκη νέου Widget
     rt3_add_box=Προσθήκη νέου κουτιού στη σελίδα.
-    # 🔴 rt3_add_queue -> Select Queue
-    ➡️ rt3_add_queue=Επιλέξτε Ουρά Αναμονής
+    rt3_add_queue=Επιλέξτε Ουρά Αναμονής
     rt3_add_view=Προσθήκη νέας προβολής
-    # 🔴 rt3_advanced -> Advanced
-    ➡️ rt3_advanced=Προχωρημένο
+    rt3_advanced=Προχωρημένο
     rt3_ag_calls_alm_red=Κόκκινη προειδοποίηση απασχολημένων χρηστών
     rt3_ag_calls_alm_yel=Κίτρινη προειδοποίηση απασχολημένων χρηστών
     rt3_ag_inbound_alm_red=Κόκκινη προειδοποίηση χρηστών με εισερχόμενες κλήσεις
@@ -2302,18 +2101,12 @@ Used for data blocks Overview by Agent/Queue
     rt3_ag_wait_alm_red=Κόκκινη προειδοποίηση έτοιμων χρηστών
     rt3_ag_wait_alm_yel=Κίτρινη προειδοποίηση έτοιμων χρηστών
     rt3_agent=Χρήστης
-    # 🔴 rt3_agent_action_title -> Select an action for an agent
-    ➡️ rt3_agent_action_title=Επιλέξτε μια ενέργεια για ένα χρήστη
-    # 🔴 rt3_agent_actions -> Agent Actions
-    ➡️ rt3_agent_actions=Ενέργειες Χρήστη
-    # 🔴 rt3_agent_addmember -> Add Member to Queue
-    ➡️ rt3_agent_addmember=Προσθήκη Μέλους στην Ουρά Αναμονής
-    # 🔴 rt3_agent_changepause -> Change Pause
-    ➡️ rt3_agent_changepause=Αλλαγή Παύσης
-    # 🔴 rt3_agent_code -> Agent Code
-    ➡️ rt3_agent_code=Κωδικός Χρήστη
-    # 🔴 rt3_agent_extension -> Agent Extension
-    ➡️ rt3_agent_extension=Επέκταση Χρήστη
+    rt3_agent_action_title=Επιλέξτε μια ενέργεια για ένα χρήστη
+    rt3_agent_actions=Ενέργειες Χρήστη
+    rt3_agent_addmember=Προσθήκη Μέλους στην Ουρά Αναμονής
+    rt3_agent_changepause=Αλλαγή Παύσης
+    rt3_agent_code=Κωδικός Χρήστη
+    rt3_agent_extension=Επέκταση Χρήστη
     # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
     ➡️ rt3_agent_extension_regex_error=
     # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
@@ -2323,105 +2116,66 @@ Used for data blocks Overview by Agent/Queue
     # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
     ➡️ rt3_agent_code_min_1_char_error=
     rt3_agent_info=Πληροφορίες χρηστών
-    # 🔴 rt3_agent_login -> Login (All Queues)
-    ➡️ rt3_agent_login=Σύνδεση (Όλες οι Ουρές)
+    rt3_agent_login=Σύνδεση (Όλες οι Ουρές)
     rt3_agent_logon=Σύνδεση χρηστών
-    # 🔴 rt3_agent_logout -> Logout (All Queues)
-    ➡️ rt3_agent_logout=Αποσύνδεση (Όλες οι Ουρές)
-    # 🔴 rt3_agent_pause -> Pause Agent
-    ➡️ rt3_agent_pause=Παύση Χρήστη
-    # 🔴 rt3_agent_removemember -> Remove Member from Queue
-    ➡️ rt3_agent_removemember=Αφαίρεση Μέλους από την Ουρά
-    # 🔴 rt3_agent_select -> Please select an Agent...
-    ➡️ rt3_agent_select=Παρακαλώ επιλέξτε ένα Χρήστη...
+    rt3_agent_logout=Αποσύνδεση (Όλες οι Ουρές)
+    rt3_agent_pause=Παύση Χρήστη
+    rt3_agent_removemember=Αφαίρεση Μέλους από την Ουρά
+    rt3_agent_select=Παρακαλώ επιλέξτε ένα Χρήστη...
     # 🔴 rt3_agent_status -> Status
     ➡️ rt3_agent_status=
-    # 🔴 rt3_agent_unpause -> Unpause Agent
-    ➡️ rt3_agent_unpause=Άρση Παύσης Χρήστη
+    rt3_agent_unpause=Άρση Παύσης Χρήστη
     rt3_agents=Χρήστες
     rt3_agents_on_inbound=Χρήστες σε εισερχόμενες
     rt3_agents_on_outbound=Χρήστες σε εξερχόμενες
-    # 🔴 rt3_alarm_cell_value -> Cell Value
-    ➡️ rt3_alarm_cell_value=Τιμή Κελιού
-    # 🔴 rt3_alarm_column_title -> Column
-    ➡️ rt3_alarm_column_title=Στήλη
-    # 🔴 rt3_all_agents -> All Agents
-    ➡️ rt3_all_agents=Όλοι οι Χρήστες
-    # 🔴 rt3_all_columns -> All Columns
-    ➡️ rt3_all_columns=Όλες οι Στήλες
+    rt3_alarm_cell_value=Τιμή Κελιού
+    rt3_alarm_column_title=Στήλη
+    rt3_all_agents=Όλοι οι Χρήστες
+    rt3_all_columns=Όλες οι Στήλες
     rt3_all_queues=Όλες οι ουρές αναμονής
-    # 🔴 rt3_answer -> Answer
-    ➡️ rt3_answer=Απάντηση
-    # 🔴 rt3_avgTalk -> Avg. Talk
-    ➡️ rt3_avgTalk=Μέσος όρος συνομιλίας
-    # 🔴 rt3_avgWait -> Avg. Wait
-    ➡️ rt3_avgWait=Μέσος όρος αναμονής
+    rt3_answer=Απάντηση
+    rt3_avgTalk=Μέσος όρος συνομιλίας
+    rt3_avgWait=Μέσος όρος αναμονής
     rt3_avg_queue_info=Πληροφορίες μέσου όρου ουράς αναμονής
     rt3_avg_talk=Μέσος όρος συνομιλίας
     rt3_avg_wait=Μέσος όρος αναμονής
-    # 🔴 rt3_avgtalk_alarm_red -> Avg. Talk Red Alarm
-    ➡️ rt3_avgtalk_alarm_red=Μέσος όρος συνομιλίας Κόκκινη Προειδοποίηση
-    # 🔴 rt3_avgtalk_alarm_yel -> Avg. Talk Yellow Alarm
-    ➡️ rt3_avgtalk_alarm_yel=Μέσος όρος συνομιλίας Κίτρινη Προειδοποίηση
+    rt3_avgtalk_alarm_red=Μέσος όρος συνομιλίας Κόκκινη Προειδοποίηση
+    rt3_avgtalk_alarm_yel=Μέσος όρος συνομιλίας Κίτρινη Προειδοποίηση
     rt3_bar_sla=Ραβδόγραμμα - SLA
     # 🔴 rt3_billpause -> Pause Bill.
     ➡️ rt3_billpause=
     rt3_blue=Μπλε
     rt3_busy=Απασχολημένο
-    # 🔴 rt3_call -> Call
-    ➡️ rt3_call=Κλήση
-    # 🔴 rt3_call_action_title -> Select an action for a call
-    ➡️ rt3_call_action_title=Επιλέξτε μια ενέργεια για μια κλήση
-    # 🔴 rt3_call_actions -> Call Actions
-    ➡️ rt3_call_actions=Ενέργειες Κλήσης
-    # 🔴 rt3_call_actions_subtitle -> Click on a call to select it
-    ➡️ rt3_call_actions_subtitle=Κάντε κλικ σε μια κλήση για να την επιλέξετε
-    # 🔴 rt3_call_agent -> Agent
-    ➡️ rt3_call_agent=Χρήστης
+    rt3_call=Κλήση
+    rt3_call_action_title=Επιλέξτε μια ενέργεια για μια κλήση
+    rt3_call_actions=Ενέργειες Κλήσης
+    rt3_call_actions_subtitle=Κάντε κλικ σε μια κλήση για να την επιλέξετε
+    rt3_call_agent=Χρήστης
     rt3_call_alarm_red=Κόκκινη προειδοποίηση κλήσεων
     rt3_call_alarm_yel=Κίτρινη προειδοποίηση κλήσεων
-    # 🔴 rt3_call_close -> Close Call
-    ➡️ rt3_call_close=Κλείσιμο Κλήσης
-    # 🔴 rt3_call_failed -> The call has failed.
-    ➡️ rt3_call_failed=Η κλήση απέτυχε
-    # 🔴 rt3_call_hangup -> Hangup Call
-    ➡️ rt3_call_hangup=Τερματισμός κλήσης
-    # 🔴 rt3_call_id -> Call Id
-    ➡️ rt3_call_id=Αναγνωριστικό Κλήσης
-    # 🔴 rt3_call_in_progress -> Call in progress
-    ➡️ rt3_call_in_progress=Κλήση σε εξέλιξη
-    # 🔴 rt3_call_localextension -> Local Extension
-    ➡️ rt3_call_localextension=Τοπική Επέκταση
-    # 🔴 rt3_call_monitor -> Monitor Call
-    ➡️ rt3_call_monitor=Παρακολούθηση Κλήσης
-    # 🔴 rt3_call_number -> Caller
-    ➡️ rt3_call_number=Καλών
-    # 🔴 rt3_call_offhold -> The call was taken off hold.
-    ➡️ rt3_call_offhold=Η κλήση βγήκε από την αναμονή
-    # 🔴 rt3_call_onhold -> The call was put on hold.
-    ➡️ rt3_call_onhold=Η κλήση τέθηκε σε αναμονή
-    # 🔴 rt3_call_qa -> Grade Call
-    ➡️ rt3_call_qa=Αξιολόγηση Κλήσης
-    # 🔴 rt3_call_queue -> Queue
-    ➡️ rt3_call_queue=Ουρά αναμονής
-    # 🔴 rt3_call_started -> The call has started.
-    ➡️ rt3_call_started=Η κλήση έχει ξεκινήσει
+    rt3_call_close=Κλείσιμο Κλήσης
+    rt3_call_failed=Η κλήση απέτυχε
+    rt3_call_hangup=Τερματισμός κλήσης
+    rt3_call_id=Αναγνωριστικό Κλήσης
+    rt3_call_in_progress=Κλήση σε εξέλιξη
+    rt3_call_localextension=Τοπική Επέκταση
+    rt3_call_monitor=Παρακολούθηση Κλήσης
+    rt3_call_number=Καλών
+    rt3_call_offhold=Η κλήση βγήκε από την αναμονή
+    rt3_call_onhold=Η κλήση τέθηκε σε αναμονή
+    rt3_call_qa=Αξιολόγηση Κλήσης
+    rt3_call_queue=Ουρά αναμονής
+    rt3_call_started=Η κλήση έχει ξεκινήσει
     rt3_call_status=Κατάσταση
-    # 🔴 rt3_call_terminated -> The call was terminated.
-    ➡️ rt3_call_terminated=Η κλήση τερματίστηκε
-    # 🔴 rt3_call_transfer -> Transfer Call
-    ➡️ rt3_call_transfer=Μεταφορά Κλήσης
-    # 🔴 rt3_call_transferextension -> Transfer to (ext.)
-    ➡️ rt3_call_transferextension=Μεταφορά σε εσωτερικό
+    rt3_call_terminated=Η κλήση τερματίστηκε
+    rt3_call_transfer=Μεταφορά Κλήσης
+    rt3_call_transferextension=Μεταφορά σε εσωτερικό
     rt3_caller=Καλών
-    # 🔴 rt3_callfeatures -> Call Features
-    ➡️ rt3_callfeatures=Χαρακτηριστικά Κλήσης
-    # 🔴 rt3_callgoalfeatures -> Goal Ftrs
-    ➡️ rt3_callgoalfeatures=Χαρακτηριστικά Στόχου
+    rt3_callfeatures=Χαρακτηριστικά Κλήσης
+    rt3_callgoalfeatures=Χαρακτηριστικά Στόχου
     rt3_calls_alm_red=Κόκκινη προειδοποίηση κλήσεων σε αναμονή
     rt3_calls_alm_yel=Κίτρινη προειδοποίηση κλήσεων σε αναμονή
-    # 🔴 rt3_calltag -> Tag
-    ➡️ rt3_calltag=Ετικέτα
+    rt3_calltag=Ετικέτα
     rt3_cancel=Ακύρωση
     rt3_cannot_edit_wb_warning=Η επεξεργασία απαγορεύεται, ο χρήστης δεν διαθέτει τα απαραίτητα κλειδιά.
     rt3_category_chart=Γραφήματα
@@ -2431,16 +2185,11 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_multiitem=Σύνθετα στοιχεία
     rt3_category_table=Πίνακες
     rt3_category_various=Διάφορα
-    # 🔴 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
-    ➡️ rt3_change_queue_confirm=Έχετε μη αποθηκευμένες αλλαγές που θα χαθούν κατά την αλλαγή ουράς αναμονής. Επιβεβαίωση;
-    # 🔴 rt3_choose_action -> Choose Action
-    ➡️ rt3_choose_action=Επιλέξτε Ενέργεια
-    # 🔴 rt3_choose_monitor_mode -> Monitoring Mode
-    ➡️ rt3_choose_monitor_mode=Λειτουργία Παρακολούθησης
-    # 🔴 rt3_choose_queue -> Choose Queue
-    ➡️ rt3_choose_queue=Επιλέξτε Ουρά Αναμονής
-    # 🔴 rt3_choose_server -> Choose the server
-    ➡️ rt3_choose_server=Επιλέξτε Διακομιστή
+    rt3_change_queue_confirm=Έχετε μη αποθηκευμένες αλλαγές που θα χαθούν κατά την αλλαγή ουράς αναμονής. Επιβεβαίωση;
+    rt3_choose_action=Επιλέξτε Ενέργεια
+    rt3_choose_monitor_mode=Λειτουργία Παρακολούθησης
+    rt3_choose_queue=Επιλέξτε Ουρά Αναμονής
+    rt3_choose_server=Επιλέξτε Διακομιστή
     rt3_circle_agents_oncall=Αριθμ. χρηστών σε κλήση
     rt3_circle_answered_calls=Αριθμ. απαντημένων κλήσεων
     rt3_circle_answered_perc=% Απαντημένων
@@ -2456,21 +2205,16 @@ Used for data blocks Overview by Agent/Queue
     rt3_close=Κλείσιμο
     rt3_code=ΚωδικόςΠαύσης
     rt3_color=Χρώμα
-    # 🔴 rt3_columns -> Columns
-    ➡️ rt3_columns=Στήλες
+    rt3_columns=Στήλες
     rt3_comment=Σχόλια
-    # 🔴 rt3_configure_phone -> Softphone Configuration
-    ➡️ rt3_configure_phone=Διαμόρφωση Softphone
+    rt3_configure_phone=Διαμόρφωση Softphone
     rt3_connection_error=Σφάλμα σύνδεσης με server
-    # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
-    ➡️ rt3_connection_valid=Η σύνδεση με τον διακομιστή λειτουργεί σωστά
-    # 🔴 rt3_cont -> Cont.
-    ➡️ rt3_cont=Συνεχ.
+    rt3_connection_valid=Η σύνδεση με τον διακομιστή λειτουργεί σωστά
+    rt3_cont=Συνεχ.
     # 🔴 rt3_contph -> CPH
     ➡️ rt3_contph=
     rt3_conversation=Διάλογος
-    # 🔴 rt3_conversions -> Conv.
-    ➡️ rt3_conversions=Διαλ.
+    rt3_conversions=Διαλ.
     rt3_copy=Αντιγραφή
     rt3_copy_kiosk_url=Δημόσια διεύθυνση URL σε λειτουργία Kiosk
     rt3_create_new=Δημιουργία νέου
@@ -2478,19 +2222,13 @@ Used for data blocks Overview by Agent/Queue
     rt3_current_agent=Τρέχων Χρήστης:
     rt3_current_call=Προέρχεται από
     rt3_current_props=Τρέχουσες ιδιότητες:
-    # 🔴 rt3_data_block -> Data Block
-    ➡️ rt3_data_block=Μονάδα Δεδομένων
-    # 🔴 rt3_data_block_chart -> Chart
-    ➡️ rt3_data_block_chart=Γράφημα 
-    # 🔴 rt3_database -> Database
-    ➡️ rt3_database=Βάση Δεδομένων
-    # 🔴 rt3_datablock -> Data Block
-    ➡️ rt3_datablock=Μονάδα Δεδομένων
+    rt3_data_block=Μονάδα Δεδομένων
+    rt3_data_block_chart=Γράφημα 
+    rt3_database=Βάση Δεδομένων
+    rt3_datablock=Μονάδα Δεδομένων
     rt3_del=Διαγραφή προβολής
-    # 🔴 rt3_delete_current_wallboard_confirm -> The current wallboard will be deleted, proceed?
-    ➡️ rt3_delete_current_wallboard_confirm=Το τρέχον Wallboard θα διαγραφεί, να προχωρήσουμε;
-    # 🔴 rt3_delete_wallboard -> Delete
-    ➡️ rt3_delete_wallboard=Διαγραφή 
+    rt3_delete_current_wallboard_confirm=Το τρέχον Wallboard θα διαγραφεί, να προχωρήσουμε;
+    rt3_delete_wallboard=Διαγραφή 
     rt3_direction=Κατεύθυνση
     rt3_display_size=Μέγεθος εμφάνισης
     rt3_dummy_wlbd=Παράδειγμα Wallboard
@@ -2499,73 +2237,53 @@ Used for data blocks Overview by Agent/Queue
     rt3_edit=Επεξεργασία Γραφικού στοιχείου
     rt3_edit_required=Απαιτείται Επεξεργασία
     rt3_edit_wallboard_cfg=Επεξεργαστείτε και δείτε το τρέχον Wallboard
-    # 🔴 rt3_editwdg_title -> Edit Widget
-    ➡️ rt3_editwdg_title=Επεξεργασία Widget
+    rt3_editwdg_title=Επεξεργασία Widget
     rt3_empty_wlbd=Άδειο Wallboard
-    # 🔴 rt3_enter_title -> Enter Title
-    ➡️ rt3_enter_title=Εισάγετε Τίτλο
-    # 🔴 rt3_error_prefs_fetch -> The user preferences could not be retrieved
-    ➡️ rt3_error_prefs_fetch=Οι προτιμήσεις χρήστη δεν μπόρεσαν να ανακτηθούν
+    rt3_enter_title=Εισάγετε Τίτλο
+    rt3_error_prefs_fetch=Οι προτιμήσεις χρήστη δεν μπόρεσαν να ανακτηθούν
     rt3_error_saving=Σφάλμα αποθήκευσης Wallboard
-    # 🔴 rt3_error_saving_prefs -> The user preferences could not be saved
-    ➡️ rt3_error_saving_prefs=Οι προτιμήσεις χρήστη δεν μπόρεσαν να αποθηκευτούν
+    rt3_error_saving_prefs=Οι προτιμήσεις χρήστη δεν μπόρεσαν να αποθηκευτούν
     rt3_error_saving_public_wb=Ο χρήστης δεν μπορεί να αποθηκεύσει ένα δημόσιο Wallboard
     rt3_error_saving_wb_missing_key=Ο χρήστης δεν μπορεί να αποθηκεύσει το Wallboard, λείπει το κλειδί χρήστη WALLBOARD_ADD
-    # 🔴 rt3_export_schema -> Export
-    ➡️ rt3_export_schema=Εξαγωγή
+    rt3_export_schema=Εξαγωγή
     rt3_extension=Επέκταση
-    # 🔴 rt3_extension_info -> Logged in as:
-    ➡️ rt3_extension_info=Συνδεδεμένος ως:
-    # 🔴 rt3_extra_value -> Some of the selected values are not available
-    ➡️ rt3_extra_value=Μερικές από τις επιλεγμένες τιμές δεν είναι διαθέσιμες
+    rt3_extension_info=Συνδεδεμένος ως:
+    rt3_extra_value=Μερικές από τις επιλεγμένες τιμές δεν είναι διαθέσιμες
     rt3_go=Εκτέλεση
     rt3_gohome=Αρχική
     rt3_goto_login=Πηγαίνετε στη σύνδεση
     rt3_green=Πράσινο
-    # 🔴 rt3_hangup -> Hangup
-    ➡️ rt3_hangup=Τερματισμός κλήσης
-    # 🔴 rt3_hold -> Hold
-    ➡️ rt3_hold=Αναμονή
-    # 🔴 rt3_html -> HTML Page
-    ➡️ rt3_html=HTML Page
+    rt3_hangup=Τερματισμός κλήσης
+    rt3_hold=Αναμονή
+    rt3_html=HTML Page
     rt3_idle=Ανενεργό
     rt3_idle_alarm_red=Ανενεργή Κόκκινη Προειδοποίηση
     rt3_idle_alarm_yel=Ανενεργή Κίτρινη Προειδοποίηση
-    # 🔴 rt3_import_schema -> Import
-    ➡️ rt3_import_schema=Εισαγωγή
+    rt3_import_schema=Εισαγωγή
     rt3_in_ivr=IVR
-    # 🔴 rt3_incoming_call_from -> Incoming call from
-    ➡️ rt3_incoming_call_from=Εισερχόμενη κλήση από
-    # 🔴 rt3_insert_valid_value -> Please insert a valid value
-    ➡️ rt3_insert_valid_value=Παρακαλώ εισάγετε μια έγκυρη τιμή
+    rt3_incoming_call_from=Εισερχόμενη κλήση από
+    rt3_insert_valid_value=Παρακαλώ εισάγετε μια έγκυρη τιμή
     rt3_ispublic=Δημόσιο;
     rt3_ivr_time=IVR
     rt3_kill=Κατάργηση αυτού του γραφικού στοιχείου από την προβολή
     rt3_kiosk_mode_warning=Αυτήν τη στιγμή βρίσκεστε σε διαμόρφωση "kiosk", η επεξεργασία του Wallboard είναι απενεργοποιημένη.
     rt3_last_completed_call=Χωρίς Κλήσεις για
-    # 🔴 rt3_live_agent -> Agent
-    ➡️ rt3_live_agent=Χρήστης
+    rt3_live_agent=Χρήστης
     rt3_live_agent_counters=Μετρητές Ενεργών Χρηστών (Live)
     rt3_live_agent_info=Πληροφορίες Ενεργών Χρηστών (Live)
     rt3_live_queue_info=Πληροφορίες Ουράς αναμονής (Live)
-    # 🔴 rt3_live_status -> Status
-    ➡️ rt3_live_status=Κατάσταση
+    rt3_live_status=Κατάσταση
     rt3_load=Φόρτωση Wallboard
     rt3_loading_data=Φόρτωση δεδομένων ...
-    # 🔴 rt3_loggedoff -> Logged Off
-    ➡️ rt3_loggedoff=Αποσυνδεδεμένος
-    # 🔴 rt3_loggedon -> Logged On
-    ➡️ rt3_loggedon=Συνδεδεμένος
+    rt3_loggedoff=Αποσυνδεδεμένος
+    rt3_loggedon=Συνδεδεμένος
     rt3_longest_wait=Μέγιστη Αναμονή
     # 🔴 rt3_lost_attempts -> Lost Att.
     ➡️ rt3_lost_attempts=
     rt3_lost_prc=Χαμένες
-    # 🔴 rt3_menu_delete -> Delete
-    ➡️ rt3_menu_delete=Διαγραφή
-    # 🔴 rt3_menu_edit -> Edit
-    ➡️ rt3_menu_edit=Επεξεργασία
-    # 🔴 rt3_menu_share -> Share
-    ➡️ rt3_menu_share=Κοινοποίηση
+    rt3_menu_delete=Διαγραφή
+    rt3_menu_edit=Επεξεργασία
+    rt3_menu_share=Κοινοποίηση
     rt3_missing_wdg=Λείπει το γραφικό στοιχείο
     rt3_n_agents=Αρ. Χρηστών
     rt3_n_calls_answered=Απαντημένες Κλήσεις
@@ -2582,30 +2300,20 @@ Used for data blocks Overview by Agent/Queue
     rt3_nofcalls_lost=Χαμένες Κλήσεις
     rt3_nofcalls_offered=Αρ. Προτεινόμενων κλήσεων
     rt3_nofcolumns=Αρ. Στηλών
-    # 🔴 rt3_ntodial -> Dial Number
-    ➡️ rt3_ntodial=Πληκτρολογήστε Αριθμό
-    # 🔴 rt3_number_calling -> Calling:
-    ➡️ rt3_number_calling=Καλεί:
-    # 🔴 rt3_offered -> Offered
-    ➡️ rt3_offered=Προσφέρθηκε
-    # 🔴 rt3_ok -> Ok
-    ➡️ rt3_ok=Ok
+    rt3_ntodial=Πληκτρολογήστε Αριθμό
+    rt3_number_calling=Καλεί:
+    rt3_offered=Προσφέρθηκε
+    rt3_ok=Ok
     rt3_on_pause=Σε Παύση
-    # 🔴 rt3_oncall -> On Call
-    ➡️ rt3_oncall=Σε Κλήση
-    # 🔴 rt3_onhold -> On Hold
-    ➡️ rt3_onhold=Σε Αναμονή
+    rt3_oncall=Σε Κλήση
+    rt3_onhold=Σε Αναμονή
     rt3_pause_alarm_red=Παύση Κόκκινης Προειδοποίησης
     rt3_pause_alarm_yel=Παύση Κίτρινης Προειδοποίησης
     rt3_paused=Σε Παύση
-    # 🔴 rt3_pausetimes -> Pause Time
-    ➡️ rt3_pausetimes=Χρόνος Παύσης
-    # 🔴 rt3_phone -> Softphone
-    ➡️ rt3_phone=Softphone
-    # 🔴 rt3_phone_settings -> Phone Settings
-    ➡️ rt3_phone_settings=Ρυθμίσεις Τηλεφώνου
-    # 🔴 rt3_pin -> Pin
-    ➡️ rt3_pin=Κωδικός
+    rt3_pausetimes=Χρόνος Παύσης
+    rt3_phone=Softphone
+    rt3_phone_settings=Ρυθμίσεις Τηλεφώνου
+    rt3_pin=Κωδικός
     rt3_pink=Ροζ
     rt3_play=Play
     rt3_position=Θέση
@@ -2631,86 +2339,60 @@ Used for data blocks Overview by Agent/Queue
     rt3_red_alarm=Κόκκινη Προειδοποίηση
     rt3_red_line_limit=Όριο Κόκκινης Γραμμής
     rt3_red_line_text=Κείμενο Κόκκινης Γραμμής
-    # 🔴 rt3_register -> Register
-    ➡️ rt3_register=Εγγραφή
-    # 🔴 rt3_register_error -> Error while registering the softphone
-    ➡️ rt3_register_error=Σφάλμα κατά την καταχώριση του softphone
-    # 🔴 rt3_register_notset -> The softphone "register" setting must be set to "yes"
-    ➡️ rt3_register_notset=Η ρύθμιση 'καταχώριση' του softphone πρέπει να είναι ρυθμισμένη σε 'ναι'
-    # 🔴 rt3_register_txt -> Register
-    ➡️ rt3_register_txt=Εγγραφή
-    # 🔴 rt3_registered -> Registered
-    ➡️ rt3_registered=Εγγεγραμμένο
+    rt3_register=Εγγραφή
+    rt3_register_error=Σφάλμα κατά την καταχώριση του softphone
+    rt3_register_notset=Η ρύθμιση 'καταχώριση' του softphone πρέπει να είναι ρυθμισμένη σε 'ναι'
+    rt3_register_txt=Εγγραφή
+    rt3_registered=Εγγεγραμμένο
     rt3_reorder_views=Διαχείρηση προβολών
     rt3_retry_now=Δοκιμή ξανά τώρα
-    # 🔴 rt3_ringing -> Ringing
-    ➡️ rt3_ringing=Κουδουνισμός
-    # 🔴 rt3_sales -> Sales
-    ➡️ rt3_sales=Πωλήσεις
+    rt3_ringing=Κουδουνισμός
+    rt3_sales=Πωλήσεις
     # 🔴 rt3_salesph -> SPH
     ➡️ rt3_salesph=
     rt3_save=Αποθήκευση
     rt3_secondary_color=Δευτερεύον χρώμα
     rt3_seconds=δευτερόλεπτα
     rt3_security_key=Κλειδί ασφαλείας
-    # 🔴 rt3_select_chart -> Select a Chart...
-    ➡️ rt3_select_chart=Επιλέξτε ένα Γράφημα
-    # 🔴 rt3_select_db -> Select a DataBlock...
-    ➡️ rt3_select_db=Επιλέξτε μία μονάδα δεδομένων...
+    rt3_select_chart=Επιλέξτε ένα Γράφημα
+    rt3_select_db=Επιλέξτε μία μονάδα δεδομένων...
     rt3_select_wallboard=Παρακαλώ επιλέξτε Wallboard
-    # 🔴 rt3_send_command -> Ok
-    ➡️ rt3_send_command=Ok
+    rt3_send_command=Ok
     rt3_session_invalid_reconnecting=Πρόβλημα σύνδεσης με Queuemetrics, προσπάθεια επανασύνδεσης
     rt3_size_is=Μέγεθος:
     # 🔴 rt3_sla -> SLA
     ➡️ rt3_sla=
     rt3_sla_level=Επίπεδο SLA
-    # 🔴 rt3_softphone_displayname -> Display name
-    ➡️ rt3_softphone_displayname=Όνομα εμφάνισης
-    # 🔴 rt3_softphone_displayvalue -> Display Value
-    ➡️ rt3_softphone_displayvalue=Τιμή Εμφάνισης
-    # 🔴 rt3_softphone_max_interval -> Connection recovery max. interval
-    ➡️ rt3_softphone_max_interval=Μέγιστο διάστημα αποκατάστασης σύνδεσης
-    # 🔴 rt3_softphone_min_interval -> Connection recovery min. interval
-    ➡️ rt3_softphone_min_interval=Ελάχιστο διάστημα αποκατάστασης σύνδεσης
-    # 🔴 rt3_softphone_password -> Password
-    ➡️ rt3_softphone_password=Κωδικός
-    # 🔴 rt3_softphone_realm -> Realm
-    ➡️ rt3_softphone_realm=Τομέας
+    rt3_softphone_displayname=Όνομα εμφάνισης
+    rt3_softphone_displayvalue=Τιμή Εμφάνισης
+    rt3_softphone_max_interval=Μέγιστο διάστημα αποκατάστασης σύνδεσης
+    rt3_softphone_min_interval=Ελάχιστο διάστημα αποκατάστασης σύνδεσης
+    rt3_softphone_password=Κωδικός
+    rt3_softphone_realm=Τομέας
     # 🔴 rt3_softphone_rtcwebbreaker -> Rtc Web Breaker
     ➡️ rt3_softphone_rtcwebbreaker=
-    # 🔴 rt3_softphone_server -> Server
-    ➡️ rt3_softphone_server=Διακομιστής
+    rt3_softphone_server=Διακομιστής
     # 🔴 rt3_softphone_sipuri -> Sip URI
     ➡️ rt3_softphone_sipuri=
-    # 🔴 rt3_softphone_status_info_registered -> Softphone Registered
-    ➡️ rt3_softphone_status_info_registered=Εγγεγραμμένο Softphone
-    # 🔴 rt3_softphone_status_info_unregistered -> Softphone Unregistered
-    ➡️ rt3_softphone_status_info_unregistered=Μη εγγεγραμμένο Softphone
+    rt3_softphone_status_info_registered=Εγγεγραμμένο Softphone
+    rt3_softphone_status_info_unregistered=Μη εγγεγραμμένο Softphone
     # 🔴 rt3_softphone_status_title -> WebRTC Softphone
     ➡️ rt3_softphone_status_title=
-    # 🔴 rt3_softphone_timeout -> No answer timeout
-    ➡️ rt3_softphone_timeout=Χρόνος αναμονής χωρίς απάντηση
-    # 🔴 rt3_softphone_username -> Username
-    ➡️ rt3_softphone_username=Όνομα Χρήστη
-    # 🔴 rt3_softphone_websocketurl -> Web Socket URL
-    ➡️ rt3_softphone_websocketurl=Διεύθυνση URL Web Socket
+    rt3_softphone_timeout=Χρόνος αναμονής χωρίς απάντηση
+    rt3_softphone_username=Όνομα Χρήστη
+    rt3_softphone_websocketurl=Διεύθυνση URL Web Socket
     rt3_status=Κατάσταση
     rt3_stop=Στοπ
-    # 🔴 rt3_table_agentandoutcome -> Agent And Outcome
-    ➡️ rt3_table_agentandoutcome=Χρήστης και Αποτέλεσμα
-    # 🔴 rt3_table_aggrbyqueue -> Aggregated By Queue
-    ➡️ rt3_table_aggrbyqueue=Αθροισμένο κατά Ουρά
-    # 🔴 rt3_table_aggrbytag -> Aggregated By Tag
-    ➡️ rt3_table_aggrbytag=Αθροισμένο κατά Ετικέτα
+    rt3_table_agentandoutcome=Χρήστης και Αποτέλεσμα
+    rt3_table_aggrbyqueue=Αθροισμένο κατά Ουρά
+    rt3_table_aggrbytag=Αθροισμένο κατά Ετικέτα
     # 🔴 rt3_table_lastattempts -> Last attempts
     ➡️ rt3_table_lastattempts=
     rt3_table_live_agents=Ενεργοί Χρήστες (Live)
     rt3_table_live_calls=Ενεργές Κλήσεις (Live)
     rt3_table_live_queues=Ενεργές Ουρές αναμονής (Live)
     rt3_table_raw=Ακατέργαστα Δεδομένα
-    # 🔴 rt3_taken -> Taken
-    ➡️ rt3_taken=Ληφθέν
+    rt3_taken=Ληφθέν
     # 🔴 rt3_taken_alarm_red -> Taken Red Alarm
     ➡️ rt3_taken_alarm_red=
     # 🔴 rt3_taken_alarm_yel -> Taken Yellow Alarm
@@ -2720,8 +2402,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_talk_yellow_alarm=Συνομιλία Κίτρινη Προειδοποίηση
     rt3_talking=Συνομιλία
     rt3_text=Κείμενο
-    # 🔴 rt3_text_area_placeholder -> Insert text here
-    ➡️ rt3_text_area_placeholder=Εισάγετε κείμενο εδώ
+    rt3_text_area_placeholder=Εισάγετε κείμενο εδώ
     rt3_title=Τίτλος
     # 🔴 rt3_tot_talk -> Tot. Talk
     ➡️ rt3_tot_talk=
@@ -3380,8 +3061,7 @@ Description of security keys:
     tsk_detail_history=Ιστορικό εργασιών
     tsk_detail_info=Πληροφορίες εργασιών
     tsk_detail_lastUpdated=Τελευταία ενημέρωση
-    # 🔴 tsk_detail_message -> Message
-    ➡️ tsk_detail_message=Μήνυμα
+    tsk_detail_message=Μήνυμα
     tsk_detail_notes=Σημειώσεις
     tsk_detail_pfield=Διεργασία
     tsk_detail_process=Επεξεργασία
@@ -3395,15 +3075,13 @@ Description of security keys:
     tsk_disputed_qamsg=Φόρμα QA υπό αμφισβήτηση
     tsk_icon_detail=Εμφάνιση λεπτομερειών
     tsk_list_pfield=Διεργασία
-    # 🔴 tsk_list_tbl_agroup -> Group
-    ➡️ tsk_list_tbl_agroup=Ομάδα
+    tsk_list_tbl_agroup=Ομάδα
     tsk_list_tbl_desc=Περιγραφή
     tsk_list_tbl_expdate=Ισχύει έως
     tsk_list_tbl_from=Από
     tsk_list_tbl_id=Ταυτότητα  εργασίας
     tsk_list_tbl_status=Κατάσταση
-    # 🔴 tsk_list_tbl_ticon -> Task
-    ➡️ tsk_list_tbl_ticon=Εργασία
+    tsk_list_tbl_ticon=Εργασία
     tsk_lists_dueend_date=Ημερομηνία τέλους χρον. περιόδου
     tsk_lists_duestart_date=Ημερομηνία αρχής χρον. περιόδου
     tsk_lists_extendedsearch=Περισσότερες επιλογές αναζήτησης
@@ -3483,80 +3161,54 @@ Description of security keys:
     phone_agent=Πράκτορας
     phone_anonymous=Ανώνυμος
     phone_answer=Απάντηση
-    # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=Μεταφορά με παρακολούθηση
+    phone_attended=Μεταφορά με παρακολούθηση
     phone_attended_transfer=Μεταφορά με παρακολούθηση
     phone_auto_answer_toggle_off=Η αυτόματη απάντηση είναι απενεργοποιημένη
     phone_auto_answer_toggle_on=Η αυτόματη απάντηση είναι απενεργοποιημένη
     phone_basic_settings=Βασικές ρυθμίσεις
-    # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=Μεταφορά χωρίς παρακολούθηση
+    phone_blind=Μεταφορά χωρίς παρακολούθηση
     phone_blind_transfer=Μεταφορά
-    # 🔴 phone_call -> Call
-    ➡️ phone_call=Κλήση
-    # 🔴 phone_calling -> Calling...
-    ➡️ phone_calling=Καλεί...
+    phone_call=Κλήση
+    phone_calling=Καλεί...
     phone_cancel=Ακύρωση
     phone_close=Κλείσιμο
     phone_confirm=Επιβεβαίωση
     phone_connectionrecoverymax=Μέγ. διάστημα ανάκτησης σύνδεσης
     phone_connectionrecoverymin=Ελάχ. διάστημα ανάκτησης σύνδεσης
-    # 🔴 phone_debug -> Click to print debug information in the browser console.
-    ➡️ phone_debug="Κάνε κλικ για να εκτυπώσεις πληροφορίες αποσφαλμάτωσης στην κονσόλα του προγράμματος περιήγησης."
+    phone_debug="Κάνε κλικ για να εκτυπώσεις πληροφορίες αποσφαλμάτωσης στην κονσόλα του προγράμματος περιήγησης."
     phone_dial=Κλήση
     phone_dialing=Κλήση ...
-    # 🔴 phone_dialling -> Dialling...
-    ➡️ phone_dialling=Κλήση ...
+    phone_dialling=Κλήση ...
     phone_displayname=Εμφανιζόμενο Όνομα
     phone_hangup=Τέλος κλήσης
-    # 🔴 phone_http_error -> WebRTC Error.
-    ➡️ phone_http_error=WebRTC Error.
-    # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
-    ➡️ phone_http_error_body=Για να λειτουργήσει σωστά το WebRTC SoftPhone, η QueueMetrics πρέπει να εξυπηρετείται μέσω HTTPS.
+    phone_http_error=WebRTC Error.
+    phone_http_error_body=Για να λειτουργήσει σωστά το WebRTC SoftPhone, η QueueMetrics πρέπει να εξυπηρετείται μέσω HTTPS.
     phone_iceservers=Διακομιστές ICE
-    # 🔴 phone_incoming_call -> Incoming call...
-    ➡️ phone_incoming_call=Εισερχόμενη κλήση...
+    phone_incoming_call=Εισερχόμενη κλήση...
     phone_input_error=Σφάλμα εισαγωγής
-    # 🔴 phone_join -> Join
-    ➡️ phone_join=Συμμετοχή
+    phone_join=Συμμετοχή
     phone_maxsessions=Μέγ. αρ. Συνεδριών
     phone_mute=Σιγαση
-    # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
-    ➡️ phone_no_https=Η QueueMetrics πρέπει να εξυπηρετείται μέσω HTTPS για να λειτουργεί σωστά το SoftPhone.
-    # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=Καμία Ουρά Αναμονής
+    phone_no_https=Η QueueMetrics πρέπει να εξυπηρετείται μέσω HTTPS για να λειτουργεί σωστά το SoftPhone.
+    phone_no_queue=Καμία Ουρά Αναμονής
     phone_noanswertimeout=Χρόνος χωρίς απόκριση
-    # 🔴 phone_not_avaialable -> Softphone Not Available.
-    ➡️ phone_not_avaialable=Το Softphone δεν είναι διαθέσιμο.
-    # 🔴 phone_not_available -> Softphone not available.
-    ➡️ phone_not_available=Το Softphone δεν είναι διαθέσιμο.
+    phone_not_avaialable=Το Softphone δεν είναι διαθέσιμο.
+    phone_not_available=Το Softphone δεν είναι διαθέσιμο.
     phone_password=Κωδικός
     phone_register=Εγγραφή
     phone_registered=Εγγεγραμμένο
-    # 🔴 phone_registering -> Registering
-    ➡️ phone_registering=Εγγραφή
-    # 🔴 phone_returntophone -> Return to Phone
-    ➡️ phone_returntophone=Επιστροφή στο τηλέφωνο.
-    # 🔴 phone_server -> Server
-    ➡️ phone_server=Διακομιστής
-    # 🔴 phone_settings -> Settings
-    ➡️ phone_settings=Ρυθμίσεις
-    # 🔴 phone_swap -> Swap
-    ➡️ phone_swap=Αντικατάσταση
-    # 🔴 phone_toggle_hold -> Hold/Unhold
-    ➡️ phone_toggle_hold=Αναμονή /Αναστολή
-    # 🔴 phone_toggle_transfer -> Transfer
-    ➡️ phone_toggle_transfer=Μεταφορά
-    # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=Μεταφορά
-    # 🔴 phone_unmute -> Unmute
-    ➡️ phone_unmute=Ενεργοποίηση ήχου
-    # 🔴 phone_unregistered -> Unregistered
-    ➡️ phone_unregistered=Μη εγγεγραμμένος
-    # 🔴 phone_update_settings -> Update Settings
-    ➡️ phone_update_settings=Ενημέρωση Ρυθμίσεων
-    # 🔴 phone_username -> Username
-    ➡️ phone_username=Όνομα χρήστη
+    phone_registering=Εγγραφή
+    phone_returntophone=Επιστροφή στο τηλέφωνο.
+    phone_server=Διακομιστής
+    phone_settings=Ρυθμίσεις
+    phone_swap=Αντικατάσταση
+    phone_toggle_hold=Αναμονή /Αναστολή
+    phone_toggle_transfer=Μεταφορά
+    phone_transfer=Μεταφορά
+    phone_unmute=Ενεργοποίηση ήχου
+    phone_unregistered=Μη εγγεγραμμένος
+    phone_update_settings=Ενημέρωση Ρυθμίσεων
+    phone_username=Όνομα χρήστη
     # 🔴 phone_websocketurl -> Websocket URL
     ➡️ phone_websocketurl=
 
@@ -3564,13 +3216,10 @@ Description of security keys:
 
     home_add_infobox=Πρόσθεση InfoBox
     home_configuration_agents=Πράκτορες
-    # 🔴 home_configuration_cases -> Cases
-    ➡️ home_configuration_cases=Υποθέσεις
+    home_configuration_cases=Υποθέσεις
     home_configuration_cbt=CBTs
-    # 🔴 home_configuration_clients -> Clients
-    ➡️ home_configuration_clients=Πελάτες
-    # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
-    ➡️ home_configuration_custom_blocks=Προσαρμοσμένες  Μονάδες Δεδομένων
+    home_configuration_clients=Πελάτες
+    home_configuration_custom_blocks=Προσαρμοσμένες  Μονάδες Δεδομένων
     home_configuration_dnis=DID/DNIS
     home_configuration_export_jobs=Επεξεργασία Εξαγωγής Αναφορών
     home_configuration_features=Λειτουργίες Κλήσεων
@@ -3596,14 +3245,10 @@ Description of security keys:
     home_dbtest_ram_cache=Προσωρινή αποθήκευση RAM
     home_dbtest_smtp=Ελεγκτής SMTP
     home_diagnostics_title=Διαγνωστικά
-    # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
-    ➡️ home_error_fetch_admin_infoboxes=Σφάλμα κατά την ανάκτηση των Πληροφοριακών Πλαισίων Διαχείρισης
-    # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
-    ➡️ home_error_fetch_available_infoboxes=Σφάλμα κατά την ανάκτηση των διαθέσιμων Πλαισίων Πληροφοριών
-    # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
-    ➡️ home_error_fetch_infoboxes=Σφάλμα κατά την ανάκτηση των Πλαισίων Πληροφοριών
-    # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
-    ➡️ home_error_save_prefs=Σφάλμα κατά την αποθήκευση των δεδομένων του Πλαισίου Πληροφοριών
+    home_error_fetch_admin_infoboxes=Σφάλμα κατά την ανάκτηση των Πληροφοριακών Πλαισίων Διαχείρισης
+    home_error_fetch_available_infoboxes=Σφάλμα κατά την ανάκτηση των διαθέσιμων Πλαισίων Πληροφοριών
+    home_error_fetch_infoboxes=Σφάλμα κατά την ανάκτηση των Πλαισίων Πληροφοριών
+    home_error_save_prefs=Σφάλμα κατά την αποθήκευση των δεδομένων του Πλαισίου Πληροφοριών
     home_icon_subtitle=Σελίδα εικονιδίων πρακτόρων
     home_icon_title=Εικονίδιο
     home_infobox_close=Κλείσιμο
@@ -3617,10 +3262,8 @@ Description of security keys:
     home_payroll_title=Αναφορά Μισθοδοσίας
     home_qa_subtitle=Εκκίνηση Αναφοράς QA
     home_qa_title=Αναφορές QA
-    # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle=Διεπαφή Χρήστη Queuemetrics
-    # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title=Σελίδα Χρήστη
+    home_qap_subtitle=Διεπαφή Χρήστη Queuemetrics
+    home_qap_title=Σελίδα Χρήστη
     home_realtime_subtitle=Πλήρης προβολή ζωντανών κλήσεων
     home_realtime_title=Πραγματικός χρόνος
     home_reports_subtitle=Ιστορικές αναφορές
@@ -3628,8 +3271,7 @@ Description of security keys:
     home_search=Αναζήτηση
     home_search_placeholder=Αναζήτηση στην αρχική σελίδα
     home_select_infobox=Επιλέξτε το InfoBox που θέλετε να δείτε στην Αρχική σελίδα
-    # 🔴 home_ssar_subtitle -> Self Service Agent Reports
-    ➡️ home_ssar_subtitle=Αναφορές Χρήστη Αυτοεξυπηρέτησης
+    home_ssar_subtitle=Αναφορές Χρήστη Αυτοεξυπηρέτησης
     home_ssar_title=SSAR
     home_synchronizer_subtitle=Αυτόματη ρύθμιση QueueMetrics
     home_synchronizer_title=Συγχρονιστής
@@ -3657,32 +3299,19 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_title=Επεξεργασία παραμέτρων συστήματος Queuemetrics
     cfgprops_title_wizard=Εξερεύνηση παραμέτρων του συστήματος QueueMetrics
     cfgprops_notice=Μετά την αποθήκευση, θα πρέπει να αποσυνδεθείτε και να συνδεθείτε πάλι ώστε να φορτωθούν οι παραμέτροι.
-    # 🔴 cfgprops_n_items -> N. Properties found
-    ➡️ cfgprops_n_items=Βρέθηκαν N Ιδιότητες
-    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
-    ➡️ cfgprops_input=Εισάγετε μία ή περισσότερες ιδιότητες για ρύθμιση, μία ανά γραμμή
-    # 🔴 cfgprops_comment -> Reason for this change
-    ➡️ cfgprops_comment=Λόγος για αυτή την αλλαγή
-    # 🔴 cfgprops_sort_by -> Sort by
-    ➡️ cfgprops_sort_by=Ταξινόμηση κατά
-    # 🔴 cfgprops_sort_bydate -> Last update
-    ➡️ cfgprops_sort_bydate=Τελευταία ενημέρωση
-    # 🔴 cfgprops_sort_byname -> Name
-    ➡️ cfgprops_sort_byname=Όνομα
-    # 🔴 cfgprops_col_name -> Property name
-    ➡️ cfgprops_col_name=Όνομα ιδιότητας
-    # 🔴 cfgprops_col_value -> Current value
-    ➡️ cfgprops_col_value=Τρέχουσα τιμή
-    # 🔴 cfgprops_col_comment -> Reason
-    ➡️ cfgprops_col_comment=Λόγος
-    # 🔴 cfgprops_history_date -> Date
-    ➡️ cfgprops_history_date=Ημερομηνία
-    # 🔴 cfgprops_history_user -> User
-    ➡️ cfgprops_history_user=Χρήστης
-    # 🔴 cfgprops_history_value -> Value
-    ➡️ cfgprops_history_value=Τιμή
-    # 🔴 cfgprops_history_previous -> Previous entries
-    ➡️ cfgprops_history_previous=Προηγούμενες καταχωρήσεις
+    cfgprops_n_items=Βρέθηκαν N Ιδιότητες
+    cfgprops_input=Εισάγετε μία ή περισσότερες ιδιότητες για ρύθμιση, μία ανά γραμμή
+    cfgprops_comment=Λόγος για αυτή την αλλαγή
+    cfgprops_sort_by=Ταξινόμηση κατά
+    cfgprops_sort_bydate=Τελευταία ενημέρωση
+    cfgprops_sort_byname=Όνομα
+    cfgprops_col_name=Όνομα ιδιότητας
+    cfgprops_col_value=Τρέχουσα τιμή
+    cfgprops_col_comment=Λόγος
+    cfgprops_history_date=Ημερομηνία
+    cfgprops_history_user=Χρήστης
+    cfgprops_history_value=Τιμή
+    cfgprops_history_previous=Προηγούμενες καταχωρήσεις
     
 
 These are obsolete:
@@ -3704,20 +3333,13 @@ Other items
     agt_history_mtn=Αποστολή οδηγιών:
     # 🔴 amo_close_info -> Close AMO Information
     ➡️ amo_close_info=
-    # 🔴 amo_dialer_state_completed -> Completed
-    ➡️ amo_dialer_state_completed=Ολοκληρωμένο
-    # 🔴 amo_dialer_state_open -> Open
-    ➡️ amo_dialer_state_open=Ανοιχτό
-    # 🔴 amo_import_error_nonumber -> The 'number' field is mandatory for every record.
-    ➡️ amo_import_error_nonumber=Το πεδίο 'αριθμός' είναι υποχρεωτικό για κάθε εγγραφή.
-    # 🔴 amo_import_error_norecords -> Please include at least one record in the CSV file.
-    ➡️ amo_import_error_norecords=Παρακαλώ συμπεριλάβετε τουλάχιστον μία εγγραφή στο αρχείο CSV.
-    # 🔴 amo_last_info -> AMO Call Information
-    ➡️ amo_last_info=Πληροφορίες Κλήσης AMO
-    # 🔴 amo_list_state_open -> Open
-    ➡️ amo_list_state_open=Ανοιχτή
-    # 🔴 amo_list_state_paused -> Paused
-    ➡️ amo_list_state_paused=Σε Πάυση
+    amo_dialer_state_completed=Ολοκληρωμένο
+    amo_dialer_state_open=Ανοιχτό
+    amo_import_error_nonumber=Το πεδίο 'αριθμός' είναι υποχρεωτικό για κάθε εγγραφή.
+    amo_import_error_norecords=Παρακαλώ συμπεριλάβετε τουλάχιστον μία εγγραφή στο αρχείο CSV.
+    amo_last_info=Πληροφορίες Κλήσης AMO
+    amo_list_state_open=Ανοιχτή
+    amo_list_state_paused=Σε Πάυση
     # 🔴 amo_number_state_blklist -> Blacklisted
     ➡️ amo_number_state_blklist=
     # 🔴 amo_number_state_dialed -> Dialed
