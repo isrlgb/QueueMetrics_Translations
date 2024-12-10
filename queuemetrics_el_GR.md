@@ -1936,7 +1936,7 @@ Do not change the items below:
     qa_agent=Χρήστης
     qa_agent_groups=Ομάδες χρηστών
     # 🔴 qa_agent_groups_icon -> Icon
-    ➡️ qa_agent_groups_icon=
+    ➡️ qa_agent_groups_icon=Εικονίδιο
     qa_all_calls=Όλες οι κλήσεις 
     qa_analyst=Ανάλυση QA
     qa_astclid=AstClid
@@ -2119,7 +2119,7 @@ Do not change the items below:
     qa_prc_act=%
     qa_prc_min=απαραίτητο %
     # 🔴 qa_print_report -> Print QA Report
-    ➡️ qa_print_report=
+    ➡️ qa_print_report=Εκτύπωση Αναφοράς Ποιότητας
     qa_queryfilterwarn=Μπορείτε να επιλέξετε μόνο ένα φίλτρο για τον χειριστή κάθε φορά
     qa_queue=Ουρά αναμονής
     qa_range=Εύρος
@@ -2209,7 +2209,7 @@ Do not change the items below:
     filter_idLocation=Τοποθεσία
     filter_ivr= IVR
     # 🔴 filter_lostAttemptFor -> Lost Attempt For
-    ➡️ filter_lostAttemptFor=
+    ➡️ filter_lostAttemptFor=Χαμένη απόπειρα για
     filter_noncont_days=Ημέρες
     filter_noncont_r1_from=Χρόνος από
     filter_noncont_r1_to=Χρόνος έως
@@ -2230,11 +2230,11 @@ Do not change the items below:
 
 
     # 🔴 rt3_Talk -> Talk
-    ➡️ rt3_Talk=
+    ➡️ rt3_Talk=Συνομιλία
     # 🔴 rt3_action_error -> An error has occured, the command has not been sent.
-    ➡️ rt3_action_error=
+    ➡️ rt3_action_error=Παρουσιάστηκε σφάλμα, η εντολή δεν έχει αποσταλεί.
     # 🔴 rt3_action_success -> The command was successfully sent.
-    ➡️ rt3_action_success=
+    ➡️ rt3_action_success=Η εντολή εστάλη με επιτυχία.
     # 🔴 rt3_actions_barge -> Barge
     ➡️ rt3_actions_barge=
     # 🔴 rt3_actions_chanspy -> Spy
@@ -2244,10 +2244,10 @@ Do not change the items below:
     rt3_add=Προσθήκη νέου Widget
     rt3_add_box=Προσθήκη νέου κουτιού στη σελίδα.
     # 🔴 rt3_add_queue -> Select Queue
-    ➡️ rt3_add_queue=
+    ➡️ rt3_add_queue=Επιλέξτε Ουρά Αναμονής
     rt3_add_view=Προσθήκη νέας προβολής
     # 🔴 rt3_advanced -> Advanced
-    ➡️ rt3_advanced=
+    ➡️ rt3_advanced=Προχωρημένο
     rt3_ag_calls_alm_red=Κόκκινη προειδοποίηση απασχολημένων χρηστών
     rt3_ag_calls_alm_yel=Κίτρινη προειδοποίηση απασχολημένων χρηστών
     rt3_ag_inbound_alm_red=Κόκκινη προειδοποίηση χρηστών με εισερχόμενες κλήσεις
@@ -2264,117 +2264,117 @@ Do not change the items below:
     rt3_ag_wait_alm_yel=Κίτρινη προειδοποίηση έτοιμων χρηστών
     rt3_agent=Χρήστης
     # 🔴 rt3_agent_action_title -> Select an action for an agent
-    ➡️ rt3_agent_action_title=
+    ➡️ rt3_agent_action_title=Επιλέξτε μια ενέργεια για ένα χρήστη
     # 🔴 rt3_agent_actions -> Agent Actions
-    ➡️ rt3_agent_actions=
+    ➡️ rt3_agent_actions=Ενέργειες Χρήστη
     # 🔴 rt3_agent_addmember -> Add Member to Queue
-    ➡️ rt3_agent_addmember=
+    ➡️ rt3_agent_addmember=Προσθήκη Μέλους στην Ουρά Αναμονής
     # 🔴 rt3_agent_changepause -> Change Pause
-    ➡️ rt3_agent_changepause=
+    ➡️ rt3_agent_changepause=Αλλαγή Παύσης
     # 🔴 rt3_agent_code -> Agent Code
-    ➡️ rt3_agent_code=
+    ➡️ rt3_agent_code=Κωδικός Χρήστη
     # 🔴 rt3_agent_extension -> Agent Extension
-    ➡️ rt3_agent_extension=
+    ➡️ rt3_agent_extension=Επέκταση Χρήστη
     rt3_agent_info=Πληροφορίες χρηστών
     # 🔴 rt3_agent_login -> Login (All Queues)
-    ➡️ rt3_agent_login=
+    ➡️ rt3_agent_login=Σύνδεση (Όλες οι Ουρές)
     rt3_agent_logon=Σύνδεση χρηστών
     # 🔴 rt3_agent_logout -> Logout (All Queues)
-    ➡️ rt3_agent_logout=
+    ➡️ rt3_agent_logout=Αποσύνδεση (Όλες οι Ουρές)
     # 🔴 rt3_agent_pause -> Pause Agent
-    ➡️ rt3_agent_pause=
+    ➡️ rt3_agent_pause=Παύση Χρήστη
     # 🔴 rt3_agent_removemember -> Remove Member from Queue
-    ➡️ rt3_agent_removemember=
+    ➡️ rt3_agent_removemember=Αφαίρεση Μέλους από την Ουρά
     # 🔴 rt3_agent_select -> Please select an Agent...
-    ➡️ rt3_agent_select=
+    ➡️ rt3_agent_select=Παρακαλώ επιλέξτε ένα Χρήστη...
     # 🔴 rt3_agent_status -> Status
     ➡️ rt3_agent_status=
     # 🔴 rt3_agent_unpause -> Unpause Agent
-    ➡️ rt3_agent_unpause=
+    ➡️ rt3_agent_unpause=Άρση Παύσης Χρήστη
     rt3_agents=Χρήστες
     rt3_agents_on_inbound=Χρήστες σε εισερχόμενες
     rt3_agents_on_outbound=Χρήστες σε εξερχόμενες
     # 🔴 rt3_alarm_cell_value -> Cell Value
-    ➡️ rt3_alarm_cell_value=
+    ➡️ rt3_alarm_cell_value=Τιμή Κελιού
     # 🔴 rt3_alarm_column_title -> Column
-    ➡️ rt3_alarm_column_title=
+    ➡️ rt3_alarm_column_title=Στήλη
     # 🔴 rt3_all_agents -> All Agents
-    ➡️ rt3_all_agents=
+    ➡️ rt3_all_agents=Όλοι οι Χρήστες
     # 🔴 rt3_all_columns -> All Columns
-    ➡️ rt3_all_columns=
+    ➡️ rt3_all_columns=Όλες οι Στήλες
     rt3_all_queues=Όλες οι ουρές αναμονής
     # 🔴 rt3_answer -> Answer
-    ➡️ rt3_answer=
+    ➡️ rt3_answer=Απάντηση
     # 🔴 rt3_avgTalk -> Avg. Talk
-    ➡️ rt3_avgTalk=
+    ➡️ rt3_avgTalk=Μέσος όρος συνομιλίας
     # 🔴 rt3_avgWait -> Avg. Wait
-    ➡️ rt3_avgWait=
+    ➡️ rt3_avgWait=Μέσος όρος αναμονής
     rt3_avg_queue_info=Πληροφορίες μέσου όρου ουράς αναμονής
     rt3_avg_talk=Μέσος όρος συνομιλίας
     rt3_avg_wait=Μέσος όρος αναμονής
     # 🔴 rt3_avgtalk_alarm_red -> Avg. Talk Red Alarm
-    ➡️ rt3_avgtalk_alarm_red=
+    ➡️ rt3_avgtalk_alarm_red=Μέσος όρος συνομιλίας Κόκκινη Προειδοποίηση
     # 🔴 rt3_avgtalk_alarm_yel -> Avg. Talk Yellow Alarm
-    ➡️ rt3_avgtalk_alarm_yel=
+    ➡️ rt3_avgtalk_alarm_yel=Μέσος όρος συνομιλίας Κίτρινη Προειδοποίηση
     rt3_bar_sla=Ραβδόγραμμα - SLA
     # 🔴 rt3_billpause -> Pause Bill.
     ➡️ rt3_billpause=
     rt3_blue=Μπλε
     rt3_busy=Απασχολημένο
     # 🔴 rt3_call -> Call
-    ➡️ rt3_call=
+    ➡️ rt3_call=Κλήση
     # 🔴 rt3_call_action_title -> Select an action for a call
-    ➡️ rt3_call_action_title=
+    ➡️ rt3_call_action_title=Επιλέξτε μια ενέργεια για μια κλήση
     # 🔴 rt3_call_actions -> Call Actions
-    ➡️ rt3_call_actions=
+    ➡️ rt3_call_actions=Ενέργειες Κλήσης
     # 🔴 rt3_call_actions_subtitle -> Click on a call to select it
-    ➡️ rt3_call_actions_subtitle=
+    ➡️ rt3_call_actions_subtitle=Κάντε κλικ σε μια κλήση για να την επιλέξετε
     # 🔴 rt3_call_agent -> Agent
-    ➡️ rt3_call_agent=
+    ➡️ rt3_call_agent=Χρήστης
     rt3_call_alarm_red=Κόκκινη προειδοποίηση κλήσεων
     rt3_call_alarm_yel=Κίτρινη προειδοποίηση κλήσεων
     # 🔴 rt3_call_close -> Close Call
-    ➡️ rt3_call_close=
+    ➡️ rt3_call_close=Κλείσιμο Κλήσης
     # 🔴 rt3_call_failed -> The call has failed.
-    ➡️ rt3_call_failed=
+    ➡️ rt3_call_failed=Η κλήση απέτυχε
     # 🔴 rt3_call_hangup -> Hangup Call
-    ➡️ rt3_call_hangup=
+    ➡️ rt3_call_hangup=Τερματισμός κλήσης
     # 🔴 rt3_call_id -> Call Id
-    ➡️ rt3_call_id=
+    ➡️ rt3_call_id=Αναγνωριστικό Κλήσης
     # 🔴 rt3_call_in_progress -> Call in progress
-    ➡️ rt3_call_in_progress=
+    ➡️ rt3_call_in_progress=Κλήση σε εξέλιξη
     # 🔴 rt3_call_localextension -> Local Extension
-    ➡️ rt3_call_localextension=
+    ➡️ rt3_call_localextension=Τοπική Επέκταση
     # 🔴 rt3_call_monitor -> Monitor Call
-    ➡️ rt3_call_monitor=
+    ➡️ rt3_call_monitor=Παρακολούθηση Κλήσης
     # 🔴 rt3_call_number -> Caller
-    ➡️ rt3_call_number=
+    ➡️ rt3_call_number=Καλών
     # 🔴 rt3_call_offhold -> The call was taken off hold.
-    ➡️ rt3_call_offhold=
+    ➡️ rt3_call_offhold=Η κλήση βγήκε από την αναμονή
     # 🔴 rt3_call_onhold -> The call was put on hold.
-    ➡️ rt3_call_onhold=
+    ➡️ rt3_call_onhold=Η κλήση τέθηκε σε αναμονή
     # 🔴 rt3_call_qa -> Grade Call
-    ➡️ rt3_call_qa=
+    ➡️ rt3_call_qa=Αξιολόγηση Κλήσης
     # 🔴 rt3_call_queue -> Queue
-    ➡️ rt3_call_queue=
+    ➡️ rt3_call_queue=Ουρά αναμονής
     # 🔴 rt3_call_started -> The call has started.
-    ➡️ rt3_call_started=
+    ➡️ rt3_call_started=Η κλήση έχει ξεκινήσει
     rt3_call_status=Κατάσταση
     # 🔴 rt3_call_terminated -> The call was terminated.
-    ➡️ rt3_call_terminated=
+    ➡️ rt3_call_terminated=Η κλήση τερματίστηκε
     # 🔴 rt3_call_transfer -> Transfer Call
-    ➡️ rt3_call_transfer=
+    ➡️ rt3_call_transfer=Μεταφορά Κλήσης
     # 🔴 rt3_call_transferextension -> Transfer to (ext.)
-    ➡️ rt3_call_transferextension=
+    ➡️ rt3_call_transferextension=Μεταφορά σε εσωτερικό
     rt3_caller=Καλών
     # 🔴 rt3_callfeatures -> Call Features
-    ➡️ rt3_callfeatures=
+    ➡️ rt3_callfeatures=Χαρακτηριστικά Κλήσης
     # 🔴 rt3_callgoalfeatures -> Goal Ftrs
-    ➡️ rt3_callgoalfeatures=
+    ➡️ rt3_callgoalfeatures=Χαρακτηριστικά Στόχου
     rt3_calls_alm_red=Κόκκινη προειδοποίηση κλήσεων σε αναμονή
     rt3_calls_alm_yel=Κίτρινη προειδοποίηση κλήσεων σε αναμονή
     # 🔴 rt3_calltag -> Tag
-    ➡️ rt3_calltag=
+    ➡️ rt3_calltag=Ετικέτα
     rt3_cancel=Ακύρωση
     rt3_cannot_edit_wb_warning=Η επεξεργασία απαγορεύεται, ο χρήστης δεν διαθέτει τα απαραίτητα κλειδιά.
     rt3_category_chart=Γραφήματα
@@ -2385,15 +2385,15 @@ Do not change the items below:
     rt3_category_table=Πίνακες
     rt3_category_various=Διάφορα
     # 🔴 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
-    ➡️ rt3_change_queue_confirm=
+    ➡️ rt3_change_queue_confirm=Έχετε μη αποθηκευμένες αλλαγές που θα χαθούν κατά την αλλαγή ουράς αναμονής. Επιβεβαίωση;
     # 🔴 rt3_choose_action -> Choose Action
-    ➡️ rt3_choose_action=
+    ➡️ rt3_choose_action=Επιλέξτε Ενέργεια
     # 🔴 rt3_choose_monitor_mode -> Monitoring Mode
-    ➡️ rt3_choose_monitor_mode=
+    ➡️ rt3_choose_monitor_mode=Λειτουργία Παρακολούθησης
     # 🔴 rt3_choose_queue -> Choose Queue
-    ➡️ rt3_choose_queue=
+    ➡️ rt3_choose_queue=Επιλέξτε Ουρά Αναμονής
     # 🔴 rt3_choose_server -> Choose the server
-    ➡️ rt3_choose_server=
+    ➡️ rt3_choose_server=Επιλέξτε Διακομιστή
     rt3_circle_agents_oncall=Αριθμ. χρηστών σε κλήση
     rt3_circle_answered_calls=Αριθμ. απαντημένων κλήσεων
     rt3_circle_answered_perc=% Απαντημένων
@@ -2410,20 +2410,20 @@ Do not change the items below:
     rt3_code=ΚωδικόςΠαύσης
     rt3_color=Χρώμα
     # 🔴 rt3_columns -> Columns
-    ➡️ rt3_columns=
+    ➡️ rt3_columns=Στήλες
     rt3_comment=Σχόλια
     # 🔴 rt3_configure_phone -> Softphone Configuration
-    ➡️ rt3_configure_phone=
+    ➡️ rt3_configure_phone=Διαμόρφωση Softphone
     rt3_connection_error=Σφάλμα σύνδεσης με server
     # 🔴 rt3_connection_valid -> The connection to the server is working correctly.
-    ➡️ rt3_connection_valid=
+    ➡️ rt3_connection_valid=Η σύνδεση με τον διακομιστή λειτουργεί σωστά
     # 🔴 rt3_cont -> Cont.
-    ➡️ rt3_cont=
+    ➡️ rt3_cont=Συνεχ.
     # 🔴 rt3_contph -> CPH
     ➡️ rt3_contph=
     rt3_conversation=Διάλογος
     # 🔴 rt3_conversions -> Conv.
-    ➡️ rt3_conversions=
+    ➡️ rt3_conversions=Διαλ.
     rt3_copy=Αντιγραφή
     rt3_copy_kiosk_url=Δημόσια διεύθυνση URL σε λειτουργία Kiosk
     rt3_create_new=Δημιουργία νέου
@@ -2432,18 +2432,18 @@ Do not change the items below:
     rt3_current_call=Προέρχεται από
     rt3_current_props=Τρέχουσες ιδιότητες:
     # 🔴 rt3_data_block -> Data Block
-    ➡️ rt3_data_block=
+    ➡️ rt3_data_block=Μονάδα Δεδομένων
     # 🔴 rt3_data_block_chart -> Chart
-    ➡️ rt3_data_block_chart=
+    ➡️ rt3_data_block_chart=Γράφημα 
     # 🔴 rt3_database -> Database
-    ➡️ rt3_database=
+    ➡️ rt3_database=Βάση Δεδομένων
     # 🔴 rt3_datablock -> Data Block
-    ➡️ rt3_datablock=
+    ➡️ rt3_datablock=Μονάδα Δεδομένων
     rt3_del=Διαγραφή προβολής
     # 🔴 rt3_delete_current_wallboard_confirm -> The current wallboard will be deleted, proceed?
-    ➡️ rt3_delete_current_wallboard_confirm=
+    ➡️ rt3_delete_current_wallboard_confirm=Το τρέχον Wallboard θα διαγραφεί, να προχωρήσουμε;
     # 🔴 rt3_delete_wallboard -> Delete
-    ➡️ rt3_delete_wallboard=
+    ➡️ rt3_delete_wallboard=Διαγραφή 
     rt3_direction=Κατεύθυνση
     rt3_display_size=Μέγεθος εμφάνισης
     rt3_dummy_wlbd=Παράδειγμα Wallboard
@@ -2453,72 +2453,72 @@ Do not change the items below:
     rt3_edit_required=Απαιτείται Επεξεργασία
     rt3_edit_wallboard_cfg=Επεξεργαστείτε και δείτε το τρέχον Wallboard
     # 🔴 rt3_editwdg_title -> Edit Widget
-    ➡️ rt3_editwdg_title=
+    ➡️ rt3_editwdg_title=Επεξεργασία Widget
     rt3_empty_wlbd=Άδειο Wallboard
     # 🔴 rt3_enter_title -> Enter Title
-    ➡️ rt3_enter_title=
+    ➡️ rt3_enter_title=Εισάγετε Τίτλο
     # 🔴 rt3_error_prefs_fetch -> The user preferences could not be retrieved
-    ➡️ rt3_error_prefs_fetch=
+    ➡️ rt3_error_prefs_fetch=Οι προτιμήσεις χρήστη δεν μπόρεσαν να ανακτηθούν
     rt3_error_saving=Σφάλμα αποθήκευσης Wallboard
     # 🔴 rt3_error_saving_prefs -> The user preferences could not be saved
-    ➡️ rt3_error_saving_prefs=
+    ➡️ rt3_error_saving_prefs=Οι προτιμήσεις χρήστη δεν μπόρεσαν να αποθηκευτούν
     rt3_error_saving_public_wb=Ο χρήστης δεν μπορεί να αποθηκεύσει ένα δημόσιο Wallboard
     rt3_error_saving_wb_missing_key=Ο χρήστης δεν μπορεί να αποθηκεύσει το Wallboard, λείπει το κλειδί χρήστη WALLBOARD_ADD
     # 🔴 rt3_export_schema -> Export
-    ➡️ rt3_export_schema=
+    ➡️ rt3_export_schema=Εξαγωγή
     rt3_extension=Επέκταση
     # 🔴 rt3_extension_info -> Logged in as:
-    ➡️ rt3_extension_info=
+    ➡️ rt3_extension_info=Συνδεδεμένος ως:
     # 🔴 rt3_extra_value -> Some of the selected values are not available
-    ➡️ rt3_extra_value=
+    ➡️ rt3_extra_value=Μερικές από τις επιλεγμένες τιμές δεν είναι διαθέσιμες
     rt3_go=Εκτέλεση
     rt3_gohome=Αρχική
     rt3_goto_login=Πηγαίνετε στη σύνδεση
     rt3_green=Πράσινο
     # 🔴 rt3_hangup -> Hangup
-    ➡️ rt3_hangup=
+    ➡️ rt3_hangup=Τερματισμός κλήσης
     # 🔴 rt3_hold -> Hold
-    ➡️ rt3_hold=
+    ➡️ rt3_hold=Αναμονή
     # 🔴 rt3_html -> HTML Page
-    ➡️ rt3_html=
+    ➡️ rt3_html=HTML Page
     rt3_idle=Ανενεργό
     rt3_idle_alarm_red=Ανενεργή Κόκκινη Προειδοποίηση
     rt3_idle_alarm_yel=Ανενεργή Κίτρινη Προειδοποίηση
     # 🔴 rt3_import_schema -> Import
-    ➡️ rt3_import_schema=
+    ➡️ rt3_import_schema=Εισαγωγή
     rt3_in_ivr=IVR
     # 🔴 rt3_incoming_call_from -> Incoming call from
-    ➡️ rt3_incoming_call_from=
+    ➡️ rt3_incoming_call_from=Εισερχόμενη κλήση από
     # 🔴 rt3_insert_valid_value -> Please insert a valid value
-    ➡️ rt3_insert_valid_value=
+    ➡️ rt3_insert_valid_value=Παρακαλώ εισάγετε μια έγκυρη τιμή
     rt3_ispublic=Δημόσιο;
     rt3_ivr_time=IVR
     rt3_kill=Κατάργηση αυτού του γραφικού στοιχείου από την προβολή
     rt3_kiosk_mode_warning=Αυτήν τη στιγμή βρίσκεστε σε διαμόρφωση "kiosk", η επεξεργασία του Wallboard είναι απενεργοποιημένη.
     rt3_last_completed_call=Χωρίς Κλήσεις για
     # 🔴 rt3_live_agent -> Agent
-    ➡️ rt3_live_agent=
+    ➡️ rt3_live_agent=Χρήστης
     rt3_live_agent_counters=Μετρητές Ενεργών Χρηστών (Live)
     rt3_live_agent_info=Πληροφορίες Ενεργών Χρηστών (Live)
     rt3_live_queue_info=Πληροφορίες Ουράς αναμονής (Live)
     # 🔴 rt3_live_status -> Status
-    ➡️ rt3_live_status=
+    ➡️ rt3_live_status=Κατάσταση
     rt3_load=Φόρτωση Wallboard
     rt3_loading_data=Φόρτωση δεδομένων ...
     # 🔴 rt3_loggedoff -> Logged Off
-    ➡️ rt3_loggedoff=
+    ➡️ rt3_loggedoff=Αποσυνδεδεμένος
     # 🔴 rt3_loggedon -> Logged On
-    ➡️ rt3_loggedon=
+    ➡️ rt3_loggedon=Συνδεδεμένος
     rt3_longest_wait=Μέγιστη Αναμονή
     # 🔴 rt3_lost_attempts -> Lost Att.
     ➡️ rt3_lost_attempts=
     rt3_lost_prc=Χαμένες
     # 🔴 rt3_menu_delete -> Delete
-    ➡️ rt3_menu_delete=
+    ➡️ rt3_menu_delete=Διαγραφή
     # 🔴 rt3_menu_edit -> Edit
-    ➡️ rt3_menu_edit=
+    ➡️ rt3_menu_edit=Επεξεργασία
     # 🔴 rt3_menu_share -> Share
-    ➡️ rt3_menu_share=
+    ➡️ rt3_menu_share=Κοινοποίηση
     rt3_missing_wdg=Λείπει το γραφικό στοιχείο
     rt3_n_agents=Αρ. Χρηστών
     rt3_n_calls_answered=Απαντημένες Κλήσεις
@@ -2536,29 +2536,29 @@ Do not change the items below:
     rt3_nofcalls_offered=Αρ. Προτεινόμενων κλήσεων
     rt3_nofcolumns=Αρ. Στηλών
     # 🔴 rt3_ntodial -> Dial Number
-    ➡️ rt3_ntodial=
+    ➡️ rt3_ntodial=Πληκτρολογήστε Αριθμό
     # 🔴 rt3_number_calling -> Calling:
-    ➡️ rt3_number_calling=
+    ➡️ rt3_number_calling=Καλεί:
     # 🔴 rt3_offered -> Offered
-    ➡️ rt3_offered=
+    ➡️ rt3_offered=Προσφέρθηκε
     # 🔴 rt3_ok -> Ok
-    ➡️ rt3_ok=
+    ➡️ rt3_ok=Ok
     rt3_on_pause=Σε Παύση
     # 🔴 rt3_oncall -> On Call
-    ➡️ rt3_oncall=
+    ➡️ rt3_oncall=Σε Κλήση
     # 🔴 rt3_onhold -> On Hold
-    ➡️ rt3_onhold=
+    ➡️ rt3_onhold=Σε Αναμονή
     rt3_pause_alarm_red=Παύση Κόκκινης Προειδοποίησης
     rt3_pause_alarm_yel=Παύση Κίτρινης Προειδοποίησης
     rt3_paused=Σε Παύση
     # 🔴 rt3_pausetimes -> Pause Time
-    ➡️ rt3_pausetimes=
+    ➡️ rt3_pausetimes=Χρόνος Παύσης
     # 🔴 rt3_phone -> Softphone
-    ➡️ rt3_phone=
+    ➡️ rt3_phone=Softphone
     # 🔴 rt3_phone_settings -> Phone Settings
-    ➡️ rt3_phone_settings=
+    ➡️ rt3_phone_settings=Ρυθμίσεις Τηλεφώνου
     # 🔴 rt3_pin -> Pin
-    ➡️ rt3_pin=
+    ➡️ rt3_pin=Κωδικός
     rt3_pink=Ροζ
     rt3_play=Play
     rt3_position=Θέση
@@ -2585,21 +2585,21 @@ Do not change the items below:
     rt3_red_line_limit=Όριο Κόκκινης Γραμμής
     rt3_red_line_text=Κείμενο Κόκκινης Γραμμής
     # 🔴 rt3_register -> Register
-    ➡️ rt3_register=
+    ➡️ rt3_register=Εγγραφή
     # 🔴 rt3_register_error -> Error while registering the softphone
-    ➡️ rt3_register_error=
+    ➡️ rt3_register_error=Σφάλμα κατά την καταχώριση του softphone
     # 🔴 rt3_register_notset -> The softphone "register" setting must be set to "yes"
-    ➡️ rt3_register_notset=
+    ➡️ rt3_register_notset=Η ρύθμιση 'καταχώριση' του softphone πρέπει να είναι ρυθμισμένη σε 'ναι'
     # 🔴 rt3_register_txt -> Register
-    ➡️ rt3_register_txt=
+    ➡️ rt3_register_txt=Εγγραφή
     # 🔴 rt3_registered -> Registered
-    ➡️ rt3_registered=
+    ➡️ rt3_registered=Εγγεγραμμένο
     rt3_reorder_views=Διαχείρηση προβολών
     rt3_retry_now=Δοκιμή ξανά τώρα
     # 🔴 rt3_ringing -> Ringing
-    ➡️ rt3_ringing=
+    ➡️ rt3_ringing=Κουδουνισμός
     # 🔴 rt3_sales -> Sales
-    ➡️ rt3_sales=
+    ➡️ rt3_sales=Πωλήσεις
     # 🔴 rt3_salesph -> SPH
     ➡️ rt3_salesph=
     rt3_save=Αποθήκευση
@@ -2607,61 +2607,61 @@ Do not change the items below:
     rt3_seconds=δευτερόλεπτα
     rt3_security_key=Κλειδί ασφαλείας
     # 🔴 rt3_select_chart -> Select a Chart...
-    ➡️ rt3_select_chart=
+    ➡️ rt3_select_chart=Επιλέξτε ένα Γράφημα
     # 🔴 rt3_select_db -> Select a DataBlock...
-    ➡️ rt3_select_db=
+    ➡️ rt3_select_db=Επιλέξτε μία μονάδα δεδομένων...
     rt3_select_wallboard=Παρακαλώ επιλέξτε Wallboard
     # 🔴 rt3_send_command -> Ok
-    ➡️ rt3_send_command=
+    ➡️ rt3_send_command=Ok
     rt3_session_invalid_reconnecting=Πρόβλημα σύνδεσης με Queuemetrics, προσπάθεια επανασύνδεσης
     rt3_size_is=Μέγεθος:
     # 🔴 rt3_sla -> SLA
     ➡️ rt3_sla=
     rt3_sla_level=Επίπεδο SLA
     # 🔴 rt3_softphone_displayname -> Display name
-    ➡️ rt3_softphone_displayname=
+    ➡️ rt3_softphone_displayname=Όνομα εμφάνισης
     # 🔴 rt3_softphone_displayvalue -> Display Value
-    ➡️ rt3_softphone_displayvalue=
+    ➡️ rt3_softphone_displayvalue=Τιμή Εμφάνισης
     # 🔴 rt3_softphone_max_interval -> Connection recovery max. interval
-    ➡️ rt3_softphone_max_interval=
+    ➡️ rt3_softphone_max_interval=Μέγιστο διάστημα αποκατάστασης σύνδεσης
     # 🔴 rt3_softphone_min_interval -> Connection recovery min. interval
-    ➡️ rt3_softphone_min_interval=
+    ➡️ rt3_softphone_min_interval=Ελάχιστο διάστημα αποκατάστασης σύνδεσης
     # 🔴 rt3_softphone_password -> Password
-    ➡️ rt3_softphone_password=
+    ➡️ rt3_softphone_password=Κωδικός
     # 🔴 rt3_softphone_realm -> Realm
-    ➡️ rt3_softphone_realm=
+    ➡️ rt3_softphone_realm=Τομέας
     # 🔴 rt3_softphone_rtcwebbreaker -> Rtc Web Breaker
     ➡️ rt3_softphone_rtcwebbreaker=
     # 🔴 rt3_softphone_server -> Server
-    ➡️ rt3_softphone_server=
+    ➡️ rt3_softphone_server=Διακομιστής
     # 🔴 rt3_softphone_sipuri -> Sip URI
     ➡️ rt3_softphone_sipuri=
     # 🔴 rt3_softphone_status_info_registered -> Softphone Registered
-    ➡️ rt3_softphone_status_info_registered=
+    ➡️ rt3_softphone_status_info_registered=Εγγεγραμμένο Softphone
     # 🔴 rt3_softphone_status_info_unregistered -> Softphone Unregistered
-    ➡️ rt3_softphone_status_info_unregistered=
+    ➡️ rt3_softphone_status_info_unregistered=Μη εγγεγραμμένο Softphone
     # 🔴 rt3_softphone_status_title -> WebRTC Softphone
     ➡️ rt3_softphone_status_title=
     # 🔴 rt3_softphone_timeout -> No answer timeout
-    ➡️ rt3_softphone_timeout=
+    ➡️ rt3_softphone_timeout=Χρόνος αναμονής χωρίς απάντηση
     # 🔴 rt3_softphone_username -> Username
-    ➡️ rt3_softphone_username=
+    ➡️ rt3_softphone_username=Όνομα Χρήστη
     # 🔴 rt3_softphone_websocketurl -> Web Socket URL
-    ➡️ rt3_softphone_websocketurl=
+    ➡️ rt3_softphone_websocketurl=Διεύθυνση URL Web Socket
     rt3_status=Κατάσταση
     rt3_stop=Στοπ
     # 🔴 rt3_table_agentandoutcome -> Agent And Outcome
-    ➡️ rt3_table_agentandoutcome=
+    ➡️ rt3_table_agentandoutcome=Χρήστης και Αποτέλεσμα
     # 🔴 rt3_table_aggrbyqueue -> Aggregated By Queue
-    ➡️ rt3_table_aggrbyqueue=
+    ➡️ rt3_table_aggrbyqueue=Αθροισμένο κατά Ουρά
     # 🔴 rt3_table_aggrbytag -> Aggregated By Tag
-    ➡️ rt3_table_aggrbytag=
+    ➡️ rt3_table_aggrbytag=Αθροισμένο κατά Ετικέτα
     rt3_table_live_agents=Ενεργοί Χρήστες (Live)
     rt3_table_live_calls=Ενεργές Κλήσεις (Live)
     rt3_table_live_queues=Ενεργές Ουρές αναμονής (Live)
     rt3_table_raw=Ακατέργαστα Δεδομένα
     # 🔴 rt3_taken -> Taken
-    ➡️ rt3_taken=
+    ➡️ rt3_taken=Ληφθέν
     # 🔴 rt3_taken_alarm_red -> Taken Red Alarm
     ➡️ rt3_taken_alarm_red=
     # 🔴 rt3_taken_alarm_yel -> Taken Yellow Alarm
@@ -2672,7 +2672,7 @@ Do not change the items below:
     rt3_talking=Συνομιλία
     rt3_text=Κείμενο
     # 🔴 rt3_text_area_placeholder -> Insert text here
-    ➡️ rt3_text_area_placeholder=
+    ➡️ rt3_text_area_placeholder=Εισάγετε κείμενο εδώ
     rt3_title=Τίτλος
     # 🔴 rt3_tot_talk -> Tot. Talk
     ➡️ rt3_tot_talk=
@@ -3332,7 +3332,7 @@ Description of security keys:
     tsk_detail_info=Πληροφορίες εργασιών
     tsk_detail_lastUpdated=Τελευταία ενημέρωση
     # 🔴 tsk_detail_message -> Message
-    ➡️ tsk_detail_message=
+    ➡️ tsk_detail_message=Μήνυμα
     tsk_detail_notes=Σημειώσεις
     tsk_detail_pfield=Διεργασία
     tsk_detail_process=Επεξεργασία
@@ -3347,14 +3347,14 @@ Description of security keys:
     tsk_icon_detail=Εμφάνιση λεπτομερειών
     tsk_list_pfield=Διεργασία
     # 🔴 tsk_list_tbl_agroup -> Group
-    ➡️ tsk_list_tbl_agroup=
+    ➡️ tsk_list_tbl_agroup=Ομάδα
     tsk_list_tbl_desc=Περιγραφή
     tsk_list_tbl_expdate=Ισχύει έως
     tsk_list_tbl_from=Από
     tsk_list_tbl_id=Ταυτότητα  εργασίας
     tsk_list_tbl_status=Κατάσταση
     # 🔴 tsk_list_tbl_ticon -> Task
-    ➡️ tsk_list_tbl_ticon=
+    ➡️ tsk_list_tbl_ticon=Εργασία
     tsk_lists_dueend_date=Ημερομηνία τέλους χρον. περιόδου
     tsk_lists_duestart_date=Ημερομηνία αρχής χρον. περιόδου
     tsk_lists_extendedsearch=Περισσότερες επιλογές αναζήτησης
@@ -3435,79 +3435,79 @@ Description of security keys:
     phone_anonymous=Ανώνυμος
     phone_answer=Απάντηση
     # 🔴 phone_attended -> Attended Transfer
-    ➡️ phone_attended=
+    ➡️ phone_attended=Μεταφορά με παρακολούθηση
     phone_attended_transfer=Μεταφορά με παρακολούθηση
     phone_auto_answer_toggle_off=Η αυτόματη απάντηση είναι απενεργοποιημένη
     phone_auto_answer_toggle_on=Η αυτόματη απάντηση είναι απενεργοποιημένη
     phone_basic_settings=Βασικές ρυθμίσεις
     # 🔴 phone_blind -> Blind Transfer
-    ➡️ phone_blind=
+    ➡️ phone_blind=Μεταφορά χωρίς παρακολούθηση
     phone_blind_transfer=Μεταφορά
     # 🔴 phone_call -> Call
-    ➡️ phone_call=
+    ➡️ phone_call=Κλήση
     # 🔴 phone_calling -> Calling...
-    ➡️ phone_calling=
+    ➡️ phone_calling=Καλεί...
     phone_cancel=Ακύρωση
     phone_close=Κλείσιμο
     phone_confirm=Επιβεβαίωση
     phone_connectionrecoverymax=Μέγ. διάστημα ανάκτησης σύνδεσης
     phone_connectionrecoverymin=Ελάχ. διάστημα ανάκτησης σύνδεσης
     # 🔴 phone_debug -> Click to print debug information in the browser console.
-    ➡️ phone_debug=
+    ➡️ phone_debug="Κάνε κλικ για να εκτυπώσεις πληροφορίες αποσφαλμάτωσης στην κονσόλα του προγράμματος περιήγησης."
     phone_dial=Κλήση
     phone_dialing=Κλήση ...
     # 🔴 phone_dialling -> Dialling...
-    ➡️ phone_dialling=
+    ➡️ phone_dialling=Κλήση ...
     phone_displayname=Εμφανιζόμενο Όνομα
     phone_hangup=Τέλος κλήσης
     # 🔴 phone_http_error -> WebRTC Error.
-    ➡️ phone_http_error=
+    ➡️ phone_http_error=WebRTC Error.
     # 🔴 phone_http_error_body -> In order for the WebRTC SoftPhone to work correctly, QueueMetrics must be served through HTTPS.
-    ➡️ phone_http_error_body=
+    ➡️ phone_http_error_body=Για να λειτουργήσει σωστά το WebRTC SoftPhone, η QueueMetrics πρέπει να εξυπηρετείται μέσω HTTPS.
     phone_iceservers=Διακομιστές ICE
     # 🔴 phone_incoming_call -> Incoming call...
-    ➡️ phone_incoming_call=
+    ➡️ phone_incoming_call=Εισερχόμενη κλήση...
     phone_input_error=Σφάλμα εισαγωγής
     # 🔴 phone_join -> Join
-    ➡️ phone_join=
+    ➡️ phone_join=Συμμετοχή
     phone_maxsessions=Μέγ. αρ. Συνεδριών
     phone_mute=Σιγαση
     # 🔴 phone_no_https -> QueueMetrics needs to be served through HTTPS for the SoftPhone to work correctly.
-    ➡️ phone_no_https=
+    ➡️ phone_no_https=Η QueueMetrics πρέπει να εξυπηρετείται μέσω HTTPS για να λειτουργεί σωστά το SoftPhone.
     # 🔴 phone_no_queue -> No Queue
-    ➡️ phone_no_queue=
+    ➡️ phone_no_queue=Καμία Ουρά Αναμονής
     phone_noanswertimeout=Χρόνος χωρίς απόκριση
     # 🔴 phone_not_avaialable -> Softphone Not Available.
-    ➡️ phone_not_avaialable=
+    ➡️ phone_not_avaialable=Το Softphone δεν είναι διαθέσιμο.
     # 🔴 phone_not_available -> Softphone not available.
-    ➡️ phone_not_available=
+    ➡️ phone_not_available=Το Softphone δεν είναι διαθέσιμο.
     phone_password=Κωδικός
     phone_register=Εγγραφή
     phone_registered=Εγγεγραμμένο
     # 🔴 phone_registering -> Registering
-    ➡️ phone_registering=
+    ➡️ phone_registering=Εγγραφή
     # 🔴 phone_returntophone -> Return to Phone
-    ➡️ phone_returntophone=
+    ➡️ phone_returntophone=Επιστροφή στο τηλέφωνο.
     # 🔴 phone_server -> Server
-    ➡️ phone_server=
+    ➡️ phone_server=Διακομιστής
     # 🔴 phone_settings -> Settings
-    ➡️ phone_settings=
+    ➡️ phone_settings=Ρυθμίσεις
     # 🔴 phone_swap -> Swap
-    ➡️ phone_swap=
+    ➡️ phone_swap=Αντικατάσταση
     # 🔴 phone_toggle_hold -> Hold/Unhold
-    ➡️ phone_toggle_hold=
+    ➡️ phone_toggle_hold=Αναμονή /Αναστολή
     # 🔴 phone_toggle_transfer -> Transfer
-    ➡️ phone_toggle_transfer=
+    ➡️ phone_toggle_transfer=Μεταφορά
     # 🔴 phone_transfer -> Transfer
-    ➡️ phone_transfer=
+    ➡️ phone_transfer=Μεταφορά
     # 🔴 phone_unmute -> Unmute
-    ➡️ phone_unmute=
+    ➡️ phone_unmute=Ενεργοποίηση ήχου
     # 🔴 phone_unregistered -> Unregistered
-    ➡️ phone_unregistered=
+    ➡️ phone_unregistered=Μη εγγεγραμμένος
     # 🔴 phone_update_settings -> Update Settings
-    ➡️ phone_update_settings=
+    ➡️ phone_update_settings=Ενημέρωση Ρυθμίσεων
     # 🔴 phone_username -> Username
-    ➡️ phone_username=
+    ➡️ phone_username=Όνομα χρήστη
     # 🔴 phone_websocketurl -> Websocket URL
     ➡️ phone_websocketurl=
 
@@ -3516,12 +3516,12 @@ Description of security keys:
     home_add_infobox=Πρόσθεση InfoBox
     home_configuration_agents=Πράκτορες
     # 🔴 home_configuration_cases -> Cases
-    ➡️ home_configuration_cases=
+    ➡️ home_configuration_cases=Υποθέσεις
     home_configuration_cbt=CBTs
     # 🔴 home_configuration_clients -> Clients
-    ➡️ home_configuration_clients=
+    ➡️ home_configuration_clients=Πελάτες
     # 🔴 home_configuration_custom_blocks -> Custom Data Blocks
-    ➡️ home_configuration_custom_blocks=
+    ➡️ home_configuration_custom_blocks=Προσαρμοσμένες  Μονάδες Δεδομένων
     home_configuration_dnis=DID/DNIS
     home_configuration_export_jobs=Επεξεργασία Εξαγωγής Αναφορών
     home_configuration_features=Λειτουργίες Κλήσεων
@@ -3548,13 +3548,13 @@ Description of security keys:
     home_dbtest_smtp=Ελεγκτής SMTP
     home_diagnostics_title=Διαγνωστικά
     # 🔴 home_error_fetch_admin_infoboxes -> Error Fetching Administration InfoBoxes
-    ➡️ home_error_fetch_admin_infoboxes=
+    ➡️ home_error_fetch_admin_infoboxes=Σφάλμα κατά την ανάκτηση των Πληροφοριακών Πλαισίων Διαχείρισης
     # 🔴 home_error_fetch_available_infoboxes -> Error Fetching Available Infoboxes
-    ➡️ home_error_fetch_available_infoboxes=
+    ➡️ home_error_fetch_available_infoboxes=Σφάλμα κατά την ανάκτηση των διαθέσιμων Πλαισίων Πληροφοριών
     # 🔴 home_error_fetch_infoboxes -> Error Fetching InfoBoxes
-    ➡️ home_error_fetch_infoboxes=
+    ➡️ home_error_fetch_infoboxes=Σφάλμα κατά την ανάκτηση των Πλαισίων Πληροφοριών
     # 🔴 home_error_save_prefs -> Error Saving InfoBox Data
-    ➡️ home_error_save_prefs=
+    ➡️ home_error_save_prefs=Σφάλμα κατά την αποθήκευση των δεδομένων του Πλαισίου Πληροφοριών
     home_icon_subtitle=Σελίδα εικονιδίων πρακτόρων
     home_icon_title=Εικονίδιο
     home_infobox_close=Κλείσιμο
@@ -3569,9 +3569,9 @@ Description of security keys:
     home_qa_subtitle=Εκκίνηση Αναφοράς QA
     home_qa_title=Αναφορές QA
     # 🔴 home_qap_subtitle -> Queuemetrics Agent Interface
-    ➡️ home_qap_subtitle=
+    ➡️ home_qap_subtitle=Διεπαφή Χρήστη Queuemetrics
     # 🔴 home_qap_title -> Agent Page
-    ➡️ home_qap_title=
+    ➡️ home_qap_title=Σελίδα Χρήστη
     home_realtime_subtitle=Πλήρης προβολή ζωντανών κλήσεων
     home_realtime_title=Πραγματικός χρόνος
     home_reports_subtitle=Ιστορικές αναφορές
@@ -3580,7 +3580,7 @@ Description of security keys:
     home_search_placeholder=Αναζήτηση στην αρχική σελίδα
     home_select_infobox=Επιλέξτε το InfoBox που θέλετε να δείτε στην Αρχική σελίδα
     # 🔴 home_ssar_subtitle -> Self Service Agent Reports
-    ➡️ home_ssar_subtitle=
+    ➡️ home_ssar_subtitle=Αναφορές Χρήστη Αυτοεξυπηρέτησης
     home_ssar_title=SSAR
     home_synchronizer_subtitle=Αυτόματη ρύθμιση QueueMetrics
     home_synchronizer_title=Συγχρονιστής
@@ -3609,31 +3609,31 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_title_wizard=Εξερεύνηση παραμέτρων του συστήματος QueueMetrics
     cfgprops_notice=Μετά την αποθήκευση, θα πρέπει να αποσυνδεθείτε και να συνδεθείτε πάλι ώστε να φορτωθούν οι παραμέτροι.
     # 🔴 cfgprops_n_items -> N. Properties found
-    ➡️ cfgprops_n_items=
+    ➡️ cfgprops_n_items=Βρέθηκαν N Ιδιότητες
     # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
-    ➡️ cfgprops_input=
+    ➡️ cfgprops_input=Εισάγετε μία ή περισσότερες ιδιότητες για ρύθμιση, μία ανά γραμμή
     # 🔴 cfgprops_comment -> Reason for this change
-    ➡️ cfgprops_comment=
+    ➡️ cfgprops_comment=Λόγος για αυτή την αλλαγή
     # 🔴 cfgprops_sort_by -> Sort by
-    ➡️ cfgprops_sort_by=
+    ➡️ cfgprops_sort_by=Ταξινόμηση κατά
     # 🔴 cfgprops_sort_bydate -> Last update
-    ➡️ cfgprops_sort_bydate=
+    ➡️ cfgprops_sort_bydate=Τελευταία ενημέρωση
     # 🔴 cfgprops_sort_byname -> Name
-    ➡️ cfgprops_sort_byname=
+    ➡️ cfgprops_sort_byname=Όνομα
     # 🔴 cfgprops_col_name -> Property name
-    ➡️ cfgprops_col_name=
+    ➡️ cfgprops_col_name=Όνομα ιδιότητας
     # 🔴 cfgprops_col_value -> Current value
-    ➡️ cfgprops_col_value=
+    ➡️ cfgprops_col_value=Τρέχουσα τιμή
     # 🔴 cfgprops_col_comment -> Reason
-    ➡️ cfgprops_col_comment=
+    ➡️ cfgprops_col_comment=Λόγος
     # 🔴 cfgprops_history_date -> Date
-    ➡️ cfgprops_history_date=
+    ➡️ cfgprops_history_date=Ημερομηνία
     # 🔴 cfgprops_history_user -> User
-    ➡️ cfgprops_history_user=
+    ➡️ cfgprops_history_user=Χρήστης
     # 🔴 cfgprops_history_value -> Value
-    ➡️ cfgprops_history_value=
+    ➡️ cfgprops_history_value=Τιμή
     # 🔴 cfgprops_history_previous -> Previous entries
-    ➡️ cfgprops_history_previous=
+    ➡️ cfgprops_history_previous=Προηγούμενες καταχωρήσεις
     
 
 These are obsolete:
