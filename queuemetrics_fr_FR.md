@@ -4015,7 +4015,7 @@ Other items
     reports_qa_performance_total=Total
     reports_qa_queue=File
     # 🔴 reports_qa_range -> Range
-    ➡️ reports_qa_range=
+    reports_qa_range=Intervalle
     reports_qa_recap_heading=Détails de l'appel
     reports_qa_select_form=Sélectionner un formulaire
     reports_qa_start=Heure de début
