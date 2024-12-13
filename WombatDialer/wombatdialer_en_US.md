@@ -22,6 +22,47 @@ Do not translate the entries in this area.
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
+
+## Recap Page (activity reports)
+
+This is the page where statistics are displayed.
+
+    rcp_anewlistwillbe=A new list will be created with all the numbers included that are in a terminal state with one of the states included.
+    rcp_availablecallstates=Available call states
+    rcp_calloutcomes=Call outcomes
+    rcp_callspertrunk=Calls per trunk
+    rcp_campaignruns=Campaign runs
+    rcp_close=Close
+    rcp_createdlist=Created new list
+    rcp_enddate=End date
+    rcp_enteraname=Enter a name for the new list
+    rcp_exportnumbers=Export numbers to new list
+    rcp_exports=Exports
+    rcp_exporttolist=Export to new list
+    rcp_fulltitle=Activity Reports
+    rcp_nameoflist=Name of new list
+    rcp_noruns=No runs included.
+    rcp_nostates=No states included.
+    rcp_numberofcalls=Number of calls
+    rcp_numbers=numbers
+    rcp_runjob=Run job
+    rcp_runreport=Run Report
+    rcp_saveascsv=Save as CSV
+    rcp_search=Search
+    rcp_selectall=Select All
+    rcp_shorttitle=Reports
+    rcp_startdate=Start date
+    rcp_statisticsselected=Statistics for selected calls
+    rcp_totaltalk=Total talk length
+    rcp_totalusedtime=Total used time
+    rcp_totalwaitafter=Total wait after
+    rcp_totalwaitpre=Total wait pre
+    rcp_unselectall=Unselect All
+    rcp_recalls=Recall Stats
+    rcp_recalls_by_retry=Status of Calls by Retry Number
+
+
+
 ## Misc
 
 Other items
@@ -477,37 +518,6 @@ Other items
     product_name=WombatDialer
     pscmp_pausebutton=Pause Campaigns
     pscmp_title=Pause Campaigns
-    rcp_anewlistwillbe=A new list will be created with all the numbers included that are in a terminal state with one of the states included.
-    rcp_availablecallstates=Available call states
-    rcp_calloutcomes=Call outcomes
-    rcp_callspertrunk=Calls per trunk
-    rcp_campaignruns=Campaign runs
-    rcp_close=Close
-    rcp_createdlist=Created new list
-    rcp_enddate=End date
-    rcp_enteraname=Enter a name for the new list
-    rcp_exportnumbers=Export numbers to new list
-    rcp_exports=Exports
-    rcp_exporttolist=Export to new list
-    rcp_fulltitle=Activity Reports
-    rcp_nameoflist=Name of new list
-    rcp_noruns=No runs included.
-    rcp_nostates=No states included.
-    rcp_numberofcalls=Number of calls
-    rcp_numbers=numbers
-    rcp_runjob=Run job
-    rcp_runreport=Run Report
-    rcp_saveascsv=Save as CSV
-    rcp_search=Search
-    rcp_selectall=Select All
-    rcp_shorttitle=Reports
-    rcp_startdate=Start date
-    rcp_statisticsselected=Statistics for selected calls
-    rcp_totaltalk=Total talk length
-    rcp_totalusedtime=Total used time
-    rcp_totalwaitafter=Total wait after
-    rcp_totalwaitpre=Total wait pre
-    rcp_unselectall=Unselect All
     realtime_actioncannot=The action cannot be performed: the dialer seems to be down.
     realtime_activelists=Active lists
     realtime_activeruns=Active Runs

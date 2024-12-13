@@ -22,6 +22,50 @@ Do not translate the entries in this area.
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
+
+## Recap Page (activity reports)
+
+This is the page where statistics are displayed.
+
+    # 🔴 rcp_anewlistwillbe -> A new list will be created with all the numbers included that are in a terminal state with one of the states included.
+    ➡️ rcp_anewlistwillbe=
+    rcp_availablecallstates=Verfügbare Anrufstati
+    rcp_calloutcomes=Anrufergebnisse
+    rcp_callspertrunk=Anrufe per Amt
+    rcp_campaignruns=Kampagnenaktion
+    rcp_close=Geschlossen
+    rcp_createdlist=Neue Liste erstellen
+    rcp_enddate=Enddatum
+    rcp_enteraname=Name für neue Liste
+    rcp_exportnumbers=Nummern in eine neue Liste exportieren
+    rcp_exports=Exportierte Daten
+    rcp_exporttolist=In eine neue Liste exportieren
+    rcp_fulltitle=Aktivitätenberichte
+    rcp_nameoflist=Name der neuen Liste
+    rcp_noruns=Keine Kampagnenaktionen ausgewählt
+    rcp_nostates=Keine Stati eingeschlossen
+    rcp_numberofcalls=Anzahl der Anrufe
+    rcp_numbers=Nummern
+    rcp_runjob=Aktionen durchführen
+    rcp_runreport=Aktionenauswertung
+    rcp_saveascsv=Als CSV speichern
+    rcp_search=Suchen
+    rcp_selectall=Alles auswählen
+    rcp_shorttitle=Berichte
+    rcp_startdate=Startdatum
+    rcp_statisticsselected=Statistiken der ausgewählten Anrufe
+    rcp_totaltalk=Gesamte Gesprächszeit
+    rcp_totalusedtime=Gesamte verwendete Zeit
+    rcp_totalwaitafter=Gesamte Wartezeit nachher
+    rcp_totalwaitpre=Gesamte Wartezeit bevor
+    rcp_unselectall=Auswahl aufheben
+    # 🔴 rcp_recalls -> Recall Stats
+    ➡️ rcp_recalls=
+    # 🔴 rcp_recalls_by_retry -> Status of Calls by Retry Number
+    ➡️ rcp_recalls_by_retry=
+
+
+
 ## Misc
 
 Other items
@@ -595,38 +639,6 @@ Other items
     ➡️ pscmp_pausebutton=
     # 🔴 pscmp_title -> Pause Campaigns
     ➡️ pscmp_title=
-    # 🔴 rcp_anewlistwillbe -> A new list will be created with all the numbers included that are in a terminal state with one of the states included.
-    ➡️ rcp_anewlistwillbe=
-    rcp_availablecallstates=Verfügbare Anrufstati
-    rcp_calloutcomes=Anrufergebnisse
-    rcp_callspertrunk=Anrufe per Amt
-    rcp_campaignruns=Kampagnenaktion
-    rcp_close=Geschlossen
-    rcp_createdlist=Neue Liste erstellen
-    rcp_enddate=Enddatum
-    rcp_enteraname=Name für neue Liste
-    rcp_exportnumbers=Nummern in eine neue Liste exportieren
-    rcp_exports=Exportierte Daten
-    rcp_exporttolist=In eine neue Liste exportieren
-    rcp_fulltitle=Aktivitätenberichte
-    rcp_nameoflist=Name der neuen Liste
-    rcp_noruns=Keine Kampagnenaktionen ausgewählt
-    rcp_nostates=Keine Stati eingeschlossen
-    rcp_numberofcalls=Anzahl der Anrufe
-    rcp_numbers=Nummern
-    rcp_runjob=Aktionen durchführen
-    rcp_runreport=Aktionenauswertung
-    rcp_saveascsv=Als CSV speichern
-    rcp_search=Suchen
-    rcp_selectall=Alles auswählen
-    rcp_shorttitle=Berichte
-    rcp_startdate=Startdatum
-    rcp_statisticsselected=Statistiken der ausgewählten Anrufe
-    rcp_totaltalk=Gesamte Gesprächszeit
-    rcp_totalusedtime=Gesamte verwendete Zeit
-    rcp_totalwaitafter=Gesamte Wartezeit nachher
-    rcp_totalwaitpre=Gesamte Wartezeit bevor
-    rcp_unselectall=Auswahl aufheben
     realtime_actioncannot=Die Aktion kann nicht duchgeführt werden: der Dialer ist nicht bereit.
     realtime_activelists=Aktive Liste
     realtime_activeruns=Aktive Aktionen

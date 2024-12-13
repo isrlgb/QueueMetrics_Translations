@@ -22,6 +22,49 @@ Do not translate the entries in this area.
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
+
+## Recap Page (activity reports)
+
+This is the page where statistics are displayed.
+
+    rcp_anewlistwillbe=Μια νέα λίστα θα δημιουργηθεί με όλους τους αριθμούς που βρίσκονται σε τελική κατάσταση, περιλαμβανόμενης μίας κατάστασης από αυτές
+    rcp_availablecallstates=Διαθέσιμες καταστάσεις κλήσης
+    rcp_calloutcomes=Αποτελέσματα κλήσεων
+    rcp_callspertrunk=Κλήσεις ανά trunk
+    rcp_campaignruns=Εκτελέσεις καμπάνιας
+    rcp_close=Κλείσιμο
+    rcp_createdlist=Δημιουργήθηκε νέα λίστα
+    rcp_enddate=Ημερομηνία τέλους
+    rcp_enteraname=Εισάγετε ένα όνομα για τη νέα λίστα
+    rcp_exportnumbers=Εξαγωγή αριθμών σε νέα λίστα
+    rcp_exports=Εξαχθέντα
+    rcp_exporttolist=Εξαγωγή σε νέα λίστα
+    rcp_fulltitle=Αναφορές δραστηριότητας
+    rcp_nameoflist=Όνομα νέας λίστας
+    rcp_noruns=Δεν έχουν περιληφθεί εκτελέσεις καμπάνιας
+    rcp_nostates=Δεν έχουν περιληφθεί καταστάσεις
+    rcp_numberofcalls=Αριθμός κλήσεων
+    rcp_numbers=νούμερα
+    rcp_runjob=Εκτέλεση εργασίας
+    rcp_runreport=Εκτέλεση αποστολής
+    rcp_saveascsv=Αποθήκευση ως .CSV
+    rcp_search=Αναζήτηση
+    rcp_selectall=Επιλογή όλων
+    rcp_shorttitle=Αναφορές 
+    rcp_startdate=Ημερομηνία έναρξης
+    rcp_statisticsselected=Στατιστικά για επιλεγμένες κλήσεις
+    rcp_totaltalk=Συνολική διάρκεια συνομιλίας
+    rcp_totalusedtime=Συνολικός χρόνος χρήσης
+    rcp_totalwaitafter=Συνολική αναμονή μετά
+    rcp_totalwaitpre=Συνολική αναμονή πριν
+    rcp_unselectall=Αποεπιλογή όλων
+    # 🔴 rcp_recalls -> Recall Stats
+    ➡️ rcp_recalls=
+    # 🔴 rcp_recalls_by_retry -> Status of Calls by Retry Number
+    ➡️ rcp_recalls_by_retry=
+
+
+
 ## Misc
 
 Other items
@@ -479,37 +522,6 @@ Other items
     product_name=WombatDialer
     pscmp_pausebutton=Παύση καμπάνιας
     pscmp_title=Παύση καμπάνιας
-    rcp_anewlistwillbe=Μια νέα λίστα θα δημιουργηθεί με όλους τους αριθμούς που βρίσκονται σε τελική κατάσταση, περιλαμβανόμενης μίας κατάστασης από αυτές
-    rcp_availablecallstates=Διαθέσιμες καταστάσεις κλήσης
-    rcp_calloutcomes=Αποτελέσματα κλήσεων
-    rcp_callspertrunk=Κλήσεις ανά trunk
-    rcp_campaignruns=Εκτελέσεις καμπάνιας
-    rcp_close=Κλείσιμο
-    rcp_createdlist=Δημιουργήθηκε νέα λίστα
-    rcp_enddate=Ημερομηνία τέλους
-    rcp_enteraname=Εισάγετε ένα όνομα για τη νέα λίστα
-    rcp_exportnumbers=Εξαγωγή αριθμών σε νέα λίστα
-    rcp_exports=Εξαχθέντα
-    rcp_exporttolist=Εξαγωγή σε νέα λίστα
-    rcp_fulltitle=Αναφορές δραστηριότητας
-    rcp_nameoflist=Όνομα νέας λίστας
-    rcp_noruns=Δεν έχουν περιληφθεί εκτελέσεις καμπάνιας
-    rcp_nostates=Δεν έχουν περιληφθεί καταστάσεις
-    rcp_numberofcalls=Αριθμός κλήσεων
-    rcp_numbers=νούμερα
-    rcp_runjob=Εκτέλεση εργασίας
-    rcp_runreport=Εκτέλεση αποστολής
-    rcp_saveascsv=Αποθήκευση ως .CSV
-    rcp_search=Αναζήτηση
-    rcp_selectall=Επιλογή όλων
-    rcp_shorttitle=Αναφορές 
-    rcp_startdate=Ημερομηνία έναρξης
-    rcp_statisticsselected=Στατιστικά για επιλεγμένες κλήσεις
-    rcp_totaltalk=Συνολική διάρκεια συνομιλίας
-    rcp_totalusedtime=Συνολικός χρόνος χρήσης
-    rcp_totalwaitafter=Συνολική αναμονή μετά
-    rcp_totalwaitpre=Συνολική αναμονή πριν
-    rcp_unselectall=Αποεπιλογή όλων
     realtime_actioncannot=Αυτή η ενέργεια δεν μπορεί να πραγματοποιηθεί: ο dialer φαίνεται να είναι ανενεργός
     realtime_activelists=Ενεργές λίστες
     realtime_activeruns=Ενεργοί γύροι

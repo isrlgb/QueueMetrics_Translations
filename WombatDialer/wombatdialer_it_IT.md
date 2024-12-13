@@ -22,6 +22,47 @@ Do not translate the entries in this area.
     dateformat_time=HH:mm:ss
     dateformat_timeshort=HH:mm
 
+
+## Recap Page (activity reports)
+
+This is the page where statistics are displayed.
+
+    rcp_anewlistwillbe=Verra' creata una nuova lista con tutti i numeri inclusi che sono terminate in uno degli stati inclusi,
+    rcp_availablecallstates=Stati chiamata disponibili
+    rcp_calloutcomes=Outcomes
+    rcp_callspertrunk=Chiamate per trunk
+    rcp_campaignruns=Esecuz. Campagne
+    rcp_close=Chiudi
+    rcp_createdlist=Creata nuova lista
+    rcp_enddate=Data fine
+    rcp_enteraname=Nome della nuova lista
+    rcp_exportnumbers=Esporta numeri a una nuova lista
+    rcp_exports=Esporta
+    rcp_exporttolist=Esporta a nuova lista
+    rcp_fulltitle=Rapporti attività
+    rcp_nameoflist=Nome della nuova lista
+    rcp_noruns=Nessuna esecuzione inclusa.
+    rcp_nostates=Nessuno stato incluso.
+    rcp_numberofcalls=Numero di chiamate
+    rcp_numbers=numeri
+    rcp_runjob=Inizia esecuzione
+    rcp_runreport=Esegui report
+    rcp_saveascsv=Salva come CSV
+    rcp_search=Cerca
+    rcp_selectall=Seleziona tutti
+    rcp_shorttitle=Report
+    rcp_startdate=Data di inizio
+    rcp_statisticsselected=Statistiche delle chiamate selezionate
+    rcp_totaltalk=Durata totale conversazione
+    rcp_totalusedtime=Tempo totale
+    rcp_totalwaitafter=Totale attesa connessa
+    rcp_totalwaitpre=Totale attesa pre-connessione
+    rcp_unselectall=Deseleziona tutte
+    rcp_recalls=Stat.Rich.
+    rcp_recalls_by_retry=Status delle chiamate per richiamata
+
+
+
 ## Misc
 
 Other items
@@ -477,37 +518,6 @@ Other items
     product_name=WombatDialer
     pscmp_pausebutton=Pausa Campagne
     pscmp_title=Pausa Campagne
-    rcp_anewlistwillbe=Verra' creata una nuova lista con tutti i numeri inclusi che sono terminate in uno degli stati inclusi,
-    rcp_availablecallstates=Stati chiamata disponibili
-    rcp_calloutcomes=Outcomes
-    rcp_callspertrunk=Chiamate per trunk
-    rcp_campaignruns=Esecuz. Campagne
-    rcp_close=Chiudi
-    rcp_createdlist=Creata nuova lista
-    rcp_enddate=Data fine
-    rcp_enteraname=Nome della nuova lista
-    rcp_exportnumbers=Esporta numeri a una nuova lista
-    rcp_exports=Esporta
-    rcp_exporttolist=Esporta a nuova lista
-    rcp_fulltitle=Rapporti attività
-    rcp_nameoflist=Nome della nuova lista
-    rcp_noruns=Nessuna esecuzione inclusa.
-    rcp_nostates=Nessuno stato incluso.
-    rcp_numberofcalls=Numero di chiamate
-    rcp_numbers=numeri
-    rcp_runjob=Inizia esecuzione
-    rcp_runreport=Esegui report
-    rcp_saveascsv=Salva come CSV
-    rcp_search=Cerca
-    rcp_selectall=Seleziona tutti
-    rcp_shorttitle=Report
-    rcp_startdate=Data di inizio
-    rcp_statisticsselected=Statistiche delle chiamate selezionate
-    rcp_totaltalk=Durata totale conversazione
-    rcp_totalusedtime=Tempo totale
-    rcp_totalwaitafter=Totale attesa connessa
-    rcp_totalwaitpre=Totale attesa pre-connessione
-    rcp_unselectall=Deseleziona tutte
     realtime_actioncannot=L'azione non puo' essere completata: il dialer sembra essere spento.
     realtime_activelists=Liste attive
     realtime_activeruns=Run attivi
