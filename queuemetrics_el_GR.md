@@ -3332,7 +3332,7 @@ Other items
     agt_history_groupchange=Μέλος της Ομάδας
     agt_history_mtn=Αποστολή οδηγιών:
     # 🔴 amo_close_info -> Close AMO Information
-    ➡️ amo_close_info=
+    ➡️ amo_close_info=Κλείσιμο Πληροφοριών AMO
     amo_dialer_state_completed=Ολοκληρωμένο
     amo_dialer_state_open=Ανοιχτό
     amo_import_error_nonumber=Το πεδίο 'αριθμός' είναι υποχρεωτικό για κάθε εγγραφή.
@@ -3341,35 +3341,35 @@ Other items
     amo_list_state_open=Ανοιχτή
     amo_list_state_paused=Σε Πάυση
     # 🔴 amo_number_state_blklist -> Blacklisted
-    ➡️ amo_number_state_blklist=
+    ➡️ amo_number_state_blklist=Αποκλεισμένο
     # 🔴 amo_number_state_dialed -> Dialed
-    ➡️ amo_number_state_dialed=
+    ➡️ amo_number_state_dialed=Κλήθηκε
     # 🔴 amo_number_state_ko -> KO
-    ➡️ amo_number_state_ko=
+    ➡️ amo_number_state_ko=εκτός λειτουργίας
     # 🔴 amo_number_state_ok -> OK
-    ➡️ amo_number_state_ok=
+    ➡️ amo_number_state_ok=Εντάξει
     # 🔴 amo_number_state_placed -> Placed
-    ➡️ amo_number_state_placed=
+    ➡️ amo_number_state_placed=Τοποθετημένο
     # 🔴 amo_number_state_reserved -> Reserved
-    ➡️ amo_number_state_reserved=
+    ➡️ amo_number_state_reserved=Δεσμευμένο
     # 🔴 amo_number_state_todo -> To do
-    ➡️ amo_number_state_todo=
+    ➡️ amo_number_state_todo=Να κάνω
     # 🔴 amo_numbers_asteriskid -> Asterisk ID
-    ➡️ amo_numbers_asteriskid=
+    ➡️ amo_numbers_asteriskid=Asterisk ID
     # 🔴 amo_numbers_callstatus -> Status Code
-    ➡️ amo_numbers_callstatus=
+    ➡️ amo_numbers_callstatus=Κωδικός Κατάστασης
     # 🔴 amo_numbers_date -> Date
-    ➡️ amo_numbers_date=
+    ➡️ amo_numbers_date=Ημερομηνία
     # 🔴 amo_numbers_reason -> Reason
-    ➡️ amo_numbers_reason=
+    ➡️ amo_numbers_reason=Λόγος
     # 🔴 amo_numbers_user -> User
-    ➡️ amo_numbers_user=
+    ➡️ amo_numbers_user=Χρήστης
     # 🔴 amo_upload_numbers_error -> Error while uploading AMO numbers
-    ➡️ amo_upload_numbers_error=
+    ➡️ amo_upload_numbers_error=Σφάλμα κατά τη μεταφόρτωση των αριθμών AMO
     # 🔴 amo_upload_numbers_success -> AMO numbers uploaded succesfully.
-    ➡️ amo_upload_numbers_success=
+    ➡️ amo_upload_numbers_success=Οι αριθμοί AMO μεταφορτώθηκαν επιτυχώς.
     # 🔴 at_invalid_agent -> Invalid Agent
-    ➡️ at_invalid_agent=
+    ➡️ at_invalid_agent=Μη έγκυρος Χρήστης
     avg_time_decor_days=d
     bdcmsg_ForAgent=Χρήστης
     bdcmsg_Group=Ομάδα
@@ -3380,25 +3380,25 @@ Other items
     bdcmsg_Time=Ώρα 
     callselectordecor_select=Επιλογή αυτής της κλήσης
     # 🔴 ccase_case_name -> Case
-    ➡️ ccase_case_name=
+    ➡️ ccase_case_name=Υπόθεση
     # 🔴 ccase_case_xref -> Ref. #
-    ➡️ ccase_case_xref=
+    ➡️ ccase_case_xref=Αριθμός αναφοράς υπόθεσης
     # 🔴 ccase_client_name -> Client
-    ➡️ ccase_client_name=
+    ➡️ ccase_client_name=Χρήστης
     # 🔴 ccase_client_xref -> Ref. #
-    ➡️ ccase_client_xref=
+    ➡️ ccase_client_xref=Αριθμός αναφοράς χρήστη
     cdp_clonedispositions=Κανόνες διάθεσης κλώνων
     comboex_findlabel=Εύρεση
     # 🔴 common_jdecode_error -> Error while decoding JSON value. Check the browser's console for more information.
-    ➡️ common_jdecode_error=
+    ➡️ common_jdecode_error=Σφάλμα κατά την αποκωδικοποίηση της τιμής JSON. Ελέγξτε την κονσόλα του προγράμματος περιήγησης για περισσότερες πληροφορίες.
     # 🔴 common_jencode_error -> Error while encoding JSON value. Check the browser's console for more information.
-    ➡️ common_jencode_error=
+    ➡️ common_jencode_error=Σφάλμα κατά την κωδικοποίηση της τιμής JSON. Ελέγξτε την κονσόλα του προγράμματος περιήγησης για περισσότερες πληροφορίες."
     cronjobs_export_jobs=Εξαγωγή εργαασιών
     cronjobs_maintenance_jobs=Εργασίες Συντήρησης
     # 🔴 customblk_id -> ID
-    ➡️ customblk_id=
+    ➡️ customblk_id=Αναγνωριστικό
     # 🔴 customblk_title -> Title
-    ➡️ customblk_title=
+    ➡️ customblk_title=Τίτλος
     decoder_goal=Στόχος
     decoder_queue=Ουρά αναμονής
     decorator_agentloggedoff=Αποσυνδέθηκε
@@ -3407,19 +3407,19 @@ Other items
     decorator_queue_sla=SLA
     default.show_agent_priority_reports=Εμφάνιση του επιπέδου προτεραιότητας του χρήστη στις αναφορές.
     # 🔴 dlr_last_pull -> Last Pull
-    ➡️ dlr_last_pull=
+    ➡️ dlr_last_pull=Τελευταία Ανάκτηση
     # 🔴 dlr_last_pull_user -> Pull User
-    ➡️ dlr_last_pull_user=
+    ➡️ dlr_last_pull_user=Χρήστης Ανάκτησης
     # 🔴 dlr_list_state -> List State
-    ➡️ dlr_list_state=
+    ➡️ dlr_list_state=Κατάσταση Λίστας
     # 🔴 dlr_numbers_added -> Numbers Added
-    ➡️ dlr_numbers_added=
+    ➡️ dlr_numbers_added=Προστέθηκαν Αριθμοί
     # 🔴 dlr_numbers_completed -> Numbers Completed
-    ➡️ dlr_numbers_completed=
+    ➡️ dlr_numbers_completed=Ολοκληρωμένοι Αριθμοί
     # 🔴 dlr_numbers_pulled -> Numbers Pulled
-    ➡️ dlr_numbers_pulled=
+    ➡️ dlr_numbers_pulled=Αριθμοί που Ανακτήθηκαν
     # 🔴 dlr_state -> Number State
-    ➡️ dlr_state=
+    ➡️ dlr_state=Κατάσταση Αριθμού
     editor_all_reports=Όλες οι αναφορές
     editor_back=Πίσω
     editor_clone=Κλώνος
@@ -3455,35 +3455,35 @@ Other items
     export_to_pdf=PDF
     export_xml=Εξαγωγή σε διαμόρφωση XML
     # 🔴 grp_ivr -> Ivr Events
-    ➡️ grp_ivr=
+    ➡️ grp_ivr=Γεγονότα IVR
     # 🔴 grp_ivr_calls -> IVR calls
-    ➡️ grp_ivr_calls=
+    ➡️ grp_ivr_calls=Κλήσεις IVR
     # 🔴 grp_ivr_short -> Ivr
-    ➡️ grp_ivr_short=
+    ➡️ grp_ivr_short=IVR
     # 🔴 grp_lost_calls -> Lost Calls
-    ➡️ grp_lost_calls=
+    ➡️ grp_lost_calls=Χαμένες Κλήσεις
     # 🔴 grp_lost_short -> Lost
-    ➡️ grp_lost_short=
+    ➡️ grp_lost_short=Χαμένο
     # 🔴 grp_taken_calls -> Taken Calls
-    ➡️ grp_taken_calls=
+    ➡️ grp_taken_calls=κλήσεις που έχουν απαντηθεί
     # 🔴 grp_taken_short -> Taken
-    ➡️ grp_taken_short=
+    ➡️ grp_taken_short=Απαντημένος
     # 🔴 gui_fileuploader_msg -> Drop file or Browse
-    ➡️ gui_fileuploader_msg=
+    ➡️ gui_fileuploader_msg=Σύρετε το αρχείο εδώ ή Πατήστε 'Εξερεύνηση
     # 🔴 gui_fileuploader_types -> Supported file formats
-    ➡️ gui_fileuploader_types=
+    ➡️ gui_fileuploader_types=Υποστηριζόμενοι τύποι αρχείων
     # 🔴 gui_fileuploader_upload -> Upload files
-    ➡️ gui_fileuploader_upload=
+    ➡️ gui_fileuploader_upload=Μεταφόρτωση αρχείων
     # 🔴 gui_fileuploader_uploaded -> Uploaded files
-    ➡️ gui_fileuploader_uploaded=
+    ➡️ gui_fileuploader_uploaded=Ανεβασμένα αρχεία
     # 🔴 gui_form_back -> Back
-    ➡️ gui_form_back=
+    ➡️ gui_form_back=Πίσω
     # 🔴 gui_form_cancel -> Cancel
-    ➡️ gui_form_cancel=
+    ➡️ gui_form_cancel=Ακύρωση
     # 🔴 gui_form_next -> Next
-    ➡️ gui_form_next=
+    ➡️ gui_form_next=Επόμενο
     # 🔴 gui_form_ok -> OK
-    ➡️ gui_form_ok=
+    ➡️ gui_form_ok=Εντάξει
     jump_to_main_content=Μετάβαση στο κύριο περιεχόμενο
     keyinstall_err_nokey=Ο χρήστης πρέπει να κρατά πατημένο το κουμπί KEYUPDATE. Δεν είναι δυνατή η συνέχιση.
     keyinstall_err_noscript=Λείπει το script επανεκκίνησης
@@ -3498,43 +3498,43 @@ Other items
     keyinstall_popup_title=Εγκαταστήστε καινούργιο κλειδί QueueMetrics
     keyinstall_popup_title_agaw=Άδεια AGAW
     # 🔴 ko_lst_n -> N Lost
-    ➡️ ko_lst_n=
+    ➡️ ko_lst_n=N Χαμένα
     # 🔴 ko_lst_q -> Lost on Q
-    ➡️ ko_lst_q=
+    ➡️ ko_lst_q=Χαμένα στην ουρά αναμονής
     # 🔴 ko_lst_t -> Last Lost
-    ➡️ ko_lst_t=
+    ➡️ ko_lst_t=Τελευταία χαμένα
     # 🔴 ko_recall_state -> Recall state
-    ➡️ ko_recall_state=
+    ➡️ ko_recall_state=Κατάσταση ανάκλησης
     # 🔴 ko_sho_n -> N Short
-    ➡️ ko_sho_n=
+    ➡️ ko_sho_n=N Short
     # 🔴 ko_sho_q -> Short.Q.
-    ➡️ ko_sho_q=
+    ➡️ ko_sho_q=Short.Q.
     # 🔴 ko_sho_t -> Short.Lst.
-    ➡️ ko_sho_t=
+    ➡️ ko_sho_t=Short.Lst.
     # 🔴 ko_succ_a -> Agent
-    ➡️ ko_succ_a=
+    ➡️ ko_succ_a=Χρήστης
     # 🔴 ko_succ_n -> Successful
-    ➡️ ko_succ_n=
+    ➡️ ko_succ_n=Επιτυχημένο
     # 🔴 ko_succ_q -> Succ.Q.
-    ➡️ ko_succ_q=
+    ➡️ ko_succ_q=Succ.Q.
     # 🔴 ko_succ_t -> Succ.Last
-    ➡️ ko_succ_t=
+    ➡️ ko_succ_t=Τελευταία Επιτυχημένη Ενέργεια
     # 🔴 lgui_friday -> Friday
-    ➡️ lgui_friday=
+    ➡️ lgui_friday=Παρασκευή
     # 🔴 lgui_monday -> Monday
-    ➡️ lgui_monday=
+    ➡️ lgui_monday=Δευτέρα
     # 🔴 lgui_saturday -> Saturday
-    ➡️ lgui_saturday=
+    ➡️ lgui_saturday=Σάββατο
     # 🔴 lgui_selectall -> Select All
-    ➡️ lgui_selectall=
+    ➡️ lgui_selectall=Επιλογή όλων
     # 🔴 lgui_sunday -> Sunday
-    ➡️ lgui_sunday=
+    ➡️ lgui_sunday=Κυριακή
     # 🔴 lgui_thursday -> Thursday
-    ➡️ lgui_thursday=
+    ➡️ lgui_thursday=Πέμπτη
     # 🔴 lgui_tuesday -> Tuesday
-    ➡️ lgui_tuesday=
+    ➡️ lgui_tuesday=Τρίτη
     # 🔴 lgui_wednesday -> Wednesday
-    ➡️ lgui_wednesday=
+    ➡️ lgui_wednesday=Τετάρτη
     licence_contributors=Συνεργάτες
     licence_firefox_client=Έκδοση Firefox
     licence_install_now=Εγκατάσταση τώρα
@@ -3546,19 +3546,19 @@ Other items
     licence_software_release=Έκδοση λογισμικού:
     licence_website=Το επίσημο website του QueueMetrics βρίσκεται
     # 🔴 list_amo_title -> AMO Campaigns
-    ➡️ list_amo_title=
+    ➡️ list_amo_title=ΑΜΟ Καμπάνιες
     logon_ErrAlreadyPresent=Αυτό το όνομα χρήστη υπάρχει ήδη στη βάση δεδομένων
     logon_ErrClassNotFound=Η κατηγορία δε βρέθηκε
     logon_ErrHidden=Η σύνδεση απέτυχε.
     # 🔴 logon_ErrIllegalSsoSecret -> Could not validate the SSO reply - please try again.
-    ➡️ logon_ErrIllegalSsoSecret=
+    ➡️ logon_ErrIllegalSsoSecret=Δεν ήταν δυνατή η επαλήθευση της απάντησης SSO - παρακαλώ προσπαθήστε ξανά
     logon_ErrMoreThanOne=Υπάρχουν περισσότεροι από ένα χρήστες με το ίδιο όνομα χρήστη
     logon_ErrNotFound=Δε βρέθηκε ο χρήστης
     logon_ErrUserDisabled=Ο χρήστης δε μπορεί να συνδεθεί
     logon_ErrUserNotFound=Δε βρέθηκε ο χρήστης
     logon_ErrWrongPassword=Λανθασμένος κωδικός
     # 🔴 logon_ErrWrongSsoToken -> The user has an incorrect SSO token in their profile.
-    ➡️ logon_ErrWrongSsoToken=
+    ➡️ logon_ErrWrongSsoToken=Ο χρήστης έχει λανθασμένο SSO token στο προφίλ του
     logon_ErrWrongToken=Λανθασμένη ένδειξη
     logon_ErrXmlConnect=Πρόβλημα σύνδεσης με την υπηρεσία αυθεντικοποίησης μέσω XML-RPC
     logon_ErrXmlForbid=Το παρεχόμενο σύνολο διαπιστευτηρίων δεν είναι έγκυρο.
@@ -3566,114 +3566,114 @@ Other items
     logon_language=Γλώσσα
     logon_login=Όνομα χρήστη
     # 🔴 logon_microsoft -> Sign in with Microsoft
-    ➡️ logon_microsoft=
+    ➡️ logon_microsoft=Σύνδεση με Microsoft
     logon_pass=Κωδικός πρόσβασης
     # 🔴 logon_ssoLogInWith -> Or
-    ➡️ logon_ssoLogInWith=
+    ➡️ logon_ssoLogInWith='Η
     logon_title=Σύνδεση χρήστη
     lstcall_calllen=Διάρκεια
     lstcall_ivr=IVR
     lstcall_waitlen=Αναμονή
     # 🔴 memo_add_new -> Create Memo
-    ➡️ memo_add_new=
+    ➡️ memo_add_new=Δημιουργία Σημειώματος
     # 🔴 memo_category -> Filter by category
-    ➡️ memo_category=
+    ➡️ memo_category=Φιλτράρισμα κατά κατηγορία
     # 🔴 memo_details_caller -> Caller
-    ➡️ memo_details_caller=
+    ➡️ memo_details_caller=Καλών
     # 🔴 memo_details_create -> Create Memo
-    ➡️ memo_details_create=
+    ➡️ memo_details_create=Δημιουργία Σημειώματος
     # 🔴 memo_details_expireson -> Expires on
-    ➡️ memo_details_expireson=
+    ➡️ memo_details_expireson=Λήγει στις
     # 🔴 memo_details_form -> Form
-    ➡️ memo_details_form=
+    ➡️ memo_details_form=Φόρμα
     # 🔴 memo_details_from -> FROM
-    ➡️ memo_details_from=
+    ➡️ memo_details_from=ΑΠΟ
     # 🔴 memo_details_goback -> Back
-    ➡️ memo_details_goback=
+    ➡️ memo_details_goback=Πίσω
     # 🔴 memo_details_info -> Memo Info
-    ➡️ memo_details_info=
+    ➡️ memo_details_info=Πληροφορίες Σημειώματος
     # 🔴 memo_details_queue -> Queue
-    ➡️ memo_details_queue=
+    ➡️ memo_details_queue=Ουρά αναμονής
     # 🔴 memo_details_save -> Save
-    ➡️ memo_details_save=
+    ➡️ memo_details_save=Αποθήκευση
     # 🔴 memo_details_title -> Title
-    ➡️ memo_details_title=
+    ➡️ memo_details_title=Τίτλος
     # 🔴 memo_details_to -> TO
-    ➡️ memo_details_to=
+    ➡️ memo_details_to=ΠΡΟΣ
     # 🔴 memo_details_type -> Type
-    ➡️ memo_details_type=
+    ➡️ memo_details_type=Τύπος 
     # 🔴 memo_details_user_from -> From
-    ➡️ memo_details_user_from=
+    ➡️ memo_details_user_from=Από
     # 🔴 memo_details_user_to -> To
-    ➡️ memo_details_user_to=
+    ➡️ memo_details_user_to=Προς
     # 🔴 memo_details_validfrom -> Valid from
-    ➡️ memo_details_validfrom=
+    ➡️ memo_details_validfrom=Ισχύει από
     # 🔴 memo_due -> Due Date
-    ➡️ memo_due=
+    ➡️ memo_due=Ημερομηνία Παράδοσης/Λήξης
     # 🔴 memo_filter_all -> All Memos
-    ➡️ memo_filter_all=
+    ➡️ memo_filter_all=Όλα τα Σημειώματα
     # 🔴 memo_filter_alldone -> All Memos done
-    ➡️ memo_filter_alldone=
+    ➡️ memo_filter_alldone=Όλα τα Σημειώματα ολοκληρώθηκαν
     # 🔴 memo_filter_alltbd -> All Memos to be done
-    ➡️ memo_filter_alltbd=
+    ➡️ memo_filter_alltbd=Όλα τα Σημειώματα που πρέπει να γίνουν
     # 🔴 memo_filter_completed -> Memos I completed
-    ➡️ memo_filter_completed=
+    ➡️ memo_filter_completed=Τα Σημειώματα που ολοκλήρωσα
     # 🔴 memo_filter_error -> Error filtering Memos
-    ➡️ memo_filter_error=
+    ➡️ memo_filter_error=Σφάλμα στο φιλτράρισμα των Σημειωμάτων"
     # 🔴 memo_filter_mygroup -> My group
-    ➡️ memo_filter_mygroup=
+    ➡️ memo_filter_mygroup=Η ομάδα μου
     # 🔴 memo_filter_sent -> Memos I sent
-    ➡️ memo_filter_sent=
+    ➡️ memo_filter_sent=Τα Σημειώματα που έστειλα
     # 🔴 memo_filter_status -> Status
-    ➡️ memo_filter_status=
+    ➡️ memo_filter_status=Κατάσταση
     # 🔴 memo_filter_tbd -> Memos to be done
-    ➡️ memo_filter_tbd=
+    ➡️ memo_filter_tbd=Σημειώματα που πρέπει να γίνουν
     # 🔴 memo_from -> From
-    ➡️ memo_from=
+    ➡️ memo_from=Από
     # 🔴 memo_group -> Group
-    ➡️ memo_group=
+    ➡️ memo_group=Ομάδα
     # 🔴 memo_id -> Id
-    ➡️ memo_id=
+    ➡️ memo_id=Ταυτότητα
     # 🔴 memo_items_found -> items found
-    ➡️ memo_items_found=
+    ➡️ memo_items_found=Αντικείμενα βρέθηκαν
     # 🔴 memo_list -> Memo List
-    ➡️ memo_list=
+    ➡️ memo_list=Λίστα Σημειωμάτων
     # 🔴 memo_list_norecords -> No Records
-    ➡️ memo_list_norecords=
+    ➡️ memo_list_norecords=Δεν υπάρχουν εγγραφές
     # 🔴 memo_loadbyid_error -> There was an error loading the Memo by ID
-    ➡️ memo_loadbyid_error=
+    ➡️ memo_loadbyid_error=Υπήρξε σφάλμα κατά τη φόρτωση του Σημειώματος με βάση το ID
     # 🔴 memo_loadbyid_missing -> There seems to be no Memo with ID
-    ➡️ memo_loadbyid_missing=
+    ➡️ memo_loadbyid_missing=Φαίνεται ότι δεν υπάρχει Σημείωμα με το ID
     # 🔴 memo_manager -> Manager
-    ➡️ memo_manager=
+    ➡️ memo_manager=Διαχειριστής
     # 🔴 memo_message -> Message
-    ➡️ memo_message=
+    ➡️ memo_message=Μήνυμα
     # 🔴 memo_related_to -> Related to
-    ➡️ memo_related_to=
+    ➡️ memo_related_to=Σχετικό με
     # 🔴 memo_status -> Status
-    ➡️ memo_status=
+    ➡️ memo_status=Κατάσταση
     # 🔴 memo_tree_empty -> Empty
-    ➡️ memo_tree_empty=
+    ➡️ memo_tree_empty=Άδειο
     # 🔴 memo_tree_title -> Linked memos
-    ➡️ memo_tree_title=
+    ➡️ memo_tree_title=Συνδεδεμένα Σημειώματα
     # 🔴 memo_type -> Type
-    ➡️ memo_type=
+    ➡️ memo_type=Τύπος
     menu_licence_page=Σελίδα άδειας
     menu_user_page=Πληροφορίες χρήστη
     # 🔴 modal_cancel -> Cancel
-    ➡️ modal_cancel=
+    ➡️ modal_cancel=Ακύρωση
     # 🔴 modal_ok -> Ok
-    ➡️ modal_ok=
+    ➡️ modal_ok=Εντάξει
     # 🔴 notification_error -> Error
-    ➡️ notification_error=
+    ➡️ notification_error=Λάθος
     # 🔴 notification_info -> Info
-    ➡️ notification_info=
+    ➡️ notification_info=Πληροφορίες
     # 🔴 notification_success -> Success
-    ➡️ notification_success=
+    ➡️ notification_success=Επιτυχία
     # 🔴 notification_warning -> Warning
-    ➡️ notification_warning=
+    ➡️ notification_warning=Προειδοποίηση
     # 🔴 numberformat_defaultdigits -> 1
-    ➡️ numberformat_defaultdigits=
+    ➡️ numberformat_defaultdigits=1
     open_addremoveinfobox_menu=Ανοίξτε το μενού InfoBox για προσθήκη / αφαίρεση των InfoBoxes
     open_settings_menu=Ανοίγμα του μενού ρυθμίσεων
     pager_current_page=Τρέχουσα σελίδα:
@@ -3775,23 +3775,23 @@ Other items
     prl_time_wrong_period=Η καθορισμένη περίοδος δεν είναι έγκυρη. Αναμένεται ώρα λήξης αργότερα από την ώρα έναρξης.
     prl_total_duration=Συνολική διάρκεια
     # 🔴 pwres_change -> Set new password
-    ➡️ pwres_change=
+    ➡️ pwres_change=Ορίστε νέο κωδικό πρόσβασης
     # 🔴 pwres_changed_successfully -> The password was reset successfully. Please log on now.
-    ➡️ pwres_changed_successfully=
+    ➡️ pwres_changed_successfully=Ο κωδικός πρόσβασης επαναρυθμίστηκε με επιτυχία. Παρακαλώ συνδεθείτε τώρα.
     # 🔴 pwres_expired_link -> The link you used has expired. Please ask for a new one.
-    ➡️ pwres_expired_link=
+    ➡️ pwres_expired_link=Ο σύνδεσμος που χρησιμοποιήσατε έχει λήξει. Παρακαλώ ζητήστε έναν νέο.
     # 🔴 pwres_no_resettable_user -> The password reset link is invalid or it has already been used once.
-    ➡️ pwres_no_resettable_user=
+    ➡️ pwres_no_resettable_user=Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης είναι μη έγκυρος ή έχει ήδη χρησιμοποιηθεί.
     # 🔴 pwres_pass -> New password
-    ➡️ pwres_pass=
+    ➡️ pwres_pass=Νέος Κωδικός
     # 🔴 pwres_passwords_dont_match -> The passwords you have entered do not match. Please try again.
-    ➡️ pwres_passwords_dont_match=
+    ➡️ pwres_passwords_dont_match=Οι κωδικοί που έχετε εισαγάγει είναι διαφορετικοί. Παρακαλώ προσπαθήστε ξανά.
     # 🔴 pwres_repeat_pass -> Repeat new password
-    ➡️ pwres_repeat_pass=
+    ➡️ pwres_repeat_pass=Επαναλάβετε τον νέο κωδικό πρόσβασης
     # 🔴 pwres_reset_password -> Reset the password of
-    ➡️ pwres_reset_password=
+    ➡️ pwres_reset_password=Επαναλάβετε τον νέο κωδικό πρόσβασης του/της
     # 🔴 pwres_unknown_link -> The provided password reset link is invalid.
-    ➡️ pwres_unknown_link=
+    ➡️ pwres_unknown_link=Ο σύνδεσμος επαναφοράς κωδικού πρόσβασης που παρέχεται είναι μη έγκυρος.
     qagrader_addedbygrtype=Προστέθηκε από
     qagrader_agent=Χρήστης
     qagrader_audio=Ήχος
@@ -3808,510 +3808,510 @@ Other items
     qagrader_wait=Αναμονή
     qagrader_wrongurl=Το URL που ορίσατε δεν ισχύει. Παρακαλώ ελέγξτε και ξαναπροσπαθήστε
     # 🔴 qap_action_case -> Assign to Case
-    ➡️ qap_action_case=
+    ➡️ qap_action_case=Ανάθεση στην Υπόθεση
     # 🔴 qap_action_clicktodial -> Click to dial
-    ➡️ qap_action_clicktodial=
+    ➡️ qap_action_clicktodial=Κάντε κλικ για να καλέσετε
     # 🔴 qap_action_client -> Assign to Client
-    ➡️ qap_action_client=
+    ➡️ qap_action_client=Ανάθεση στον Πελάτη
     # 🔴 qap_action_crm -> Open CRM
-    ➡️ qap_action_crm=
+    ➡️ qap_action_crm=Άνοιγμα CRM
     # 🔴 qap_action_flag -> Flag Interaction
-    ➡️ qap_action_flag=
+    ➡️ qap_action_flag=Σημείωση Αλληλεπίδρασης
     # 🔴 qap_action_hangup -> Hangup Call
-    ➡️ qap_action_hangup=
+    ➡️ qap_action_hangup=Τερματισμός Κλήσης
     # 🔴 qap_action_label -> Label Interaction
-    ➡️ qap_action_label=
+    ➡️ qap_action_label=Επισήμανση Αλληλεπίδρασης
     # 🔴 qap_action_monitor -> Monitor Call
-    ➡️ qap_action_monitor=
+    ➡️ qap_action_monitor=Παρακολούθηση Κλήσης
     # 🔴 qap_action_qa -> QA Forms
-    ➡️ qap_action_qa=
+    ➡️ qap_action_qa=Φόρμες Αξιολόγησης Ποιότητας
     # 🔴 qap_action_recall -> New Recall Memo
-    ➡️ qap_action_recall=
+    ➡️ qap_action_recall=Νέα Σημείωση Ανάκλησης
     # 🔴 qap_action_transfer -> Transfer Call
-    ➡️ qap_action_transfer=
+    ➡️ qap_action_transfer=Μεταφορά Κλήσης
     # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
-    ➡️ qap_action_wbtrecall=
+    ➡️ qap_action_wbtrecall=Επανάκληση με το WombatDialer
     # 🔴 qap_addmember_selected -> Join selected queues.
-    ➡️ qap_addmember_selected=
+    ➡️ qap_addmember_selected=Ένταξη στις επιλεγμένες ουρές.
     # 🔴 qap_agent_code -> Agent Code
-    ➡️ qap_agent_code=
+    ➡️ qap_agent_code=Κωδικός Χρήστη
     # 🔴 qap_agent_dialout_error -> Error while performing Agent Dialout.
-    ➡️ qap_agent_dialout_error=
+    ➡️ qap_agent_dialout_error=Σφάλμα κατά την εκτέλεση κλήσης από τον χρήστη
     # 🔴 qap_agent_extension -> Agent Extension
-    ➡️ qap_agent_extension=
+    ➡️ qap_agent_extension=Επέκταση Χρήστη
     # 🔴 qap_agent_notifications_error -> Error while fetching agent notifications.
-    ➡️ qap_agent_notifications_error=
+    ➡️ qap_agent_notifications_error=Σφάλμα κατά την αναζήτηση ειδοποιήσεων του χρήστη
     # 🔴 qap_agent_settings_error -> Error while fetching agent settings.
-    ➡️ qap_agent_settings_error=
+    ➡️ qap_agent_settings_error=Σφάλμα κατά την αναζήτηση ρυθμίσεων του χρήστη
     # 🔴 qap_agent_status_error -> Error while fetching agent status.
-    ➡️ qap_agent_status_error=
+    ➡️ qap_agent_status_error=Σφάλμα κατά την αναζήτηση κατάστασης του χρήστη
     # 🔴 qap_amo -> AMO
-    ➡️ qap_amo=
+    ➡️ qap_amo=AMO
     # 🔴 qap_amo_attributes -> Attributes
-    ➡️ qap_amo_attributes=
+    ➡️ qap_amo_attributes=Χαρακτηριστικά
     # 🔴 qap_amo_cannot -> Cannot reserve a call at this time.
-    ➡️ qap_amo_cannot=
+    ➡️ qap_amo_cannot=Δεν μπορεί να κρατηθεί μια κλήση αυτή τη στιγμή
     # 🔴 qap_amo_error -> Error reserving AMO call:
-    ➡️ qap_amo_error=
+    ➡️ qap_amo_error=Σφάλμα κατά την κράτηση κλήσης AMO
     # 🔴 qap_amo_list -> List Name
-    ➡️ qap_amo_list=
+    ➡️ qap_amo_list=Όνομα Λίστας
     # 🔴 qap_amo_number -> Number
-    ➡️ qap_amo_number=
+    ➡️ qap_amo_number=Αριθμός
     # 🔴 qap_amo_queue -> Queue Name
-    ➡️ qap_amo_queue=
+    ➡️ qap_amo_queue=Όνομα Ουράς Αναμονής
     # 🔴 qap_amo_recall -> Recall
-    ➡️ qap_amo_recall=
+    ➡️ qap_amo_recall=Επανάκληση
     # 🔴 qap_amo_request -> Request AMO Call
-    ➡️ qap_amo_request=
+    ➡️ qap_amo_request=Αίτημα για Κλήση AMO
     # 🔴 qap_amo_reserved -> Call successfully Reserved.
-    ➡️ qap_amo_reserved=
+    ➡️ qap_amo_reserved=Η Κλήση δεσμεύτηκα Επιτυχώς
     # 🔴 qap_amo_terminated -> There are no more available AMO calls.
-    ➡️ qap_amo_terminated=
+    ➡️ qap_amo_terminated=Δεν Υπάρχουν Πλέον Διαθέσιμες Κλήσεις AMO
     # 🔴 qap_assign_case -> Assign Interaction to Case
-    ➡️ qap_assign_case=
+    ➡️ qap_assign_case=Ανάθεση Αλληλεπίδρασης σε Υπόθεση
     # 🔴 qap_assign_client -> Assign Interaction to Client
-    ➡️ qap_assign_client=
+    ➡️ qap_assign_client=Ανάθεση Αλληλεπίδρασης στον Πελάτη
     # 🔴 qap_assign_interaction_error -> Error while assigning a relationship to this Interaction.
-    ➡️ qap_assign_interaction_error=
+    ➡️ qap_assign_interaction_error=Σφάλμα κατά την ανάθεση σχέσης σε αυτή την Αλληλεπίδραση
     # 🔴 qap_calendar_add -> Add New
-    ➡️ qap_calendar_add=
+    ➡️ qap_calendar_add=Προσθήκη Νέου
     # 🔴 qap_call_associated_to_case -> Call was associated to case
-    ➡️ qap_call_associated_to_case=
+    ➡️ qap_call_associated_to_case=Η Κλήση Συνδέθηκε με Υπόθεση
     # 🔴 qap_case -> Case
-    ➡️ qap_case=
+    ➡️ qap_case=Υπόθεση
     # 🔴 qap_case_add -> Add New Case
-    ➡️ qap_case_add=
+    ➡️ qap_case_add=Προσθήκη Νέας Υπόθεσης
     # 🔴 qap_case_calls -> ALL CALLS
-    ➡️ qap_case_calls=
+    ➡️ qap_case_calls=ΟΛΕΣ ΟΙ ΚΛΗΣΕΙΣ
     # 🔴 qap_case_closed -> Closed
-    ➡️ qap_case_closed=
+    ➡️ qap_case_closed=Κλειστό
     # 🔴 qap_case_comments -> Comments
-    ➡️ qap_case_comments=
+    ➡️ qap_case_comments=Σχόλια
     # 🔴 qap_case_contact -> Contact
-    ➡️ qap_case_contact=
+    ➡️ qap_case_contact=Επαφή
     # 🔴 qap_case_details -> Case Details
-    ➡️ qap_case_details=
+    ➡️ qap_case_details=Λεπτομέρειες Υπόθεσης
     # 🔴 qap_case_email -> Email
-    ➡️ qap_case_email=
+    ➡️ qap_case_email=Ηλεκτρονική Διεύθυνση
     # 🔴 qap_case_merged -> Merged
-    ➡️ qap_case_merged=
+    ➡️ qap_case_merged=Συγχωνευμένο
     # 🔴 qap_case_notes -> Notes
-    ➡️ qap_case_notes=
+    ➡️ qap_case_notes=Σημειώσεις
     # 🔴 qap_case_open -> Open
-    ➡️ qap_case_open=
+    ➡️ qap_case_open=Ανοιχτό
     # 🔴 qap_case_title -> Title
-    ➡️ qap_case_title=
+    ➡️ qap_case_title=Τίτλος
     # 🔴 qap_case_unconfirmed -> Unconfirmed
-    ➡️ qap_case_unconfirmed=
+    ➡️ qap_case_unconfirmed=Μη Επιβεβαιωμένο
     # 🔴 qap_case_xref -> XREF
-    ➡️ qap_case_xref=
+    ➡️ qap_case_xref=XREF υπόθεσης
     # 🔴 qap_cases_placeholder_search -> Search for any Case here
-    ➡️ qap_cases_placeholder_search=
+    ➡️ qap_cases_placeholder_search=Αναζητήστε οποιαδήποτε Υπόθεση εδώ
     # 🔴 qap_choose_server_title -> Choose a Server
-    ➡️ qap_choose_server_title=
+    ➡️ qap_choose_server_title=Επιλέξτε Διακομιστή
     # 🔴 qap_client -> Client
-    ➡️ qap_client=
+    ➡️ qap_client=Πελάτης
     # 🔴 qap_client_contact -> Contact
-    ➡️ qap_client_contact=
+    ➡️ qap_client_contact=Επαφή
     # 🔴 qap_client_email -> Email
-    ➡️ qap_client_email=
+    ➡️ qap_client_email=Ηλεκτρονική Διεύθυνση
     # 🔴 qap_client_externalRef -> External Reference
-    ➡️ qap_client_externalRef=
+    ➡️ qap_client_externalRef=Εξωτερική Αναφορά
     # 🔴 qap_client_key -> Visibility Key
-    ➡️ qap_client_key=
+    ➡️ qap_client_key=Κλειδί Ορατότητας
     # 🔴 qap_client_name -> Name
-    ➡️ qap_client_name=
+    ➡️ qap_client_name=Όνομα
     # 🔴 qap_client_notes -> Notes
-    ➡️ qap_client_notes=
+    ➡️ qap_client_notes=Σημειώσεις
     # 🔴 qap_client_xref -> XREF
-    ➡️ qap_client_xref=
+    ➡️ qap_client_xref=XREF χρήστη
     # 🔴 qap_clients_add -> Add New Client
-    ➡️ qap_clients_add=
+    ➡️ qap_clients_add=Προσθήκη Νέου Πελάτη
     # 🔴 qap_clients_placeholder_search -> Search for any Client here
-    ➡️ qap_clients_placeholder_search=
+    ➡️ qap_clients_placeholder_search=Αναζητήστε οποιονδήποτε Πελάτη εδώ
     # 🔴 qap_control_addall -> Join selected
-    ➡️ qap_control_addall=
+    ➡️ qap_control_addall=Σύνδεση με επιλεγμένα
     # 🔴 qap_control_add -> Join
-    ➡️ qap_control_add=
+    ➡️ qap_control_add=Σύνδεση
     # 🔴 qap_control_remove -> Leave
-    ➡️ qap_control_remove=
+    ➡️ qap_control_remove=Αποχώρηση
     # 🔴 qap_control_all -> All
-    ➡️ qap_control_all=
+    ➡️ qap_control_all=Όλα
     # 🔴 qap_control_amend -> Amend
-    ➡️ qap_control_amend=
+    ➡️ qap_control_amend=Τροποποίηση
     # 🔴 qap_control_assigned -> Assigned
-    ➡️ qap_control_assigned=
+    ➡️ qap_control_assigned=Ανατεθειμένο
     # 🔴 qap_control_change -> Change
-    ➡️ qap_control_change=
+    ➡️ qap_control_change=Αλλαγή
     # 🔴 qap_control_composition -> Composition
-    ➡️ qap_control_composition=
+    ➡️ qap_control_composition=Σύνθεση
     # 🔴 qap_control_name -> Name
-    ➡️ qap_control_name=
+    ➡️ qap_control_name=Όνομα
     # 🔴 qap_control_pause -> Pause
-    ➡️ qap_control_pause=
+    ➡️ qap_control_pause=Παύση
     # 🔴 qap_control_priority -> Priority
-    ➡️ qap_control_priority=
+    ➡️ qap_control_priority=Προτεραιότητα
     # 🔴 qap_control_removeall -> Leave selected
-    ➡️ qap_control_removeall=
+    ➡️ qap_control_removeall=Αποχώρηση από επιλεγμένα
     # 🔴 qap_control_selectall -> Select all
-    ➡️ qap_control_selectall=
+    ➡️ qap_control_selectall=Επιλογή όλων
     # 🔴 qap_control_timer -> Timer
-    ➡️ qap_control_timer=
+    ➡️ qap_control_timer=Χρονόμετρο
     # 🔴 qap_control_unpause -> Unpause
-    ➡️ qap_control_unpause=
+    ➡️ qap_control_unpause=Ακύρωση Παύσης
     # 🔴 qap_create_note_error -> Error while creating a new Note.
-    ➡️ qap_create_note_error=
+    ➡️ qap_create_note_error=Σφάλμα κατά τη δημιουργία νέας Σημείωσης
     # 🔴 qap_crm_links -> CRM Popup Links
-    ➡️ qap_crm_links=
+    ➡️ qap_crm_links=Συνδέσεις Αναδυόμενου Παράθυρου CRM
     # 🔴 qap_daily_idle -> Idle time
-    ➡️ qap_daily_idle=
+    ➡️ qap_daily_idle=Χρόνος Αδράνειας
     # 🔴 qap_daily_lost -> Lost Calls
-    ➡️ qap_daily_lost=
+    ➡️ qap_daily_lost=Χαμένες Κλήσεις
     # 🔴 qap_daily_lostatt -> Lost Attempts
-    ➡️ qap_daily_lostatt=
+    ➡️ qap_daily_lostatt=Χαμένες Προσπάθειες
     # 🔴 qap_daily_pause -> Pause time
-    ➡️ qap_daily_pause=
+    ➡️ qap_daily_pause=Χρόνος Παύσης
     # 🔴 qap_daily_stats -> Daily Stats
-    ➡️ qap_daily_stats=
+    ➡️ qap_daily_stats=Ημερήσια Στατιστικά
     # 🔴 qap_daily_taken -> Taken Calls
-    ➡️ qap_daily_taken=
+    ➡️ qap_daily_taken=Ληφθείσες Κλήσεις
     # 🔴 qap_daily_talk -> Talk time
-    ➡️ qap_daily_talk=
+    ➡️ qap_daily_talk=Χρόνος Ομιλίας
     # 🔴 qap_debug_api -> API
-    ➡️ qap_debug_api=
+    ➡️ qap_debug_api=API
     # 🔴 qap_debug_context -> Context
-    ➡️ qap_debug_context=
+    ➡️ qap_debug_context=Πλαίσιο
     # 🔴 qap_debug_title -> Debug
-    ➡️ qap_debug_title=
+    ➡️ qap_debug_title=Αναφορά Σφαλμάτων
     # 🔴 qap_details_attempts -> Attempts
-    ➡️ qap_details_attempts=
+    ➡️ qap_details_attempts=Προσπάθειες
     # 🔴 qap_details_caller -> Caller
-    ➡️ qap_details_caller=
+    ➡️ qap_details_caller=Καλών
     # 🔴 qap_details_direction -> Direction
-    ➡️ qap_details_direction=
+    ➡️ qap_details_direction=Κατεύθυνση
     # 🔴 qap_details_dnis -> Dnis
-    ➡️ qap_details_dnis=
+    ➡️ qap_details_dnis=DNIS
     # 🔴 qap_details_entered -> Entered
-    ➡️ qap_details_entered=
+    ➡️ qap_details_entered=Εισήχθη
     # 🔴 qap_details_features -> Features
-    ➡️ qap_details_features=
+    ➡️ qap_details_features=Χαρακτηριστικά
     # 🔴 qap_details_ivrpath -> IVR Path
-    ➡️ qap_details_ivrpath=
+    ➡️ qap_details_ivrpath=Μονοπάτι IVR
     # 🔴 qap_details_outcome -> Outcome
-    ➡️ qap_details_outcome=
+    ➡️ qap_details_outcome=Αποτέλεσμα
     # 🔴 qap_details_position -> Position
-    ➡️ qap_details_position=
+    ➡️ qap_details_position=Θέση
     # 🔴 qap_details_queue -> Queue
-    ➡️ qap_details_queue=
+    ➡️ qap_details_queue=Ουρά Αναμονής
     # 🔴 qap_details_started -> Started
-    ➡️ qap_details_started=
+    ➡️ qap_details_started=Ξεκίνησε
     # 🔴 qap_details_tag -> Tag
-    ➡️ qap_details_tag=
+    ➡️ qap_details_tag=Ετικέτα
     # 🔴 qap_details_talk -> Talk Time
-    ➡️ qap_details_talk=
+    ➡️ qap_details_talk=Χρόνος Ομιλίας
     # 🔴 qap_details_terminated -> Terminated
-    ➡️ qap_details_terminated=
+    ➡️ qap_details_terminated=Τερματισμένο
     # 🔴 qap_details_transferto -> Transfer To
-    ➡️ qap_details_transferto=
+    ➡️ qap_details_transferto=Μεταφορά Σε
     # 🔴 qap_details_uniqueid -> Unique ID
-    ➡️ qap_details_uniqueid=
+    ➡️ qap_details_uniqueid=Μοναδικό ID
     # 🔴 qap_details_url -> URL
-    ➡️ qap_details_url=
+    ➡️ qap_details_url=URL
     # 🔴 qap_details_variables -> Variables
-    ➡️ qap_details_variables=
+    ➡️ qap_details_variables=Μεταβλητές
     # 🔴 qap_details_wait -> Wait Time
-    ➡️ qap_details_wait=
+    ➡️ qap_details_wait=Χρόνος Αναμονής
     # 🔴 qap_dial -> Dial
-    ➡️ qap_dial=
+    ➡️ qap_dial=Κλήση
     # 🔴 qap_diff_join -> Queues joined
-    ➡️ qap_diff_join=
+    ➡️ qap_diff_join=Ουρές που προστέθηκαν
     # 🔴 qap_diff_leave -> Queues left
-    ➡️ qap_diff_leave=
+    ➡️ qap_diff_leave=Ουρές που αποχώρησαν
     # 🔴 qap_diff_paused -> Agent Paused
-    ➡️ qap_diff_paused=
+    ➡️ qap_diff_paused=Ο Χρήστης είναι σε Παύση
     # 🔴 qap_edit_cases -> Edit Case
-    ➡️ qap_edit_cases=
+    ➡️ qap_edit_cases=Επεξεργασία Υπόθεσης
     # 🔴 qap_edit_client -> Edit Client
-    ➡️ qap_edit_client=
+    ➡️ qap_edit_client=Επεξεργασία Πελάτη
     # 🔴 qap_edit_note -> Edit Note
-    ➡️ qap_edit_note=
+    ➡️ qap_edit_note=Επεξεργασία Σημείωσης
     # 🔴 qap_empty_note -> This note is empty.
-    ➡️ qap_empty_note=
+    ➡️ qap_empty_note=Αυτή η σημείωση είναι κενή.
     # 🔴 qap_end_work -> End Work
-    ➡️ qap_end_work=
+    ➡️ qap_end_work=Τέλος Εργασίας
     # 🔴 qap_entity_placeholder -> Type to search...
-    ➡️ qap_entity_placeholder=
+    ➡️ qap_entity_placeholder=Πληκτρολογήστε για αναζήτηση...
     # 🔴 qap_fetch_notifications_error -> Error while fetching User's notifications.
-    ➡️ qap_fetch_notifications_error=
+    ➡️ qap_fetch_notifications_error=Σφάλμα κατά την ανάκτηση των ειδοποιήσεων του χρήστη.
     # 🔴 qap_filters_main -> Main
-    ➡️ qap_filters_main=
+    ➡️ qap_filters_main=Κύριο
     # 🔴 qap_filters_priority -> Priority
-    ➡️ qap_filters_priority=
+    ➡️ qap_filters_priority=Προτεραιότητα
     # 🔴 qap_filters_queue -> Queue
-    ➡️ qap_filters_queue=
+    ➡️ qap_filters_queue=Ουρά Αναμονής
     # 🔴 qap_filters_spill -> Spill
-    ➡️ qap_filters_spill=
+    ➡️ qap_filters_spill=Ανακατεύθυνση
     # 🔴 qap_filters_status -> Status
-    ➡️ qap_filters_status=
+    ➡️ qap_filters_status=Κατάσταση
     # 🔴 qap_filters_type -> Type
-    ➡️ qap_filters_type=
+    ➡️ qap_filters_type=Τύπος
     # 🔴 qap_filters_unk -> Unknown
-    ➡️ qap_filters_unk=
+    ➡️ qap_filters_unk=Άγνωστο
     # 🔴 qap_filters_wrap -> Wrap
-    ➡️ qap_filters_wrap=
+    ➡️ qap_filters_wrap=Ολοκλήρωση
     # 🔴 qap_find_cases -> Find your Cases
-    ➡️ qap_find_cases=
+    ➡️ qap_find_cases=Βρείτε τις Υποθέσεις σας
     # 🔴 qap_find_clients -> Find your Clients
-    ➡️ qap_find_clients=
+    ➡️ qap_find_clients=Βρείτε τους Πελάτες σας
     # 🔴 qap_form_features -> Feature Codes
-    ➡️ qap_form_features=
+    ➡️ qap_form_features=Κωδικοί Χαρακτηριστικών
     # 🔴 qap_form_outcome -> Outcome
-    ➡️ qap_form_outcome=
+    ➡️ qap_form_outcome=Αποτέλεσμα
     # 🔴 qap_idle_time -> Idle Time
-    ➡️ qap_idle_time=
+    ➡️ qap_idle_time=Χρόνος Αδράνειας
     # 🔴 qap_interaction_caller -> Caller
-    ➡️ qap_interaction_caller=
+    ➡️ qap_interaction_caller=Καλών
     # 🔴 qap_interaction_case -> Case
-    ➡️ qap_interaction_case=
+    ➡️ qap_interaction_case=Υπόθεση
     # 🔴 qap_interaction_client -> Client
-    ➡️ qap_interaction_client=
+    ➡️ qap_interaction_client=Πελάτης
     # 🔴 qap_interaction_details -> Details
-    ➡️ qap_interaction_details=
+    ➡️ qap_interaction_details=Λεπτομέρειες
     # 🔴 qap_interaction_details_title -> Call Details
-    ➡️ qap_interaction_details_title=
+    ➡️ qap_interaction_details_title=Λεπτομέρειες Κλήσης
     # 🔴 qap_interaction_duration -> Duration
-    ➡️ qap_interaction_duration=
+    ➡️ qap_interaction_duration=Διάρκεια
     # 🔴 qap_interaction_outcome -> Outcome
-    ➡️ qap_interaction_outcome=
+    ➡️ qap_interaction_outcome=Αποτέλεσμα
     # 🔴 qap_interaction_queue -> Queue
-    ➡️ qap_interaction_queue=
+    ➡️ qap_interaction_queue=Ουρά Αναμονής
     # 🔴 qap_interaction_start -> Start
-    ➡️ qap_interaction_start=
+    ➡️ qap_interaction_start=Έναρξη
     # 🔴 qap_interaction_tag -> Tag
-    ➡️ qap_interaction_tag=
+    ➡️ qap_interaction_tag=Ετικέτα
     # 🔴 qap_interaction_transfer -> Transfer
-    ➡️ qap_interaction_transfer=
+    ➡️ qap_interaction_transfer=Μεταφορά
     # 🔴 qap_interaction_url -> URL
-    ➡️ qap_interaction_url=
+    ➡️ qap_interaction_url=URL
     # 🔴 qap_interaction_variables -> Variables
-    ➡️ qap_interaction_variables=
+    ➡️ qap_interaction_variables=Μεταβλητές
     # 🔴 qap_interaction_waiting -> Waiting
-    ➡️ qap_interaction_waiting=
+    ➡️ qap_interaction_waiting=Αναμονή
     # 🔴 qap_invalid_outcome -> The selected outcome is not valid for one or more of the interaction's feature codes.
-    ➡️ qap_invalid_outcome=
+    ➡️ qap_invalid_outcome=Το επιλεγμένο αποτέλεσμα δεν είναι έγκυρο για έναν ή περισσότερους από τους κωδικούς χαρακτηριστικών της αλληλεπίδρασης.
     # 🔴 qap_join -> Join
-    ➡️ qap_join=
+    ➡️ qap_join=Συμμετοχή
     # 🔴 qap_label_freetext -> Free Text
-    ➡️ qap_label_freetext=
+    ➡️ qap_label_freetext=Ελεύθερο Κείμενο
     # 🔴 qap_leave -> Leave
-    ➡️ qap_leave=
+    ➡️ qap_leave=Αποχώρηση
     # 🔴 qap_loading -> Loading...
-    ➡️ qap_loading=
+    ➡️ qap_loading=Φόρτωση...
     # 🔴 qap_memos -> Memos
-    ➡️ qap_memos=
+    ➡️ qap_memos=Σημειώσεις
     # 🔴 qap_missing_cases_key -> You don't have permission to create new Cases.
-    ➡️ qap_missing_cases_key=
+    ➡️ qap_missing_cases_key=Δεν έχετε άδεια να δημιουργήσετε νέες Υποθέσεις.
     # 🔴 qap_missing_clients_key -> You don't have permission to create new Clients.
-    ➡️ qap_missing_clients_key=
+    ➡️ qap_missing_clients_key=Δεν έχετε άδεια να δημιουργήσετε νέους Πελάτες.
     # 🔴 qap_nav_calendar -> Calendar
-    ➡️ qap_nav_calendar=
+    ➡️ qap_nav_calendar=Ημερολόγιο
     # 🔴 qap_nav_cases -> Cases
-    ➡️ qap_nav_cases=
+    ➡️ qap_nav_cases=Υποθέσεις
     # 🔴 qap_nav_clients -> Clients
-    ➡️ qap_nav_clients=
+    ➡️ qap_nav_clients=Πελάτες
     # 🔴 qap_nav_control -> Control
-    ➡️ qap_nav_control=
+    ➡️ qap_nav_control=Έλεγχος
     # 🔴 qap_nav_debug -> Debug
-    ➡️ qap_nav_debug=
+    ➡️ qap_nav_debug=Αναφορά Σφαλμάτων
     # 🔴 qap_nav_dialout -> Dialout
-    ➡️ qap_nav_dialout=
+    ➡️ qap_nav_dialout=Κλήση Εξερχόμενη
     # 🔴 qap_nav_home -> Home
-    ➡️ qap_nav_home=
+    ➡️ qap_nav_home=Αρχική
     # 🔴 qap_nav_interactions -> Interactions
-    ➡️ qap_nav_interactions=
+    ➡️ qap_nav_interactions=Αλληλεπιδράσεις
     # 🔴 qap_nav_overview -> Overview
-    ➡️ qap_nav_overview=
+    ➡️ qap_nav_overview=Επισκόπηση
     # 🔴 qap_nav_qa -> QA
-    ➡️ qap_nav_qa=
+    ➡️ qap_nav_qa=Ποιοτικός Έλεγχος (QA)
     # 🔴 qap_nav_wallboard -> Wallboard
-    ➡️ qap_nav_wallboard=
+    ➡️ qap_nav_wallboard=Πίνακας Ελέγχου
     # 🔴 qap_nav_wombat -> WombatDialer Preview Dialing
-    ➡️ qap_nav_wombat=
+    ➡️ qap_nav_wombat=Προεπισκόπηση Κλήσης WombatDialer
     # 🔴 qap_new_case -> New Case
-    ➡️ qap_new_case=
+    ➡️ qap_new_case=Νέα Υπόθεση
     # 🔴 qap_new_client -> New Client
-    ➡️ qap_new_client=
+    ➡️ qap_new_client=Νέος Πελάτης
     # 🔴 qap_new_memo -> Create linked Memo
-    ➡️ qap_new_memo=
+    ➡️ qap_new_memo=Δημιουργία Συνδεδεμένης Σημείωσης
     # 🔴 qap_no_cases -> No Cases found for the current search, please try again.
-    ➡️ qap_no_cases=
+    ➡️ qap_no_cases=Δεν βρέθηκαν Υποθέσεις για την τρέχουσα αναζήτηση, παρακαλώ προσπαθήστε ξανά.
     # 🔴 qap_no_clients -> No Clients found for the current search, please try again.
-    ➡️ qap_no_clients=
+    ➡️ qap_no_clients=Δεν βρέθηκαν Πελάτες για την τρέχουσα αναζήτηση, παρακαλώ προσπαθήστε ξανά.
     # 🔴 qap_none -> None
-    ➡️ qap_none=
+    ➡️ qap_none=Κανένα
     # 🔴 qap_note_actions -> Actions
-    ➡️ qap_note_actions=
+    ➡️ qap_note_actions=Ενέργειες
     # 🔴 qap_note_complete -> Complete
-    ➡️ qap_note_complete=
+    ➡️ qap_note_complete=Ολοκλήρωση
     # 🔴 qap_note_dispute -> Dispute
-    ➡️ qap_note_dispute=
+    ➡️ qap_note_dispute=Διαφωνία
     # 🔴 qap_note_empty -> Empty
-    ➡️ qap_note_empty=
+    ➡️ qap_note_empty=Κενό
     # 🔴 qap_note_expires -> Expires on
-    ➡️ qap_note_expires=
+    ➡️ qap_note_expires=Λήγει στις
     # 🔴 qap_note_expires_on -> Expires On
-    ➡️ qap_note_expires_on=
+    ➡️ qap_note_expires_on=Λήγει στις
     # 🔴 qap_note_flag -> Flag
-    ➡️ qap_note_flag=
+    ➡️ qap_note_flag=Σημείωση
     # 🔴 qap_note_ko_disputed -> Disputed
-    ➡️ qap_note_ko_disputed=
+    ➡️ qap_note_ko_disputed=Διαφωνία
     # 🔴 qap_note_ko_refused -> Refused
-    ➡️ qap_note_ko_refused=
+    ➡️ qap_note_ko_refused=Αρνήθηκε
     # 🔴 qap_note_ko_rejected -> Rejected
-    ➡️ qap_note_ko_rejected=
+    ➡️ qap_note_ko_rejected=Απορρίφθηκε
     # 🔴 qap_note_meeting -> Meeting
-    ➡️ qap_note_meeting=
+    ➡️ qap_note_meeting=Συνάντηση
     # 🔴 qap_note_message -> Message
-    ➡️ qap_note_message=
+    ➡️ qap_note_message=Μήνυμα
     # 🔴 qap_note_note -> Note
-    ➡️ qap_note_note=
+    ➡️ qap_note_note=Σημείωση
     # 🔴 qap_note_notes -> Notes
-    ➡️ qap_note_notes=
+    ➡️ qap_note_notes=Σημειώσεις
     # 🔴 qap_note_ok -> OK
-    ➡️ qap_note_ok=
+    ➡️ qap_note_ok=Εντάξει
     # 🔴 qap_note_qa -> QA
-    ➡️ qap_note_qa=
+    ➡️ qap_note_qa=Ποιοτικός Έλεγχος (QA)
     # 🔴 qap_note_recall -> Recall
-    ➡️ qap_note_recall=
+    ➡️ qap_note_recall=Επανάκληση
     # 🔴 qap_note_refuse -> Refuse
-    ➡️ qap_note_refuse=
+    ➡️ qap_note_refuse=Αρνηση
     # 🔴 qap_note_reject -> Reject
-    ➡️ qap_note_reject=
+    ➡️ qap_note_reject=Απόρριψη
     # 🔴 qap_note_status -> Status
-    ➡️ qap_note_status=
+    ➡️ qap_note_status=Κατάσταση
     # 🔴 qap_note_tbd -> TBD
-    ➡️ qap_note_tbd=
+    ➡️ qap_note_tbd=Προς Καθορισμό (TBD)
     # 🔴 qap_note_todo -> Todo
-    ➡️ qap_note_todo=
+    ➡️ qap_note_todo=Προς Ολοκλήρωση
     # 🔴 qap_note_togroup -> To Group
-    ➡️ qap_note_togroup=
+    ➡️ qap_note_togroup=Για Ομάδα
     # 🔴 qap_note_touser -> To User
-    ➡️ qap_note_touser=
+    ➡️ qap_note_touser=Για Χρήστη
     # 🔴 qap_note_training -> Training
-    ➡️ qap_note_training=
+    ➡️ qap_note_training=Εκπαίδευση
     # 🔴 qap_note_type -> Type
-    ➡️ qap_note_type=
+    ➡️ qap_note_type=Τύπος
     # 🔴 qap_note_valid_from -> Valid From
-    ➡️ qap_note_valid_from=
+    ➡️ qap_note_valid_from=Ισχύει Από
     # 🔴 qap_notes_type_note -> Note
-    ➡️ qap_notes_type_note=
+    ➡️ qap_notes_type_note=Σημείωση
     # 🔴 qap_notifications -> Notifications
-    ➡️ qap_notifications=
+    ➡️ qap_notifications=Ειδοποιήσεις
     # 🔴 qap_notifications_empty -> You currently have no notifications
-    ➡️ qap_notifications_empty=
+    ➡️ qap_notifications_empty=Δεν έχετε ειδοποιήσεις αυτή τη στιγμή
     # 🔴 qap_overview_daily -> Daily
-    ➡️ qap_overview_daily=
+    ➡️ qap_overview_daily=Ημερήσια
     # 🔴 qap_overview_stats -> Stats
-    ➡️ qap_overview_stats=
+    ➡️ qap_overview_stats=Στατιστικά
     # 🔴 qap_overview_weekly -> Weekly
-    ➡️ qap_overview_weekly=
+    ➡️ qap_overview_weekly=Εβδομαδιαία
     # 🔴 qap_pause_time -> Pause Time
-    ➡️ qap_pause_time=
+    ➡️ qap_pause_time=Χρόνος Παύσης
     # 🔴 qap_platform_action_error -> Error while performing platform action.
-    ➡️ qap_platform_action_error=
+    ➡️ qap_platform_action_error=Σφάλμα κατά την εκτέλεση ενέργειας στην πλατφόρμα.
     # 🔴 qap_process_note_error -> Error while processing a Note.
-    ➡️ qap_process_note_error=
+    ➡️ qap_process_note_error=Σφάλμα κατά την επεξεργασία Σημείωσης.
     # 🔴 qap_run -> Run
-    ➡️ qap_run=
+    ➡️ qap_run=Εκτέλεση
     # 🔴 qap_save_case_error -> Error while saving Case.
-    ➡️ qap_save_case_error=
+    ➡️ qap_save_case_error=Σφάλμα κατά την αποθήκευση Υπόθεσης.
     # 🔴 qap_save_client_error -> Error while saving Client.
-    ➡️ qap_save_client_error=
+    ➡️ qap_save_client_error=Σφάλμα κατά την αποθήκευση Πελάτη.
     # 🔴 qap_search_cases_error -> Error searching for the requested Cases.
-    ➡️ qap_search_cases_error=
+    ➡️ qap_search_cases_error=Σφάλμα στην αναζήτηση των ζητούμενων Υποθέσεων.
     # 🔴 qap_search_clients_error -> Error searching for the requested Clients.
-    ➡️ qap_search_clients_error=
+    ➡️ qap_search_clients_error=Σφάλμα στην αναζήτηση των ζητούμενων Πελατών.
     # 🔴 qap_server -> Server
-    ➡️ qap_server=
+    ➡️ qap_server=Διακομιστής
     # 🔴 qap_session_time -> Session Time
-    ➡️ qap_session_time=
+    ➡️ qap_session_time=Χρόνος Σύνδεσης
     # 🔴 qap_signout -> Sign out
-    ➡️ qap_signout=
+    ➡️ qap_signout=Αποσύνδεση
     # 🔴 qap_softphone -> Phone
-    ➡️ qap_softphone=
+    ➡️ qap_softphone=Τηλέφωνο
     # 🔴 qap_softphone_debug -> Softphone
-    ➡️ qap_softphone_debug=
+    ➡️ qap_softphone_debug=Softphone
     # 🔴 qap_start_work -> Start Work
-    ➡️ qap_start_work=
+    ➡️ qap_start_work=Έναρξη Εργασίας
     # 🔴 qap_status_paused -> Paused
-    ➡️ qap_status_paused=
+    ➡️ qap_status_paused=Παύση
     # 🔴 qap_status_unpaused -> Unpaused
-    ➡️ qap_status_unpaused=
+    ➡️ qap_status_unpaused=Ακύρωση Παύσης
     # 🔴 qap_title_calendar -> Calendar
-    ➡️ qap_title_calendar=
+    ➡️ qap_title_calendar=Ημερολόγιο
     # 🔴 qap_title_cases -> Cases
-    ➡️ qap_title_cases=
+    ➡️ qap_title_cases=Υποθέσεις
     # 🔴 qap_title_clients -> Clients
-    ➡️ qap_title_clients=
+    ➡️ qap_title_clients=Πελάτες
     # 🔴 qap_title_control -> Queue Control
-    ➡️ qap_title_control=
+    ➡️ qap_title_control=Έλεγχος Ουράς
     # 🔴 qap_title_interactions -> Interactions
-    ➡️ qap_title_interactions=
+    ➡️ qap_title_interactions=Αλληλεπιδράσεις
     # 🔴 qap_title_note -> New Note
-    ➡️ qap_title_note=
+    ➡️ qap_title_note=Νέα Σημείωση
     # 🔴 qap_title_notes_done -> Done
-    ➡️ qap_title_notes_done=
+    ➡️ qap_title_notes_done=Ολοκληρώθηκε
     # 🔴 qap_title_notes_pending -> Pending
-    ➡️ qap_title_notes_pending=
+    ➡️ qap_title_notes_pending=Εκκρεμεί
     # 🔴 qap_title_outcomes -> Outcome and Feature Codes
-    ➡️ qap_title_outcomes=
+    ➡️ qap_title_outcomes=Κωδικοί Αποτελέσματος και Χαρακτηριστικών
     # 🔴 qap_title_overview -> Overview
-    ➡️ qap_title_overview=
+    ➡️ qap_title_overview=Επισκόπηση
     # 🔴 qap_today -> Today
-    ➡️ qap_today=
+    ➡️ qap_today=Σήμερα
     # 🔴 qap_transaction_body -> Comment
-    ➡️ qap_transaction_body=
+    ➡️ qap_transaction_body=Σχόλιο
     # 🔴 qap_transaction_title -> Title
-    ➡️ qap_transaction_title=
+    ➡️ qap_transaction_title=Τίτλος
     # 🔴 qap_unknown_caller -> Unknown Caller
-    ➡️ qap_unknown_caller=
+    ➡️ qap_unknown_caller=Άγνωστος Καλών
     # 🔴 qap_user_pref_error -> Error while fetching user preferences.
-    ➡️ qap_user_pref_error=
+    ➡️ qap_user_pref_error=Σφάλμα κατά την ανάκτηση των προτιμήσεων χρήστη.
     # 🔴 qap_wbt_campaign -> Campaign
-    ➡️ qap_wbt_campaign=
+    ➡️ qap_wbt_campaign=Καμπάνια
     # 🔴 qap_wbt_comments -> Comments
-    ➡️ qap_wbt_comments=
+    ➡️ qap_wbt_comments=Σχόλια
     # 🔴 qap_wbt_date -> Date
-    ➡️ qap_wbt_date=
+    ➡️ qap_wbt_date=Ημερομηνία
     # 🔴 qap_wbt_num -> Number
-    ➡️ qap_wbt_num=
+    ➡️ qap_wbt_num=Αριθμός
     # 🔴 qap_wbt_recall -> Recall
-    ➡️ qap_wbt_recall=
+    ➡️ qap_wbt_recall=Επανάκληση
     # 🔴 qap_wbt_title -> Schedule WombatDialer Recall
-    ➡️ qap_wbt_title=
+    ➡️ qap_wbt_title=Προγραμματισμός Επανακλήσης WombatDialer
     # 🔴 qap_welcome -> Welcome Back!
-    ➡️ qap_welcome=
+    ➡️ qap_welcome=Καλώς ήρθατε ξανά!
     # 🔴 qap_you_have -> You have
-    ➡️ qap_you_have=
+    ➡️ qap_you_have=Έχετε
     qatarget_agentgroup=Ομάδα χρηστών
     qatarget_allcalls=Όλες οι κλήσεις
     qatarget_individual_agents=Χρήστης
     qatarget_outcomes=Αποτελέσματα κλήσεων
     # 🔴 react_report_table_sort_asc -> Sort in Ascending order
-    ➡️ react_report_table_sort_asc=
+    ➡️ react_report_table_sort_asc=Ταξινόμηση με αύξουσα σειρά
     # 🔴 react_report_table_sort_desc -> Sort in Descending order
-    ➡️ react_report_table_sort_desc=
+    ➡️ react_report_table_sort_desc=Ταξινόμηση με φθήνουσα σειρά
     realtime_missing_queues=Απουσιάζει από την αναμενόμενη ουρά αναμονής
     realtime_tooltip_calltags=Tag
     realtime_tooltip_features=Λείτ.
     realtime_tooltip_ivrs=IVR
     realtime_tooltip_variables=Var
     # 🔴 recallstate_needs_further -> Needs further recall
-    ➡️ recallstate_needs_further=
+    ➡️ recallstate_needs_further=Χρειάζεται περαιτέρω επανάκληση
     # 🔴 recallstate_not_recalled -> Not yet recalled
-    ➡️ recallstate_not_recalled=
+    ➡️ recallstate_not_recalled=Δεν έχει επανακληθεί ακόμα
     # 🔴 recallstate_recalled -> Recalled
-    ➡️ recallstate_recalled=
+    ➡️ recallstate_recalled=Επανακλήθηκε
     record_tag_inserttag_button=Προσθήκη σήμανσης
     record_tag_inserttag_title=Εισαγωγή νέας σήμανσης
     record_tags_color=Χρώμα
@@ -4322,7 +4322,7 @@ Other items
     record_tags_duration=Διάρκεια
     record_tags_duration_s=Διάρκεια (δευτ.)
     # 🔴 record_tags_erroradd -> Error adding marker. Please retry.
-    ➡️ record_tags_erroradd=
+    ➡️ record_tags_erroradd=Σφάλμα προσθήκης σήμανσης. Παρακαλώ προσπαθήστε ξανά.
     record_tags_errordelete=Σφάλμα διαγραφής σήμανσης. Παρακαλώ προσπαθήστε ξανά.
     record_tags_file=Αρχείο ηχογράφησης
     record_tags_numtag=διαθέσιμες σημάνσεις
