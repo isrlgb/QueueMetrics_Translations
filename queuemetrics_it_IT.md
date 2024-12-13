@@ -2159,6 +2159,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_table=Tabelle
     rt3_category_various=Vari
     rt3_change_queue_confirm=Ci sono modifiche non salvate che andranno perse cambiando coda. Procedere?
+    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    ➡️ rt3_exit_confirm=
     rt3_choose_action=Scegli Azione
     rt3_choose_monitor_mode=Modalità Monitoraggio
     rt3_choose_queue=Scegli Coda

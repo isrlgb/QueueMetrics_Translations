@@ -588,8 +588,7 @@ Do not change the items below:
     clacd_lost_calls=Χαμένες κλήσεις
     clacd_max_attempts=Μέγιστος αριθμός προσπαθειών
     clacd_min_attempts=Ελάχιστος αριθμός προσπαθειών
-    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
-    ➡️ clacd_last_acd_attempts=Χαμένες ACD προσπάθειες
+    clacd_last_acd_attempts=Χαμένες ACD προσπάθειες
     clacd_n_lost=Αρ. χαμένων κλ.
     clacd_n_taken=Αρ. δεχθέντων κλ.
     clacd_queue=Ουρά αναμονής
@@ -922,8 +921,7 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Αναπάντητες κλήσεις - διανομή ανά χρόνο αναμονής 
     clko_unanswered_outbound=Αναπάντητες εξερχόμενες ανά χρήστη
     clko_within_x_seconds=Εντός ## δευτερολέπτων:
-    # 🔴 clko_unanswered_calls_prc -> Unans. %
-    ➡️ clko_unanswered_calls_prc=Αναπ. κλήσ. %
+    clko_unanswered_calls_prc=Αναπ. κλήσ. %
     # 🔴 clko_unanswered_with_atts -> Unans. with att.
     ➡️ clko_unanswered_with_atts=
     # 🔴 clko_unanswered_no_atts -> Unans no att.
@@ -1051,32 +1049,19 @@ Do not change the items below:
 
 Used for data blocks Overview by Agent/Queue
 
-    # 🔴 clok_overview_by_agent -> Overview by Agent
-    ➡️ clok_overview_by_agent=Επισκόπηση ανά Πράκτορα
-    # 🔴 clok_overview_by_queue -> Overview by Queue
-    ➡️ clok_overview_by_queue=Επισκόπηση ανά Ουρά Αναμονής
-    # 🔴 clok_offered_n -> Offered
-    ➡️ clok_offered_n=Προσφερόμενες
-    # 🔴 clok_answered_calls_prc -> Ans %
-    ➡️ clok_answered_calls_prc=Απαντ. %
-    # 🔴 clok_lost_attempts -> Lost att.
-    ➡️ clok_lost_attempts=Χαμένες Προσπ.
-    # 🔴 clok_lost_attempts_prc -> Lst att %
-    ➡️ clok_lost_attempts_prc=Χαμ. προσπ. %
-    # 🔴 clok_outbound -> Outbound
-    ➡️ clok_outbound=Εξερχόμενες
-    # 🔴 clok_outbound_prc -> Outb.%
-    ➡️ clok_outbound_prc=Εξερχ.%
-    # 🔴 clok_asa -> ASA
-    ➡️ clok_asa=ASA
-    # 🔴 clok_answered_sla_prc -> Ans in SLA %
-    ➡️ clok_answered_sla_prc=Απαντ. εντός SLA %
-    # 🔴 clok_effective_prc -> Effective %
-    ➡️ clok_effective_prc=Αποτελεσματικό %
-    # 🔴 clok_avg_wait -> Avg wait
-    ➡️ clok_avg_wait=Μέση αναμονής
-    # 🔴 clok_max_wait -> Max wait
-    ➡️ clok_max_wait=Μέγιστη αναμονή
+    clok_overview_by_agent=Επισκόπηση ανά Πράκτορα
+    clok_overview_by_queue=Επισκόπηση ανά Ουρά Αναμονής
+    clok_offered_n=Προσφερόμενες
+    clok_answered_calls_prc=Απαντ. %
+    clok_lost_attempts=Χαμένες Προσπ.
+    clok_lost_attempts_prc=Χαμ. προσπ. %
+    clok_outbound=Εξερχόμενες
+    clok_outbound_prc=Εξερχ.%
+    clok_asa=ASA
+    clok_answered_sla_prc=Απαντ. εντός SLA %
+    clok_effective_prc=Αποτελεσματικό %
+    clok_avg_wait=Μέση αναμονής
+    clok_max_wait=Μέγιστη αναμονή
         
     
 ## Call events
@@ -2075,12 +2060,9 @@ Used for data blocks Overview by Agent/Queue
     rt3_Talk=Συνομιλία
     rt3_action_error=Παρουσιάστηκε σφάλμα, η εντολή δεν έχει αποσταλεί.
     rt3_action_success=Η εντολή εστάλη με επιτυχία.
-    # 🔴 rt3_actions_barge -> Barge
-    ➡️ rt3_actions_barge=Παρέμβαση (Barge-in)
-    # 🔴 rt3_actions_chanspy -> Spy
-    ➡️ rt3_actions_chanspy=Κατάσκοπος (Ακρόαση μόνο)
-    # 🔴 rt3_actions_whisper -> Whisper
-    ➡️ rt3_actions_whisper=Ψυθιρισμός
+    rt3_actions_barge=Παρέμβαση (Barge-in)
+    rt3_actions_chanspy=Κατάσκοπος (Ακρόαση μόνο)
+    rt3_actions_whisper=Ψυθιρισμός
     rt3_add=Προσθήκη νέου Widget
     rt3_add_box=Προσθήκη νέου κουτιού στη σελίδα.
     rt3_add_queue=Επιλέξτε Ουρά Αναμονής
@@ -2107,14 +2089,10 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=Αλλαγή Παύσης
     rt3_agent_code=Κωδικός Χρήστη
     rt3_agent_extension=Επέκταση Χρήστη
-    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
-    ➡️ rt3_agent_extension_regex_error=Ο εσωτερικός αριθμός του χρήστη δεν ακολουθεί τη σωστή μορφή.
-    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
-    ➡️ rt3_agent_code_regex_error=Ο Κωδικός χρήστη δεν ακολουθεί τη σωστή μορφή.
-    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
-    ➡️ rt3_agent_extension_min_1_char_error=Ο εσωτερικός αριθμός του χρήστη θα πρέπει να έχει τουλάχιστον 1 χαρακτήρα.
-    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
-    ➡️ rt3_agent_code_min_1_char_error=Ο Κωδικός χρήστη θα πρέπει να έχει τουλαχιστον 1 χαρακτήρα.
+    rt3_agent_extension_regex_error=Ο εσωτερικός αριθμός του χρήστη δεν ακολουθεί τη σωστή μορφή.
+    rt3_agent_code_regex_error=Ο Κωδικός χρήστη δεν ακολουθεί τη σωστή μορφή.
+    rt3_agent_extension_min_1_char_error=Ο εσωτερικός αριθμός του χρήστη θα πρέπει να έχει τουλάχιστον 1 χαρακτήρα.
+    rt3_agent_code_min_1_char_error=Ο Κωδικός χρήστη θα πρέπει να έχει τουλαχιστον 1 χαρακτήρα.
     rt3_agent_info=Πληροφορίες χρηστών
     rt3_agent_login=Σύνδεση (Όλες οι Ουρές)
     rt3_agent_logon=Σύνδεση χρηστών
@@ -2122,8 +2100,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_pause=Παύση Χρήστη
     rt3_agent_removemember=Αφαίρεση Μέλους από την Ουρά
     rt3_agent_select=Παρακαλώ επιλέξτε ένα Χρήστη...
-    # 🔴 rt3_agent_status -> Status
-    ➡️ rt3_agent_status=Κατάσταση
+    rt3_agent_status=Κατάσταση
     rt3_agent_unpause=Άρση Παύσης Χρήστη
     rt3_agents=Χρήστες
     rt3_agents_on_inbound=Χρήστες σε εισερχόμενες
@@ -2142,8 +2119,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_avgtalk_alarm_red=Μέσος όρος συνομιλίας Κόκκινη Προειδοποίηση
     rt3_avgtalk_alarm_yel=Μέσος όρος συνομιλίας Κίτρινη Προειδοποίηση
     rt3_bar_sla=Ραβδόγραμμα - SLA
-    # 🔴 rt3_billpause -> Pause Bill.
-    ➡️ rt3_billpause=Υπολογιζόμενη Παύση
+    rt3_billpause=Υπολογιζόμενη Παύση
     rt3_blue=Μπλε
     rt3_busy=Απασχολημένο
     rt3_call=Κλήση
@@ -2186,6 +2162,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_table=Πίνακες
     rt3_category_various=Διάφορα
     rt3_change_queue_confirm=Έχετε μη αποθηκευμένες αλλαγές που θα χαθούν κατά την αλλαγή ουράς αναμονής. Επιβεβαίωση;
+    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    ➡️ rt3_exit_confirm=
     rt3_choose_action=Επιλέξτε Ενέργεια
     rt3_choose_monitor_mode=Λειτουργία Παρακολούθησης
     rt3_choose_queue=Επιλέξτε Ουρά Αναμονής
@@ -2278,8 +2256,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_loggedoff=Αποσυνδεδεμένος
     rt3_loggedon=Συνδεδεμένος
     rt3_longest_wait=Μέγιστη Αναμονή
-    # 🔴 rt3_lost_attempts -> Lost Att.
-    ➡️ rt3_lost_attempts=Χαμένες Προσπάθειες
+    rt3_lost_attempts=Χαμένες Προσπάθειες
     rt3_lost_prc=Χαμένες
     rt3_menu_delete=Διαγραφή
     rt3_menu_edit=Επεξεργασία
@@ -2294,8 +2271,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_new_wlbd=Νέο Wallboard
     rt3_no_data=Μη Διαθέσιμες Πληροφορίες
     rt3_no_url_to_be_copied=Αυτό το Wallboard δεν έχει κοινή διεύθυνση URL
-    # 🔴 rt3_nobillpause -> Pause non Bill.
-    ➡️ rt3_nobillpause=Μη Υπολογιζόμενη Παύση
+    rt3_nobillpause=Μη Υπολογιζόμενη Παύση
     rt3_nofcalls_answered=Απαντημένες Κλήσεις
     rt3_nofcalls_lost=Χαμένες Κλήσεις
     rt3_nofcalls_offered=Αρ. Προτεινόμενων κλήσεων
@@ -2348,8 +2324,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_retry_now=Δοκιμή ξανά τώρα
     rt3_ringing=Κουδουνισμός
     rt3_sales=Πωλήσεις
-    # 🔴 rt3_salesph -> SPH
-    ➡️ rt3_salesph=Πωλήσεις ανά Ώρα
+    rt3_salesph=Πωλήσεις ανά Ώρα
     rt3_save=Αποθήκευση
     rt3_secondary_color=Δευτερεύον χρώμα
     rt3_seconds=δευτερόλεπτα
@@ -2360,8 +2335,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_send_command=Ok
     rt3_session_invalid_reconnecting=Πρόβλημα σύνδεσης με Queuemetrics, προσπάθεια επανασύνδεσης
     rt3_size_is=Μέγεθος:
-    # 🔴 rt3_sla -> SLA
-    ➡️ rt3_sla=SLA
+    rt3_sla=SLA
     rt3_sla_level=Επίπεδο SLA
     rt3_softphone_displayname=Όνομα εμφάνισης
     rt3_softphone_displayvalue=Τιμή Εμφάνισης
@@ -2369,15 +2343,12 @@ Used for data blocks Overview by Agent/Queue
     rt3_softphone_min_interval=Ελάχιστο διάστημα αποκατάστασης σύνδεσης
     rt3_softphone_password=Κωδικός
     rt3_softphone_realm=Τομέας
-    # 🔴 rt3_softphone_rtcwebbreaker -> Rtc Web Breaker
-    ➡️ rt3_softphone_rtcwebbreaker=Rtc Web Breaker
+    rt3_softphone_rtcwebbreaker=Rtc Web Breaker
     rt3_softphone_server=Διακομιστής
-    # 🔴 rt3_softphone_sipuri -> Sip URI
-    ➡️ rt3_softphone_sipuri=SIP URI
+    rt3_softphone_sipuri=SIP URI
     rt3_softphone_status_info_registered=Εγγεγραμμένο Softphone
     rt3_softphone_status_info_unregistered=Μη εγγεγραμμένο Softphone
-    # 🔴 rt3_softphone_status_title -> WebRTC Softphone
-    ➡️ rt3_softphone_status_title=WebRTC Softphone
+    rt3_softphone_status_title=WebRTC Softphone
     rt3_softphone_timeout=Χρόνος αναμονής χωρίς απάντηση
     rt3_softphone_username=Όνομα Χρήστη
     rt3_softphone_websocketurl=Διεύθυνση URL Web Socket
@@ -2386,17 +2357,14 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Χρήστης και Αποτέλεσμα
     rt3_table_aggrbyqueue=Αθροισμένο κατά Ουρά
     rt3_table_aggrbytag=Αθροισμένο κατά Ετικέτα
-    # 🔴 rt3_table_lastattempts -> Last attempts
-    ➡️ rt3_table_lastattempts=Τελευταίες προσπάθειες
+    rt3_table_lastattempts=Τελευταίες προσπάθειες
     rt3_table_live_agents=Ενεργοί Χρήστες (Live)
     rt3_table_live_calls=Ενεργές Κλήσεις (Live)
     rt3_table_live_queues=Ενεργές Ουρές αναμονής (Live)
     rt3_table_raw=Ακατέργαστα Δεδομένα
     rt3_taken=Ληφθέν
-    # 🔴 rt3_taken_alarm_red -> Taken Red Alarm
-    ➡️ rt3_taken_alarm_red=Ληφθήσες Κόκκινη Προειδοποίηση
-    # 🔴 rt3_taken_alarm_yel -> Taken Yellow Alarm
-    ➡️ rt3_taken_alarm_yel=Ληφθήσες Κίτρινη Προειδοποίηση
+    rt3_taken_alarm_red=Ληφθήσες Κόκκινη Προειδοποίηση
+    rt3_taken_alarm_yel=Ληφθήσες Κίτρινη Προειδοποίηση
     rt3_talk_red_alarm=Συνομιλία Κόκκινη Προειδοποίηση
     rt3_talk_time=Συνομιλία
     rt3_talk_yellow_alarm=Συνομιλία Κίτρινη Προειδοποίηση
@@ -2404,8 +2372,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_text=Κείμενο
     rt3_text_area_placeholder=Εισάγετε κείμενο εδώ
     rt3_title=Τίτλος
-    # 🔴 rt3_tot_talk -> Tot. Talk
-    ➡️ rt3_tot_talk=Συν/κός χρ. Ομιλίας
+    rt3_tot_talk=Συν/κός χρ. Ομιλίας
     rt3_total=Σύνολο
     rt3_tottalk_alarm_red=Συνολική συνομιλία Κόκκινος Συναγερμός
     rt3_tottalk_alarm_yel=Συνολική συνομιλία Κίτρινος Συναγερμός
@@ -2416,8 +2383,7 @@ Used for data blocks Overview by Agent/Queue
     rt3_unregister_txt=Αποσύνδεση
     rt3_unregistered=Αποσυνδεδεμένος
     rt3_up=Κίνηση προς τα επάνω
-    # 🔴 rt3_url -> Url
-    ➡️ rt3_url=Url
+    rt3_url=Url
     rt3_url_copied=Η κοινή διεύθυνση URL αντιγράφηκε στο πρόχειρο
     rt3_user_prefs_saved=Οι προτιμήσεις χρήστη έχουν αποθηκευτεί
     rt3_user_session_invalid=Η περίοδος σύνδεσης χρήστη δεν είναι έγκυρη, συνδεθείτε ξανά.
@@ -2576,8 +2542,7 @@ Used for data blocks Overview by Agent/Queue
 
 Description of configuration properties
 
-    # 🔴 propedit_agent_max_qap_calls_desc -> Maximum daily calls shown to agents
-    ➡️ propedit_agent_max_qap_calls_desc=Μέγιστος αρ. εμφανιζόμενων κλήσεων σε πράκτορες
+    propedit_agent_max_qap_calls_desc=Μέγιστος αρ. εμφανιζόμενων κλήσεων σε πράκτορες
     propedit_category_agentpage=Σελίδα agent σε πραγματικό χρόνο
     propedit_category_engine=Μηχανή υπολογισμών
     propedit_category_misc=Μη κατηγοριοποιημένο
@@ -2589,14 +2554,12 @@ Description of configuration properties
     propedit_category_synchronizer=Συγχρονιστής
     propedit_edit_label=Επεξεργασία
     propedit_explore_label=Εξερεύνηση
-    # 🔴 propedit_feature_agent_amo -> AMO
-    ➡️ propedit_feature_agent_amo=AMO
+    propedit_feature_agent_amo=AMO
     propedit_feature_ap_backg=Επιλογές φόντου
     propedit_feature_ap_login_out=Login και Logout
     propedit_feature_ap_other=Μη κατηγοριοποιημένο
     propedit_feature_autoopenurl=Ανανέωση φόντου
-    # 🔴 propedit_feature_engine_audit -> Auditing
-    ➡️ propedit_feature_engine_audit=Έλεγχος
+    propedit_feature_engine_audit=Έλεγχος
     propedit_feature_engine_other=Μη κατηγοριοποιημένο
     propedit_feature_engine_shortcalls=Σύντομες κλήσεις
     propedit_feature_engine_sla=SLA
@@ -2611,8 +2574,7 @@ Description of configuration properties
     propedit_feature_platformdialer_settings=Γενικές Ρυθμίσεις
     propedit_feature_rtmisc=Άλλες παράμετροι πραγματικού χρόνου
     propedit_feature_rtpanels=Πίνακες πραγματικού χρόνου
-    # 🔴 propedit_feature_softphone_defaults -> SoftPhone Global Defaults
-    ➡️ propedit_feature_softphone_defaults=Προκαθορισμένες τιμές SoftPhone
+    propedit_feature_softphone_defaults=Προκαθορισμένες τιμές SoftPhone
     propedit_feature_softphone_settings=Ρυθμίσεις Softphone της σελίδας χρήστη
     propedit_feature_synchronizer_settings=Ρυθμίσεις συγχρονισμού
     propedit_feature_wallboard=Οθόνη
@@ -2620,35 +2582,22 @@ Description of configuration properties
     propedit_key_agent_background_desc=URL του φόντου της σελίδας του χρήστη.
     propedit_key_agent_outcome_size=Μέγιστο ύψος του καταλόγου επιλογής αποτελεσμάτων
     propedit_key_agent_pause_dialout=Απενεργοποίση δυνατότητας κλήσης χρηστών όταν αυτοί είναι σε παύση
-    # 🔴 propedit_key_agent_qap_cached_for_ms_desc -> Maximum allowed cache time for the agent's page
-    ➡️ propedit_key_agent_qap_cached_for_ms_desc=Μέγιστος χρόνος αποθήκευσης της σελίδας του χρήστη στην κρυφή μνήμη
-    # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
-    ➡️ propedit_key_amo_placed_call_timeout=Χρονικό όριο ανακύκλωσης AMO
-    # 🔴 propedit_key_answer_src -> The Softphone's answer tone (URL)
-    ➡️ propedit_key_answer_src=Ήχος απάντησης του Softphone (URL)
-    # 🔴 propedit_key_atxfer -> Attended Transfer Feature Code
-    ➡️ propedit_key_atxfer=Κωδικός Εκτέλεσης Επιτηρούμενης Μεταφοράς κλήσης
-    # 🔴 propedit_key_atxferabort -> Abort Attended Transfer Feature Code
-    ➡️ propedit_key_atxferabort=Κωδικός Διακοπής Επιτηρούμενης Μεταφοράς κλήσης
-    # 🔴 propedit_key_atxfercomplete -> Complete Attended Transfer Feature Code
-    ➡️ propedit_key_atxfercomplete=Κωδικός Εκτέλεσης Πλήρως Επιτηρούμενης Μεταφοράς κλήσης
-    # 🔴 propedit_key_atxferswap -> Swap Attended Transfer Feature Code
-    ➡️ propedit_key_atxferswap=Κωδικός Εναλλαγής Εκτέλεσης Επιτηρούμενης Μεταφοράς κλήσης
-    # 🔴 propedit_key_atxferthreeway -> Join Attended Transfer Feature Code
-    ➡️ propedit_key_atxferthreeway=Κωδικός Σύνδεσης σε Επιτηρούμενη Μεταφοράς κλήσης
+    propedit_key_agent_qap_cached_for_ms_desc=Μέγιστος χρόνος αποθήκευσης της σελίδας του χρήστη στην κρυφή μνήμη
+    propedit_key_amo_placed_call_timeout=Χρονικό όριο ανακύκλωσης AMO
+    propedit_key_answer_src=Ήχος απάντησης του Softphone (URL)
+    propedit_key_atxfer=Κωδικός Εκτέλεσης Επιτηρούμενης Μεταφοράς κλήσης
+    propedit_key_atxferabort=Κωδικός Διακοπής Επιτηρούμενης Μεταφοράς κλήσης
+    propedit_key_atxfercomplete=Κωδικός Εκτέλεσης Πλήρως Επιτηρούμενης Μεταφοράς κλήσης
+    propedit_key_atxferswap=Κωδικός Εναλλαγής Εκτέλεσης Επιτηρούμενης Μεταφοράς κλήσης
+    propedit_key_atxferthreeway=Κωδικός Σύνδεσης σε Επιτηρούμενη Μεταφοράς κλήσης
     propedit_key_audio_html5player_desc=Χρησιμοποιήστε την αναπαραγωγή ήχου HTML5
     propedit_key_audit_log_days=Πόσες ημέρες των αρχείων καταγραφής θα διατηρηθούν κατά την εκκαθάριση του αρχείου καταγραφής ελέγχου
-    # 🔴 propedit_key_audit_max_report_time -> Maximum report duration not requiring auding
-    ➡️ propedit_key_audit_max_report_time=Μέγιστος χρόνος διάρκειας αναφοράς χωρίς την απαίτηση ελέγχου
-    # 🔴 propedit_key_audit_max_rows_fetched -> Maximum number of rows scanned not requiring auditing
-    ➡️ propedit_key_audit_max_rows_fetched=Μέγιστος  αριθμός ελεγχόμενων σειρών χωρίς την απαίτηση ελέγχου
-    # 🔴 propedit_key_blindxfer -> Blind Transfer Feature Code
-    ➡️ propedit_key_blindxfer=Κωδικός μεταφοράς μη επιτηρούμενης κλήσης
+    propedit_key_audit_max_report_time=Μέγιστος χρόνος διάρκειας αναφοράς χωρίς την απαίτηση ελέγχου
+    propedit_key_audit_max_rows_fetched=Μέγιστος  αριθμός ελεγχόμενων σειρών χωρίς την απαίτηση ελέγχου
+    propedit_key_blindxfer=Κωδικός μεταφοράς μη επιτηρούμενης κλήσης
     propedit_key_cronjobs_localwebapp=Πρωτεύουσα διεύθυνση URL για προγραμματισμένες εργασίες
-    # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
-    ➡️ propedit_key_decodeknownnumbers=Αποκωδικοποίση γνωστών αριθμών 
-    # 🔴 propedit_key_default_agentcanamendpause_desc -> If this property is set to Yes, agents can amend the current pause code, retroactively changing it (this will make it so that the new pause code will appear in reports instead of the old one, for the current pause). If set to No, when agents change pause code, it will automatically end the current pause and initiate a new one with the new code.
-    ➡️ propedit_key_default_agentcanamendpause_desc=Εάν αυτή η ιδιότητα οριστεί ως Ναι, οι πράκτορες μπορούν να τροποποιήσουν τον τρέχοντα κωδικό παύσης, αλλάζοντας τον αναδρομικά (αυτό θα κάνει έτσι ώστε ο νέος κωδικός παύσης να εμφανίζεται στις αναφορές αντί για τον παλιό, για την τρέχουσα παύση). Εάν οριστεί ως Όχι, όταν οι πράκτορες αλλάζουν τον κωδικό παύσης, θα τερματιστεί αυτόματα η τρέχουσα παύση και θα ξεκινήσει μια νέα με τον νέο κωδικό.
+    propedit_key_decodeknownnumbers=Αποκωδικοποίση γνωστών αριθμών 
+    propedit_key_default_agentcanamendpause_desc=Εάν αυτή η ιδιότητα οριστεί ως Ναι, οι πράκτορες μπορούν να τροποποιήσουν τον τρέχοντα κωδικό παύσης, αλλάζοντας τον αναδρομικά (αυτό θα κάνει έτσι ώστε ο νέος κωδικός παύσης να εμφανίζεται στις αναφορές αντί για τον παλιό, για την τρέχουσα παύση). Εάν οριστεί ως Όχι, όταν οι πράκτορες αλλάζουν τον κωδικό παύσης, θα τερματιστεί αυτόματα η τρέχουσα παύση και θα ξεκινήσει μια νέα με τον νέο κωδικό.
     propedit_key_default_alwaysLogonUnpaused_desc=Όταν ένας agent συνδέεται, πάντα θα είναι πάντα σε μη παύση
     propedit_key_default_areacode_digits_desc=Πόσα ψηφία να θεωρούνται από προεπιλογή κωδικός περιοχής
     propedit_key_default_callstatustimeout_desc=Χρονικό παράθυρο (σε δευτερόλεπτα) εντός του οποίου ο πράκτορας μπορεί να ορίσει ένα αποτέλεσμα κλήσης (προεπιλογή έως 30 λεπτά).
@@ -2657,8 +2606,7 @@ Description of configuration properties
     propedit_key_default_crmapp_desc=(υπάρχει δυνατότητα δυμναμικών tag, δείτε το εγχειρίδιο χρήσης)
     propedit_key_default_crmlabel_desc=Ετικέτα που εμφανίζεται στο μενού της σελίδας Icon
     propedit_key_default_decimalDigits_desc=Αριθμός ψηφίων που θα εμφανίζονται για αριθμούς κινητής υποδιαστολής
-    # 🔴 propedit_key_default_effectiveCallThresold_desc -> The minimum length of a call to be considered effective
-    ➡️ propedit_key_default_effectiveCallThresold_desc=Ελάχιστος χρόνος διάρκειας κλήσης για να θεωρηθεί αποτελεσματική
+    propedit_key_default_effectiveCallThresold_desc=Ελάχιστος χρόνος διάρκειας κλήσης για να θεωρηθεί αποτελεσματική
     propedit_key_default_export_orientation_desc=Προσανατολισμός αναφορών από άμεση εξαγωγή σε PDF
     propedit_key_default_export_orientation_landscape_desc=Τοπίο
     propedit_key_default_export_orientation_portrait_desc=Πορτραίτο
@@ -2670,10 +2618,8 @@ Description of configuration properties
     propedit_key_default_lockedAgentPopupCode_desc=Μπορούν οι χρήστες να αλλάξουν τον κωδικό τους στα αναδυόμενα παράθυρα Είσοδος / Αποσύνδεση / Παύση;
     propedit_key_default_maxOngoingTalkTime_desc=Αν μια κλήση σε εξέλιξη έχει χρόνο ομιλίας που υπερβαίνει την τιμή αυτή, να κλείσει. 0: αγνοήστε
     propedit_key_default_maxOngoingWaitTime_desc=Αν μια κλήση σε εξέλιξη έχει χρόνο αναμονής που υπερβαίνει την τιμή αυτή, να κλείσει. 0: αγνοήστε
-    # 🔴 propedit_key_default_maxrowspdf_desc -> Max. number of rows per table when exporting a report in PDF format.
-    ➡️ propedit_key_default_maxrowspdf_desc=Μέγιστο πλήθος γραμμών ανά πίνακα κατά τη διάρκεια εξαγωγής μίας αναφοράς σε μορφή PDF
-    # 🔴 propedit_key_default_maxrowsxls_desc -> Max. number of rows per table when exporting a report in XLS format. Keep in mind that the maximum number of rows in an XLS page cannot surpass 65435.
-    ➡️ propedit_key_default_maxrowsxls_desc=Μέγιστο πλήθος γραμμών ανά πίνακα κατά τη διάρκεια εξαγωγής μίας αναφοράς σε μορφή XLS. Λάβετε υπόψη ότι ο μέγιστος αριθμός γραμμών σε XLS αρχείο δεν μπορεί να ξεπεράσει τις 65435.
+    propedit_key_default_maxrowspdf_desc=Μέγιστο πλήθος γραμμών ανά πίνακα κατά τη διάρκεια εξαγωγής μίας αναφοράς σε μορφή PDF
+    propedit_key_default_maxrowsxls_desc=Μέγιστο πλήθος γραμμών ανά πίνακα κατά τη διάρκεια εξαγωγής μίας αναφοράς σε μορφή XLS. Λάβετε υπόψη ότι ο μέγιστος αριθμός γραμμών σε XLS αρχείο δεν μπορεί να ξεπεράσει τις 65435.
     propedit_key_default_openUrlInPopup_desc=Ανοίξτε το CRM σε ξεχωριστό παράθυρο (μην ενσωματώσετε το εικονίδιο)
     propedit_key_default_pausecoderequired_desc=Εάν οριστεί σε true, οι agents πρέπει να δώσουν έναν έγκυρο λόγο Παύσης
     propedit_key_default_queue_desc=Εσωτερική αριθμητική ταυτότητα της προεπιλεγμένης εξ ορισμού Ουράς Αναμονής, αφήστε κενό για μη προεπιλεγμένη Ουρά αναμονής.
@@ -2697,8 +2643,7 @@ Description of configuration properties
     propedit_key_default_viewTechInfo_desc=Προβολή Tech Info και DBTest
     propedit_key_default_webloaderpbx_desc=Ενεργοποίηση του WebLoaderPBX (UniLoader)
     propedit_key_default_wombatagentrecall_desc=Ενεργοποιήση της υπηρεσίας επανάκλησης του χρήστη του wombat
-    # 🔴 propedit_key_dialtone_src -> The Softphone's dial tone (URL)
-    ➡️ propedit_key_dialtone_src=Τόνος κλήσης Softphone (URL)
+    propedit_key_dialtone_src=Τόνος κλήσης Softphone (URL)
     propedit_key_directami_agent_desc=Ο τρόπος που υποτίθεται ότι πρέπει να είναι ένα κανάλι χρήστη
     propedit_key_directami_cmdseparator_desc=Ο διαχωριστής χρησιμοποιείται για παραμέτρους στην έκδοση Asterisk. Προεπιλογή στο κόμμα (',') και θα πρέπει να αλλάξει σε σωλήνα ('|') για πολύ παλιά συστήματα Asterisk (προ-1.8)
     propedit_key_directami_extension_desc=Ο τρόπος που υποτίθεται ότι πρέπει να είναι ένα κανάλι εσωτερικού χρήστη
@@ -2707,13 +2652,13 @@ Description of configuration properties
     propedit_key_directami_outboundenabled_desc=Εάν είναι ενεργοποιημένη η εξερχόμενη κλήση
     propedit_key_directami_outboundstanza_desc=το σημείο στο dialplan που πρέπει να καλείται όταν κάνετε εξερχόμενα
     propedit_key_directami_spyoptions_desc=Οι επιλογές που θέλετε να χρησιμοποιήσετε για την εφαρμογή Asterisk ChanSpy κατά την ακρόαση κλήσεων. Με την αλλαγή αυτών των επιλογών, μπορείτε να έχετε λειτουργία Whisper ή  αντί για απλό ChanSpy.
-    # 🔴 propedit_key_directami_stateinterface_desc -> The StateInterface for our agent. If blank, not added.
-    ➡️ propedit_key_directami_stateinterface_desc=Το StateInterface για τον πράκτορά μας. Αν είναι κενό, δεν προστίθεται.
+    propedit_key_directami_stateinterface_desc=Το StateInterface για τον πράκτορά μας. Αν είναι κενό, δεν προστίθεται.
     propedit_key_directami_trackerdialout_desc=Το εσωτερικό και το context στο οποίο συνδεόμαστε κατά την κλήση
     propedit_key_directami_transfer_desc=Ο προορισμός της μεταφοράς κλήσης είναι της μορφής ext@context
     propedit_key_directami_usetracker_desc=Χρησιμοποιούμε Uniloader Tracker για εξερχόμενες;
     propedit_key_directami_verbose_desc=Πότε να απορρίψετε όλες τις αλληλεπιδράσεις AMI στο αρχείο καταγραφής συστήματος (προεπιλογή: false)
-    propedit_key_enswitch_prefix_desc=Το προεπιλεγμένο πρόθεμα που χρησιμοποιείται για την εκκίνηση μιας συνομιλίας -In (Προεπιλογή: * 92)
+    # 🔴 propedit_key_enswitch_bargeprefix_desc -> The default prefix to use to initiate a barge-in (Default: *92)
+    ➡️ propedit_key_enswitch_bargeprefix_desc=
     propedit_key_enswitch_baseurl_desc=Είναι η κύρια διεύθυνση URL για το σύστημα Enswitch
     propedit_key_enswitch_guiaddmember_desc=Εάν είναι διαθέσιμες οι ενέργειες ADDMEMBER / REMOVEMEMBER (προεπιλογή: false)
     propedit_key_enswitch_httplogin_desc=Σύνδεση χρήστη API
@@ -2723,32 +2668,22 @@ Description of configuration properties
     propedit_key_enswitch_qpspill_desc=Η προτεραιότητα ουράς αναμονής για έναν χρήστη που έχει συνδεθεί με προτεραιότητα SPILL (προεπιλογή: 4)
     propedit_key_enswitch_qpwrap_desc=Η προτεραιότητα ουράς αναμονής για έναν χρήστη που έχει συνδεθεί με προτεραιότητα WRAP (προεπιλογή: 6)
     propedit_key_enswitch_spyprefix_desc=Το προεπιλεγμένο πρόθεμα που χρησιμοποιείται για την εκκίνηση ενός chanspy (Προεπιλογή: * 91)
-    # 🔴 propedit_key_enswitch_verbose_desc -> Whether all Enswitch interactions should be logged in full to the standard log (default: false)
-    ➡️ propedit_key_enswitch_verbose_desc=Εάν όλες οι αλληλεπιδράσεις του Enswitch πρέπει να καταγράφονται πλήρως στο τυπικό αρχείο καταγραφής (προεπιλογή: false)
-    # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
-    ➡️ propedit_key_extrabody=Επιπλέον κείμενο στο σώμα των e-mails.
-    # 🔴 propedit_key_hangup_src -> The Softphone's hangup tone (URL)
-    ➡️ propedit_key_hangup_src=Ο τόνος τερματισμού του Softphone (URL)
-    # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
-    ➡️ propedit_key_hiddennumberpolicy=Πολιτική απόκρυψης αριθμών
-    # 🔴 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Should be resized to 200 x 72.
-    ➡️ propedit_key_layout_logo_desc=Το λογότυπο της εταιρείας σας (πλήρης ή σχετική διαδρομή). Θα πρέπει να αλλάξει το μέγεθος σε 200 x 72.
+    propedit_key_enswitch_verbose_desc=Εάν όλες οι αλληλεπιδράσεις του Enswitch πρέπει να καταγράφονται πλήρως στο τυπικό αρχείο καταγραφής (προεπιλογή: false)
+    propedit_key_extrabody=Επιπλέον κείμενο στο σώμα των e-mails.
+    propedit_key_hangup_src=Ο τόνος τερματισμού του Softphone (URL)
+    propedit_key_hiddennumberpolicy=Πολιτική απόκρυψης αριθμών
+    propedit_key_layout_logo_desc=Το λογότυπο της εταιρείας σας (πλήρης ή σχετική διαδρομή). Θα πρέπει να αλλάξει το μέγεθος σε 200 x 72.
     propedit_key_noans_timeout=Ώρα (σε δευτερόλεπτα) μετά την οποία μια εισερχόμενη κλήση απορρίπτεται αν δεν απαντηθεί. Η προεπιλεγμένη τιμή είναι 60.
     propedit_key_phone_iceservers=Λίστα διακομιστών ICE που θα χρησιμοποιήσετε
-    # 🔴 propedit_key_phone_maxsessions -> Max Num. of sessions for the Agent Page SoftPhone
-    ➡️ propedit_key_phone_maxsessions=Μέγ. Αριθμ. συνεδριών της σελίδας Softphone του χρήστη
+    propedit_key_phone_maxsessions=Μέγ. Αριθμ. συνεδριών της σελίδας Softphone του χρήστη
     propedit_key_phone_websocketurl=Web Socket URL για τη σύνδεση.
     propedit_key_platform_dialer_desc=Επιλέξτε τον τύπο του dialer που θα χρησιμοποιηθεί
-    # 🔴 propedit_key_platform_jsonapi_enabled -> A comma-separated list of actions to offer
-    ➡️ propedit_key_platform_jsonapi_enabled=Μια λίστα ενεργειών που πρέπει να προσφέρετε διαχωρισμένη με κόμματα
+    propedit_key_platform_jsonapi_enabled=Μια λίστα ενεργειών που πρέπει να προσφέρετε διαχωρισμένη με κόμματα
     propedit_key_platform_jsonapi_method=Ποια μέθοδος HTTP πρέπει να χρησιμοποιηθεί
     propedit_key_platform_jsonapi_token=Ένα διακριτικό αναγνώρισης για αυτό το σύστημα QM
-    # 🔴 propedit_key_platform_jsonapi_url -> The HTTP/S URL to send commands to
-    ➡️ propedit_key_platform_jsonapi_url=Η διεύθυνση URL HTTP/S προς αποστολή εντολών
-    # 🔴 propedit_key_platform_jsonapi_verbose -> Verbose logging
-    ➡️ propedit_key_platform_jsonapi_verbose=Λεπτομέρεις καταγραφής
-    # 🔴 propedit_key_platform_pbx_desc -> Choose the type of PBX platform to be used.
-    ➡️ propedit_key_platform_pbx_desc=Επιλέξτε τον τύπο του τηλεφωνικού κέντρου (PBX) που θα χρησιμοποιήσετε.
+    propedit_key_platform_jsonapi_url=Η διεύθυνση URL HTTP/S προς αποστολή εντολών
+    propedit_key_platform_jsonapi_verbose=Λεπτομέρεις καταγραφής
+    propedit_key_platform_pbx_desc=Επιλέξτε τον τύπο του τηλεφωνικού κέντρου (PBX) που θα χρησιμοποιήσετε.
     propedit_key_realtime_absolutePauseTimes_desc=Να φαίνονται οι απόλυτοι χρόνοι σύνδεσης των agent στη σελίδα απεικόνισης πραγματικού χρόνου;
     propedit_key_realtime_absolutePauseTimes_fase_desc=Σχετικοί χρόνοι
     propedit_key_realtime_absolutePauseTimes_true_desc=Απόλυτοι χρόνοι
@@ -2778,114 +2713,67 @@ Description of configuration properties
     propedit_key_realtime_calls_invisible_desc=Προβολή επιλογέα πίνακα κλήσεων
     propedit_key_realtime_dynamicLoginQueues_desc=Ουρές αναμονής που ο agent μπορεί να επιλέξει κατά την σύνδεση
     propedit_key_realtime_hideExportButtons_desc=Προβολή κουμπιών εξαγωγής στη σελίδα απεικόνισης σε πραγματικό χρόνο
-    # 🔴 propedit_key_realtime_max_bytes_agent_desc -> Read past up to N seconds when counting realtime
-    ➡️ propedit_key_realtime_max_bytes_agent_desc=Διάβασμα έως N δευτερόλεπτα κατά τη μέτρηση πραγματικού χρόνου
+    propedit_key_realtime_max_bytes_agent_desc=Διάβασμα έως N δευτερόλεπτα κατά τη μέτρηση πραγματικού χρόνου
     propedit_key_realtime_members_only_buttonEnabledd_desc=Κατάσταση "γνωστών" μελών
     propedit_key_realtime_members_only_desc=Προβολή μόνο "γνωστού" μέλους για την Ουρά αναμονής
     propedit_key_realtime_preventLoggedAgentInfoChanges_desc=Μπορούν οι χρήστες να αλλάξουν τον κωδικό και εσωτερικό τους αν συνδεθούν σε τουλάχιστο μία Ουρά αναμονής
     propedit_key_realtime_refresh_time_desc=Χρόνος ανανέωσης σελίδας
-    # 🔴 propedit_key_realtime_relative_pause_time -> Show ongoing pause times.
-    ➡️ propedit_key_realtime_relative_pause_time=Εμφάνιση χρόνων παύσης σε εξέλιξη.
-    # 🔴 propedit_key_realtime_rememberLastExtension_desc -> Remember last agent extension
-    ➡️ propedit_key_realtime_rememberLastExtension_desc=Να θυμάσαι τον τελευταίο εσωτερικό αριθμό ενός χρήστη
-    # 🔴 propedit_key_realtime_showAgentPriorityReports_desc -> Show agent priority level in reports.
-    ➡️ propedit_key_realtime_showAgentPriorityReports_desc=Εμφάνιση της προτεραιότητας χρήστη στις αναφορές.
-    # 🔴 propedit_key_realtime_showAgentPriority_desc -> Show the agent priority on the queues in the "Queue Logon Panel".
-    ➡️ propedit_key_realtime_showAgentPriority_desc=Εμφάνιση της προτεραιότητας χρήστη στις ουρές αναμονής στην οθόνη εισαγωγής χρήστη στην ουρά αναμονής.
+    propedit_key_realtime_relative_pause_time=Εμφάνιση χρόνων παύσης σε εξέλιξη.
+    propedit_key_realtime_rememberLastExtension_desc=Να θυμάσαι τον τελευταίο εσωτερικό αριθμό ενός χρήστη
+    propedit_key_realtime_showAgentPriorityReports_desc=Εμφάνιση της προτεραιότητας χρήστη στις αναφορές.
+    propedit_key_realtime_showAgentPriority_desc=Εμφάνιση της προτεραιότητας χρήστη στις ουρές αναμονής στην οθόνη εισαγωγής χρήστη στην ουρά αναμονής.
     propedit_key_realtime_show_incorrect_queue_sets_desc=Θα πρέπει να φαίνονται οι διαφορές στην αναμενόμενη γραμμή εργαλείων της Ουράς αναμονής;
-    # 🔴 propedit_key_realtime_use_new_wb -> Run the user-configurable wallboard?
-    ➡️ propedit_key_realtime_use_new_wb=Θέλετε να τρέξετε το παραμετροποιηούμνενο από το χρήστη Wallboard;
+    propedit_key_realtime_use_new_wb=Θέλετε να τρέξετε το παραμετροποιηούμνενο από το χρήστη Wallboard;
     propedit_key_realtime_waitAlarmOnLiveCalls_desc=Ελέγξτε για ειδοποιήσεις κατά την αναμονή σε εν εξελίξει συνομιλίες 
-    # 🔴 propedit_key_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
-    ➡️ propedit_key_recovery_max=Μέγιστο διάστημα σε δευτερόλεπτα μεταξύ των προσπαθειών επανασύνδεσης WebSocket. Η προεπιλεγμένη τιμή είναι 30.
-    # 🔴 propedit_key_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
-    ➡️ propedit_key_recovery_min=Ελάχιστο διάστημα σε δευτερόλεπτα μεταξύ των προσπαθειών επανασύνδεσης WebSocket. Η προεπιλεγμένη τιμή είναι 2.
-    # 🔴 propedit_key_ringtone_src -> The Softphone's ringtone (URL)
-    ➡️ propedit_key_ringtone_src=Ήχος κλήσης του Softphone (URL)
+    propedit_key_recovery_max=Μέγιστο διάστημα σε δευτερόλεπτα μεταξύ των προσπαθειών επανασύνδεσης WebSocket. Η προεπιλεγμένη τιμή είναι 30.
+    propedit_key_recovery_min=Ελάχιστο διάστημα σε δευτερόλεπτα μεταξύ των προσπαθειών επανασύνδεσης WebSocket. Η προεπιλεγμένη τιμή είναι 2.
+    propedit_key_ringtone_src=Ήχος κλήσης του Softphone (URL)
     propedit_key_sla_initial_interval_desc=Χρονική περίοδος για το αρχικό τμήμα του SLA
     propedit_key_sla_interval_desc=Πόσο μεγάλα είναι τα χρονικά διαστήματα για το γραφημα SLA
     propedit_key_sla_max_initial_delay_desc=Τα αρχικά όρια του χρόνου για τον υπολογισμό του SLA
     propedit_key_sla_max_monitored_delay_desc=Μέγιστη καθυστέρηση που φαίνεται στο γράφημα SLA
-    # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
-    ➡️ propedit_key_smtpsubjectprefix=Πρόθεμα στο θέμα των e-mail
-    # 🔴 propedit_key_synchronizer_agents_file -> Default agents.conf File
-    ➡️ propedit_key_synchronizer_agents_file=Προεπιλεγμένο αρχείο agents.conf
-    # 🔴 propedit_key_synchronizer_queuelog_file -> Default Queue Log File
-    ➡️ propedit_key_synchronizer_queuelog_file=Προεπιλεγμένο αρχείο καταγραφής ουράς αναμονής
-    # 🔴 propedit_key_synchronizer_queues_file -> Default queues.conf File
-    ➡️ propedit_key_synchronizer_queues_file=Προεπιλεγμένο αρχείο queues.conf
-    # 🔴 propedit_key_synchronizer_url_source -> Url to fetch Synchronizer JSON configuration file with URL Reader
-    ➡️ propedit_key_synchronizer_url_source=Url για λήψη του αρχείου διαμόρφωσης του Synchronizer JSON με τον Αναγνώστη URL
-    # 🔴 propedit_key_synchronizer_users_file -> Default users.conf File
-    ➡️ propedit_key_synchronizer_users_file=Προεπιλεγμένο αρχείο users.conf
-    # 🔴 propedit_key_wallboard_kiosk_user -> The default user for the Wallboard Kiosk URL
-    ➡️ propedit_key_wallboard_kiosk_user=Προεπιλεγμένος χρήστης για τη διεύθυνση URL Wallboard Kiosk
-    # 🔴 propedit_key_wb_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
-    ➡️ propedit_key_wb_noans_timeout=Χρόνος (σε δευτερόλεπτα) μετά τον οποίο μια εισερχόμενη κλήση απορρίπτεται εάν δεν απαντηθεί. Η προεπιλεγμένη τιμή είναι 60.
-    # 🔴 propedit_key_wb_phone_autoanswer -> Enable Auto Answer by default in the Wallboard SoftPhone
-    ➡️ propedit_key_wb_phone_autoanswer=Προεπιλογή Ενεργοποίησης αυτόματης απάντησης στο Wallboard SoftPhone
-    # 🔴 propedit_key_wb_phone_displayname -> Descriptive name (String) to be shown to the called party when calling.
-    ➡️ propedit_key_wb_phone_displayname=Περιγραφικό όνομα (String) που θα εμφανίζεται στον καλούμενο κατά την κλήση.
-    # 🔴 propedit_key_wb_phone_iceservers -> List of ICE Servers to use.
-    ➡️ propedit_key_wb_phone_iceservers=Λίστα διακομιστών ICE προς χρήση
-    # 🔴 propedit_key_wb_phone_maxsessions -> Max Num. of sessions for the Wallboard SoftPhone
-    ➡️ propedit_key_wb_phone_maxsessions=Μέγ. Αριθμ. συνεδριών για το Wallboard SoftPhone
-    # 🔴 propedit_key_wb_phone_password -> SIP Authentication password (String).
-    ➡️ propedit_key_wb_phone_password=Κωδικός πρόσβασης ελέγχου ταυτότητας SIP (String)
-    # 🔴 propedit_key_wb_phone_register -> Indicates if the sofphone should register to the PBX.
-    ➡️ propedit_key_wb_phone_register=Υποδεικνύει εάν το softphone πρέπει να εγγραφεί στο PBX
-    # 🔴 propedit_key_wb_phone_server -> The PBX Server the phone is connected to.
-    ➡️ propedit_key_wb_phone_server=Ο διακομιστής PBX στον οποίο είναι συνδεδεμένο το τηλέφωνο
-    # 🔴 propedit_key_wb_phone_username -> SIP Authentication username (String).
-    ➡️ propedit_key_wb_phone_username=Όνομα χρήστη ελέγχου ταυτότητας SIP (String)
-    # 🔴 propedit_key_wb_phone_websocketurl -> Web Socket URL for the connection.
-    ➡️ propedit_key_wb_phone_websocketurl=URL υποδοχής Web για τη σύνδεση
-    # 🔴 propedit_key_wb_recovery_max -> Maximum interval in seconds between WebSocket reconnection attemps. Default value is 30.
-    ➡️ propedit_key_wb_recovery_max=Μέγιστο διάστημα σε δευτερόλεπτα μεταξύ των προσπαθειών επανασύνδεσης WebSocket. Η προεπιλεγμένη τιμή είναι 30.
-    # 🔴 propedit_key_wb_recovery_min -> Minimum interval in seconds between WebSocket reconnection attemps. Default value is 2.
-    ➡️ propedit_key_wb_recovery_min=Ελάχιστο διάστημα σε δευτερόλεπτα μεταξύ των προσπαθειών επανασύνδεσης WebSocket. Η προεπιλεγμένη τιμή είναι 2.
-    # 🔴 propedit_key_wombat_password_desc -> WombatDialer password
-    ➡️ propedit_key_wombat_password_desc=Κωδικός πρόσβασης WombatDialer
-    # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
-    ➡️ propedit_key_wombat_prevdial_desc=URL της σελίδας κλήσης προεπισκόπησης του WombatDialer.
-    # 🔴 propedit_key_wombat_url_desc -> WombatDialer's main URL
-    ➡️ propedit_key_wombat_url_desc=Κύρια διεύθυνση URL του WombatDialer
-    # 🔴 propedit_key_wombat_username_desc -> WombatDialer username
-    ➡️ propedit_key_wombat_username_desc=Όνομα χρήστη WombatDialer
-    # 🔴 propedit_option_barge -> Barge
-    ➡️ propedit_option_barge=Παρέμβαση (Barge-in)
-    # 🔴 propedit_option_classic -> Classic
-    ➡️ propedit_option_classic=Classic
-    # 🔴 propedit_option_classiclive -> Classic-Live
-    ➡️ propedit_option_classiclive=Classic-Live
-    # 🔴 propedit_option_directami -> DirectAMI
-    ➡️ propedit_option_directami=DirectAMI
-    # 🔴 propedit_option_directami_live -> DirectAMI-Live
-    ➡️ propedit_option_directami_live=DirectAMI-Live
+    propedit_key_smtpsubjectprefix=Πρόθεμα στο θέμα των e-mail
+    propedit_key_synchronizer_agents_file=Προεπιλεγμένο αρχείο agents.conf
+    propedit_key_synchronizer_queuelog_file=Προεπιλεγμένο αρχείο καταγραφής ουράς αναμονής
+    propedit_key_synchronizer_queues_file=Προεπιλεγμένο αρχείο queues.conf
+    propedit_key_synchronizer_url_source=Url για λήψη του αρχείου διαμόρφωσης του Synchronizer JSON με τον Αναγνώστη URL
+    propedit_key_synchronizer_users_file=Προεπιλεγμένο αρχείο users.conf
+    propedit_key_wallboard_kiosk_user=Προεπιλεγμένος χρήστης για τη διεύθυνση URL Wallboard Kiosk
+    propedit_key_wb_noans_timeout=Χρόνος (σε δευτερόλεπτα) μετά τον οποίο μια εισερχόμενη κλήση απορρίπτεται εάν δεν απαντηθεί. Η προεπιλεγμένη τιμή είναι 60.
+    propedit_key_wb_phone_autoanswer=Προεπιλογή Ενεργοποίησης αυτόματης απάντησης στο Wallboard SoftPhone
+    propedit_key_wb_phone_displayname=Περιγραφικό όνομα (String) που θα εμφανίζεται στον καλούμενο κατά την κλήση.
+    propedit_key_wb_phone_iceservers=Λίστα διακομιστών ICE προς χρήση
+    propedit_key_wb_phone_maxsessions=Μέγ. Αριθμ. συνεδριών για το Wallboard SoftPhone
+    propedit_key_wb_phone_password=Κωδικός πρόσβασης ελέγχου ταυτότητας SIP (String)
+    propedit_key_wb_phone_register=Υποδεικνύει εάν το softphone πρέπει να εγγραφεί στο PBX
+    propedit_key_wb_phone_server=Ο διακομιστής PBX στον οποίο είναι συνδεδεμένο το τηλέφωνο
+    propedit_key_wb_phone_username=Όνομα χρήστη ελέγχου ταυτότητας SIP (String)
+    propedit_key_wb_phone_websocketurl=URL υποδοχής Web για τη σύνδεση
+    propedit_key_wb_recovery_max=Μέγιστο διάστημα σε δευτερόλεπτα μεταξύ των προσπαθειών επανασύνδεσης WebSocket. Η προεπιλεγμένη τιμή είναι 30.
+    propedit_key_wb_recovery_min=Ελάχιστο διάστημα σε δευτερόλεπτα μεταξύ των προσπαθειών επανασύνδεσης WebSocket. Η προεπιλεγμένη τιμή είναι 2.
+    propedit_key_wombat_password_desc=Κωδικός πρόσβασης WombatDialer
+    propedit_key_wombat_prevdial_desc=URL της σελίδας κλήσης προεπισκόπησης του WombatDialer.
+    propedit_key_wombat_url_desc=Κύρια διεύθυνση URL του WombatDialer
+    propedit_key_wombat_username_desc=Όνομα χρήστη WombatDialer
+    propedit_option_barge=Παρέμβαση (Barge-in)
+    propedit_option_classic=Classic
+    propedit_option_classiclive=Classic-Live
+    propedit_option_directami=DirectAMI
+    propedit_option_directami_live=DirectAMI-Live
     propedit_option_disabled=Απενεργοποιημένο
     propedit_option_enabled=Ενεργοποιημένο
-    # 🔴 propedit_option_enswitch -> Enswitch
-    ➡️ propedit_option_enswitch=Enswitch
+    propedit_option_enswitch=Enswitch
     propedit_option_false=Λάθος
-    # 🔴 propedit_option_freeswitch -> FreeSwitch
-    ➡️ propedit_option_freeswitch=FreeSwitch
-    # 🔴 propedit_option_freeswitch_live -> FreeSwitch-Live
-    ➡️ propedit_option_freeswitch_live=FreeSwitch-Live
-    # 🔴 propedit_option_hash -> hash
-    ➡️ propedit_option_hash=hash
-    # 🔴 propedit_option_hide -> hide
-    ➡️ propedit_option_hide=απόκρυψη
-    # 🔴 propedit_option_hide3 -> hide3
-    ➡️ propedit_option_hide3=απόκρυψη3
-    # 🔴 propedit_option_hide5 -> hide5
-    ➡️ propedit_option_hide5=απόκρυψη5
-    # 🔴 propedit_option_jsonapi -> JSON API
-    ➡️ propedit_option_jsonapi=JSON API
-    # 🔴 propedit_option_mirtapbx -> MirtaPBX
-    ➡️ propedit_option_mirtapbx=MirtaPBX
+    propedit_option_freeswitch=FreeSwitch
+    propedit_option_freeswitch_live=FreeSwitch-Live
+    propedit_option_hash=hash
+    propedit_option_hide=απόκρυψη
+    propedit_option_hide3=απόκρυψη3
+    propedit_option_hide5=απόκρυψη5
+    propedit_option_jsonapi=JSON API
+    propedit_option_mirtapbx=MirtaPBX
     propedit_option_no=Όχι
-    # 🔴 propedit_option_none -> none
-    ➡️ propedit_option_none=κανένα
+    propedit_option_none=κανένα
     propedit_option_notvisible=Μη ορατό
     propedit_option_realtime_dynamicLoginQueues_all_desc=Όλες οι ορατές Ουρές αναμονής με προσεκτική επιλογή
     propedit_option_realtime_dynamicLoginQueues_all_label=Όλες
@@ -2893,40 +2781,23 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_assigned_label=Μόνο ορισμένες
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Μόνο ορισμένες Ουρές αναμονής με προσεκτική επιλογή 
     propedit_option_realtime_dynamicLoginQueues_registered_label=Καταχωρημένο
-    # 🔴 propedit_option_spy -> Spy
-    ➡️ propedit_option_spy=Παρακολούθηση
-    # 🔴 propedit_option_stars -> stars
-    ➡️ propedit_option_stars=αστέρια
-    # 🔴 propedit_option_sync_mode_c -> Create Only
-    ➡️ propedit_option_sync_mode_c=Δημιουργία μόνο
-    # 🔴 propedit_option_sync_mode_c_d -> Create, Delete
-    ➡️ propedit_option_sync_mode_c_d=Δημιουργία, Διαγραφή
-    # 🔴 propedit_option_sync_mode_c_d_usr -> Create, Delete, Create Users
-    ➡️ propedit_option_sync_mode_c_d_usr=Δημιουργία, Διαγραφή, Δημιουργία Χρηστών
-    # 🔴 propedit_option_sync_mode_c_u -> Create, Update
-    ➡️ propedit_option_sync_mode_c_u=Δημιουργία, Ενημέρωση
-    # 🔴 propedit_option_sync_mode_c_u_d -> Create, Update, Delete
-    ➡️ propedit_option_sync_mode_c_u_d=Δημιουργία, Ενημέρωση, Διαγραφή
-    # 🔴 propedit_option_sync_mode_c_u_d_usr -> Create, Update, Delete, Create Users
-    ➡️ propedit_option_sync_mode_c_u_d_usr=Δημιουργία, Ενημέρωση, Διαγραφή, Δημιουργία Χρηστών
-    # 🔴 propedit_option_sync_mode_c_u_usr -> Create, Update, Create Users
-    ➡️ propedit_option_sync_mode_c_u_usr=Δημιουργία, Ενημέρωση, Δημιουργία Χρηστών
-    # 🔴 propedit_option_sync_mode_c_usr -> Create, Create User
-    ➡️ propedit_option_sync_mode_c_usr=Δημιουργία, Δημιουργία Χρήστη
-    # 🔴 propedit_option_sync_mode_d -> Delete
-    ➡️ propedit_option_sync_mode_d=Διαγραφή
-    # 🔴 propedit_option_sync_mode_d_c -> Delete, Create
-    ➡️ propedit_option_sync_mode_d_c=Διαγραφή, Δημιουργία
-    # 🔴 propedit_option_sync_mode_d_u -> Delete, Update
-    ➡️ propedit_option_sync_mode_d_u=Διαγραφή, Ενημέρωση
-    # 🔴 propedit_option_sync_mode_d_u_usr -> Delete, Update, Create Users
-    ➡️ propedit_option_sync_mode_d_u_usr=Διαγραφή, Ενημέρωση, Δημιουργία Χρηστών
-    # 🔴 propedit_option_sync_mode_u -> Update
-    ➡️ propedit_option_sync_mode_u=Ενημέρωση
-    # 🔴 propedit_option_sync_mode_u_c -> Update, Create
-    ➡️ propedit_option_sync_mode_u_c=Ενημέρωση, Δημιουργία
-    # 🔴 propedit_option_sync_reader_ami -> Single Machine AMI
-    ➡️ propedit_option_sync_reader_ami=Μονή μηχανή AMI
+    propedit_option_spy=Παρακολούθηση
+    propedit_option_stars=αστέρια
+    propedit_option_sync_mode_c=Δημιουργία μόνο
+    propedit_option_sync_mode_c_d=Δημιουργία, Διαγραφή
+    propedit_option_sync_mode_c_d_usr=Δημιουργία, Διαγραφή, Δημιουργία Χρηστών
+    propedit_option_sync_mode_c_u=Δημιουργία, Ενημέρωση
+    propedit_option_sync_mode_c_u_d=Δημιουργία, Ενημέρωση, Διαγραφή
+    propedit_option_sync_mode_c_u_d_usr=Δημιουργία, Ενημέρωση, Διαγραφή, Δημιουργία Χρηστών
+    propedit_option_sync_mode_c_u_usr=Δημιουργία, Ενημέρωση, Δημιουργία Χρηστών
+    propedit_option_sync_mode_c_usr=Δημιουργία, Δημιουργία Χρήστη
+    propedit_option_sync_mode_d=Διαγραφή
+    propedit_option_sync_mode_d_c=Διαγραφή, Δημιουργία
+    propedit_option_sync_mode_d_u=Διαγραφή, Ενημέρωση
+    propedit_option_sync_mode_d_u_usr=Διαγραφή, Ενημέρωση, Δημιουργία Χρηστών
+    propedit_option_sync_mode_u=Ενημέρωση
+    propedit_option_sync_mode_u_c=Ενημέρωση, Δημιουργία
+    propedit_option_sync_reader_ami=Μονή μηχανή AMI
     propedit_option_sync_reader_ami_cluster=AMI Cluster
     propedit_option_sync_reader_file=Αρχείο
     propedit_option_sync_reader_queuelog=Αρχείο καταγραφής ουράς αναμονής
@@ -2948,8 +2819,7 @@ Description of security keys:
     keydesc_agaw_rep=Ο χρήστης έχει πρόσβαση στην οθόνη επιτηρητή AGAW
     keydesc_agent=Ο χρήστης είναι agent και βλέπει τη σελίδα του agent
     keydesc_agrep=Ο χρήστης μπορεί να φιλτράρει τις αναφορές ανά agent
-    # 🔴 keydesc_autoanswer_phone -> User can toggle Auto Answer on the softphone
-    ➡️ keydesc_autoanswer_phone=Ο χρήστης μπορεί να ενεργοποιήσει ή να απενεργοποιήσει την Αυτόματη Απάντηση στο Softphone
+    keydesc_autoanswer_phone=Ο χρήστης μπορεί να ενεργοποιήσει ή να απενεργοποιήσει την Αυτόματη Απάντηση στο Softphone
     keydesc_batch_add=Μπορεί να προσθέσει κλήσεις σε μια ανοικτή παρτίδα
     keydesc_batch_adm=Δημιουργεί και κλείνει παρτίδες για την εξαγωγή ήχου
     keydesc_batch_del= Μπορεί να αφαιρέσει κλήσεις από μια παρτίδα.
@@ -2972,11 +2842,11 @@ Description of security keys:
     keydesc_closecalls=Ο χρήστης μπορεί να κλείσει τρέχουσες κλήσεις από τη σελίδα παρακολούθησης σε πραγματικό χρόνο ή τη σελίδα στατιστικών ιστορικού.
     keydesc_config=Ο χρήστης μπορεί να ξεκινήσει τον οδηγό αυτόματης παραμετροποίησης (attended and unattended mode)
     keydesc_edit_cfg=Ο χρήστης μπορεί να επεξεργαστεί το τοπικό αρχείο configuration.properties
-    # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
-    ➡️ keydesc_hidenumbers=Όλοι οι αριθμοί τηλεφώνου/ταυτότητες καλούντων είναι κρυφοί
+    keydesc_hidenumbers=Όλοι οι αριθμοί τηλεφώνου/ταυτότητες καλούντων είναι κρυφοί
     keydesc_keyupdate=Ο χρήστης μπορεί να εγκαταστήσει ένα νέο κλειδί ενεργοποίησης QueueMetrics
     keydesc_mon_audio=Ο χρήστης μπορεί να παρακολουθήσει μια κλήση σε πραγματικό χρόνο
-    keydesc_mon_=Ο χρήστης μπορεί να συνδεθεί στην κλήση σε πραγματικό χρόνο.
+    # 🔴 keydesc_mon_barge -> The user can barge-in on a real-time call
+    ➡️ keydesc_mon_barge=
     keydesc_mon_im=Ο χρήστης μπορεί να ξεκινήσει ΙΜ Chat προς ένα agent
     keydesc_mon_vnc=Ο χρήστης μπορεί να παρακολουθήσει την οθόνη ενός agent μέσω VNC
     keydesc_mon_whisper=Ο χρήστης μπορεί να επέμβει (whisper) σε μια κλήση σε πραγματικό χρόνο
@@ -3014,17 +2884,13 @@ Description of security keys:
     keydesc_user=Το κλειδί αυτό πρέπει να κατέχεται από οποιαδήποτε έγκυρο χρήστη
     keydesc_usr_agent=Ο χρήστης μπορεί να επεξεργαστεί agents
     keydesc_usr_agroups=Ο χρήστης μπορεί να επεξεργαστεί τις παραμετροποιημένες ομάδες των agent
-    # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
-    ➡️ keydesc_usr_amo_edit=Ο χρήστης μπορεί να επεξεργαστεί καμπάνιες Assisted Manual Outbound (AMO)
+    keydesc_usr_amo_edit=Ο χρήστης μπορεί να επεξεργαστεί καμπάνιες Assisted Manual Outbound (AMO)
     keydesc_usr_calltag=Ο χρήστης μπορεί να επεξεργαστεί τα tag των κλήσεων
-    # 🔴 keydesc_usr_cases_edit -> User can edit Cases
-    ➡️ keydesc_usr_cases_edit=Ο χρήστης μπορεί να επεξεργαστεί τις Υποθέσεις
+    keydesc_usr_cases_edit=Ο χρήστης μπορεί να επεξεργαστεί τις Υποθέσεις
     keydesc_usr_cbts=Ο χρήστης μπορεί να επεξεργαστεί τη λίστα των γνωστών CBT
-    # 🔴 keydesc_usr_clients_edit -> User can edit Clients
-    ➡️ keydesc_usr_clients_edit=Ο χρήστης μπορεί να επεξεργαστεί τους Πελάτες
+    keydesc_usr_clients_edit=Ο χρήστης μπορεί να επεξεργαστεί τους Πελάτες
     keydesc_usr_cronjobs_edit=Ο χρήστης μπορεί να επεξεργαστεί Προγραμματισμένες εργασίες
-    # 🔴 keydesc_usr_customblocks_edit -> User can edit Custom Data Blocks
-    ➡️ keydesc_usr_customblocks_edit=Ο χρήστης μπορεί να επεξεργαστεί τα προσαρμοσμένα DataBlocks
+    keydesc_usr_customblocks_edit=Ο χρήστης μπορεί να επεξεργαστεί τα προσαρμοσμένα DataBlocks
     keydesc_usr_diagnostics=Ο χρήστης μπορεί να εκτελέσει διαγνωστικά
     keydesc_usr_dnis=Ο χρήσης μπορεί να επεξεργαστεί τη λίστα των γνωστών DID/DNIS
     keydesc_usr_ivr=Ο χρήστης μπορεί να επεξεργαστεί τη λίστα των γνωστών επιλογών IVR
@@ -3209,8 +3075,7 @@ Description of security keys:
     phone_unregistered=Μη εγγεγραμμένος
     phone_update_settings=Ενημέρωση Ρυθμίσεων
     phone_username=Όνομα χρήστη
-    # 🔴 phone_websocketurl -> Websocket URL
-    ➡️ phone_websocketurl=Websocket URL
+    phone_websocketurl=Websocket URL
 
 ## Homepage
 
@@ -3253,8 +3118,7 @@ Description of security keys:
     home_icon_title=Εικονίδιο
     home_infobox_close=Κλείσιμο
     home_infobox_preview=Προεπισκόπηση
-    # 🔴 home_infobox_private -> Private
-    ➡️ home_infobox_private=Ιδιωτικό
+    home_infobox_private=Ιδιωτικό
     home_infobox_quicklinks=Quicklinks
     home_news_subtitle=Τελευταία νέα QueueMetrics
     home_news_title=Νέα
@@ -4350,7 +4214,8 @@ Other items
     rt_pop_agent_extension=Εσωτερικό χρήστη:
     rt_pop_agent_logon_extension=Εσωτερικό σύνδεσης χρήστη:
     rt_pop_agent_name=Όνομα χρήστη:
-    rt_pop_=Παρέμβαση (-in)  
+    # 🔴 rt_pop_barge -> Barge-in
+    ➡️ rt_pop_barge=
     rt_pop_chanspy=Κατάσκοπος (Ακρόαση μόνο)
     rt_pop_close=Κλείσιμο
     rt_pop_hangup_runbtn=Τερματισμός
@@ -4389,8 +4254,7 @@ Other items
     rt_rep_contph=CPH
     rt_rep_conversions=Μετατρ.
     rt_rep_gotoreports=Εκτέλεση αναφοράς
-    # 🔴 rt_rep_lost_attempts -> Lost Att.
-    ➡️ rt_rep_lost_attempts=Χαμένες Προσπάθειες
+    rt_rep_lost_attempts=Χαμένες Προσπάθειες
     rt_rep_nobillpause=Μη χρεώσιμη παύση
     rt_rep_offered=Προτεινόμενο
     rt_rep_pausetimes=Συν. χρόνος
@@ -4537,8 +4401,7 @@ Other items
     sync2_edit_queues=Επεξεργασία ουράς αναμονής
     sync2_error_applying_configuration=Παρουσιάστηκε σφάλμα κατά την εφαρμογή των νέων ρυθμίσεων
     sync2_error_comparing_configuration=Σφάλμα σύγκρισης ρυθμίσεων
-    # 🔴 sync2_error_invalid_input -> The JSON configuration that was imported is a valid JSON file, but one or more data fields are of the wrong data type. Please check the configuration file.
-    ➡️ sync2_error_invalid_input=Η διαμόρφωση JSON που εισήχθη είναι ένα έγκυρο αρχείο JSON, αλλά ένα ή περισσότερα πεδία δεδομένων είναι λανθασμένου τύπου δεδομένων. Ελέγξτε το αρχείο διαμόρφωσης.
+    sync2_error_invalid_input=Η διαμόρφωση JSON που εισήχθη είναι ένα έγκυρο αρχείο JSON, αλλά ένα ή περισσότερα πεδία δεδομένων είναι λανθασμένου τύπου δεδομένων. Ελέγξτε το αρχείο διαμόρφωσης.
     sync2_error_read_configuration=Η επιλεγμένη πηγή δεν παρέχει έγκυρες ρυθμίσεις.
     sync2_expand=Επέκταση
     sync2_export=Εξαγωγή ρυθμίσεων

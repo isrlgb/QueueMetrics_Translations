@@ -2168,6 +2168,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_table=Tabelle
     rt3_category_various=Verschiedene
     rt3_change_queue_confirm=Sie haben nicht gespeicherte Änderungen, die verloren gehen, wenn Sie die Warteschlange wechseln. Bestätigen Sie?
+    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    ➡️ rt3_exit_confirm=
     rt3_choose_action=Aktion wählen
     rt3_choose_monitor_mode=Überwachungsmodus
     rt3_choose_queue=Wählen Sie Warteschlange

@@ -2383,6 +2383,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_various=Çeşitli
     # 🔴 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
     ➡️ rt3_change_queue_confirm=
+    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    ➡️ rt3_exit_confirm=
     rt3_choose_action=Eylem Seç
     rt3_choose_monitor_mode=Devam eden çağrı izlemeyi başlatmak için lütfen yerel veya uzak dahilinizi girin.
     rt3_choose_queue=Havuz Seç

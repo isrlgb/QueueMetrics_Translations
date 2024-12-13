@@ -2408,6 +2408,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_various=Vários
     # 👽 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
     rt3_change_queue_confirm=?Você tem alterações não salvas que serão perdidas se você alterar a fila. Confirma?
+    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    ➡️ rt3_exit_confirm=
     rt3_choose_action=Escolher Ação
     rt3_choose_monitor_mode=Modo de monitorização
     rt3_choose_queue=Escolher Queue

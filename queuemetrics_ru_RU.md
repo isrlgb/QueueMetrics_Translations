@@ -2298,6 +2298,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_table=Таблицы
     rt3_category_various=Различные
     rt3_change_queue_confirm=Есть несохраненные изменения, которые будут потеряны при смене очереди. Подтвердить?
+    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    ➡️ rt3_exit_confirm=
     rt3_choose_action=Выбрать действие
     rt3_choose_monitor_mode=Режим мониторинга
     rt3_choose_queue=Выбрать очередь

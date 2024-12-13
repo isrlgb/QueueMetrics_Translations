@@ -3605,6 +3605,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_various=?Varios
     # 👽 rt3_change_queue_confirm -> You have unsaved changes that will be lost if you change queue. Confirm?
     rt3_change_queue_confirm=?Hay cambios no guardados que se perderán al cambiar de cola. ¿Proceder?
+    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    ➡️ rt3_exit_confirm=
     # 👽 rt3_choose_action -> Choose Action
     rt3_choose_action=?Seleccionar Acción
     # 👽 rt3_choose_monitor_mode -> Monitoring Mode
