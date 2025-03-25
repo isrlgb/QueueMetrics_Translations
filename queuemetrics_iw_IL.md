@@ -24,13 +24,9 @@ Do not change the items below:
 ## Data decoders
 
 td_agawlogon_logged_off=מנותק
-
 td_agawlogon_logged_on=מחובר
-
 td_agawlogon_paused=בהפסקה
-
 td_agawlogon_unknown=לא ידוע
-
 # 🔴 td_agawstat_current -> Current
 ➡️ td_agawstat_current=נוכחי
 # 🔴 td_agawstat_inserting -> Inserting
@@ -48,18 +44,12 @@ td_agawlogon_unknown=לא ידוע
 # 🔴 td_aglev_wrap -> Wrap
 ➡️ td_aglev_wrap=השהייה
 td_agstatus_agent_is_currently_logged_off=הנציג מנותק כרגע
-
 td_agstatus_agent_is_currently_logged_on=הנציג מחובר כרגע
-
 td_agstatus_agent_is_currently_logged_on_some_queues=הנציג מחובר בחלק מהתורים
-
 td_agstatus_agent_is_currently_paused=הנציג בהפסקה
-
 td_agstatus_agent_status_cannot_be_determined=לא ניתן לקבוע את סטטוס הנציג
-
 td_ancod_agent_availability_for_all_the_queues=זמינות הנציג בכל התורים
-
- # 🔴 td_ancod_agent_sessions_detail -> Agent sessions: Detail
+# 🔴 td_ancod_agent_sessions_detail -> Agent sessions: Detail
 ➡️ td_ancod_agent_sessions_detail=הפעלות נציג: פירוט
 # 🔴 td_ancod_answered_calls_agents_on_queue -> Answered calls: Agents on queue
 ➡️ td_ancod_answered_calls_agents_on_queue=שיחות שנענו: נציגים בתור
@@ -87,21 +77,13 @@ td_ancod_agent_availability_for_all_the_queues=זמינות הנציג בכל ה
 ➡️ td_autoconf_wz_agentname=שם מלא
 # 🔴 td_autoconf_wz_agentpwd -> Password
 ➡️ td_autoconf_wz_agentpwd=סיסמה
-
 td_autoconf_wz_agents=נציגים
-
 td_autoconf_wz_queuename=שם התור
-
 td_autoconf_wz_queues=תורים
-
 td_autoconf_wz_queuewrapup=זמן השהייה
-
 td_autoconf_wz_servername=שרת
-
 td_autoconf_wz_start=התחלה
-
 td_autoconf_wz_summary=סיכום
-
 # 🔴 td_autoconf_wz_summary_id -> Id
 ➡️ td_autoconf_wz_summary_id=מזהה
 td_autoconf_wz_summary_name=שם מלא
@@ -125,8 +107,7 @@ td_calloutc_unknown=לא ידוע
 ➡️ td_callstatus_html_transferred=<font color='red'>הועברה</font>
 # 🔴 td_callstatus_in_conversation -> In conversation
 ➡️ td_callstatus_in_conversation=בשיחה
-
-   # 🔴 td_callstatus_terminated -> Terminated
+# 🔴 td_callstatus_terminated -> Terminated
 ➡️ td_callstatus_terminated=הסתיימה
 # 🔴 td_callstatus_transferred -> Transferred
 ➡️ td_callstatus_transferred=הועברה
@@ -156,7 +137,6 @@ td_calloutc_unknown=לא ידוע
 ➡️ td_cko_timeout_voicemail=תם זמן (דואר קולי)
 # 🔴 td_cko_unanswered_yet -> Unanswered yet
 ➡️ td_cko_unanswered_yet=טרם נענתה
-
 # 🔴 td_cok_agent -> Agent
 ➡️ td_cok_agent=נציג
 # 🔴 td_cok_agent_disconnected -> Agent Disconnected
@@ -187,8 +167,7 @@ td_calloutc_unknown=לא ידוע
 ➡️ td_dbtest_wz_backup=גיבוי
 # 🔴 td_dbtest_wz_end -> Ready
 ➡️ td_dbtest_wz_end=מוכן
-
-   # 🔴 td_dbtest_wz_operationname -> Operation Performed
+# 🔴 td_dbtest_wz_operationname -> Operation Performed
 ➡️ td_dbtest_wz_operationname=הפעולה שבוצעה
 # 🔴 td_dbtest_wz_operationtime -> Time (ms)
 ➡️ td_dbtest_wz_operationtime=זמן (מ״ש)
@@ -218,7 +197,6 @@ td_calloutc_unknown=לא ידוע
 ➡️ td_dm_friday=שישי
 # 🔴 td_dm_friday_short -> Fri
 ➡️ td_dm_friday_short=ו׳
-
 # 🔴 td_dm_january -> January
 ➡️ td_dm_january=ינואר
 # 🔴 td_dm_july -> July
@@ -249,7 +227,6 @@ td_calloutc_unknown=לא ידוע
 ➡️ td_dm_sunday_short=א׳
 # 🔴 td_dm_thursday -> Thursday
 ➡️ td_dm_thursday=חמישי
-
 # 🔴 td_dm_thursday_short -> Thu
 ➡️ td_dm_thursday_short=ה׳
 # 🔴 td_dm_tuesday -> Tuesday
@@ -280,7 +257,6 @@ td_calloutc_unknown=לא ידוע
 ➡️ td_nodupnum_allow_duplicate_numbers=אפשר מספרים כפולים
 # 🔴 td_nodupnum_no_duplicate_numbers -> No duplicate numbers
 ➡️ td_nodupnum_no_duplicate_numbers=ללא מספרים כפולים
-
 # 🔴 td_oh_+10_hours -> +10 hours
 ➡️ td_oh_+10_hours=+10 שעות
 # 🔴 td_oh_+11_hours -> +11 hours
@@ -311,7 +287,6 @@ td_calloutc_unknown=לא ידוע
 ➡️ td_oh_+22_hours=+22 שעות
 # 🔴 td_oh_+23_hours -> +23 hours
 ➡️ td_oh_+23_hours=+23 שעות
-
 # 🔴 td_oh_+24_hours -> +24 hours
 ➡️ td_oh_+24_hours=+24 שעות
 # 🔴 td_oh_+2_hours -> +2 hours
@@ -342,7 +317,6 @@ td_calloutc_unknown=לא ידוע
 ➡️ td_oh_-14_hours=-14 שעות
 # 🔴 td_oh_-15_hours -> -15 hours
 ➡️ td_oh_-15_hours=-15 שעות
-
 # 🔴 td_oh_-16_hours -> -16 hours
 ➡️ td_oh_-16_hours=-16 שעות
 # 🔴 td_oh_-17_hours -> -17 hours
@@ -373,7 +347,6 @@ td_calloutc_unknown=לא ידוע
 ➡️ td_oh_-5_hours=-5 שעות
 # 🔴 td_oh_-6_hours -> -6 hours
 ➡️ td_oh_-6_hours=-6 שעות
-
 # 🔴 td_oh_-7_hours -> -7 hours
 ➡️ td_oh_-7_hours=-7 שעות
 # 🔴 td_oh_-8_hours -> -8 hours
@@ -404,12 +377,10 @@ td_qdir_undefined=לא מוגדר
 ➡️ td_synchronier_configuration=תצורה
 # 🔴 td_synchronizer_actions -> Actions
 ➡️ td_synchronizer_actions=פעולות
-
 # 🔴 td_synchronizer_result -> Result
 ➡️ td_synchronizer_result=תוצאה
 td_yesno_no=לא
 td_yesno_yes=כן
-
 ## AOUT
 
 
