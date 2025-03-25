@@ -3829,150 +3829,150 @@ Used for data blocks Overview by Agent/Queue
 
 ## Front page
 
-    # 🔴 fp_agent_awareness -> Agent Awareness manager
-    ➡️ fp_agent_awareness=
-    # 🔴 fp_agent_inbound -> Inbound calls
-    ➡️ fp_agent_inbound=
-    # 🔴 fp_agent_showinbound -> Show inbound calls for agent
-    ➡️ fp_agent_showinbound=
-    # 🔴 fp_agentquickactivity -> Quick reports including current day
-    ➡️ fp_agentquickactivity=
-    # 🔴 fp_agentreport -> Agent report
-    ➡️ fp_agentreport=
-    # 🔴 fp_before_yesterday -> The day before yesterday
-    ➡️ fp_before_yesterday=
-    # 🔴 fp_callftr_edit -> Call Features
-    ➡️ fp_callftr_edit=
-    # 🔴 fp_calltag_edit -> Call Tags
-    ➡️ fp_calltag_edit=
-    # 🔴 fp_cbts_edit -> CBTs
-    ➡️ fp_cbts_edit=
-    # 🔴 fp_configuration_synchronizer -> Configuration Synchronizer
-    ➡️ fp_configuration_synchronizer=
-    # 🔴 fp_customreport -> Custom report
-    ➡️ fp_customreport=
-    # 🔴 fp_dataload_asterisk -> (Load Data from the PBX)
-    ➡️ fp_dataload_asterisk=
-    # 🔴 fp_day -> Day
-    ➡️ fp_day=
-    # 🔴 fp_days -> Days
-    ➡️ fp_days=
-    # 🔴 fp_dbtest -> System diagnostic tools
-    ➡️ fp_dbtest=
-    # 🔴 fp_dnis_edit -> DID/DNIS Lines
-    ➡️ fp_dnis_edit=
-    # 🔴 fp_edit_admtools -> Administrative Tools
-    ➡️ fp_edit_admtools=
-    # 🔴 fp_edit_agents -> Agents
-    ➡️ fp_edit_agents=
-    # 🔴 fp_edit_configprops -> Edit system parameters.
-    ➡️ fp_edit_configprops=
-    # 🔴 fp_edit_configprops_wizard -> Explore system parameters
-    ➡️ fp_edit_configprops_wizard=
-    # 🔴 fp_edit_cronjobs -> Scheduled Jobs
-    ➡️ fp_edit_cronjobs=
-    # 🔴 fp_edit_exports -> Report Export Jobs
-    ➡️ fp_edit_exports=
-    # 🔴 fp_edit_groups -> Agent Groups
-    ➡️ fp_edit_groups=
-    # 🔴 fp_edit_jobs -> Jobs Settings
-    ➡️ fp_edit_jobs=
-    # 🔴 fp_edit_locations -> Locations
-    ➡️ fp_edit_locations=
-    # 🔴 fp_edit_pause_codes -> Pause Codes
-    ➡️ fp_edit_pause_codes=
-    # 🔴 fp_edit_qmsettings -> Settings
-    ➡️ fp_edit_qmsettings=
-    # 🔴 fp_edit_queues -> Queues
-    ➡️ fp_edit_queues=
-    # 🔴 fp_edit_reports -> Reports
-    ➡️ fp_edit_reports=
-    # 🔴 fp_edit_users -> Users
-    ➡️ fp_edit_users=
-    # 🔴 fp_filteredforagent -> Filtered for agent
-    ➡️ fp_filteredforagent=
-    # 🔴 fp_filteredforlocation -> Filtered for location
-    ➡️ fp_filteredforlocation=
-    # 🔴 fp_filteredforsupervised -> My supervised agents
-    ➡️ fp_filteredforsupervised=
-    # 🔴 fp_import_export_calls -> Import/Export calls
-    ➡️ fp_import_export_calls=
-    # 🔴 fp_ivr_edit -> Ivr Selections
-    ➡️ fp_ivr_edit=
-    # 🔴 fp_known_numbers_edit -> Known Numbers
-    ➡️ fp_known_numbers_edit=
-    # 🔴 fp_last -> Last
-    ➡️ fp_last=
-    # 🔴 fp_last_30 -> Last 30 days
-    ➡️ fp_last_30=
-    # 🔴 fp_last_7 -> Last 7 days
-    ➡️ fp_last_7=
-    # 🔴 fp_last_90 -> Last 90 days
-    ➡️ fp_last_90=
-    # 🔴 fp_lastday -> Last day
-    ➡️ fp_lastday=
-    # 🔴 fp_licenceinfo -> Show licence information
-    ➡️ fp_licenceinfo=
-    # 🔴 fp_mysql_storageinfo -> Mysql storage information
-    ➡️ fp_mysql_storageinfo=
-    # 🔴 fp_news -> QueueMetrics news
-    ➡️ fp_news=
-    # 🔴 fp_outcome_edit -> Call Outcomes
-    ➡️ fp_outcome_edit=
-    # 🔴 fp_payroll -> Payroll
-    ➡️ fp_payroll=
-    # 🔴 fp_qa_edit -> QA Forms
-    ➡️ fp_qa_edit=
-    # 🔴 fp_qa_grader_page -> Grader's page
-    ➡️ fp_qa_grader_page=
-    # 🔴 fp_qa_perftrack_page -> Performance Tracker
-    ➡️ fp_qa_perftrack_page=
-    # 🔴 fp_qa_perftrack_rule_edit -> QA Performance Tracker
-    ➡️ fp_qa_perftrack_rule_edit=
-    # 🔴 fp_qa_runqa -> Run QA Reports
-    ➡️ fp_qa_runqa=
-    # 🔴 fp_qa_title -> Quality Assessment
-    ➡️ fp_qa_title=
-    # 🔴 fp_qa_traincoach_page -> Training and Coaching
-    ➡️ fp_qa_traincoach_page=
-    # 🔴 fp_queue -> Queue
-    ➡️ fp_queue=
-    # 🔴 fp_quickactivity -> Quick activity reports
-    ➡️ fp_quickactivity=
-    # 🔴 fp_realtime -> Start realtime monitoring
-    ➡️ fp_realtime=
-    # 🔴 fp_realtimereport -> Real-time report
-    ➡️ fp_realtimereport=
-    # 🔴 fp_report -> Report
-    ➡️ fp_report=
-    # 🔴 fp_runcust -> Run custom report
-    ➡️ fp_runcust=
-    # 🔴 fp_setup_wizard -> Setup Wizard
-    ➡️ fp_setup_wizard=
-    # 🔴 fp_skills_edit -> Agents Skills
-    ➡️ fp_skills_edit=
-    # 🔴 fp_squery_report -> Saved report queries
-    ➡️ fp_squery_report=
-    # 🔴 fp_squery_rt -> Saved real-time queries
-    ➡️ fp_squery_rt=
-    # 🔴 fp_squery_wallboards -> Wallboards
-    ➡️ fp_squery_wallboards=
-    # 🔴 fp_supervision -> Supervision
-    ➡️ fp_supervision=
-    # 🔴 fp_title -> Home Page
-    ➡️ fp_title=
-    # 🔴 fp_today -> Today
-    ➡️ fp_today=
-    # 🔴 fp_view_auditlog -> View audit log
-    ➡️ fp_view_auditlog=
-    # 🔴 fp_visitorcmd -> Show current system activity
-    ➡️ fp_visitorcmd=
-    # 🔴 fp_visitortitle -> Remote monitoring
-    ➡️ fp_visitortitle=
-    # 🔴 fp_wallboard -> Start wallboard
-    ➡️ fp_wallboard=
-    # 🔴 fp_yesterday -> Yesterday
-    ➡️ fp_yesterday=
+# 🔴 fp_agent_awareness -> Agent Awareness manager
+➡️ fp_agent_awareness=מנהל מודעות נציגים
+# 🔴 fp_agent_inbound -> Inbound calls
+➡️ fp_agent_inbound=שיחות נכנסות
+# 🔴 fp_agent_showinbound -> Show inbound calls for agent
+➡️ fp_agent_showinbound=הצג שיחות נכנסות לנציג
+# 🔴 fp_agentquickactivity -> Quick reports including current day
+➡️ fp_agentquickactivity=דוחות מהירים כולל היום הנוכחי
+# 🔴 fp_agentreport -> Agent report
+➡️ fp_agentreport=דוח נציג
+# 🔴 fp_before_yesterday -> The day before yesterday
+➡️ fp_before_yesterday=שלשום
+# 🔴 fp_callftr_edit -> Call Features
+➡️ fp_callftr_edit=תכונות שיחה
+# 🔴 fp_calltag_edit -> Call Tags
+➡️ fp_calltag_edit=תגיות שיחה
+# 🔴 fp_cbts_edit -> CBTs
+➡️ fp_cbts_edit=CBTs
+# 🔴 fp_configuration_synchronizer -> Configuration Synchronizer
+➡️ fp_configuration_synchronizer=מסנכרן תצורה
+# 🔴 fp_customreport -> Custom report
+➡️ fp_customreport=דוח מותאם אישית
+# 🔴 fp_dataload_asterisk -> (Load Data from the PBX)
+➡️ fp_dataload_asterisk=טעינת נתונים מהמרכזייה
+# 🔴 fp_day -> Day
+➡️ fp_day=יום
+# 🔴 fp_days -> Days
+➡️ fp_days=ימים
+# 🔴 fp_dbtest -> System diagnostic tools
+➡️ fp_dbtest=כלי אבחון מערכת
+# 🔴 fp_dnis_edit -> DID/DNIS Lines
+➡️ fp_dnis_edit=קווי DID/DNIS
+# 🔴 fp_edit_admtools -> Administrative Tools
+➡️ fp_edit_admtools=כלי ניהול
+# 🔴 fp_edit_agents -> Agents
+➡️ fp_edit_agents=נציגים
+# 🔴 fp_edit_configprops -> Edit system parameters.
+➡️ fp_edit_configprops=עריכת פרמטרי מערכת
+# 🔴 fp_edit_configprops_wizard -> Explore system parameters
+➡️ fp_edit_configprops_wizard=חקירת פרמטרי מערכת
+# 🔴 fp_edit_cronjobs -> Scheduled Jobs
+➡️ fp_edit_cronjobs=משימות מתוזמנות
+# 🔴 fp_edit_exports -> Report Export Jobs
+➡️ fp_edit_exports=משימות ייצוא דוחות
+# 🔴 fp_edit_groups -> Agent Groups
+➡️ fp_edit_groups=קבוצות נציגים
+# 🔴 fp_edit_jobs -> Jobs Settings
+➡️ fp_edit_jobs=הגדרות משימות
+# 🔴 fp_edit_locations -> Locations
+➡️ fp_edit_locations=מיקומים
+# 🔴 fp_edit_pause_codes -> Pause Codes
+➡️ fp_edit_pause_codes=קודי הפסקה
+# 🔴 fp_edit_qmsettings -> Settings
+➡️ fp_edit_qmsettings=הגדרות
+# 🔴 fp_edit_queues -> Queues
+➡️ fp_edit_queues=תורים
+# 🔴 fp_edit_reports -> Reports
+➡️ fp_edit_reports=דוחות
+# 🔴 fp_edit_users -> Users
+➡️ fp_edit_users=משתמשים
+# 🔴 fp_filteredforagent -> Filtered for agent
+➡️ fp_filteredforagent=מסונן עבור נציג
+# 🔴 fp_filteredforlocation -> Filtered for location
+➡️ fp_filteredforlocation=מסונן עבור מיקום
+# 🔴 fp_filteredforsupervised -> My supervised agents
+➡️ fp_filteredforsupervised=הנציגים תחת פיקוחי
+# 🔴 fp_import_export_calls -> Import/Export calls
+➡️ fp_import_export_calls=ייבוא/ייצוא שיחות
+# 🔴 fp_ivr_edit -> Ivr Selections
+➡️ fp_ivr_edit=עריכת בחירות IVR
+# 🔴 fp_known_numbers_edit -> Known Numbers
+➡️ fp_known_numbers_edit=מספרים מוכרים
+# 🔴 fp_last -> Last
+➡️ fp_last=אחרון
+# 🔴 fp_last_30 -> Last 30 days
+➡️ fp_last_30=30 הימים האחרונים
+# 🔴 fp_last_7 -> Last 7 days
+➡️ fp_last_7=7 הימים האחרונים
+# 🔴 fp_last_90 -> Last 90 days
+➡️ fp_last_90=90 הימים האחרונים
+# 🔴 fp_lastday -> Last day
+➡️ fp_lastday=היום האחרון
+# 🔴 fp_licenceinfo -> Show licence information
+➡️ fp_licenceinfo=הצגת מידע רישיון
+# 🔴 fp_mysql_storageinfo -> Mysql storage information
+➡️ fp_mysql_storageinfo=מידע אחסון MySQL
+# 🔴 fp_news -> QueueMetrics news
+➡️ fp_news=חדשות QueueMetrics
+# 🔴 fp_outcome_edit -> Call Outcomes
+➡️ fp_outcome_edit=תוצאות שיחה
+# 🔴 fp_payroll -> Payroll
+➡️ fp_payroll=שכר
+# 🔴 fp_qa_edit -> QA Forms
+➡️ fp_qa_edit=טפסי בקרת איכות
+# 🔴 fp_qa_grader_page -> Grader's page
+➡️ fp_qa_grader_page=עמוד מדרג
+# 🔴 fp_qa_perftrack_page -> Performance Tracker
+➡️ fp_qa_perftrack_page=מעקב ביצועים
+# 🔴 fp_qa_perftrack_rule_edit -> QA Performance Tracker
+➡️ fp_qa_perftrack_rule_edit=עריכת מעקב ביצועי איכות
+# 🔴 fp_qa_runqa -> Run QA Reports
+➡️ fp_qa_runqa=הפעלת דוחות בקרת איכות
+# 🔴 fp_qa_title -> Quality Assessment
+➡️ fp_qa_title=הערכת איכות
+# 🔴 fp_qa_traincoach_page -> Training and Coaching
+➡️ fp_qa_traincoach_page=אימון והדרכה
+# 🔴 fp_queue -> Queue
+➡️ fp_queue=תור
+# 🔴 fp_quickactivity -> Quick activity reports
+➡️ fp_quickactivity=דוחות פעילות מהירים
+# 🔴 fp_realtime -> Start realtime monitoring
+➡️ fp_realtime=הפעל ניטור בזמן אמת
+# 🔴 fp_realtimereport -> Real-time report
+➡️ fp_realtimereport=דוח בזמן אמת
+# 🔴 fp_report -> Report
+➡️ fp_report=דוח
+# 🔴 fp_runcust -> Run custom report
+➡️ fp_runcust=הפעלת דוח מותאם אישית
+# 🔴 fp_setup_wizard -> Setup Wizard
+➡️ fp_setup_wizard=אשף התקנה
+# 🔴 fp_skills_edit -> Agents Skills
+➡️ fp_skills_edit=מיומנויות נציגים
+# 🔴 fp_squery_report -> Saved report queries
+➡️ fp_squery_report=שאילתות דוחות שמורות
+# 🔴 fp_squery_rt -> Saved real-time queries
+➡️ fp_squery_rt=שאילתות זמן אמת שמורות
+# 🔴 fp_squery_wallboards -> Wallboards
+➡️ fp_squery_wallboards=לוחות תצוגה
+# 🔴 fp_supervision -> Supervision
+➡️ fp_supervision=פיקוח
+# 🔴 fp_title -> Home Page
+➡️ fp_title=עמוד הבית
+# 🔴 fp_today -> Today
+➡️ fp_today=היום
+# 🔴 fp_view_auditlog -> View audit log
+➡️ fp_view_auditlog=צפייה ביומן ביקורת
+# 🔴 fp_visitorcmd -> Show current system activity
+➡️ fp_visitorcmd=הצג פעילות מערכת נוכחית
+# 🔴 fp_visitortitle -> Remote monitoring
+➡️ fp_visitortitle=ניטור מרוחק
+# 🔴 fp_wallboard -> Start wallboard
+➡️ fp_wallboard=הפעל לוח תצוגה
+# 🔴 fp_yesterday -> Yesterday
+➡️ fp_yesterday=אתמול
 
 ## Editor of configuration properties
 
