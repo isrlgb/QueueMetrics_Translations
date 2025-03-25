@@ -24,9 +24,13 @@ Do not change the items below:
 ## Data decoders
 
 td_agawlogon_logged_off=מנותק
+
 td_agawlogon_logged_on=מחובר
+
 td_agawlogon_paused=בהפסקה
+
 td_agawlogon_unknown=לא ידוע
+
 # 🔴 td_agawstat_current -> Current
 ➡️ td_agawstat_current=נוכחי
 # 🔴 td_agawstat_inserting -> Inserting
@@ -44,11 +48,17 @@ td_agawlogon_unknown=לא ידוע
 # 🔴 td_aglev_wrap -> Wrap
 ➡️ td_aglev_wrap=השהייה
 td_agstatus_agent_is_currently_logged_off=הנציג מנותק כרגע
+
 td_agstatus_agent_is_currently_logged_on=הנציג מחובר כרגע
+
 td_agstatus_agent_is_currently_logged_on_some_queues=הנציג מחובר בחלק מהתורים
+
 td_agstatus_agent_is_currently_paused=הנציג בהפסקה
+
 td_agstatus_agent_status_cannot_be_determined=לא ניתן לקבוע את סטטוס הנציג
+
 td_ancod_agent_availability_for_all_the_queues=זמינות הנציג בכל התורים
+
  # 🔴 td_ancod_agent_sessions_detail -> Agent sessions: Detail
 ➡️ td_ancod_agent_sessions_detail=הפעלות נציג: פירוט
 # 🔴 td_ancod_answered_calls_agents_on_queue -> Answered calls: Agents on queue
@@ -77,13 +87,21 @@ td_ancod_agent_availability_for_all_the_queues=זמינות הנציג בכל ה
 ➡️ td_autoconf_wz_agentname=שם מלא
 # 🔴 td_autoconf_wz_agentpwd -> Password
 ➡️ td_autoconf_wz_agentpwd=סיסמה
+
 td_autoconf_wz_agents=נציגים
+
 td_autoconf_wz_queuename=שם התור
+
 td_autoconf_wz_queues=תורים
+
 td_autoconf_wz_queuewrapup=זמן השהייה
+
 td_autoconf_wz_servername=שרת
+
 td_autoconf_wz_start=התחלה
+
 td_autoconf_wz_summary=סיכום
+
 # 🔴 td_autoconf_wz_summary_id -> Id
 ➡️ td_autoconf_wz_summary_id=מזהה
 td_autoconf_wz_summary_name=שם מלא
