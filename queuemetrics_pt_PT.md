@@ -2957,7 +2957,7 @@ Description of configuration properties
     propedit_key_hangup_src=?Tom de ocupado do Softphone (URL)
     # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
     ➡️ propedit_key_hiddennumberpolicy=
-    # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Should be resized to 200 x 72.
+    # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     propedit_key_layout_logo_desc=?Logo de sua empresa (caminho completo ou relativo). Se recomenda alterar o tamanho para 200 x 72 pixels.
     propedit_key_noans_timeout=Tempo (em segundos) após o qual uma chamada é rejeitada se não for atendida. O valor por defeito é 60
     propedit_key_phone_iceservers=Lista de Servidores ICE a usar. 

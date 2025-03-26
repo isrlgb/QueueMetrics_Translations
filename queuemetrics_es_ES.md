@@ -4531,7 +4531,7 @@ Description of configuration properties
     propedit_key_hangup_src=?Tono de colgado de softphone (URL)
     # 👽 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
     propedit_key_hiddennumberpolicy=?Política para ocultar números
-    # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Should be resized to 200 x 72.
+    # 👽 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     propedit_key_layout_logo_desc=?Su logo (ruta absoluta o relativa). Se recomienda cambiar el tamaño del logotipo a 200 x 72.
     # 👽 propedit_key_noans_timeout -> Time (in seconds) after which an incoming call is rejected if not answered. Default value is 60.
     propedit_key_noans_timeout=?Tiempo (en segundos) luego del cual una llamada entrante viene rechazada si no contestada. El valor por defecto es 60.

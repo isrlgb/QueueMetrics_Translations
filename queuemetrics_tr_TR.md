@@ -2919,7 +2919,7 @@ Description of configuration properties
     ➡️ propedit_key_hangup_src=
     # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
     ➡️ propedit_key_hiddennumberpolicy=
-    # 🔴 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Should be resized to 200 x 72.
+    # 🔴 propedit_key_layout_logo_desc -> Your company logo (full or relative path). Maximum size of 200 x 40 px, preferred size is 150 x 40 px
     ➡️ propedit_key_layout_logo_desc=
     propedit_key_noans_timeout=Yanıtlanmadıysa, gelen bir çağrının reddedildiği süre (saniye olarak). Varsayılan değer 60'tır.
     propedit_key_phone_iceservers=Kullanılacak ICE Sunucularının listesi.
