@@ -23,14 +23,14 @@ Do not change the items below:
 
 ## Data decoders
 
-    # 🔴 td_agawlogon_logged_off -> Logged off
-    ➡️ td_agawlogon_logged_off=
-    # 🔴 td_agawlogon_logged_on -> Logged on
-    ➡️ td_agawlogon_logged_on=
-    # 🔴 td_agawlogon_paused -> Paused
-    ➡️ td_agawlogon_paused=
-    # 🔴 td_agawlogon_unknown -> Unknown
-    ➡️ td_agawlogon_unknown=
+# 🔴 td_agawlogon_logged_off -> Logged off
+➡️ td_agawlogon_logged_off=מנותק
+# 🔴 td_agawlogon_logged_on -> Logged on
+➡️ td_agawlogon_logged_on=מחובר
+# 🔴 td_agawlogon_paused -> Paused
+➡️ td_agawlogon_paused=בהפסקה
+# 🔴 td_agawlogon_unknown -> Unknown
+➡️ td_agawlogon_unknown=לא ידוע
     td_agawstat_current=נוכחי
     td_agawstat_inserting=בהכנסה
     td_agawstat_obsolete=מיושן
@@ -39,18 +39,18 @@ Do not change the items below:
     td_aglev_spill=עודף
     td_aglev_undefined=<font color='red'>לא מוגדר</font>
     td_aglev_wrap=השהייה
-    # 🔴 td_agstatus_agent_is_currently_logged_off -> Agent is currently logged off
-    ➡️ td_agstatus_agent_is_currently_logged_off=
-    # 🔴 td_agstatus_agent_is_currently_logged_on -> Agent is currently logged on
-    ➡️ td_agstatus_agent_is_currently_logged_on=
-    # 🔴 td_agstatus_agent_is_currently_logged_on_some_queues -> Agent is currently logged on queues
-    ➡️ td_agstatus_agent_is_currently_logged_on_some_queues=
-    # 🔴 td_agstatus_agent_is_currently_paused -> Agent is currently paused
-    ➡️ td_agstatus_agent_is_currently_paused=
-    # 🔴 td_agstatus_agent_status_cannot_be_determined -> Agent status cannot be determined
-    ➡️ td_agstatus_agent_status_cannot_be_determined=
-    # 🔴 td_ancod_agent_availability_for_all_the_queues -> Agent availability (for all the queues)
-    ➡️ td_ancod_agent_availability_for_all_the_queues=
+# 🔴 td_agstatus_agent_is_currently_logged_off -> Agent is currently logged off
+➡️ td_agstatus_agent_is_currently_logged_off=הנציג מנותק כרגע
+# 🔴 td_agstatus_agent_is_currently_logged_on -> Agent is currently logged on
+➡️ td_agstatus_agent_is_currently_logged_on=הנציג מחובר כרגע
+# 🔴 td_agstatus_agent_is_currently_logged_on_some_queues -> Agent is currently logged on queues
+➡️ td_agstatus_agent_is_currently_logged_on_some_queues=הנציג מחובר בחלק מהתורים
+# 🔴 td_agstatus_agent_is_currently_paused -> Agent is currently paused
+➡️ td_agstatus_agent_is_currently_paused=הנציג בהפסקה כרגע
+# 🔴 td_agstatus_agent_status_cannot_be_determined -> Agent status cannot be determined
+➡️ td_agstatus_agent_status_cannot_be_determined=לא ניתן לקבוע את סטטוס הנציג
+# 🔴 td_ancod_agent_availability_for_all_the_queues -> Agent availability (for all the queues)
+➡️ td_ancod_agent_availability_for_all_the_queues=זמינות הנציג (בכל התורים)
     td_ancod_agent_sessions_detail=הפעלות נציג: פירוט
     td_ancod_answered_calls_agents_on_queue=שיחות שנענו: נציגים בתור
     td_ancod_answered_calls_details=שיחות שנענו: פרטים
@@ -65,44 +65,44 @@ Do not change the items below:
     td_autoconf_wz_agentcode=קוד נציג
     td_autoconf_wz_agentname=שם מלא
     td_autoconf_wz_agentpwd=סיסמה
-    # 🔴 td_autoconf_wz_agents -> Agents
-    ➡️ td_autoconf_wz_agents=
-    # 🔴 td_autoconf_wz_queuename -> Queue name
-    ➡️ td_autoconf_wz_queuename=
-    # 🔴 td_autoconf_wz_queues -> Queues
-    ➡️ td_autoconf_wz_queues=
-    # 🔴 td_autoconf_wz_queuewrapup -> Wrap-up time
-    ➡️ td_autoconf_wz_queuewrapup=
-    # 🔴 td_autoconf_wz_servername -> Server
-    ➡️ td_autoconf_wz_servername=
-    # 🔴 td_autoconf_wz_start -> Source
-    ➡️ td_autoconf_wz_start=
-    # 🔴 td_autoconf_wz_summary -> Summary
-    ➡️ td_autoconf_wz_summary=
-    td_autoconf_wz_summary_id=מזהה
-    # 🔴 td_autoconf_wz_summary_name -> Full name
-    ➡️ td_autoconf_wz_summary_name=
-    # 🔴 td_autoconf_wz_summary_operation -> Operation type
-    ➡️ td_autoconf_wz_summary_operation=
-    # 🔴 td_autoconf_wz_summary_opresult -> Operation result
-    ➡️ td_autoconf_wz_summary_opresult=
-    # 🔴 td_autoconf_wz_summary_type -> Type
-    ➡️ td_autoconf_wz_summary_type=
-    # 🔴 td_autoconf_wz_users -> Users
-    ➡️ td_autoconf_wz_users=
-    td_calloutc_?=לא ידוע
-    # 🔴 td_calloutc_contact -> Contact
-    ➡️ td_calloutc_contact=
-    # 🔴 td_calloutc_known -> Known
-    ➡️ td_calloutc_known=
-    # 🔴 td_calloutc_none -> None
-    ➡️ td_calloutc_none=
-    # 🔴 td_calloutc_qualif -> Qualif.
-    ➡️ td_calloutc_qualif=
-    # 🔴 td_calloutc_sale -> Sale
-    ➡️ td_calloutc_sale=
-    # 🔴 td_calloutc_unknown -> Unknown
-    ➡️ td_calloutc_unknown=
+  # 🔴 td_autoconf_wz_agents -> Agents
+➡️ td_autoconf_wz_agents=נציגים
+# 🔴 td_autoconf_wz_queuename -> Queue name
+➡️ td_autoconf_wz_queuename=שם התור
+# 🔴 td_autoconf_wz_queues -> Queues
+➡️ td_autoconf_wz_queues=תורים
+# 🔴 td_autoconf_wz_queuewrapup -> Wrap-up time
+➡️ td_autoconf_wz_queuewrapup=זמן השהייה
+# 🔴 td_autoconf_wz_servername -> Server
+➡️ td_autoconf_wz_servername=שרת
+# 🔴 td_autoconf_wz_start -> Source
+➡️ td_autoconf_wz_start=מקור
+# 🔴 td_autoconf_wz_summary -> Summary
+➡️ td_autoconf_wz_summary=סיכום
+td_autoconf_wz_summary_id=מזהה
+# 🔴 td_autoconf_wz_summary_name -> Full name
+➡️ td_autoconf_wz_summary_name=שם מלא
+# 🔴 td_autoconf_wz_summary_operation -> Operation type
+➡️ td_autoconf_wz_summary_operation=סוג פעולה
+# 🔴 td_autoconf_wz_summary_opresult -> Operation result
+➡️ td_autoconf_wz_summary_opresult=תוצאת הפעולה
+# 🔴 td_autoconf_wz_summary_type -> Type
+➡️ td_autoconf_wz_summary_type=סוג
+# 🔴 td_autoconf_wz_users -> Users
+➡️ td_autoconf_wz_users=משתמשים
+td_calloutc_?=?
+# 🔴 td_calloutc_contact -> Contact
+➡️ td_calloutc_contact=איש קשר
+# 🔴 td_calloutc_known -> Known
+➡️ td_calloutc_known=ידוע
+# 🔴 td_calloutc_none -> None
+➡️ td_calloutc_none=ללא
+# 🔴 td_calloutc_qualif -> Qualif.
+➡️ td_calloutc_qualif=מיון
+# 🔴 td_calloutc_sale -> Sale
+➡️ td_calloutc_sale=מכירה
+# 🔴 td_calloutc_unknown -> Unknown
+➡️ td_calloutc_unknown=לא ידוע
     td_callstatus_html_in_conversation=<font color='green'>בשיחה</font>
     td_callstatus_html_terminated=הסתיימה
     td_callstatus_html_transferred=<font color='red'>הועברה</font>
@@ -235,27 +235,27 @@ Do not change the items below:
     td_pautype_admin=מנהל
     td_pautype_outb=יוצא
     td_pautype_outbound=יוצא
-    # 🔴 td_pautype_pause -> Pause
-    ➡️ td_pautype_pause=
-    # 🔴 td_pautype_wrap -> Wrap
-    ➡️ td_pautype_wrap=
-    # 🔴 td_pautype_wrap-up_time -> Wrap-up time
-    ➡️ td_pautype_wrap-up_time=
-    td_qdir_any=כל השיחות
-    # 🔴 td_qdir_inbound_calls -> Inbound calls
-    ➡️ td_qdir_inbound_calls=
-    # 🔴 td_qdir_outbound_calls -> Outbound calls
-    ➡️ td_qdir_outbound_calls=
-    # 🔴 td_qdir_undefined -> <font color='red'>Undefined</font>
-    ➡️ td_qdir_undefined=
+# 🔴 td_pautype_pause -> Pause
+➡️ td_pautype_pause=הפסקה
+# 🔴 td_pautype_wrap -> Wrap
+➡️ td_pautype_wrap=השהייה
+# 🔴 td_pautype_wrap-up_time -> Wrap-up time
+➡️ td_pautype_wrap-up_time=זמן השהייה
+td_qdir_any=כל השיחות
+# 🔴 td_qdir_inbound_calls -> Inbound calls
+➡️ td_qdir_inbound_calls=שיחות נכנסות
+# 🔴 td_qdir_outbound_calls -> Outbound calls
+➡️ td_qdir_outbound_calls=שיחות יוצאות
+# 🔴 td_qdir_undefined -> <font color='red'>Undefined</font>
+➡️ td_qdir_undefined=<font color='red'>לא מוגדר</font>
     td_sychronizer_start=מקור
     td_synchronier_configuration=תצורה
     td_synchronizer_actions=פעולות
     td_synchronizer_result=תוצאה
-    # 🔴 td_yesno_no -> No
-    ➡️ td_yesno_no=
-    # 🔴 td_yesno_yes -> Yes
-    ➡️ td_yesno_yes=
+ # 🔴 td_yesno_no -> No
+➡️ td_yesno_no=לא
+# 🔴 td_yesno_yes -> Yes
+➡️ td_yesno_yes=כן
 
 ## AOUT
 
@@ -276,11 +276,11 @@ Do not change the items below:
     aout_call_res_by_outcome=דו"ח תוצאות שיחות יוצאות
     aout_call_res_by_tag=תוצאות שיחות על פי קוד תגית
     aout_calltag=תגית
-    # 🔴 aout_case_distribution -> Case Distribution
-    ➡️ aout_case_distribution=
-    aout_chart=~
-    # 🔴 aout_client_distribution -> Client Distribution
-    ➡️ aout_client_distribution=
+# 🔴 aout_case_distribution -> Case Distribution
+➡️ aout_case_distribution=התפלגות תיקים
+aout_chart=~
+# 🔴 aout_client_distribution -> Client Distribution
+➡️ aout_client_distribution=התפלגות לקוחות
     aout_contacts_n=קשר
     aout_convratio=המר
     aout_cph=התקשרויות לשעה
@@ -457,11 +457,11 @@ Do not change the items below:
 
 
 
-    # 🔴 clage_%_of_pause_time -> % of pause time
-    ➡️ clage_%_of_pause_time=
-    clage_%_of_queue=% מהתור
-    # 🔴 clage_%_of_session_time -> % of session time
-    ➡️ clage_%_of_session_time=
+# 🔴 clage_%_of_pause_time -> % of pause time
+➡️ clage_%_of_pause_time=% מזמן ההפסקה
+clage_%_of_queue=% מהתור
+# 🔴 clage_%_of_session_time -> % of session time
+➡️ clage_%_of_session_time=% מזמן ההתחברות
     clage_acd_available=פנוי
     clage_acd_avg_dur=משך ממוצע
     clage_acd_avg_in=ממוצע נכנסות
@@ -486,8 +486,8 @@ Do not change the items below:
     clage_agent_performance_acd_group=ביצועי נציג לפי קבוצת ACD
     clage_agent_ptimebyhour=שעות נציג לחיוב
     clage_agent_session_detail=פרטי סשן לנציג
-    # 🔴 clage_agent_session_overview -> Agent Session Overview
-    ➡️ clage_agent_session_overview=
+# 🔴 clage_agent_session_overview -> Agent Session Overview
+➡️ clage_agent_session_overview=סקירת הפעלת נציג
     clage_agent_sessionreport=תצוגת סשן לנציג
     clage_agent_sessions=סשנים של נציגים
     clage_agent_stimebyhour=משך סשן של נציג לפי שעה
@@ -549,8 +549,8 @@ Do not change the items below:
     clage_overlaps=חופפים
     clage_pause=הפסקה
     clage_pause_%=בהפסקה %
-    # 🔴 clage_pause_type_stats -> Details of pause types
-    ➡️ clage_pause_type_stats=
+# 🔴 clage_pause_type_stats -> Details of pause types
+➡️ clage_pause_type_stats=פרטי סוגי הפסקה
     clage_pauses=הפסקה
     clage_pauses_per_session=כמות הפסקות לסשן
     clage_pausetype=סוג הפסקה
@@ -566,25 +566,25 @@ Do not change the items below:
     clage_session_and_pause_durations=משך סשנים והפסקות
     clage_session_byquetagftrreport=סה"כ סשנים לפי תור, תגית ותכונות
     clage_session_byquetagreport=סה"כ סשנים לפי תור ותגית
-    # 🔴 clage_session_calls -> N. calls
-    ➡️ clage_session_calls=
-    clage_session_details=פרטי סשן
-    # 🔴 clage_session_end -> Segment end
-    ➡️ clage_session_end=
-    # 🔴 clage_session_idle -> Idle time
-    ➡️ clage_session_idle=
-    # 🔴 clage_session_lostatt -> Lost attempts
-    ➡️ clage_session_lostatt=
-    # 🔴 clage_session_pause -> Pause
-    ➡️ clage_session_pause=
-    # 🔴 clage_session_queues -> Queues
-    ➡️ clage_session_queues=
-    # 🔴 clage_session_start -> Segment start
-    ➡️ clage_session_start=
-    # 🔴 clage_session_talk -> Talk time
-    ➡️ clage_session_talk=
-    # 🔴 clage_session_type -> Session type
-    ➡️ clage_session_type=
+# 🔴 clage_session_calls -> N. calls
+➡️ clage_session_calls=מספר שיחות
+clage_session_details=פרטי סשן
+# 🔴 clage_session_end -> Segment end
+➡️ clage_session_end=סיום מקטע
+# 🔴 clage_session_idle -> Idle time
+➡️ clage_session_idle=זמן אי-פעילות
+# 🔴 clage_session_lostatt -> Lost attempts
+➡️ clage_session_lostatt=ניסיונות שהוחמצו
+# 🔴 clage_session_pause -> Pause
+➡️ clage_session_pause=הפסקה
+# 🔴 clage_session_queues -> Queues
+➡️ clage_session_queues=תורים
+# 🔴 clage_session_start -> Segment start
+➡️ clage_session_start=תחילת מקטע
+# 🔴 clage_session_talk -> Talk time
+➡️ clage_session_talk=זמן דיבור
+# 🔴 clage_session_type -> Session type
+➡️ clage_session_type=סוג סשן
     clage_sessions=סשנים
     clage_tag_sessionreport=תצוגת תגיות סשנים
     clage_takenshort=נ
@@ -639,8 +639,8 @@ Do not change the items below:
     clacd_lost_calls=שיחות שלא נענו
     clacd_max_attempts=מקסימום נסיונות
     clacd_min_attempts=מינימום נסיונות
-    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
-    ➡️ clacd_last_acd_attempts=
+# 🔴 clacd_last_acd_attempts -> Last ACD attempts
+➡️ clacd_last_acd_attempts=ניסיונות ACD אחרונים
     clacd_n_lost=לא נענו
     clacd_n_taken=נענו
     clacd_queue=תור
@@ -669,18 +669,18 @@ Do not change the items below:
     cld_caller_statistics=סטטיסטיקות מתקשר
     cld_calltag=תגית
     cld_complete_calls=שיחות שבוצעו
-    # 🔴 cld_connect -> Connect
-    ➡️ cld_connect=
+# 🔴 cld_connect -> Connect
+➡️ cld_connect=התחברות
     cld_date=תאריך
     cld_detail_of_agent_pauses=פירוט הפסקות לנציג
     cld_detail_of_agent_sessions=פירוט סשנים לנציג
     cld_detail_of_agent_sessions_raw=פירוט סשנים לנציג (raw)
     cld_detail_of_answered_calls=פירוט שיחות שנענו
     cld_detail_of_unanswered_calls=פירוט שיחות שלא נענו
-    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_afp=
-    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_raw=
+# 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
+➡️ cld_detail_of_unanswered_calls_afp=פרטי שיחות שלא נענו
+# 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
+➡️ cld_detail_of_unanswered_calls_raw=פרטים גולמיים של שיחות שלא נענו
     cld_detail_summary=סיכום מפורט לפי שעה
     cld_detail_summary_dom=סיכום מפורט לפי יום
     cld_detail_summary_dow=סיכום מפורט לפי יום בשבוע
@@ -702,8 +702,8 @@ Do not change the items below:
     cld_goal=יעד
     cld_handled_by=טופל ע"י
     cld_hour=שעה
-    # 🔴 cld_idle -> Idle
-    ➡️ cld_idle=
+   # 🔴 cld_idle -> Idle
+➡️ cld_idle=פנוי
     cld_info=מידע
     cld_ivr=בחירת נתב שיחות
     cld_ivr_detail=פרטי נתב שיחות
@@ -783,13 +783,13 @@ Do not change the items below:
     cld_start_hour=שעת התחלה
     cld_status_code=קוד
     cld_stints=מכסות
-    # 🔴 cld_talk -> Talk
-    ➡️ cld_talk=
-    # 🔴 cld_talk_and_idle_times -> Talk and Idle Times
-    ➡️ cld_talk_and_idle_times=
-    cld_termination=Termination
-    # 🔴 cld_tot_dur -> Tot. Dur.
-    ➡️ cld_tot_dur=
+ # 🔴 cld_talk -> Talk
+➡️ cld_talk=שיחה
+# 🔴 cld_talk_and_idle_times -> Talk and Idle Times
+➡️ cld_talk_and_idle_times=זמני שיחה ופנוי
+cld_termination=סיום
+# 🔴 cld_tot_dur -> Tot. Dur.
+➡️ cld_tot_dur=משך כולל
     cld_total_calls=סה"כ שיחות
     cld_total_elapsed_time=סה"כ זמן שעבר
     cld_transfer_to=הועבר ל:
@@ -979,24 +979,23 @@ Do not change the items below:
     clko_threedots=...
     clko_total_rows_processed=סה"כ שורות שעובדו
     clko_total_wait_time_before_disconnection=סה"כ זמן המתנה לפני ניתוק
-    # 🔴 clko_unans_nums_recalled -> Numbers recalled
-    ➡️ clko_unans_nums_recalled=
-    # 🔴 clko_unans_nums_recap -> Recap of all recalls
-    ➡️ clko_unans_nums_recap=
-    # 🔴 clko_unans_nums_to_recall -> Numbers to be recalled
-    ➡️ clko_unans_nums_to_recall=
+# 🔴 clko_unans_nums_recalled -> Numbers recalled
+➡️ clko_unans_nums_recalled=מספרים שחזרו אליהם
+# 🔴 clko_unans_nums_recap -> Recap of all recalls
+➡️ clko_unans_nums_recap=סיכום כל החזרות
+# 🔴 clko_unans_nums_to_recall -> Numbers to be recalled
+➡️ clko_unans_nums_to_recall=מספרים לחזרה
     clko_unanswered_calls=שיחות שלא נענו
     clko_unanswered_calls_by_queue=שיחות שלא נענו, ע"פ תור
     clko_unanswered_calls_distribution_by_length=שיחות שלא נענו - התפלגות לפי אורך
     clko_unanswered_outbound=שיחות שלא נענו, לנציג
     clko_within_x_seconds=בתוך ## שניות
-    # 🔴 clko_unanswered_calls_prc -> Unans. %
-    ➡️ clko_unanswered_calls_prc=
-    # 🔴 clko_unanswered_with_atts -> Unans. with att.
-    ➡️ clko_unanswered_with_atts=
-    # 🔴 clko_unanswered_no_atts -> Unans no att.
-    ➡️ clko_unanswered_no_atts=
-
+# 🔴 clko_unanswered_calls_prc -> Unans. %
+➡️ clko_unanswered_calls_prc=% לא נענו
+# 🔴 clko_unanswered_with_atts -> Unans. with att.
+➡️ clko_unanswered_with_atts=לא נענו עם ניסיונות
+# 🔴 clko_unanswered_no_atts -> Unans no att.
+➡️ clko_unanswered_no_atts=לא נענו בלי ניסיונות
 
 ## Report headers
 
@@ -1120,32 +1119,32 @@ Do not change the items below:
 
 Used for data blocks Overview by Agent/Queue
 
-    # 🔴 clok_overview_by_agent -> Overview by Agent
-    ➡️ clok_overview_by_agent=
-    # 🔴 clok_overview_by_queue -> Overview by Queue
-    ➡️ clok_overview_by_queue=
-    # 🔴 clok_offered_n -> Offered
-    ➡️ clok_offered_n=
-    # 🔴 clok_answered_calls_prc -> Ans %
-    ➡️ clok_answered_calls_prc=
-    # 🔴 clok_lost_attempts -> Lost att.
-    ➡️ clok_lost_attempts=
-    # 🔴 clok_lost_attempts_prc -> Lst att %
-    ➡️ clok_lost_attempts_prc=
-    # 🔴 clok_outbound -> Outbound
-    ➡️ clok_outbound=
-    # 🔴 clok_outbound_prc -> Outb.%
-    ➡️ clok_outbound_prc=
-    # 🔴 clok_asa -> ASA
-    ➡️ clok_asa=
-    # 🔴 clok_answered_sla_prc -> Ans in SLA %
-    ➡️ clok_answered_sla_prc=
-    # 🔴 clok_effective_prc -> Effective %
-    ➡️ clok_effective_prc=
-    # 🔴 clok_avg_wait -> Avg wait
-    ➡️ clok_avg_wait=
-    # 🔴 clok_max_wait -> Max wait
-    ➡️ clok_max_wait=
+# 🔴 clok_overview_by_agent -> Overview by Agent
+➡️ clok_overview_by_agent=סקירה לפי נציג
+# 🔴 clok_overview_by_queue -> Overview by Queue
+➡️ clok_overview_by_queue=סקירה לפי תור
+# 🔴 clok_offered_n -> Offered
+➡️ clok_offered_n=הוצעו
+# 🔴 clok_answered_calls_prc -> Ans %
+➡️ clok_answered_calls_prc=% נענו
+# 🔴 clok_lost_attempts -> Lost att.
+➡️ clok_lost_attempts=ניסיונות שהוחמצו
+# 🔴 clok_lost_attempts_prc -> Lst att %
+➡️ clok_lost_attempts_prc=% ניסיונות שהוחמצו
+# 🔴 clok_outbound -> Outbound
+➡️ clok_outbound=יוצאות
+# 🔴 clok_outbound_prc -> Outb.%
+➡️ clok_outbound_prc=% יוצאות
+# 🔴 clok_asa -> ASA
+➡️ clok_asa=זמן מענה ממוצע
+# 🔴 clok_answered_sla_prc -> Ans in SLA %
+➡️ clok_answered_sla_prc=% נענו במסגרת SLA
+# 🔴 clok_effective_prc -> Effective %
+➡️ clok_effective_prc=% אפקטיביים
+# 🔴 clok_avg_wait -> Avg wait
+➡️ clok_avg_wait=המתנה ממוצעת
+# 🔴 clok_max_wait -> Max wait
+➡️ clok_max_wait=המתנה מרבית
         
     
 ## Call events
@@ -1153,113 +1152,113 @@ Used for data blocks Overview by Agent/Queue
 
 
     # 🔴 evt_abandon -> Caller Abandoned
-    ➡️ evt_abandon=
-    # 🔴 evt_agentattempt -> Ring attempt
-    ➡️ evt_agentattempt=
-    # 🔴 evt_agentdump -> Agent dump
-    ➡️ evt_agentdump=
-    # 🔴 evt_attended_transfer -> Attended Transfer
-    ➡️ evt_attended_transfer=
-    # 🔴 evt_blind_transfer -> Blind Transfer
-    ➡️ evt_blind_transfer=
-    # 🔴 evt_call_outbound -> Outbound Call
-    ➡️ evt_call_outbound=
-    # 🔴 evt_call_tag -> Tag
-    ➡️ evt_call_tag=
-    # 🔴 evt_complete_agent -> Complete Agent
-    ➡️ evt_complete_agent=
-    # 🔴 evt_complete_caller -> Complete Caller
-    ➡️ evt_complete_caller=
-    # 🔴 evt_connect -> Connect
-    ➡️ evt_connect=
-    # 🔴 evt_enter_queue -> Enter Queue
-    ➡️ evt_enter_queue=
-    # 🔴 evt_exit_empty -> Exit Empty
-    ➡️ evt_exit_empty=
-    # 🔴 evt_exit_with_key -> Exit With Key
-    ➡️ evt_exit_with_key=
-    # 🔴 evt_exit_with_timeout -> Exit With Timeout
-    ➡️ evt_exit_with_timeout=
-    # 🔴 evt_feature_added -> Feature Added
-    ➡️ evt_feature_added=
-    # 🔴 evt_feature_deleted -> Feature Deleted
-    ➡️ evt_feature_deleted=
-    # 🔴 evt_ivr_alldigits -> IVR All Digits
-    ➡️ evt_ivr_alldigits=
-    # 🔴 evt_ivr_autohangup -> IVR auto hangup
-    ➡️ evt_ivr_autohangup=
-    # 🔴 evt_ivr_digit -> IVR Digit
-    ➡️ evt_ivr_digit=
-    # 🔴 evt_ivr_goal -> IVR Goal Reached
-    ➡️ evt_ivr_goal=
-    # 🔴 evt_ivr_hangup -> IVR Hangup
-    ➡️ evt_ivr_hangup=
-    # 🔴 evt_ivr_start -> Start IVR Call
-    ➡️ evt_ivr_start=
-    # 🔴 evt_ivr_waitonly -> IVR wait
-    ➡️ evt_ivr_waitonly=
-    # 🔴 evt_moh -> Music on Hold
-    ➡️ evt_moh=
-    # 🔴 evt_other_end_session -> Other Session End
-    ➡️ evt_other_end_session=
-    # 🔴 evt_other_fail_session -> Other Session Fail
-    ➡️ evt_other_fail_session=
-    # 🔴 evt_other_start_session -> Other Session Start
-    ➡️ evt_other_start_session=
-    # 🔴 evt_phone_end_session -> Phone Session End
-    ➡️ evt_phone_end_session=
-    # 🔴 evt_phone_fail_session -> Phone Session Fail
-    ➡️ evt_phone_fail_session=
-    # 🔴 evt_phone_start_session -> Phone Session Start
-    ➡️ evt_phone_start_session=
-    # 🔴 evt_ringcancel -> Ring Cancel
-    ➡️ evt_ringcancel=
-    # 🔴 evt_ringing -> Ringing
-    ➡️ evt_ringing=
-    # 🔴 evt_ringnoanswer -> Ring no answer
-    ➡️ evt_ringnoanswer=
-    # 🔴 evt_setvar -> Variable Set
-    ➡️ evt_setvar=
-    # 🔴 evt_setvar_deleted -> Variable Deleted
-    ➡️ evt_setvar_deleted=
-    # 🔴 evt_short_agentattempt -> Ring attempt (Short)
-    ➡️ evt_short_agentattempt=
-    # 🔴 evt_short_agentdump -> Agent dump (Short)
-    ➡️ evt_short_agentdump=
-    # 🔴 evt_short_ringing -> Ringing (Short)
-    ➡️ evt_short_ringing=
-    # 🔴 evt_short_ringnoanswer -> Ring no answer (Short)
-    ➡️ evt_short_ringnoanswer=
-    # 🔴 evt_skillreq -> Required Skill
-    ➡️ evt_skillreq=
-    # 🔴 evt_teams_end_session -> MS Teams Session End
-    ➡️ evt_teams_end_session=
-    # 🔴 evt_teams_fail_session -> Teams Session Fail
-    ➡️ evt_teams_fail_session=
-    # 🔴 evt_teams_start_session -> MS Teams Session Start
-    ➡️ evt_teams_start_session=
-    # 🔴 evt_transfer -> Transfer
-    ➡️ evt_transfer=
-    # 🔴 evt_unanswered_yet -> Unanswered Yet
-    ➡️ evt_unanswered_yet=
-    # 🔴 evt_web_end_session -> Web Session End
-    ➡️ evt_web_end_session=
-    # 🔴 evt_web_fail_session -> Web Session Fail
-    ➡️ evt_web_fail_session=
-    # 🔴 evt_web_start_session -> Web Session Start
-    ➡️ evt_web_start_session=
-    # 🔴 evt_var_group -> Variables
-    ➡️ evt_var_group=
-    # 🔴 evt_custom_prev_stint -> Previous Stint
-    ➡️ evt_custom_prev_stint=
-    # 🔴 evt_custom_next_stint -> Next Stint
-    ➡️ evt_custom_next_stint=
-    # 🔴 evt_custom_n_stint -> N. Stints
-    ➡️ evt_custom_n_stint=
-    # 🔴 evt_custom_direct_to -> Direct call to
-    ➡️ evt_custom_direct_to=
-    # 🔴 evt_custom_quality -> Call quality
-    ➡️ evt_custom_quality=
+➡️ evt_abandon=המטלפן נטש
+# 🔴 evt_agentattempt -> Ring attempt
+➡️ evt_agentattempt=ניסיון חיוג
+# 🔴 evt_agentdump -> Agent dump
+➡️ evt_agentdump=הנציג דחה
+# 🔴 evt_attended_transfer -> Attended Transfer
+➡️ evt_attended_transfer=העברה עם הכרזה
+# 🔴 evt_blind_transfer -> Blind Transfer
+➡️ evt_blind_transfer=העברה ללא הכרזה
+# 🔴 evt_call_outbound -> Outbound Call
+➡️ evt_call_outbound=שיחה יוצאת
+# 🔴 evt_call_tag -> Tag
+➡️ evt_call_tag=תגית
+# 🔴 evt_complete_agent -> Complete Agent
+➡️ evt_complete_agent=הושלם על ידי נציג
+# 🔴 evt_complete_caller -> Complete Caller
+➡️ evt_complete_caller=הושלם על ידי מתקשר
+# 🔴 evt_connect -> Connect
+➡️ evt_connect=חיבור
+# 🔴 evt_enter_queue -> Enter Queue
+➡️ evt_enter_queue=כניסה לתור
+# 🔴 evt_exit_empty -> Exit Empty
+➡️ evt_exit_empty=יציאה מתור ריק
+# 🔴 evt_exit_with_key -> Exit With Key
+➡️ evt_exit_with_key=יציאה עם מקש
+# 🔴 evt_exit_with_timeout -> Exit With Timeout
+➡️ evt_exit_with_timeout=יציאה לאחר תום זמן
+# 🔴 evt_feature_added -> Feature Added
+➡️ evt_feature_added=תכונה נוספה
+# 🔴 evt_feature_deleted -> Feature Deleted
+➡️ evt_feature_deleted=תכונה נמחקה
+# 🔴 evt_ivr_alldigits -> IVR All Digits
+➡️ evt_ivr_alldigits=קלט כל ספרות (IVR)
+# 🔴 evt_ivr_autohangup -> IVR auto hangup
+➡️ evt_ivr_autohangup=ניתוק אוטומטי (IVR)
+# 🔴 evt_ivr_digit -> IVR Digit
+➡️ evt_ivr_digit=ספרה ב-IVR
+# 🔴 evt_ivr_goal -> IVR Goal Reached
+➡️ evt_ivr_goal=היעד ב-IVR הושג
+# 🔴 evt_ivr_hangup -> IVR Hangup
+➡️ evt_ivr_hangup=ניתוק ב-IVR
+# 🔴 evt_ivr_start -> Start IVR Call
+➡️ evt_ivr_start=התחלת שיחה ב-IVR
+# 🔴 evt_ivr_waitonly -> IVR wait
+➡️ evt_ivr_waitonly=המתנה ב-IVR
+# 🔴 evt_moh -> Music on Hold
+➡️ evt_moh=מוזיקת המתנה
+# 🔴 evt_other_end_session -> Other Session End
+➡️ evt_other_end_session=סיום סשן אחר
+# 🔴 evt_other_fail_session -> Other Session Fail
+➡️ evt_other_fail_session=כשל בסשן אחר
+# 🔴 evt_other_start_session -> Other Session Start
+➡️ evt_other_start_session=התחלת סשן אחר
+# 🔴 evt_phone_end_session -> Phone Session End
+➡️ evt_phone_end_session=סיום סשן טלפוני
+# 🔴 evt_phone_fail_session -> Phone Session Fail
+➡️ evt_phone_fail_session=כשל בסשן טלפוני
+# 🔴 evt_phone_start_session -> Phone Session Start
+➡️ evt_phone_start_session=התחלת סשן טלפוני
+# 🔴 evt_ringcancel -> Ring Cancel
+➡️ evt_ringcancel=ביטול חיוג
+# 🔴 evt_ringing -> Ringing
+➡️ evt_ringing=מצלצל
+# 🔴 evt_ringnoanswer -> Ring no answer
+➡️ evt_ringnoanswer=לא נענה
+# 🔴 evt_setvar -> Variable Set
+➡️ evt_setvar=הוגדרה משתנה
+# 🔴 evt_setvar_deleted -> Variable Deleted
+➡️ evt_setvar_deleted=משתנה נמחקה
+# 🔴 evt_short_agentattempt -> Ring attempt (Short)
+➡️ evt_short_agentattempt=ניסיון (קצר)
+# 🔴 evt_short_agentdump -> Agent dump (Short)
+➡️ evt_short_agentdump=דחייה (קצר)
+# 🔴 evt_short_ringing -> Ringing (Short)
+➡️ evt_short_ringing=צלצול (קצר)
+# 🔴 evt_short_ringnoanswer -> Ring no answer (Short)
+➡️ evt_short_ringnoanswer=לא נענה (קצר)
+# 🔴 evt_skillreq -> Required Skill
+➡️ evt_skillreq=מיומנות נדרשת
+# 🔴 evt_teams_end_session -> MS Teams Session End
+➡️ evt_teams_end_session=סיום סשן Teams
+# 🔴 evt_teams_fail_session -> Teams Session Fail
+➡️ evt_teams_fail_session=כשל בסשן Teams
+# 🔴 evt_teams_start_session -> MS Teams Session Start
+➡️ evt_teams_start_session=התחלת סשן Teams
+# 🔴 evt_transfer -> Transfer
+➡️ evt_transfer=העברה
+# 🔴 evt_unanswered_yet -> Unanswered Yet
+➡️ evt_unanswered_yet=טרם נענתה
+# 🔴 evt_web_end_session -> Web Session End
+➡️ evt_web_end_session=סיום סשן אינטרנטי
+# 🔴 evt_web_fail_session -> Web Session Fail
+➡️ evt_web_fail_session=כשל בסשן אינטרנטי
+# 🔴 evt_web_start_session -> Web Session Start
+➡️ evt_web_start_session=התחלת סשן אינטרנטי
+# 🔴 evt_var_group -> Variables
+➡️ evt_var_group=משתנים
+# 🔴 evt_custom_prev_stint -> Previous Stint
+➡️ evt_custom_prev_stint=תקופה קודמת
+# 🔴 evt_custom_next_stint -> Next Stint
+➡️ evt_custom_next_stint=תקופה הבאה
+# 🔴 evt_custom_n_stint -> N. Stints
+➡️ evt_custom_n_stint=מס' תקופות
+# 🔴 evt_custom_direct_to -> Direct call to
+➡️ evt_custom_direct_to=שיחה ישירה אל
+# 🔴 evt_custom_quality -> Call quality
+➡️ evt_custom_quality=איכות שיחה
 
 ## Headers
 
