@@ -419,11 +419,11 @@ Do not change the items below:
 
 
 
-    # 🔴 clage_%_of_pause_time -> % of pause time
-    ➡️ clage_%_of_pause_time=
+    # 👽 clage_%_of_pause_time -> % of pause time
+    clage_%_of_pause_time=?% tempo de pausa
     clage_%_of_queue=% da fila
-    # 🔴 clage_%_of_session_time -> % of session time
-    ➡️ clage_%_of_session_time=
+    # 👽 clage_%_of_session_time -> % of session time
+    clage_%_of_session_time=?% tempo de sessão
     clage_acd_available=Dispon.
     clage_acd_avg_dur=Dur. Média
     clage_acd_avg_in=Média Ent.
@@ -448,8 +448,8 @@ Do not change the items below:
     clage_agent_performance_acd_group=Resultado do agente por grupo ACD
     clage_agent_ptimebyhour=Tempo a pagar por agente, por hora
     clage_agent_session_detail=Detalhes das sessões dos agentes
-    # 🔴 clage_agent_session_overview -> Agent Session Overview
-    ➡️ clage_agent_session_overview=
+    # 👽 clage_agent_session_overview -> Agent Session Overview
+    clage_agent_session_overview=?Visão geral da sessão do agente
     clage_agent_sessionreport=Sessões dos Agentes, por fila, marcação e funcionalidade
     clage_agent_sessions=Sessões dos agentes
     clage_agent_stimebyhour=Tempo da sessão por agente, por hora
@@ -511,8 +511,8 @@ Do not change the items below:
     clage_overlaps=Sobrepondo
     clage_pause=Pausa
     clage_pause_%=Pausa %
-    # 🔴 clage_pause_type_stats -> Details of pause types
-    ➡️ clage_pause_type_stats=
+    # 👽 clage_pause_type_stats -> Details of pause types
+    clage_pause_type_stats=?Detalhes dos tipos de pausa
     clage_pauses=Pausas
     clage_pauses_per_session=Pausas por sessão
     clage_pausetype=Tipo de Pausa
@@ -528,25 +528,25 @@ Do not change the items below:
     clage_session_and_pause_durations=Duração das sessões e das pausas
     clage_session_byquetagftrreport=Totais de Sessões, por Fila, Marcação e Funcionalidade
     clage_session_byquetagreport=Totais de Sessões, por Fila e Marcação
-    # 🔴 clage_session_calls -> N. calls
-    ➡️ clage_session_calls=
+    # 👽 clage_session_calls -> N. calls
+    clage_session_calls=?N. chamadas
     clage_session_details=Detalhes da sessão
-    # 🔴 clage_session_end -> Segment end
-    ➡️ clage_session_end=
-    # 🔴 clage_session_idle -> Idle time
-    ➡️ clage_session_idle=
-    # 🔴 clage_session_lostatt -> Lost attempts
-    ➡️ clage_session_lostatt=
-    # 🔴 clage_session_pause -> Pause
-    ➡️ clage_session_pause=
-    # 🔴 clage_session_queues -> Queues
-    ➡️ clage_session_queues=
-    # 🔴 clage_session_start -> Segment start
-    ➡️ clage_session_start=
-    # 🔴 clage_session_talk -> Talk time
-    ➡️ clage_session_talk=
-    # 🔴 clage_session_type -> Session type
-    ➡️ clage_session_type=
+    # 👽 clage_session_end -> Segment end
+    clage_session_end=?Fim do segmento
+    # 👽 clage_session_idle -> Idle time
+    clage_session_idle=?Tempo ocioso
+    # 👽 clage_session_lostatt -> Lost attempts
+    clage_session_lostatt=?Tentativas perdidas
+    # 👽 clage_session_pause -> Pause
+    clage_session_pause=?Pausa
+    # 👽 clage_session_queues -> Queues
+    clage_session_queues=?Filas
+    # 👽 clage_session_start -> Segment start
+    clage_session_start=?Início do segmento
+    # 👽 clage_session_talk -> Talk time
+    clage_session_talk=?Tempo de conversação
+    # 👽 clage_session_type -> Session type
+    clage_session_type=?Tipo de sessão
     clage_sessions=Sessões
     clage_tag_sessionreport=Sessões por Marcação
     clage_takenshort=P
@@ -601,8 +601,8 @@ Do not change the items below:
     clacd_lost_calls=chamadas perdidas
     clacd_max_attempts=Qtde. max. de tentativas:
     clacd_min_attempts=Qtde. min. de tentativas:
-    # 🔴 clacd_last_acd_attempts -> Last ACD attempts
-    ➡️ clacd_last_acd_attempts=
+    # 👽 clacd_last_acd_attempts -> Last ACD attempts
+    clacd_last_acd_attempts=?Últimas tentativas ACD
     clacd_n_lost=Perdidas
     clacd_n_taken=Recebidas
     clacd_queue=Fila
@@ -638,10 +638,10 @@ Do not change the items below:
     cld_detail_of_agent_sessions_raw=Detalhes do agente na sessão raw
     cld_detail_of_answered_calls=Detalhes das chamadas atendidas
     cld_detail_of_unanswered_calls=Detalhes da chamadas não atendidas
-    # 🔴 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_afp=
-    # 🔴 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
-    ➡️ cld_detail_of_unanswered_calls_raw=
+    # 👽 cld_detail_of_unanswered_calls_afp -> Details of unanswered calls
+    cld_detail_of_unanswered_calls_afp=?Detalhes de chamadas não atendidas
+    # 👽 cld_detail_of_unanswered_calls_raw -> Raw details of unanswered calls
+    cld_detail_of_unanswered_calls_raw=?Detalhes brutos de chamadas não atendidas
     cld_detail_summary=Resumo Detalhado por Hora
     cld_detail_summary_dom=Resumo Detalhado por Dia
     cld_detail_summary_dow=Resumo Detalhado por Dia da Semana
@@ -720,10 +720,10 @@ Do not change the items below:
     cld_queue=Fila
     cld_queue_batch_export=Adicionar chamadas para o batch de exportação
     cld_queue_detail=Detalhes da Fila
-    # 🔴 cld_queue_detail_afp -> Queue detail
-    ➡️ cld_queue_detail_afp=
-    # 🔴 cld_queue_detail_raw -> Raw queue detail
-    ➡️ cld_queue_detail_raw=
+    # 👽 cld_queue_detail_afp -> Queue detail
+    cld_queue_detail_afp=?Detalhe da fila
+    # 👽 cld_queue_detail_raw -> Raw queue detail
+    cld_queue_detail_raw=?Detalhe bruto da fila
     cld_return=Volta
     cld_server=Srv
     cld_session_agent_detail=Detalhe da sessão do agente
@@ -941,12 +941,12 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Chamadas não atendidas - distribuição por duração
     clko_unanswered_outbound=Chamadas de saída não atendidas, por agente.
     clko_within_x_seconds=Dentro de ## segundos:
-    # 🔴 clko_unanswered_calls_prc -> Unans. %
-    ➡️ clko_unanswered_calls_prc=
-    # 🔴 clko_unanswered_with_atts -> Unans. with att.
-    ➡️ clko_unanswered_with_atts=
-    # 🔴 clko_unanswered_no_atts -> Unans no att.
-    ➡️ clko_unanswered_no_atts=
+    # 👽 clko_unanswered_calls_prc -> Unans. %
+    clko_unanswered_calls_prc=?% Não Atendidas
+    # 👽 clko_unanswered_with_atts -> Unans. with att.
+    clko_unanswered_with_atts=?Não atendidas com tent.
+    # 👽 clko_unanswered_no_atts -> Unans no att.
+    clko_unanswered_no_atts=?Não atendidas sem tent.
 
 
 ## Report headers
@@ -1071,32 +1071,32 @@ Do not change the items below:
 
 Used for data blocks Overview by Agent/Queue
 
-    # 🔴 clok_overview_by_agent -> Overview by Agent
-    ➡️ clok_overview_by_agent=
-    # 🔴 clok_overview_by_queue -> Overview by Queue
-    ➡️ clok_overview_by_queue=
-    # 🔴 clok_offered_n -> Offered
-    ➡️ clok_offered_n=
-    # 🔴 clok_answered_calls_prc -> Ans %
-    ➡️ clok_answered_calls_prc=
-    # 🔴 clok_lost_attempts -> Lost att.
-    ➡️ clok_lost_attempts=
-    # 🔴 clok_lost_attempts_prc -> Lst att %
-    ➡️ clok_lost_attempts_prc=
-    # 🔴 clok_outbound -> Outbound
-    ➡️ clok_outbound=
-    # 🔴 clok_outbound_prc -> Outb.%
-    ➡️ clok_outbound_prc=
-    # 🔴 clok_asa -> ASA
-    ➡️ clok_asa=
-    # 🔴 clok_answered_sla_prc -> Ans in SLA %
-    ➡️ clok_answered_sla_prc=
-    # 🔴 clok_effective_prc -> Effective %
-    ➡️ clok_effective_prc=
-    # 🔴 clok_avg_wait -> Avg wait
-    ➡️ clok_avg_wait=
-    # 🔴 clok_max_wait -> Max wait
-    ➡️ clok_max_wait=
+    # 👽 clok_overview_by_agent -> Overview by Agent
+    clok_overview_by_agent=?Visão geral por agente
+    # 👽 clok_overview_by_queue -> Overview by Queue
+    clok_overview_by_queue=?Visão geral por fila
+    # 👽 clok_offered_n -> Offered
+    clok_offered_n=?Oferecidas
+    # 👽 clok_answered_calls_prc -> Ans %
+    clok_answered_calls_prc=?% Atendidas
+    # 👽 clok_lost_attempts -> Lost att.
+    clok_lost_attempts=?Tent. perdidas
+    # 👽 clok_lost_attempts_prc -> Lst att %
+    clok_lost_attempts_prc=?% Tent. perdidas
+    # 👽 clok_outbound -> Outbound
+    clok_outbound=?Outbound
+    # 👽 clok_outbound_prc -> Outb.%
+    clok_outbound_prc=?% Outb.
+    # 👽 clok_asa -> ASA
+    clok_asa=?ASA
+    # 👽 clok_answered_sla_prc -> Ans in SLA %
+    clok_answered_sla_prc=?% Atendidas em SLA
+    # 👽 clok_effective_prc -> Effective %
+    clok_effective_prc=?% Efetiva
+    # 👽 clok_avg_wait -> Avg wait
+    clok_avg_wait=?Tempo médio de espera
+    # 👽 clok_max_wait -> Max wait
+    clok_max_wait=?Tempo máximo de espera
         
     
 ## Call events
@@ -1151,18 +1151,18 @@ Used for data blocks Overview by Agent/Queue
     evt_web_end_session=Fim de sessão Web
     evt_web_fail_session=Sessão Web com falha
     evt_web_start_session=Início de sessão Web
-    # 🔴 evt_var_group -> Variables
-    ➡️ evt_var_group=
-    # 🔴 evt_custom_prev_stint -> Previous Stint
-    ➡️ evt_custom_prev_stint=
-    # 🔴 evt_custom_next_stint -> Next Stint
-    ➡️ evt_custom_next_stint=
-    # 🔴 evt_custom_n_stint -> N. Stints
-    ➡️ evt_custom_n_stint=
-    # 🔴 evt_custom_direct_to -> Direct call to
-    ➡️ evt_custom_direct_to=
-    # 🔴 evt_custom_quality -> Call quality
-    ➡️ evt_custom_quality=
+    # 👽 evt_var_group -> Variables
+    evt_var_group=?Variáveis
+    # 👽 evt_custom_prev_stint -> Previous Stint
+    evt_custom_prev_stint=?Período anterior
+    # 👽 evt_custom_next_stint -> Next Stint
+    evt_custom_next_stint=?Próximo período
+    # 👽 evt_custom_n_stint -> N. Stints
+    evt_custom_n_stint=?N. Períodos
+    # 👽 evt_custom_direct_to -> Direct call to
+    evt_custom_direct_to=?Chamada direta para
+    # 👽 evt_custom_quality -> Call quality
+    evt_custom_quality=?Qualidade da chamada
 
 ## Headers
 
@@ -1989,8 +1989,8 @@ Used for data blocks Overview by Agent/Queue
     qa_pop_print=Imprimir
     qa_prc_act=%
     qa_prc_min=% exigida
-    # 🔴 qa_print_report -> Print QA Report
-    ➡️ qa_print_report=
+    # 👽 qa_print_report -> Print QA Report
+    qa_print_report=?Imprimir relatório QA
     qa_queryfilterwarn=Somente um filtro de agente simultâneo é suportado.
     qa_queue=Fila
     qa_range=Faixa
@@ -2107,8 +2107,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_actions_whisper=Sussurrar
     rt3_add=Adicionar Novo Widget
     rt3_add_box=Adicionar nova janela na página
-    # 🔴 rt3_add_queue -> Select Queue
-    ➡️ rt3_add_queue=
+    # 👽 rt3_add_queue -> Select Queue
+    rt3_add_queue=?Selecionar fila
     rt3_add_view=Adicionar nova view
     rt3_advanced=Avançado
     rt3_ag_calls_alm_red=Alarme Vermelho de Agentes Ocupados
@@ -2132,14 +2132,14 @@ Used for data blocks Overview by Agent/Queue
     rt3_agent_changepause=Modificar Pausa
     rt3_agent_code=Código do Agente
     rt3_agent_extension=Extensão do Agente
-    # 🔴 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
-    ➡️ rt3_agent_extension_regex_error=
-    # 🔴 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
-    ➡️ rt3_agent_code_regex_error=
-    # 🔴 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
-    ➡️ rt3_agent_extension_min_1_char_error=
-    # 🔴 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
-    ➡️ rt3_agent_code_min_1_char_error=
+    # 👽 rt3_agent_extension_regex_error -> The Agent extension does not respect the correct format.
+    rt3_agent_extension_regex_error=?A extensão do agente não respeita o formato correto.
+    # 👽 rt3_agent_code_regex_error -> The Agent code does not respect the correct format.
+    rt3_agent_code_regex_error=?O código do agente não respeita o formato correto.
+    # 👽 rt3_agent_extension_min_1_char_error -> The Agent extension should be at least 1 character long.
+    rt3_agent_extension_min_1_char_error=?A extensão do agente deve ter pelo menos 1 caractere.
+    # 👽 rt3_agent_code_min_1_char_error -> The Agent code should be at least 1 character long.
+    rt3_agent_code_min_1_char_error=?O código do agente deve ter pelo menos 1 caractere.
     rt3_agent_info=Informação de Agente
     rt3_agent_login=Login (todas as filas)
     rt3_agent_logon=Logon de Agente
@@ -2209,8 +2209,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_table=Tabelas
     rt3_category_various=Vários
     rt3_change_queue_confirm=Você tem alterações não salvas que serão perdidas se você alterar a fila. Confirma?
-    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
-    ➡️ rt3_exit_confirm=
+    # 👽 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    rt3_exit_confirm=?Você tem alterações não salvas que serão perdidas ao sair. Confirmar?
     rt3_choose_action=Escolher ação
     rt3_choose_monitor_mode=Modo de Monitoramento
     rt3_choose_queue=Escolha a fila
@@ -2400,8 +2400,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_table_agentandoutcome=Agente e resultado
     rt3_table_aggrbyqueue=Agregado por fila
     rt3_table_aggrbytag=Agregado por Etiqueta
-    # 🔴 rt3_table_lastattempts -> Last attempts
-    ➡️ rt3_table_lastattempts=
+    # 👽 rt3_table_lastattempts -> Last attempts
+    rt3_table_lastattempts=?Últimas tentativas
     rt3_table_live_agents=Agentes On Line
     rt3_table_live_calls=Chamadas On line
     rt3_table_live_queues=Filas On line
@@ -2598,8 +2598,8 @@ Description of configuration properties
     propedit_category_synchronizer=Sincronizador
     propedit_edit_label=Editar
     propedit_explore_label=Explorar
-    # 🔴 propedit_feature_agent_amo -> AMO
-    ➡️ propedit_feature_agent_amo=
+    # 👽 propedit_feature_agent_amo -> AMO
+    propedit_feature_agent_amo=?AMO
     propedit_feature_ap_backg=Fundos Opcionais
     propedit_feature_ap_login_out=Login e Logout
     propedit_feature_ap_other=Não categorizado
@@ -2628,8 +2628,8 @@ Description of configuration properties
     propedit_key_agent_outcome_size=Altura máxima da lista de seleção
     propedit_key_agent_pause_dialout=Desativar Chamadas de Saída aos Agentes quando estão em Pausa
     propedit_key_agent_qap_cached_for_ms_desc=Tempo máximo de cache para a página do agente
-    # 🔴 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
-    ➡️ propedit_key_amo_placed_call_timeout=
+    # 👽 propedit_key_amo_placed_call_timeout -> AMO recycling time-out
+    propedit_key_amo_placed_call_timeout=?Timeout de reciclagem AMO
     propedit_key_answer_src=Tom de resposta do Softphone (URL)
     propedit_key_atxfer=Código de recurso de transferência assistida
     propedit_key_atxferabort=Código de recurso de transferência assistida para abortar
@@ -2642,8 +2642,8 @@ Description of configuration properties
     propedit_key_audit_max_rows_fetched=Número máximo de linhas lidas que não requerem auditoria
     propedit_key_blindxfer=Código de recurso de transferência cega
     propedit_key_cronjobs_localwebapp=URL Base para Execução de Tarefas Agendadas
-    # 🔴 propedit_key_decodeknownnumbers -> Decode known numbers
-    ➡️ propedit_key_decodeknownnumbers=
+    # 👽 propedit_key_decodeknownnumbers -> Decode known numbers
+    propedit_key_decodeknownnumbers=?Decodificar números conhecidos
     propedit_key_default_agentcanamendpause_desc=Se esta propriedade está marcada como Sim, os agentes podem alterar o código de pausa atual, alterando-o retroativamente (isso fará com que o novo código de pausa apareça nos relatórios em vez do antigo, para a pausa atual). Se definido como Não, quando os agentes alterarem o código de pausa, a pausa atual será encerrada automaticamente e uma nova será iniciada com o novo código.
     propedit_key_default_alwaysLogonUnpaused_desc=Quando um agente efetuar o login, nunca estará em pausa
     propedit_key_default_areacode_digits_desc=Quantos dígitos devem ser considerados para o código de área padrão
@@ -2715,11 +2715,11 @@ Description of configuration properties
     propedit_key_enswitch_qpwrap_desc=A prioridade da Fila para um Agente a ser adicionado com prioridade WRAP (default: 6)
     propedit_key_enswitch_spyprefix_desc=O prefixo por default a ser utilizado para iniciar uma ChanSpy (default: *91)
     propedit_key_enswitch_verbose_desc=Se todas as interações Enswitch devem ser logadas em full para o log padrão (default: false)
-    # 🔴 propedit_key_extrabody -> Extra text in e-mail bodies.
-    ➡️ propedit_key_extrabody=
+    # 👽 propedit_key_extrabody -> Extra text in e-mail bodies.
+    propedit_key_extrabody=?Texto extra nos corpos de e-mail.
     propedit_key_hangup_src=Tom de ocupado do Softphone (URL)
-    # 🔴 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
-    ➡️ propedit_key_hiddennumberpolicy=
+    # 👽 propedit_key_hiddennumberpolicy -> Policy for hiding numbers
+    propedit_key_hiddennumberpolicy=?Política para ocultar números
     propedit_key_layout_logo_desc=Logo de sua empresa (caminho completo ou relativo). Se recomenda alterar o tamanho para 200 x 72 pixels.
     propedit_key_noans_timeout=Tempo (em segundos) após o qual uma chamada recebida é rejeitada se não for atendida. O valor padrão é 60.
     propedit_key_phone_iceservers=Lista de servidores ICE a serem usados.
@@ -2780,8 +2780,8 @@ Description of configuration properties
     propedit_key_sla_interval_desc=Limite para os intervalos de tempo para o gráfico de SLA
     propedit_key_sla_max_initial_delay_desc=Período para a parte inicial do cálculo de SLA
     propedit_key_sla_max_monitored_delay_desc=Espera máxima apresentada no gráfico de SLA
-    # 🔴 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
-    ➡️ propedit_key_smtpsubjectprefix=
+    # 👽 propedit_key_smtpsubjectprefix -> Prefix to e-mail subjects
+    propedit_key_smtpsubjectprefix=?Prefixo para assuntos de e-mail
     propedit_key_synchronizer_agents_file=Arquivo agents.conf Default
     propedit_key_synchronizer_queuelog_file=Arquivo Queue Log Default
     propedit_key_synchronizer_queues_file=Arquivo queue.conf Default
@@ -2815,14 +2815,14 @@ Description of configuration properties
     propedit_option_false=Falso
     propedit_option_freeswitch=FreeSwitch
     propedit_option_freeswitch_live=FreeSwitch-Live
-    # 🔴 propedit_option_hash -> hash
-    ➡️ propedit_option_hash=
-    # 🔴 propedit_option_hide -> hide
-    ➡️ propedit_option_hide=
-    # 🔴 propedit_option_hide3 -> hide3
-    ➡️ propedit_option_hide3=
-    # 🔴 propedit_option_hide5 -> hide5
-    ➡️ propedit_option_hide5=
+    # 👽 propedit_option_hash -> hash
+    propedit_option_hash=?hash
+    # 👽 propedit_option_hide -> hide
+    propedit_option_hide=?ocultar
+    # 👽 propedit_option_hide3 -> hide3
+    propedit_option_hide3=?ocultar3
+    # 👽 propedit_option_hide5 -> hide5
+    propedit_option_hide5=?ocultar5
     propedit_option_jsonapi=API JSON
     propedit_option_mirtapbx=MirtaPBX
     propedit_option_no=Não
@@ -2835,8 +2835,8 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Somente as filas selecionadas
     propedit_option_realtime_dynamicLoginQueues_registered_label=Registradas
     propedit_option_spy=Espiar
-    # 🔴 propedit_option_stars -> stars
-    ➡️ propedit_option_stars=
+    # 👽 propedit_option_stars -> stars
+    propedit_option_stars=?estrelas
     propedit_option_sync_mode_c=Apenas Criar
     propedit_option_sync_mode_c_d=Criar, Excluir
     propedit_option_sync_mode_c_d_usr=Criar, Excluir, Criar Usuários
@@ -2896,8 +2896,8 @@ Description of security keys:
     keydesc_closecalls=Usuário pode encerrar chamadas em curso à partir da tela de Real-time ou da página de histórico de estatísticas 
     keydesc_config=Usuário pode iniciar o wizard de auto configuração (modo assistido ou não)
     keydesc_edit_cfg=Usuário pode editar o arquivo configuration.properties
-    # 🔴 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
-    ➡️ keydesc_hidenumbers=
+    # 👽 keydesc_hidenumbers -> All phone numbers/caller identities are hidden
+    keydesc_hidenumbers=?Todos os números/identidades do chamador estão ocultos
     keydesc_keyupdate=Usuário pode instalar uma nova chave de ativação do QueueMetrics
     keydesc_mon_audio=Usuário pode monitorar uma chamada em tempo real
     keydesc_mon_barge=O usuário pode interromper uma chamada em tempo real
@@ -2938,8 +2938,8 @@ Description of security keys:
     keydesc_user=A chave deve estar em posse de um usuário válido
     keydesc_usr_agent=Usuário pode editar os agentes
     keydesc_usr_agroups=Usuário pode editar os grupos de agentes customizados
-    # 🔴 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
-    ➡️ keydesc_usr_amo_edit=
+    # 👽 keydesc_usr_amo_edit -> User can edit Assisted Manual Outbound (AMO) campaigns
+    keydesc_usr_amo_edit=?O usuário pode editar campanhas AMO
     keydesc_usr_calltag=Usuário pode editar as marcações das chamadas
     keydesc_usr_cases_edit=Usuário podem editar Casos
     keydesc_usr_cbts=Usuário pode editar a lista de CBTs conhecidos
@@ -2982,8 +2982,8 @@ Description of security keys:
     tsk_detail_history=Histório da Tarefa
     tsk_detail_info=Info da Tarefa
     tsk_detail_lastUpdated=Última atualização
-    # 🔴 tsk_detail_message -> Message
-    ➡️ tsk_detail_message=
+    # 👽 tsk_detail_message -> Message
+    tsk_detail_message=?Mensagem
     tsk_detail_notes=Notas
     tsk_detail_pfield=Processo
     tsk_detail_process=Processo
@@ -3219,32 +3219,32 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_title=Editar os parâmetros de sistema do QueueMetrics
     cfgprops_title_wizard=Explorar os parâmetros de sistema do QueueMetrics
     cfgprops_notice=Após salvar as alterações, você precisa logar-se novamente para que os novos parâmetros sejam recarregados.
-    # 🔴 cfgprops_n_items -> N. Properties found
-    ➡️ cfgprops_n_items=
-    # 🔴 cfgprops_input -> Enter one or more properties to set, one per line
-    ➡️ cfgprops_input=
-    # 🔴 cfgprops_comment -> Reason for this change
-    ➡️ cfgprops_comment=
-    # 🔴 cfgprops_sort_by -> Sort by
-    ➡️ cfgprops_sort_by=
-    # 🔴 cfgprops_sort_bydate -> Last update
-    ➡️ cfgprops_sort_bydate=
-    # 🔴 cfgprops_sort_byname -> Name
-    ➡️ cfgprops_sort_byname=
-    # 🔴 cfgprops_col_name -> Property name
-    ➡️ cfgprops_col_name=
-    # 🔴 cfgprops_col_value -> Current value
-    ➡️ cfgprops_col_value=
-    # 🔴 cfgprops_col_comment -> Reason
-    ➡️ cfgprops_col_comment=
-    # 🔴 cfgprops_history_date -> Date
-    ➡️ cfgprops_history_date=
-    # 🔴 cfgprops_history_user -> User
-    ➡️ cfgprops_history_user=
-    # 🔴 cfgprops_history_value -> Value
-    ➡️ cfgprops_history_value=
-    # 🔴 cfgprops_history_previous -> Previous entries
-    ➡️ cfgprops_history_previous=
+    # 👽 cfgprops_n_items -> N. Properties found
+    cfgprops_n_items=?N. Propriedades encontradas
+    # 👽 cfgprops_input -> Enter one or more properties to set, one per line
+    cfgprops_input=?Digite uma ou mais propriedades para definir, uma por linha
+    # 👽 cfgprops_comment -> Reason for this change
+    cfgprops_comment=?Motivo para esta alteração
+    # 👽 cfgprops_sort_by -> Sort by
+    cfgprops_sort_by=?Ordenar por
+    # 👽 cfgprops_sort_bydate -> Last update
+    cfgprops_sort_bydate=?Última atualização
+    # 👽 cfgprops_sort_byname -> Name
+    cfgprops_sort_byname=?Nome
+    # 👽 cfgprops_col_name -> Property name
+    cfgprops_col_name=?Nome da propriedade
+    # 👽 cfgprops_col_value -> Current value
+    cfgprops_col_value=?Valor atual
+    # 👽 cfgprops_col_comment -> Reason
+    cfgprops_col_comment=?Motivo
+    # 👽 cfgprops_history_date -> Date
+    cfgprops_history_date=?Data
+    # 👽 cfgprops_history_user -> User
+    cfgprops_history_user=?Usuário
+    # 👽 cfgprops_history_value -> Value
+    cfgprops_history_value=?Valor
+    # 👽 cfgprops_history_previous -> Previous entries
+    cfgprops_history_previous=?Entradas anteriores
     
 
 These are obsolete:
@@ -3357,8 +3357,8 @@ Other items
     export_to_pdf=PDF
     export_xml=Exportar como XML
     grp_ivr=Eventos URA
-    # 🔴 grp_ivr_calls -> IVR calls
-    ➡️ grp_ivr_calls=
+    # 👽 grp_ivr_calls -> IVR calls
+    grp_ivr_calls=?Chamadas IVR
     grp_ivr_short=URA
     grp_lost_calls=Chamadas perdidas
     grp_lost_short=Perdidas
@@ -3478,15 +3478,15 @@ Other items
     memo_related_to=Relacionado a
     memo_status=Estado
     memo_tree_empty=Vazio
-    # 🔴 memo_tree_title -> Linked memos
-    ➡️ memo_tree_title=
+    # 👽 memo_tree_title -> Linked memos
+    memo_tree_title=?Memos vinculados
     memo_type=Tipo
     menu_licence_page=Página da Licença
     menu_user_page=Info de Usuário
-    # 🔴 modal_cancel -> Cancel
-    ➡️ modal_cancel=
-    # 🔴 modal_ok -> Ok
-    ➡️ modal_ok=
+    # 👽 modal_cancel -> Cancel
+    modal_cancel=?Cancelar
+    # 👽 modal_ok -> Ok
+    modal_ok=?Ok
     notification_error=Erro
     notification_info=Info
     notification_success=Sucesso
@@ -3627,8 +3627,8 @@ Other items
     qap_action_qa=Formulário QA
     qap_action_recall=Nova nota de rechamada
     qap_action_transfer=Transferir chamada
-    # 🔴 qap_action_wbtrecall -> Recall with WombatDialer
-    ➡️ qap_action_wbtrecall=
+    # 👽 qap_action_wbtrecall -> Recall with WombatDialer
+    qap_action_wbtrecall=?Discar com WombatDialer
     qap_addmember_selected=Entrar nas filas selecionadas
     qap_agent_code=Código do Agente
     qap_agent_dialout_error=Erro enquanto realizava discagem do Agente
@@ -3656,11 +3656,11 @@ Other items
     qap_case_add=Adicionar novo Caso
     qap_case_calls=TODAS AS CHAMADAS
     qap_case_closed=Fechado
-    # 🔴 qap_case_comments -> Comments
-    ➡️ qap_case_comments=
+    # 👽 qap_case_comments -> Comments
+    qap_case_comments=?Comentários
     qap_case_contact=Contato
-    # 🔴 qap_case_details -> Case Details
-    ➡️ qap_case_details=
+    # 👽 qap_case_details -> Case Details
+    qap_case_details=?Detalhes do caso
     qap_case_email=Email
     qap_case_merged=Combinado
     qap_case_notes=Notas
@@ -3681,10 +3681,10 @@ Other items
     qap_clients_add=Adicionar novo Cliente
     qap_clients_placeholder_search=Buscar por um cliente
     qap_control_addall=Combinar selecionados
-    # 🔴 qap_control_add -> Join
-    ➡️ qap_control_add=
-    # 🔴 qap_control_remove -> Leave
-    ➡️ qap_control_remove=
+    # 👽 qap_control_add -> Join
+    qap_control_add=?Entrar
+    # 👽 qap_control_remove -> Leave
+    qap_control_remove=?Sair
     qap_control_all=Todas
     qap_control_amend=Editar
     qap_control_assigned=Atribuido
@@ -3698,8 +3698,8 @@ Other items
     qap_control_timer=Temporizador
     qap_control_unpause=Resumir pausa
     qap_create_note_error=Erro enquanto criava uma nova nota
-    # 🔴 qap_crm_links -> CRM Popup Links
-    ➡️ qap_crm_links=
+    # 👽 qap_crm_links -> CRM Popup Links
+    qap_crm_links=?Links de Pop-up do CRM
     qap_daily_idle=Tempo disponível
     qap_daily_lost=Chamadas perdidas
     qap_daily_lostatt=Tentativas perdidas
@@ -3785,13 +3785,13 @@ Other items
     qap_nav_interactions=Interações
     qap_nav_overview=Visão geral
     qap_nav_qa=QA
-    # 🔴 qap_nav_wallboard -> Wallboard
-    ➡️ qap_nav_wallboard=
+    # 👽 qap_nav_wallboard -> Wallboard
+    qap_nav_wallboard=?Wallboard
     qap_nav_wombat=Prévia de discagem do WombatDialer
-    # 🔴 qap_new_case -> New Case
-    ➡️ qap_new_case=
-    # 🔴 qap_new_client -> New Client
-    ➡️ qap_new_client=
+    # 👽 qap_new_case -> New Case
+    qap_new_case=?Novo caso
+    # 👽 qap_new_client -> New Client
+    qap_new_client=?Novo cliente
     qap_new_memo=Criar link de Memo
     qap_no_cases=Nenhum caso encontrado para a busca atual, tente novamente.
     qap_no_clients=Nenhum cliente encontrado para a busca atual, tente novamente.
@@ -4019,8 +4019,8 @@ Other items
     reports_filter_input_error=Erro de entrada
     reports_filter_ivr=URA
     reports_filter_location=Localização
-    # 🔴 reports_filter_none -> None
-    ➡️ reports_filter_none=
+    # 👽 reports_filter_none -> None
+    reports_filter_none=?Nenhum
     reports_filter_noncont_time=Entre
     reports_filter_noncontdays=Dias
     reports_filter_noncontr1from=Tempo 1 de
@@ -4039,8 +4039,8 @@ Other items
     reports_filter_variables=Variáveis
     reports_filter_waitmax=Máx. Tempo de espera
     reports_filter_waitmin=Min. Tempo de espera
-    # 🔴 reports_filters -> Show/Hide Filters
-    ➡️ reports_filters=
+    # 👽 reports_filters -> Show/Hide Filters
+    reports_filters=?Mostrar/Ocultar filtros
     reports_goto_page=Vamos para
     reports_grouping_title=Chamada de grupo
     reports_import_schema=Importar esquema de relatório
@@ -4108,16 +4108,16 @@ Other items
     reports_qa_performance_title=Performance
     reports_qa_performance_total=Total
     reports_qa_queue=Fila
-    # 🔴 reports_qa_range -> Range
-    ➡️ reports_qa_range=
+    # 👽 reports_qa_range -> Range
+    reports_qa_range=?Intervalo
     reports_qa_recap_heading=Detalhes da chamada
     reports_qa_select_form=Selecionar formulário
     reports_qa_start=Hora de início
     reports_qa_status=Estado
     reports_qa_uid=ID Único
     reports_qa_value=Valor
-    # 🔴 reports_qa_print -> Print
-    ➡️ reports_qa_print=
+    # 👽 reports_qa_print -> Print
+    reports_qa_print=?Imprimir
     reports_query_loading=Carregando
     reports_ratio=Relação
     reports_recap_no_filters=Clique para adicionar filtros adicionais
@@ -4137,8 +4137,8 @@ Other items
     reports_settings=Definições
     reports_settings_areacode=Código de área
     reports_settings_datablock=DataBlock
-    # 🔴 reports_settings_default -> Reset to System Default
-    ➡️ reports_settings_default=
+    # 👽 reports_settings_default -> Reset to System Default
+    reports_settings_default=?Redefinir para o padrão do sistema
     reports_settings_hourlyslot=Slot por hora
     reports_settings_report=Relatório
     reports_settings_shortcallattemptwaitlimit=Limite de espera de tentativa de curta chamada
@@ -4462,18 +4462,18 @@ Other items
     sync2_apply=Aplicar configuração
     sync2_choose_pbx=PABX
     sync2_choose_source=Selecione a fonte
-    # 🔴 sync2_chunker_uploading -> Data Upload
-    ➡️ sync2_chunker_uploading=
-    # 🔴 sync2_chunker_progress -> Uploaded chunks
-    ➡️ sync2_chunker_progress=
-    # 🔴 sync2_chunker_actions -> Actions left
-    ➡️ sync2_chunker_actions=
-    # 🔴 sync2_chunker_chunks -> Uploading configuration
-    ➡️ sync2_chunker_chunks=
-    # 🔴 sync2_chunker_sending -> Applying actions
-    ➡️ sync2_chunker_sending=
-    # 🔴 sync2_chunker_waiting -> Waiting...
-    ➡️ sync2_chunker_waiting=
+    # 👽 sync2_chunker_uploading -> Data Upload
+    sync2_chunker_uploading=?Upload de dados
+    # 👽 sync2_chunker_progress -> Uploaded chunks
+    sync2_chunker_progress=?Fragmentos enviados
+    # 👽 sync2_chunker_actions -> Actions left
+    sync2_chunker_actions=?Ações restantes
+    # 👽 sync2_chunker_chunks -> Uploading configuration
+    sync2_chunker_chunks=?Carregando configuração
+    # 👽 sync2_chunker_sending -> Applying actions
+    sync2_chunker_sending=?Aplicando ações
+    # 👽 sync2_chunker_waiting -> Waiting...
+    sync2_chunker_waiting=?Aguardando...
     sync2_cluster=Configurações de cluster
     sync2_cluster_info=Informação de Cluster
     sync2_collapse=Ocultar
