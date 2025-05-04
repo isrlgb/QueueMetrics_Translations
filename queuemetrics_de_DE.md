@@ -921,12 +921,12 @@ Do not change the items below:
     clko_unanswered_calls_distribution_by_length=Nicht angenommene Anrufe, nach Dauer
     clko_unanswered_outbound=Unbeantwortete ausgehende Anrufe, nach Agent
     clko_within_x_seconds=Innerhalb von ## Sekunden:
-    # 🔴 clko_unanswered_calls_prc -> Unans. %
-    ➡️ clko_unanswered_calls_prc=
-    # 🔴 clko_unanswered_with_atts -> Unans. with att.
-    ➡️ clko_unanswered_with_atts=
-    # 🔴 clko_unanswered_no_atts -> Unans no att.
-    ➡️ clko_unanswered_no_atts=
+    # 👽 clko_unanswered_calls_prc -> Unans. %
+    clko_unanswered_calls_prc=?Unbean. %
+    # 👽 clko_unanswered_with_atts -> Unans. with att.
+    clko_unanswered_with_atts=?Unbean. mit Vers.
+    # 👽 clko_unanswered_no_atts -> Unans no att.
+    clko_unanswered_no_atts=?Unbean. ohne Vers.
 
 
 ## Report headers
@@ -1058,15 +1058,15 @@ Used for data blocks Overview by Agent/Queue
     clok_lost_attempts_prc= verloren %
     clok_outbound=Ausgehend
     clok_outbound_prc= ausgehend %
-    # 🔴 clok_asa -> ASA
-    ➡️ clok_asa=
+    # 👽 clok_asa -> ASA
+    clok_asa=?ASA
     clok_answered_sla_prc=angen. in SLA %
-    # 🔴 clok_effective_prc -> Effective %
-    ➡️ clok_effective_prc=
-    # 🔴 clok_avg_wait -> Avg wait
-    ➡️ clok_avg_wait=
-    # 🔴 clok_max_wait -> Max wait
-    ➡️ clok_max_wait=
+    # 👽 clok_effective_prc -> Effective %
+    clok_effective_prc=?Effektiv %
+    # 👽 clok_avg_wait -> Avg wait
+    clok_avg_wait=?Durchschn. Wartezeit
+    # 👽 clok_max_wait -> Max wait
+    clok_max_wait=?Max. Wartezeit
         
     
 ## Call events
@@ -1953,8 +1953,8 @@ Used for data blocks Overview by Agent/Queue
     qa_pop_print=Drucken
     qa_prc_act=%
     qa_prc_min=% erforderlich
-    # 🔴 qa_print_report -> Print QA Report
-    ➡️ qa_print_report=
+    # 👽 qa_print_report -> Print QA Report
+    qa_print_report=?QA-Bericht drucken
     qa_queryfilterwarn=Es wird jeweils nur eine Agentenfilterauswahl unterstützt.
     qa_queue=Warteschlange
     qa_range=Reichweite
@@ -2168,8 +2168,8 @@ Used for data blocks Overview by Agent/Queue
     rt3_category_table=Tabelle
     rt3_category_various=Verschiedene
     rt3_change_queue_confirm=Sie haben nicht gespeicherte Änderungen, die verloren gehen, wenn Sie die Warteschlange wechseln. Bestätigen Sie?
-    # 🔴 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
-    ➡️ rt3_exit_confirm=
+    # 👽 rt3_exit_confirm -> You have unsaved changes that will be lost if you exit the page. Confirm?
+    rt3_exit_confirm=?Sie haben ungespeicherte Änderungen. Verlassen führt zu Verlust. Bestätigen?
     rt3_choose_action=Aktion wählen
     rt3_choose_monitor_mode=Überwachungsmodus
     rt3_choose_queue=Wählen Sie Warteschlange
@@ -2753,8 +2753,8 @@ Description of configuration properties
     propedit_key_wb_recovery_max=Maximales Intervall in Sekunden zwischen WebSocket-Wiederverbindungsversuchen. Der Standardwert ist 30.
     propedit_key_wb_recovery_min=Mindestintervall in Sekunden zwischen WebSocket-Wiederverbindungsversuchen. Der Standardwert ist 2.
     propedit_key_wombat_password_desc=WombatDialer Passwort
-    # 🔴 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
-    ➡️ propedit_key_wombat_prevdial_desc=
+    # 👽 propedit_key_wombat_prevdial_desc -> URL of WombatDialer's preview dialing page.
+    propedit_key_wombat_prevdial_desc=?URL der Vorschau-Wählseite von WombatDialer.
     propedit_key_wombat_url_desc=Die Haupt-URL von WombatDialer
     propedit_key_wombat_username_desc=WombatDialer-Benutzername
     propedit_option_barge=Lastkahn
@@ -2768,14 +2768,14 @@ Description of configuration properties
     propedit_option_false=Falsch
     propedit_option_freeswitch=FreeSwitch
     propedit_option_freeswitch_live=FreeSwitch-Live
-    # 🔴 propedit_option_hash -> hash
-    ➡️ propedit_option_hash=
-    # 🔴 propedit_option_hide -> hide
-    ➡️ propedit_option_hide=
-    # 🔴 propedit_option_hide3 -> hide3
-    ➡️ propedit_option_hide3=
-    # 🔴 propedit_option_hide5 -> hide5
-    ➡️ propedit_option_hide5=
+    # 👽 propedit_option_hash -> hash
+    propedit_option_hash=?Hash
+    # 👽 propedit_option_hide -> hide
+    propedit_option_hide=?ausblenden
+    # 👽 propedit_option_hide3 -> hide3
+    propedit_option_hide3=?ausblenden3
+    # 👽 propedit_option_hide5 -> hide5
+    propedit_option_hide5=?ausblenden5
     propedit_option_jsonapi=JSON API
     propedit_option_mirtapbx=MirtaPBX
     propedit_option_no=Nein
@@ -2788,8 +2788,8 @@ Description of configuration properties
     propedit_option_realtime_dynamicLoginQueues_registered_desc=Nur zugewiesene Warteschlangen mit Cherry Pick
     propedit_option_realtime_dynamicLoginQueues_registered_label=Registriert
     propedit_option_spy=Spionage
-    # 🔴 propedit_option_stars -> stars
-    ➡️ propedit_option_stars=
+    # 👽 propedit_option_stars -> stars
+    propedit_option_stars=?Sterne
     propedit_option_sync_mode_c=Nur erstellen
     propedit_option_sync_mode_c_d=Erstellen, Löschen
     propedit_option_sync_mode_c_d_usr=Benutzer erstellen, löschen, anlegen
@@ -3087,8 +3087,8 @@ Description of security keys:
 
     home_add_infobox=InfoBox hinzufügen
     home_configuration_agents=Agenten
-    # 🔴 home_configuration_cases -> Cases
-    ➡️ home_configuration_cases=
+    # 👽 home_configuration_cases -> Cases
+    home_configuration_cases=?Fälle
     home_configuration_cbt=CBTs
     home_configuration_clients= Kunden
     home_configuration_custom_blocks=Benutzerdefinierte Datenblöcke
@@ -3170,14 +3170,14 @@ These apply to both "Edit configuration properties" and "Explore parameters":
     cfgprops_title=QueueMetrics-Systemparameter bearbeiten
     cfgprops_title_wizard=Erkunden Sie die QueueMetrics-Systemparameter
     cfgprops_notice=Nach dem Speichern müssen Sie sich ab- und wieder anmelden, damit die Parameter geladen werden.
-    # 🔴 cfgprops_n_items -> N. Properties found
-    ➡️ cfgprops_n_items=
+    # 👽 cfgprops_n_items -> N. Properties found
+    cfgprops_n_items=?N. Eigenschaften gefunden
     cfgprops_input=Geben Sie eine oder mehrere einzustellende Eigenschaften ein, eine pro Zeile 
     cfgprops_comment=Grund der Änderung
     cfgprops_sort_by=sortiert nach
     cfgprops_sort_bydate=letztes Update
-    # 🔴 cfgprops_sort_byname -> Name
-    ➡️ cfgprops_sort_byname=
+    # 👽 cfgprops_sort_byname -> Name
+    cfgprops_sort_byname=?Name
     cfgprops_col_name=Eigenschaftsname
     cfgprops_col_value=aktueller wert
     cfgprops_col_comment=Grund
@@ -3214,18 +3214,18 @@ Other items
     amo_list_state_paused= pausiert
     amo_number_state_blklist= 
     amo_number_state_dialed=gewählt
-    # 🔴 amo_number_state_ko -> KO
-    ➡️ amo_number_state_ko=
-    # 🔴 amo_number_state_ok -> OK
-    ➡️ amo_number_state_ok=
+    # 👽 amo_number_state_ko -> KO
+    amo_number_state_ko=?KO
+    # 👽 amo_number_state_ok -> OK
+    amo_number_state_ok=?OK
     amo_number_state_placed= 
     amo_number_state_reserved= reserviert
-    # 🔴 amo_number_state_todo -> To do
-    ➡️ amo_number_state_todo=
-    # 🔴 amo_numbers_asteriskid -> Asterisk ID
-    ➡️ amo_numbers_asteriskid=
-    # 🔴 amo_numbers_callstatus -> Status Code
-    ➡️ amo_numbers_callstatus=
+    # 👽 amo_number_state_todo -> To do
+    amo_number_state_todo=?Offen
+    # 👽 amo_numbers_asteriskid -> Asterisk ID
+    amo_numbers_asteriskid=?Asterisk-ID
+    # 👽 amo_numbers_callstatus -> Status Code
+    amo_numbers_callstatus=?Statuscode
     amo_numbers_date= Datum
     amo_numbers_reason= Grund
     amo_numbers_user= Benutzer
@@ -3241,13 +3241,13 @@ Other items
     bdcmsg_Text=Nachricht
     bdcmsg_Time=Zeit
     callselectordecor_select=Wählen Sie diesen Anruf
-    # 🔴 ccase_case_name -> Case
-    ➡️ ccase_case_name=
-    # 🔴 ccase_case_xref -> Ref. #
-    ➡️ ccase_case_xref=
+    # 👽 ccase_case_name -> Case
+    ccase_case_name=?Fall
+    # 👽 ccase_case_xref -> Ref. #
+    ccase_case_xref=?Ref. Nr.
     ccase_client_name= Kunde
-    # 🔴 ccase_client_xref -> Ref. #
-    ➡️ ccase_client_xref=
+    # 👽 ccase_client_xref -> Ref. #
+    ccase_client_xref=?Ref. Nr.
     cdp_clonedispositions=Regeln für die Entsorgung von Klonen
     comboex_findlabel=Finde
     common_jdecode_error=Fehler beim Dekodieren des JSON-Wertes. Prüfen Sie die Konsole des Browsers für weitere Informationen.
@@ -3318,8 +3318,8 @@ Other items
     gui_form_back= zurück
     gui_form_cancel= abbrechen
     gui_form_next= nächste
-    # 🔴 gui_form_ok -> OK
-    ➡️ gui_form_ok=
+    # 👽 gui_form_ok -> OK
+    gui_form_ok=?OK
     jump_to_main_content=Zum Hauptinhalt springen
     keyinstall_err_nokey=Der Benutzer muss die Taste KEYUPDATE gedrückt halten. Sie können nicht fortfahren.
     keyinstall_err_noscript=Fehlendes Neustart-Skript.
@@ -3394,8 +3394,8 @@ Other items
     memo_details_form= Formular
     memo_details_from= von
     memo_details_goback= zurück
-    # 🔴 memo_details_info -> Memo Info
-    ➡️ memo_details_info=
+    # 👽 memo_details_info -> Memo Info
+    memo_details_info=?Memo-Info
     memo_details_queue= Warteschlange
     memo_details_save= sichern
     memo_details_title= Titel
@@ -3416,29 +3416,29 @@ Other items
     memo_filter_tbd= Memos zu erledigen
     memo_from= von
     memo_group= Gruppe
-    # 🔴 memo_id -> Id
-    ➡️ memo_id=
+    # 👽 memo_id -> Id
+    memo_id=?ID
     memo_items_found= gefundene Items
     memo_list=Memo Liste
     memo_list_norecords= Keine Aufzeichnungen
     memo_loadbyid_error= Es gab einen Fehler beim Laden der Memos nach ID
     memo_loadbyid_missing= Es scheint keine Memos mit ID zu geben.
-    # 🔴 memo_manager -> Manager
-    ➡️ memo_manager=
+    # 👽 memo_manager -> Manager
+    memo_manager=?Manager
     memo_message= Nachricht
     memo_related_to= Bezogen auf
-    # 🔴 memo_status -> Status
-    ➡️ memo_status=
+    # 👽 memo_status -> Status
+    memo_status=?Status
     memo_tree_empty= leer
-    # 🔴 memo_tree_title -> Linked memos
-    ➡️ memo_tree_title=
+    # 👽 memo_tree_title -> Linked memos
+    memo_tree_title=?Verknüpfte Memos
     memo_type= Typ
     menu_licence_page=Lizenz Seite
     menu_user_page=Benutzer-Infos
-    # 🔴 modal_cancel -> Cancel
-    ➡️ modal_cancel=
-    # 🔴 modal_ok -> Ok
-    ➡️ modal_ok=
+    # 👽 modal_cancel -> Cancel
+    modal_cancel=?Abbrechen
+    # 👽 modal_ok -> Ok
+    modal_ok=?Ok
     notification_error=Fehler
     notification_info=Info
     notification_success=Erfolg
@@ -3642,8 +3642,8 @@ Other items
     qap_control_priority= Priorität
     qap_control_removeall= verlassen ausgewählt
     qap_control_selectall= alle ausgewählt
-    # 🔴 qap_control_timer -> Timer
-    ➡️ qap_control_timer=
+    # 👽 qap_control_timer -> Timer
+    qap_control_timer=?Timer
     qap_control_unpause= Pause beenden
     qap_create_note_error=Fehler während des Erstellen einen neuen Hinweises
     qap_crm_links= CRM Popup Links
@@ -3732,8 +3732,8 @@ Other items
     qap_nav_interactions=Interaktionen
     qap_nav_overview= Übersicht
     qap_nav_qa= QA
-    # 🔴 qap_nav_wallboard -> Wallboard
-    ➡️ qap_nav_wallboard=
+    # 👽 qap_nav_wallboard -> Wallboard
+    qap_nav_wallboard=?Wallboard
     qap_nav_wombat= WombatDialer Wahlvorschau
     qap_new_case=Neuer Case
     qap_new_client=Neuer Kunde
@@ -4051,16 +4051,16 @@ Other items
     reports_qa_performance_title=Leistung
     reports_qa_performance_total=Gesamtpunktzahl
     reports_qa_queue=Warteschlange
-    # 🔴 reports_qa_range -> Range
-    ➡️ reports_qa_range=
+    # 👽 reports_qa_range -> Range
+    reports_qa_range=?Bereich
     reports_qa_recap_heading=Details aufrufen
     reports_qa_select_form=Formular auswählen
     reports_qa_start=Startzeit
     reports_qa_status=Status
     reports_qa_uid=Eindeutige Kennung
     reports_qa_value=Wert
-    # 🔴 reports_qa_print -> Print
-    ➡️ reports_qa_print=
+    # 👽 reports_qa_print -> Print
+    reports_qa_print=?Drucken
     reports_query_loading=Laden
     reports_ratio=Ratio
     reports_recap_no_filters=Klicken Sie, um zusätzliche Filter hinzuzufügen
@@ -4080,8 +4080,8 @@ Other items
     reports_settings=Einstellungen
     reports_settings_areacode=Vorwahl
     reports_settings_datablock=DataBlock
-    # 🔴 reports_settings_default -> Reset to System Default
-    ➡️ reports_settings_default=
+    # 👽 reports_settings_default -> Reset to System Default
+    reports_settings_default=?Auf Systemstandard zurücksetzen
     reports_settings_hourlyslot=Stündlicher Slot
     reports_settings_report=Bericht
     reports_settings_shortcallattemptwaitlimit=Wartelimit für kurze Anrufversuche
@@ -4404,18 +4404,18 @@ Other items
     sync2_apply=Anwenden
     sync2_choose_pbx=PBX
     sync2_choose_source=Quelle auswählen
-    # 🔴 sync2_chunker_uploading -> Data Upload
-    ➡️ sync2_chunker_uploading=
-    # 🔴 sync2_chunker_progress -> Uploaded chunks
-    ➡️ sync2_chunker_progress=
-    # 🔴 sync2_chunker_actions -> Actions left
-    ➡️ sync2_chunker_actions=
-    # 🔴 sync2_chunker_chunks -> Uploading configuration
-    ➡️ sync2_chunker_chunks=
-    # 🔴 sync2_chunker_sending -> Applying actions
-    ➡️ sync2_chunker_sending=
-    # 🔴 sync2_chunker_waiting -> Waiting...
-    ➡️ sync2_chunker_waiting=
+    # 👽 sync2_chunker_uploading -> Data Upload
+    sync2_chunker_uploading=?Daten-Upload
+    # 👽 sync2_chunker_progress -> Uploaded chunks
+    sync2_chunker_progress=?Hochgeladene Blöcke
+    # 👽 sync2_chunker_actions -> Actions left
+    sync2_chunker_actions=?Verbleibende Aktionen
+    # 👽 sync2_chunker_chunks -> Uploading configuration
+    sync2_chunker_chunks=?Konfiguration wird hochgeladen
+    # 👽 sync2_chunker_sending -> Applying actions
+    sync2_chunker_sending=?Aktionen werden angewendet
+    # 👽 sync2_chunker_waiting -> Waiting...
+    sync2_chunker_waiting=?Wartet...
     sync2_cluster=Cluster-Einstellungen
     sync2_cluster_info=Cluster-Informationen
     sync2_collapse=Kollabieren

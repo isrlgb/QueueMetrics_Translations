@@ -3,14 +3,14 @@
 |  | Language | Alternatives | Missing | Human checked | AI based | Completion |   |
 |--|----------|--------------|---------|---------------|----------|------------|---|
 | 1 | *English (en_US)* |  | 0 | 100.0% | 0.0% | 100.0% | 😎 |
-| 2 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
-| 3 | *Brazil Portuguese (pt_BR)* | pt_PT | 0 | 97.6% | 2.4% | 100.0% | 🟢 |
-| 4 | *Portuguese (pt_PT)* | pt_BR | 0 | 72.6% | 27.4% | 100.0% | 🟢 |
-| 5 | *French (fr_FR)* |  | 1 | 100.0% | 0.0% | 100.0% | 🟢 |
-| 6 | *Spanish (es_ES)* | es_LA | 2 | 19.9% | 80.0% | 100.0% | 🟢 |
-| 7 | *Latam Spanish (es_LA)* | es_ES | 2 | 99.7% | 0.2% | 100.0% | 🟢 |
-| 8 | *Greek (el_GR)* |  | 10 | 99.7% | 0.0% | 99.8% | 🟢 |
-| 9 | *German (de_DE)* |  | 45 | 98.9% | 0.0% | 99.0% | 🟢 |
+| 2 | *German (de_DE)* |  | 0 | 98.9% | 1.1% | 100.0% | 🟢 |
+| 3 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
+| 4 | *Brazil Portuguese (pt_BR)* | pt_PT | 0 | 97.6% | 2.4% | 100.0% | 🟢 |
+| 5 | *Portuguese (pt_PT)* | pt_BR | 0 | 72.6% | 27.4% | 100.0% | 🟢 |
+| 6 | *French (fr_FR)* |  | 1 | 100.0% | 0.0% | 100.0% | 🟢 |
+| 7 | *Spanish (es_ES)* | es_LA | 2 | 19.9% | 80.0% | 100.0% | 🟢 |
+| 8 | *Latam Spanish (es_LA)* | es_ES | 2 | 99.7% | 0.2% | 100.0% | 🟢 |
+| 9 | *Greek (el_GR)* |  | 10 | 99.7% | 0.0% | 99.8% | 🟢 |
 | 10 | *Russian (ru_RU)* |  | 606 | 86.0% | 0.0% | 86.0% | 🔵 |
 | 11 | *Arabic (ar_SA)* |  | 837 | 80.7% | 0.0% | 80.7% | 🟡 |
 | 12 | *Turkish (tr_TR)* |  | 838 | 80.6% | 0.0% | 80.7% | 🟡 |
@@ -38,5 +38,5 @@
 - 🔴 Incomplete
 
 
-Generated at Sun, May 04 2025 @ 17:17.
+Generated at Sun, May 04 2025 @ 17:26.
 
