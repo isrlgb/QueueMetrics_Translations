@@ -4493,3 +4493,5 @@ Other items
     xtsrc_xmlrpc=Sorgente dati esterna che produce XML-RPC
 
 
+rt3_exit_confirm=?You have unsaved changes that will be lost if you exit the page. Confirm?
+
