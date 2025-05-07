@@ -1965,283 +1965,296 @@ Used for data blocks Overview by Agent/Queue
 # 🔴 edit_record_qaformitem_section -> Section:
 ➡️ edit_record_qaformitem_section=מקטע:
     # 🔴 edit_record_qaformitem_title -> QA: Items for Form
-    ➡️ edit_record_qaformitem_title=
-    # 🔴 edit_record_qaitems_code -> Engagement code:
-    ➡️ edit_record_qaitems_code=
-    # 🔴 edit_record_qaitems_form -> Form
-    ➡️ edit_record_qaitems_form=
-    # 🔴 edit_record_qaitems_mandatory -> Item is mandatory:
-    ➡️ edit_record_qaitems_mandatory=
-    # 🔴 edit_record_qaitems_multivalue -> Multi value options:
-    ➡️ edit_record_qaitems_multivalue=
-    # 🔴 edit_record_qaitems_notuse -> This Engagement Code is not in use in any form.
-    ➡️ edit_record_qaitems_notuse=
-    # 🔴 edit_record_qaitems_section -> Item is a section shortcut:
-    ➡️ edit_record_qaitems_section=
-    # 🔴 edit_record_qaitems_shortcut -> Item is a shortcut:
-    ➡️ edit_record_qaitems_shortcut=
-    # 🔴 edit_record_qaitems_title -> QA: Items Editor
-    ➡️ edit_record_qaitems_title=
-    # 🔴 edit_record_qaitems_type -> Item value type:
-    ➡️ edit_record_qaitems_type=
-    # 🔴 edit_record_qaitems_usingcode -> Forms using this Engagement Code
-    ➡️ edit_record_qaitems_usingcode=
-    # 🔴 edit_record_qaitems_weight -> Item Weight:
-    ➡️ edit_record_qaitems_weight=
-    # 🔴 edit_record_queue_agawalarms -> AGAW alarms
-    ➡️ edit_record_queue_agawalarms=
-    # 🔴 edit_record_queue_agawenabled -> AGAW enabled for this queue:
-    ➡️ edit_record_queue_agawenabled=
-    # 🔴 edit_record_queue_agawlookback -> AGAW lookback period(mins):
-    ➡️ edit_record_queue_agawlookback=
-    # 🔴 edit_record_queue_agawrun -> Will AGAW be run for this queue?
-    ➡️ edit_record_queue_agawrun=
-    # 🔴 edit_record_queue_agawsettings -> AGAW settings
-    ➡️ edit_record_queue_agawsettings=
-    # 🔴 edit_record_queue_agentsbutton -> Agents
-    ➡️ edit_record_queue_agentsbutton=
+➡️ edit_record_qaformitem_title=איכות: פריטים לטופס
+# 🔴 edit_record_qaitems_code -> Engagement code:
+➡️ edit_record_qaitems_code=קוד מעקב:
+# 🔴 edit_record_qaitems_form -> Form
+➡️ edit_record_qaitems_form=טופס
+# 🔴 edit_record_qaitems_mandatory -> Item is mandatory:
+➡️ edit_record_qaitems_mandatory=שדה חובה:
+# 🔴 edit_record_qaitems_multivalue -> Multi value options:
+➡️ edit_record_qaitems_multivalue=אפשרויות מרובות:
+# 🔴 edit_record_qaitems_notuse -> This Engagement Code is not in use in any form.
+➡️ edit_record_qaitems_notuse=קוד זה לא בשימוש באף טופס.
+# 🔴 edit_record_qaitems_section -> Item is a section shortcut:
+➡️ edit_record_qaitems_section=קיצור לקטע:
+# 🔴 edit_record_qaitems_shortcut -> Item is a shortcut:
+➡️ edit_record_qaitems_shortcut=הפריט הוא קיצור:
+# 🔴 edit_record_qaitems_title -> QA: Items Editor
+➡️ edit_record_qaitems_title=איכות: עריכת פריטים
+# 🔴 edit_record_qaitems_type -> Item value type:
+➡️ edit_record_qaitems_type=סוג ערך:
+# 🔴 edit_record_qaitems_usingcode -> Forms using this Engagement Code
+➡️ edit_record_qaitems_usingcode=טפסים המשתמשים בקוד זה
+# 🔴 edit_record_qaitems_weight -> Item Weight:
+➡️ edit_record_qaitems_weight=משקל פריט:
+# 🔴 edit_record_queue_agawalarms -> AGAW alarms
+➡️ edit_record_queue_agawalarms=אזעקות AGAW
+# 🔴 edit_record_queue_agawenabled -> AGAW enabled for this queue:
+➡️ edit_record_queue_agawenabled=AGAW מופעל עבור תור זה:
+# 🔴 edit_record_queue_agawlookback -> AGAW lookback period(mins):
+➡️ edit_record_queue_agawlookback=משך זמן בדיקה לאחור (דקות):
+# 🔴 edit_record_queue_agawrun -> Will AGAW be run for this queue?
+➡️ edit_record_queue_agawrun=האם AGAW ירוץ עבור תור זה?
+# 🔴 edit_record_queue_agawsettings -> AGAW settings
+➡️ edit_record_queue_agawsettings=הגדרות AGAW
+# 🔴 edit_record_queue_agentsbutton -> Agents
+➡️ edit_record_queue_agentsbutton=נציגים
     # 🔴 edit_record_queue_agentsoncall -> Number of agents on call:
-    ➡️ edit_record_queue_agentsoncall=
-    # 🔴 edit_record_queue_agentspaused -> Number of agents paused:
-    ➡️ edit_record_queue_agentspaused=
-    # 🔴 edit_record_queue_agentswaiting -> Number of agents waiting:
-    ➡️ edit_record_queue_agentswaiting=
-    # 🔴 edit_record_queue_alias -> Queue alias:
-    ➡️ edit_record_queue_alias=
-    # 🔴 edit_record_queue_amo -> AMO Settings
-    ➡️ edit_record_queue_amo=
-    # 🔴 edit_record_queue_amo_enabled -> Enabled
-    ➡️ edit_record_queue_amo_enabled=
-    # 🔴 edit_record_queue_amo_exponential -> Exponential
-    ➡️ edit_record_queue_amo_exponential=
-    # 🔴 edit_record_queue_amo_fixed -> Fixed
-    ➡️ edit_record_queue_amo_fixed=
-    # 🔴 edit_record_queue_amo_linear -> Linear
-    ➡️ edit_record_queue_amo_linear=
-    # 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
-    ➡️ edit_record_queue_amo_recall_attributes=
-    # 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
-    ➡️ edit_record_queue_amo_recall_max_attempts=
-    # 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
-    ➡️ edit_record_queue_amo_recall_sec=
-    # 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
-    ➡️ edit_record_queue_amo_recall_stepping=
-    # 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
-    ➡️ edit_record_queue_amo_recall_valid_outcomes=
-    # 🔴 edit_record_queue_attention -> Attention levels
-    ➡️ edit_record_queue_attention=
-    # 🔴 edit_record_queue_callsinqueue -> Number of calls in queue:
-    ➡️ edit_record_queue_callsinqueue=
-    # 🔴 edit_record_queue_chat -> Chat group:
-    ➡️ edit_record_queue_chat=
+➡️ edit_record_queue_agentsoncall=מספר נציגים בשיחה:
+# 🔴 edit_record_queue_agentspaused -> Number of agents paused:
+➡️ edit_record_queue_agentspaused=מספר נציגים בהפסקה:
+# 🔴 edit_record_queue_agentswaiting -> Number of agents waiting:
+➡️ edit_record_queue_agentswaiting=מספר נציגים ממתינים:
+# 🔴 edit_record_queue_alias -> Queue alias:
+➡️ edit_record_queue_alias=כינוי לתור:
+# 🔴 edit_record_queue_amo -> AMO Settings
+➡️ edit_record_queue_amo=הגדרות AMO
+# 🔴 edit_record_queue_amo_enabled -> Enabled
+➡️ edit_record_queue_amo_enabled=פעיל
+# 🔴 edit_record_queue_amo_exponential -> Exponential
+➡️ edit_record_queue_amo_exponential=מעריכי
+# 🔴 edit_record_queue_amo_fixed -> Fixed
+➡️ edit_record_queue_amo_fixed=קבוע
+# 🔴 edit_record_queue_amo_linear -> Linear
+➡️ edit_record_queue_amo_linear=לינארי
+# 🔴 edit_record_queue_amo_recall_attributes -> Recall attributes
+➡️ edit_record_queue_amo_recall_attributes=מאפייני חזרה
+# 🔴 edit_record_queue_amo_recall_max_attempts -> Max. attempts
+➡️ edit_record_queue_amo_recall_max_attempts=מס' ניסיונות מקסימלי
+# 🔴 edit_record_queue_amo_recall_sec -> Seconds before recall
+➡️ edit_record_queue_amo_recall_sec=שניות לפני חזרה
+# 🔴 edit_record_queue_amo_recall_stepping -> Recall stepping
+➡️ edit_record_queue_amo_recall_stepping=שלב חזרה
+# 🔴 edit_record_queue_amo_recall_valid_outcomes -> Valid outcomes
+➡️ edit_record_queue_amo_recall_valid_outcomes=תוצאות תקפות
+# 🔴 edit_record_queue_attention -> Attention levels
+➡️ edit_record_queue_attention=רמות תשומת לב
+# 🔴 edit_record_queue_callsinqueue -> Number of calls in queue:
+➡️ edit_record_queue_callsinqueue=מספר שיחות בתור:
+# 🔴 edit_record_queue_chat -> Chat group:
+➡️ edit_record_queue_chat=קבוצת צ'אט:
     # 🔴 edit_record_queue_delete_protection -> Delete Protection
-    ➡️ edit_record_queue_delete_protection=
-    # 🔴 edit_record_queue_flow -> Call flow:
-    ➡️ edit_record_queue_flow=
-    # 🔴 edit_record_queue_items -> Items defined:
-    ➡️ edit_record_queue_items=
-    # 🔴 edit_record_queue_mainag -> Main agents:
-    ➡️ edit_record_queue_mainag=
-    # 🔴 edit_record_queue_queues -> Queue(s):
-    ➡️ edit_record_queue_queues=
-    # 🔴 edit_record_queue_recall -> Recall Campaigns:
-    ➡️ edit_record_queue_recall=
-    # 🔴 edit_record_queue_recalldays -> Recall Max Days:
-    ➡️ edit_record_queue_recalldays=
-    # 🔴 edit_record_queue_red -> Red alarm
-    ➡️ edit_record_queue_red=
-    # 🔴 edit_record_queue_separate -> Separate with '|'
-    ➡️ edit_record_queue_separate=
-    # 🔴 edit_record_queue_shown -> Shown on front page:
-    ➡️ edit_record_queue_shown=
-    # 🔴 edit_record_queue_sla -> Service Level Agreement:
-    ➡️ edit_record_queue_sla=
-    # 🔴 edit_record_queue_spillag -> Spill agents:
-    ➡️ edit_record_queue_spillag=
-    # 🔴 edit_record_queue_syncsettings -> Synchronizer Settings
-    ➡️ edit_record_queue_syncsettings=
-    # 🔴 edit_record_queue_talkingduration -> Call talking duration:
-    ➡️ edit_record_queue_talkingduration=
-    # 🔴 edit_record_queue_title -> Queue Detail
-    ➡️ edit_record_queue_title=
-    # 🔴 edit_record_queue_update_protection -> Update Protection
-    ➡️ edit_record_queue_update_protection=
-    # 🔴 edit_record_queue_url -> Default queue URL:
-    ➡️ edit_record_queue_url=
+➡️ edit_record_queue_delete_protection=הגנת מחיקה
+# 🔴 edit_record_queue_flow -> Call flow:
+➡️ edit_record_queue_flow=תרשים זרימת שיחה:
+# 🔴 edit_record_queue_items -> Items defined:
+➡️ edit_record_queue_items=פריטים שהוגדרו:
+# 🔴 edit_record_queue_mainag -> Main agents:
+➡️ edit_record_queue_mainag=נציגים ראשיים:
+# 🔴 edit_record_queue_queues -> Queue(s):
+➡️ edit_record_queue_queues=תור/תורים:
+# 🔴 edit_record_queue_recall -> Recall Campaigns:
+➡️ edit_record_queue_recall=קמפיינים לחזרה:
+# 🔴 edit_record_queue_recalldays -> Recall Max Days:
+➡️ edit_record_queue_recalldays=מס' ימי חזרה מקסימלי:
+# 🔴 edit_record_queue_red -> Red alarm
+➡️ edit_record_queue_red=אזעקה אדומה
+# 🔴 edit_record_queue_separate -> Separate with '|'
+➡️ edit_record_queue_separate=הפרד באמצעות '|'
+# 🔴 edit_record_queue_shown -> Shown on front page:
+➡️ edit_record_queue_shown=מוצג בדף הראשי:
+# 🔴 edit_record_queue_sla -> Service Level Agreement:
+➡️ edit_record_queue_sla=רמת שירות (SLA):
+# 🔴 edit_record_queue_spillag -> Spill agents:
+➡️ edit_record_queue_spillag=נציגי גיבוי:
+# 🔴 edit_record_queue_syncsettings -> Synchronizer Settings
+➡️ edit_record_queue_syncsettings=הגדרות סנכרון
+# 🔴 edit_record_queue_talkingduration -> Call talking duration:
+➡️ edit_record_queue_talkingduration=משך שיחה:
+# 🔴 edit_record_queue_title -> Queue Detail
+➡️ edit_record_queue_title=פרטי תור
+# 🔴 edit_record_queue_update_protection -> Update Protection
+➡️ edit_record_queue_update_protection=הגנת עדכון
+# 🔴 edit_record_queue_url -> Default queue URL:
+➡️ edit_record_queue_url=כתובת ברירת מחדל לתור:
     # 🔴 edit_record_queue_visibility -> Visibility key:
-    ➡️ edit_record_queue_visibility=
-    # 🔴 edit_record_queue_waitduration -> Call wait duration:
-    ➡️ edit_record_queue_waitduration=
-    # 🔴 edit_record_queue_wdsettings -> WombatDialer settings
-    ➡️ edit_record_queue_wdsettings=
-    # 🔴 edit_record_queue_wrapag -> Wrap agents:
-    ➡️ edit_record_queue_wrapag=
-    # 🔴 edit_record_queue_yellow -> yellow alarm
-    ➡️ edit_record_queue_yellow=
-    # 🔴 edit_record_report1_nofscreens -> N. related screens:
-    ➡️ edit_record_report1_nofscreens=
-    # 🔴 edit_record_report1_subtitle -> Subtitle:
-    ➡️ edit_record_report1_subtitle=
-    # 🔴 edit_record_report1_title -> Report details
-    ➡️ edit_record_report1_title=
-    # 🔴 edit_record_report1_titlefield -> Title:
-    ➡️ edit_record_report1_titlefield=
-    # 🔴 edit_record_report1_type -> Type:
-    ➡️ edit_record_report1_type=
-    # 🔴 edit_record_report1_visibility -> Visibility key:
-    ➡️ edit_record_report1_visibility=
-    # 🔴 edit_record_report2_nofitems -> N. of Items:
-    ➡️ edit_record_report2_nofitems=
-    # 🔴 edit_record_report2_short -> Short name:
-    ➡️ edit_record_report2_short=
-    # 🔴 edit_record_report2_sort -> Sort order:
-    ➡️ edit_record_report2_sort=
-    # 🔴 edit_record_report2_titlefield -> Title:
-    ➡️ edit_record_report2_titlefield=
-    # 🔴 edit_record_report2_visibility -> Visibility key:
-    ➡️ edit_record_report2_visibility=
-    # 🔴 edit_record_report2_visible -> Visible in "All reports"?
-    ➡️ edit_record_report2_visible=
-    # 🔴 edit_record_report3_data -> Data Blocks:
-    ➡️ edit_record_report3_data=
-    # 🔴 edit_record_report3_hint_complete_list -> A complete list of available reports, their meaning and the way they are computed is available on the User Manual.
-    ➡️ edit_record_report3_hint_complete_list=
-    # 🔴 edit_record_report3_parameters -> Parameters:
-    ➡️ edit_record_report3_parameters=
-    # 🔴 edit_record_report3_sort -> Sort order:
-    ➡️ edit_record_report3_sort=
-    # 🔴 edit_record_report3_subtitle -> Subtitle:
-    ➡️ edit_record_report3_subtitle=
-    # 🔴 edit_record_report3_titlefield -> Title:
-    ➡️ edit_record_report3_titlefield=
-    # 🔴 edit_record_report3_visibility -> Visibility key:
-    ➡️ edit_record_report3_visibility=
-    # 🔴 edit_record_report3_visible -> Visible in "All reports"?
-    ➡️ edit_record_report3_visible=
-    # 🔴 edit_record_run -> Run
-    ➡️ edit_record_run=
-    # 🔴 edit_record_save -> Save
-    ➡️ edit_record_save=
-    # 🔴 edit_record_securitykey -> Security Key
-    ➡️ edit_record_securitykey=
-    # 🔴 edit_record_show -> Show?
-    ➡️ edit_record_show=
-    # 🔴 edit_record_skills_code -> Skill code:
-    ➡️ edit_record_skills_code=
-    # 🔴 edit_record_skills_sort_weight -> Sort Weight
-    ➡️ edit_record_skills_sort_weight=
-    # 🔴 edit_record_skills_title -> Edit Agents Skill Details
-    ➡️ edit_record_skills_title=
-    # 🔴 edit_record_skills_visibility -> Visibility key:
-    ➡️ edit_record_skills_visibility=
-    # 🔴 edit_record_tags_code -> Call Tag code:
-    ➡️ edit_record_tags_code=
-    # 🔴 edit_record_tags_title -> Edit Call Tags
-    ➡️ edit_record_tags_title=
-    # 🔴 edit_record_tags_visibility -> Queue visibility:
-    ➡️ edit_record_tags_visibility=
-    # 🔴 edit_record_test -> Test it
-    ➡️ edit_record_test=
-    # 🔴 edit_record_users_class -> Class:
-    ➡️ edit_record_users_class=
-    # 🔴 edit_record_users_comment -> Comment:
-    ➡️ edit_record_users_comment=
-    # 🔴 edit_record_users_email -> E-mail:
-    ➡️ edit_record_users_email=
-    # 🔴 edit_record_users_enabled -> Enabled:
-    ➡️ edit_record_users_enabled=
-    # 🔴 edit_record_users_id -> User Id:
-    ➡️ edit_record_users_id=
-    # 🔴 edit_record_users_keys -> User keys:
-    ➡️ edit_record_users_keys=
-    # 🔴 edit_record_users_lastlogon -> Last logon:
-    ➡️ edit_record_users_lastlogon=
-    # 🔴 edit_record_users_login -> Login:
-    ➡️ edit_record_users_login=
-    # 🔴 edit_record_users_master -> Masterkey:
-    ➡️ edit_record_users_master=
-    # 🔴 edit_record_users_noflogons -> Number of logons:
-    ➡️ edit_record_users_noflogons=
-    # 🔴 edit_record_users_password -> Password:
-    ➡️ edit_record_users_password=
-    # 🔴 edit_record_users_password_confirm -> Confirm Password:
-    ➡️ edit_record_users_password_confirm=
-    # 🔴 edit_record_users_realname -> Real name:
-    ➡️ edit_record_users_realname=
-    # 🔴 edit_record_users_title -> User Detail
-    ➡️ edit_record_users_title=
-    # 🔴 edit_record_users_token -> Token:
-    ➡️ edit_record_users_token=
-    # 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
-    ➡️ edit_record_xref_blank=
-    # 🔴 edit_reports_automatic -> Automatic report configuration
-    ➡️ edit_reports_automatic=
-    # 🔴 edit_reports_desc -> Desc.
-    ➡️ edit_reports_desc=
-    # 🔴 edit_reports_key -> Key
-    ➡️ edit_reports_key=
-    # 🔴 edit_reports_newreptitle -> Create a new report that contains all possible QueueMetrics reports.
-    ➡️ edit_reports_newreptitle=
-    # 🔴 edit_reports_report -> Report
-    ➡️ edit_reports_report=
-    # 🔴 edit_reports_screens -> Screens
-    ➡️ edit_reports_screens=
-    # 🔴 edit_reports_title -> Configure QueueMetrics Reports
-    ➡️ edit_reports_title=
-    # 🔴 edit_reports_titlestring -> Title:
-    ➡️ edit_reports_titlestring=
-    # 🔴 edit_screens_all_reports -> All Reports
-    ➡️ edit_screens_all_reports=
-    # 🔴 edit_screens_in_all -> In All
-    ➡️ edit_screens_in_all=
-    # 🔴 edit_screens_items -> Items
-    ➡️ edit_screens_items=
-    # 🔴 edit_screens_key -> Key
-    ➡️ edit_screens_key=
-    # 🔴 edit_screens_order -> Order
-    ➡️ edit_screens_order=
-    # 🔴 edit_screens_short -> Short
-    ➡️ edit_screens_short=
-    # 🔴 edit_screens_title_field -> Title
-    ➡️ edit_screens_title_field=
-    # 🔴 edit_skill_code -> Skill Code
-    ➡️ edit_skill_code=
-    # 🔴 edit_skill_description -> Description
-    ➡️ edit_skill_description=
-    # 🔴 edit_skill_sort_weight -> Sort Weight
-    ➡️ edit_skill_sort_weight=
-    # 🔴 edit_skill_title -> Agent Skills
-    ➡️ edit_skill_title=
-    # 🔴 edit_skill_visibility_key -> Visibility Key
-    ➡️ edit_skill_visibility_key=
-    # 🔴 edit_ssar_queues_assigned -> Assigned
-    ➡️ edit_ssar_queues_assigned=
-    # 🔴 edit_ssar_queues_code -> Agent code
-    ➡️ edit_ssar_queues_code=
-    # 🔴 edit_ssar_queues_title -> Self-service agent reports for queue:
-    ➡️ edit_ssar_queues_title=
-    # 🔴 edit_ssar_reports_assigned -> Assigned
-    ➡️ edit_ssar_reports_assigned=
-    # 🔴 edit_ssar_reports_code -> Agent code
-    ➡️ edit_ssar_reports_code=
-    # 🔴 edit_ssar_reports_title -> Self-service agents reporting for report:
-    ➡️ edit_ssar_reports_title=
-    # 🔴 edit_users_class -> Class
-    ➡️ edit_users_class=
-    # 🔴 edit_users_email -> Email
-    ➡️ edit_users_email=
-    # 🔴 edit_users_enabled -> Enabled
-    ➡️ edit_users_enabled=
-    # 🔴 edit_users_login -> Login
-    ➡️ edit_users_login=
-    # 🔴 edit_users_master_key -> MasterKey
-    ➡️ edit_users_master_key=
-    # 🔴 edit_users_real_name -> Real Name
-    ➡️ edit_users_real_name=
-    # 🔴 edit_users_title -> System Users
-    ➡️ edit_users_title=
-    # 🔴 edit_users_user_keys -> User Keys
-    ➡️ edit_users_user_keys=
+➡️ edit_record_queue_visibility=מפתח נראות:
+# 🔴 edit_record_queue_waitduration -> Call wait duration:
+➡️ edit_record_queue_waitduration=משך המתנה לשיחה:
+# 🔴 edit_record_queue_wdsettings -> WombatDialer settings
+➡️ edit_record_queue_wdsettings=הגדרות WombatDialer
+# 🔴 edit_record_queue_wrapag -> Wrap agents:
+➡️ edit_record_queue_wrapag=נציגים בהשהייה:
+# 🔴 edit_record_queue_yellow -> yellow alarm
+➡️ edit_record_queue_yellow=אזעקה צהובה
+
+# 🔴 edit_record_report1_nofscreens -> N. related screens:
+➡️ edit_record_report1_nofscreens=מס' מסכים קשורים:
+# 🔴 edit_record_report1_subtitle -> Subtitle:
+➡️ edit_record_report1_subtitle=כותרת משנה:
+# 🔴 edit_record_report1_title -> Report details
+➡️ edit_record_report1_title=פרטי דוח
+# 🔴 edit_record_report1_titlefield -> Title:
+➡️ edit_record_report1_titlefield=כותרת:
+# 🔴 edit_record_report1_type -> Type:
+➡️ edit_record_report1_type=סוג:
+# 🔴 edit_record_report1_visibility -> Visibility key:
+➡️ edit_record_report1_visibility=מפתח נראות:
+
+# 🔴 edit_record_report2_nofitems -> N. of Items:
+➡️ edit_record_report2_nofitems=מס' פריטים:
+# 🔴 edit_record_report2_short -> Short name:
+➡️ edit_record_report2_short=שם מקוצר:
+# 🔴 edit_record_report2_sort -> Sort order:
+➡️ edit_record_report2_sort=סדר מיון:
+# 🔴 edit_record_report2_titlefield -> Title:
+➡️ edit_record_report2_titlefield=כותרת:
+# 🔴 edit_record_report2_visibility -> Visibility key:
+➡️ edit_record_report2_visibility=מפתח נראות:
+# 🔴 edit_record_report2_visible -> Visible in "All reports"?
+➡️ edit_record_report2_visible=נראה ב-"כל הדוחות"?
+
+# 🔴 edit_record_report3_data -> Data Blocks:
+➡️ edit_record_report3_data=בלוקי נתונים:
+# 🔴 edit_record_report3_hint_complete_list -> A complete list of available reports, their meaning and the way they are computed is available on the User Manual.
+➡️ edit_record_report3_hint_complete_list=רשימת כל הדוחות, משמעותם ואופן חישובם זמינים במדריך למשתמש.
+# 🔴 edit_record_report3_parameters -> Parameters:
+➡️ edit_record_report3_parameters=פרמטרים:
+# 🔴 edit_record_report3_sort -> Sort order:
+➡️ edit_record_report3_sort=סדר מיון:
+# 🔴 edit_record_report3_subtitle -> Subtitle:
+➡️ edit_record_report3_subtitle=כותרת משנה:
+# 🔴 edit_record_report3_titlefield -> Title:
+➡️ edit_record_report3_titlefield=כותרת:
+# 🔴 edit_record_report3_visibility -> Visibility key:
+➡️ edit_record_report3_visibility=מפתח נראות:
+# 🔴 edit_record_report3_visible -> Visible in "All reports"?
+➡️ edit_record_report3_visible=נראה ב-"כל הדוחות"?
+
+# 🔴 edit_record_run -> Run
+➡️ edit_record_run=הפעל
+# 🔴 edit_record_save -> Save
+➡️ edit_record_save=שמור
+# 🔴 edit_record_securitykey -> Security Key
+➡️ edit_record_securitykey=מפתח אבטחה
+# 🔴 edit_record_show -> Show?
+➡️ edit_record_show=להציג?
+# 🔴 edit_record_skills_code -> Skill code:
+➡️ edit_record_skills_code=קוד מיומנות:
+# 🔴 edit_record_skills_sort_weight -> Sort Weight
+➡️ edit_record_skills_sort_weight=משקל מיון
+# 🔴 edit_record_skills_title -> Edit Agents Skill Details
+➡️ edit_record_skills_title=עריכת מיומנויות נציגים
+# 🔴 edit_record_skills_visibility -> Visibility key:
+➡️ edit_record_skills_visibility=מפתח נראות:
+
+# 🔴 edit_record_tags_code -> Call Tag code:
+➡️ edit_record_tags_code=קוד תג שיחה:
+# 🔴 edit_record_tags_title -> Edit Call Tags
+➡️ edit_record_tags_title=עריכת תגי שיחה
+# 🔴 edit_record_tags_visibility -> Queue visibility:
+➡️ edit_record_tags_visibility=נראות תור:
+
+# 🔴 edit_record_test -> Test it
+➡️ edit_record_test=בדוק
+# 🔴 edit_record_users_class -> Class:
+➡️ edit_record_users_class=סיווג:
+# 🔴 edit_record_users_comment -> Comment:
+➡️ edit_record_users_comment=הערה:
+# 🔴 edit_record_users_email -> E-mail:
+➡️ edit_record_users_email=דוא"ל:
+# 🔴 edit_record_users_enabled -> Enabled:
+➡️ edit_record_users_enabled=מופעל:
+# 🔴 edit_record_users_id -> User Id:
+➡️ edit_record_users_id=מזהה משתמש:
+# 🔴 edit_record_users_keys -> User keys:
+➡️ edit_record_users_keys=מפתחות משתמש:
+# 🔴 edit_record_users_lastlogon -> Last logon:
+➡️ edit_record_users_lastlogon=התחברות אחרונה:
+# 🔴 edit_record_users_login -> Login:
+➡️ edit_record_users_login=התחברות:
+# 🔴 edit_record_users_master -> Masterkey:
+➡️ edit_record_users_master=מפתח ראשי:
+# 🔴 edit_record_users_noflogons -> Number of logons:
+➡️ edit_record_users_noflogons=מס' התחברויות:
+# 🔴 edit_record_users_password -> Password:
+➡️ edit_record_users_password=סיסמה:
+# 🔴 edit_record_users_password_confirm -> Confirm Password:
+➡️ edit_record_users_password_confirm=אישור סיסמה:
+# 🔴 edit_record_users_realname -> Real name:
+➡️ edit_record_users_realname=שם מלא:
+# 🔴 edit_record_users_title -> User Detail
+➡️ edit_record_users_title=פרטי משתמש
+# 🔴 edit_record_users_token -> Token:
+➡️ edit_record_users_token=אסימון:
+# 🔴 edit_record_xref_blank -> Leave blank to create a reference automatically
+➡️ edit_record_xref_blank=השאר ריק ליצירת הפניה אוטומטית
+
+# 🔴 edit_reports_automatic -> Automatic report configuration
+➡️ edit_reports_automatic=תצורת דוח אוטומטית
+# 🔴 edit_reports_desc -> Desc.
+➡️ edit_reports_desc=תיאור
+# 🔴 edit_reports_key -> Key
+➡️ edit_reports_key=מפתח
+# 🔴 edit_reports_newreptitle -> Create a new report that contains all possible QueueMetrics reports.
+➡️ edit_reports_newreptitle=צור דוח חדש שמכיל את כל דוחות QueueMetrics האפשריים.
+# 🔴 edit_reports_report -> Report
+➡️ edit_reports_report=דוח
+# 🔴 edit_reports_screens -> Screens
+➡️ edit_reports_screens=מסכים
+# 🔴 edit_reports_title -> Configure QueueMetrics Reports
+➡️ edit_reports_title=הגדרת דוחות QueueMetrics
+# 🔴 edit_reports_titlestring -> Title:
+➡️ edit_reports_titlestring=כותרת:
+
+# 🔴 edit_screens_all_reports -> All Reports
+➡️ edit_screens_all_reports=כל הדוחות
+# 🔴 edit_screens_in_all -> In All
+➡️ edit_screens_in_all=בכולם
+# 🔴 edit_screens_items -> Items
+➡️ edit_screens_items=פריטים
+# 🔴 edit_screens_key -> Key
+➡️ edit_screens_key=מפתח
+# 🔴 edit_screens_order -> Order
+➡️ edit_screens_order=סדר
+# 🔴 edit_screens_short -> Short
+➡️ edit_screens_short=מקוצר
+# 🔴 edit_screens_title_field -> Title
+➡️ edit_screens_title_field=כותרת
+
+# 🔴 edit_skill_code -> Skill Code
+➡️ edit_skill_code=קוד מיומנות
+# 🔴 edit_skill_description -> Description
+➡️ edit_skill_description=תיאור
+# 🔴 edit_skill_sort_weight -> Sort Weight
+➡️ edit_skill_sort_weight=משקל מיון
+# 🔴 edit_skill_title -> Agent Skills
+➡️ edit_skill_title=מיומנויות נציג
+# 🔴 edit_skill_visibility_key -> Visibility Key
+➡️ edit_skill_visibility_key=מפתח נראות
+
+# 🔴 edit_ssar_queues_assigned -> Assigned
+➡️ edit_ssar_queues_assigned=שויכו
+# 🔴 edit_ssar_queues_code -> Agent code
+➡️ edit_ssar_queues_code=קוד נציג
+# 🔴 edit_ssar_queues_title -> Self-service agent reports for queue:
+➡️ edit_ssar_queues_title=דו"חות נציג בשירות עצמי עבור תור:
+
+# 🔴 edit_ssar_reports_assigned -> Assigned
+➡️ edit_ssar_reports_assigned=שויכו
+# 🔴 edit_ssar_reports_code -> Agent code
+➡️ edit_ssar_reports_code=קוד נציג
+# 🔴 edit_ssar_reports_title -> Self-service agents reporting for report:
+➡️ edit_ssar_reports_title=דו"חות נציגים בשירות עצמי לדוח:
+
+# 🔴 edit_users_class -> Class
+➡️ edit_users_class=סיווג
+# 🔴 edit_users_email -> Email
+➡️ edit_users_email=דוא"ל
+# 🔴 edit_users_enabled -> Enabled
+➡️ edit_users_enabled=מופעל
+# 🔴 edit_users_login -> Login
+➡️ edit_users_login=התחברות
+# 🔴 edit_users_master_key -> MasterKey
+➡️ edit_users_master_key=מפתח ראשי
+# 🔴 edit_users_real_name -> Real Name
+➡️ edit_users_real_name=שם מלא
+# 🔴 edit_users_title -> System Users
+➡️ edit_users_title=משתמשי מערכת
+# 🔴 edit_users_user_keys -> User Keys
+➡️ edit_users_user_keys=מפתחות משתמש
+
 
 ## Quality Assessments
 
