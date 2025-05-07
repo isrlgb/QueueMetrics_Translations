@@ -3,7 +3,7 @@
 |  | Language | Alternatives | Missing | Human checked | AI based | Completion |   |
 |--|----------|--------------|---------|---------------|----------|------------|---|
 | 1 | *English (en_US)* |  | 0 | 100.0% | 0.0% | 100.0% | 😎 |
-| 2 | *German (de_DE)* |  | 0 | 98.9% | 1.1% | 100.0% | 🟢 |
+| 2 | *German (de_DE)* |  | 0 | 99.5% | 0.5% | 100.0% | 🟢 |
 | 3 | *Italian (it_IT)* |  | 0 | 100.0% | 0.0% | 100.0% | 🟢 |
 | 4 | *Brazil Portuguese (pt_BR)* | pt_PT | 0 | 97.6% | 2.4% | 100.0% | 🟢 |
 | 5 | *Portuguese (pt_PT)* | pt_BR | 0 | 72.6% | 27.4% | 100.0% | 🟢 |
@@ -38,5 +38,5 @@
 - 🔴 Incomplete
 
 
-Generated at Sun, May 04 2025 @ 17:26.
+Generated at Wed, May 07 2025 @ 10:33.
 
